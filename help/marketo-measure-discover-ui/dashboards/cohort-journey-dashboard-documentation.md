@@ -3,7 +3,7 @@ unique-page-id: 42762648
 description: Documentation du tableau de bord des Parcours de cohortes - [!DNL Marketo Measure] - Documentation du produit
 title: Documentation du tableau de bord des Parcours de cohortes
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
+source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Chaque tableau de bord comporte deux mosaïques :
 >
 >Dans tous les tableaux de bord de Discover, un seul objet de personne, prospect ou contact, peut faire l’objet d’un rapport. Défini dans [!UICONTROL Paramètres] > [!UICONTROL Reporting] > [!UICONTROL Paramètres d’attribution] > [!UICONTROL Objet de tableau de bord par défaut].
 
-Ce tableau de bord prend en charge les filtres suivants :
+Les tableaux de bord prennent en charge les filtres suivants :
 
 * Évaluation des cohortes : sélectionnez l’étape de cohorte de départ. Les enregistrements de toutes les étapes suivantes sont issus des enregistrements de l’étape de cohorte.
 * Période des cohortes : sélectionnez la période de l’étape de cohorte sélectionnée. Avec Cohort Stage, il définit le jeu de données de départ.
@@ -53,8 +53,6 @@ La logique &quot;AND&quot; est utilisée sur tous les filtres.
 >[!NOTE]
 >
 >Les filtres de segments s’appliquent uniquement à l’étape LC et après. Si l’étape de cohorte est Inconnu ou Connu et que l’un des filtres de segments a une valeur, le tableau de bord ne renvoie aucun résultat.
-
-![](assets/cohort-journey-dashboard-documentation-3.png)
 
 Les étapes comprennent Inconnu, Connu, LC, les étapes d’entonnoir sélectionnées dans les étapes Ouvrir le prospect/contact (Paramètres > CRM > Mappage dans l’environnement intermédiaire), OC, les étapes d’entonnoir sélectionnées dans les étapes d’ouverture des opportunités (Paramètres > CRM > Mappage dans l’environnement intermédiaire) et les opérations (opportunités Won fermées).
 
