@@ -3,18 +3,32 @@ unique-page-id: 42762648
 description: Documentation du tableau de bord des Parcours de cohortes - [!DNL Marketo Measure] - Documentation du produit
 title: Documentation du tableau de bord des Parcours de cohortes
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+source-git-commit: 68d860308fa1939a1c456314ade3d34f896df831
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
 # Documentation du tableau de bord des Parcours de cohortes {#cohort-journey-dashboard-documentation}
 
-Le tableau de bord des Parcours de cohortes permet aux marketeurs de visualiser la progression à partir d’une étape de cohorte de départ pour une période sélectionnée et de mesurer le taux de conversion.
+Les tableaux de bord Impact des cohortes et Entonnoir permettent aux marketeurs d’afficher la progression à partir de l’étape de cohorte de départ pour une période sélectionnée et de mesurer le taux de conversion.
 
-Ce tableau de bord comporte deux mosaïques :
+La principale différence est la manière dont nous comptabilisons chaque entité à l’étape de cohorte.
+
+* Entonnoir de cohortes : Le résultat de chaque étape est directement dérivé de l’étape précédente.
+
+   * Seuls les enregistrements qui ont traversé chaque étape de l’entonnoir après l’heure de début définie de la cohorte sont comptabilisés.
+
+![](assets/cohort-journey-dashboard-documentation-1.png)
+
+* Impact des cohortes : Le résultat de chaque étape est dérivé de l’étape de cohorte, et non de l’étape précédente.
+
+   * Tous les enregistrements de chaque étape sont comptabilisés tant qu’ils se sont produits après l’heure de début définie de la cohorte. Ce tableau de bord aura naturellement plus d’enregistrements que le tableau de bord Entonnoir, car nous examinons l’impact des entités à l’étape de la cohorte, et pas seulement le mouvement dans l’entonnoir.
+
+![](assets/cohort-journey-dashboard-documentation-2.png)
+
+Chaque tableau de bord comporte deux mosaïques :
 
 * Recettes des cohortes : L’opportunité totale provient de toutes les opportunités de l’étape Transactions de la mosaïque Parcours de cohortes.
 * Parcours de cohortes : La progression vers chaque étape de parcours à partir de l’étape de cohorte de départ pour une période sélectionnée.
@@ -40,7 +54,7 @@ La logique &quot;AND&quot; est utilisée sur tous les filtres.
 >
 >Les filtres de segments s’appliquent uniquement à l’étape LC et après. Si l’étape de cohorte est Inconnu ou Connu et que l’un des filtres de segments a une valeur, le tableau de bord ne renvoie aucun résultat.
 
-![](assets/one-2.png)
+![](assets/cohort-journey-dashboard-documentation-3.png)
 
 Les étapes comprennent Inconnu, Connu, LC, les étapes d’entonnoir sélectionnées dans les étapes Ouvrir le prospect/contact (Paramètres > CRM > Mappage dans l’environnement intermédiaire), OC, les étapes d’entonnoir sélectionnées dans les étapes d’ouverture des opportunités (Paramètres > CRM > Mappage dans l’environnement intermédiaire) et les opérations (opportunités Won fermées).
 
