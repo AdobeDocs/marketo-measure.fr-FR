@@ -5,7 +5,7 @@ title: Segmentation personnalisée
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Avant d’utiliser cette fonction, déterminez les informations de point de cont
 
 Étape 2 - Connectez-vous et recherchez la fonction Segments .
 
-* Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} et connectez-vous
+* Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et se connecter
 * Sous , [!UICONTROL Mon compte] onglet, sélectionnez [!UICONTROL Paramètres]
 * Sélectionner [!UICONTROL Segments] des options de la barre latérale gauche, sous la [!UICONTROL Reporting] section
 

@@ -72,7 +72,7 @@ D&#39;autres exemples...
 * Double-cliquer
 * Capterra
 * Campagnes de secours
-* Publicités linkedIn
+* LinkedIn Ads
 
 **Contenu (livres blancs, URL de page, billets de blog)**
 

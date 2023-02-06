@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874586
-description: Glossaire des champs de mesure Marketo - Mesure Marketo - Documentation du produit
-title: Glossaire des champs de mesure Marketo
+description: Glossaire des champs Marketo Measure - Marketo Measure - Documentation du produit
+title: Glossaire des champs Marketo Measure
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
 workflow-type: tm+mt
@@ -10,11 +10,11 @@ ht-degree: 0%
 
 ---
 
-# Glossaire des champs de mesure Marketo {#glossary-of-marketo-measure-fields}
+# Glossaire des champs Marketo Measure {#glossary-of-marketo-measure-fields}
 
-Cet article fournit un glossaire de tous les champs de mesure Marketo ajoutés à votre Salesforce à partir du package de base de mesure Marketo. Vous trouverez également des informations sur l’objet sur lequel le champ se trouve et sur la manière dont chaque champ est renseigné.
+Cet article fournit un glossaire de tous les champs Marketo Measure ajoutés à votre Salesforce à partir du package de base Marketo Measure. Vous trouverez également des informations sur l’objet sur lequel le champ se trouve et sur la manière dont chaque champ est renseigné.
 
-Pour une carte de l’objet auquel chaque champ de mesure Marketo se rapporte, veuillez [cliquez ici](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
+Pour une carte de l’objet auquel chaque champ Marketo Measure se rapporte, veuillez [cliquez ici](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md).
 
 [A](#a) ・ [B](#b) ・ [C](#c) ・ [D](#d) ・ [E](#e) ・ [F](#f) ・ [G](#g) ・ H ・ I ・ J [k](#k) ・ [L](#l) ・ [M](#m) ・ N [O](#o) ・ [P](#p) ・ Q [R](#r) ・ [s](#s) ・ [T](#t) ・ [U](#u) ・ [V](#v) ・ W ・ X ・ Y
 
@@ -48,7 +48,7 @@ Si aucun des champs ci-dessus n’est spécifié, ce champ sera vide.
 
 `3)` Si le point de contact provient d’une campagne Salesforce, le nom de la campagne Salesforce s’affiche ici.
 
-`4)` Cela renseigne le nom de campagne défini pour les points de contact générés à partir des activités, comme créé dans votre compte de mesure Marketo.
+`4)` Cela renseigne le nom de campagne défini pour les points de contact générés à partir des activités, comme créé dans votre compte Marketo Measure.
 
 Si aucun des champs ci-dessus n’est spécifié, ce champ sera vide.
 
@@ -126,9 +126,9 @@ Ce champ affiche le pourcentage des recettes attribuées à un point de contact 
 
 ## B {#b}
 
-**Montant des opportunités de mesure Marketo** | Opportunité Salesforce
+**Montant de l’opportunité Marketo Measure** | Opportunité Salesforce
 
-Si vous utilisez un champ Montant personnalisé pour signaler les recettes d’opportunité, la mesure Marketo ne peut pas lire ces champs Montant personnalisé. Le montant de l’opportunité de la mesure Marketo est un champ masqué utilisé pour créer un workflow qui permet à la mesure Marketo de lire les champs de montant personnalisés de l’opportunité.
+Si vous utilisez un champ Montant personnalisé pour signaler les recettes d’opportunité, Marketo Measure ne peut pas lire ces champs Montant personnalisé. Le montant de l’opportunité Marketo Measure est un champ masqué qui est utilisé pour créer un workflow qui permet à Marketo Measure de lire les champs de montant personnalisés sur l’opportunité.
 
 **Navigateur** | Point de contact de l’acheteur, point de contact de l’attribution de l’acheteur
 
@@ -196,29 +196,29 @@ Ce champ affiche, sous forme décimale, le pourcentage du crédit accordé à un
 
 ## D {#d}
 
-Date de rapport | Marketo Measurement ABTest, événement de mesure Marketo
+Date de rapport | Marketo Measure ABTest, événement Marketo Measure
 
-Événement de mesure Marketo : date à laquelle un utilisateur a effectué une action spécifique sur votre site web, en activant un événement.
+Événement Marketo Measure : date à laquelle un utilisateur a effectué une action spécifique sur votre site web, en activant un événement.
 
-Marketo Measurement ABTest : date à laquelle un utilisateur a participé à un test A/B sur votre site web.
+Marketo Measure ABTest : date à laquelle un utilisateur a participé à un test A/B sur votre site web.
 
 [Cliquez ici pour revenir en haut de la page](#top)
 
 ## E {#e}
 
-**Nom de l’événement** | Événement de mesure Marketo
+**Nom de l’événement** | Événement Marketo Measure
 
 Ce champ affiche le nom de l’action qui a déclenché l’événement (c.-à-d. Page vue).
 
-**Valeur d’événement** | Événement de mesure Marketo
+**Valeur d’événement** | Événement Marketo Measure
 
 La description de l’événement (c’est-à-dire la page d’accueil)
 
-**Nom de l’expérience** | Marketo Measurement ABTest
+**Nom de l’expérience** | Marketo Measure ABTest
 
 Ce champ affiche le nom de l’expérience (c.-à-d. Bouton Évaluation).
 
-**Identifiant de l’expérience** |Test AB de mesure Marketo
+**Identifiant de l’expérience** |Test AB Marketo Measure
 
 Le code d’identification unique de chaque expérience
 
@@ -288,7 +288,7 @@ Ce champ affiche la version abrégée de l’URL (aucun paramètre UTM) de la pr
 
 Ce champ affiche l’URL complète (y compris les paramètres UTM) de la première page web visitée au cours d’une session web.
 
-**prospect** | Point de contact de l’acheteur, personne de mesure Marketo
+**prospect** | Point de contact de l’achat, personne Marketo Measure
 
 Ce champ affiche le nom de la piste à laquelle appartient un point de contact.
 
@@ -298,7 +298,7 @@ Ce champ affiche le nom de la piste à laquelle appartient un point de contact.
 
 **Canal marketing** | Point de contact de l’acheteur, point de contact de l’attribution de l’acheteur
 
-Ce champ vous présente le groupe général d’activités marketing ou de canaux marketing auquel le point de contact appartient (c’est-à-dire Recherche payante, Direct, Social, etc.). Les points de contact sont regroupés en fonction de la configuration de vos canaux dans l’application de mesure Marketo. Pour plus d’informations sur les canaux marketing ou sur la configuration de vos canaux, veuillez [cliquez ici](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
+Ce champ vous présente le groupe général d’activités marketing ou de canaux marketing auquel le point de contact appartient (c’est-à-dire Recherche payante, Direct, Social, etc.). Les points de contact sont regroupés en fonction de la configuration de vos canaux dans l’application Marketo Measure. Pour plus d’informations sur les canaux marketing ou sur la configuration de vos canaux, veuillez [cliquez ici](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
 **Canal marketing - Chemin** | Point de contact de l’acheteur, point de contact de l’attribution de l’acheteur
 
@@ -316,7 +316,7 @@ Ce champ vous présente le canal marketing et le sous-canal auquel appartient un
 
 `4)` Cette valeur est renseignée avec la valeur Type d’activité de l’activité associée qui a généré le point de contact.
 
-Si aucune des valeurs ci-dessus n’est définie, la mesure Marketo définit automatiquement une valeur moyenne.
+Si aucune des valeurs ci-dessus n’est définie, Marketo Measure définit automatiquement une valeur moyenne.
 
 [Cliquez ici pour revenir en haut de la page](#top)
 
@@ -392,7 +392,7 @@ Si le point de contact provient du référencement payant ou organique, ce champ
 
 **Segment** | Point de contact d’attribution de l’achat
 
-Ce champ affiche les segments auxquels le point de contact appartient. Cela dépendra de la manière dont vous avez configuré vos règles de segmentation dans l’application de mesure Marketo.
+Ce champ affiche les segments auxquels le point de contact appartient. Cela dépendra de la manière dont vous avez configuré vos règles de segmentation dans l’application Marketo Measure.
 
 [Cliquez ici pour revenir en haut de la page](#top)
 
@@ -462,7 +462,7 @@ U
 
 Identifiant unique associé à chaque point de contact.
 
-**Identifiant utilisateur** | Marketo Measurement ABTest
+**Identifiant utilisateur** | Marketo Measure ABTest
 
 Code d’identification unique d’Optimizely pour chaque utilisation
 
@@ -470,11 +470,11 @@ Code d’identification unique d’Optimizely pour chaque utilisation
 
 ## V {#v}
 
-**Variation** | Marketo Measurement ABTest
+**Variation** | Marketo Measure ABTest
 
 Nom de la variation du test A/B.
 
-**ID de variation** | Marketo Measurement ABTest
+**ID de variation** | Marketo Measure ABTest
 
 Code d’identification unique pour chaque variante de test A/B.
 

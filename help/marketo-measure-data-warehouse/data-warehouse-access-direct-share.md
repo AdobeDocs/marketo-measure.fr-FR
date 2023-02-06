@@ -25,7 +25,7 @@ Pour [!DNL Marketo Measure] pour configurer un partage direct vers l’entrepôt
 
 ## Saisie d’un ID de compte Snowflake {#enter-snowflake-account-id}
 
-Ouvrez le **Paramètres** dans l’application Marketo Measurement et accédez à la section **Data Warehouse** page. Dans le **Partage direct** , saisissez votre [ID de compte Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} dans la zone fournie, puis cliquez sur **Connexion**.
+Ouvrez le **Paramètres** dans l’application Marketo Measure et accédez à la **Data Warehouse** page. Dans le **Partage direct** , saisissez votre [ID de compte Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} dans la zone fournie, puis cliquez sur **Connexion**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 

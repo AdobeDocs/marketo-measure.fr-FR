@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874566
-description: Attribution marketing - Mesure Marketo - Documentation du produit
+description: Attribution marketing - Marketo Measure - Documentation du produit
 title: Attribution marketing
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
@@ -12,9 +12,9 @@ ht-degree: 7%
 
 # Attribution marketing {#marketing-attribution}
 
-## Bienvenue dans la mesure Marketo {#welcome-to-marketo-measure}
+## Bienvenue dans Marketo Measure {#welcome-to-marketo-measure}
 
-Marketo Measure permet aux professionnels du marketing de déterminer les actions marketing les plus efficaces pour générer des recettes pour leur société. Marketo Measurement est une solution d’attribution marketing qui effectue automatiquement un suivi et des rapports sur les performances des canaux, ce qui vous permet de déterminer les canaux qui génèrent le plus d’engagement client et d’optimiser vos dépenses marketing en conséquence.
+Marketo Measure permet aux professionnels du marketing de déterminer les actions marketing les plus efficaces pour générer des recettes pour leur société. Marketo Measure est une solution d’attribution marketing qui effectue automatiquement le suivi et les rapports sur les performances des canaux, ce qui vous permet d’identifier les canaux qui génèrent le plus d’engagement client et d’optimiser vos dépenses marketing en conséquence.
 
 ## Attribution marketing {#marketing-attribution-1}
 
@@ -24,7 +24,7 @@ Marketo Measure permet aux professionnels du marketing de déterminer les action
 
 ![](assets/1.png)
 
-Ces touches de jalon sont la base de Marketo Measurement. **modèles d’attribution**. Marketo Measurement offre six modèles d’attribution. Chaque modèle se concentre sur différentes étapes du parcours client et offre une structure générale pour attribuer un crédit de recettes à vos points de contact marketing. Le modèle que vous utilisez dépend des étapes du parcours qui vous intéressent le plus et de la quantité de données sur lesquelles vous souhaitez générer des rapports. Les modèles d’attribution proposés par Marketo Measurement sont les suivants :
+Ces touches de jalon sont la base du Marketo Measure **modèles d’attribution**. Marketo Measure offre six modèles d’attribution. Chaque modèle se concentre sur différentes étapes du parcours client et offre une structure générale pour attribuer un crédit de recettes à vos points de contact marketing. Le modèle que vous utilisez dépend des étapes du parcours qui vous intéressent le plus et de la quantité de données sur lesquelles vous souhaitez générer des rapports. Les modèles d’attribution proposés par Marketo Measure sont les suivants :
 
 * First Touch
 * Création de prospects

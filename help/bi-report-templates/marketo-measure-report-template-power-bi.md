@@ -4,7 +4,7 @@ title: "[!DNL Marketo Measure] Modèle de rapport - Power BI"
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2571'
 ht-degree: 1%
 
 ---
@@ -13,19 +13,19 @@ ht-degree: 1%
 
 ## Démarrer {#getting-started}
 
-Vous pouvez accéder au modèle de rapport de Power BI [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target=&quot;_blank&quot;}.
+Vous pouvez accéder au modèle de rapport de Power BI [here](https://github.com/adobe/Marketo-Measure-BI-Templates){target="_blank"}.
 
 Ouvrir l’Adobe [!DNL Marketo Measure] Fichier de Power BI de modèle de création de rapports.
 
 ![](assets/marketo-measure-report-template-power-bi-1.png)
 
-Vous trouverez vos informations spécifiques sur le serveur, l’entrepôt et le schéma dans la section [!DNL Marketo Measure] de l’interface utilisateur de [!DNL Data Warehouse] page d’informations. Les instructions pour localiser cette page sont détaillées. [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Vous trouverez vos informations spécifiques sur le serveur, l’entrepôt et le schéma dans la section [!DNL Marketo Measure] de l’interface utilisateur de [!DNL Data Warehouse] page d’informations. Les instructions pour localiser cette page sont détaillées. [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 Les paramètres QueryFilterStartDate et QueryFilterEndDate permettent de limiter la quantité de données importées. Ces paramètres doivent être au format SQL comme ils sont utilisés dans les requêtes envoyées à [!DNL Snowflake]. Par exemple, si vous souhaitez limiter les données aux deux dernières années, QueryFilterStartDate sera dateadd (year,-2,current_date()). Ces paramètres sont comparés aux types de données datetime. Il est donc recommandé d’utiliser dateadd (day,1,current_date()) pour que QueryFilterEndDate renvoie toutes les données à l’heure actuelle.
 
 ## Connexion aux données {#data-connection}
 
-Les paramètres saisis lors de l’ouverture du fichier sont utilisés pour structurer les requêtes natives qui importent des tableaux à partir de l’entrepôt de données. Vous devrez toujours configurer une connexion de données à votre [!DNL Snowflake] instance. Pour ce faire, vous aurez besoin des mêmes noms de serveur et d’entrepôt, ainsi que de vos nom d’utilisateur et mot de passe. Vous trouverez des informations détaillées sur l’emplacement de votre nom d’utilisateur et la réinitialisation de votre mot de passe, le cas échéant. [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target=&quot;_blank&quot;}.
+Les paramètres saisis lors de l’ouverture du fichier sont utilisés pour structurer les requêtes natives qui importent des tableaux à partir de l’entrepôt de données. Vous devrez toujours configurer une connexion de données à votre [!DNL Snowflake] instance. Pour ce faire, vous aurez besoin des mêmes noms de serveur et d’entrepôt, ainsi que de vos nom d’utilisateur et mot de passe. Vous trouverez des informations détaillées sur l’emplacement de votre nom d’utilisateur et la réinitialisation de votre mot de passe, le cas échéant. [here](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"}.
 
 ## Importation de données {#data-import}
 
@@ -105,7 +105,7 @@ Les noms de segment pouvant être personnalisés, ils comportent des noms de col
 
 ### Conversion d’ID sensible à la casse {#case-sensitive-id-conversion}
 
-[!DNL Marketo Measure] Les données comportent deux tableaux où les valeurs de clé Principale (ID) sont sensibles à la casse, à savoir Point de contact et Campaign. Le moteur de données qui génère la couche de modélisation de Power BI n’est pas sensible à la casse, ce qui entraîne des valeurs d’identifiant &quot;en double&quot;. Pour préserver la sensibilité à la casse de ces valeurs clés, nous avons mis en oeuvre des étapes de transformation qui associent des caractères invisibles aux caractères en minuscules, tout en préservant l’unicité de l’identifiant lors de l’évaluation dans la couche du moteur de données. Vous trouverez plus de détails sur le problème et les étapes détaillées sur la méthode que nous avons utilisée. [here] (https://blog.crossjoin.co.uk/2019){target=&quot;_blank&quot;}. Ces valeurs d’identifiant sensibles à la casse sont étiquetées comme &quot;identifiants de jointure&quot; et sont utilisées comme clés de jointure dans la couche de relation. Nous avons masqué les identifiants de jointure dans la couche de création de rapports, en conservant les valeurs d’identifiants d’origine visibles pour une utilisation dans les rapports, puisque les caractères invisibles peuvent interférer avec les fonctions de découpe/collage et le filtrage.
+[!DNL Marketo Measure] Les données comportent deux tableaux où les valeurs de clé Principale (ID) sont sensibles à la casse, à savoir Point de contact et Campaign. Le moteur de données qui génère la couche de modélisation de Power BI n’est pas sensible à la casse, ce qui entraîne des valeurs d’identifiant &quot;en double&quot;. Pour préserver la sensibilité à la casse de ces valeurs clés, nous avons mis en oeuvre des étapes de transformation qui associent des caractères invisibles aux caractères en minuscules, tout en préservant l’unicité de l’identifiant lors de l’évaluation dans la couche du moteur de données. Vous trouverez plus de détails sur le problème et les étapes détaillées sur la méthode que nous avons utilisée. [here] (https://blog.crossjoin.co.uk/2019){target="_blank"}. Ces valeurs d’identifiant sensibles à la casse sont étiquetées comme &quot;identifiants de jointure&quot; et sont utilisées comme clés de jointure dans la couche de relation. Nous avons masqué les identifiants de jointure dans la couche de création de rapports, en conservant les valeurs d’identifiants d’origine visibles pour une utilisation dans les rapports, puisque les caractères invisibles peuvent interférer avec les fonctions de découpe/collage et le filtrage.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 
@@ -125,7 +125,7 @@ Le tableau Taux de conversion stocké dans [!DNL Snowflake] contient une plage d
 
 Cliquez sur l’image ci-dessous pour sa version agrandie.
 
-[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target=&quot;_blank&quot;}
+[![](assets/marketo-measure-report-template-power-bi-12.png)](/help/bi-report-templates/assets/power-bi-data-model.png){target="_blank"}
 
 ### Relations et flux de données {#relationships-and-data-flow}
 
@@ -178,7 +178,7 @@ Des définitions ont été ajoutées au modèle de Power BI pour les tableaux, l
 
 ![](assets/marketo-measure-report-template-power-bi-16.png)
 
-Pour afficher les définitions des colonnes provenant directement de [!DNL Snowflake], reportez-vous à la section [documentation de l’entrepôt de données](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target=&quot;_blank&quot;}
+Pour afficher les définitions des colonnes provenant directement de [!DNL Snowflake], reportez-vous à la section [documentation de l’entrepôt de données](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}
 
 ## Incohérences entre les modèles et Discover {#discrepancies-between-templates-and-discover}
 

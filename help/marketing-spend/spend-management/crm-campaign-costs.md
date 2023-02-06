@@ -5,7 +5,7 @@ title: Coûts de campagne CRM
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Toute modification du coût ou de la distribution doit être effectuée dans le 
 
 **La date de début, la date de fin et le coût sont remplis, mais pourquoi mes coûts ne s’affichent-ils toujours pas dans [!DNL Marketo Measure]?**
 
-Vérifiez que la valeur Activer le point de contact de l’acheteur est définie sur &quot;Inclure tous les membres de campagne&quot; ou au moins &quot;Inclure les membres de campagne &quot;réactifs&quot;, ou que vous avez créé une règle de synchronisation de campagne personnalisée qui inclut cette campagne. Si vous l’avez confirmé et que vous ne voyez toujours pas la campagne, contactez [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} afin que nous puissions vérifier que vos campagnes sont correctement importées.
+Vérifiez que la valeur Activer le point de contact de l’acheteur est définie sur &quot;Inclure tous les membres de campagne&quot; ou au moins &quot;Inclure les membres de campagne &quot;réactifs&quot;, ou que vous avez créé une règle de synchronisation de campagne personnalisée qui inclut cette campagne. Si vous l’avez confirmé et que vous ne voyez toujours pas la campagne, contactez [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} nous pouvons donc vérifier que vos campagnes sont correctement importées.
 
 **Je dois changer la répartition de ma campagne pour pouvoir la peser plus lourd dans certains mois. Comment est-ce que je fais ça ?**
 

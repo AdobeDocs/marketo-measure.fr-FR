@@ -5,14 +5,14 @@ title: FAQ sur l’intégration de la dérive
 exl-id: ae5706b1-1f6c-4201-8585-0d7c587746e1
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
 # FAQ sur l’intégration de la dérive {#drift-integration-faq}
 
-Dans le cadre de la [!DNL Marketo Measure] intégration à Drift, nous avons présenté certaines des questions les plus fréquemment posées. Si aucune question n’est décrite ci-dessous, contactez votre responsable du succès client ou [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Dans le cadre de la [!DNL Marketo Measure] intégration à Drift, nous avons présenté certaines des questions les plus fréquemment posées. Si aucune question n’est décrite ci-dessous, contactez votre responsable du succès client ou [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 **Comment l’intégration est-elle activée ?**
 

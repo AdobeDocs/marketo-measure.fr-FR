@@ -5,7 +5,7 @@ title: Champs du Touchpoint
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1946'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Pour créer un champ calculé, n’oubliez pas que l’utilisateur peut effectue
 
 Extractions
 
-L’opérateur extrait la valeur d’un champ à partir d’un autre emplacement, par exemple : un champ Campaign, un champ Lead ou dans un cas d’utilisation plus avancé, [extraire des paramètres personnalisés de la landing page ;](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;}. Il le place ensuite sur un champ de point de contact (voir [Mappages à l’exemple](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target=&quot;_blank&quot;} #2).
+L’opérateur extrait la valeur d’un champ à partir d’un autre emplacement, par exemple : un champ Campaign, un champ Lead ou dans un cas d’utilisation plus avancé, [extraire des paramètres personnalisés de la landing page ;](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Exemple de #1**
 
@@ -220,7 +220,7 @@ Des travaux supplémentaires sont nécessaires pour exposer les nouveaux champs 
 
 **Comment puis-je vérifier que mon expression d’extraction est valide et extraire la valeur correcte ?**
 
-Il existe un outil en ligne ([https://regex101.com/](https://regex101.com/){target=&quot;_blank&quot;}) que vous pouvez exécuter et tester l’expression. L’expression apparaît en vert si elle est valide ou en rouge si elle n’est pas valide. En outre, la boîte d’explication en haut à droite vous indique ce que vous extrayez.
+Il existe un outil en ligne ([https://regex101.com/](https://regex101.com/){target="_blank"}) que vous pouvez exécuter et tester l’expression. L’expression apparaît en vert si elle est valide ou en rouge si elle n’est pas valide. En outre, la boîte d’explication en haut à droite vous indique ce que vous extrayez.
 
 ![](assets/twelve.png)
 

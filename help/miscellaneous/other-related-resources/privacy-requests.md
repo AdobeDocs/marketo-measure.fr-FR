@@ -4,7 +4,7 @@ title: Demandes d’accès à des informations personnelles
 exl-id: 883e475f-9868-412a-b505-230556f38484
 source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -15,14 +15,14 @@ Ce document présente la gestion des demandes de confidentialité des données i
 
 Vous pouvez envoyer des requêtes individuelles pour accéder aux données des consommateurs et les supprimer de [!DNL Marketo Measure] de deux manières :
 
-* Par le biais de la [[!DNL Privacy Service] Interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=&quot;_blank&quot;}.
-* Par le biais de la **[!DNL Privacy Service]API**. Consultez la documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=&quot;_blank&quot;} et référence de l’API [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target=&quot;_blank&quot;}.
+* Par le biais de la [[!DNL Privacy Service] Interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Par le biais de la **[!DNL Privacy Service]API**. Consultez la documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-Le [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=&quot;_blank&quot;} prend en charge deux types de requêtes : accès aux données et suppression des données.
+Le [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} prend en charge deux types de requêtes : accès aux données et suppression des données.
 
 Découvrez comment créer des demandes d’accès et de suppression.
 
-## Configuration requise pour envoyer des requêtes pour la mesure Marketo {#required-setup-to-send-requests-for-marketo-measure}
+## Configuration requise pour envoyer des requêtes pour Marketo Measure {#required-setup-to-send-requests-for-marketo-measure}
 
 Pour envoyer des requêtes d’accès et de suppression de données pour [!DNL Marketo Measure], vous devez :
 

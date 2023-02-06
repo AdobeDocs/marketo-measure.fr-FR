@@ -21,7 +21,7 @@ La section Paramètres des points de contact de votre [!DNL Marketo Measure] L�
 
 Dans votre [!DNL Marketo Measure] , la section Paramètres des points de contact sera divisée en quatre sections clés. Chaque section supprime ou supprime un ensemble de données différent. Utilisez la touche ci-dessous pour vous assurer que vos règles suppriment ou suppriment les points de contact souhaités.
 
-* Supprimer les User Touchpoints du CRM
+* Supprimer les Buyer Touchpoints du CRM
    * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **Données du point de contact de l’achat** (les points de contact associés à l’individu, et non l’opportunité) de votre **CRM**
 * Supprimer les Buyer Touchpoints du CRM
    * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **Données du point de contact de l’achat** (les points de contact associés à l’individu, et non l’opportunité) de votre **CRM** et **Discover**

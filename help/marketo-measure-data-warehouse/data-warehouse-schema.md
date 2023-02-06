@@ -1,6 +1,6 @@
 ---
 unique-page-id: 35586140
-description: Schéma du Data Warehouse - Mesure Marketo - Documentation du produit
+description: Schéma du Data Warehouse - Marketo Measure - Documentation du produit
 title: Schéma du Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d

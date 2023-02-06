@@ -5,7 +5,7 @@ title: Migration de l’environnement de test Salesforce vers la production
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,8 @@ Si vous choisissez de tester [!DNL Marketo Measure] dans [!DNL Salesforce] Envir
 
 * Installez les deux [!DNL Marketo Measure] modules en production avec le[!UICONTROL Tous les utilisateurs]paramètre &quot;
 
-   * [Package de base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target=&quot;_blank&quot;}
-   * [Package d’extension de tableau de bord](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target=&quot;_blank&quot;}
+   * [Package de base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+   * [Package d’extension de tableau de bord](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Pour plus d’informations sur la variable [!DNL Marketo Measure] relation avec [!DNL Salesforce], reportez-vous à la section [cet article](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Un peu de [!DNL Salesforce] est nécessaire. Les actions spécifiques sont décrites ci-dessous dans la section [Étape 4 ci-dessous](#salesforce-configuration)
@@ -51,7 +51,7 @@ Si vous choisissez de tester [!DNL Marketo Measure] dans [!DNL Salesforce] Envir
 
 [Jeux d’autorisations](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Partage de rapports](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target=&quot;_blank&quot;}
+[Partage de rapports](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
 [Masquage des types de rapports inutiles](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 

@@ -71,7 +71,7 @@ Vous pouvez sélectionner jusqu’à 10 points de contact boomerang par étape.
 
 [!DNL Marketo Measure] doit limiter le nombre d’étapes pour que les temps de traitement restent sous contrôle. Si vous choisissez d’inclure les 15 étapes Boomerang dans votre modèle d’attribution et 10 points de contact boomerang par étape, vous pouvez avoir potentiellement plus de 150 points de contact par enregistrement de piste/contact.
 
-**Q : J&#39;ai un Data Warehouse. Est-ce que je reçois toutes les données ou est-ce que la limite des phases Boomerang s&#39;applique aussi à moi ?**
+**Q : J&#39;ai un Data Warehouse. Est-ce que je reçois toutes les données ou est-ce que le plafond des phases Boomerang s&#39;applique aussi à moi ?**
 
 Le plafond s’applique aux Data Warehouse et aux CRM en raison des limites de traitement que la variable [!DNL Marketo Measure] a été mis en place. Data Warehouse affiche également la limite de 10 points de contact par étape.
 

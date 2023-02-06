@@ -5,7 +5,7 @@ title: Bonnes pratiques pour la configuration des paramètres UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Les paramètres de la gestion dynamique des balises sont un excellent moyen de découper et de découper vos données marketing. [!DNL Marketo Measure] utilise et capture tous les paramètres UTM pour renseigner les champs dans Salesforce et dans la variable [!DNL Marketo Measure] application. Grâce à ces informations, vous serez en mesure d’obtenir une compréhension granulaire de l’origine de vos prospects, opportunités et offres clôturées/gagnées.
 
-Vous pouvez utiliser la variable [Créateur d’URL Google](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;} pour configurer vos paramètres UTM et les ajouter à vos liens dans le cadre de vos efforts marketing. Utilisez cette [Feuille de calcul Google](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;} si vous souhaitez une méthode plus simple de suivi de tous vos liens UTM.
+Vous pouvez utiliser la variable [Créateur d’URL Google](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"} to set up your UTM parameters and add them to your links within your marketing efforts. Use this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si vous souhaitez un moyen plus simple de suivre tous vos liens UTM.
 
 ## Valeurs de haut niveau pour chaque paramètre {#high-level-values-for-each-parameter}
 
@@ -68,4 +68,4 @@ fakewebsite.com/
 
 Notez que les termes/canaux ne sont pas dupliqués et que utm_term n’est pas utilisé dans ce cas.
 
-Si vous avez des questions, contactez votre responsable du succès client ou [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Si vous avez des questions, contactez votre responsable du succès client ou [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

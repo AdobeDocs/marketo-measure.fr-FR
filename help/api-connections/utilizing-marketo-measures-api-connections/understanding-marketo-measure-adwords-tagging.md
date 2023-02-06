@@ -5,7 +5,7 @@ title: Compréhension [!DNL Marketo Measure] Balisage AdWords
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Cependant, la même URL fournit des données granulaires en raison de la variabl
 **If [!DNL Marketo Measure] trouve un modèle de suivi :**
 
 * [!DNL Marketo Measure] ajoute ses paramètres au modèle de suivi.
-* Si une redirection tierce se trouve dans un modèle de suivi tel que Kenshoo ou Marin, [!DNL Marketo Measure] ne prendront aucune mesure. Au lieu de cela, vous devez [add [!DNL Marketo Measure] paramètres de l’outil tiers dans votre compte](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* Si une redirection tierce se trouve dans un modèle de suivi tel que Kenshoo ou Marin, [!DNL Marketo Measure] ne prendront aucune mesure. Au lieu de cela, vous devez [add [!DNL Marketo Measure] paramètres de l’outil tiers dans votre compte](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 Cependant, si aucun modèle de suivi n’est trouvé, [!DNL Marketo Measure] Will :
 
@@ -40,7 +40,7 @@ Cependant, si aucun modèle de suivi n’est trouvé, [!DNL Marketo Measure] Wil
 
 ## Modèles de suivi {#tracking-templates}
 
-Comme expliqué par [!DNL Google AdWords], un modèle de suivi est l’URL utilisée pour atteindre une landing page. Les informations de suivi collectées sont utilisées pour comprendre le trafic de vos publicités. [Cliquez ici](https://support.google.com/adwords/answer/7197008?hl=en){target=&quot;_blank&quot;} pour plus d’informations à partir de Google.
+Comme expliqué par [!DNL Google AdWords], un modèle de suivi est l’URL utilisée pour atteindre une landing page. Les informations de suivi collectées sont utilisées pour comprendre le trafic de vos publicités. [Cliquez ici](https://support.google.com/adwords/answer/7197008?hl=en){target="_blank"} pour plus d’informations à partir de Google.
 
 [!DNL Marketo Measure] recommande d’utiliser un modèle de suivi au niveau du compte, de la campagne ou du groupe publicitaire, car il permet l’ajout et la soustraction de paramètres pour toutes les publicités sans risque d’interruption ou de suppression de l’historique des publicités.
 
@@ -108,6 +108,6 @@ A : 4 heures
 
 >[!NOTE]
 >
->Une fois les modifications effectuées, vous avez terminé. N&#39;hésitez pas à contacter [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} s’il existe des questions lors de la configuration.
+>Une fois les modifications effectuées, vous avez terminé. N&#39;hésitez pas à contacter [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} s’il y a des questions lors de la configuration.
 
-[Cliquez ici](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;} pour obtenir des instructions de Google sur la création de modèles de suivi au niveau du compte.
+[Cliquez ici](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} pour obtenir des instructions de Google sur la création de modèles de suivi au niveau du compte.

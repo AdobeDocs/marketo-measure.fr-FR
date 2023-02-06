@@ -5,14 +5,14 @@ title: Coûts du canal marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1297'
 ht-degree: 1%
 
 ---
 
 # Coûts du canal marketing {#marketing-channel-costs}
 
-L’un des avantages les plus fondamentaux de l’utilisation de [!DNL Marketo Measure] est la possibilité de lier les efforts marketing directement à l’impact sur les recettes, avec autant de granularité que vous le souhaitez. Il est possible d’afficher le retour sur investissement au niveau du point de contact. Pour tirer parti de cet avantage, les coûts du canal doivent simplement être transférés vers la variable [!DNL Marketo Measure] application. Les rapports sur le ROI sont automatiquement créés et disponibles dans la **Tableau de bord du ROI marketing** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+L’un des avantages les plus fondamentaux de l’utilisation de [!DNL Marketo Measure] est la possibilité de lier les efforts marketing directement à l’impact sur les recettes, avec autant de granularité que vous le souhaitez. Il est possible d’afficher le retour sur investissement au niveau du point de contact. Pour tirer parti de cet avantage, les coûts du canal doivent simplement être transférés vers la variable [!DNL Marketo Measure] application. Les rapports sur le ROI sont automatiquement créés et disponibles dans la **Tableau de bord du ROI marketing** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Cliquez ici pour accéder directement aux instructions.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 

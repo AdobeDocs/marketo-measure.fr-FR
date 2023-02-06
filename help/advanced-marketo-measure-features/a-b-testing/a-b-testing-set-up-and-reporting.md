@@ -5,18 +5,18 @@ title: Configuration des tests A/B et création de rapports
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '430'
 ht-degree: 2%
 
 ---
 
 # Configuration des tests A/B et création de rapports {#a-b-testing-set-up-and-reporting}
 
-Le [!DNL Marketo Measure] L’intégration des tests A/B vous permet de suivre l’impact de vos recettes sur les recettes [Optimisation](https://optimizely.com/){target=&quot;_blank&quot;} et expériences sur site VWO. Cet article fournit des instructions sur la manière d’ajouter des [!DNL Marketo Measure] les sections Test A/B du prospect, [!UICONTROL Contact], Cas et [!UICONTROL Opportunité] mises en page. Nous aborderons également les pratiques générales de création de rapports et les recommandations relatives à l’exécution. [!DNL Marketo Measure] Types de rapports A/B.
+Le [!DNL Marketo Measure] L’intégration des tests A/B vous permet de suivre l’impact de vos recettes sur les recettes [Optimisation](https://optimizely.com/){target="_blank"} et des expériences sur site VWO. Cet article fournit des instructions sur la manière d’ajouter des [!DNL Marketo Measure] les sections Test A/B du prospect, [!UICONTROL Contact], Cas et [!UICONTROL Opportunité] mises en page. Nous aborderons également les pratiques générales de création de rapports et les recommandations relatives à l’exécution. [!DNL Marketo Measure] Types de rapports A/B.
 
 ## Configurer {#set-up}
 
-Ajoutez la variable [!DNL Marketo Measure] Sections Test A/B sur les pistes, les contacts, les dossiers et les opportunités. [!DNL Marketo Measure] L’intégration des tests A/B vous permet de suivre l’impact de vos recettes sur les recettes [Optimisation](https://optimizely.com/){target=&quot;_blank&quot;} et [VUNE](https://vwo.com/)Expériences sur site {target=&quot;_blank&quot;}.
+Ajoutez la variable [!DNL Marketo Measure] Sections Test A/B sur les pistes, les contacts, les dossiers et les opportunités. [!DNL Marketo Measure] L’intégration des tests A/B vous permet de suivre l’impact de vos recettes sur les recettes [Optimisation](https://optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"} expériences sur site.
 
 1. Vérification de l’utilisation du package [!DNL Marketo Measure] v3.9 ou version ultérieure. Vous pouvez le faire en accédant à [!UICONTROL Salesforce] >[!UICONTROL Configuration] > [!UICONTROL Packages installés].
 1. Modifiez la mise en page de la piste et ajoutez le **[!DNL Marketo Measure]Tests A/B** Liste associée à la page.
@@ -31,7 +31,7 @@ Ajoutez la variable [!DNL Marketo Measure] Sections Test A/B sur les pistes, les
 
    ![](assets/3.png)
 
-1. Contactez votre [!DNL Marketo Measure] rep ou [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;} pour activer la fonctionnalité.
+1. Contactez votre [!DNL Marketo Measure] rep ou [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour activer la fonction.
 
 ## Production de rapports {#reporting}
 

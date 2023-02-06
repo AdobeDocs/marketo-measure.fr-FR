@@ -1,11 +1,11 @@
 ---
 unique-page-id: 18874562
-description: Points de contact PostLC et engagement au prospect - Mesure Marketo - Documentation du produit
+description: Points de contact PostLC et engagement au prospect - Marketo Measure - Documentation du produit
 title: Points de contact PostLC et engagement au prospect
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '389'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Pour régler les paramètres des points de contact PostLC pour vos Leads ou cont
 
 **Prospects**
 
-1. Connectez-vous à [!DNL Marketo Measure] compte à l’adresse [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} et accédez à [!UICONTROL Paramètres].
+1. Connectez-vous à [!DNL Marketo Measure] compte à l’adresse [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et accédez à [!UICONTROL Paramètres].
 
 1. Sous CRM, sélectionnez **[!UICONTROL Pistes]**.
 
@@ -46,7 +46,7 @@ Pour régler les paramètres des points de contact PostLC pour vos Leads ou cont
 
 **Contacts**
 
-1. Connectez-vous à [!DNL Marketo Measure] compte à l’adresse [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} et accédez à [!UICONTROL Paramètres].
+1. Connectez-vous à [!DNL Marketo Measure] compte à l’adresse [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et accédez à [!UICONTROL Paramètres].
 
 1. Sous CRM, sélectionnez **[!UICONTROL Contacts]**.
 

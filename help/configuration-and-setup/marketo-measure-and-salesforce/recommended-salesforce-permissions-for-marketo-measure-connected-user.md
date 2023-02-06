@@ -5,7 +5,7 @@ title: Recommandé [!DNL Salesforce] Autorisations pour [!DNL Marketo Measure] U
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -44,4 +44,4 @@ Si l’utilisateur dédié n’a pas accès aux pistes dans les files d’attent
 
 La sécurité au niveau du champ et l’accessibilité des champs sont liées, mais présentent des différences clés. La sécurité au niveau du champ définit la visibilité des champs pour un profil donné, tandis que l’accessibilité des champs détermine si un champ est modifiable en fonction de la sécurité au niveau du champ et de la configuration de la mise en page. En utilisant la variable [!DNL Marketo Measure] les jeux d’autorisations du module vous recevront les paramètres de sécurité de l’objet de champ nécessaires. Dans certains cas, pour disposer de l’accessibilité au champ correcte, l’utilisateur connecté doit disposer de la variable [!DNL Marketo Measure] sur les mises en page. [!DNL Marketo Measure] les champs de la mise en page permettent d’utiliser la variable [!DNL Marketo Measure] données à mapper dans [!DNL Salesforce]. Cela dépendra de votre [!DNL Salesforce] environnement.
 
-Toutes les organisations [!DNL Salesforce] a des besoins individuels, mais nous vous fournissons nos besoins pour équilibrer la [!DNL Marketo Measure] besoins d’accès avec vos protocoles de sécurité. N&#39;hésitez pas à tendre la main vers [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Toutes les organisations [!DNL Salesforce] a des besoins individuels, mais nous vous fournissons nos besoins pour équilibrer la [!DNL Marketo Measure] besoins d’accès avec vos protocoles de sécurité. N&#39;hésitez pas à tendre la main vers [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

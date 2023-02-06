@@ -5,7 +5,7 @@ title: Utilisation d’un champ de montant des recettes personnalisé
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -53,4 +53,4 @@ A partir de là, nous allons commencer à créer le workflow.
 
    Pour ce faire, exécutez vos opportunités via Data Loader dans SFDC. Pour plus d’informations sur l’utilisation de Data Loader dans [cet article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Si vous avez des questions, n’hésitez pas à contacter votre responsable du succès client ou [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+Si vous avez des questions, n’hésitez pas à contacter votre responsable du succès client ou [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

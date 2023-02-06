@@ -5,7 +5,7 @@ title: Modèle et configuration d’attribution personnalisée
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Le [!DNL Marketo Measure] Le modèle d’attribution personnalisée permet aux u
 
    Pour commencer à créer votre modèle d’attribution personnalisé, vous devez sélectionner les étapes qui sont importantes pour votre équipe marketing. En plus de la variable [!DNL Marketo Measure] étapes de jalon (FT, LC, OC, Fermé), vous pouvez ajouter jusqu’à six étapes supplémentaires d’état de piste/contact ou d’opportunité dans votre modèle personnalisé. Par exemple, il est courant que l’étape MQL soit incluse dans le modèle personnalisé. Les équipes marketing veulent souvent savoir quels efforts ou canaux mènent les transitions vers l’étape MQL.
 
-   Se connecter à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. Accédez à [!UICONTROL Mon compte] > [!UICONTROL Paramètres] > et sous la section CRM, sélectionnez **[!UICONTROL Mappage d’étape]**.
+   Se connecter à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Accédez à [!UICONTROL Mon compte] > [!UICONTROL Paramètres] > et sous la section CRM, sélectionnez **[!UICONTROL Mappage d’étape]**.
 
    Ici, vous devez sélectionner les étapes Leads/Contacts et Opportunity à inclure en sélectionnant le **[!UICONTROL Inclure dans le modèle]** de la boîte.
 

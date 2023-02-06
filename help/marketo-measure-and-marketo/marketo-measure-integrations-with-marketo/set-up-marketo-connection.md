@@ -38,7 +38,7 @@ Voici comment configurer votre connexion à Marketo.
 
    ![](assets/set-up-marketo-connection-5.png)
 
-1. Toujours en Marketo Engage, sélectionnez **LaunchPoint** dans l&#39;arbre à gauche. Recherchez le service personnalisé que vous souhaitez connecter à Marketo Measurement, puis cliquez sur **Afficher les détails**.
+1. Toujours en Marketo Engage, sélectionnez **LaunchPoint** dans l&#39;arbre à gauche. Recherchez le service personnalisé auquel vous souhaitez vous connecter et cliquez sur **Afficher les détails**.
 
    ![](assets/set-up-marketo-connection-6.png)
 

@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874765
-description: Test de l’intégration de la mesure Marketo avec un environnement de test Salesforce - [!DNL Marketo Measure] - Documentation du produit
-title: Test de l’intégration de la mesure Marketo avec un environnement de test Salesforce
+description: Test de l’intégration Marketo Measure avec un environnement de test Salesforce - [!DNL Marketo Measure] - Documentation du produit
+title: Test de l’intégration Marketo Measure avec un environnement de test Salesforce
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 1%
 
 ---
 
-# Test de l’intégration de la mesure Marketo avec un environnement de test Salesforce {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
+# Test de l’intégration Marketo Measure avec un environnement de test Salesforce {#testing-the-marketo-measure-integration-with-a-salesforce-sandbox}
 
 >[!NOTE]
 >

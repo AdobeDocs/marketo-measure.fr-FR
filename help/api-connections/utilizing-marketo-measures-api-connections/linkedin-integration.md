@@ -18,7 +18,7 @@ Le [!DNL Marketo Measure] l’intégration à LinkedIn se fait en deux parties :
 
 Contenu sponsorisé : L’intégration du contenu sponsorisé permet [!DNL Marketo Measure] pour baliser les URL de destination sur [!DNL LinkedIn] publicités, qui permettent [!DNL Marketo Measure] pour suivre un utilisateur tout au long de son parcours de point de contact et mapper l’activité à [!DNL LinkedIn] Campaign et Creative. Cela fournit aux clients des informations sur le retour sur investissement de leur [!DNL LinkedIn] activité.
 
-Lead Gen Forms : Grâce à l’intégration à LinkedIn Lead Gen Forms, Marketo Measurement permet d’obtenir des informations sur les formulaires qui ont été envoyés par le biais de la plateforme LinkedIn. Ces champs de formulaire correspondent aux pistes de votre CRM ou [!DNL Marketo Engage] afin qu’ils soient éligibles à l’attribution. Grâce aux informations sur les formulaires, les créatifs et les campagnes qui ont contribué à générer les formulaires, les équipes peuvent désormais optimiser davantage leur marketing LinkedIn et leurs dépenses publicitaires.
+Lead Gen Forms : Grâce à l’intégration à LinkedIn Lead Gen Forms, Marketo Measure donne des informations sur les formulaires qui ont été envoyés par le biais de la plateforme LinkedIn. Ces champs de formulaire correspondent aux pistes de votre CRM ou [!DNL Marketo Engage] afin qu’ils soient éligibles à l’attribution. Grâce aux informations sur les formulaires, les créatifs et les campagnes qui ont contribué à générer les formulaires, les équipes peuvent désormais optimiser davantage leur marketing LinkedIn et leurs dépenses publicitaires.
 
 ## Disponibilité {#availability}
 

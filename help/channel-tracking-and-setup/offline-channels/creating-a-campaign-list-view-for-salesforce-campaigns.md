@@ -5,7 +5,7 @@ title: Création d’une vue de liste de campagnes pour [!DNL Salesforce] Campag
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ La vue Liste des campagnes qui peut être créée vous permet d’avoir un empla
 1. Nommez la vue &quot;Campagnes à synchroniser avec [!DNL Marketo Measure].&quot;
 1. Nous voulons que cette liste affiche uniquement les campagnes avec lesquelles nous voulons nous synchroniser. [!DNL Marketo Measure] nous avons donc besoin de quelques filtres :
 
-   * **Type** [EST ÉGAL À] &quot;Tous les types de campagne que nous avons mappés à vos canaux hors ligne&quot;. Reportez-vous à votre plan de mise en oeuvre ou à l’onglet Canaux hors ligne dans [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} -> Mon compte -> Paramètres -> Canaux hors ligne). Vous pouvez sélectionner les types de votre choix (ceux qui sont associés à un canal marketing hors ligne) à l’aide de l’icône en forme de loupe.
+   * **Type** [EST ÉGAL À] &quot;Tous les types de campagne que nous avons mappés à vos canaux hors ligne&quot;. Reportez-vous à votre plan de mise en oeuvre ou à l’onglet Canaux hors ligne dans [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mon compte -> Paramètres -> Canaux hors ligne). Vous pouvez sélectionner les types de votre choix (ceux qui sont associés à un canal marketing hors ligne) à l’aide de l’icône en forme de loupe.
 
       * Sélectionnez 3 types max pour chaque filtre. Il existe une limite de caractères dans un champ de filtre. Commencez par 3 types par filtre et ajoutez des lignes supplémentaires de filtres &#39;Type&#39; si nécessaire.
    * **Date de création** [SUPÉRIEUR OU ÉGAL] your [!DNL Marketo Measure] date de début. La date de début se trouve dans le tableau de bord du retour sur investissement au sein de la variable [!DNL Marketo Measure] Application. Sélectionnez simplement &quot;Depuis la date de création&quot; dans la plage de dates du tiret pour afficher votre date de début.
@@ -39,4 +39,4 @@ La vue Liste des campagnes qui peut être créée vous permet d’avoir un empla
 
 >[!MORELIKETHIS]
 >
->[Résolution des problèmes courants liés à la modification en ligne du mode Liste](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target=&quot;_blank&quot;}
+>[Résolution des problèmes courants liés à la modification en ligne du mode Liste](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}

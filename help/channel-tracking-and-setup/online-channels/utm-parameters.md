@@ -5,7 +5,7 @@ title: Paramètres UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '946'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Le balisage des URL est un moyen simple et efficace de capturer des données sur vos efforts de marketing numérique. Il s’agit du processus d’ajout de paramètres à la fin des URL qui collectent et enregistrent des données. Les paramètres les plus couramment utilisés sont les modules de suivi d’URL (UTM), qui sont pris en charge par Google. Cinq paramètres UTM principaux sont disponibles : Moyen, Source, Campagne, Contenu et Terme. Ces points sont abordés plus en détail dans la section suivante.
 
-Les paramètres UTM peuvent être ajoutés manuellement aux URL ou ajoutés par le balisage automatique avec certaines plateformes, comme AdWords par exemple. Le balisage automatique automatise le processus d’ajout de paramètres aux URL. Il existe également la possibilité de [Créateurs d’URL](https://ga-dev-tools.appspot.com/campaign-url-builder/){target=&quot;_blank&quot;} pour accélérer manuellement le balisage des URL. Avec un créateur d’URL, il vous suffit de spécifier les valeurs à utiliser pour chaque paramètre ; le créateur formate l’URL pour vous.
+Les paramètres UTM peuvent être ajoutés manuellement aux URL ou ajoutés par le balisage automatique avec certaines plateformes, comme AdWords par exemple. Le balisage automatique automatise le processus d’ajout de paramètres aux URL. Il existe également la possibilité de [Créateurs d’URL](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} pour accélérer manuellement le balisage des URL. Avec un créateur d’URL, il vous suffit de spécifier les valeurs à utiliser pour chaque paramètre ; le créateur formate l’URL pour vous.
 
 ## Que sont les paramètres UTM ? {#what-are-utm-parameters}
 

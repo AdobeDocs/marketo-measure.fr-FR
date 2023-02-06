@@ -5,7 +5,7 @@ title: Ajouter [!DNL Marketo Measure] Script
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Assurez-vous que vous avez [ont revendiqué tous les domaines appropriés dans la variable [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target=&quot;_blank&quot;} en plus du déploiement de la variable [!DNL Marketo Measure] JavaScript.
+>Assurez-vous que vous avez [ont revendiqué tous les domaines appropriés dans la variable [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} en plus du déploiement de la variable [!DNL Marketo Measure] JavaScript.
 
 Prise en main de [!DNL Marketo Measure], vous pouvez ajouter le [!DNL Marketo Measure] JavaScript sur votre site web :
 
@@ -33,7 +33,7 @@ Codage du code JavaScript dans le `<head>` de vos pages, vous avez la garantie q
 
 >[!TIP]
 >
->Découvrez comment vous assurer que votre script est [Conformité au RGPD](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target=&quot;_blank&quot;}.
+>Découvrez comment vous assurer que votre script est [Conformité au RGPD](/help/security-and-compliance/compliance-related-resources/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
 
 ## Systèmes Tag Management {#tag-management-systems}
 
@@ -47,17 +47,17 @@ Pour ajouter [!DNL Marketo Measure] via une solution de gestion des balises, vou
 
 [!DNL Marketo Measure] recommande que toute page vue provoque le déclenchement de la balise . De plus, il est préférable de donner [!DNL Marketo Measure] priorité la plus élevée dans l’ordre de déclenchement et assurez-vous qu’il n’y a pas de scripts synchrones devant la balise [!DNL Marketo Measure] afin d’assurer la qualité des données la plus élevée.
 
-Plus d’informations peuvent être [ici](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target=&quot;_blank&quot;}.
+Plus d’informations peuvent être [ici](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md){target="_blank"}.
 
 ## Remarques supplémentaires {#additional-considerations}
 
-[!DNL Marketo Measure] JavaScript est basé sur des domaines. Il peut donc gérer automatiquement tous les sous-domaines tant que le code JavaScript se trouve sur les pages et que le domaine racine est identique au domaine utilisé pour créer le compte Marketo Measurement.
+[!DNL Marketo Measure] JavaScript est basé sur des domaines. Il peut donc gérer automatiquement tous les sous-domaines tant que le code JavaScript se trouve sur les pages et que le domaine racine est identique au domaine utilisé pour créer le compte Marketo Measure.
 
 Cependant, si vous utilisez des domaines distincts ou internationaux, veillez à laisser votre [!DNL Marketo Measure] Connaître. Le ou les domaines doivent être ajoutés manuellement à votre compte sur la page [!DNL Marketo Measure] terminer de sorte que [!DNL Marketo Measure] sait lier les données des domaines supplémentaires à votre compte. Par conséquent, veuillez envoyer tous les domaines distincts/internationaux à votre [!DNL Marketo Measure] Consultant.
 
 Si vous utilisez des pages tierces, discutez de votre cas d’utilisation avec votre [!DNL Marketo Measure] Consultant. En général, vous devez savoir si vous pouvez ajouter une version personnalisée de [!DNL Marketo Measure] JavaScript pour effectuer le suivi de ces pages, le cas échéant. Si cela n’est pas possible, le suivi via les points de contact de Campaign CRM sera exploré avec votre [!DNL Marketo Measure] Consultant.
 
-Les formulaires ne doivent-ils PAS être suivis par [!DNL Marketo Measure] puisqu’ils n’ont pas nécessairement de sens pour l’attribution (par exemple, désabonner des formulaires, connexions client, etc.) ? Si tel est le cas, vous souhaiterez ajouter le code d’exclusion [dans cet article](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target=&quot;_blank&quot;} à chaque formulaire
+Les formulaires ne doivent-ils PAS être suivis par [!DNL Marketo Measure] puisqu’ils n’ont pas nécessairement de sens pour l’attribution (par exemple, désabonner des formulaires, connexions client, etc.) ? Si tel est le cas, vous souhaiterez ajouter le code d’exclusion [dans cet article](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} à chaque formulaire
 
 Avez-vous des pages non sécurisées ? Si tel est le cas, vous souhaitez les sécuriser, car la navigation entre une page sécurisée/non sécurisée interrompt la session de suivi.
 
@@ -72,7 +72,7 @@ Si une [!DNL Web Application Firewall (WAF)] est déclenché lors de la configur
 **Envoi de plusieurs formulaires**
 
 * Problème : Si plusieurs formulaires liés font partie d’un seul envoi de formulaire, il est possible que le premier formulaire génère un point de contact même si le formulaire complet n’est pas envoyé.
-* Solution : Vous devrez forcer l’un des formulaires à signaler à l’utilisateur. [!DNL Marketo Measure] en fonction des données mises en cache et discutez des pratiques d’abandon. En général, [code utilisateur du rapport](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target=&quot;_blank&quot;} peut résoudre ce problème.
+* Solution : Vous devrez forcer l’un des formulaires à signaler à l’utilisateur. [!DNL Marketo Measure] en fonction des données mises en cache et discutez des pratiques d’abandon. En général, [code utilisateur du rapport](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} peut résoudre ce problème.
 
 **Connexion au compte (pas création)**
 
@@ -106,7 +106,7 @@ Si une [!DNL Web Application Firewall (WAF)] est déclenché lors de la configur
 **Forms organisé en `<div>` format**
 
 * Problème : [!DNL Marketo Measure] JS a du mal à reconnaître les formulaires organisés dans `<div>` format afin que le code personnalisé puisse être nécessaire.
-* Solution : Ces [modèles d’utilisateurs de rapports](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target=&quot;_blank&quot;} peut être utilisé par votre équipe de développement web pour ajouter le code nécessaire.
+* Solution : Ces [modèles d’utilisateurs de rapports](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/ajax-form-handling.md){target="_blank"} peut être utilisé par votre équipe de développement web pour ajouter le code nécessaire.
 
 **Chat**
 

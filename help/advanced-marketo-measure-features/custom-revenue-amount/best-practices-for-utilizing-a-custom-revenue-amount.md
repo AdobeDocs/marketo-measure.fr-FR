@@ -26,7 +26,7 @@ Lors de la configuration d’un montant de recettes personnalisé, tenez compte 
 * Sélectionnez le champ de recettes qui est précis et utilisé pour toutes les opportunités .
    * ARR ou Valeur totale du contrat recommandé
 * Ne pas utiliser de champ de formule
-* Si vous utilisez un montant de recettes personnalisé pour les conversions de devise, la variable [!UICONTROL Marketo Mesurer plusieurs devises] La fonctionnalité est la méthode préférée.
+* Si vous utilisez un montant de recettes personnalisé pour les conversions de devise, la variable [!UICONTROL Marketo Measure : plusieurs devises] La fonctionnalité est la méthode préférée.
    * Le [!DNL Marketo Measure] La fonctionnalité de plusieurs devises fait référence aux taux de conversion définis dans [!DNL Salesforce] pour assurer au mieux l’alignement entre les conversions de devises. Vous pouvez ainsi continuer à utiliser le &quot;Montant&quot; standard (par défaut de la collecte de données régionale) ou tout autre champ de montant personnalisé relatif à la variable [!DNL Salesforce] taux de conversion.
 * Si vous mettez à jour le champ Montant que vous souhaitez [!DNL Marketo Measure] pour effectuer des références, utilisez le chargeur de données pour mettre à jour les opportunités antérieures afin de vous assurer que vos données de recettes sont cohérentes et que le champ approprié est renseigné via le workflow.
 

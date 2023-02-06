@@ -5,7 +5,7 @@ title: Campagnes et membres de campagne
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ La date du point de contact de mise à jour en bloc est incluse dans la [!DNL Ma
 
 Si un grand nombre d&#39;enregistrements de membre de Campaign doivent être mis à jour, vous pouvez utiliser la variable [!UICONTROL Date de point de contact de mise à jour en bloc] pour effectuer une modification en masse.
 
-Si cette interface ne couvre pas certains cas d’utilisation uniques, vous pouvez également utiliser la variable [Chargeur de données](https://dataloader.io/){target=&quot;_blank&quot;} pour exporter les enregistrements, effectuer la modification et charger à nouveau les enregistrements.
+Si cette interface ne couvre pas certains cas d’utilisation uniques, vous pouvez également utiliser la variable [Chargeur de données](https://dataloader.io/){target="_blank"} pour exporter les enregistrements, effectuez la modification et chargez à nouveau les enregistrements dans .
 
 Commencez par rechercher les enregistrements et par filtrer ceux pour lesquels vous souhaitez définir une Date de point de contact de l’acheteur.
 
@@ -117,7 +117,7 @@ Pour contourner ce problème, procédez comme suit : [!DNL Marketo Measure] a cr
 
 >[!CAUTION]
 >
->Gardez à l’esprit que ce déclencheur ne suit aucun membre de campagne qui a été supprimé par le passé. Cela ne fonctionne donc qu’à l’avenir. Si vous devez supprimer un grand nombre de points de contact de membres de la campagne précédents, contactez [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}.
+>Gardez à l’esprit que ce déclencheur ne suit aucun membre de campagne qui a été supprimé par le passé. Cela ne fonctionne donc qu’à l’avenir. Si vous devez supprimer un grand nombre de points de contact de membres de la campagne précédents, contactez [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

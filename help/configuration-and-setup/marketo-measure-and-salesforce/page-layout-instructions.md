@@ -66,13 +66,13 @@ Nous vous recommandons d’ajouter la variable [!DNL Marketo Measure] dans votre
    >
    >Sélectionnez le format &quot;une colonne&quot; pour chacune de ces sections.
 
-1. Faites glisser le **[!UICONTROL Liste liée aux pistes de mesure Marketo]** Page VisualForce dans la section de mise en page.
+1. Faites glisser le **[!UICONTROL Liste liée aux pistes Marketo Measure]** Page VisualForce dans la section de mise en page.
 
    ![](assets/5-1.png)
 
 1. Cliquez sur la clé à molette dans le [!DNL VisualForce] et définissez la hauteur sur 100 et activez les barres de défilement.
 
-1. De retour dans le menu, sélectionnez l’option [!UICONTROL Applications de canevas] et créez une section intitulée &quot;Marketo Measure Insights&quot; sous les points de contact. [!DNL VisualForce] que vous venez de créer.
+1. De retour dans le menu, sélectionnez l’option [!UICONTROL Applications de canevas] et créez une section appelée &quot;Marketo Measure Insights&quot; sous les points de contact. [!DNL VisualForce] que vous venez de créer.
 
    >[!NOTE]
    >

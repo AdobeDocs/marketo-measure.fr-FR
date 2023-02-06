@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874568
-description: Modèles d’attribution de mesures Marketo - Mesure Marketo - Documentation du produit
-title: Modèles d’attribution de mesures Marketo
+description: Modèles d’attribution Marketo Measure - Marketo Measure - Documentation du produit
+title: Modèles d’attribution Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
 workflow-type: tm+mt
@@ -10,9 +10,9 @@ ht-degree: 2%
 
 ---
 
-# Modèles d’attribution de mesures Marketo {#marketo-measure-attribution-models}
+# Modèles d’attribution Marketo Measure {#marketo-measure-attribution-models}
 
-Marketo Measurement offre six types de modèles d’attribution :
+Marketo Measure offre six types de modèles d’attribution :
 
 * First Touch
 * Création de prospects
@@ -21,7 +21,7 @@ Marketo Measurement offre six types de modèles d’attribution :
 * Chemin complet
 * Modèle personnalisé
 
-Ces modèles varient en complexité. Première touche et création de pistes sont nos modèles simples à une seule touche. Les quatre autres sont nos modèles multi-touch les plus complexes. La structure des modèles d’attribution de Marketo Measurement reflète les quatre principaux points de contact qui se produisent dans le parcours client :
+Ces modèles varient en complexité. Première touche et création de pistes sont nos modèles simples à une seule touche. Les quatre autres sont nos modèles multi-touch les plus complexes. La structure des modèles d’attribution de Marketo Measure reflète les quatre principaux points de contact qui se produisent dans le parcours client :
 
 * First Touch (FT)
 * Création de lead (LC)
@@ -69,7 +69,7 @@ La première visite de Kate à www.adobe.com par le biais d’une publicité AdW
 
 Trois des points de contact de jalon sont inclus dans le modèle en forme de W. Dans ce modèle, les points de contact FT, LC et OC se voient attribuer chacun 30 % du crédit d’attribution. Les 10 % restants sont attribués proportionnellement à tout point de contact intermédiaire qui se produit entre les trois points de contact de jalon.
 
-Kate et Austin mentionnent Marketo Measure à leur collègue, Hillary. Elle trouve un élément de contenu à travers une recherche Google et remplit un formulaire. Plus tard, Austin reçoit un e-mail d&#39;inscription à un webinaire et remplit le formulaire d&#39;inscription sur le site web. Kate a une conversation avec un représentant commercial au sujet du produit Marketo Measurement.
+Kate et Austin mentionnent Marketo Measure à leur collègue, Hillary. Elle trouve un élément de contenu à travers une recherche Google et remplit un formulaire. Plus tard, Austin reçoit un e-mail d&#39;inscription à un webinaire et remplit le formulaire d&#39;inscription sur le site web. Kate a une conversation avec un représentant commercial au sujet du produit Marketo Measure.
 
 Hillary reçoit un e-mail avec un lien vers la page des tarifs et visite la page. Une opportunité est ensuite créée pour leur compte. La visite web d’Hillary sur la page de tarification reçoit du crédit pour la création d’opportunités, car il s’agit de l’interaction marketing la plus proche de la date de création d’opportunités. Chacun des points de contact de jalon se voit attribuer 30 % du crédit d’attribution et les points de contact intermédiaires se voient attribuer les 10 % restants.
 
@@ -79,10 +79,10 @@ Hillary reçoit un e-mail avec un lien vers la page des tarifs et visite la page
 
 Le modèle de chemin complet comprend les quatre points de contact de jalon. Le FT, la LC, l’OC et la CW reçoivent chacun 22,5 % du crédit de recettes, et les 10 % restants sont répartis à parts égales entre les touches intermédiaires.
 
-Après la création de l&#39;opportunité, Kate, Austin et Hillary décident de présenter Marketo Measure à leur CMO, Elizabeth. Elizabeth assiste à une conférence où Marketo Measurement héberge un événement. Kate voit un article de Linkedin sur une étude de cas et remplit un formulaire pour télécharger le contenu. Elizabeth assiste à un dîner de vente organisé par Marketo Measurement. Après le dîner, elle décide d’acheter Marketo Measurement et devient cliente. Dans ce scénario, le dîner de vente se verrait attribuer 22,5 % du crédit de recettes de l’opération close. Les points de contact FT, LC et OC reçoivent chacun 22,5 % du crédit. Les points de contact intermédiaires se voient attribuer les 10 % restants du crédit de recettes.
+Après la création de l&#39;opportunité, Kate, Austin et Hillary décident de présenter Marketo Measure à leur CMO, Elizabeth. Elizabeth assiste à une conférence où Marketo Measure accueille un événement. Kate voit un article de Linkedin sur une étude de cas et remplit un formulaire pour télécharger le contenu. Elizabeth assiste à un dîner de vente organisé par Marketo Measure. Après le dîner, elle décide d’acheter Marketo Measure et devient cliente. Dans ce scénario, le dîner de vente se verrait attribuer 22,5 % du crédit de recettes de l’opération close. Les points de contact FT, LC et OC reçoivent chacun 22,5 % du crédit. Les points de contact intermédiaires se voient attribuer les 10 % restants du crédit de recettes.
 
 ![](assets/6.png)
 
 **Modèle d’attribution personnalisé**
 
-Marketo Measurement propose également un modèle d’attribution personnalisée qui permet aux utilisateurs de choisir les points de contact ou les étapes personnalisées à inclure dans leur modèle. En outre, les utilisateurs peuvent contrôler le pourcentage du crédit d’attribution attribué à ces points de contact et étapes.
+Marketo Measure propose également un modèle d’attribution personnalisée qui permet aux utilisateurs de choisir les points de contact ou les étapes personnalisées à inclure dans leur modèle. En outre, les utilisateurs peuvent contrôler le pourcentage du crédit d’attribution attribué à ces points de contact et étapes.

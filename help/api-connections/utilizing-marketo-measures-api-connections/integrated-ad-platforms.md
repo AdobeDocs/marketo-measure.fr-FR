@@ -5,7 +5,7 @@ title: Plateformes d’annonces intégrées
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1727'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ Le modèle de suivi est un outil fourni par Google pour ajouter ce qu’il appel
 [!DNL Marketo Measure] Recherches de modèles de suivi dans vos [!DNL AdWords] compte :
 
 * *Option A*: Modèle de suivi trouvé. [!DNL Marketo Measure] ajoute ses paramètres au modèle.
-* *Option B*: La redirection tierce est disponible. Si une redirection tierce est trouvée dans le modèle de suivi, [!DNL Marketo Measure] ne peut pas prendre aucune action. Vous devez ajouter manuellement la variable [!DNL Marketo Measure] balises vers le système tiers. Un exemple de redirection tierce serait un outil de gestion des offres comme Kenshoo ou Marin. En savoir plus sur la manière dont [les outils de gestion des offres ; [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target=&quot;_blank&quot;}.
+* *Option B*: La redirection tierce est disponible. Si une redirection tierce est trouvée dans le modèle de suivi, [!DNL Marketo Measure] ne peut pas prendre aucune action. Vous devez ajouter manuellement la variable [!DNL Marketo Measure] balises vers le système tiers. Un exemple de redirection tierce serait un outil de gestion des offres comme Kenshoo ou Marin. En savoir plus sur la manière dont [les outils de gestion des offres ; [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Option C*: Aucun modèle de suivi n’a été trouvé. [!DNL Marketo Measure] analysera toutes vos URL de destination de l’annonce pour la variable [!DNL Marketo Measure] paramètres. Selon l’analyse, si :
    * Les paramètres sont détectés : la configuration est terminée !
    * Paramètres introuvables : [!DNL Marketo Measure] ajoute ses paramètres à la fin des URL de destination de l’annonce. [!DNL Marketo Measure] ajoute de nouvelles publicités dans les deux heures qui suivent leur création. Gardez à l’esprit que les paramètres ne seront pas ajoutés à un modèle.
 
-En savoir plus sur notre [[!DNL AdWords] fonctionnalité de balisage automatique](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target=&quot;_blank&quot;}.
+En savoir plus sur notre [[!DNL AdWords] fonctionnalité de balisage automatique](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## Comment activer [!DNL Marketo Measure] Balisage automatique pour les mots-clés {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -51,7 +51,7 @@ Avant l’activation [!DNL Marketo Measure] balisage automatique, **assurez-vous
 
 Une fois que vous avez mis en place un modèle de suivi, veuillez suivre les instructions ci-dessous pour activer [!DNL Marketo Measure] Balisage automatique. Remarque : [!DNL Marketo Measure] balise également automatiquement toute publicité suspendue dans votre compte.
 
-1. Connectez-vous à [!DNL Marketo Measure] compte à l’adresse [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}.
+1. Connectez-vous à [!DNL Marketo Measure] compte à l’adresse [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 1. Accédez à [!UICONTROL Mon compte] > [!UICONTROL Paramètres] > [!UICONTROL Intégrations] > [!UICONTROL Connexions].
 
@@ -67,7 +67,7 @@ Une fois que vous avez mis en place un modèle de suivi, veuillez suivre les ins
 
 ## Comment configurer un modèle de suivi dans AdWords avec [!DNL Marketo Measure] Paramètres {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
-Gardez à l’esprit que vous devez ajouter des modèles de suivi à l’adresse [!UICONTROL Compte], [!UICONTROL Campagne] ou au niveau du groupe publicitaire dans AdWords. Si vous ajoutez des modèles de suivi au niveau Mot-clé, Lien de site ou Annonce, votre annonce devra passer par le processus de révision et d&#39;approbation et vous risquez de redémarrer l&#39;historique de performances de vos annonces. En savoir plus sur [création de modèles de tracking](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target=&quot;_blank&quot;}.
+Gardez à l’esprit que vous devez ajouter des modèles de suivi à l’adresse [!UICONTROL Compte], [!UICONTROL Campagne] ou au niveau du groupe publicitaire dans AdWords. Si vous ajoutez des modèles de suivi au niveau Mot-clé, Lien de site ou Annonce, votre annonce devra passer par le processus de révision et d&#39;approbation et vous risquez de redémarrer l&#39;historique de performances de vos annonces. En savoir plus sur [création de modèles de tracking](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Connectez-vous à votre [!DNL Google AdWords] Compte.
 1. Accédez à [!UICONTROL Campagnes] vue depuis la barre de navigation de gauche
@@ -96,21 +96,21 @@ Les balises UTM peuvent sembler difficiles à créer au début, mais de nombreux
 
 **[!DNL Google URL]Créateur**
 
-Google URL Builder est un outil standard permettant de créer des URL correctement formatées à l’aide de balises UTM. Il vous suffit de saisir l’URL et la valeur souhaitée de chaque paramètre et de cliquer sur &quot;[!UICONTROL Générer l’URL]&quot;. Il s’agit d’un outil idéal à utiliser si vous ne disposez que d’une poignée d’URL à baliser. Accès à l’outil [here](https://support.google.com/analytics/answer/1033867?hl=en){target=&quot;_blank&quot;}.
+Google URL Builder est un outil standard permettant de créer des URL correctement formatées à l’aide de balises UTM. Il vous suffit de saisir l’URL et la valeur souhaitée de chaque paramètre et de cliquer sur &quot;[!UICONTROL Générer l’URL]&quot;. Il s’agit d’un outil idéal à utiliser si vous ne disposez que d’une poignée d’URL à baliser. Accès à l’outil [here](https://support.google.com/analytics/answer/1033867?hl=en){target="_blank"}.
 
 **Feuille de calcul Google générée par EpikOne**
 
-Cette feuille de calcul comporte une formule qui génère automatiquement des URL de destination balisées. Il s’agit d’un outil idéal à utiliser si un grand nombre de liens doivent être balisés. Accès à la feuille de calcul [here](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target=&quot;_blank&quot;}.
+Cette feuille de calcul comporte une formule qui génère automatiquement des URL de destination balisées. Il s’agit d’un outil idéal à utiliser si un grand nombre de liens doivent être balisés. Accès à la feuille de calcul [here](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
 
 **Outil de balisage de lien de l’outil Rafflecopter**
 
 La feuille de calcul créée par Rafflecopter est une version modifiée de [!DNL EpikOne's] feuille de calcul. Elle contient également une formule qui génère automatiquement des liens de destination balisés que vous pouvez utiliser.
 
-Chacun de ces outils comporte des instructions détaillées sur l’utilisation et la modification en fonction de vos besoins. L’outil est disponible [here](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target=&quot;_blank&quot;}.
+Chacun de ces outils comporte des instructions détaillées sur l’utilisation et la modification en fonction de vos besoins. L’outil est disponible [here](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"}.
 
 **Effet impressionnant UTM Builder**
 
-Cet outil est une extension Chrome qui vous permet de générer rapidement des balises UTM. Trouvez-le [here](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target=&quot;_blank&quot;}.
+Cet outil est une extension Chrome qui vous permet de générer rapidement des balises UTM. Trouvez-le [here](https://chrome.google.com/webstore/detail/effin-amazing-utm-builder/eoaapiimcaimddnfhfnifgkinmpcbccp?hl=en){target="_blank"}.
 
 ## Publicités Bing {#bing-ads}
 
@@ -136,17 +136,17 @@ Un modèle de suivi peut être utilisé si nécessaire, mais il n’est pas néc
 
 Le balisage automatique doit être activé via [!DNL Marketo Measure] pour que la variable [!DNL Marketo Measure] peuvent être automatiquement ajoutés. Il n’y a aucun risque de perdre l’historique des performances publicitaires antérieures avec Bing Ads.
 
-Visitez le [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls)Site web {target=&quot;_blank&quot;} pour plus d’informations sur l’ajout de balises sur leur plateforme.
+Visitez le [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/en-us/blog/post/august-2016/upgraded-urls-now-available-in-bing-ads-an-easier-way-to-manage-your-tracking-urls){target="_blank"} pour plus d’informations sur l’ajout de balises sur leur plateforme.
 
 ## Publicités Facebook {#facebook-ads}
 
-Le [!DNL Marketo Measure] intégration avec [!DNL Facebook] permet de télécharger automatiquement les informations publicitaires et de baliser l’URL avec ses paramètres. [!DNL Marketo Measure] extrait les informations sur la campagne et la visionneuse de publicités par le biais de notre balisage automatique. La visionneuse de publicités renseigne le champ Nom du groupe publicitaire . Pour plus d’informations sur la configuration des balises d’URL sur la page [!DNL Facebook] platform, rendez-vous sur la page [!DNL Facebook] [commerce](https://www.facebook.com/business/help/1016122818401732/?ref=u2u)Page {target=&quot;_blank&quot;}.
+Le [!DNL Marketo Measure] intégration avec [!DNL Facebook] permet de télécharger automatiquement les informations publicitaires et de baliser l’URL avec ses paramètres. [!DNL Marketo Measure] extrait les informations sur la campagne et la visionneuse de publicités par le biais de notre balisage automatique. La visionneuse de publicités renseigne le champ Nom du groupe publicitaire . Pour plus d’informations sur la configuration des balises d’URL sur la page [!DNL Facebook] platform, rendez-vous sur la page [!DNL Facebook] [commerce](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"} page.
 
 Avant d’activer le balisage automatique avec [!DNL Facebook Ads], il est important d’exporter l’historique des performances précédent au format CSV. À ce stade, lorsque [!DNL Marketo Measure] tags [!DNL Facebook Ads] avec son paramètre _bf, [!DNL Facebook] lit les publicités comme étant toutes nouvelles et efface l’historique des performances. Par conséquent, il est important d’exporter un enregistrement des performances précédentes si cela vous intéresse, ainsi qu’à votre entreprise.
 
 Veuillez noter que vous pouvez connecter votre [!DNL Facebook] à tout moment au [!DNL Marketo Measure] et qu’aucune donnée ne sera perdue ; c’est seulement lorsque le balisage automatique est activé que l’historique des performances est effacé.
 
-[Consultez cet article](https://www.facebook.com/business/help/393890194130036){target=&quot;_blank&quot;} à partir de Facebook pour plus d’informations sur l’exportation [!DNL Facebook] Rapports publicitaires.
+[Consultez cet article](https://www.facebook.com/business/help/393890194130036){target="_blank"} à partir de Facebook pour plus d’informations sur l’exportation [!DNL Facebook] Rapports publicitaires.
 
 ## Contenu sponsorisé linkedIn {#linkedin-sponsored-content}
 

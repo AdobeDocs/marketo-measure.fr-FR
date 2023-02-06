@@ -5,7 +5,7 @@ title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ Semblable à nos AdWords et [!DNL Bing Ads] intégrations, nos [!DNL Facebook] l
 
 En ce qui concerne la configuration, sept étapes doivent être exécutées dans la [!DNL Marketo Measure] application.
 
-1. Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;} et connectez-vous.
+1. Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
 1. Sous Mon compte, sélectionnez **[!UICONTROL Paramètres]**.
 1. Sous Intégrations , sélectionnez **[!UICONTROL Connexions]**.
 1. Sélectionner **[!UICONTROL Configurer une nouvelle connexion aux publicités]** et une fenêtre contextuelle s’affiche. Sélectionner **[!UICONTROL Facebook]** et connectez-vous à l’aide de vos informations d’identification Facebook.

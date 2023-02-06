@@ -5,7 +5,7 @@ title: Ajouter [!DNL Marketo Measure] aux pages d’entrée Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -41,4 +41,4 @@ Exemple dans la capture d’écran ci-dessous
 
 * Il est probable que plusieurs modèles de page d’entrée soient utilisés. Veillez à ajouter le code à tous les modèles qui contiennent des formulaires.
 
-* Parfois, lorsque vous modifiez le modèle des landing pages, vous devez réapprouver les pages utilisées par la landing page. Cet article explique : [Approbation en masse](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target=&quot;_blank&quot;}.
+* Parfois, lorsque vous modifiez le modèle des landing pages, vous devez réapprouver les pages utilisées par la landing page. Cet article explique : [Approbation en masse](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

@@ -5,14 +5,14 @@ title: Attribution des activités Salesforce
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # Attribution des activités Salesforce {#salesforce-activities-attribution}
 
-Le [!DNL Marketo Measure] L’intégration des activités Salesforce va intégrer des enregistrements de tâches et d’événements spécifiques dans votre modèle d’attribution. Commencez à effectuer le suivi d’éléments tels que les e-mails de vente ou les appels téléphoniques de vente qui ne recevaient pas le crédit dû. Pour configurer votre règle d’activités, vous devez accéder à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target=&quot;_blank&quot;}. À partir de là, accédez au **[!UICONTROL Paramètres]** et cliquez sur l’onglet **[!UICONTROL Activités]** .
+Le [!DNL Marketo Measure] L’intégration des activités Salesforce va intégrer des enregistrements de tâches et d’événements spécifiques dans votre modèle d’attribution. Commencez à effectuer le suivi d’éléments tels que les e-mails de vente ou les appels téléphoniques de vente qui ne recevaient pas le crédit dû. Pour configurer votre règle d’activités, vous devez accéder à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. À partir de là, accédez au **[!UICONTROL Paramètres]** et cliquez sur l’onglet **[!UICONTROL Activités]** .
 
 Vous êtes sur le point de rendre votre équipe de vente très heureuse ! Laissez-nous vous présenter un tutoriel rapide.
 
@@ -61,7 +61,7 @@ N’oubliez pas de définir des règles différentes pour les tâches ou les év
 
 ![](assets/5.png)
 
-Vous souhaiterez probablement placer ces nouveaux points de contact dans les [Canal marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target=&quot;_blank&quot;}. Vous pouvez le faire en définissant le canal avec son nouveau mapping de campagne que vous venez de créer. Vous allez peut-être créer une nouvelle ligne pour le canal BDR où la campagne commence par Sortant.
+Vous souhaiterez probablement placer ces nouveaux points de contact dans les [Canal marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"}. Vous pouvez le faire en définissant le canal avec son nouveau mapping de campagne que vous venez de créer. Vous allez peut-être créer une nouvelle ligne pour le canal BDR où la campagne commence par Sortant.
 
 >[!TIP]
 >
@@ -84,7 +84,7 @@ Vous souhaiterez probablement placer ces nouveaux points de contact dans les [Ca
 
 ![](assets/6.png)
 
-Enfin et surtout, vous avez la possibilité de saisir les coûts de vos nouveaux canaux. Notre [Chargement des dépenses marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target=&quot;_blank&quot;} vous permet de saisir vos dépenses au niveau du canal, du sous-canal ou de la campagne. Avec votre nouvelle [!DNL Marketo Measure] Pour les campagnes, vous pouvez ajouter ces coûts par mois, puis consulter le retour sur investissement de chaque campagne.
+Enfin et surtout, vous avez la possibilité de saisir les coûts de vos nouveaux canaux. Notre [Chargement des dépenses marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} vous permet de saisir vos dépenses au niveau du canal, du sous-canal ou de la campagne. Avec votre nouvelle [!DNL Marketo Measure] Pour les campagnes, vous pouvez ajouter ces coûts par mois, puis consulter le retour sur investissement de chaque campagne.
 
 ![](assets/7.png)
 

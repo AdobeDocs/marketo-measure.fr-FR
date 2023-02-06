@@ -5,7 +5,7 @@ title: "[!DNL Marketo Measure] Liste des ressources"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '331'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Voici plusieurs liens vers des articles/vidéos pertinents pour vous aider à pr
 **Identification du problème**
 
 * [Octroi [!DNL Marketo Measure] Accès à l’assistance technique](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
-* Contact : [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target=&quot;_blank&quot;}
+* Contact : [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}
 
 ## Vidéos {#videos}
 

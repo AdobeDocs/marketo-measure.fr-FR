@@ -26,7 +26,7 @@ Lorsqu’un visiteur arrive sur votre site, [!DNL Marketo Measure] s’attend à
 
 En tant que client, vous allez créer un modèle d’email comme vous le feriez normalement. Une fois qu’il est temps d’ajouter dans la page d’entrée l’action dont vous souhaitez effectuer le suivi, vous devez déterminer le jeton, la balise de variable ou la macro que votre plateforme d’automatisation marketing accepte pour afficher dynamiquement la valeur de chaque individu.
 
-Marketo Measurement accepte les valeurs suivantes : Adresse électronique, ID de piste Salesforce ou ID de contact Salesforce.
+Marketo Measure accepte les valeurs suivantes : Adresse électronique, ID de piste Salesforce ou ID de contact Salesforce.
 
 ## Exemples de balises {#tag-examples}
 
