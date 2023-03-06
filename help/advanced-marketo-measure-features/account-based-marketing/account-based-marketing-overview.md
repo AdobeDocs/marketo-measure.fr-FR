@@ -3,9 +3,9 @@ unique-page-id: 18874730
 description: Présentation marketing basée sur les comptes - [!DNL Marketo Measure] - Documentation du produit
 title: Présentation du marketing basé sur les comptes
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '782'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,10 @@ La mise en correspondance des pistes et des comptes est essentielle à l&#39;eff
 * Nom de la société de piste dans le nom du compte
 * Société responsable dans le domaine du site web du compte
 * Correspondance du domaine de l’adresse électronique du prospect avec le compte via l’adresse électronique du contact.
+
+>[!NOTE]
+>
+>Chaque prospect est associé à un compte dans l’ordre préférentiel des méthodes ci-dessus. Une fois qu’une correspondance est établie, le AccountId est immédiatement défini sur le prospect et ne sera pas mis en correspondance à l’aide d’une autre méthode. Si le prospect dispose déjà d’un ID de compte valide, il est ignoré.
 
 ## Score prédictif de l’engagement {#predictive-engagement-score}
 
