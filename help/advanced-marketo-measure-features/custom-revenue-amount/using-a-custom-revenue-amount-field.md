@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874793
 description: Utilisation d’un champ de montant des recettes personnalisé - [!DNL Marketo Measure] - Documentation du produit
-title: Utilisation d’un champ de montant des recettes personnalisé
+title: Utilisation d’un champ de montant de recettes personnalisé
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 0%
+source-wordcount: '375'
+ht-degree: 3%
 
 ---
 
-# Utilisation d’un champ de montant des recettes personnalisé {#using-a-custom-revenue-amount-field}
+# Utilisation d’un champ de montant de recettes personnalisé {#using-a-custom-revenue-amount-field}
 
 Par défaut, les points de contact d’attribution de l’acheteur extraient le montant de l’opportunité de l’un des deux champs suivants :
 
@@ -53,4 +53,4 @@ A partir de là, nous allons commencer à créer le workflow.
 
    Pour ce faire, exécutez vos opportunités via Data Loader dans SFDC. Pour plus d’informations sur l’utilisation de Data Loader dans [cet article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Si vous avez des questions, n’hésitez pas à contacter votre responsable du succès client ou [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Si vous avez des questions, n’hésitez pas à contacter l’équipe de compte d’Adobe (votre gestionnaire de compte) ou [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

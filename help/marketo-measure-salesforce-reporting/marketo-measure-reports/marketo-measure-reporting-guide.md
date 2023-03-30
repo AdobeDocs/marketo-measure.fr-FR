@@ -2,14 +2,14 @@
 description: "[!DNL Marketo Measure] Guide de création de rapports - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] Guide de création de rapports"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '6392'
-ht-degree: 1%
+source-wordcount: '6395'
+ht-degree: 2%
 
 ---
 
-# [!DNL Marketo Measure] Guide de création de rapports {#marketo-measure-reporting-guide}
+# Guide de création de rapports [!DNL Marketo Measure] {#marketo-measure-reporting-guide}
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ Au niveau supérieur, il existe deux catégories de rapports basées sur les deu
 
 Article de prise en charge : [Différence entre les points de contact d’un achat et les points de contact d’attribution d’un achat](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md#configuration-and-setup)
 
-## Point de contact de l’utilisateur (BT) {#buyer-touchpoint-bt}
+## Point de contact acheteur (BT) {#buyer-touchpoint-bt}
 
 Le point de contact d’achat (BT) est l’objet utilisé pour effectuer le suivi de chaque interaction marketing qu’une personne a avec vos documents marketing. de chaque individu (prospect/contact/[!DNL Marketo Measure] Personne) Le parcours serait représenté par leurs BT associés. Dans [!DNL Marketo Measure], le parcours d’un individu se compose des éléments suivants :
 
@@ -204,7 +204,7 @@ Pour obtenir des informations plus détaillées sur les données résumées dans
 Le niveau de granularité peut varier en fonction du canal. L&#39;approche recommandée serait de vous demander : &quot;Et le &quot;canal X&quot; que vais-je chercher à comprendre plus en détail ?&quot; Les gestionnaires de recherche payante peuvent également être intéressés par d’autres dimensions, telles que :
 
 * Nom de la campagne publicitaire
-* Contenu de la publicité
+* Contenu publicitaire
 * Groupe publicitaire
 
 Les gestionnaires d’événements peuvent toutefois être plus intéressés par les événements spécifiques ou les types d’événements qui ont influencé le plus de pistes dans la création :
@@ -523,7 +523,7 @@ Compte tenu de la relation Principale entre les MAT et l’opportunité, elles s
 
 Le [modèles d’attribution](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md) Voici les meilleures informations sur les mesures basées sur les opportunités :
 
-**En forme de W** - Le &quot;_Modèle de pipeline_&#39;. Trois points de contact de jalon sont inclus dans le modèle en forme de W. Dans ce modèle, les points de contact FT, LC et OC se voient attribuer chacun 30 % du crédit d’attribution. Les 10 % restants sont attribués de manière égale à tous les points de contact intermédiaires qui se produisent entre les trois points de contact de jalon.
+**En forme de W** - Le &quot;_Modèle de pipeline_&#39;. Trois points de contact de jalon sont inclus dans le modèle en forme de W. les points de contact FT, LC et OC se voient attribuer chacun 30 % du crédit d’attribution. Les 10 % restants sont attribués de manière égale à tous les points de contact intermédiaires qui se produisent entre les trois points de contact de jalon.
 
 <table> 
  <tbody>
@@ -557,7 +557,7 @@ Lorsque vous essayez de mesurer l’impact du marketing sur les affaires clôtur
 
 >[!NOTE]
 >
->Le modèle d’attribution personnalisé est une fonctionnalité supplémentaire qui n’est pas disponible pour tous les clients. Contactez votre gestionnaire de succès client pour en savoir plus sur la manière d’ajouter cette fonction à votre compte.
+>Le modèle d’attribution personnalisé est une fonctionnalité supplémentaire qui n’est pas disponible pour tous les clients. Contactez l’équipe du compte d’Adobe (votre gestionnaire de compte) pour en savoir plus sur la manière d’ajouter cette fonctionnalité à votre compte.
 
 En général, les marketeurs doivent savoir d’où viennent mes opportunités. Tout comme pour les rapports au niveau des pistes, une seule valeur unidimensionnelle a été ajoutée à cette question lors de l’historique (source de campagne Principal, par exemple). Cependant, nous savons que le développement d’une opportunité est bien plus important qu’un seul point de contact d’un seul contact. Il existe généralement plusieurs points de contact de différents canaux et de plusieurs parties prenantes qui influencent une opportunité dans la création. Avec [!DNL Marketo Measure], nous pouvons faire apparaître tous les points de contact d’un compte pour mieux comprendre d’où provient une opportunité. Au-delà de cela, cependant, nous pouvons continuer à faire apparaître tout point de contact qui s’est produit après la création de l’opportunité et jusqu’au point où l’opportunité est fermée. Cela nous permet non seulement d’adopter une approche multi-touch pour comprendre d’où provient une opportunité, mais aussi ce qui l’a influencée pour fermer et finalement représenter des recettes gagnées fermées. Cela vous permet d’avoir un aperçu de différentes questions, telles que &quot;Quel est l’impact du marketing sur l’activation de la fermeture des transactions ?&quot;, &quot;Quel est le moteur de la fermeture des recettes par gagnant ?&quot;. et finalement, &quot;lequel de mes efforts de marketing affiche le meilleur retour sur investissement ?&quot;
 

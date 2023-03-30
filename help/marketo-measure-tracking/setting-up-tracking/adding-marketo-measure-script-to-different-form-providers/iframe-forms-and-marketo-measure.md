@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874741
 description: IFrame Forms et [!DNL Marketo Measure] - [!DNL Marketo Measure] - Documentation du produit
-title: IFrame Forms et [!DNL Marketo Measure]
+title: Formulaires IFrame et  [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 0%
+source-wordcount: '194'
+ht-degree: 3%
 
 ---
 
-# IFrame Forms et [!DNL Marketo Measure] {#iframe-forms-and-marketo-measure}
+# Formulaires IFrame et [!DNL Marketo Measure] {#iframe-forms-and-marketo-measure}
 
 Avec [!DNL Marketo Measure] l’une de nos principales fonctionnalités est le suivi de vos efforts de marketing numérique par le biais de sessions sur votre site et d’envois de formulaire. En règle générale, lorsque notre code JavaScript est placé sur le site, nous le joignons automatiquement à tous les formulaires du site. Toutefois, cette fonctionnalité est limitée si le formulaire est contenu dans un IFrame.
 
@@ -22,4 +22,4 @@ Nous vous recommandons de placer le code JavaScript dans l’en-tête d’IFrame
 
 ![](assets/1-1.png)
 
-Si vous avez des questions sur l’ajout de votre code JavaScript à des formulaires IFrame, contactez votre gestionnaire de succès client, ou [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Si vous avez des questions sur l’ajout de votre code JavaScript aux formulaires IFrame, contactez l’équipe du compte Adobe (votre gestionnaire de compte) ou [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
