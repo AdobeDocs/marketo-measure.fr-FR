@@ -1,24 +1,26 @@
 ---
 unique-page-id: 27656735
 description: Présentation - [!DNL Marketo Measure] - Documentation du produit
-title: APERÇU
+title: Vue d’ensemble
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: bf047695c4ea82c4fbf1e9079b7443a5c9821e42
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
 
-# APERÇU {#overview}
+# Vue d’ensemble {#overview}
 
-Aujourd’hui, la [!DNL Marketo Measure] L’application ne prend en charge qu’une seule devise (en supposant qu’il s’agisse d’un dollar américain), alors que nous savons et sommes conscients que des clients dans le monde entier doivent déclarer leurs devises d’entreprise et d’utilisateur. Cette fonctionnalité permet aux utilisateurs de basculer entre différentes devises lorsqu’ils examinent les dépenses signalées ou les recettes de vente.
+Aujourd’hui, la [!DNL Marketo Measure] L’application ne prend en charge qu’une seule devise (en supposant qu’il s’agisse d’un dollar américain), alors que nous savons et sommes conscients que des clients dans le monde entier doivent déclarer leurs devises d’entreprise et d’utilisateur. Cette fonctionnalité permet aux utilisateurs de basculer entre les mêmes devises utilisées dans leur CRM lors de l’affichage des dépenses signalées ou des recettes de ventes dans [!DNL Marketo Measure].
 
 ## Disponibilité {#availability}
 
 Niveau 2 et supérieur.
 
 ## Exigences {#requirements}
+
+[!DNL Marketo Measure] extrait automatiquement le paramètre de devise du CRM du client. Configuration manuelle dans [!DNL Marketo Measure] pour correspondre au CRM n’est plus nécessaire. Le paramètre de devise se trouve dans la page &quot;Général&quot; sous &quot;CRM&quot;.
 
 Dans [!DNL Salesforce], &quot;Activer plusieurs devises&quot; doit être activé pour le client. Le client peut également sélectionner &quot;Oui, je souhaite activer la gestion avancée des devises&quot;.
 
