@@ -3,9 +3,9 @@ unique-page-id: 35586140
 description: Schéma de Data Warehouse - Marketo Measure - Documentation du produit
 title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: d1f1a3d1d0dd3111b984fbe9d0a8e8d3ed9289d2
+source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
 workflow-type: tm+mt
-source-wordcount: '22622'
+source-wordcount: '22610'
 ht-degree: 99%
 
 ---
@@ -4331,10 +4331,10 @@ Contacts importés à partir du système source.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Algorithme [!DNL Marketo Measure] permettant d’estimer la probabilité qu’un contact permettra la concrétisation d’une opportunité en fonction de l’âge et de l’étape.</p>
+        <p>Cette fonctionnalité a été abandonnée. Veuillez ne pas utiliser cette colonne.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>S/O</p>
       </td>
     </tr>
     <tr>
@@ -9557,10 +9557,10 @@ Prospects importés à partir du système source.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Algorithme [!DNL Marketo Measure] permettant d’estimer la probabilité qu’un prospect soit converti en fonction de l’âge et de l’étape.</p>
+        <p>Cette fonctionnalité a été abandonnée. Veuillez ne pas utiliser cette colonne.</p>
       </td>
       <td>
-        <p>.290034</p>
+        <p>S/O</p>
       </td>
     </tr>
     <tr>
@@ -10175,10 +10175,10 @@ Opportunités importées à partir du système source.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Algorithme [!DNL Marketo Measure] permettant d’estimer la probabilité qu’une opportunité aboutisse en fonction de l’âge et de l’étape.</p>
+        <p>Cette fonctionnalité a été abandonnée. Veuillez ne pas utiliser cette colonne.</p>
       </td>
       <td>
-        <p>0.8225108385086060000</p>
+        <p>S/O</p>
       </td>
     </tr>
     <tr>
