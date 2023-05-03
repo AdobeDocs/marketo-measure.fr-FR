@@ -1,9 +1,9 @@
 ---
 description: "[!DNL Salesforce] Consolidation des modules - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Salesforce] Consolidation des modules"
-source-git-commit: 279d9a18dca59de9ad99113624f4c9b2bcea0d01
+source-git-commit: e0a471a8e74cdba23a01bea02054c82ede82de9b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Nous comprenons que ce changement peut nécessiter des ajustements, et nous nous
       * Requête V2_EXT :
          * bizible2_ext__Ad_Content_FT__c contient le canal d’extension
 
-![](assets/salesforce-package-consolidation-1.png)
+![](assets/package-consolidation-1.png)
 
 * Requête correspondante dans le package consolidé :
    * bizible2__Touchpoint_Position__c contient FT AND AND
