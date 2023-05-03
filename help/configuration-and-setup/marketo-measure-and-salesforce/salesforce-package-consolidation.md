@@ -1,9 +1,7 @@
 ---
 description: "[!DNL Salesforce] Consolidation des modules - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Salesforce] Consolidation des modules"
-hide: true
-hidefromtoc: true
-source-git-commit: 502a08b9a670c0b9a997a0fbb238a4db865f79d2
+source-git-commit: 279d9a18dca59de9ad99113624f4c9b2bcea0d01
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
