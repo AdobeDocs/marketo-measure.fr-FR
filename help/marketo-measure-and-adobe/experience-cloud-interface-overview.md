@@ -2,16 +2,16 @@
 description: Interface de Adobe Experience Cloud - [!DNL Marketo Measure] - Documentation du produit
 title: Interface de Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
+source-git-commit: a14b977fc4c3d2f3eccd2c03bc8d96c2a71e6bc6
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '296'
 ht-degree: 1%
 
 ---
 
 # Interface de Adobe Experience Cloud {#unified-shell-overview}
 
-L’interface de Adobe Experience Cloud aligne l’aspect &quot;shell&quot; des applications et services Adobe Experience Cloud. Mais c&#39;est plus qu&#39;un nouveau design. Il s’agit d’une application d’une seule page qui offre une expérience utilisateur sur une seule instance.
+L’interface de Adobe Experience Cloud aligne l’aspect des applications et services Adobe Experience Cloud. Mais c&#39;est plus qu&#39;un nouveau design. Il s’agit d’une application d’une seule page qui offre une expérience utilisateur sur une seule instance.
 
 ## Flux utilisateur {#user-flow}
 
