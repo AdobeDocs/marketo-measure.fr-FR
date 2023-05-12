@@ -2,16 +2,16 @@
 description: Gestion des domaines - [!DNL Marketo Measure] - Documentation du produit
 title: Gestion des domaines
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
 
 # Gestion des domaines {#domain-management}
 
-Pour les clients compatibles avec IMS exécutés [!DNL Marketo Measure] dans le Shell unifié, [!DNL Marketo Measure] fournit une interface qui permet aux utilisateurs de gérer leur propre liste de domaines. [!DNL Marketo Measure] Les utilisateurs doivent d’abord vérifier tous les domaines dont ils souhaitent effectuer le suivi dans la variable [Adobe Admin Console](https://adminconsole.adobe.com/). Une fois les domaines vérifiés dans le Admin Console, les utilisateurs peuvent gérer si [!DNL Marketo Measure] utilise ces domaines pour effectuer le suivi du trafic sur le site web.
+Pour les clients compatibles avec IMS exécutés [!DNL Marketo Measure] dans l’interface Experience Cloud, [!DNL Marketo Measure] fournit une interface qui permet aux utilisateurs de gérer leur propre liste de domaines. [!DNL Marketo Measure] Les utilisateurs doivent d’abord vérifier tous les domaines dont ils souhaitent effectuer le suivi dans la variable [Adobe Admin Console](https://adminconsole.adobe.com/). Une fois les domaines vérifiés dans le Admin Console, les utilisateurs peuvent gérer si [!DNL Marketo Measure] utilise ces domaines pour effectuer le suivi du trafic sur le site web.
 
 ## Ajout de domaines dans Admin Console {#adding-domains-in-admin-console}
 
@@ -50,7 +50,7 @@ Les statuts de tracking peuvent être les suivants :
 
 Le survol d’un élément d’état individuel déclenche une info-bulle qui explique plus en détail cet état.
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
 **Que se passe-t-il lorsqu’un domaine est supprimé dans le Admin Console ?**
 
