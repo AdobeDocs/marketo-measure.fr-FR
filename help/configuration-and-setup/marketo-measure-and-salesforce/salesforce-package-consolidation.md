@@ -1,9 +1,10 @@
 ---
-description: "[!DNL Salesforce] Consolidation des modules - [!DNL Marketo Measure] - Documentation du produit"
-title: "[!DNL Salesforce] Consolidation des modules"
-source-git-commit: e0a471a8e74cdba23a01bea02054c82ede82de9b
+description: '''[!DNL Salesforce] Consolidation des modules - [!DNL Marketo Measure] - Documentation du produit"'
+title: '''[!DNL Salesforce] Consolidation des modules'
+exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+source-git-commit: dd3795288b1d579b078a32c78c9f08fd67a5f0e1
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,11 @@ En raison de cette consolidation, les modules V1, V2_EXT, V2_Security et tous le
 ## Nouveau package consolidé {#new-consolidated-package}
 
 Le nouveau package V2 consolidé intègre toutes les fonctionnalités des packages précédents, offrant ainsi une meilleure expérience utilisateur. Ce module mis à jour permet un suivi plus efficace des performances marketing et commerciales et permet d’obtenir des informations plus précises sur le comportement des clients.
+
+Nous avons ajouté deux nouveaux champs pour améliorer vos capacités de reporting :
+
+* form_name: Désormais disponible dans les objets BT/BAT, ce champ permet aux utilisateurs de créer des rapports en fonction des noms de formulaire.
+* user_touchpoint_id: Ce champ permet aux utilisateurs de créer des rapports avec des nombres de points de contact utilisateur uniques.
 
 ## Assistance et transition {#support-and-transition}
 
