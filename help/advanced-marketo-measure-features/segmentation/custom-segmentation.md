@@ -3,9 +3,9 @@ unique-page-id: 18874604
 description: Segmentation personnalisée - [!DNL Marketo Measure] - Documentation du produit
 title: Segmentation personnalisée
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,10 @@ Les segments permettent de filtrer les données dans la variable [!DNL Marketo M
 **Pourquoi la segmentation personnalisée ?**
 
 La fonction Segmentation personnalisée vous permet de filtrer les points de contact par catégorie et par cinq segments au maximum. Selon l’objet vers lequel pointe votre tiret de retour sur investissement (prospect ou contact), vous pouvez créer des segments en fonction des champs figurant dans l’objet de piste/contact. Vous pourrez également créer des segments en fonction de n’importe quel champ de l’objet d’opportunité.
+
+>[!NOTE]
+>
+>La segmentation personnalisée vous permet de filtrer les points de contact par catégories (nom du filtre) et règles (valeurs de filtre). Le niveau 1 obtient un segment, les niveaux 2 et plus dix.
 
 **Quand la fonction Segmentation personnalisée est-elle utile ?**
 
