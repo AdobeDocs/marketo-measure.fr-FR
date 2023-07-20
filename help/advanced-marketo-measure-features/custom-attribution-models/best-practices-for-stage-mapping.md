@@ -1,17 +1,17 @@
 ---
 description: Bonnes pratiques pour le mappage des étapes - [!DNL Marketo Measure] - Documentation du produit
-title: Bonnes pratiques pour le mappage des étapes
+title: Bonnes pratiques relatives au mappage des étapes
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: b8388c4f89734f55ec779ef23b75b34b07da6f58
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 0%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
-# Bonnes pratiques pour le mappage des étapes {#best-practices-for-stage-mapping}
+# Bonnes pratiques relatives au mappage des étapes {#best-practices-for-stage-mapping}
 
-## APERÇU {#overview}
+## Vue d’ensemble {#overview}
 
 La section Mappage des environnements intermédiaires de votre [!DNL Marketo Measure] le compte décrit les étapes qui [!DNL Marketo Measure] extrait automatiquement de votre gestion de la relation client et des étapes personnalisées que vous avez définies en cas d’utilisation du modèle d’attribution personnalisé. La validité de votre [!DNL Marketo Measure] Les données reposent sur l’ordre correct de ces étapes afin que [!DNL Marketo Measure] peut comprendre précisément votre entonnoir et la progression des enregistrements dans cet entonnoir.
 
@@ -33,6 +33,7 @@ Que vous évaluiez votre mappage dans l’environnement intermédiaire pour la p
 * Notez que la section Étape d’opportunité est divisée en Perdu, Ouvert et Gagnant ; vérifier que les étapes se trouvent dans la section d’étape appropriée ;
    * Le fait qu’une étape se trouve dans une section d’étape incorrecte peut entraîner des erreurs graves. [!DNL Marketo Measure] données sur les recettes ou les recettes de pipeline
 * Évitez d’utiliser des noms d’étape en double (notre système les détectera et en supprimera automatiquement un).
+* Pour définir une règle qui recherche des valeurs NULL, laissez la zone de texte Valeur vide.
 
 ## Bonnes pratiques relatives à la maintenance {#best-practices-for-maintenance}
 
