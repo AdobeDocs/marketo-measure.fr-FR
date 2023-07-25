@@ -1,16 +1,16 @@
 ---
 unique-page-id: 18874678
 description: Compréhension [!DNL Marketo Measure] Balisage AdWords - [!DNL Marketo Measure] - Documentation du produit
-title: Compréhension [!DNL Marketo Measure] Balisage AdWords
+title: Comprendre le balisage AdWords dans [!DNL Marketo Measure]
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 1%
 
 ---
 
-# Compréhension [!DNL Marketo Measure] Balisage AdWords {#understanding-marketo-measure-adwords-tagging}
+# Comprendre le balisage AdWords dans[!DNL Marketo Measure] {#understanding-marketo-measure-adwords-tagging}
 
 Pour effectuer le suivi de vos publicités à un niveau très granulaire, les URL de destination de l’annonce doivent être uniques. Pour ce faire, procédez comme suit : [!DNL Marketo Measure] Le balisage automatique ajoute automatiquement des paramètres de suivi aux URL de destination de l’annonce de votre [!DNL AdWords] publicités. Regardons un exemple ci-dessous.
 
@@ -92,7 +92,7 @@ Il existe deux modèles de suivi [!DNL Marketo Measure] recommande d’utiliser 
 
    ![](assets/6-1.png)
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
 **Q : De quelles autorisations l’utilisateur connecté a-t-il besoin ?**
 
@@ -105,6 +105,10 @@ A : 6 heures
 **Q : Combien de temps faut-il pour importer des données publicitaires ?**
 
 A : 4 heures
+
+**Q : Dans le cas des annonces de recherche dynamique, pouvons-nous suivre la combinaison du titre, de la description, etc. dans le créatif qui a été diffusé ?**
+
+A : Nous ne pouvons pas récupérer les détails créatifs individuels pour les annonces de recherche dynamique, mais si le balisage automatique est activé, nous pouvons toujours obtenir l’identifiant créatif et les recettes d’attributs.
 
 >[!NOTE]
 >

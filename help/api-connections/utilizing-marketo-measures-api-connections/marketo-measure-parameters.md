@@ -3,14 +3,14 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Paramètres - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] Paramètres"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Paramètres {#marketo-measure-parameters}
+# Paramètres [!DNL Marketo Measure] {#marketo-measure-parameters}
 
 ## [!DNL Marketo Measure] Paramètres expliqués {#marketo-measure-parameters-explained}
 
@@ -39,7 +39,7 @@ Exemple d’URL avec [!DNL Marketo Measure] parameters:
    * Les types de correspondance de mots-clés permettent de contrôler quelles recherches déclenchent votre publicité. Par exemple, vous pouvez utiliser une correspondance large pour afficher votre publicité auprès d’un large public ou une correspondance exacte pour éclairer des groupes de clients spécifiques.
    * Les trois types de correspondance sont les suivants : large, flou et exact.
 
->[!NOTE]
+>[!TIP]
 >
 >Pour plus d’informations sur les types de correspondance, [voici un article pertinent sur AdWords](https://support.google.com/adwords/answer/2497836?hl=en){target="_blank"}.
 
@@ -49,6 +49,10 @@ Exemple d’URL avec [!DNL Marketo Measure] parameters:
 
 * `_bg={adgroupID}`
    * Représente l’identifiant du groupe publicitaire auquel la publicité appartient.
+
+>[!NOTE]
+>
+>Les paramètres d’URL de redirection ne sont pas pris en charge.
 
 ## Paramètres Bing Ads {#bing-ads-parameters}
 
