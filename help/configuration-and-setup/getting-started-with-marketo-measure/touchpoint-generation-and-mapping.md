@@ -4,7 +4,7 @@ description: Génération et mappage des points de contact - [!DNL Marketo Measu
 title: Génération et mappage des points de contact
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 2%
@@ -47,7 +47,7 @@ Le processus de mappage des points de contact répond à la question : &quot;Une
 >[!MORELIKETHIS]
 >
 >* [Mappage des points de contact en ligne à [!DNL Marketo Measure] Canaux/Sous-canaux](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [Synchronisation des campagnes CRM depuis SFDC](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)
+>* [Synchronisation des campagnes CRM depuis SFDC](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
 >* [Synchronisation des campagnes CRM dans [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 >* [Mappage des campagnes CRM à [!DNL Marketo Measure] Canaux/Sous-canaux](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Création de points de contact à partir des activités de vente](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)

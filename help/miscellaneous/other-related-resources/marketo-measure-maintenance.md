@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Maintenance - [!DNL Marketo Measure] - Docu
 title: "[!DNL Marketo Measure] Maintenance"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 **Synchroniser les points de contact des acheteurs pour les nouvelles campagnes hors ligne (2x/mois)**
 
-Comme vous l&#39;avez appris lors de l&#39;intégration : [!DNL Marketo Measure] obtient des informations sur vos efforts de marketing hors ligne en synchronisant avec les campagnes de la gestion de la relation client. Lorsque votre entreprise lance de nouvelles campagnes, veillez à activer les points de contact d’achat pour chaque campagne, le cas échéant. Consulter [cet article](/help/channel-tracking-and-setup/offline-channels/syncing-offline-campaigns.md)pour plus d’informations.
+Comme vous l&#39;avez appris lors de l&#39;intégration : [!DNL Marketo Measure] obtient des informations sur vos efforts de marketing hors ligne en synchronisant avec les campagnes de la gestion de la relation client. Lorsque votre entreprise lance de nouvelles campagnes, veillez à activer les points de contact d’achat pour chaque campagne, le cas échéant. Consulter [cet article](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)pour plus d’informations.
 
 **Dépense de chargement pour tous les canaux (1x/mois)**
 
