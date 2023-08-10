@@ -1,22 +1,23 @@
 ---
 unique-page-id: 18874779
 description: Modèle et configuration d’attribution personnalisée - [!DNL Marketo Measure] - Documentation du produit
-title: Modèle et configuration d’attribution personnalisée
+title: Configuration et modèle et d’attribution personnalisés
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution, Custom Models
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Modèle et configuration d’attribution personnalisée {#custom-attribution-model-and-setup}
+# Configuration et modèle et d’attribution personnalisés {#custom-attribution-model-and-setup}
 
 Consultez ci-dessous un aperçu de la [!DNL Marketo Measure] modèle d’attribution personnalisé et comment le configurer.
 
 ## Modèle d’attribution personnalisé {#custom-attribution-model}
 
-Le [!DNL Marketo Measure] Le modèle d’attribution personnalisée permet aux utilisateurs de choisir les points de contact ou les étapes personnalisées à inclure dans le modèle. Les utilisateurs peuvent contrôler le pourcentage du crédit de recettes attribué à ces points de contact et scènes, ou peuvent utiliser les valeurs de pourcentage d’attribution suggérées par la variable [!DNL Marketo Measure] Modèle d’apprentissage automatique.
+La variable [!DNL Marketo Measure] Le modèle d’attribution personnalisée permet aux utilisateurs de choisir les points de contact ou les étapes personnalisées à inclure dans le modèle. Les utilisateurs peuvent contrôler le pourcentage du crédit de recettes attribué à ces points de contact et scènes, ou peuvent utiliser les valeurs de pourcentage d’attribution suggérées par la variable [!DNL Marketo Measure] Modèle d’apprentissage automatique.
 
 ## Comment configurer votre modèle d’attribution personnalisé {#how-to-set-up-your-custom-attribution-model}
 
@@ -30,7 +31,7 @@ Le [!DNL Marketo Measure] Le modèle d’attribution personnalisée permet aux u
 
    >[!NOTE]
    >
-   >Vous pouvez effectuer jusqu’à six étapes personnalisées (sans inclure les valeurs par défaut) : FT, LC, OC, Fermé).
+   >Vous pouvez effectuer jusqu’à six étapes personnalisées (sans inclure les valeurs par défaut : FT, LC, OC, Fermé).
 
    ![](assets/1-1.png)
 

@@ -3,10 +3,11 @@ unique-page-id: 18874578
 description: Campagnes et membres de campagne - [!DNL Marketo Measure] - Documentation du produit
 title: Campagnes et membres de campagne
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 ## Activation des points de contact {#enabling-touchpoints}
 
-Le [!DNL Marketo Measure] [!DNL Salesforce] Le package comprend un champ intitulé &quot;Activer les points de contact de l’acheteur&quot; sur l’objet Campaign. Une fois que le champ a été ajouté à la mise en page, il se présente comme suit :
+La variable [!DNL Marketo Measure] [!DNL Salesforce] Le package comprend un champ intitulé &quot;Activer les points de contact de l’acheteur&quot; sur l’objet Campaign. Une fois que le champ a été ajouté à la mise en page, il se présente comme suit :
 
 ![](assets/1.png)
 
@@ -30,7 +31,7 @@ Les options disponibles dans la liste de sélection sont les suivantes :
 
 Pour que la variable [!DNL Marketo Measure] pour créer un point de contact. Sans adresse email, [!DNL Marketo Measure] n’affectera pas de point de contact au membre de la campagne.
 
-## Dates de synchronisation de campagne {#campaign-sync-dates}
+## Date de synchronisation de campagne {#campaign-sync-dates}
 
 Avec l&#39;installation du package, [!DNL Marketo Measure] comprend également 2 champs de date sur l’objet Campaign : Date de début du point de contact et Date de fin du point de contact.
 
@@ -42,23 +43,23 @@ La date de début peut être utilisée dans le cas où une campagne existante es
 
 ## Cas d’utilisation de la date de fin du point de contact {#use-case-for-touchpoint-end-date}
 
-Si vous utilisez [!DNL Marketo Measure], vous avez utilisé une plateforme d’automatisation marketing qui a suivi les interactions numériques de Leads (envois de formulaires IE), puis téléchargé ces Leads dans une [!DNL Saleforce] Dans Campaign, vous pouvez utiliser le champ Date de fin du point de contact . Vous définiriez la date de fin du point de contact comme date de début avec [!DNL Marketo Measure] et activez Points de contact d’achat, l’interaction numérique de ces Leads sera alors créée comme point de contact. La raison pour laquelle vous définirez la Date de fin du point de contact comme Date de début avec [!DNL Marketo Measure] car, à partir de maintenant, nous suivrons ces interactions numériques à travers notre javascript.
+Si vous utilisez [!DNL Marketo Measure], vous avez utilisé une plateforme d’automatisation marketing qui a suivi les interactions numériques de Leads (envois de formulaires IE), puis téléchargé ces Leads dans une [!DNL Saleforce] Dans Campaign, vous pouvez utiliser le champ Date de fin du point de contact . Vous définiriez la date de fin du point de contact comme date de début avec [!DNL Marketo Measure] et activez Points de contact d’achat, l’interaction numérique de ces Leads sera alors créée en tant que point de contact. La raison pour laquelle vous définirez la Date de fin du point de contact comme Date de début avec [!DNL Marketo Measure] car, à partir de maintenant, nous suivrons ces interactions numériques à travers notre javascript.
 
 ![](assets/3.png)
 
 ## Membres de la campagne {#campaign-members}
 
-Les membres de campagne sont imbriqués sous [!UICONTROL Campagnes]et sont liés à un prospect ou à un contact. Un prospect ou un contact ne peut être ajouté qu&#39;une seule fois à une campagne, ce qui peut poser problème en fonction du cas d&#39;utilisation de la campagne. Lorsqu’une campagne est synchronisée, l’appartenance à la campagne est utilisée comme une activité marketing mise dans le parcours de point de contact et traitée comme un remplissage de formulaire.
+Les membres de campagne sont imbriqués sous [!UICONTROL Campagnes], et sont liés à un prospect ou à un contact. Un prospect ou un contact ne peut être ajouté qu&#39;une seule fois à une campagne, ce qui peut poser problème en fonction du cas d&#39;utilisation de la campagne. Lorsqu’une campagne est synchronisée, l’appartenance à la campagne est utilisée comme une activité marketing mise dans le parcours de point de contact et traitée comme un remplissage de formulaire.
 
 ## État du point de contact de l’achat {#buyer-touchpoint-status}
 
-Si activée, [!DNL Marketo Measure] poussera une valeur d’état sur le membre Campaign dans 4 champs différents inclus dans le package installé : État du point de contact (piste), État du point de contact (contact), État du point de contact (opportunité) et Date d’état du point de contact. Cela permet aux clients de vérifier si un point de contact a été créé ou non en tant que point de contact d’achat ou d’attribution d’achat, selon l’objet auquel il est lié. La Date d’état du point de contact est simplement la dernière date à laquelle l’état a été mis à jour sur le membre de Campaign.
+Si activée, [!DNL Marketo Measure] poussera une valeur d’état sur le membre de Campaign dans 4 champs différents inclus dans le package installé : État du point de contact (piste), État du point de contact (contact), État du point de contact (opportunité) et Date d’état du point de contact. Cela permet aux clients de vérifier si un point de contact a été créé ou non en tant que point de contact d’achat ou d’attribution d’achat, selon l’objet auquel il est lié. La Date d’état du point de contact est simplement la dernière date à laquelle l’état a été mis à jour sur le membre de Campaign.
 
 ![](assets/4.png)
 
 ## Date du point de contact de l’achat {#buyer-touchpoint-date}
 
-Avec l&#39;installation du package, [!DNL Marketo Measure] comprend également un champ sur le membre de campagne intitulé &quot;Date du point de contact de l’achat&quot;. Cela permet à l’utilisateur de remplacer la date à laquelle la variable [!DNL Marketo Measure] utilisera pour la date du point de contact sur l’enregistrement du point de contact.
+Avec l&#39;installation du package, [!DNL Marketo Measure] comprend également un champ sur le membre de campagne intitulé &quot;Date du point de contact de l’achat&quot;. Cela permet à l’utilisateur de remplacer la date qui [!DNL Marketo Measure] utilisera pour la date du point de contact sur l’enregistrement du point de contact.
 
 Cela peut s’avérer nécessaire si une liste a été chargée plusieurs jours/semaines/mois après qu’un événement se soit réellement produit. Il existe des moyens de mettre à jour tous les enregistrements à la fois, comme expliqué ci-dessous.
 
@@ -75,7 +76,7 @@ Si la variable [!UICONTROL Type de synchronisation] est définie sur &quot;Inclu
 
 * Date du point de contact de l’achat
 * Date première réponse
-   * La date de première réponse est automatiquement définie dès que l’état est défini sur &quot;Répondu&quot; et est une date standard. [!DNL Salesforce] champ qui ne peut pas être modifié
+   * La date de première réponse est automatiquement définie dès que l’état est défini sur &quot;Répondu&quot; et est une date standard. [!DNL Salesforce] champ non modifiable
 
 * Date de création du membre de campagne
 
@@ -121,6 +122,6 @@ Pour contourner ce problème, procédez comme suit : [!DNL Marketo Measure] a cr
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Université : Champs d’objet de campagne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Université : champs d’objet de campagne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
 >
->[[!DNL Marketo Measure] Université : Mappage des canaux hors ligne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>[[!DNL Marketo Measure] Université : mappage des canaux hors ligne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)

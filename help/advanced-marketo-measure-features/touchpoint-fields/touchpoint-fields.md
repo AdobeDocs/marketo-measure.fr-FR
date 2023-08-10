@@ -1,16 +1,17 @@
 ---
 unique-page-id: 37355835
 description: Champs de point de contact - [!DNL Marketo Measure] - Documentation du produit
-title: Champs du Touchpoint
+title: Champs de point de contact
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1946'
 ht-degree: 0%
 
 ---
 
-# Champs du Touchpoint {#touchpoint-fields}
+# Champs de point de contact {#touchpoint-fields}
 
 Historiquement, lorsque les clients embarquent avec [!DNL Marketo Measure] et dans le cas où nous n’avons pas d’intégration de balisage direct, notre équipe du service client explique à nos clients comment baliser correctement leurs pages d’entrée afin qu’elles utilisent le format UTM approprié et que nous puissions résoudre leurs publicités. Certains de ces clients n’utilisent pas les UTM, mais utilisent plutôt leurs propres paramètres de balisage, ce qui signifie qu’il peut s’avérer très long de modifier toutes leurs landing pages sur tous leurs réseaux publicitaires avec une nouvelle structure de balisage qui [!DNL Marketo Measure] applique . Afin de s’adapter à leur structure de balisage, nous acceptons désormais des paramètres personnalisés qui peuvent être mappés avec nos définitions de règles. L’objectif est de s’adapter à l’utilisation par les clients de leurs paramètres de suivi personnalisés afin que nous n’ayons pas à les obliger à modifier leur structure d’URL.
 
@@ -30,17 +31,17 @@ Dans la [!DNL Marketo Measure] Dans le menu Paramètres, accédez à la page Cha
 
 ## Comment {#how-to}
 
-Pour créer un champ calculé, n’oubliez pas que l’utilisateur peut effectuer trois actions différentes : extrait, mappe et concatène. Ils sont également appelés opérateurs pour définir un champ calculé.
+Pour créer un champ calculé, n’oubliez pas que l’utilisateur peut effectuer trois actions différentes : extraire, mapper et concaténer. Ils sont également appelés opérateurs pour définir un champ calculé.
 
 Extractions
 
-L’opérateur extrait la valeur d’un champ à partir d’un autre emplacement, par exemple : un champ Campaign, un champ Lead ou dans un cas d’utilisation plus avancé, [extraire des paramètres personnalisés de la landing page ;](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+L&#39;opérateur extrait la valeur d&#39;un champ depuis un autre emplacement, tel que : un champ de campagne, un champ de piste ou dans un cas pratique plus avancé, [extraire des paramètres personnalisés de la landing page ;](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Exemple de #1**
 
 Il existe un champ personnalisé sur le contact, campaign_source__c, que le client souhaite déposer sur le point de contact à des fins de création de rapports. Vous pouvez définir une règle pour créer un champ calculé appelé &quot;Source de campagne&quot; et y déposer la valeur.
 
-Objectif : Utilisez la valeur d’un champ personnalisé et placez-la sur l’objet Point de contact pour faciliter la création de rapports.
+Objectif : utilisez la valeur d’un champ personnalisé et placez-la sur l’objet Point de contact pour faciliter la création de rapports.
 
 * Créez un champ calculé et étiquetez-le &quot;Source de campagne&quot;.
 * Définissez la règle en commençant par la recherche du champ Contact.Campaign_Source__c .
@@ -98,7 +99,7 @@ Essayons un exemple similaire où nous extrayons un code de suivi tel que : `htt
 
 **Objectif :** Créez plusieurs champs calculés pour &quot;Pays cible&quot; et &quot;Identifiant de campagne personnalisé&quot; avec les valeurs respectives des paramètres.
 
-* Créez un champ calculé et étiquetez-le &quot;Pays cible&quot;.
+* Créez un champ calculé et étiquetez-le &quot;Pays cible&quot;
 * Définissez la règle en commençant par la recherche du champ Touchpoint.Session.LandingPage .
 * Utilisez l’opérateur &quot;extracts&quot; puisque nous devons extraire la valeur du paramètre .
 * Pour extraire la valeur &quot;US&quot;, nous définirons la valeur &quot;country=(\w{2})&quot;
@@ -134,7 +135,7 @@ Il existe des campagnes que vous avez créées pour une &quot;promotion de fin d
 
 Maintenant que nous avons appris à extraire et à mapper les champs, combinons ces actions pour extraire d&#39;abord une valeur d&#39;un paramètre, puis associons-la à un nom convivial qui a un peu plus de sens. Commençons par cette landing page : `https://www.adobe.com/blog/marketing-revenue-reporting-overview?BZ=04-01-09-03-10`.
 
-**Objectif :** Créez plusieurs champs calculés, où le premier numéro correspond à une région, le second à un produit, le troisième à une initiative, le quatrième à un personnage et le cinquième à une plateforme multimédia. Associez ensuite la valeur numérique à un &quot;nom convivial&quot;.
+**Objectif :** Créez plusieurs champs calculés, où le premier numéro correspond à une région, le second à un produit, le troisième à une initiative, le quatrième à un personnage et le cinquième à une plateforme multimédia. Associez ensuite la valeur numérique à un nom convivial.
 
 * Créez un champ calculé et étiquetez-le &quot;Région&quot;.
 * Définissez la règle en commençant par la recherche du champ Touchpoint.Session.LandingPage .
@@ -144,13 +145,13 @@ Maintenant que nous avons appris à extraire et à mapper les champs, combinons 
    * **(** marque le début de l&#39;extraction
 
       * Puisque nous extrayons uniquement les 4, seuls les premiers chiffres ont la parenthèse ouverte
+
    * **)** marque la fin de l’extraction
 
-      * Puisque nous extrayons uniquement les 4, seuls les premiers chiffres comportent les parenthèses fermées
+      * Puisque nous extrayons uniquement les 4, seuls les premiers chiffres comportent des parenthèses fermées
+
    * **\d** nous dit que nous extrayons un &quot;chiffre&quot;
    * **{2}** est le nombre de caractères que nous extrayons
-
-
 
 * Cliquez sur [!UICONTROL Enregistrer]. Vous devez enregistrer votre nouveau champ pour pouvoir l’utiliser pour la règle suivante !
 * Ensuite, nous allons mapper toutes les valeurs possibles pour les premiers chiffres à ses noms conviviaux.
@@ -196,7 +197,7 @@ La règle fait référence au même champ de point de contact et recherche des v
 
 ![](assets/eleven.png)
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
 **Y a-t-il un nombre maximal de champs de point de contact que nous pouvons créer ?**
 

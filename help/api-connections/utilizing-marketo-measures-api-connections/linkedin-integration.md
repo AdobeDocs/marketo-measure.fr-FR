@@ -3,7 +3,8 @@ unique-page-id: 35586080
 description: Intégration linkedIn - [!DNL Marketo Measure] - Documentation du produit
 title: Intégration linkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: APIs, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '2603'
 ht-degree: 2%
@@ -12,13 +13,13 @@ ht-degree: 2%
 
 # Intégration linkedIn {#linkedin-integration}
 
-## APERÇU {#overview}
+## Vue d’ensemble {#overview}
 
-Le [!DNL Marketo Measure] l’intégration à LinkedIn se fait en deux parties :
+La variable [!DNL Marketo Measure] l’intégration à LinkedIn se fait en deux parties :
 
-Contenu sponsorisé : L’intégration du contenu sponsorisé permet [!DNL Marketo Measure] pour baliser les URL de destination sur [!DNL LinkedIn] publicités, qui permettent [!DNL Marketo Measure] pour suivre un utilisateur tout au long de son parcours de point de contact et mapper l’activité à [!DNL LinkedIn] Campaign et Creative. Cela fournit aux clients des informations sur le retour sur investissement de leur [!DNL LinkedIn] activité.
+Contenu sponsorisé : l’intégration de contenu sponsorisé permet [!DNL Marketo Measure] pour baliser les URL de destination sur [!DNL LinkedIn] publicités, qui permettent [!DNL Marketo Measure] pour suivre un utilisateur tout au long de son parcours de point de contact et mapper l’activité à [!DNL LinkedIn] Campaign et Creative. Cela fournit aux clients des informations sur le retour sur investissement de leur [!DNL LinkedIn] activité.
 
-Lead Gen Forms : Grâce à l’intégration à LinkedIn Lead Gen Forms, Marketo Measure donne des informations sur les formulaires qui ont été envoyés par le biais de la plateforme LinkedIn. Ces champs de formulaire correspondent aux pistes de votre CRM ou [!DNL Marketo Engage] afin qu’ils soient éligibles à l’attribution. Grâce aux informations sur les formulaires, les créatifs et les campagnes qui ont contribué à générer les formulaires, les équipes peuvent désormais optimiser davantage leur marketing LinkedIn et leurs dépenses publicitaires.
+Forms Lead Gen : grâce à l’intégration à LinkedIn Lead Gen Forms, Marketo Measure obtient des informations sur les formulaires qui ont été envoyés par le biais de la plateforme LinkedIn. Ces champs de formulaire correspondent aux pistes de votre CRM ou [!DNL Marketo Engage] afin qu’ils soient éligibles à l’attribution. Grâce aux informations sur les formulaires, les créatifs et les campagnes qui ont contribué à générer les formulaires, les équipes peuvent désormais optimiser davantage leur marketing LinkedIn et leurs dépenses publicitaires.
 
 ## Disponibilité {#availability}
 
@@ -28,7 +29,7 @@ Disponible pour tous les clients.
 
 **Rôles de Campaign Manager**
 
-Pour [!DNL Marketo Measure] pour pouvoir télécharger les données de coût des publicités et publicités, vous devez disposer de l’un des rôles suivants dans le Gestionnaire de campagnes :
+Pour [!DNL Marketo Measure] Pour pouvoir télécharger les données de coût des publicités et publicités, vous devez disposer de l’un des rôles suivants dans le Gestionnaire de campagnes :
 
 * Administrateur de facturation
 * Responsable des comptes
@@ -36,12 +37,12 @@ Pour [!DNL Marketo Measure] pour pouvoir télécharger les données de coût des
 
 En savoir plus : [Rôles et fonctions utilisateur dans Campaign Manager](https://www.linkedin.com/help/lms/answer/a425731/user-roles-and-functions-in-campaign-manager).
 
-**Rôles d’administration des médias payés**
+**Rôles d’administration des médias payants**
 
 Pour [!DNL Marketo Measure] pour pouvoir créer/mettre à jour des créatifs sponsorisés, vous devez disposer de l’un des rôles d’administrateur de médias payants suivants :
 
 * Affiche de contenu sponsorisé
-* Gestionnaire Forms du prospect
+* Gestionnaire Forms de génération de pistes
 
 En savoir plus : [Rôles d’administration des pages linkedIn](https://www.linkedin.com/help/linkedin/answer/4783/linkedin-page-admin-roles-overview).
 
@@ -59,7 +60,7 @@ En savoir plus : [Rôles d’administration des pages linkedIn](https://www.link
 
 [!DNL Marketo Measure] prend en charge :
 
-**Contenu sponsorisé :** Le contenu sponsorisé vous permet de diffuser du contenu au [!DNL LinkedIn] flux de membres au-delà de ceux qui suivent votre société. Le contenu sponsorisé peut être ciblé vers une audience spécifique et peut aider les annonceurs à atteindre [!DNL LinkedIn] membres quel que soit l’endroit et le moment où ils s’engagent sur la [!DNL LinkedIn] plateforme sur ordinateur de bureau, mobile et tablette. Le contenu sponsorisé avec Lead Gen Forms est pris en charge.
+**Contenu sponsorisé :** Le contenu sponsorisé vous permet de diffuser du contenu au [!DNL LinkedIn] flux de membres au-delà de ceux qui suivent votre société. Le contenu sponsorisé peut être ciblé vers une audience spécifique et peut aider les annonceurs à atteindre [!DNL LinkedIn] membres quel que soit l’endroit et le moment où ils s’engagent sur la page [!DNL LinkedIn] plateforme sur ordinateur de bureau, mobile et tablette. Le contenu sponsorisé avec Lead Gen Forms est pris en charge.
 
 Types de formats d’annonces de contenu sponsorisé pris en charge par [!DNL Marketo Measure] sont des publicités avec image unique et des publicités vidéo (via Lead Gen Forms). En raison de la complexité du schéma, nous ne prenons pas en charge les annonces carrousel.
 
@@ -75,13 +76,13 @@ Types de formats d’annonces de contenu sponsorisé pris en charge par [!DNL Ma
 
 >[!NOTE]
 >
->Avant la première utilisation, ce paramètre de fonctionnalité doit être activé en accédant à [!DNL Marketo Measure] [!UICONTROL Paramètres] > [!UICONTROL Intégrations] > [!UICONTROL Publicités] > [!UICONTROL Activation de LinkedIn Lead Gen Forms].
+>Avant la première utilisation, ce paramètre de fonctionnalité doit être activé en accédant à [!DNL Marketo Measure] [!UICONTROL Paramètres] > [!UICONTROL Intégrations] > [!UICONTROL Publicités] > [!UICONTROL Activer LinkedIn Lead Gen Forms].
 
 **[!DNL LinkedIn's]Exigences uniques en matière de balisage automatique**
 
 [!DNL Marketo Measure] peut vous aider à suivre les performances de votre campagne  en balisant automatiquement vos pages de destination.[!DNL LinkedIn]
 
-[!DNL Marketo Measure] rechercheront des créatifs avec un partage LinkedIn unique et ajouteront une `?_bl={creativeId}` à la fin.
+[!DNL Marketo Measure] rechercheront des créatifs avec un partage LinkedIn unique et ajouteront une `?_bl={creativeId}` à la fin de celle-ci.
 
 **Copie de partages**
 
@@ -89,7 +90,7 @@ Avec ceci [!DNL Marketo Measure/LinkedIn] Intégration, nous demandons aux clien
 
 Dès qu’un partage est trouvé partagé entre plusieurs créatifs, [!DNL Marketo Measure] doit passer par un processus de mise en pause, de copie et de rebalisage pour créer un ensemble unique. [!DNL Marketo Measure] arrêtera et archivera les créatifs en direct et effacera donc l’historique des publicités, y compris les impressions, les clics et les partages sur les réseaux sociaux, afin de tout baliser automatiquement correctement.
 
-aller de l&#39;avant, [!DNL Marketo Measure] recommande de ne pas dupliquer les [!DNL LinkedIn] Partage et conserve tous les créatifs et partages aussi uniques que possible afin que nous puissions simplement ajouter notre suivi sans avoir à effacer l’historique des publicités.
+aller de l&#39;avant, [!DNL Marketo Measure] recommande de ne pas dupliquer les [!DNL LinkedIn] Partage et conserve toutes les créations et tous les partages aussi uniques que possible afin que nous puissions simplement ajouter notre suivi sans avoir à effacer l’historique des publicités.
 
 **URL raccourcies**
 
@@ -102,15 +103,15 @@ Utiliser énormément d’URL abrégées peut avoir des conséquences sur vos co
 Commençons par quelques exemples. Disons que nous avons....
 
 Creative A : Partager 123\
-Creative B : Partage 234\
-Creative C : Partage 234\
-Creative D : Partage 234
+Creative B : Partager 234\
+Creative C : Partager 234\
+Creative D : Partager 234
 
 ![](assets/two.png)
 
-`1)` [!DNL Marketo Measure] consultera d’abord toutes les campagnes, tous les créatifs et tous les partages avec un statut &quot;Principal&quot;. [!DNL Marketo Measure] ne marquera pas les publicités suspendues, archivées ou annulées. Si une publicité a été suspendue, définissez sur [!UICONTROL principal], nous la marquerons une fois de plus principale. Si nous pouvons trouver un partage unique, c’est-à-dire qu’il n’est pas utilisé sur plusieurs créatifs ou campagnes (par exemple, Creative A : Share 123), [!DNL Marketo Measure] ajoutera notre paramètre personnalisé `>> ?_bl={creativeId}` à l’URL de partage.
+`1)` [!DNL Marketo Measure] consultera d’abord toutes les campagnes, tous les créatifs et tous les partages avec un statut &quot;Principal&quot;. [!DNL Marketo Measure] ne marquera pas les publicités suspendues, archivées ou annulées. Si une publicité a été suspendue, définissez sur [!UICONTROL principal], nous la marquerons une fois de plus principale. Si nous pouvons trouver un partage unique, ce qui signifie qu’il n’est pas utilisé sur plusieurs créatifs ou campagnes (par exemple, Creative A : Partager 123), [!DNL Marketo Measure] ajoutera notre paramètre personnalisé `>> ?_bl={creativeId}` à l’URL de partage.
 
-`2)` Maintenant, si la Partage a été partagée et a perdu son unicité (par exemple, Creative B : Partagez 234 et Creative C : Partagez 234 et Creative D : Share 234), [!DNL Marketo Measure] arrêtera et archivera tous les créatifs similaires (qui seraient Creative B, Creative C et Creative D).
+`2)` Désormais, si le partage a été partagé et qu’il a perdu son unicité (par exemple, Creative B : Partager 234 et Creative C : Partager 234 et Creative D : Partager 234), [!DNL Marketo Measure] arrêtera et archivera tous les créatifs similaires (qui seraient Creative B, Creative C et Creative D).
 
 `3)` [!DNL Marketo Measure] crée 3 nouveaux créatifs, Creative E, Creative F et Creative G, qui copient le contenu de Creative B, qui est archivé.
 
@@ -120,17 +121,17 @@ Creative D : Partage 234
 
 >[!NOTE]
 >
->La mise en oeuvre de cette méthode signifie que nos clients perdront l’historique des publicités du créatif B : Partager 234, Creative C : Partagez 234 et Creative D : Partagez 234, car il est désormais recréé avec Creative E : Partager 345, Partager F : Partagez 456 et Creative G : Partagez 567, respectivement.
+>La mise en oeuvre de cela signifie que nos clients perdront l’historique des publicités de Creative B : Share 234, Creative C : Share 234 et Creative D : Share 234, car il est désormais recréé avec Creative E : Share 345, Share F : Share 456 et Creative G : Share 567 respectivement.
 
 ![](assets/three.png)
 
-## Fonctionnement : Forms Lead Gen {#how-it-works-lead-gen-forms}
+## Fonctionnement : Lead Gen Forms {#how-it-works-lead-gen-forms}
 
 **Le processus**
 
 Via [!DNL LinkedIn's] API de formulaire d’annonce et API de réponse de formulaire d’annonce, nous pouvons rassembler les données d’envoi de formulaire pour un compte d’annonce et associer l’adresse électronique à un prospect depuis le CRM ou Marketo.
 
-Les formulaires linkedIn peuvent contenir plusieurs adresses électroniques. Lorsque nous téléchargeons les réponses de formulaire, nous recherchons les adresses électroniques ayant la priorité suivante : Courrier électronique professionnel, Adresse électronique (champ de formulaire Principal) ou champs personnalisés avec une valeur de courrier électronique valide.
+Les formulaires linkedIn peuvent contenir plusieurs adresses électroniques. Lorsque nous téléchargeons les réponses de formulaire, nous recherchons les adresses électroniques avec la priorité suivante : Adresse électronique professionnelle, Adresse électronique (champ de formulaire Principal) ou champs personnalisés avec une valeur de courrier électronique valide.
 
 Quel que soit l’état Campaign ou Creative, toutes les réponses au formulaire auront un point de contact. [!DNL Marketo Measure] comporte une restriction de recherche en amont de 90 jours ; [!DNL Marketo Measure] ne peut pas accéder aux réponses de formulaire datant de plus de 90 jours, mais plus la variable [!DNL Marketo Measure] et [!DNL LinkedIn] l’intégration est activée, plus les points de contact du formulaire de génération de piste sont visibles par le biais de [!DNL Marketo Measure].
 
@@ -140,7 +141,7 @@ Quel que soit l’état Campaign ou Creative, toutes les réponses au formulaire
 
 **Suivi de Lead Gen Forms dans CRM ou Marketo**
 
-Avant le [!DNL Marketo Measure] et l’intégration Forms LinkedIn Lead Gen existait. Il était courant pour les clients de transmettre leurs envois de formulaire à un programme Marketo et/ou à une campagne CRM afin de suivre les formulaires et de recevoir l’attribution sur ces activités. Une fois que le paramètre Lead Gen Forms est activé, nous voulons nous assurer que ces envois de formulaire ne sont pas comptabilisés deux fois. Vérifiez les points suivants :
+Avant le [!DNL Marketo Measure] et l’intégration Forms LinkedIn Lead Gen existait. Il était courant pour les clients de transmettre leurs envois de formulaire à un programme Marketo et/ou à une campagne CRM afin de suivre les formulaires et de recevoir l’attribution sur ces activités. Une fois que le paramètre Lead Gen Forms est activé, nous voulons nous assurer que ces envois de formulaire ne sont pas comptabilisés deux fois. Veuillez vérifier les éléments suivants :
 
 * Le champ &quot;Activer les points de contact de l’acheteur&quot; sur l’objet CRM est défini sur &quot;Aucun&quot; ou &quot;Exclure tous les membres de campagne&quot;.
 * Mettre à jour tout programme Marketo ou règle d’activité Marketo associé
@@ -148,7 +149,7 @@ Avant le [!DNL Marketo Measure] et l’intégration Forms LinkedIn Lead Gen exis
 
 >[!NOTE]
 >
->L’API LinkedIn présente une limite de recherche en amont de 90 jours. Par conséquent, si vous utilisez des règles Marketo ou CRM, il est recommandé de définir la date de fin de la règle sur 90 jours avant la date à laquelle vous avez activé l’intégration dans . [!DNL Marketo Measure].
+>L’API LinkedIn présente une limite de recherche en amont de 90 jours. Par conséquent, si vous utilisez des règles Marketo ou CRM, il est recommandé de définir la date de fin de la règle sur 90 jours avant la date à laquelle vous avez activé l’intégration dans [!DNL Marketo Measure].
 
 ## Détails du Touchpoint {#touchpoint-details}
 
@@ -169,7 +170,7 @@ Une fois [!DNL Marketo Measure] a correctement balisé votre page d’entrée su
    <td><p>84186224 </p></td> 
   </tr> 
   <tr> 
-   <td><p>Contenu de la publicité </p></td> 
+   <td><p>Contenu publicitaire </p></td> 
    <td><p>copy-1-image-2-man 95% des spécialistes du marketing #B2B considèrent que la stratégie de création de demande est une réussite. En savoir plus : [!DNL https]://lnkd.in/jgdi50vKrgv</p></td> 
   </tr> 
   <tr> 
@@ -225,7 +226,7 @@ Une fois [!DNL Marketo Measure] a correctement balisé votre page d’entrée su
    <td><p>Social payant.LinkedIn </p></td> 
   </tr> 
   <tr> 
-   <td><p>Moyen </p></td> 
+   <td><p>Support </p></td> 
    <td><p>"cpc" ou "Lead Gen Form"</p></td> 
   </tr> 
   <tr> 
@@ -242,10 +243,10 @@ Une fois [!DNL Marketo Measure] a correctement balisé votre page d’entrée su
   </tr> 
   <tr> 
    <td><p>Type de Touchpoint </p></td> 
-   <td><p>Formulaire Web </p></td> 
+   <td><p>Formulaire web </p></td> 
   </tr> 
   <tr> 
-   <td><p>Source du Touchpoint </p></td> 
+   <td><p>Source du point de contact </p></td> 
    <td><p>LinkedIn </p></td> 
   </tr> 
  </tbody> 
@@ -265,11 +266,11 @@ Certaines améliorations ont été apportées à la fonction [!DNL Marketo Measu
 
 **Payant Media Board**
 
-Mosaïque Forms de génération de pistes : Nouvelle mosaïque qui comprend le nombre de remplissages de formulaires LinkedIn. L’exploration de ce nombre affichera l’ID d’activité, la date du formulaire, le nom du formulaire et l’adresse électronique.
+Mosaïque Forms de génération de pistes : nouvelle mosaïque qui comprend le nombre de remplissages de formulaires LinkedIn. L’exploration de ce nombre affichera l’ID d’activité, la date du formulaire, le nom du formulaire et l’adresse électronique.
 
-**Panorama des chemins d’engagement**
+**Panneau Chemin d’accès de l’engagement**
 
-Parcours des événements : Inclut le type d’événement &quot;Activité&quot; et le &quot;Formulaire de génération de piste&quot; moyen pour les formulaires issus de l’intégration. La vue d’exploration comprend les détails sur les campagnes, les créatifs et les formulaires.
+Parcours des événements : inclut le type d’événement &quot;Activité&quot; et le &quot;formulaire de génération de piste&quot; moyen pour les formulaires issus de l’intégration. La vue d’exploration comprend les détails sur les campagnes, les créatifs et les formulaires.
 
 ## FAQ sur le contenu sponsorisé {#sponsored-content-faq}
 
@@ -279,7 +280,7 @@ Un partage obscur est un message où il n’est jamais publié sur la page de l�
 
 **Quelles sont les instructions ? [!DNL Marketo Measure] balise réelle ?**
 
-Il existe quatre statuts différents sur un [!DNL LinkedIn] Campaign et Creative : Principal, En pause, Archivé et Annulé. Nous ne marquons que les campagnes et les créatifs Principaux. Le balisage d’autres états les redéfinit sur Principal. [!DNL Marketo Measure] ne marquera pas Campagnes ou créatifs en pause, archivés ou annulés, mais le balisage reprendra si l’état devient Principal.
+Il existe quatre statuts différents sur un [!DNL LinkedIn] Campaign et Creative : Principal, en pause, archivé et annulé. Nous ne marquons que les campagnes et les créatifs Principaux. Le balisage d’autres états les définit à nouveau sur Principal. [!DNL Marketo Measure] ne marquera pas les campagnes ou les créatifs en pause, archivés ou annulés, mais le balisage reprendra si l’état devient Principal.
 
 **Quelle est la valeur de [!DNL Marketo Measure] utilise-t-il pour baliser ?**
 
@@ -303,11 +304,11 @@ Pas de soucis. [!DNL Marketo Measure] recherche par programmation les partages q
 
 **Ma publicité était en attente de révision plus tôt. Pourquoi la révision est-elle en attente après ? [!DNL Marketo Measure] l’a balisé ?**
 
-linkedIn exige que toutes les publicités créées ou modifiées passent par le processus de sécurité normal avant d’être publiées. [!DNL Marketo Measure] tente d’intercepter la publicité aussi rapidement que possible, car elle recherche de nouvelles publicités toutes les 6 heures, mais avec [!DNL LinkedIn's] En outre, le lancement peut être retardé de quelques heures.
+LinkedIn exige que toutes les publicités créées ou modifiées passent par le processus de sécurité normal avant d’être publiées. [!DNL Marketo Measure] tente d’intercepter la publicité aussi rapidement que possible, car elle recherche de nouvelles publicités toutes les 6 heures, mais avec [!DNL LinkedIn's] En outre, le lancement peut être retardé de quelques heures.
 
 **Mon annonce contient 2 URL. Lequel est balisé ?**
 
-Les deux. Le [!DNL Marketo Measure] l’intégration nous permet de baliser l’URL de destination à partir de l’image de clic publicitaire dans la publicité, mais met également automatiquement à jour l’URL abrégée dans la description de la publicité.
+Les deux. La variable [!DNL Marketo Measure] l’intégration nous permet de baliser l’URL de destination à partir de l’image de clic publicitaire dans la publicité, mais met également automatiquement à jour l’URL abrégée dans la description de la publicité.
 
 ![](assets/five.png)
 
@@ -343,7 +344,7 @@ Les données de formulaire sont disponibles via [!DNL Marketo Measure] Découvre
 
 **Qu’advient-il de n’importe quel [!DNL LinkedIn] les pistes qui ont été synchronisées avec les programmes Marketo ou les campagnes CRM ?**
 
-Il est recommandé d’ajuster les [!DNL Marketo Measure] règles pour générer des points de contact à partir de ces programmes ou campagnes spécifiques afin d’éviter la duplication. L’API LinkedIn présente une limite de recherche en amont de 90 jours. Par conséquent, si vous utilisez des règles Marketo ou CRM, il est recommandé de définir la date de fin de la règle sur 90 jours avant la date à laquelle vous avez activé l’intégration dans . [!DNL Marketo Measure]. À partir de là, [!DNL Marketo Measure] Vous pouvez télécharger ces pistes pour vous en donner plus d’informations et de détails.
+Il est recommandé d’ajuster les [!DNL Marketo Measure] règles pour générer des points de contact à partir de ces programmes ou campagnes spécifiques afin d’éviter la duplication. L’API LinkedIn présente une limite de recherche en amont de 90 jours. Par conséquent, si vous utilisez des règles Marketo ou CRM, il est recommandé de définir la date de fin de la règle sur 90 jours avant la date à laquelle vous avez activé l’intégration dans [!DNL Marketo Measure]. À partir de là, [!DNL Marketo Measure] Vous pouvez télécharger ces pistes pour vous en donner plus d’informations et de détails.
 
 **Le balisage ou le suivi automatique sont-ils impliqués ?**
 

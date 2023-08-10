@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874672
 description: Comment [!DNL Marketo Measure] et [!DNL Salesforce] Interact - Marketo Measure - Documentation du produit
-title: Comment [!DNL Marketo Measure] et [!DNL Salesforce] Interact
+title: Explication des interactions entre [!DNL Marketo Measure] et [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 36%
 
 ---
 
-# Comment [!DNL Marketo Measure] et [!DNL Salesforce] Interact {#how-marketo-measure-and-salesforce-interact}
+# Explication des interactions entre[!DNL Marketo Measure]et[!DNL Salesforce] {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
 >
@@ -36,7 +37,7 @@ Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lot
 
 Cette section répertorie les [!DNL Salesforce] Objets standard [!DNL Marketo Measure] interagit avec, ainsi que les champs personnalisés que nous ajoutons à ces objets une fois la connexion établie et la fonction [!DNL Marketo Measure] est installé. Prêt à l’emploi, [!DNL Marketo Measure] n’écrira PAS dans une norme [!DNL Salesforce] Champs d’objet.
 
-**Lead**
+**Prospect**
 
 <table> 
  <tbody> 
@@ -47,13 +48,13 @@ Cette section répertorie les [!DNL Salesforce] Objets standard [!DNL Marketo Me
    <th><p>Write</p></th> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
+   <td><p>ID</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Adresse e-mail</p></td> 
+   <td><p>E-mail</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -204,13 +205,13 @@ Cette section répertorie les [!DNL Salesforce] Objets standard [!DNL Marketo Me
    <td><br></td> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
+   <td><p>ID</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Adresse e-mail</p></td> 
+   <td><p>E-mail</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -307,7 +308,7 @@ Cette section répertorie les [!DNL Salesforce] Objets standard [!DNL Marketo Me
    <th><p>Write</p></th> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
+   <td><p>ID</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -410,7 +411,7 @@ Cette section répertorie les [!DNL Salesforce] Objets standard [!DNL Marketo Me
    <th><p>Write</p></th> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
+   <td><p>ID</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -459,7 +460,7 @@ Cette section répertorie les [!DNL Salesforce] Objets standard [!DNL Marketo Me
    <td><br></td> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
+   <td><p>ID</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -538,13 +539,13 @@ Cette section répertorie les [!DNL Salesforce] Objets standard [!DNL Marketo Me
    <th><p>Write</p></th> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
+   <td><p>ID</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>Adresse e-mail</p></td> 
+   <td><p>E-mail</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -629,7 +630,7 @@ Cette section répertorie les [!DNL Salesforce] Objets standard [!DNL Marketo Me
    <th><p>Write</p></th> 
   </tr> 
   <tr> 
-   <td><p>Id</p></td> 
+   <td><p>ID</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -994,7 +995,7 @@ Le point de contact de l’acheteur est un [!DNL Marketo Measure] Objet personna
 
 **[!DNL Marketo Measure]Individu**
 
-Le [!DNL Marketo Measure] La personne est une [!DNL Marketo Measure] Objet personnalisé relatif aux objets de piste, de contact et de cas.
+La variable [!DNL Marketo Measure] La personne est une [!DNL Marketo Measure] Objet personnalisé relatif aux objets de piste, de contact et de cas.
 
 <table> 
  <tbody> 

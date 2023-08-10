@@ -1,20 +1,21 @@
 ---
 unique-page-id: 18874560
 description: Pourquoi ne jamais supprimer les points de contact - [!DNL Marketo Measure] - Documentation du produit
-title: Pourquoi ne jamais supprimer les points de contact
+title: Pourquoi il ne faut jamais supprimer les points de contact
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Pourquoi ne jamais supprimer les points de contact {#why-you-should-never-delete-touchpoints}
+# Pourquoi il ne faut jamais supprimer les points de contact {#why-you-should-never-delete-touchpoints}
 
 Si vous constatez qu’un point de contact d’une opportunité se voit attribuer incorrectement un crédit d’attribution, contactez votre gestionnaire de compte pour déterminer les prochaines étapes. Dans ce cas, nous vous recommandons d’utiliser la fonction de suppression du point de contact de l’utilisateur pour supprimer le point de contact de la collecte de données régionale et du tableau de bord du retour sur investissement. Votre gestionnaire de compte peut vous aider à créer ces règles. Veuillez ne pas supprimer manuellement ces points de contact.
 
-Le [!DNL Marketo Measure] Le système de traitement n’enregistre pas la suppression manuelle d’un point de contact de la collecte de données régionale. À ce jour, aucun déclencheur n’indique à notre système d’ajuster les données. [!DNL Marketo Measure] ne poussera pas automatiquement un autre point de contact pour remplacer celui qui a été supprimé, ni ne réaffectera la position ou l’attribution du point de contact au point de contact suivant.
+La variable [!DNL Marketo Measure] Le système de traitement n’enregistre pas la suppression manuelle d’un point de contact de la collecte de données régionale. À ce jour, aucun déclencheur n’indique à notre système d’ajuster les données. [!DNL Marketo Measure] ne poussera pas automatiquement un autre point de contact pour remplacer celui qui a été supprimé, ni ne réaffectera la position ou l’attribution du point de contact au point de contact suivant.
 
 Lorsqu’un point de contact est supprimé, cela crée un trou dans les données d’attribution. En règle générale, cela se manifeste dans les points de contact d’attribution sur une opportunité. Dans l’image ci-dessous, le point de contact qui aurait reçu la touche Création d’opportunité a été supprimé. Par conséquent, le point de contact OC est manquant pour cette opportunité et le pourcentage d’attribution pour cette Opp ne totalisera pas 100 %.
 

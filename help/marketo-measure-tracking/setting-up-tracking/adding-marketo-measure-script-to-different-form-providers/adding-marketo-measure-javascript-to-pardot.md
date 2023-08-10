@@ -3,7 +3,8 @@ unique-page-id: 18874757
 description: Ajouter [!DNL Marketo Measure] JavaScript vers [!DNL Pardot] - [!DNL Marketo Measure] - Documentation du produit
 title: Ajouter [!DNL Marketo Measure] JavaScript vers [!DNL Pardot]
 exl-id: e49190ad-aa86-4f8f-a9ed-48de9e937a7e
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 0%
@@ -12,7 +13,7 @@ ht-degree: 0%
 
 # Ajouter [!DNL Marketo Measure] JavaScript vers [!DNL Pardot] {#adding-marketo-measure-javascript-to-pardot}
 
-[!DNL Pardot] Les formulaires nécessitent une gestion supplémentaire dans le modèle de formulaire, au-delà de l’insertion de scripts sur le site pour que [!DNL Marketo Measure] pour reconnaître les envois de formulaire. Le processus est simple; Il suffit de placer la variable [!DNL Marketo Measure] script de suivi dans la variable [!DNL Pardot] modèle de formulaire.
+[!DNL Pardot] Les formulaires nécessitent une gestion supplémentaire dans le modèle de formulaire, au-delà de l’insertion de scripts sur le site pour que [!DNL Marketo Measure] pour reconnaître les envois de formulaire. Le processus est simple ; il ne nécessite que de placer la variable [!DNL Marketo Measure] script de suivi dans la variable [!DNL Pardot] modèle de formulaire.
 
 ## Instructions étape par étape {#step-by-step-instructions}
 
@@ -26,7 +27,7 @@ Une fois que vous êtes connecté à votre [!DNL Pardot] , suivez les étapes ci
 
    ![](assets/1-3.png)
 
-1. Déterminez le modèle de mise en page approprié, puis cliquez sur **[!UICONTROL Modifier]** à droite.
+1. Déterminez le modèle de disposition approprié, puis cliquez sur **[!UICONTROL Modifier]** à droite.
 
    ![](assets/2-1.png)
 

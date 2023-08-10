@@ -2,14 +2,15 @@
 description: '''[!DNL Salesforce] Consolidation des modules - [!DNL Marketo Measure] - Documentation du produit"'
 title: '''[!DNL Salesforce] Consolidation des modules'
 exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
-source-git-commit: dd3795288b1d579b078a32c78c9f08fd67a5f0e1
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# [!DNL Salesforce] Consolidation des modules {#salesforce-package-consolidation}
+# Consolidation des packages [!DNL Salesforce] {#salesforce-package-consolidation}
 
 Nous sommes ravis d’annoncer les modifications à venir des packages Marketo Measure Salesforce. Afin d’améliorer l’expérience utilisateur et de simplifier l’utilisation, nous consolidons tous les modules existants en un seul module complet.
 
@@ -19,12 +20,12 @@ En raison de cette consolidation, les modules V1, V2_EXT, V2_Security et tous le
 
 ## Nouveau package consolidé {#new-consolidated-package}
 
-Le nouveau package V2 consolidé intègre toutes les fonctionnalités des packages précédents, offrant ainsi une meilleure expérience utilisateur. Ce module mis à jour permet un suivi plus efficace des performances marketing et commerciales et permet d’obtenir des informations plus précises sur le comportement des clients.
+Le nouveau package V2 consolidé intègre toutes les fonctionnalités des packages précédents, offrant ainsi une meilleure expérience utilisateur. Ce package mis à jour permet un suivi plus efficace des performances marketing et de vente et permet d’obtenir des informations plus détaillées sur le comportement des clients.
 
-Nous avons ajouté deux nouveaux champs pour améliorer vos capacités de reporting :
+Nous avons ajouté deux nouveaux champs qui vous aideront à améliorer vos capacités de reporting :
 
-* form_name: Désormais disponible dans les objets BT/BAT, ce champ permet aux utilisateurs de créer des rapports en fonction des noms de formulaire.
-* user_touchpoint_id: Ce champ permet aux utilisateurs de créer des rapports avec des nombres de points de contact utilisateur uniques.
+* form_name : désormais disponible dans les objets BT/BAT, ce champ permet aux utilisateurs et utilisatrices de créer des rapports en fonction des noms de formulaire.
+* user_touchpoint_id : ce champ permet aux utilisateurs et utilisatrices de créer des rapports avec des nombres de points de contact utilisateur uniques.
 
 ## Assistance et transition {#support-and-transition}
 

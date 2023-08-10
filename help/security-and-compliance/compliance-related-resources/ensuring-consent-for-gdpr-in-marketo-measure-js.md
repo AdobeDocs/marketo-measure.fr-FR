@@ -3,7 +3,8 @@ unique-page-id: 35586069
 description: Garantir le consentement pour le RGPD dans Marketo Measure Js - Marketo Measure - Documentation du produit
 title: Garantir le consentement pour le RGPD dans Marketo Measure JSON
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
-source-git-commit: c7d3bbce1f0c6a99409822c06c43961c93cd9458
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 Le Règlement général sur la protection des données (RGPD) est une loi de l’Union européenne qui est entrée en vigueur le 25 mai 2018.
 
-## APERÇU {#overview}
+## Vue d’ensemble {#overview}
 
-Le RGPD a pour but de renforcer les droits des personnes concernées au sein de l’Union européenne (UE) et de l’Espace économique européen (EEE) en ce qui concerne l’utilisation et la protection de leurs données personnelles. &quot;Données personnelles&quot; désigne toute information relative à une personne physique identifiée ou identifiable. Le RGPD s’applique à toute organisation à l’intérieur ou à l’extérieur de l’UE qui commercialise des biens ou des services et/ou qui suit les comportements des sujets des données au sein de l’UE et de l’EEE. Si vous faites affaire avec des sujets des données en Europe qui impliquent le traitement de leurs données personnelles, cette législation s’applique à vous. Les sanctions en cas de non-respect sont importantes, avec de lourdes amendes pour ceux qui enfreignent la réglementation ; l&#39;amende maximale pour une violation unique s&#39;élève à 20 millions d&#39;euros, soit 4 % du chiffre d&#39;affaires annuel mondial, selon la valeur la plus élevée.
+Le RGPD a pour but de renforcer les droits des personnes concernées au sein de l’Union européenne (UE) et de l’Espace économique européen (EEE) en ce qui concerne l’utilisation et la protection de leurs données personnelles. &quot;Données personnelles&quot; désigne toute information relative à une personne physique identifiée ou identifiable. Le RGPD s’applique à toute organisation à l’intérieur ou à l’extérieur de l’UE qui commercialise des biens ou des services et/ou qui suit les comportements des sujets des données au sein de l’UE et de l’EEE. Si vous faites affaire avec des sujets des données en Europe qui impliquent le traitement de leurs données personnelles, cette législation s’applique à vous. Les sanctions en cas de non-conformité sont importantes, avec de lourdes amendes pour ceux qui enfreignent le règlement ; l&#39;amende maximale pour une violation unique est de 20 millions d&#39;euros ou 4% du chiffre d&#39;affaires annuel mondial, selon la plus élevée des deux.
 
 Par défaut, [!DNL bizible.js] collecte les données d’analyse des utilisateurs, sauf si elles sont configurées spécifiquement pour attendre le consentement. When [!DNL bizible.js] est configuré pour attendre le consentement de l’utilisateur, il ne crée aucun cookie ni n’envoie aucune donnée d’analyse tant que le consentement n’est pas atteint.
 
@@ -47,7 +48,7 @@ Option 2 - Remplacer la valeur par défaut [!DNL bizible.js] balise de script av
 
 Ceci indique : [!DNL bizible.js] pour ne pas effectuer de suivi tant que le consentement n’a pas été atteint, ce qui peut être effectué avec l’API JS suivante :
 
-*window[&#39;Bizible&#39;] = fenêtre[&#39;Bizible&#39;] || { _queue : [], Push : function (o, p) { this._queue.push({ type : o, data: p }); };*
+*window[&#39;Bizible&#39;] = fenêtre[&#39;Bizible&#39;] || { _queue : [], Push : function (o, p) { this._queue.push({ type : o, data: p }); } };*
 
 *Bizible.Push(&#39;Consent&#39;, true);*
 

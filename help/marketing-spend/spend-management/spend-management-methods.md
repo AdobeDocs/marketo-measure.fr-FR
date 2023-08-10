@@ -2,10 +2,11 @@
 description: Méthodes de gestion des dépenses - [!DNL Marketo Measure] - Documentation du produit
 title: Méthodes de gestion des dépenses
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Spend Management
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -17,7 +18,7 @@ Il existe trois façons de transférer des données dans [!DNL Marketo Measure].
 
 **1) Comptes connectés à l’API**
 
-Tout compte publicitaire auquel vous êtes connecté [!DNL Marketo Measure] via une API, ses dépenses seront automatiquement transférées dans [!DNL Marketo Measure] pour la création de rapports sur le retour sur investissement. Pour vérifier les comptes que vous avez connectés et donc qui génèrent des dépenses, accédez à votre [!DNL Marketo Measure] Application et sélectionnez [!UICONTROL Connexions] sous l’onglet [!UICONTROL Intégrations] . Pour plus d’informations sur la configuration de vos connexions API, consultez notre [Plateformes d’annonces intégrées](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) article.
+Tout compte publicitaire auquel vous êtes connecté [!DNL Marketo Measure] via une API, ses dépenses seront automatiquement transférées dans [!DNL Marketo Measure] pour la création de rapports sur le retour sur investissement. Pour vérifier les comptes que vous avez connectés et donc qui génèrent des dépenses, accédez à votre [!DNL Marketo Measure] Application et sélectionnez [!UICONTROL Connexions] sous la balise [!UICONTROL Intégrations] . Pour plus d’informations sur la configuration de vos connexions API, consultez notre [Plateformes d’annonces intégrées](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) article.
 
 **2) Synchronisation des coûts de la campagne CRM**
 

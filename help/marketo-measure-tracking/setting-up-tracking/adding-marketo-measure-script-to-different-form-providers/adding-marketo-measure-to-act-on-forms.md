@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874753
 description: Ajouter [!DNL Marketo Measure] à la Forms d’activation - [!DNL Marketo Measure] - Documentation du produit
-title: Ajouter [!DNL Marketo Measure] à la Forms d’activation
+title: Ajout de  [!DNL Marketo Measure]  à des formulaires Act-On
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 0%
+ht-degree: 10%
 
 ---
 
-# Ajouter [!DNL Marketo Measure] à la Forms d’activation {#adding-marketo-measure-to-act-on-forms}
+# Ajout de [!DNL Marketo Measure] à des formulaires Act-On {#adding-marketo-measure-to-act-on-forms}
 
 ## Instructions {#directions}
 
@@ -23,6 +24,6 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Il peut déjà y avoir d’autres fragments de code de suivi dans cette zone, tels qu’une [!DNL Google Analytics] code. Veillez à les séparer à l’aide d’un point-virgule. `;` et un seul espace, comme :
+>Il peut déjà y avoir d’autres fragments de code de suivi dans cette zone, tels qu’une [!DNL Google Analytics] code. Veillez à les séparer à l’aide d’un point-virgule. `;` et un seul espace, comme ceci :
 >
 >`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>**; **<script async="true" type="someothercode" src="someotherfile.js" ></script>`

@@ -2,7 +2,8 @@
 description: Gestion des domaines - [!DNL Marketo Measure] - Documentation du produit
 title: Gestion des domaines
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
-source-git-commit: 148cc203f1fd2a3b90771f2223bbacacdcfad7b0
+feature: Integration, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 0%
@@ -15,11 +16,11 @@ Pour les clients compatibles avec IMS exécutés [!DNL Marketo Measure] dans l�
 
 ## Ajout de domaines dans Admin Console {#adding-domains-in-admin-console}
 
-Les utilisateurs IMS ayant accès à Adobe Admin Console peuvent ajouter et valider des domaines qu’ils détiennent. La validation du domaine implique l’ajout d’un enregistrement DNS pour chaque domaine et la possibilité pour le Admin Console de vérifier cet enregistrement.
+Les utilisateurs IMS ayant accès à Adobe Admin Console peuvent ajouter et valider des domaines qu’ils détiennent. La validation du domaine implique l’ajout d’un enregistrement DNS pour chaque domaine, puis la possibilité pour le Admin Console de vérifier cet enregistrement.
 
 ![](assets/domain-management-1.png)
 
-Les instructions pour l’ajout de domaines se trouvent dans la section [Documentation du Admin Console](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains). Une fois qu’un domaine est ajouté, il doit être [lié à un répertoire](https://helpx.adobe.com/enterprise/using/set-up-identity.html#link-domains-to-directories).
+Les instructions pour l’ajout de domaines se trouvent dans la section [Documentation du Admin Console](https://helpx.adobe.com/enterprise/using/set-up-identity.html#setup-domains). Une fois un domaine ajouté, il doit être [lié à un répertoire](https://helpx.adobe.com/enterprise/using/set-up-identity.html#link-domains-to-directories).
 
 ## Gestion des domaines dans [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 
@@ -37,16 +38,16 @@ L’impact du changement de domaine est immédiat, et les modifications ne sont 
 
 Les états du Admin Console sont classés comme suit :
 
-* **VALIDÉ**: Ce domaine est vérifié en Admin Console
-* **UNVERIFIED**: Ce domaine n’est pas entièrement vérifié en Admin Console et ne peut pas faire l’objet d’un suivi dans [!DNL Marketo Measure]
-* **INVALIDE**: Ce domaine peut avoir expiré ou avoir été supprimé du Admin Console. Suivi des données dans [!DNL Marketo Measure] est marqué comme suppression
-* **HÉRITÉ**: Ce domaine a été créé dans [!DNL Marketo Measure] et n’existe pas dans le Admin Console
+* **VALIDÉ**: ce domaine est vérifié en Admin Console
+* **UNVERIFIED**: ce domaine n’est pas entièrement vérifié en Admin Console et n’est pas éligible au suivi dans [!DNL Marketo Measure]
+* **INVALIDE**: ce domaine peut avoir expiré ou avoir été supprimé du Admin Console. Suivi des données dans [!DNL Marketo Measure] est marqué comme suppression
+* **HÉRITÉ**: ce domaine a été créé dans [!DNL Marketo Measure] et n’existe pas dans le Admin Console
 
 Les statuts de tracking peuvent être les suivants :
 
 * **PRINCIPAL**: [!DNL Marketo Measure] reçoit actuellement des données de ce domaine
-* **DISABLED**: Ce domaine est disponible pour le suivi, mais il est actuellement désactivé.
-* **INDISPONIBLE**: Ce domaine n’est pas disponible pour le suivi, car il n’est pas vérifié
+* **DISABLED**: ce domaine est disponible pour le suivi, mais il est actuellement désactivé.
+* **INDISPONIBLE**: ce domaine n’est pas disponible pour le suivi, car il n’est pas vérifié
 
 Le survol d’un élément d’état individuel déclenche une info-bulle qui explique plus en détail cet état.
 

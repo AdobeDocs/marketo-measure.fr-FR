@@ -2,16 +2,17 @@
 description: '''[!DNL Marketo Measure] Présentation finale - [!DNL Marketo Measure] - Documentation du produit"'
 title: '''[!DNL Marketo Measure] Présentation intégrale"'
 exl-id: fada9479-0671-4698-8043-c67d7977577b
-source-git-commit: 4a5e720a91e8b229ad2f2889dbf87f5c43767411
+feature: Integration, Tracking, Attribution
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Vue d’ensemble de [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-overview}
 
-[!DNL Marketo Measure] (anciennement Bizible) donne aux marketeurs un aperçu des actions marketing les plus efficaces pour générer des recettes et optimiser le retour sur investissement pour leur entreprise. [!DNL Marketo Measure] est une solution d’attribution marketing qui effectue automatiquement un suivi et des rapports sur les performances des canaux, ce qui vous permet d’identifier les canaux qui génèrent le plus d’engagement client et d’optimiser vos dépenses marketing en conséquence.
+[!DNL Marketo Measure] (anciennement Bizible) donne aux marketeurs un aperçu des actions marketing les plus efficaces pour générer des recettes et optimiser le retour sur investissement pour leur entreprise. [!DNL Marketo Measure] est une solution d’attribution marketing qui effectue automatiquement un suivi et des rapports sur les performances des canaux, ce qui vous permet d’identifier les canaux qui suscitent le plus d’engagement des clients et d’optimiser vos dépenses marketing en conséquence.
 
 [!DNL Marketo Measure Ultimate] contient les fonctionnalités supplémentaires :
 
@@ -89,7 +90,7 @@ Quatre étapes intégrées doivent être mises en correspondance avec des règle
 
 Les conditions de règle sont spécifiques à un jeu de données. Les règles de mappage des environnements intermédiaires doivent être créées pour tous les jeux de données et toutes les étapes, à l’exception de la perte de piste et de la conversion de pistes.
 
-Aucune sélection pour l’entonnoir ou le modèle personnalisé. Toutes les étapes sont sélectionnées pour l’entonnoir, le boomerang et le modèle personnalisé. Le nombre d’étapes prises en charge est limité : 15 étapes personnalisées plus 6 étapes intégrées.
+Aucune sélection pour l’entonnoir ou le modèle personnalisé. Toutes les étapes sont sélectionnées pour l’entonnoir, le boomerang et le modèle personnalisé. Le nombre d’étapes que nous prenons en charge est limité : 15 scènes personnalisées plus 6 scènes intégrées.
 
 ![](assets/marketo-measure-ultimate-overview-6.png)
 
@@ -106,7 +107,7 @@ Les points de contact d’attribution ne sont pas écrits dans le CRM, car Ultim
 ## Limites {#limitations}
 
 * Actuellement, des champs limités sont disponibles pour les règles de transformation des données.
-* Il n’existe aucun chemin de migration pour les utilisateurs de niveau 1/2/3 existants. Nécessite une nouvelle mise en oeuvre, mais nous aiderons à migrer les données d’activité web suivies à partir de l’instance existante.
+* Il n’existe aucun chemin de migration pour les utilisateurs de niveau 1/2/3 existants. Nécessite une nouvelle mise en oeuvre, mais nous aiderons à migrer les données d’activité web trackées à partir de l’instance existante.
 
 >[!MORELIKETHIS]
 >

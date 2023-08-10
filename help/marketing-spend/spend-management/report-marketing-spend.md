@@ -1,16 +1,17 @@
 ---
 unique-page-id: 27656737
 description: Signaler les dépenses marketing - [!DNL Marketo Measure] - Documentation du produit
-title: Signaler les dépenses marketing
+title: Rapport sur les dépenses marketing
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Reporting, Spend Management
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Signaler les dépenses marketing {#report-marketing-spend}
+# Rapport sur les dépenses marketing {#report-marketing-spend}
 
 ## Tableau des dépenses marketing {#marketing-spend-table}
 
@@ -20,7 +21,7 @@ Le tableau contiendra désormais un mélange de différentes devises. Reportez-v
 
 ## Chargement des coûts {#upload-costs}
 
-Lorsqu’un utilisateur télécharge le fichier de coûts, il contient également une nouvelle colonne avec la devise de chaque ligne. Les seules devises acceptables sont celles qui ont été définies et stockées dans le CRM. Vous devez connaître le code abrégé à 3 lettres de votre devise (c’est-à-dire USD, CAD, JPY, EUR). Si un fichier est chargé avec une devise non reconnue, le téléchargement du fichier échoue.
+Lorsqu’un utilisateur télécharge le fichier de coûts, le fichier contient également une nouvelle colonne avec la devise de chaque ligne. Les seules devises acceptables sont celles qui ont été définies et stockées dans le CRM. Vous devez connaître le code abrégé à 3 lettres de votre devise (c’est-à-dire USD, CAD, JPY, EUR). Si un fichier est chargé avec une devise non reconnue, le téléchargement du fichier échoue.
 
 ## Coûts des intégrations publicitaires {#costs-from-ad-integrations}
 
@@ -35,4 +36,4 @@ Dans la mesure où nos dépenses marketing n’ont historiquement été effectu�
 1. Télécharger le fichier de dépenses actuel au format CSV
 1. La colonne de devise affiche &quot;[!UICONTROL USD]&quot; comme devise utilisée. Vous pouvez remplacer manuellement toutes les occurrences de &quot;[!UICONTROL USD]&quot; ou utilisez Rechercher+Remplacer pour modifier tous les &quot;[!UICONTROL USD]&quot; à votre propre devise d’entreprise, telle que &quot;[!UICONTROL EUR]&quot; ou &quot;[!UICONTROL GBP]&quot;, par exemple.
 1. Enregistrez le fichier, puis rechargez-le dans [!DNL Marketo Measure].
-1. Tous les coûts signalés s’affichent désormais comme la nouvelle devise.
+1. Tous les coûts signalés s’afficheront désormais comme la nouvelle devise.

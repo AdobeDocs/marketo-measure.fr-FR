@@ -3,7 +3,8 @@ unique-page-id: 18874604
 description: Segmentation personnalisée - [!DNL Marketo Measure] - Documentation du produit
 title: Segmentation personnalisée
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
-source-git-commit: e3a2ef7a305fff4edb6b0f21861c1ef5516212b8
+feature: Segmentation
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 0%
@@ -60,7 +61,7 @@ Avant d’utiliser cette fonction, déterminez les informations de point de cont
 * Répétez ce processus pour les règles de segment Opportunités .
 * La catégorie &quot;Autre&quot; est un segment par défaut qui capture tous les points de contact non définis. Vous pouvez modifier le nom du segment par défaut.
 * Cliquez sur l’icône de corbeille pour supprimer une catégorie entière ou une règle individuelle dans une catégorie. Vous pouvez également cliquer sur l’icône en forme de crayon pour modifier la catégorie ou la règle.
-* Vous remarquerez que vous avez un bouton &quot;Enregistrer&quot; et un bouton &quot;Enregistrer et traiter&quot;. Utilisez le bouton Enregistrer pour enregistrer votre travail et vos modifications au fil du temps. Utilisez le bouton Enregistrer et traiter UNIQUEMENT une fois que vous avez vérifié que :
+* Vous remarquerez que vous disposez d’un bouton &quot;Enregistrer&quot; et d’un bouton &quot;Enregistrer et traiter&quot;. Utilisez le bouton Enregistrer pour enregistrer votre travail et vos modifications au fil du temps. Utilisez le bouton Save and Process UNIQUEMENT une fois que vous avez vérifié que :
 
    * Votre mappage est précis
    * Vous avez ajouté tous les segments dont vous souhaitez effectuer le suivi dans une catégorie.

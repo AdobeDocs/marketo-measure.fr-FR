@@ -1,28 +1,29 @@
 ---
 unique-page-id: 42762648
 description: Documentation du tableau de bord des Parcours de cohortes - [!DNL Marketo Measure] - Documentation du produit
-title: Documentation du tableau de bord des Parcours de cohortes
+title: Documentation du tableau de bord des parcours de cohortes
 exl-id: b139f720-86ae-4f6d-9dfc-cc67b4186f88
-source-git-commit: 28f1400e8e13c091e8ea2a3bef115a0db810c2e0
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Documentation du tableau de bord des Parcours de cohortes {#cohort-journey-dashboard-documentation}
+# Documentation du tableau de bord des parcours de cohortes {#cohort-journey-dashboard-documentation}
 
 Les tableaux de bord Impact des cohortes et Entonnoir permettent aux marketeurs d’afficher la progression à partir de l’étape de cohorte de départ pour une période sélectionnée et de mesurer le taux de conversion.
 
 La principale différence est la manière dont nous comptabilisons chaque entité à l’étape de cohorte.
 
-* Entonnoir de cohortes : Le résultat de chaque étape est directement dérivé de l’étape précédente.
+* Entonnoir de cohorte : le résultat de chaque étape est directement dérivé de l’étape précédente.
 
    * Seuls les enregistrements qui ont traversé chaque étape de l’entonnoir après l’heure de début définie de la cohorte sont comptabilisés.
 
 ![](assets/cohort-journey-dashboard-documentation-1.png)
 
-* Impact des cohortes : Le résultat de chaque étape est dérivé de l’étape de cohorte, et non de l’étape précédente.
+* Impact sur les cohortes : le résultat de chaque étape est dérivé de l’étape sur les cohortes, et non de l’étape précédente.
 
    * Tous les enregistrements de chaque étape sont comptabilisés tant qu’ils se sont produits après l’heure de début définie de la cohorte. Ce tableau de bord aura naturellement plus d’enregistrements que le tableau de bord Entonnoir, car nous examinons l’impact des entités à l’étape de la cohorte, et pas seulement le mouvement dans l’entonnoir.
 
@@ -30,8 +31,8 @@ La principale différence est la manière dont nous comptabilisons chaque entit�
 
 Chaque tableau de bord comporte deux mosaïques :
 
-* Recettes des cohortes : L’opportunité totale provient de toutes les opportunités de l’étape Transactions de la mosaïque Parcours de cohortes.
-* Parcours de cohortes : La progression vers chaque étape de parcours à partir de l’étape de cohorte de départ pour une période sélectionnée.
+* Recettes des cohortes : le total des opportunités provenant de toutes les opportunités à l’étape Transactions de la mosaïque Parcours de cohortes.
+* Parcours de cohortes : progression vers chaque étape de parcours à partir de l’étape de cohorte de départ pour une période sélectionnée.
 
 >[!NOTE]
 >
@@ -41,12 +42,12 @@ Les tableaux de bord prennent en charge les filtres suivants :
 
 * Évaluation des cohortes : sélectionnez l’étape de cohorte de départ. Les enregistrements de toutes les étapes suivantes sont issus des enregistrements de l’étape de cohorte.
 * Période des cohortes : sélectionnez la période de l’étape de cohorte sélectionnée. Avec Cohort Stage, il définit le jeu de données de départ.
-* Date de coupure : sélectionnez la date à laquelle la progression de l’enregistrement doit se produire dans toutes les étapes suivantes. La valeur par défaut est aujourd’hui. Notez que cela s’applique à toutes les étapes autres que l’étape de cohorte.
+* Date de coupure : sélectionnez la date à laquelle doit se produire la progression de l&#39;enregistrement dans toutes les étapes suivantes. La valeur par défaut est aujourd’hui. Notez que cela s’applique à toutes les étapes autres que l’étape de cohorte.
 * Canal : filtrer les enregistrements par canaux. Un enregistrement est associé à un canal si l’un de ses points de contact est associé au canal.
-* Subchannel : filtrer les enregistrements par sous-canaux. Un enregistrement est associé à un sous-canal si l’un de ses points de contact est associé au sous-canal.
-* Campagne : filtrer les enregistrements par campagnes. Un enregistrement est associé à une campagne si l’un de ses points de contact est associé à la campagne.
-* Source de la campagne : filtrez les enregistrements par sources de campagne. Exemples de sources de campagne : [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. Un enregistrement est associé à une source de campagne si l’un de ses points de contact est associé à la source de la campagne.
-* Filtres de segments : filtrer les enregistrements par segments personnalisés. Un enregistrement est associé à un segment si l’un de ses points de contact est associé au segment.
+* Sous-canal : filtrez les enregistrements par sous-canaux. Un enregistrement est associé à un sous-canal si l’un de ses points de contact est associé au sous-canal.
+* Campagne : filtrez les enregistrements par campagnes. Un enregistrement est associé à une campagne si l’un de ses points de contact est associé à la campagne.
+* Source de la campagne : filtrez les enregistrements par sources de la campagne. Exemples de sources de campagne : [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. Un enregistrement est associé à une source de campagne si l’un de ses points de contact est associé à la source de la campagne.
+* Filtres de segments : filtrez les enregistrements par segments personnalisés. Un enregistrement est associé à un segment si l’un de ses points de contact est associé au segment.
 
 La logique &quot;AND&quot; est utilisée sur tous les filtres.
 

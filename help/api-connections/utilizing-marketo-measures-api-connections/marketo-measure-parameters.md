@@ -3,7 +3,8 @@ unique-page-id: 18874608
 description: "[!DNL Marketo Measure] Paramètres - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] Paramètres"
 exl-id: d66b9864-0d7e-455a-ae20-cca555f4d8c8
-source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
+feature: APIs, Integration, UTM Parameters
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -27,17 +28,17 @@ Exemple d’URL avec [!DNL Marketo Measure] parameters:
 ## Paramètres AdWords {#adwords-parameters}
 
 * `_bk={keyword}`
-   * Représente le mot-clé utilisé par la personne dans le moteur de recherche.
+   * Représente le mot-clé utilisé dans le moteur de recherche.
    * Elle est similaire au paramètre de terme de la gestion dynamique des balises.
 
 * `_bt={creative}`
-   * Représente l’ID ou le nom de l’élément créatif.
+   * Représente l’ID ou le nom de création.
    * Elle est similaire au paramètre de contenu UTM.
 
 * `_bm={matchtype}`
    * Représente le degré de correspondance du mot-clé.
    * Les types de correspondance de mots-clés permettent de contrôler quelles recherches déclenchent votre publicité. Par exemple, vous pouvez utiliser une correspondance large pour afficher votre publicité auprès d’un large public ou une correspondance exacte pour éclairer des groupes de clients spécifiques.
-   * Les trois types de correspondance sont les suivants : large, flou et exact.
+   * Les trois types de correspondance sont : large, flou et exact.
 
 >[!TIP]
 >
@@ -52,7 +53,7 @@ Exemple d’URL avec [!DNL Marketo Measure] parameters:
 
 >[!NOTE]
 >
->Les paramètres d’URL de redirection ne sont pas pris en charge.
+>Nous ne prenons pas en charge les paramètres d’URL de redirection.
 
 ## Paramètres Bing Ads {#bing-ads-parameters}
 

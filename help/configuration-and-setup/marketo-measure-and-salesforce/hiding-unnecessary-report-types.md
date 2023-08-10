@@ -3,10 +3,11 @@ unique-page-id: 18874785
 description: Masquage des types de rapports inutiles - [!DNL Marketo Measure] - Documentation du produit
 title: Masquage des types de rapports superflus
 exl-id: 7c181340-c154-49ca-a852-243bce71c7a0
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -20,7 +21,7 @@ Une fois l’installation terminée et les rapports utilisés, il arrive souvent
 
 1. Saisissez le mot &quot;point de contact&quot; pour renseigner tous les rapports.
 
-1. Sélectionnez la **[!UICONTROL Sélectionner les types de rapports à masquer]** en haut à gauche.
+1. Sélectionnez la variable **[!UICONTROL Sélectionner les types de rapports à masquer]** en haut à gauche.
 
 1. Cliquez sur les rapports marqués ci-dessous avec un X orange pour faire ressembler votre liste de rapports à l’image ci-dessous.
 

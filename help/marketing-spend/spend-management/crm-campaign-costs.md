@@ -3,10 +3,11 @@ unique-page-id: 18874688
 description: Coûts de la campagne CRM - [!DNL Marketo Measure] - Documentation du produit
 title: Coûts de campagne CRM
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Spend Management
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1228'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -16,7 +17,7 @@ Le plus [!DNL Marketo Measure] Les clients utilisent des campagnes CRM pour effe
 
 ## Disponibilité {#availability}
 
-Cette fonctionnalité est disponible pour tous les [!DNL Salesforce] et clients Dynamics.
+Cette fonctionnalité est disponible pour tous les [!DNL Salesforce] et les clients Dynamics.
 
 ## Fonctionnement {#how-it-works}
 
@@ -24,7 +25,7 @@ Cette fonctionnalité est disponible pour tous les [!DNL Salesforce] et clients 
 
 **[!DNL Salesforce]**: Coût réel, Date de début, Date de fin
 
-**[!DNL Microsoft Dynamics]**: totalactualcost, réelle start, actualend
+**[!DNL Microsoft Dynamics]**: total actualcost, réelle, réel
 
 Si une valeur manque dans l’un des trois champs, [!DNL Marketo Measure] n&#39;importe pas les coûts. Vous pouvez corriger ce problème en mettant à jour l&#39;enregistrement Campaign dans le CRM. Il est également important de noter que nous n’importerons pas les coûts s’ils sont explicitement définis sur 0 $, car [!DNL Salesforce] considère vide et 0 $ comme identique.
 
@@ -52,13 +53,13 @@ Si vous préférez que le coût de la campagne CRM soit augmenté, vous pouvez m
 
 ## Campagnes sans points de contact {#campaigns-with-no-touchpoints}
 
-De nombreux spécialistes du marketing choisissent de signaler les dépenses marketing liées aux campagnes CRM qui n’ont généré aucun point de contact ou qui n’ont sciemment aucun membre de campagne à des fins de suivi des dépenses. Tant que les 3 champs sont renseignés (date de début, date de fin, coût) et que la campagne est activée pour les points de contact, [!DNL Marketo Measure] tirera toujours ce coût, qu’il y ait ou non des points de contact associés.
+De nombreux spécialistes du marketing choisissent de signaler les dépenses marketing liées aux campagnes CRM qui n’ont généré aucun point de contact ou qui n’ont sciemment aucun membre de campagne à des fins de suivi des dépenses. Tant que les 3 champs sont renseignés (date de début, date de fin, coût) et que la campagne est activée pour les points de contact, [!DNL Marketo Measure] tirera toujours ce coût, qu’il y ait ou non des points de contact qui lui sont associés.
 
 Cela peut s’avérer utile pour effectuer le suivi des dépenses sur les coûts ou outils marketing excédentaires afin de les cumuler dans vos calculs de retour sur investissement.
 
 ## Synchronisation du programme Marketo {#marketo-program-sync}
 
-Si vous intégrez des programmes Marketo dans le CRM en tant que campagnes, vous souhaiterez vous assurer que le mapping Date de début, Date de fin et Coût de la période est configuré sur les champs CRM requis. Puisqu’il n’existe aucun mapping vers le champ Activer les points de contact des acheteurs , vous devrez toujours activer ces campagnes afin que nous sachions extraire les coûts pour elles.
+Si vous intégrez des programmes Marketo dans le CRM en tant que campagnes, vous souhaiterez vous assurer que le mapping Date de début, Date de fin et Coût de la période est configuré sur les champs CRM requis. Puisqu’il n’existe aucun mappage sur le champ Activer les points de contact des acheteurs , vous devrez toujours activer ces campagnes afin que nous sachions extraire les coûts pour elles.
 
 ## Modification des coûts {#editing-the-costs}
 
@@ -66,7 +67,7 @@ Une fois qu’une campagne est importée depuis le CRM, elle est traitée de la 
 
 Toute modification du coût ou de la distribution doit être effectuée dans le CRM afin que nous puissions pointer vers un seul point de vérité.
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
 **J’ai apporté une modification à ma campagne. Quand dois-je m’attendre à voir les modifications dans le tableau des dépenses marketing ou dans mes rapports ?**
 
@@ -86,7 +87,7 @@ En fait, la façon dont les coûts seront entraînés sera directement à partir
 
 **Comment modifier le coût d’un mois dans [!DNL Marketo Measure]?**
 
-Parce que nous comptons sur le CRM comme source unique de vérité, tous les changements doivent être apportés dans le CRM. Une fois que la campagne a été importée par [!DNL Marketo Measure], les valeurs de Campaign ne sont pas modifiables dans [!DNL Marketo Measure] ou dans le fichier CSV.
+Parce que nous comptons sur le CRM comme source unique de vérité, tous les changements doivent être apportés dans le CRM. Une fois la campagne importée par [!DNL Marketo Measure], les valeurs de Campaign ne sont pas modifiables dans [!DNL Marketo Measure] ou dans le fichier CSV.
 
 **Dans quel scénario une campagne apparaîtra-t-elle dans le tableau des dépenses marketing, puis n&#39;apparaîtra plus ?**
 

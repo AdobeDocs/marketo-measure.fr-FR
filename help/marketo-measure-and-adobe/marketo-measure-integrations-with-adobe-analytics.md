@@ -2,7 +2,8 @@
 description: "[!DNL Marketo Measure] Intégrations avec Adobe Analytics - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] Intégrations avec [!DNL Adobe Analytics]"
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 0%
@@ -21,7 +22,7 @@ L’intégration des attributs du client B2B permet aux utilisateurs mutuels de 
 
 1. Commencez par créer une source de données Attributs du client dans votre console d’Experience Cloud. Instructions détaillées [peut être consulté ici](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
-   Prenez note des informations suivantes, car vous en aurez besoin pour certaines des étapes suivantes du processus :
+   Prenez note des informations suivantes, car vous en aurez besoin pour quelques-unes des étapes suivantes du processus :
 
    * ID d’alias, qui peut être n’importe quelle valeur que vous souhaitez. Nous recommandons &quot;marketomeasure_id&quot;
 
@@ -84,7 +85,7 @@ Notez que les attributs apparus via cette intégration seront toujours pris en c
 
 **Comment modifier l’ensemble d’attributs que je souhaite partager via cette intégration ?**
 
-Pour qu’un attribut soit partagé par [!DNL Marketo Measure] à votre organisation Adobe IMS via cette intégration pour qu’elle soit visible et utilisée dans [!DNL Adobe Analytics], il doit être affiché via un abonnement aux attributs configuré dans la console des services principaux. Par conséquent, si vous souhaitez supprimer un attribut afin qu’il n’apparaisse plus dans [!DNL Adobe Analytics], vous pouvez y parvenir en supprimant simplement l’abonnement à l’attribut .
+Pour un attribut partagé par [!DNL Marketo Measure] à votre organisation Adobe IMS via cette intégration à afficher et à utiliser dans [!DNL Adobe Analytics], il doit être affiché via un abonnement aux attributs configuré dans la console des services principaux. Par conséquent, si vous souhaitez supprimer un attribut afin qu’il n’apparaisse plus dans [!DNL Adobe Analytics], vous pouvez y parvenir en supprimant simplement l’abonnement à l’attribut .
 
 Vous pouvez également supprimer la connexion Attribut client B2B dans [!DNL Marketo Measure] et recréez-le avec l’attribut que vous ne souhaitez plus partager exclu de la configuration de la connexion. De même, pour ajouter des attributs à l’intégration, vous devez supprimer la connexion existante et en créer une nouvelle avec les attributs souhaités ajoutés à la configuration.
 
@@ -92,6 +93,6 @@ Compte tenu de ce qui précède, il est vivement recommandé, lors de la configu
 
 **Quels sont les exemples d’utilisation de cette intégration ?**
 
-1. Mesures de trafic basées sur un compte : À l’aide de l’attribut nom du compte, vous pouvez créer des segments d’un ou de plusieurs comptes cibles dans Adobe Analytics et analyser les mesures de trafic du site uniquement pour le sous-ensemble du trafic provenant des comptes cibles.
-1. Content Analytics : Utilisez la mesure des recettes pour analyser le contenu du site qui intéresse le plus les clients qui achètent votre produit ou service, ou ceux qui atteignent une étape spécifique de l’entonnoir.
-1. Prise en charge de la version en direct : Donnez à votre équipe commerciale des informations exploitables en analysant le comportement du site des utilisateurs associés à une opportunité d’ouverture spécifique dans votre CRM.
+1. Mesures de trafic basées sur un compte : à l’aide de l’attribut nom du compte, vous pouvez créer des segments d’un ou de plusieurs comptes cibles dans Adobe Analytics et analyser les mesures de trafic du site pour seulement le sous-ensemble du trafic provenant des comptes cibles.
+1. Analyses de contenu : utilisez la mesure des recettes pour analyser le contenu du site le plus attrayant pour les clients qui achètent votre produit ou service, ou ceux qui atteignent un stade d’entonnoir spécifique.
+1. Assistance en direct : apportez à votre équipe commerciale des informations exploitables en analysant le comportement du site des utilisateurs associés à une opportunité d’ouverture spécifique dans votre CRM.

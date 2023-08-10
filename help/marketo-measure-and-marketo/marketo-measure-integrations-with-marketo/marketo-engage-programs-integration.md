@@ -3,10 +3,11 @@ unique-page-id: 42762729
 description: "[!DNL Marketo Engage] Intégration de programmes - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Engage] Intégration de programmes"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1259'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -44,7 +45,7 @@ Tous les niveaux.
 
    ![](assets/four.png)
 
-1. Sélectionnez le champ Date ou Date/Heure à utiliser pour le mappage à la Date du point de contact. Pour afficher la liste des valeurs disponibles à partir de Marketo, saisissez une accolade. `{` et nous afficherons les champs disponibles.
+1. Sélectionnez le champ Date ou Date/Heure à utiliser pour le mappage à la Date du point de contact. Pour afficher la liste des valeurs disponibles dans Marketo, saisissez une accolade. `{` et nous afficherons les champs disponibles.
 
    ![](assets/five.png)
 
@@ -86,7 +87,7 @@ Dans la liste des canaux de programme Marketo, vous souhaitez mapper les valeurs
 
 1. Dans la partie supérieure, vous avez la possibilité de mapper vos types de campagne CRM, puis, dans la partie inférieure, vous verrez les options de vos canaux de programme Marketo.
 
-1. Sélectionnez tout d’abord le canal qui doit correspondre à la valeur, puis sélectionnez éventuellement le sous-canal. Une fois que vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]** en bas.
+1. Sélectionnez tout d’abord le canal qui doit correspondre à la valeur, puis sélectionnez éventuellement le sous-canal. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]** en bas.
 
    ![](assets/eleven.png)
 
@@ -117,7 +118,7 @@ Grâce à l’importation des données des programmes Marketo, les coûts sont a
    <td>(vérifier si le programme existe toujours via l’API)</td> 
   </tr> 
   <tr> 
-   <td><p>NOM</p></td> 
+   <td><p>NAME</p></td> 
    <td>name</td> 
   </tr> 
  </tbody> 
@@ -130,7 +131,7 @@ Grâce à l’importation des données des programmes Marketo, les coûts sont a
 | CREATED_DATE | membershipDate |
 | LEAD_ID | Id (appartenance à une liste) |
 | LEAD_EMAIL | Email (abonnement à une liste) |
-| STATUT | progressStatus |
+| STATUS | progressStatus |
 | HAS_RESPONDED | reachStatus |
 | CAMPAIGN_NAME | programName |
 | CAMPAIGN_ID | programId |
@@ -140,15 +141,15 @@ Grâce à l’importation des données des programmes Marketo, les coûts sont a
 
 Suite au [!DNL Marketo Measure] intégration à Marketo, la variable [!DNL Marketo Measure] L’ID de cookie est également mappé et synchronisé avec la variable [!DNL Marketo Munchkin Id]. Cela permet de réduire l’écart pour attribuer la première touche anonyme à une session web plutôt que d’attribuer les touches FT et LC à une activité Marketo. Imaginez ce scénario :
 
-Marquer les clics sur un [!DNL Facebook] et arrive sur wayneentreprises.com où il reçoit un cookie [!DNL Marketo Measure] Id 123 et [!DNL Marketo Munchkin Id] 456. Aucun remplissage de formulaire n’a lieu.
+Marquer les clics sur un [!DNL Facebook] et arrive sur wayneenterprises.com où il reçoit un cookie. [!DNL Marketo Measure] Id 123 et [!DNL Marketo Munchkin Id] 456. Aucun remplissage de formulaire n’a lieu.
 
 L’équipe marketing de Wayne Entreprises envoie un courrier électronique à des pistes ciblées spécifiques, l’une d’elles étant `mark@email.com`.
 
-`mark@email.com` reçoit l&#39;email et les clics publicitaires et atterrit sur wayneentreprises.com. Cela devient `mark@email.com's` deuxième visite à `wayneenterprise.com` avec les mêmes identifiants de cookie, mais il n’y avait aucun remplissage de formulaire, pour [!DNL Marketo Measure], il s’agit toujours d’un visiteur anonyme.
+`mark@email.com` reçoit l’e-mail et les clics publicitaires et accède à wayneenterprises.com. Cela devient `mark@email.com's` deuxième visite à `wayneenterprise.com` avec les mêmes identifiants de cookie, mais il n’y avait aucun remplissage de formulaire, pour [!DNL Marketo Measure], il s’agit toujours d’un visiteur anonyme.
 
 L’équipe marketing Wayne Entreprises crée une règle Activité Marketo afin de générer des points de contact pour un type d’activité &quot;Clic e-mail&quot;.
 
-La mise en oeuvre d’aujourd’hui créerait un point de contact FT et LC unique pour `mark@email.com` de l’activité Marketo à partir du type d’activité &quot;Clic email&quot;.
+La mise en oeuvre actuelle créerait un point de contact FT et LC unique pour `mark@email.com` de l’activité Marketo à partir du type d’activité &quot;Clic email&quot;.
 
 Avec cette amélioration du mappage de cookies, le FT revient et est crédité au [!DNL Facebook] et le LC seraient crédités au courrier électronique.
 
@@ -156,7 +157,7 @@ Avec cette amélioration du mappage de cookies, le FT revient et est crédité a
 >
 >Avec le comportement du mappage de cookies, vous pouvez trouver certains points de contact LC provenant d’une visite web. Il est possible qu’une piste apparaisse dans Marketo sans activité associée, puis [!DNL Marketo Measure] téléchargé ce prospect, correspondait aux cookies associés, puis le tracait vers la session web la plus récente, même si aucune activité de formulaire n’avait créé le prospect.
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
 **Comment définir la date du point de contact comme date de progression ou la date à laquelle le changement d’état est survenu pour mon membre de programme ?**
 
@@ -168,7 +169,7 @@ Pour déclencher la saisie automatique, commencez par saisir une accolade. `{` d
 
 **Si je crée des règles de programme Marketo et que je dispose également de règles de campagne CRM, seront-elles comptabilisées deux fois ?**
 
-Cela dépend de votre définition de règle, mais peut-être, oui. Vous souhaitez évaluer votre jeu de règles afin que vous n’ayez pas de règles couvrant un programme et une campagne, car nous ne dédupliquerons ni ne détecterons les appartenances similaires. Une solution possible consiste à copier vos règles Campaign dans Programmes si vous souhaitez que Marketo soit votre source unique de vérité, puis à supprimer les règles Campaign. Une autre option consiste à ajouter un critère &quot;CreatedOn&quot; ou &quot;CreatedDate&quot; dans vos règles, de sorte que les règles antérieures à une certaine date utilisent les règles et règles de Campaign après qu’une certaine date utilisera les règles de programme. Il y a beaucoup de solutions possibles, mais cela demandera un peu de planification et de coordination.
+Cela dépend de votre définition de règle, mais peut-être, oui. Vous souhaitez évaluer votre jeu de règles de sorte que vous n’ayez pas de règles couvrant un programme et une campagne, car nous ne dédupliquerons ni ne détecterons les appartenances similaires. Une solution possible consiste à copier vos règles Campaign dans Programmes si vous souhaitez que Marketo soit votre source unique de vérité, puis à supprimer les règles Campaign. Une autre option consiste à ajouter un critère &quot;CreatedOn&quot; ou &quot;CreatedDate&quot; dans vos règles, de sorte que les règles antérieures à une certaine date utilisent les règles et règles de Campaign après qu’une certaine date utilisera les règles de programme. Il y a beaucoup de solutions possibles, mais cela demandera un peu de planification et de coordination.
 
 **Les champs personnalisés d’appartenance à un programme Marketo sont-ils disponibles à définir ?**
 
@@ -176,4 +177,4 @@ En raison de limitations techniques, nous ne pouvons pas prendre en charge pour 
 
 **Comment savoir si je dois utiliser des programmes ou des activités ?**
 
-Le [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme particulier, la variable [!DNL Marketo Engage] L’intégration des activités est la configuration que vous souhaitez, en particulier le type d’activité &quot;Modifier l’état de progression&quot;.
+La variable [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme spécifique, la variable [!DNL Marketo Engage] L’intégration des activités est la configuration que vous souhaitez, en particulier le type d’activité &quot;Modifier l’état de progression&quot;.

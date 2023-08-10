@@ -3,16 +3,17 @@ unique-page-id: 42762600
 description: Documentation du tableau de bord des instantanés - [!DNL Marketo Measure] - Documentation du produit
 title: Documentation du tableau de bord des instantanés
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 # Documentation du tableau de bord des instantanés {#snapshot-dashboard-documentation}
 
-Le tableau de bord d’instantanés vous permet de visualiser l’état de votre CRM à tout moment, avec la distribution des enregistrements entre les étapes de piste/contact et opportunité.
+Le tableau de bord d’instantanés vous permet de visualiser l’état de votre CRM à tout moment, avec la distribution des enregistrements entre les phases de piste/contact et d’opportunité.
 
 Ce tableau de bord comporte deux mosaïques :
 
@@ -27,23 +28,23 @@ Ce tableau de bord comporte deux mosaïques :
 Ce tableau de bord prend en charge les filtres suivants (tous les filtres s’appliquent aux deux mosaïques) :
 
 * Date d’instantané : sélectionnez la date d’instantané.
-* Identifiant/nom du compte CRM : filtrez les enregistrements par ID ou noms de compte CRM.
+* Identifiant/nom du compte CRM : filtrez les enregistrements par identifiant ou nom de compte CRM.
 
 >[!NOTE]
 >
 >Les suggestions n’affichent que les noms.
 
 * Canal : filtrer les enregistrements par canaux. Un enregistrement est associé à un canal si l’un de ses points de contact est associé au canal.
-* Subchannel : filtrer les enregistrements par sous-canaux. Un enregistrement est associé à un sous-canal si l’un de ses points de contact est associé au sous-canal.
-* Campagne : filtrer les enregistrements par campagnes. Un enregistrement est associé à une campagne si l’un de ses points de contact est associé à la campagne.
-* Source de la campagne : filtrez les enregistrements par sources de campagne. Exemples de sources de campagne : [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. Un enregistrement est associé à une source de campagne si l’un de ses points de contact est associé à la source de la campagne.
+* Sous-canal : filtrez les enregistrements par sous-canaux. Un enregistrement est associé à un sous-canal si l’un de ses points de contact est associé au sous-canal.
+* Campagne : filtrez les enregistrements par campagnes. Un enregistrement est associé à une campagne si l’un de ses points de contact est associé à la campagne.
+* Source de la campagne : filtrez les enregistrements par sources de la campagne. Exemples de sources de campagne : [!DNL Adwords], [!DNL BingAds], [!DNL Facebook], [!DNL LinkedIn], etc. Un enregistrement est associé à une source de campagne si l’un de ses points de contact est associé à la source de la campagne.
 * Identifiant/nom du compte publicitaire : filtrez les enregistrements par identifiant ou nom de compte publicitaire. Un enregistrement est associé à un compte publicitaire si l’un de ses points de contact est associé à une campagne à partir des comptes publicitaires sélectionnés.
 
 >[!NOTE]
 >
 >Les suggestions affichent uniquement les noms.
 
-* Filtres de segments : filtrer les enregistrements par segments personnalisés. Un enregistrement est associé à un segment si l’un de ses points de contact est associé au segment.
+* Filtres de segments : filtrez les enregistrements par segments personnalisés. Un enregistrement est associé à un segment si l’un de ses points de contact est associé au segment.
 
 La logique &quot;AND&quot; est utilisée sur tous les filtres.
 

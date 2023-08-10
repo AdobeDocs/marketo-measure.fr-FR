@@ -3,7 +3,8 @@ unique-page-id: 18874791
 description: Octroi [!DNL Salesforce] Accès à [!DNL Marketo Measure] Assistance - [!DNL Marketo Measure] - Documentation du produit
 title: Octroi [!DNL Salesforce] Accès à l’assistance Marketo Measure
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -24,9 +25,9 @@ Selon votre organisation, la variable [!UICONTROL Configuration] est soit en reg
 
    * Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Mes informations personnelles]** > **[!UICONTROL Accorder l’accès à la connexion]**.
 
-      OR
+     OR
 
-   * Cliquez sur `<your name>` > **[!UICONTROL Mes paramètres]** > **[!UICONTROL Personal]** > **[!UICONTROL Accorder l’accès à la connexion au compte]**.
+   * Cliquez sur `<your name>` > **[!UICONTROL Mes paramètres]** > **[!UICONTROL Personal Personal]** > **[!UICONTROL Accorder l’accès à la connexion au compte]**.
 
 1. Définition de la date d’expiration d’accès pour [!UICONTROL Prise en charge de Marketo Measure]. Pour la résolution des problèmes techniques, il est recommandé d’octroyer [!DNL Marketo Measure] prise en charge de l’accès pendant au moins une semaine.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.

@@ -3,10 +3,11 @@ unique-page-id: 35586105
 description: Chemin de l’engagement - [!DNL Marketo Measure] - Documentation du produit
 title: Parcours d’engagement
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '874'
-ht-degree: 4%
+ht-degree: 9%
 
 ---
 
@@ -16,7 +17,7 @@ Chemin d’accès de l’engagement vous permet d’afficher une vue complète d
 
 ![](assets/one-2.png)
 
-## Description de la mosaïque {#tile-description}
+## Description du titre {#tile-description}
 
 **Type d’événement :** Type de point de contact (Session, Campaign CRM, Événement CRM, Tâche CRM, Impression)
 
@@ -24,7 +25,7 @@ Chemin d’accès de l’engagement vous permet d’afficher une vue complète d
 
 **Position du point de contact de l’attribution de l’achat :** Position du point de contact d’attribution de l’achat de l’opportunité
 
-**Date du point de contact :** Pour les sources en ligne : date et heure auxquelles l’engagement s’est produit. Pour les événements hors ligne : date et heure définies dans la campagne Salesforce. Pour le point de contact des activités : champ de date de point de contact référencé dans la configuration des activités
+**Date du point de contact :** Pour les sources en ligne : date et heure de l’engagement. Pour les événements hors ligne : date et heure définies dans la campagne Salesforce. Pour le point de contact des activités : champ de date du point de contact référencé dans la configuration des activités
 
 **Email :** Adresse électronique associée à l’engagement
 
@@ -41,8 +42,8 @@ Chemin d’accès de l’engagement vous permet d’afficher une vue complète d
 **Source Web :** Cette colonne affiche la source de l’engagement.
 
 * Si l’engagement provient d’une plateforme connectée à une API, la source web affichera le nom de la plateforme publicitaire.
-* Si le point de contact provient de la recherche organique, ce champ affiche le nom du moteur de recherche.
-* Si elle n’est pas #1 ou #2 et que la valeur utm_source est présente dans l’URL de la page d’entrée pour le point de contact, cette valeur est affichée ici.
+*  Si le point de contact provient du référencement naturel, ce champ indique le nom du moteur de recherche.
+*  Si les deux premiers scénarios ne s’appliquent pas et qu’une valeur utm_source est présente dans l’URL de la page de destination associée au point de contact, cette valeur est reprise dans ce champ.
 * Si vous ne trouvez pas #1 ou #2 et qu’aucune valeur utm_source n’est présente, le domaine racine de l’URL de référence s’affiche ici.
 * Si aucune des options ci-dessus n’est affichée, Web direct ou Web
 
@@ -80,7 +81,7 @@ Chemin d’accès de l’engagement vous permet d’afficher une vue complète d
   </tr> 
   <tr> 
    <td><p>Modèle d’attribution</p></td> 
-   <td><p>Indiquez à quel modèle les recettes attribuées doivent être calculées. Valeurs autorisées : "Attribution de chemin complet", "Attribution de première touche", "Attribution de modèle personnalisé", "Attribution de création de piste", "Attribution en forme de U", "Attribution en forme de W".</p></td> 
+   <td><p>Indiquez à quel modèle les recettes attribuées doivent être calculées. Valeurs autorisées : "Attribution de chemin complet", "Attribution Première touche", "Attribution de modèle personnalisé", "Attribution de création de piste", "Attribution en forme de U", "Attribution en forme de W".</p></td> 
   </tr> 
   <tr> 
    <td><p>Type d’événement</p></td> 
@@ -111,7 +112,7 @@ Chemin d’accès de l’engagement vous permet d’afficher une vue complète d
    <td><p>Filtrez le parcours par canal.</p></td> 
   </tr> 
   <tr> 
-   <td><p>Moyen</p></td> 
+   <td><p>Support</p></td> 
    <td><p>Filtrez le parcours par support.</p></td> 
   </tr> 
   <tr> 
@@ -123,7 +124,7 @@ Chemin d’accès de l’engagement vous permet d’afficher une vue complète d
    <td><p>Filtrez le parcours par la colonne "Is First Touch" dans le tableau des points de contact utilisateur.</p></td> 
   </tr> 
   <tr> 
-   <td><p>Chiffre d’affaires attribué</p></td> 
+   <td><p>Revenu attribué</p></td> 
    <td><p>Filtrez le parcours par valeur de recettes attribuée.</p></td> 
   </tr> 
  </tbody> 

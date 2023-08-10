@@ -1,15 +1,16 @@
 ---
 description: "[!UICONTROL Téléchargement des données de Discover] Contrôle d’accès - Marketo Measure - Documentation du produit"
-title: "[!UICONTROL Téléchargement des données de Discover] Contrôle d’accès"
+title: '"[!UICONTROL Contrôle d’accès au téléchargement des données de Discover"]'
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
-source-git-commit: 3d2d250933d16e3e8ab14f4863a76559b4349dbf
+feature: Discover
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
-# [!UICONTROL Téléchargement des données de Discover] Contrôle d’accès {#discover-data-download-access-control}
+# [!UICONTROL Contrôle d’accès au téléchargement des données de Discover] {#discover-data-download-access-control}
 
 [!UICONTROL Téléchargement des données de Discover] control active [!DNL Marketo Measure] Les administrateurs doivent définir les stratégies de téléchargement des données pour les tableaux de bord de Discover en fonction des rôles des utilisateurs. Le contrôle couvre toutes les actions de téléchargement de données sur les tableaux de bord de Discover.
 

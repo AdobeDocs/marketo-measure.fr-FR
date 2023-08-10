@@ -3,7 +3,8 @@ unique-page-id: 18874692
 description: Scénarios d’évaluation de Boomerang - [!DNL Marketo Measure] - Documentation du produit
 title: Scénarios d’étape de boomerang
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+feature: Boomerang
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 0%
@@ -20,7 +21,7 @@ Vous trouverez ci-dessous quelques exemples de scénarios de Boomerang Stage pou
 
 ## Scénarios de piste uniques {#single-lead-scenarios}
 
-**Scénario 1 : Points de contact standard Boomerang pour une piste**
+**Scénario 1 : points de contact standard Boomerang pour une piste**
 
 C&#39;est le scénario Boomerang le plus simple. La ligne supérieure (appelée &quot;piste 1&quot;) représente le parcours des pistes individuelles et la manière dont leurs points de contact apparaissent dans l’enregistrement de piste. La ligne de bas (désignée par le terme Opportunité) indique comment les points de contact des Pistes se traduisent par Opportunité. La progression des points de contact sera expliquée dans l’occurrence chronologique, de gauche à droite.
 
@@ -30,9 +31,9 @@ Le prospect 1 est ensuite converti en contact avec une opportunité, qui est con
 
 ![](assets/1-1.png)
 
-**Scénario 2 : Points de contact Boomerang ET étapes personnalisées pour une piste**
+**Scénario 2 : points de contact Boomerang et étapes personnalisées pour une piste**
 
-Dans ce scénario, un client a choisi de suivre uniquement la variable **Etape SQL** avec des points de contact boomerang. Les scènes MQL et SAL sont toujours suivies, mais avec la variable [!DNL Marketo Measure] Fonctionnalité d’évaluation personnalisée.
+Dans ce scénario, un client a choisi de suivre uniquement la variable **Etape SQL** avec des points de contact boomerang. Les scènes MQL et SAL sont toujours suivies, mais avec la variable [!DNL Marketo Measure] Fonction d’évaluation personnalisée.
 
 ![](assets/2-1.png)
 
@@ -44,9 +45,9 @@ La scène SQL est suivie avec les points de contact Boomerang, et trois points d
 
 Le prospect 1 est ensuite converti en contact avec une opportunité, qui est considéré comme la touche OC.
 
-**Scénario 3 : Lorsque les pistes n’atteignent pas/ne sautent pas une scène**
+**Scénario 3 : lorsque les pistes n’atteignent pas/ne sautent pas une scène**
 
-Ce scénario utilise les mêmes critères que le scénario 2. Un client a choisi de ne suivre que la scène SQL avec des points de contact boomerang. MQL et SAL toujours en cours de suivi, mais avec la variable [!DNL Marketo Measure] Fonctionnalité d’évaluation personnalisée.
+Ce scénario utilise les mêmes critères que le scénario 2. Un client a choisi de ne suivre que la scène SQL avec des points de contact boomerang. MQL et SAL toujours en cours de suivi, mais avec la variable [!DNL Marketo Measure] Fonction d’évaluation personnalisée.
 
 ![](assets/3.png)
 
@@ -66,7 +67,7 @@ Dans ce scénario, un client a choisi de suivre la variable **MQL** et **Etapes 
 
 ![](assets/4.png)
 
-Les points de contact FT et LC sur l’opportunité viendront de Lead 1 (bleu), car ils se sont produits avant le FT et la LC de Lead 2 (rose). Le point de contact LC pour l’piste 2 apparaît comme point de contact &quot;Formulaire&quot; sur l’opportunité.
+Les points de contact FT et LC sur l’opportunité proviendront du prospect 1 (bleu), puisqu’ils se sont produits avant le FTP et le LC du prospect 2 (rose). Le point de contact LC pour l’piste 2 apparaît comme point de contact &quot;Formulaire&quot; sur l’opportunité.
 
 Le MQL-01 (dernier) du prospect 2 sera le premier MQL sur l’opportunité. Le MQL-01 de la piste 1 n’apparaîtra pas comme point de contact sur l’opportunité, car le MQL de la piste 2 s’est produit en premier. Toutefois, les MQL-02 et MQL-03 de Lead 1 apparaissent dans l’opportunité.
 
@@ -90,7 +91,7 @@ Le MQL-01 (dernier) du prospect 2 correspond finalement au MQL-04 (dernier) poin
 
 Notez également qu’il n’y a que 2 points de contact SAL inclus dans l’opportunité. [!DNL Marketo Measure] ne tente pas de forcer/créer des points de contact pour les transitions intermédiaires si elles ne se sont pas réellement produites.
 
-Le parcours de point de contact du prospect 3 commence juste avant que la touche OC ne se produise, mais longtemps après que les points 1 et 2 aient eu leur touche FT et LC. Dans ce cas, le formulaire FT et le document LC de la piste 3 apparaissent comme un point de contact de formulaire sur l’opportunité. Le prospect 1 est ensuite converti en contact avec une opportunité, qui est considéré comme la touche OC.
+Le parcours de point de contact du prospect 3 commence juste avant que le contact OC ne se produise, mais longtemps après que les points 1 et 2 aient eu leur contact FT et LC. Dans ce cas, le formulaire FT et le document LC de la piste 3 apparaissent comme un point de contact de formulaire sur l’opportunité. Le prospect 1 est ensuite converti en contact avec une opportunité, qui est considéré comme la touche OC.
 
 Les touches MQL, SQL et SAL du prospect 3 se produisent toutes en même temps, après la touche OC. Puisqu’elles se sont produites après le point de contact OC, ce point de contact s’affiche sous la forme d’un formulaire/contact intermédiaire sur l’opportunité plutôt que sous la forme d’une transition d’étape Boomerang.
 
@@ -104,7 +105,7 @@ Tous les points de contact du prospect 1 seront inclus sur l’opportunité, de 
 
 Le MQL-01 (Dernière) de la piste 2 (Visite Web) ne sera pas créé comme point de contact sur l’Opp. Cela est dû au fait que ce point de contact était une visite web qui se produit après la dernière occurrence de l’étape SQL et n’aide pas à faire avancer l’opportunité.
 
-L’étape du prospect 1 passe à SAL, puis est convertie en contact avec une opportunité ; dans ce cas, la position SAL-01 (dernier) et OC sera combinée dans le même point de contact.
+L’étape du prospect 1 passe à SAL, puis est convertie en Contact avec une opportunité ; dans ce cas, la position SAL-01 (dernier) et OC sera combinée dans le même point de contact.
 
 Le formulaire FT de Lead 3, LC touch sera créé comme point de contact de formulaire dans l’Opp. Seules les actions de remplissage de formulaire seront créées en tant que points de contact après la touche OC. Pour cette raison, les transitions d’étape SQL-01 (dernier) et SAL-01 (dernier) de la piste 2 ne seront pas créées en tant que points de contact, car ces points de contact étaient des visites web.
 
@@ -116,13 +117,13 @@ Dans ce scénario, un client a choisi de suivre la variable **MQL**, **SQL**, et
 
 ![](assets/7.png)
 
-Les points de contact FT et LC sur l’opportunité viendront de Lead 1 (bleu), car ils se sont produits avant le FT et la LC de Lead 2 (rose). Le point de contact LC pour l’piste 2 apparaît comme point de contact &quot;Formulaire&quot; sur l’opportunité.
+Les points de contact FT et LC sur l’opportunité proviendront du prospect 1 (bleu), puisqu’ils se sont produits avant le FTP et le LC du prospect 2 (rose). Le point de contact LC pour l’piste 2 apparaît comme point de contact &quot;Formulaire&quot; sur l’opportunité.
 
 Le MQL-01 (dernier) du prospect 2 sera le premier MQL sur l’opportunité. Le MQL-01 de la piste 1 n’apparaîtra pas comme point de contact sur l’opportunité, car le MQL de la piste 2 s’est produit en premier.
 
 Le SQL-01 (dernier) du prospect 2 deviendra SQL-01 sur l&#39;opportunité. Le code SQL-01 sur le prospect 1 n’apparaîtra pas comme point de contact sur l’opportunité, car SQL-01 sur le prospect 2 s’est produit en premier.
 
-Notez que les boomerangs Lead 1 entre MQL et SQL plusieurs fois avant d’atteindre enfin l’étape SAL. SQL-01, MQL-02, SQL-02, MQL-03, SQL-03 _ne sera pas_ être inclus comme points de contact de l’opportunité, car ces transitions intermédiaires ne contribuent pas à faire avancer l’opportunité dans le parcours.
+Notez que les boomerangs Lead 1 entre MQL et SQL plusieurs fois avant d’atteindre enfin l’étape SAL. SQL-01, MQL-02, SQL-02, MQL-03, SQL-03 _will not_ être inclus comme points de contact de l’opportunité, car ces transitions intermédiaires ne contribuent pas à faire avancer l’opportunité dans le parcours.
 
 Le point de contact SAL-01 (dernier) de la piste 1 sera le prochain point de contact à être inclus dans l’Opp. La piste 1 se convertit ensuite en contact avec une opportunité, créant ainsi le point de contact OC.
 
@@ -140,4 +141,4 @@ Dans ce scénario, un client a choisi de suivre la variable **Transitions de l�
 
 Dans cet exemple, les transitions d’étape de démonstration et de négociation de Contact 1 sont incluses en tant que points de contact Demo-01 et Négociation-01 sur l’opportunité. La transition de l’étape de démonstration du contact 2 se produit _after_ Contactez 1 et apparaît comme point de contact Démo 02 (Dernier) sur l’opportunité.
 
-Notez qu’il n’y a pas de deuxième transition vers l’étape de négociation ; l’opportunité passe immédiatement de Demo-02 (Dernier) à Fermer gagnant. Dans ce cas, [!DNL Marketo Measure] inclura la transition de négociation avec le point de contact Won fermé .
+Notez qu’il n’y a pas de deuxième transition vers l’étape de négociation ; l’opportunité passe immédiatement de Demo-02 (Dernier) à Fermer Won. Dans ce cas, [!DNL Marketo Measure] inclura la transition de négociation avec le point de contact Won fermé .

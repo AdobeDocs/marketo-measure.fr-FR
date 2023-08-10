@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874690
 description: Réautorisation des comptes connectés - [!DNL Marketo Measure] - Documentation du produit
-title: Réautorisation des comptes connectés
+title: Réautorisation de comptes connectés
 exl-id: 7abd1d67-5bed-45bb-844f-0ffd23c3d7f8
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: APIs, Integration
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Réautorisation des comptes connectés {#reauthorizing-connected-accounts}
+# Réautorisation de comptes connectés {#reauthorizing-connected-accounts}
 
 Lorsqu’un compte est déconnecté de votre [!DNL Marketo Measure] , l’état de la plateforme passe à &quot;Autorisation requise&quot; et affiche une icône de clé rouge.
 
@@ -22,7 +23,7 @@ Si votre plateforme CRM est déconnectée, [!DNL Marketo Measure] ne pourra pas 
 
 ## Réautorisation de comptes déconnectés {#re-authorizing-disconnected-accounts}
 
-1. Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
+1. Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et se connecter.
 1. Sélectionner **[!UICONTROL Paramètres]** sous le [!UICONTROL Mon compte] dans le coin supérieur gauche.
 1. Recherchez la section Intégrations à gauche, puis cliquez sur **[!UICONTROL Connexions]**.
 1. Sélectionnez le symbole Clé rouge en regard du compte qui doit être reconnecté.

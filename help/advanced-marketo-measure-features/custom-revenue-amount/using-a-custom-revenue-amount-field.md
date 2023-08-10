@@ -3,10 +3,11 @@ unique-page-id: 18874793
 description: Utilisation d’un champ de montant des recettes personnalisé - [!DNL Marketo Measure] - Documentation du produit
 title: Utilisation d’un champ de montant de recettes personnalisé
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
-source-git-commit: 51397a02872035fef41d308c1f855bcaecc29c4e
+feature: Custom Revenue Amount
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -17,7 +18,7 @@ Par défaut, les points de contact d’attribution de l’acheteur extraient le 
 * Montant (par défaut SFDC)
 * [!DNL Marketo Measure] Montant de l&#39;opportunité (personnalisé)
 
-Si vous utilisez un champ Montant personnalisé pour vos opportunités, nous devrons configurer un workflow afin de calculer les Recettes du point de contact de l’acheteur. Cela nécessite des connaissances plus avancées sur les [!DNL Salesforce], il peut donc nécessiter l’aide de votre administrateur SFDC.
+Si vous utilisez un champ Montant personnalisé pour vos opportunités, nous devrons configurer un workflow afin de calculer les Recettes du point de contact de l’acheteur. Cela nécessite des connaissances plus avancées en matière de [!DNL Salesforce], il peut donc nécessiter l’aide de votre administrateur SFDC.
 
 À partir de maintenant, nous aurons besoin des informations suivantes :
 
@@ -43,7 +44,7 @@ A partir de là, nous allons commencer à créer le workflow.
 
    ![](assets/5.jpg)
 
-1. Vous y trouverez les informations sur les champs. Dans le champ &quot;Nom&quot;, il est recommandé d&#39;utiliser ce nom : &quot;[!DNL Marketo Measure] Montant Opp.&quot; Le &quot;Nom unique&quot; est automatiquement renseigné à partir du champ &quot;Nom&quot;. Dans la liste de sélection &quot;Champ à mettre à jour&quot;, sélectionnez &quot;[!DNL Marketo Measure] Montant de l&#39;opportunité.&quot; Après avoir sélectionné le champ, cochez la case &quot;Réévaluer les règles de workflow après modification du champ&quot;. Dans &quot;Spécifier la nouvelle valeur du champ&quot;, sélectionnez &quot;Utiliser une formule pour définir la nouvelle valeur&quot;. Dans la zone vide, déposez le nom de l’API de votre champ Montant personnalisé. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Vous y trouverez les informations sur les champs. Dans le champ &quot;Nom&quot;, il est recommandé d&#39;utiliser le nom suivant : &quot;[!DNL Marketo Measure] Montant Opp.&quot; Le &quot;Nom unique&quot; est automatiquement renseigné à partir du champ &quot;Nom&quot;. Dans la liste de sélection &quot;Champ à mettre à jour&quot;, sélectionnez &quot;[!DNL Marketo Measure] Montant de l&#39;opportunité.&quot; Après avoir sélectionné le champ, cochez la case &quot;Réévaluer les règles de workflow après modification du champ&quot;. Dans &quot;Spécifier la nouvelle valeur du champ&quot;, sélectionnez &quot;Utiliser une formule pour définir la nouvelle valeur&quot;. Dans la zone vide, déposez le nom de l’API de votre champ Montant personnalisé. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/6.png)
 
@@ -53,4 +54,4 @@ A partir de là, nous allons commencer à créer le workflow.
 
    Pour ce faire, exécutez vos opportunités via Data Loader dans SFDC. Pour plus d’informations sur l’utilisation de Data Loader dans [cet article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Si vous avez des questions, n’hésitez pas à contacter l’équipe de compte d’Adobe (votre gestionnaire de compte) ou [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Si vous avez des questions, n’hésitez pas à contacter l’équipe du compte Adobe (votre gestionnaire de compte) ou [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

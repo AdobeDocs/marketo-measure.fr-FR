@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874755
 description: Ajouter [!DNL Marketo Measure] to [!DNL Marketo] Pages d’entrée - [!DNL Marketo Measure] - Documentation du produit
-title: Ajouter [!DNL Marketo Measure] aux pages d’entrée Marketo
+title: Ajout de  [!DNL Marketo Measure]  à des pages de destination Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
-source-git-commit: 82cc8269bfdb26b6acf039d0ce0e06564f5e2612
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Ajouter [!DNL Marketo Measure] aux pages d’entrée Marketo {#adding-marketo-measure-to-marketo-landing-pages}
+# Ajout de [!DNL Marketo Measure] à des pages de destination Marketo {#adding-marketo-measure-to-marketo-landing-pages}
 
 Découvrez comment ajouter le suivi à [!DNL Marketo Engage] Pages d’entrée, car elles nécessitent une gestion supplémentaire. [!DNL Marketo Measure] JavaScript doit être en place à la fois sur la page d’entrée et sur la page [!DNL Marketo Engage] formulaire lui-même. Pour ce faire, vous devez charger la variable [!DNL Marketo Measure] JavaScript dans [!DNL Marketo Engage] comme expliqué dans les directions suivantes.
 
@@ -23,7 +24,7 @@ Découvrez comment ajouter le suivi à [!DNL Marketo Engage] Pages d’entrée, 
 1. Connectez-vous à [!DNL Marketo Engage] compte .
 1. Sélectionnez votre landing page et cliquez sur **[!UICONTROL Modifier le brouillon]**.
 1. Faites glisser l’élément HTML .
-1. Saisissez le [!DNL Marketo Measure] JavaScript dans la variable [!UICONTROL head] section :
+1. Saisissez le [!DNL Marketo Measure] Dans le [!UICONTROL head] section :
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 

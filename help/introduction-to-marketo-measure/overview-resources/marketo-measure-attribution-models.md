@@ -3,8 +3,9 @@ unique-page-id: 18874568
 description: Modèles d’attribution Marketo Measure - Marketo Measure - Documentation du produit
 title: Modèles d’attribution Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
-source-git-commit: 0aa263053aa8dd804b03a67ab446dc0cda3850c5
-workflow-type: ht
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+workflow-type: tm+mt
 source-wordcount: '734'
 ht-degree: 100%
 

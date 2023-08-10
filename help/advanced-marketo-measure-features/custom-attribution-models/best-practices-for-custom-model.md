@@ -1,21 +1,22 @@
 ---
 description: Bonnes pratiques relatives au modèle personnalisé - [!DNL Marketo Measure] - Documentation du produit
-title: Bonnes pratiques relatives au modèle personnalisé
+title: Bonnes pratiques relatives aux modèles personnalisés
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Models
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Bonnes pratiques relatives au modèle personnalisé {#best-practices-for-custom-model}
+# Bonnes pratiques relatives aux modèles personnalisés {#best-practices-for-custom-model}
 
-## APERÇU {#overview}
+## Vue d’ensemble {#overview}
 
 En plus de la variable [!DNL Marketo Measure] Les clients de niveau 2 et plus, prêts à l’emploi, ont accès à un modèle d’attribution personnalisé.
 
-Le [!DNL Marketo Measure] Le modèle d’attribution personnalisée permet aux utilisateurs de choisir les positions de point de contact de jalon et/ou les étapes personnalisées à inclure dans le modèle. En outre, les utilisateurs peuvent contrôler le pourcentage du crédit attribué à chaque étape dans le modèle (les utilisateurs peuvent définir jusqu’à 6 étapes personnalisées supplémentaires) ou utiliser les valeurs de pourcentage d’attribution suggérées par la variable [!DNL Marketo Measure] Modèle d’apprentissage automatique.
+La variable [!DNL Marketo Measure] Le modèle d’attribution personnalisée permet aux utilisateurs de choisir les positions de point de contact de jalon et/ou les étapes personnalisées à inclure dans le modèle. En outre, les utilisateurs peuvent contrôler le pourcentage du crédit attribué à chaque étape dans le modèle (les utilisateurs peuvent définir jusqu’à 6 étapes personnalisées supplémentaires) ou utiliser les valeurs de pourcentage d’attribution suggérées par la variable [!DNL Marketo Measure] Modèle d’apprentissage automatique.
 
 Il existe deux aspects clés de votre modèle d’attribution personnalisée :
 
@@ -33,8 +34,8 @@ Il est essentiel que ces deux aspects de votre modèle personnalisé soient déf
 
 Que vous configuriez votre modèle personnalisé pour la première fois ou que vous examiniez ce qui a été précédemment établi, il est important de garder à l’esprit les bonnes pratiques suivantes.
 
-* Démarrer simple
-   * Identifiez les étapes clés que vous souhaitez ajouter à votre modèle personnalisé qui sont essentielles à votre [!DNL Marketo Measure] création de rapports. En règle générale, il s’agit d’étapes sur lesquelles vous êtes généralement mesuré ou dont vous souhaitez obtenir des informations.
+* Commencer simple
+   * Identifiez les étapes clés que vous souhaitez ajouter à votre modèle personnalisé qui sont essentielles à votre [!DNL Marketo Measure] création de rapports. En règle générale, il s’agit d’étapes sur lesquelles vous êtes généralement mesuré ou sur lesquelles vous souhaitez obtenir des informations.
    * Vous pouvez toujours ajouter à votre modèle personnalisé au fil du temps.
 * Utilisez la variable [!DNL Marketo Measure] Modèle d’apprentissage automatique
    * Si vous avez du mal à décider de la ventilation d’attribution en pourcentage, la variable [!DNL Marketo Measure] Le modèle d’apprentissage automatique peut vous aider à prendre des décisions éclairées lors de la définition de votre modèle d’attribution personnalisé.
@@ -43,7 +44,7 @@ Que vous configuriez votre modèle personnalisé pour la première fois ou que v
       * Un pourcentage d’attribution plus faible signifie que les étapes sont moins importantes pour votre équipe de surveillance.
 * Vous devez définir les principales étapes de l’entonnoir en fonction des phases de piste ou de contact, et non sur les deux.
    * Cela signifie que vous devez vous assurer que toutes les personnes passent par cette étape sur l’objet relatif.
-      * Par exemple : Si vous définissez l’étape MQL à partir de l’objet Lead, toutes les personnes doivent accéder à votre système en tant que piste et être marquées comme MQL dans leur enregistrement Lead pour [!DNL Marketo Measure] pour indiquer précisément quel contact était lié à la transition du prospect vers MQL. Si ce n&#39;est pas le cas, et que certaines personnes passent à contacter avant de devenir MQL en tant que prospect, [!DNL Marketo Measure] ne sera pas en mesure d’en tenir compte avec précision dans vos données de point de contact et nous devrons supposer que cette personne a déjà MQL. [!DNL Marketo Measure] ne peut pas tenir compte de l’sauts d’étape, nous allons donc déduire que les étapes ont été franchies même si elles ne l’ont pas été.
+      * Par exemple : si vous définissez l’étape MQL à partir de l’objet Lead, toutes les personnes doivent accéder à votre système en tant que piste et être marquées comme MQL dans leur enregistrement Lead pour [!DNL Marketo Measure] pour indiquer précisément quel contact était lié à la transition du prospect vers MQL. Si ce n&#39;est pas le cas, et que certaines personnes passent à contacter avant de devenir MQL en tant que prospect, [!DNL Marketo Measure] ne sera pas en mesure d’en tenir compte avec précision dans vos données de point de contact et nous devrons supposer que cette personne a déjà MQL. [!DNL Marketo Measure] ne peut pas tenir compte de l’sauts d’étape, nous allons donc déduire que les étapes ont été franchies même si elles ne l’ont pas été.
 * Assurez-vous que le suivi de l’historique des champs est activé pour tous les champs utilisés pour définir les étapes personnalisées que vous incorporez.
 * N’utilisez pas de champs de formule pour définir une étape personnalisée
    * Un champ booléen est une recommandation recommandée.
@@ -52,7 +53,7 @@ Que vous configuriez votre modèle personnalisé pour la première fois ou que v
 * Travail avec votre équipe d’Opt-marketing
    * Si vous intégrez l’équipe qui travaille le plus étroitement avec les scènes et leur signification, vous aurez la garantie d’utiliser les scènes correctes et de les définir correctement.
 
-## Bonne pratique pour la maintenance {#best-practice-for-maintenance}
+## Bonne pratique de maintenance {#best-practice-for-maintenance}
 
 La révision de votre modèle personnalisé au moins deux fois par an vous permettra de vous assurer que vos rapports d’attribution personnalisés sont précis et fiables.
 
@@ -60,7 +61,7 @@ Si votre modèle personnalisé utilise le modèle d’apprentissage automatique,
 
 D’autres raisons peuvent déclencher une révision de votre modèle personnalisé, telles que...
 
-* Chiffre d’affaires de votre équipe marketing
+* Changements au sein de votre équipe marketing
 * Toute modification apportée à vos étapes CRM
 * Mises à jour de l’entonnoir de votre entreprise
 * Affichage de données de recettes inexactes dans votre [!DNL Marketo Measure] création de rapports lors de l’application du modèle personnalisé
@@ -68,7 +69,6 @@ D’autres raisons peuvent déclencher une révision de votre modèle personnali
 
 >[!MORELIKETHIS]
 >
->* [Modèle et configuration d’attribution personnalisée](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [Configuration et modèle et d’attribution personnalisés](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Activation Du Suivi De L’Historique Des Champs Pour Un Modèle Personnalisé](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
->* [Modèle d’apprentissage machine](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
-
+>* [Modèle de machine learning](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)

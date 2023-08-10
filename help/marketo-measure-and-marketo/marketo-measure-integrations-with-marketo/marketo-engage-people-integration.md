@@ -3,10 +3,11 @@ unique-page-id: 37356395
 description: "[!DNL Marketo Engage] Intégration de personnes - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Engage] Intégration de personnes"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -29,13 +30,13 @@ Avec l’introduction du téléchargement de personnes Marketo, [!DNL Marketo Me
 
 When [!DNL Marketo Measure] mappe correctement la personne Marketo à une session web ; notre traitement génère tous les points de contact pertinents pour cette personne, qui sont à terme reportables dans [!DNL Marketo Measure Discover]. Si cette personne Marketo est envoyée au CRM, [!DNL Marketo Measure] gérera le scénario de duplication et recréera le point de contact de la personne CRM, puis marquera l’ensemble initial comme &quot;doublon&quot;.
 
-Pour détecter ces doublons, veillez à ce que [!DNL Marketo-Salesforce] ou [!DNL Marketo-Dynamics] La synchronisation renseigne les ID de piste et de contact sur la personne Marketo. Si l’ID est synchronisé correctement, vous devriez pouvoir voir l’ID de gestion de la relation client sur l’enregistrement de la personne, comme ceci :
+Pour détecter ces doublons, veillez à ce que [!DNL Marketo-Salesforce] ou [!DNL Marketo-Dynamics] La synchronisation renseigne les ID de piste et de contact sur la personne Marketo. Si l’ID est synchronisé correctement, vous devriez être en mesure de voir l’ID de gestion de la relation client sur l’enregistrement de la personne, comme ceci :
 
 ![](assets/5a.png)
 
 ![](assets/5b.png)
 
-Les clients ont la possibilité de créer des rapports sur l’ensemble des personnes de Marketo et de la gestion de la relation client au sein de [!DNL Marketo Measure] Découvrez-le. Si vous souhaitez créer des rapports uniquement sur les personnes CRM, nous vous recommandons de créer un segment pour les filtrer.
+Les clients ont la possibilité de créer des rapports sur l’ensemble des personnes Marketo et des personnes CRM dans le [!DNL Marketo Measure] Découvrez-le. Si vous souhaitez créer des rapports uniquement sur les personnes CRM, nous vous recommandons de créer un segment pour les filtrer.
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 
@@ -78,7 +79,7 @@ Lors de la création de rapports sur les pistes (personnes) dans [!DNL Marketo M
    <td><p>site web</p></td> 
   </tr> 
   <tr> 
-   <td><p>SOCIÉTÉ</p></td> 
+   <td><p>COMPANY</p></td> 
    <td><p>société</p></td> 
   </tr> 
   <tr> 
@@ -102,7 +103,7 @@ Lors de la création de rapports sur les pistes (personnes) dans [!DNL Marketo M
 
 *Il existe un problème de comportement connu en raison duquel les champs de l’entité Société Marketo n’ont pas d’incidence sur la valeur updateAt de la personne. Par conséquent, si des champs pertinents tels que Site Web ou Société sont mis à jour, [!DNL Marketo Measure] ne saura pas que ces valeurs sont modifiées, car la valeur updateAt date/time n’est pas mise à jour. Cela a un impact sur la fonction ABM, où nous ne disposerions pas de nouvelles données pour résoudre le problème du compte de l’prospect. Il n&#39;y a pas de solution pour le moment, mais il y a des projets pour y remédier à l&#39;avenir.
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
 **Pourquoi le nombre de mes prospects diffère-t-il entre mon CRM et [!DNL Marketo Measure Discover]?**
 
@@ -110,7 +111,7 @@ Comme cette intégration nous permet de créer des points de contact pour les pi
 
 **Comment cela remplace-t-il mes données ?**
 
-Cette intégration fusionne en fait les jeux de données dans votre [!DNL Marketo Measure] de sorte que rien n’est remplacé. Ce que nous attendons de vos Leads CRM actuels, c’est que lorsque nous téléchargeons l’équivalent de 2 ans de Leads Marketo, nous mettions simplement à jour cet enregistrement Lead pour montrer qu’il existait également une correspondance avec un prospect Marketo. Tout cela se produit dans le serveur principal et les points de contact doivent rester identiques. Nous nous attendrions également à voir plus de points de contact en raison des pistes Marketo éligibles. Si nous pouvons trouver des sessions web associées à ces personnes Marketo, nous allons commencer à voir les points de contact comptabilisés dans [!DNL Marketo Measure].
+Cette intégration fusionne en fait les jeux de données dans votre [!DNL Marketo Measure] de sorte que rien n’est remplacé. Ce que nous attendons de vos Leads CRM actuels, c’est que lorsque nous téléchargeons l’équivalent de 2 ans de Leads Marketo, nous mettions simplement à jour cet enregistrement Lead pour montrer qu’il existait également une correspondance avec un prospect Marketo. Tout cela se produit dans le serveur principal et les points de contact doivent rester identiques. Nous nous attendons également à voir plus de points de contact en raison des pistes Marketo éligibles. Si nous pouvons trouver des sessions web associées à ces personnes Marketo, nous allons commencer à voir les points de contact comptabilisés dans [!DNL Marketo Measure].
 
 **Est-il possible de télécharger uniquement mes utilisateurs à partir de Marketo et de couper la connexion CRM ?**
 

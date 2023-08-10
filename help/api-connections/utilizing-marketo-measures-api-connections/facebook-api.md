@@ -3,10 +3,11 @@ unique-page-id: 18874680
 description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: APIs, Integration, UTM Parameters
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '507'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -23,7 +24,7 @@ Semblable à nos AdWords et [!DNL Bing Ads] intégrations, nos [!DNL Facebook] l
 
 En ce qui concerne la configuration, sept étapes doivent être exécutées dans la [!DNL Marketo Measure] application.
 
-1. Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
+1. Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et se connecter.
 1. Sous Mon compte, sélectionnez **[!UICONTROL Paramètres]**.
 1. Sous Intégrations , sélectionnez **[!UICONTROL Connexions]**.
 1. Sélectionner **[!UICONTROL Configurer une nouvelle connexion aux publicités]** et une fenêtre contextuelle s’affiche. Sélectionner **[!UICONTROL Facebook]** et connectez-vous à l’aide de vos informations d’identification Facebook.
@@ -47,7 +48,7 @@ En ce qui concerne la configuration, sept étapes doivent être exécutées dans
 
 ![](assets/2-2.png)
 
-Une fois l’intégration activée, [!DNL Marketo Measure] commence à télécharger le coût au niveau de l’annonce dans la variable [!DNL Marketo Measure Marketing ROI] Tableau de bord.
+Une fois que vous avez activé l’intégration, [!DNL Marketo Measure] commence à télécharger le coût au niveau de l’annonce dans la variable [!DNL Marketo Measure Marketing ROI] Tableau de bord.
 
 Pour que l’intégration fonctionne correctement, vous devez activer le balisage automatique sur votre [!DNL Facebook] compte . Cela permettra à notre système d’ajouter un paramètre _bf à tous les liens publicitaires. Ce processus ajoute le nouveau paramètre en plus des autres paramètres de suivi que vous avez déjà ajoutés à votre [!DNL Facebook] publicités.
 
@@ -82,11 +83,11 @@ Pour que l’intégration fonctionne correctement, vous devez activer le balisag
    <td><p>[[!DNL Facebook] Nom de la visionneuse de publicités]</p></td> 
   </tr> 
   <tr> 
-   <td><p>Source du Touchpoint</p></td> 
+   <td><p>Source du point de contact</p></td> 
    <td><p>"[!DNL Facebook]", ou [utm_source] si fourni</p></td> 
   </tr> 
   <tr> 
-   <td><p>Moyen</p></td> 
+   <td><p>Support</p></td> 
    <td><p>"Social" ou [utm_medium] si fourni</p></td> 
   </tr> 
   <tr> 
@@ -128,32 +129,32 @@ Pour que l’intégration fonctionne correctement, vous devez activer le balisag
  </tbody> 
 </table>
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
-**Q : What [!DNL Facebook] Les publicités sont prises en charge par [!DNL Marketo Measure]?**
+**Q : Quels éléments ? [!DNL Facebook] Les publicités sont prises en charge par [!DNL Marketo Measure]?**
 
-A : Carrousel, image unique. Pas de vidéo, de diaporama ou de collection pour le moment.
+R : Carrousel, Une seule image. Pas vidéo, diaporama ou collection pour l’instant.
 
-**Q : Quelle est la preuve sociale ?**
+**Q : Qu&#39;est-ce que la preuve sociale ?**
 
-A : Les preuves sociales sont des engagements visibles tels que des mentions J’aime, des clics, des commentaires et des partages.
+R : Un BAT social est un engagement visible comme des mentions J’aime, des clics, des commentaires et des partages.
 
-**Q : Que se passe-t-il lorsque [!DNL Marketo Measure] balise la publicité ?**
+**Q : Ce qui se passe lorsque [!DNL Marketo Measure] balise la publicité ?**
 
 A : [!DNL Facebook] n’autorise pas la modification des publicités. [!DNL Marketo Measure] doit supprimer le contenu créatif, qui contient l’URL de destination, puis recréer la publicité avec les nouveaux paramètres.
 
-**Q : Pourquoi ? [!DNL Marketo Measure] mettre à jour tout [!DNL Facebook] Publicités ?**
+**Q : Pourquoi [!DNL Marketo Measure] mettre à jour tout [!DNL Facebook] Publicités ?**
 
-A : Le [!DNL Marketo Measure] Le processus consiste à baliser toutes les publicités si elles sont réactivées.
+R : Le [!DNL Marketo Measure] Le processus consiste à baliser toutes les publicités au cas où elles seraient réactivées.
 
 **Q : De quelle autorisation l’utilisateur connecté a-t-il besoin ?**
 
-A : ads_management, email
+A : ads_management, e-mail
 
-**Q : Combien de temps cela peut-il prendre pour importer des données de dépenses ?**
+**Q. : Combien de temps peut-on mettre pour importer des données de dépenses ?**
 
 A : 1 heure
 
-**Q : Combien de temps faut-il pour importer des données publicitaires ?**
+**Q. : Combien de temps peut-il s’écouler avant l’importation des données publicitaires ?**
 
 A : 4 heures

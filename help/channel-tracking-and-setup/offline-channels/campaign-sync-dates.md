@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874684
 description: Dates de synchronisation de campagne - [!DNL Marketo Measure] - Documentation du produit
-title: Dates de synchronisation de campagne
+title: Date de synchronisation de campagne
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '486'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Dates de synchronisation de campagne {#campaign-sync-dates}
+# Date de synchronisation de campagne {#campaign-sync-dates}
 
 Découvrez l’impact de la fonction Dates de synchronisation de campagne, ainsi que quelques cas d’utilisation de cette fonctionnalité.
 
@@ -41,4 +42,4 @@ Il peut y avoir de nombreux autres cas d’utilisation pour les dates de fin de 
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Université : Champs de campagne et de membre de campagne](https://learn.bizible.com/2-bizible-customization/137720https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Université : champs des membres Campaign et Campaign](https://learn.bizible.com/2-bizible-customization/137720https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)

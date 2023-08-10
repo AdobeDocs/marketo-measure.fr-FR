@@ -3,10 +3,11 @@ unique-page-id: 18874610
 description: Campagnes Dynamics et listes marketing - [!DNL Marketo Measure] - Documentation du produit
 title: Campagnes Dynamics et listes marketing
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -92,7 +93,7 @@ Pour chaque type de campagne, il peut être mappé à une combinaison Canal et S
 
 Ceci n’est pas disponible pour les clients Dynamics
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
 **Pouvons-nous activer les points de contact sur les listes marketing ou uniquement les campagnes dans Dynamics ?**
 

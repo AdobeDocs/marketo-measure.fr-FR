@@ -3,7 +3,8 @@ unique-page-id: 18874612
 description: Rapports et tableaux de bord Stock dans Dynamics - [!DNL Marketo Measure] - Documentation du produit
 title: Rapports et tableaux de bord Stock dans Dynamics
 exl-id: 31f8516b-d9f9-4a13-8077-ceaa004b4514
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 3%
@@ -16,7 +17,7 @@ ht-degree: 3%
 >
 >Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
 
-Le [!DNL Marketo Measure] La solution gérée s’accompagne d’un certain nombre de tableaux de bord et de rapports de stock, conçus pour répondre à vos besoins de base lors de l’affichage de [!DNL Marketo Measure] données dans Dynamics. Vous trouverez ci-dessous la liste complète et quelques cas pratiques courants.
+La variable [!DNL Marketo Measure] La solution gérée est fournie avec un certain nombre de tableaux de bord et de rapports de stock, conçus pour répondre à vos besoins de base lors de l’affichage [!DNL Marketo Measure] données dans Dynamics. Vous trouverez ci-dessous la liste complète et quelques cas pratiques courants.
 
 ## Tableaux de bord (9 au total) {#dashboards-total}
 

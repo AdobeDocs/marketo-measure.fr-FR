@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874749
-description: Ajouter [!DNL Marketo Measure] Script vers [!DNL Uberflip] Forms - [!DNL Marketo Measure] - Documentation du produit
-title: Ajouter [!DNL Marketo Measure] Script vers [!DNL Uberflip] Forms
+description: Ajouter [!DNL Marketo Measure] Script vers [!DNL Uberflip] FORMS - [!DNL Marketo Measure] - Documentation du produit
+title: Ajout d’un script  [!DNL Marketo Measure]  à des formulaires  [!DNL Uberflip]
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Ajouter [!DNL Marketo Measure] Script vers [!DNL Uberflip] Forms {#adding-marketo-measure-script-to-uberflip-forms}
+# Ajout d’un script [!DNL Marketo Measure] à des formulaires [!DNL Uberflip] {#adding-marketo-measure-script-to-uberflip-forms}
 
-Si vous utilisez actuellement [!DNL Uberflip] pour gérer votre contenu, il est important de prendre les mesures suivantes pour vous assurer que [!DNL Marketo Measure] effectue le suivi de ces envois de formulaire. Votre gestionnaire de succès à l’adresse [!DNL Uberflip] devrait également être en mesure de vous aider à cela.
+Si vous utilisez actuellement [!DNL Uberflip] pour gérer votre contenu, il est important de prendre les mesures suivantes pour vous assurer que [!DNL Marketo Measure] effectue le suivi de ces envois de formulaire. Votre gestionnaire de succès à [!DNL Uberflip] devrait également être en mesure de vous aider à cela.
 
 1. Ajoutez ce script à [!DNL Uberflip]&#39;s [!UICONTROL Code personnalisé > HTML] .
 
@@ -22,7 +23,7 @@ Si vous utilisez actuellement [!DNL Uberflip] pour gérer votre contenu, il est 
 
    `window['Bizible'] = window['Bizible'] || { _queue: [], Push: function (o, p) {this._queue.push({ type: o, data: p }); } };`
 
-   Vous allez ajouter ce préambule aux deux [!DNL Hubs.onLoad] et le [!DNL Hubs.onPageChange] AJAX des hooks d’événements JavaScript, comme ci-dessous. (Remarque : D’autres codes peuvent également être présents dans ces hooks d’événement. Il suffit d&#39;inclure le préambule.)
+   Vous allez ajouter ce préambule aux deux [!DNL Hubs.onLoad] et la variable [!DNL Hubs.onPageChange] AJAX des hooks d’événements JavaScript, comme ci-dessous. (Remarque : d’autres codes peuvent également se trouver dans ces hooks d’événement. Il suffit d&#39;inclure le préambule.)
 
    `Hubs.onLoad = function () {`
 

@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874773
 description: Configuration des tests A/B et création de rapports - [!DNL Marketo Measure] - Documentation du produit
-title: Configuration des tests A/B et création de rapports
+title: Configuration des tests A/B et création de rapports
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: A/B Testing
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Configuration des tests A/B et création de rapports {#a-b-testing-set-up-and-reporting}
+# Configuration des tests A/B et création de rapports {#a-b-testing-set-up-and-reporting}
 
-Le [!DNL Marketo Measure] L’intégration des tests A/B vous permet de suivre l’impact de vos recettes sur les recettes [Optimisation](https://optimizely.com/){target="_blank"} et des expériences sur site VWO. Cet article fournit des instructions sur la manière d’ajouter des [!DNL Marketo Measure] les sections Test A/B du prospect, [!UICONTROL Contact], Cas et [!UICONTROL Opportunité] mises en page. Nous aborderons également les pratiques générales de création de rapports et les recommandations relatives à l’exécution. [!DNL Marketo Measure] Types de rapports A/B.
+La variable [!DNL Marketo Measure] L’intégration des tests A/B vous permet de suivre l’impact de vos recettes sur les recettes [Optimisation](https://optimizely.com/){target="_blank"} et des expériences sur site VWO. Cet article fournit des instructions sur la manière d’ajouter des [!DNL Marketo Measure] les sections Test A/B du prospect, [!UICONTROL Contact], Cas et [!UICONTROL Opportunité] mises en page. Nous aborderons également les pratiques générales de création de rapports et les recommandations relatives à l’exécution. [!DNL Marketo Measure] Types de rapports A/B.
 
 ## Configurer {#set-up}
 
@@ -23,7 +24,7 @@ Ajoutez la variable [!DNL Marketo Measure] Sections Test A/B sur les pistes, les
 
    ![](assets/1.png)
 
-1. Cliquez sur le bouton [!UICONTROL Forme] bouton . Supprimez le champ &quot;Id&quot; du stock de la liste des champs Sélectionnés. Ajouter **[!UICONTROL Expérience]**, **[!UICONTROL Variation]**, et **[!UICONTROL DateReported]** champs. Modifier &quot;[!UICONTROL Tri par]&quot; à **[!UICONTROL Date de rapport]**, puis sélectionnez **[!UICONTROL Descendant]** dans la liste déroulante.
+1. Cliquez sur le bouton [!UICONTROL Forme] bouton . Supprimez le champ &quot;Id&quot; du stock de la liste des champs Sélectionnés. Ajouter **[!UICONTROL Expérience]**, **[!UICONTROL Variation]**, et **[!UICONTROL DateReported]** des champs. Modifier &quot;[!UICONTROL Tri par]&quot; à **[!UICONTROL Date de rapport]**, puis sélectionnez **[!UICONTROL Descendant]** dans la liste déroulante.
 
    ![](assets/2.png)
 

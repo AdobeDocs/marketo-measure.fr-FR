@@ -1,20 +1,21 @@
 ---
 unique-page-id: 18874614
 description: Rapport Pistes avec points de contact d’achat - [!DNL Marketo Measure] - Documentation du produit
-title: Rapport Pistes avec points de contact d’achat
+title: Rapport Prospects avec points de contact acheteur
 exl-id: 0376abb0-5eed-41bb-ab4f-3c204ab437df
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Touchpoints, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Rapport Pistes avec points de contact d’achat {#leads-with-buyer-touchpoints-report}
+# Rapport Prospects avec points de contact acheteur {#leads-with-buyer-touchpoints-report}
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais continuez à voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
 
 De nombreuses fonctionnalités de reporting sont à portée de main lorsqu’il s’agit d’élaborer des rapports prêts à l’emploi. [!DNL Marketo Measure], mais il existe d’autres types de rapports que nous vous recommandons de créer. Découvrez le type de rapport Pistes avec points de contact d’achat ci-dessous.
 

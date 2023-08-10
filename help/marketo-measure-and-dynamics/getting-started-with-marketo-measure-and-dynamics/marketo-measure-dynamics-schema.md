@@ -3,14 +3,15 @@ unique-page-id: 18874523
 description: "[!DNL Marketo Measure] Schéma Dynamics - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] Schéma Dynamics"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Microsoft Dynamics
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 46%
 
 ---
 
-# [!DNL Marketo Measure] Schéma Dynamics {#marketo-measure-dynamics-schema}
+# Schéma de Dynamics et de [!DNL Marketo Measure] {#marketo-measure-dynamics-schema}
 
 >[!NOTE]
 >
@@ -913,7 +914,7 @@ Ce diagramme est une visualisation de haut niveau des relations entre les entit�
 
 Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] interagit avec, ainsi que les champs personnalisés que nous ajoutons à ces entités.
 
-**Lead**
+**Prospect**
 
 <table> 
  <tbody> 
@@ -948,7 +949,7 @@ Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] in
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>created</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -1027,7 +1028,7 @@ Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] in
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>created</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -1070,7 +1071,7 @@ Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] in
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>created</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -1113,7 +1114,7 @@ Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] in
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>created</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -1204,7 +1205,7 @@ Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] in
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>created</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -1277,7 +1278,7 @@ Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] in
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>created</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -1374,7 +1375,7 @@ Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] in
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>created</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -1423,7 +1424,7 @@ Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] in
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>created</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 
@@ -1466,7 +1467,7 @@ Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] in
    <td> </td> 
   </tr> 
   <tr> 
-   <td><p>createdon</p></td> 
+   <td><p>created</p></td> 
    <td><p>Standard</p></td> 
    <td><p> x</p></td> 
    <td> </td> 

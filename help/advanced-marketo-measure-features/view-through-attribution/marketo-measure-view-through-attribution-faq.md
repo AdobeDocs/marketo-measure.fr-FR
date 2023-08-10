@@ -3,18 +3,19 @@ unique-page-id: 18874652
 description: "[!DNL Marketo Measure] FAQ sur l’attribution d’affichages publicitaires - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] FAQ sur l’attribution d’affichages publicitaires"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
-# [!DNL Marketo Measure] FAQ sur l’attribution d’affichages publicitaires {#marketo-measure-view-through-attribution-faq}
+# Questions fréquentes sur l’attribution de visionnage moyen dans [!DNL Marketo Measure] {#marketo-measure-view-through-attribution-faq}
 
 ## Qu’est-ce que l’attribution d’affichage publicitaire ? {#what-is-view-through-attribution}
 
-Le [!DNL Marketo Measure] La fonction d’attribution d’affichages publicitaires offre la possibilité d’inclure des impressions publicitaires dans le modèle d’attribution.
+La variable [!DNL Marketo Measure] La fonction d’attribution d’affichages publicitaires offre la possibilité d’inclure des impressions publicitaires dans le modèle d’attribution.
 
 ## Pourquoi l’attribution d’affichage publicitaire est-elle importante ? {#why-is-view-through-attribution-important}
 
@@ -30,7 +31,7 @@ Nous prenons actuellement en charge Doubleclick Campaign Manager.
 
 ## Comment l’attribution est-elle calculée ? {#how-is-the-attribution-calculated}
 
-Nous avons effectué une analyse approfondie des données d’impression et de leur influence sur les conversions à l’échelle de toutes les étapes et des canaux marketing. La distribution varie en fonction du modèle, comme vous pouvez le voir dans le tableau ci-dessous :
+Nous avons effectué une analyse approfondie des données d’impression et de leur influence sur les conversions à l’échelle de toutes les étapes et de tous les canaux marketing. La distribution varie en fonction du modèle, comme vous pouvez le voir dans le tableau ci-dessous :
 
 <table> 
  <colgroup> 
@@ -45,7 +46,7 @@ Nous avons effectué une analyse approfondie des données d’impression et de l
  <tbody> 
   <tr> 
    <th><br></th> 
-   <th>First Touch</th> 
+   <th>Premier contact</th> 
    <th>Création de prospects</th> 
    <th>En U</th> 
    <th>En W</th> 
@@ -54,8 +55,8 @@ Nous avons effectué une analyse approfondie des données d’impression et de l
   </tr> 
   <tr> 
    <td><strong>Impressions</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
    <td>10 %</td> 
    <td>10 %</td> 
    <td>10 %</td> 
@@ -63,8 +64,8 @@ Nous avons effectué une analyse approfondie des données d’impression et de l
   </tr> 
   <tr> 
    <td><strong>FT</strong></td> 
-   <td>100 %</td> 
-   <td>0 %</td> 
+   <td>100%</td> 
+   <td>0%</td> 
    <td>35 %</td> 
    <td>26.6%</td> 
    <td>20 %</td> 
@@ -72,8 +73,8 @@ Nous avons effectué une analyse approfondie des données d’impression et de l
   </tr> 
   <tr> 
    <td><strong>LC</strong></td> 
-   <td>0 %</td> 
-   <td>100 %</td> 
+   <td>0%</td> 
+   <td>100%</td> 
    <td>35 %</td> 
    <td>26.6%</td> 
    <td>20 %</td> 
@@ -81,26 +82,26 @@ Nous avons effectué une analyse approfondie des données d’impression et de l
   </tr> 
   <tr> 
    <td><strong>OC</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>0%</td> 
    <td>26.6%</td> 
    <td>20 %</td> 
    <td>Personnaliser</td> 
   </tr> 
   <tr> 
    <td><strong>Fermées</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>0%</td> 
+   <td>0%</td> 
    <td>20 %</td> 
    <td>Personnaliser</td> 
   </tr> 
   <tr> 
    <td><strong>Moyen</strong></td> 
-   <td>0 %</td> 
-   <td>0 %</td> 
+   <td>0%</td> 
+   <td>0%</td> 
    <td>20 %</td> 
    <td>10 %</td> 
    <td>10 %</td> 

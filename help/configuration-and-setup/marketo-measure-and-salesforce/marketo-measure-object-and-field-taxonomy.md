@@ -3,14 +3,15 @@ unique-page-id: 18874584
 description: "[!DNL Marketo Measure] Taxonomie des objets et des champs - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] Taxonomie des objets et des champs"
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '164'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# [!DNL Marketo Measure] Taxonomie des objets et des champs {#marketo-measure-object-and-field-taxonomy}
+# Taxonomie des objets et des champs [!DNL Marketo Measure] {#marketo-measure-object-and-field-taxonomy}
 
 Vous trouverez, ci-dessous, un diagramme de flux qui représente la manière dont [!DNL Marketo Measure] Les objets personnalisés sont liés à [!DNL Salesforce] Objets standard.
 
@@ -20,7 +21,7 @@ Pour l’image en taille réelle, [cliquez ici](assets/bizible-object-and-field-
 
 Définitions de la variable [!DNL Marketo Measure] champs qui résident dans chaque objet [peut être consulté ici](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
 **Quelle est la logique des flèches ?**
 
@@ -36,4 +37,4 @@ Il s’agit de notre code JavaScript personnalisé que nous utilisons pour effec
 
 **Qu’est-ce que le tableau de bord du ROI marketing ?**
 
-Il s’agit d’un tableau de bord personnalisé de canaux marketing qui se trouve dans le [!DNL Marketo Measure] application. Pour y accéder, rendez-vous sur la page [!DNL Marketo Measure] dans [!DNL Salesforce].
+Il s’agit d’un tableau de bord personnalisé de canaux marketing qui se trouve dans le [!DNL Marketo Measure] application. Pour y accéder, rendez-vous sur [!DNL Marketo Measure] dans [!DNL Salesforce].

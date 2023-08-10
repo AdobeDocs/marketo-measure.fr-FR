@@ -3,7 +3,8 @@ unique-page-id: 18874580
 description: Connexion de Marketo Measure à Salesforce - [!DNL Marketo Measure] - Documentation du produit
 title: Connexion de Marketo Measure à Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -41,5 +42,4 @@ Cet article présente un aperçu de la façon de connecter votre [!DNL Salesforc
 >* A [!DNL Marketo Measure] L’instance peut être connectée à une instance Sandbox SFDC pour tester l’intégration avant de basculer vers votre instance de production SFDC.
 >* Si vous testez d’abord avec un environnement de test SFDC, nous vous recommandons vivement d’en tester un qui est une réplique exacte de votre instance de production SFDC en termes de champs sur les objets Lead, Contact, Account, Opportunity, Campaign et Case. Si vous disposez de déclencheurs APEX principaux en production qui se déclenchent lors des mises à jour des objets Lead, Contact, Account, Opportunity, Campaign et Case, vous devez essayer de les placer principal dans votre environnement de test.
 >* Une fois le test terminé, vous allez mettre à jour votre [!DNL Marketo Measure] compte à pointer vers votre environnement de production [!DNL Salesforce] (au lieu de sandbox) [!DNL Salesforce]). En raison de la manière dont l’intégration a été créée, une fois par [!DNL Marketo Measure] compte connecté à Production [!DNL Salesforce], vous ne pouvez pas revenir en arrière et vous connecter à un environnement de test. [!DNL Salesforce] org.
-
 

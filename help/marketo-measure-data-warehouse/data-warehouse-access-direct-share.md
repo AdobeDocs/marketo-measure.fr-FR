@@ -1,15 +1,16 @@
 ---
 description: Accès des Data Warehouse - Partage direct - Documentation du produit
-title: Accès Data Warehouse - Partage direct
+title: Accès à Data Warehouse - Partage direct
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
-source-git-commit: 36ee02b2dfc2651987f72fc7f02fe629717f02a0
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '298'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Accès Data Warehouse - Partage direct {#data-warehouse-access-direct-share}
+# Accès à Data Warehouse - Partage direct {#data-warehouse-access-direct-share}
 
 ## Exigences {#requirements}
 
@@ -25,7 +26,7 @@ Pour [!DNL Marketo Measure] pour configurer un partage direct vers l’entrepôt
 
 ## Saisie d’un ID de compte Snowflake {#enter-snowflake-account-id}
 
-Ouvrez le **Paramètres** dans l’application Marketo Measure et accédez à la **Data Warehouse** page. Dans le **Partage direct** , saisissez votre [ID de compte Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} dans la zone fournie, puis cliquez sur **Connexion**.
+Ouvrez le **Paramètres** dans l’application Marketo Measure et accédez à la **Data Warehouse** page. Dans le **Partage direct** , saisissez votre [Identifiant de compte Snowflake](https://docs.snowflake.com/en/user-guide/admin-account-identifier.html){target="_blank"} dans la zone fournie, puis cliquez sur **Connexion**.
 
 ![](assets/data-warehouse-access-direct-share-1.png)
 
@@ -49,7 +50,7 @@ USE ROLE ACCOUNTADMIN
 SHOW SHARES
 ```
 
-* Création d’une base de données pour le partage
+* Créer une base de données pour le partage
 
 ```
 CREATE DATABASE <database_name> FROM SHARE <provider_account>.<share_name>

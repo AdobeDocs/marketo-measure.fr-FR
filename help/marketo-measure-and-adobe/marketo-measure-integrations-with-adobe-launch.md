@@ -2,14 +2,15 @@
 description: '''[!DNL Marketo Measure] Intégrations à Adobe Launch - [!DNL Marketo Measure] - Documentation du produit"'
 title: '''[!DNL Marketo Measure] Intégrations à Adobe Launch'
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
-source-git-commit: 19f670505358b04fb26620574b71c2af8d0d9847
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# [!DNL Marketo Measure] Intégrations à Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
+# Intégrations [!DNL Marketo Measure] avec Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
 
 L’extension Adobe Launch est conçue pour les [!DNL Marketo Measure] utilisateurs qui exploitent déjà Adobe Launch sur leur site web. L’extension sert de solution de gestion des balises que vous pouvez utiliser pour configurer et charger dynamiquement des scripts sur vos pages en fonction de certains événements et conditions.
 
@@ -25,8 +26,7 @@ Une fois installé et configuré dans Adobe Launch, la variable [!DNL Marketo Me
 >* [Présentation d’Adobe Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en#prerequisites){target="_blank"}
 >* [Présentation de l’extension Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/extension-dev/overview.html?lang=en#extension-configuration){target="_blank"}
 
-
-1. Création d’une propriété en suivant les étapes [dans cet article](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
+1. Créez une propriété en suivant les étapes [dans cet article](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=en#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Cliquez sur la propriété que vous venez de créer.
 
@@ -40,7 +40,7 @@ Une fois installé et configuré dans Adobe Launch, la variable [!DNL Marketo Me
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-3.png)
 
-1. Dans le [!UICONTROL Bizible Analytics] mosaïque, cliquez sur **[!UICONTROL Installer]**.
+1. Dans le [!UICONTROL Bizible Analytics] mosaïque, cliquez **[!UICONTROL Installer]**.
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-4.png)
 
@@ -60,7 +60,7 @@ Une fois installé et configuré dans Adobe Launch, la variable [!DNL Marketo Me
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-7.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]** sous [!UICONTROL Événements].
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** bouton sous [!UICONTROL Événements].
 
    ![](assets/marketo-measure-integrations-with-adobe-launch-8.png)
 

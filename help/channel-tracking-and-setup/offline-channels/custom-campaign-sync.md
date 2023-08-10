@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874588
 description: Synchronisation de campagne personnalisée - [!DNL Marketo Measure] - Documentation du produit
-title: Synchronisation des campagnes personnalisée
+title: Synchronisation de campagne personnalisée
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Synchronisation des campagnes personnalisée {#custom-campaign-sync}
+# Synchronisation de campagne personnalisée {#custom-campaign-sync}
 
 Aujourd’hui, avec l’ installé [!DNL Marketo Measure] module, vous pouvez indiquer les campagnes à inclure comme point de contact éligible. Il y a plusieurs obstacles à cela, tels qu&#39;ils existaient auparavant. Une fois que la variable [!DNL Marketo Measure] Le package est installé dans le CRM. Il peut s’avérer nécessaire d’être approuvé par votre équipe de sécurité. En outre, l’utilisation d’une seule liste de sélection sur l’objet Campaign manque de flexibilité. Avec cette nouvelle fonctionnalité, l’installation d’un package n’est pas nécessaire pour commencer à utiliser les enregistrements Campaign et Campaign Member . Des règles peuvent être créées pour définir exactement les enregistrements qui peuvent être créés pour définir exactement les enregistrements éligibles.
 
@@ -22,11 +23,11 @@ Aujourd’hui, avec l’ installé [!DNL Marketo Measure] module, vous pouvez in
 ## Fonctionnement {#how-it-works}
 
 1. Avec les autorisations AccountAdmin, vous pouvez accéder à **[!UICONTROL Paramètres]** > **[!UICONTROL Campagnes]** et voir l’interface utilisateur des règles de synchronisation des membres de Campaign .
-1. Cliquez sur le bouton **+** pour commencer à créer une règle.
+1. Cliquez sur le bouton **+** pour créer une règle.
 
    ![](assets/1-1.png)
 
-1. Vous avez la possibilité de créer une règle à partir de [!UICONTROL Campagne] ou [!UICONTROL Membre de la campagne] champs. Remplissez le reste de la règle avec l’ opérateur et la valeur que nous sommes censés valider. Dans l&#39;exemple ci-dessous, nous recherchons une campagne spécifique par son nom.
+1. Vous avez la possibilité de créer une règle à partir de [!UICONTROL Campagne] ou [!UICONTROL Membre de la campagne] des champs. Remplissez le reste de la règle avec l’ opérateur et la valeur que nous sommes censés valider. Dans l&#39;exemple ci-dessous, nous recherchons une campagne spécifique par son nom.
 
    ![](assets/2-1.png)
 
@@ -34,7 +35,7 @@ Aujourd’hui, avec l’ installé [!DNL Marketo Measure] module, vous pouvez in
    >
    >Les champs de formule ne peuvent pas être utilisés dans vos règles et n’apparaîtront pas dans la liste de sélection. Parce que les formules sont calculées en arrière-plan et ne modifient pas d&#39;enregistrement, [!DNL Marketo Measure] ne peut pas détecter si un enregistrement correspond à une règle ou non.
 
-1. Sélectionnez la Date du point de contact. La liste des dates possibles s’affiche une fois que vous avez saisi une accolade. `{` - vous pouvez alors sélectionner la date que vous souhaitez appliquer à tous les points de contact créés à partir de la règle.
+1. Sélectionnez la Date du point de contact. La liste des dates possibles apparaît une fois que vous avez saisi une accolade. `{` - vous pouvez alors sélectionner la date que vous souhaitez appliquer à tous les points de contact créés à partir de la règle.
 
    ![](assets/3-1.png)
 
@@ -74,7 +75,7 @@ Vous pouvez facilement vérifier les enregistrements Points de contact de l’ac
 
    ![](assets/8-1.png)
 
-1. Après avoir cliqué sur [!UICONTROL Test], vous verrez le nom de la campagne et le nombre de membres de la campagne éligibles pour les points de contact. Un tableau ci-dessous présente toutes les règles correspondant à votre ID de campagne. Seules les correspondances s’affichent.
+1. Cliquez ensuite sur [!UICONTROL Test], vous verrez le nom de la campagne et le nombre de membres de la campagne éligibles pour les points de contact. Un tableau ci-dessous présente toutes les règles correspondant à votre ID de campagne. Seules les correspondances s’affichent.
 
    ![](assets/9.png)
 

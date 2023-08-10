@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874704
 description: FAQ sur l’attribution des activités - [!DNL Marketo Measure] - Documentation du produit
-title: FAQ sur l’attribution des activités
+title: Questions fréquentes sur l’attribution des activités
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# FAQ sur l’attribution des activités {#activities-attribution-faq}
+# Questions fréquentes sur l’attribution des activités {#activities-attribution-faq}
 
-Le [!DNL Marketo Measure] La fonctionnalité Activités nous permet d’importer tous vos enregistrements d’activité et de générer des points de contact pour eux, ce qui permet à ces activités de recevoir un crédit d’attribution. Le cas d’utilisation le plus courant consiste à effectuer le suivi des activités de l’équipe de vente, dans la mesure où elles créent généralement un enregistrement des appels téléphoniques ou des emails envoyés aux prospects. Les interactions de contenu, telles que les téléchargements de ressources ou les affichages de vidéos, peuvent également faire l’objet d’un suivi unique.
+La variable [!DNL Marketo Measure] La fonctionnalité Activités nous permet d’importer tous vos enregistrements d’activité et de générer des points de contact pour eux, ce qui permet à ces activités de recevoir un crédit d’attribution. Le cas d’utilisation le plus courant consiste à effectuer le suivi des activités de l’équipe de vente, dans la mesure où elles créent généralement un enregistrement des appels téléphoniques ou des emails envoyés aux prospects. Les interactions de contenu, telles que les téléchargements de ressources ou les affichages de vidéos, peuvent également faire l’objet d’un suivi unique.
 
 **En quoi cela diffère-t-il des campagnes hors ligne ?**
 
@@ -22,7 +23,7 @@ La principale différence réside dans le fait que les campagnes ne peuvent four
 
 L’objet Activities agit comme un parapluie, ou parent, sur les objets Task et Event. Les activités couvrent essentiellement les tâches et les événements. Les tâches sont généralement utilisées pour enregistrer des éléments ponctuels rapides, tels qu’un appel téléphonique ou un courrier électronique. Les événements sont généralement utilisés pour des éléments qui peuvent avoir une date de début ou de fin, comme des réunions ou des conférences.
 
-**Si je dispose d’un prospect ou d’un contact avec la même tâche récurrente, telle qu’un email ou un appel, les points de contact de l’acheteur s’affichent-ils pour tous ?**
+**Si je dispose d’un prospect ou d’un contact avec la même tâche récurrente, telle qu’un email ou un appel, les points de contact de l’acheteur s’afficheront-ils pour tous ?**
 
 Oui. Il y aura une relation 1:1 entre vos activités synchronisées et les points de contact créés.
 
@@ -32,7 +33,7 @@ Il est conseillé de configurer d’abord vos filtres à l’aide de l’objet A
 
 **Qu’est-ce que la variable [!DNL Marketo Measure] Nom de la campagne ?**
 
-Puisque ces activités auront pour résultat un point de contact, [!DNL Marketo Measure] doit savoir à quel canal et sous-canal ils appartiennent. Pour chaque règle, vous devrez fournir un [!DNL Marketo Measure] Nom de la campagne. Une fois créé, vous pouvez utiliser le fichier CSV Canaux en ligne pour mapper ce [!DNL Marketo Measure] Nom de la campagne sur son canal approprié. Le [!DNL Marketo Measure] Le nom de la campagne s’affiche également sur le point de contact lui-même dans la variable [!UICONTROL Nom de la campagne publicitaire] champ .
+Puisque ces activités auront pour résultat un point de contact, [!DNL Marketo Measure] doit savoir à quel canal et sous-canal ils appartiennent. Pour chaque règle, vous devrez fournir un [!DNL Marketo Measure] Nom de la campagne. Une fois créé, vous pouvez utiliser le fichier CSV Canaux en ligne pour mapper ce [!DNL Marketo Measure] Nom de la campagne sur son canal approprié. La variable [!DNL Marketo Measure] Le nom de la campagne s’affiche également sur le point de contact lui-même dans la variable [!UICONTROL Nom de la campagne publicitaire] champ .
 
 **Quels autres champs de point de contact sont renseignés ?**
 
@@ -40,17 +41,17 @@ Puisque ces activités auront pour résultat un point de contact, [!DNL Marketo 
 |---|---|
 | Prospect/contact | Toutes les activités sont liées à un prospect ou à un contact |
 | Campagne | Channel.Subchannel [[!DNL Marketo Measure]] |
-| Source du Touchpoint | Activité CRM |
-| Moyen | Activity.Type |
+| Source du point de contact | Activité CRM |
+| Support | Activity.Type |
 | Type de Touchpoint | Activity.Type |
 | Nom de la campagne publicitaire | [!DNL Marketo Measure] Nom de campagne |
-| Contenu de la publicité | Objet de l’activité |
+| Contenu publicitaire | Objet de l’activité |
 | Identifiant de publicité | Activity External Id |
 | Date du Touchpoint | [custom - défini dans les applications] |
 
-**Que se passe-t-il si je dois créer une règle différente pour chaque représentant commercial ? Dois-je créer des [!DNL Marketo Measure] Campagnes pour chacune ?**
+**Que faire si je dois créer une règle différente pour chaque représentant commercial ? Dois-je créer des [!DNL Marketo Measure] Campagnes pour chacune ?**
 
-Non, non. Nous avons introduit un concept de &quot;noms de campagne dynamique&quot;. Cela vous permet de remplir une partie (ou la totalité) de la variable [!DNL Marketo Measure] Nom de la campagne à l’aide d’un &quot;paramètre de remplacement&quot; qui fait référence à un champ de l’objet d’activité. Par exemple, si vous avez une [!DNL Marketo Measure] Nom de la campagne intitulé &quot;Appel sortant&quot; mais que vous souhaitez que le représentant commercial soit à la fin, prenez le nom du champ CRM et appelez le [!DNL Marketo Measure] Nom de la campagne &quot;Appel sortant {AssignedTo}&quot; ou &quot;Appel sortant {CreatedBy}&quot;.
+Non, non. Nous avons introduit un concept de &quot;noms de campagne dynamique&quot;. Cela vous permet de remplir une partie (ou la totalité) de la variable [!DNL Marketo Measure] Nom de la campagne à l’aide d’un &quot;paramètre de remplacement&quot; qui fait référence à un champ de l’objet d’activité. Par exemple, si vous avez une [!DNL Marketo Measure] Nom de la campagne intitulé &quot;Appel sortant&quot; mais que vous souhaitez que le représentant commercial soit à la fin, prenez le nom du champ CRM et appelez le [!DNL Marketo Measure] Nom de la campagne &quot;Appel sortant {AssignedTo}&quot; ou &quot;Appel sortant {CreatedBy}.&quot;
 
 **Comment configurer des activités dans le [!DNL Marketo Measure] application ?**
 
@@ -58,13 +59,13 @@ Instructions sur la configuration des activités dans [!UICONTROL Marketo] L’a
 
 **Que signifient les différents opérateurs ?**
 
-* est égal à : correspondance exacte avec la valeur (c’est-à-dire : social)
-* contient : le texte est au milieu (c’est-à-dire : &#42;social&#42;)
-* commence par : la valeur commence par le texte (c’est-à-dire : social&#42;)
-* se termine par : la valeur se termine par le texte (c’est-à-dire : &#42;social)
-* correspond à n’importe quel : vous pouvez ajouter plusieurs valeurs séparées par des virgules. If [!UICONTROL commence par], [!UICONTROL se termine par], ou contient des opérateurs qui doivent être appliqués, utilisez le caractère générique (&#42;)
-* supérieur à : utilisé pour les champs numériques ou les champs Date/Heure
-* inférieur à : utilisé pour les champs numériques ou les champs Date/Heure
+* est égal à : correspondance exacte avec la valeur (alias : social)
+* contient : le texte se trouve au milieu (c’est-à-dire : &#42;social&#42;)
+* commence par : la valeur commence par le texte (alias : social&#42;)
+* se termine par : la valeur se termine par le texte (alias : &#42;social)
+* correspond à n’importe quel : plusieurs valeurs peuvent être ajoutées séparées par des virgules. If [!UICONTROL commence par], [!UICONTROL se termine par], ou contient des opérateurs qui doivent être appliqués, utilisez le caractère générique (&#42;)
+* supérieur à : utilisé pour les champs numériques ou les champs de date/heure
+* inférieur à : utilisé pour les champs numériques ou les champs de date/heure
 
 **À quel canal ces activités se trouveront-elles ?**
 

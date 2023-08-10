@@ -1,68 +1,69 @@
 ---
 unique-page-id: 18874564
-description: Définition de [!DNL Marketo Measure] Sessions web - [!DNL Marketo Measure] - Documentation du produit
-title: Définition de [!DNL Marketo Measure] Sessions web
+description: Définition des sessions web  [!DNL Marketo Measure] - [!DNL Marketo Measure] - Documentation du produit
+title: Définition des sessions web  [!DNL Marketo Measure]
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
-source-git-commit: ae5b77744d523606ce6cfcf48d7e8d5049d5ccb7
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Définition de [!DNL Marketo Measure] Sessions web {#definition-of-marketo-measure-web-sessions}
+# Définition des sessions web [!DNL Marketo Measure] {#definition-of-marketo-measure-web-sessions}
 
 Découvrez comment [!DNL Marketo Measure] définit les sessions web.
 
-A **session web** fait référence aux interactions d’une personne avec votre site web pendant une certaine période. La session commence lorsqu’un utilisateur arrive sur votre site web.
+Une **session web** fait référence aux interactions d’une personne avec votre site Web pendant une certaine période. La session commence lorsqu’une personne arrive sur votre site Web.
 
-Par exemple, Haley visite adobe.com. Sa visite sur le site commence une session. Lorsque Haley quitte le site, en fermant l’onglet ou le navigateur Web ou en quittant le site, la session se termine.
+Par exemple, Haley visite adobe.com/fr. Sa visite sur le site commence une session. Lorsque Haley quitte le site, en fermant l’onglet ou le navigateur Web ou en quittant le site, la session se termine.
 
-Un utilisateur ne peut pas ouvrir plusieurs sessions en même temps. Si Halte s’ouvre [!DNL adobe.com] dans 10 onglets distincts, une seule session a été créée en relation avec sa visite du site web.
+Il n’est pas possible d’ouvrir plusieurs sessions en même temps. Si Haley ouvre [!DNL adobe.com] dans 10 onglets distincts, une seule session est créée en lien avec sa visite du site Web.
 
-## Comment [!DNL Marketo Measure] définir une nouvelle session ? {#how-does-marketo-measure-define-a-new-session}
+## Comment [!DNL Marketo Measure] définit-il une nouvelle session ? {#how-does-marketo-measure-define-a-new-session}
 
-Il existe plusieurs éléments qui déterminent le moment où une session se termine et le moment où une nouvelle session commence. Les deux principaux moyens [!DNL Marketo Measure] Les sessions peuvent se terminer comme suit :
+Il existe plusieurs éléments qui déterminent le moment où une session se termine et le moment où une nouvelle session commence. Les deux principales façons dont les sessions [!DNL Marketo Measure] peuvent se terminer sont les suivantes :
 
 * **Expiration basée sur le temps**
 * **Expiration basée sur les canaux**
 
 ## Expiration basée sur le temps {#time-based-expiration}
 
-**Combien de temps dure une session ?**
+**Combien de temps dure une session ?**
 
-[!DNL Marketo Measure] les sessions se terminent après 30 minutes d’inactivité sur le site web. Par exemple :
+Les sessions [!DNL Marketo Measure] se terminent après 30 minutes d’inactivité sur le site Web. Par exemple :
 
-Lorsque Haley visite adobe.com, une session commence. Elle explore le site pendant quelques minutes puis s&#39;éloigne de son ordinateur, mais laisse le site ouvert. Après 30 minutes d’inactivité, la session se termine.
+Lorsque Haley visite adobe.com/fr, une session commence. Elle explore le site pendant quelques minutes puis s’éloigne de son ordinateur, mais laisse le site ouvert. Après 30 minutes d’inactivité, la session se termine.
 
-Actuellement, [!DNL Marketo Measure] ne considère que la navigation dans les pages et les envois de formulaire comme une activité. Le fait de faire défiler la page web ou de survoler un élément de la page n’est pas considéré comme une activité. Ainsi, si Haley se rend sur adobe.com pour lire un billet de blog, et qu&#39;il lui faut une heure pour le lire, sa session web se termine toujours après 30 minutes, même si elle fait défiler le contenu de la page.
+Actuellement, [!DNL Marketo Measure] considère comme « activité » uniquement la navigation au sein des pages et les envois de formulaire. Le fait de faire défiler la page web ou de survoler un élément n’est pas considéré comme une activité. Ainsi, si Haley se rend sur adobe.com/fr pour lire un article de blog et qu’il lui faut une heure pour le lire, sa session web se terminera malgré tout après 30 minutes, même si elle fait défiler le contenu de la page.
 
 ## Expiration basée sur les canaux {#channel-based-expiration}
 
-[!DNL Marketo Measure] commence une nouvelle session chaque fois qu’un utilisateur se rend sur votre site web à partir d’un autre canal de marketing numérique ou d’un site web externe. Celle-ci vous permet de capturer les données suivantes :
+[!DNL Marketo Measure] commence une nouvelle session chaque fois qu’une personne utilisatrice se rend sur votre site Web à partir d’un autre canal marketing numérique ou d’un site Web externe. Celle-ci vous permet de capturer les données suivantes :
 
-* Un site de référence
+* Site de référence
 * Canaux sociaux ([!DNL Facebook], [!DNL LinkedIn], etc.)
-* Canaux de recherche payants ou organiques ([!DNL Google/Bing])
+* Canaux de référencement organique ou payants ([!DNL Google/Bing])
 
 **Sites web de référence et canaux sociaux**
 
-Chaque fois qu’un visiteur se rend sur votre site web à partir d’un site web de référence ou d’un canal social, une nouvelle session commence.
+Chaque fois qu’une personne se rend sur votre site Web à partir d’un site Web de référence ou d’un canal social, une nouvelle session commence.
 
-Dites que Haley est sur LinkedIn, cliquez sur un [!DNL Marketo Measure] et est redirigé vers le site web d’Adobe. Ensuite, lorsque vous faites défiler [!DNL Facebook], Haley en voit une autre [!DNL Marketo Measure] post. Lorsqu’elle clique sur cette publication et qu’elle est redirigée vers le site de l’Adobe, la première session Web liée à [!DNL LinkedIn] à la fin et une nouvelle session liée à [!DNL Facebook] commence.
+Imaginons que Haley soit sur LinkedIn, clique sur une publication [!DNL Marketo Measure], puis soit redirigée vers le site Web d’Adobe. Ensuite, tout en faisant défiler [!DNL Facebook], Haley voit une autre publication [!DNL Marketo Measure]. Lorsqu’elle clique sur cette publication et qu’elle est redirigée vers le site d’Adobe, la première session Web liée à [!DNL LinkedIn] se termine et une nouvelle session liée à [!DNL Facebook] commence.
 
-**Canaux de recherche payants ou organiques**
+**Canaux de référencement organique ou payants**
 
-De nouvelles sessions démarrent chaque fois qu’un utilisateur se rend sur votre site par le biais de canaux de recherche payante ou organique. Si Haley se rend sur le site web de l’Adobe par le biais de la recherche organique, puis visite immédiatement votre site web par le biais d’une publicité payante sur Google, deux sessions distinctes sont créées.
+De nouvelles sessions démarrent chaque fois qu’une personne se rend sur votre site par le biais de canaux de référencement organique ou payants. Si Haley se rend sur le site web d’Adobe par le biais d’un référencement organique, puis visite immédiatement votre site Web par le biais d’une publicité payante sur Google, deux sessions distinctes sont créées.
 
-**Trafic direct Web**
+**Trafic direct web**
 
-Si un visiteur se rend sur votre site Web en saisissant l’URL de celui-ci dans la barre d’adresse, une nouvelle session ne commence pas toujours.
+Si une personne se rend sur votre site Web en saisissant l’URL de celui-ci dans la barre d’adresse, une nouvelle session n’est pas toujours entamée pour autant.
 
-Si la première session web de Haley débute à la suite d’une visite d’un site de référence, d’un canal de réseau social ou d’un canal de recherche payante/organique, puis qu’elle se rend sur le site par le biais d’un lien Web direct, cela n’entraîne pas le début d’une nouvelle session.
+Si la première session web de Haley débute à la suite d’une visite d’un site de référence, d’un canal de réseau social ou d’un canal de référencement organique/payant, puis qu’elle se rend sur le site par le biais d’un lien direct web, une nouvelle session n’est pas entamée pour autant.
 
-_Cependant_, si la première session web de Haley provient de Web Direct, puis qu’elle visite le site web via _un site externe/de référence_, la première session se termine et une nouvelle session est ouverte en rapport avec le site externe/de référence.
+_Cependant_, si la première session web de Haley provient d’un lien direct web, puis qu’elle visite le site web via _un site externe/de référence_, la première session se termine et une nouvelle session est ouverte en rapport avec le site externe/de référence.
 
-## Sessions Google Analytics {#google-analytics-sessions}
+## Sessions Google Analytics {#google-analytics-sessions}
 
-Il existe des similitudes avec la manière dont [!DNL Marketo Measure] et les Google Analytics définissent les sessions. Pour plus d’informations sur la façon dont les Google Analytics définissent les sessions, consultez la page : [https://support.google.com/analytics/answer/2731565?hl=en](http://support.google.com/analytics/answer/2731565?hl=en){target="_blank"}
+Il existe des similitudes avec la manière dont [!DNL Marketo Measure] et Google Analytics définissent les sessions. Pour plus d’informations sur la façon dont Google Analytics définit les sessions, consultez la page : [https://support.google.com/analytics/answer/2731565?hl=fr](http://support.google.com/analytics/answer/2731565?hl=fr){target="_blank"}

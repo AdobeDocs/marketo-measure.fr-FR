@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874658
 description: Cas d’utilisation courants - [!DNL Marketo Measure] - Documentation du produit
-title: Cas d’utilisation courants
+title: Scénarios classiques
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 1%
 
 ---
 
-# Cas d’utilisation courants {#common-use-cases}
+# Scénarios classiques {#common-use-cases}
 
 Vous trouverez ci-dessous quelques méthodes courantes d’utilisation de [!DNL Marketo Measure Discover] pour obtenir des informations précieuses sur vos performances marketing.
 
@@ -48,7 +49,7 @@ Pour afficher l’impact d’un marketing de ventilation sur la création d’op
 
 Pour afficher la valeur totale des opportunités ou afficher les tendances au fil du temps, utilisez le tableau de bord Croissance et ajustez le type de date sur Date de création dans les filtres. Consultez les mosaïques Opportunités et opportunités dans le temps de ce tableau de bord.
 
-Le type de date peut également être remplacé par Date du point de contact (en fonction de la date de l’activité) ou par Date de fermeture, ce qui indiquera le nombre total de points non validés. _et_ des opportunités manquées
+Le type de date peut également être remplacé par Date du point de contact (en fonction de la date de l’activité) ou par Date de fermeture, ce qui indiquera le nombre total de points non validés. _et_ des opportunités manquées.
 
 ## Offres fermées {#closed-deals}
 
@@ -76,7 +77,7 @@ Pour afficher les totaux de dépenses et les ventilations, accédez au tableau d
 
 Vous pouvez également accéder au tableau de bord des dépenses marketing, dans lequel la mosaïque principale affiche un graphique des dépenses des 12 derniers mois regroupées par canal marketing.
 
-Modifiez le filtre de Dimension pour remplacer le groupement par : Sous-canal, Campagne, Annonceur, Groupe publicitaire, Mot-clé, Emplacement ou Site.
+Modifiez le filtre de Dimension pour définir le regroupement sur : Sous-canal, Campagne, Annonceur, Groupe publicitaire, Mot-clé, Emplacement ou Site.
 
 >[!MORELIKETHIS]
 >

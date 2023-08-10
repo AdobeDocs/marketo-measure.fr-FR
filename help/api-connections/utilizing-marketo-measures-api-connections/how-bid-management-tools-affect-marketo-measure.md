@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874720
 description: Incidence des outils de gestion des offres [!DNL Marketo Measure] - [!DNL Marketo Measure] - Documentation du produit
-title: Incidence des outils de gestion des offres [!DNL Marketo Measure]
+title: Incidence des outils de gestion des offres sur [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
-source-git-commit: 65e7f8bc198ceba2f873ded23c94601080ad0546
+feature: APIs, Integration, UTM Parameters
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '267'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Incidence des outils de gestion des offres [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
+# Incidence des outils de gestion des offres sur [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
 Découvrez comment les plateformes de gestion des offres affectent les [!DNL Marketo Measure] la possibilité d’effectuer le suivi d’AdWords et de BingAds, ainsi que de configurer des modèles de suivi avec nos paramètres pour garantir un suivi correct de tout.
 

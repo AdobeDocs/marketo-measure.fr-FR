@@ -1,20 +1,21 @@
 ---
 unique-page-id: 18874539
-description: Création d’une personnalisation [!DNL Marketo Measure] Types de rapports - [!DNL Marketo Measure] - Documentation du produit
-title: Création d’une personnalisation [!DNL Marketo Measure] Types de rapports
+description: Création d’une [!DNL Marketo Measure] Types de rapports - [!DNL Marketo Measure] - Documentation du produit
+title: Création de types de rapports personnalisés dans [!DNL Marketo Measure]
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '373'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Création d’une personnalisation [!DNL Marketo Measure] Types de rapports {#creating-custom-marketo-measure-report-types}
+# Création de types de rapports personnalisés dans[!DNL Marketo Measure] {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais continuez à voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
 
 Découvrez comment créer des [!DNL Marketo Measure] [!DNL Salesforce] types de rapports. Il existe trois types de rapports différents que nous vous recommandons de créer : Pistes avec points de contact d’achat (personnalisés), [!DNL Marketo Measure] Personne avec points de contact d’achat (personnalisés), opportunités avec point de contact d’attribution d’achat (personnalisé).
 
@@ -26,10 +27,10 @@ Découvrez comment créer des [!DNL Marketo Measure] [!DNL Salesforce] types de 
 
 1. Définissez le Type de rapport personnalisé.
 
-   * [!UICONTROL Focus sur le type de rapport] > [!UICONTROL [!UICONTROL Objet Principal]]: prospect
+   * [!UICONTROL Focus sur le type de rapport] > [!UICONTROL [!UICONTROL Objet Principal]]: piste
    * Identification > [!UICONTROL Étiquette du type de rapport]: Pistes avec points de contact d’achat (personnalisés)
-   * [!UICONTROL Stocker dans la catégorie]: Autres rapports
-   * [!UICONTROL Déploiement] > [!UICONTROL État du déploiement]: Déployé
+   * [!UICONTROL Stocker dans la catégorie]: autres rapports
+   * [!UICONTROL Déploiement] > [!UICONTROL État du déploiement]: déployé
 
    ![](assets/2.png)
 
@@ -51,8 +52,8 @@ Découvrez comment créer des [!DNL Marketo Measure] [!DNL Salesforce] types de 
 
    * [!UICONTROL Focus sur le type de rapport] > [!UICONTROL Objet Principal]: [!DNL Marketo Measure] Personnes
    * [!UICONTROL Identification] > [!UICONTROL Étiquette du type de rapport]: [!DNL Marketo Measure] Personne avec points de contact d’achat (personnalisés)
-   * [!UICONTROL Stocker dans la catégorie]: Autres rapports
-   * [!UICONTROL Déploiement] > [!UICONTROL État du déploiement]: Déployé
+   * [!UICONTROL Stocker dans la catégorie]: autres rapports
+   * [!UICONTROL Déploiement] > [!UICONTROL État du déploiement]: déployé
 
    ![](assets/5.png)
 
@@ -72,10 +73,10 @@ Découvrez comment créer des [!DNL Marketo Measure] [!DNL Salesforce] types de 
 
 1. Définissez le Type de rapport personnalisé.
 
-   * [!UICONTROL Focus sur le type de rapport] > [!UICONTROL Objet Principal]: Opportunités
-   * [!UICONTROL Identification] > [!UICONTROL Étiquette du type de rapport]: Opportunités avec un point de contact d’attribution d’achat (personnalisé)
-   * [!UICONTROL Stocker dans la catégorie]: Autres rapports
-   * [!UICONTROL Déploiement] > [!UICONTROL État du déploiement]: Déployé
+   * [!UICONTROL Focus sur le type de rapport] > [!UICONTROL Objet Principal]: opportunités
+   * [!UICONTROL Identification] > [!UICONTROL Étiquette du type de rapport]: opportunités avec point de contact d’attribution de l’achat (personnalisé)
+   * [!UICONTROL Stocker dans la catégorie]: autres rapports
+   * [!UICONTROL Déploiement] > [!UICONTROL État du déploiement]: déployé
 
    ![](assets/8.png)
 

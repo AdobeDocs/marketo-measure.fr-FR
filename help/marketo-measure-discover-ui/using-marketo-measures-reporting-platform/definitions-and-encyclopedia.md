@@ -3,7 +3,8 @@ unique-page-id: 18874662
 description: Définitions et encyclopédie - [!DNL Marketo Measure] - Documentation du produit
 title: Définitions et encyclopédie
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '6083'
 ht-degree: 5%
@@ -16,7 +17,7 @@ Vous trouverez ci-dessous un aperçu des différents panoramas et mosaïques pr�
 
 **[!DNL Marketo Measure]Panoramas**
 
-APERÇU
+Vue d’ensemble
 
 Croissance
 
@@ -36,7 +37,7 @@ Média payé
 
 Marketing de contenu
 
-Opérations marketing
+Opérations marketing 
 
 **Parcours**
 
@@ -50,7 +51,7 @@ Parcours d’engagement
 
 ## [!DNL Marketo Measure] Panoramas {#marketo-measure-boards}
 
-### APERÇU {#overview}
+### Vue d’ensemble {#overview}
 
 Aperçu donne à l’utilisateur une vue d’ensemble des performances de l’équipe marketing en ce qui concerne leur impact sur les recettes, les dépenses et le retour sur investissement.
 
@@ -60,7 +61,7 @@ Type de date : Date de fermeture
 
 La date correspond aux 12 derniers mois complets
 
-Le modèle d’attribution est en forme de W
+Modèle d’attribution en forme de W
 
 Mesure : recettes
 
@@ -68,7 +69,7 @@ Dimension est Canal
 
 Le canal est égal à __
 
-Le sous-canal est égal à __
+Subchannel est égal à __
 
 Campaign est égal à __
 
@@ -76,13 +77,13 @@ Catégories
 
 ![](assets/definitions-and-encyclopedia-1.png)
 
-**Chiffre d&#39;affaires**
+**Recettes**
 
 `1.` Le montant total des recettes des opportunités de gains fermés, basé sur le modèle d’attribution.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**APERÇU**
+**Vue d’ensemble**
 
 `2.` À l’aide de la liste déroulante Mesure du menu Filtres , ce graphique présente les recettes/recettes de pipeline/dépenses/offres/opportunités/pistes/contacts attribués à chaque canal, affichées au fil du temps.
 
@@ -92,7 +93,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**RSI**
+**ROI**
 
 `4.` À l’aide de la liste déroulante Dimensions du menu Filtres , cela indique le retour sur investissement attribué à chaque canal/sous-canal/campagne/compte/groupe publicitaire/annonceur/créatif/mot-clé/référencement/site en fonction du modèle d’attribution pendant toute la période sélectionnée.
 
@@ -142,13 +143,13 @@ Type de date : Date du point de contact
 
 La date correspond aux 12 derniers mois complets
 
-Le modèle d’attribution est en forme de W
+Modèle d’attribution en forme de W
 
 Group by None
 
 Le canal est égal à __
 
-Le sous-canal est égal à __
+Subchannel est égal à __
 
 Campaign est égal à __
 
@@ -158,7 +159,7 @@ Catégories
 
 ![](assets/definitions-and-encyclopedia-3.png)
 
-**Chiffre d&#39;affaires**
+**Recettes**
 
 `1.` Le montant total des recettes des opportunités de gains fermés, basé sur le modèle d’attribution.
 
@@ -288,11 +289,11 @@ Type de date : Date de fermeture
 
 La date correspond aux 12 derniers mois complets
 
-Le modèle d’attribution est en forme de W
+Modèle d’attribution en forme de W
 
 Le canal est égal à __
 
-Le sous-canal est égal à __
+Subchannel est égal à __
 
 Campaign est égal à __
 
@@ -332,7 +333,7 @@ Comptes est égal à __
 
 ![](assets/definitions-and-encyclopedia-6.png)
 
-**Chiffre d&#39;affaires**
+**Recettes**
 
 Le montant total des recettes des opportunités de gains fermés, basé sur le modèle d’attribution.
 
@@ -376,7 +377,7 @@ Par ID de compte et Nom du compte, le nombre total de points de contact de chaqu
 
 **Nombre de Touchpoints**
 
-Nombre de points de contact attribués à chaque dimension, où la dimension peut être modifiée par le filtre Group By , tel que : Aucun/Canal/Sous-canal/Campagne/Compte/Annonceur/Publicité/Créatif/Groupe publicitaire/Mot-clé/Emplacement/Site.
+Le nombre de points de contact attribués à chaque dimension, où la dimension peut être modifiée par le filtre Groupe Par , par exemple : Aucun/Canal/Sous-canal/Campagne/Compte/Annonceur/Publicité/Créatif/Groupe publicitaire/Mot-clé/Emplacement/Site.
 
 ### Dépenses de marketing {#marketing-spend}
 
@@ -394,13 +395,13 @@ Group By est égal à Channel
 
 Le canal est égal à __
 
-Le sous-canal est égal à __
+Subchannel est égal à __
 
 Campaign est égal à __
 
 ![](assets/definitions-and-encyclopedia-7.png)
 
-**Chiffre d&#39;affaires**
+**Recettes**
 
 Le montant total des recettes des opportunités de gains fermés, basé sur le modèle d’attribution.
 
@@ -412,7 +413,7 @@ Le montant total des dépenses enregistrées des coûts d’API et des coûts au
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**RSI**
+**ROI**
 
 Le ROI calculé (retour sur investissement) provenant du total des recettes (du modèle d’attribution sélectionné) et du total des dépenses.
 
@@ -458,7 +459,7 @@ Mesure Visites
 
 Le canal est égal à __
 
-Le sous-canal est égal à __
+Subchannel est égal à __
 
 Campaign est égal à __
 
@@ -510,7 +511,7 @@ Le nombre total de formulaires envoyés à tous les visiteurs connus et anonymes
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**APERÇU**
+**Vue d’ensemble**
 
 À l’aide de la liste déroulante Mesure du menu Filtres , ce graphique affiche les recettes/recettes de pipeline/dépenses/offres/opportunités/contacts/clics/impressions/visites uniques/pages vues/formulaires attribués à chaque dimension, affichés au fil du temps. Les Dimensions peuvent être changées de Aucun en Canal/Sous-canal/Campagne/Compte/Annonceur/Publicité/Créatif/Groupe publicitaire/Mot-clé/Emplacement/Site.
 
@@ -524,11 +525,11 @@ Nombre de visites de page et de visites uniques provenant de chaque URL de réf�
 
 **Visites uniques par source**
 
-Dans la liste déroulante Regrouper par du menu Filtres , affichez la source des visiteurs uniques sur votre site. Modifiez le groupe par pour : Canal, Sous-canal, Campagne, Compte, Groupe publicitaire, Publicité, Annonceur, Créatif, Mot-clé, Emplacement, Site.
+Dans la liste déroulante Regrouper par du menu Filtres , affichez la source des visiteurs uniques sur votre site. Remplacez le groupe par : Canal, Sous-canal, Campagne, Compte, Groupe publicitaire, Publicité, Annonceur, Créatif, Mot-clé, Emplacement, Site.
 
 **Visites par source**
 
-Dans la liste déroulante Regrouper par du menu Filtres , affichez la source des visiteurs de votre site. Modifiez le groupe par pour : Canal, Sous-canal, Campagne, Compte, Groupe publicitaire, Publicité, Annonceur, Créatif, Mot-clé, Emplacement, Site.
+Dans la liste déroulante Regrouper par du menu Filtres , affichez la source des visiteurs de votre site. Remplacez le groupe par : Canal, Sous-canal, Campagne, Compte, Groupe publicitaire, Publicité, Annonceur, Créatif, Mot-clé, Emplacement, Site.
 
 **Leads par page de destination**
 
@@ -550,11 +551,11 @@ Type de date : Date de fermeture
 
 La date correspond aux 12 derniers mois complets
 
-Le modèle d’attribution est en forme de W
+Modèle d’attribution en forme de W
 
 Le canal est égal à __
 
-Le sous-canal est égal à __
+Subchannel est égal à __
 
 Campaign est égal à __
 
@@ -564,13 +565,13 @@ Catégories
 
 ![](assets/definitions-and-encyclopedia-12.png)
 
-**Chiffre d&#39;affaires**
+**Recettes**
 
 `1.` Le montant total des recettes des opportunités de gains fermés, basé sur le modèle d’attribution.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**APERÇU**
+**Vue d’ensemble**
 
 `2.` À l’aide de la liste déroulante Mesure du menu Filtres , ce graphique présente les recettes/recettes de pipeline/dépenses/offres/opportunités/pistes/contacts attribués à chaque canal, affichées au fil du temps.
 
@@ -580,7 +581,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**RSI**
+**ROI**
 
 `4.` Le ROI calculé (retour sur investissement) provenant du total des recettes (du modèle d’attribution sélectionné) et du total des dépenses.
 
@@ -626,7 +627,7 @@ Type de date : Date du point de contact
 
 La date correspond aux 12 derniers mois complets
 
-Le modèle d’attribution est en forme de W
+Modèle d’attribution en forme de W
 
 Mesure : recettes
 
@@ -634,7 +635,7 @@ Dimension est Canal
 
 Le canal est égal à __
 
-Le sous-canal est égal à __
+Subchannel est égal à __
 
 Campaign est égal à __
 
@@ -644,7 +645,7 @@ Catégories
 
 ![](assets/definitions-and-encyclopedia-14.png)
 
-**Chiffre d&#39;affaires**
+**Recettes**
 
 `1.` Le montant total des recettes des opportunités de gains fermés, basé sur le modèle d’attribution.
 
@@ -656,7 +657,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**RSI**
+**ROI**
 
 `3.` Le ROI calculé (retour sur investissement) provenant du total des recettes (du modèle d’attribution sélectionné) et du total des dépenses.
 
@@ -666,7 +667,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**APERÇU**
+**Vue d’ensemble**
 
 `5.` À l’aide de la liste déroulante Mesure du menu Filtres , ce graphique présente les recettes/recettes de pipeline/dépenses/offres/opportunités/contacts/visites/visites uniques/impressions/clics/formulaires au fil du temps.
 
@@ -732,13 +733,13 @@ Type de date : Date du point de contact
 
 La date correspond aux 12 derniers mois complets
 
-Le modèle d’attribution est en forme de W
+Modèle d’attribution en forme de W
 
 La page d’entrée est égale à __
 
 Le canal est égal à __
 
-Le sous-canal est égal à __
+Subchannel est égal à __
 
 Campaign est égal à __
 
@@ -798,7 +799,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 `10.` Nombre total de visites de site uniques suivies par tous les visiteurs connus et anonymes.
 
-Explorez les visites uniques du site suivies par mois.
+Explorez les statistiques pour afficher les visites uniques du site suivies par mois.
 
 **Pages de destination principales par visites uniques**
 
@@ -824,13 +825,13 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 `15.` Liste des URL de page en fonction du nombre de pistes créées à partir de chaque URL, triées par pages comportant le plus de pistes.
 
-### Opérations marketing {#marketing-ops}
+### Opérations marketing  {#marketing-ops}
 
 Valider et diagnostiquer [!DNL Marketo Measure] données avec une visibilité complète sur des points de contact individuels.
 
 **Filtres**
 
-ID de compte
+Identifiant de compte
 
 Nom du compte
 
@@ -900,27 +901,27 @@ Cliquez sur les nombres agrégés pour accéder aux détails des données de bas
 
 **Q : Pourquoi y a-t-il à la fois un filtre &quot;Identifiant de compte&quot; et &quot;Nom de compte&quot; ?**
 
-A : Bien que les identifiants de compte soient uniques, les noms de compte ne doivent pas nécessairement l’être. Par exemple, vous avez peut-être créé plusieurs comptes différents pour chaque unité opérationnelle au sein d’une entreprise. Bien que l’utilisation du nom du compte puisse s’avérer plus intuitive, pour vous assurer que vous filtrez un compte spécifique, vous pouvez utiliser l’identifiant de compte.
+R : Bien que les identifiants de compte soient uniques, les noms de compte ne doivent pas nécessairement l’être. Par exemple, vous avez peut-être créé plusieurs comptes différents pour chaque unité opérationnelle au sein d’une entreprise. Bien que l’utilisation du nom du compte puisse s’avérer plus intuitive, pour vous assurer que vous filtrez un compte spécifique, vous pouvez utiliser l’identifiant de compte.
 
 **Q : Si je filtre par ID de compte, toutes les tables seront-elles filtrées ?**
 
-A : Oui, le filtre sera appliqué à chaque mosaïque du panorama. Par exemple, si vous appliquez un filtre de compte pour &quot;Microsoft&quot;, dans la mosaïque &quot;Opportunités&quot;, seules les opportunités liées à Microsoft s’afficheront.
+R : Oui, le filtre sera appliqué à chaque mosaïque du panorama. Par exemple, si vous appliquez un filtre de compte pour &quot;Microsoft&quot;, dans la mosaïque &quot;Opportunités&quot;, seules les opportunités liées à Microsoft s’afficheront.
 
 **Q : Qu’est-ce que la colonne &quot;Évaluation de l’engagement&quot; ?**
 
-A : L’évaluation de l’engagement extrait de la variable [!DNL Marketo Measure] Score d’engagement prédictif du compte, disponible dans [!DNL Marketo Measure] Niveau 2. Si vous ne l’avez pas, ce champ s’affiche comme nul.
+R : L’évaluation de l’engagement extrait de la variable [!DNL Marketo Measure] Score d’engagement prédictif du compte, disponible dans [!DNL Marketo Measure] Niveau 2. Si vous ne l’avez pas, ce champ s’affiche comme nul.
 
 **Q : Puis-je modifier le mode de tri du tableau ?**
 
-A : Oui, si vous cliquez sur l’un des en-têtes de colonne, le tableau est trié. Si vous cliquez de nouveau sur le même en-tête, le mode de tri du tableau est inversé.
+R : Oui, si vous cliquez sur l’un des en-têtes de colonne, le tableau est trié. Si vous cliquez de nouveau sur le même en-tête, le mode de tri du tableau est inversé.
 
 **Q : Puis-je exporter les données ?**
 
-A : Oui, lorsque vous passez le curseur sur le titre de la mosaïque (par exemple, &quot;Comptes&quot;), cliquez sur les trois points verticaux dans le coin supérieur droit. Vous pourrez ainsi télécharger les données de cette mosaïque dans les formats suivants : TXT, CSV, XLS, JSON, HTML et Markdown.
+R : Oui, lorsque vous passez le curseur sur le titre de la mosaïque (par exemple, &quot;Comptes&quot;), cliquez sur les trois points verticaux dans le coin supérieur droit. Vous pourrez ainsi télécharger les données de cette mosaïque dans les formats suivants : TXT, CSV, XLS, JSON, HTML et Markdown.
 
 **Q : Puis-je voir plus de 500 lignes de données ?**
 
-A : La mosaïque est limitée à l’affichage de 500 lignes à la fois, mais vous pouvez exporter les données et sélectionner &quot;Tous les résultats&quot; pour afficher plus de 500 lignes affichées.
+R : La mosaïque est limitée à l’affichage de 500 lignes à la fois, mais vous pouvez exporter les données et sélectionner &quot;Tous les résultats&quot; pour afficher plus de 500 lignes affichées.
 
 ## Parcours {#journey}
 
@@ -938,7 +939,7 @@ L’état est égal à __
 
 Le canal est égal à __
 
-Le sous-canal est égal à __
+Subchannel est égal à __
 
 ![](assets/definitions-and-encyclopedia-19.png)
 
@@ -1022,11 +1023,11 @@ Type de date : Date du point de contact
 
 La date correspond aux 12 derniers mois complets
 
-Le modèle d’attribution est en forme de W
+Modèle d’attribution en forme de W
 
 Le canal est égal à __
 
-Le sous-canal est égal à __
+Subchannel est égal à __
 
 Campaign est égal à __
 
@@ -1070,13 +1071,13 @@ Type de contact marketing
 
 Canal
 
-Moyen
+Support
 
 Source Internet
 
 Première interaction avec la personne (O/N)
 
-Chiffre d’affaires attribué
+Revenu attribué
 
 ![](assets/definitions-and-encyclopedia-23.png)
 
@@ -1090,28 +1091,28 @@ Cliquez sur Type d’événement pour afficher les détails de l’événement.
 
 **Q : Comment afficher le parcours d’une seule personne ?**
 
-A : À l’aide du filtre &quot;Identifiant de piste/Adresse électronique&quot; ou &quot;Identifiant de contact/adresse électronique&quot;, définissez le filtre sur &quot;contient&quot; [adresse email]&#39;, puis cliquez sur &#39;Exécuter&#39;.
+R : En utilisant le filtre &#39;Identifiant de piste/Email&#39; ou &#39;Identifiant de contact/email&#39;, définissez le filtre sur &#39;contient&#39; [adresse email]&#39;, puis cliquez sur &#39;Exécuter&#39;.
 
-**Q : Quel est l’impact du filtre &quot;Modèle d’attribution&quot; ?**
+**Q : Qu’affecte le filtre &quot;Modèle d’attribution&quot; ?**
 
-A : Le filtre du modèle d’attribution affecte la colonne &quot;Recettes affectées&quot;.
+R : Le filtre du modèle d’attribution affectera la colonne &quot;Recettes affectées&quot;
 
 **Q : Qu’est-ce que le filtre &quot;Type de contact marketing&quot; ?**
 
-A : Le &quot;Type de contact marketing&quot; est le type d’engagement, qui peut inclure les visites web, les formulaires web, les conversations web, les e-mails, les appels, les messages de gauche ou la gestion de la relation client (c’est-à-dire l’appartenance à une campagne pour les canaux hors ligne).
+R : Le &quot;Type de contact marketing&quot; est le type d’engagement, qui peut inclure les visites web, les formulaires web, les conversations web, les e-mails, les appels, les messages de gauche ou la gestion de la relation client (c’est-à-dire l’adhésion à la campagne pour les canaux hors ligne).
 
-**Q : Comment filtrer toutes les sessions web du parcours ?**
+**Q : Comment puis-je filtrer toutes les sessions web du parcours ?**
 
-A : À l’aide du filtre &quot;Type de contact marketing&quot;, définissez le filtre sur &quot;ne contient pas de visite web&quot; OU &quot;contient&quot; [tous les types de contact, à l’exception de Visite web], puis cliquez sur &quot;Exécuter&quot;.
+R : En utilisant le filtre &quot;Type de contact marketing&quot;, définissez le filtre sur &quot;ne contient pas de visite web&quot; OU &quot;contient&quot; [tous les types de contact, à l’exception de Visite web], puis cliquez sur &quot;Exécuter&quot;
 
 **Q : Puis-je exporter les données ?**
 
-A : Oui, lorsque vous placez le curseur sur le tableau &quot;Parcours des événements&quot;, cliquez sur les trois points verticaux dans le coin supérieur droit. Vous pourrez ainsi télécharger les données dans les formats suivants : TXT, CSV, XLS, JSON, HTML et Markdown.
+R : Oui, lorsque vous placez le curseur sur le tableau &quot;Parcours des événements&quot;, cliquez sur les trois points verticaux dans le coin supérieur droit. Vous pourrez ainsi télécharger les données dans les formats suivants : TXT, CSV, XLS, JSON, HTML et Markdown.
 
 **Q : Puis-je modifier le mode de tri du tableau ?**
 
-A : Oui, si vous cliquez sur l’un des en-têtes de colonne, le tableau est trié. Si vous cliquez de nouveau sur le même en-tête, le mode de tri du tableau est inversé. Par défaut, les tableaux sont triés par Date du point de contact , en commençant par la date la plus ancienne.
+R : Oui, si vous cliquez sur l’un des en-têtes de colonne, le tableau est trié. Si vous cliquez de nouveau sur le même en-tête, le mode de tri du tableau est inversé. Par défaut, les tableaux sont triés par Date du point de contact , en commençant par la date la plus ancienne.
 
 **Q : Puis-je voir plus de 500 lignes de données ?**
 
-A : La mosaïque est limitée à l’affichage de 500 lignes à la fois, mais vous pouvez exporter les données et sélectionner &quot;Tous les résultats&quot; pour afficher plus de 500 lignes affichées.
+R : La mosaïque est limitée à l’affichage de 500 lignes à la fois, mais vous pouvez exporter les données et sélectionner &quot;Tous les résultats&quot; pour afficher plus de 500 lignes affichées.

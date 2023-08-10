@@ -1,36 +1,37 @@
 ---
 unique-page-id: 18874696
 description: Recommandé [!DNL Salesforce] Autorisations pour [!DNL Marketo Measure] Utilisateur connecté - [!DNL Marketo Measure] - Documentation du produit
-title: Recommandé [!DNL Salesforce] Autorisations pour [!DNL Marketo Measure] Utilisateur connecté
+title: Autorisations [!DNL Salesforce] recommandées pour l’utilisateur [!DNL Marketo Measure] connecté
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 0%
+ht-degree: 28%
 
 ---
 
-# Recommandé [!DNL Salesforce] Autorisations pour [!DNL Marketo Measure] Utilisateur connecté {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
+# Autorisations[!DNL Salesforce]recommandées pour l’utilisateur[!DNL Marketo Measure]connecté {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
 
-[!DNL Marketo Measure] envoie et reçoit des données par l’intermédiaire d’un [!DNL Salesforce] dans la fonction [!DNL Marketo Measure] application.
+[!DNL Marketo Measure] envoie et reçoit des données par l’intermédiaire d’un utilisateur [!DNL Salesforce] connecté à l’application [!DNL Marketo Measure].
 
-Pour transmettre des données de point de contact à votre [!DNL Salesforce] , l’utilisateur connecté doit avoir accès à [!DNL Marketo Measure] des objets personnalisés (point de contact de l’acheteur et point de contact d’attribution de l’acheteur), ainsi que des objets standard ; [!DNL Salesforce] des objets tels que Leads et Contacts (voir [[!DNL Marketo Measure] dans Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md).
+Pour transmettre des données de point de contact à votre [!DNL Salesforce] , l’utilisateur connecté doit avoir accès à [!DNL Marketo Measure] objets personnalisés (point de contact de l’acheteur et point de contact d’attribution de l’acheteur), ainsi que standard [!DNL Salesforce] des objets tels que Leads et Contacts (voir [[!DNL Marketo Measure] dans Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md).
 
 [!DNL Salesforce] Les licences d’utilisateur administrateur peuvent servir d’utilisateur connecté, car elles disposent souvent par défaut des privilèges de données nécessaires. Cependant, votre équipe peut préférer utiliser un utilisateur d’intégration ou un [!DNL Salesforce] licence utilisateur pour suivre l’impact de [!DNL Marketo Measure] sur votre instance.
 
-Nous recommandons les autorisations suivantes pour nous assurer que [!DNL Marketo Measure] les données circulent de manière précise :
+Nous vous recommandons les autorisations suivantes pour vous assurer que [!DNL Marketo Measure] les données circulent de manière précise :
 
 * [!DNL Marketo Measure] Jeu D’Autorisations Administrateur Pour L’Utilisateur Dédié
 
-L’ensemble d’autorisations géré permet à un administrateur SFDC de créer, lire, écrire et supprimer des enregistrements depuis [!DNL Marketo Measure] objets.
+Ce jeu d’autorisations géré permet à un administrateur SFDC de créer, lire, écrire et supprimer des enregistrements depuis les objets [!DNL Marketo Measure].
 
 * Afficher et modifier le jeu d’autorisations de pistes converties
 
-Cela permet [!DNL Marketo Measure] pour décorer les pistes après leur conversion en contacts. Si ce jeu d’autorisations n’est pas activé, il peut y avoir d’importants écarts de suivi des données. Pour plus d’informations, reportez-vous à la section [[!DNL Salesforce Trailblazer] communauté](https://help.salesforce.com/articleView?id=leads_view_edit_converted.htm&amp;type=5).
+Ces autorisations permettent à [!DNL Marketo Measure] de décorer les prospects après leur conversion en contacts. Si ce jeu d’autorisations n’est pas activé, d’importants écarts de suivi des données peuvent survenir. Vous trouverez plus d’informations dans la section [[!DNL Salesforce Trailblazer] communauté](https://help.salesforce.com/articleView?id=leads_view_edit_converted.htm&amp;type=5).
 
 * [!DNL Salesforce] Case à cocher des utilisateurs marketing
 
-Le [!UICONTROL Utilisateur marketing] permet à l’utilisateur de créer des campagnes et d’utiliser les assistants d’importation de campagne. Si cette option n’est pas sélectionnée, l’utilisateur peut uniquement afficher les campagnes et la configuration avancée de la campagne, modifier l’historique des campagnes pour un seul prospect ou contact et exécuter des rapports de campagne. [!DNL Marketo Measure] doit pouvoir lire et écrire dans l’objet campaign.
+La case à cocher [!UICONTROL Utilisateur marketing] permet à l’utilisateur de créer des campagnes, mais aussi d’utiliser les assistants d’importation de campagne. Si cette case n’est pas cochée, l’utilisateur peut uniquement afficher les campagnes et leur configuration avancée, modifier leur historique pour un seul prospect ou contact et générer des rapports de campagne. [!DNL Marketo Measure] doit pouvoir lire et écrire dans les campagnes.
 
 **Dépannage supplémentaire**
 

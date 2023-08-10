@@ -3,7 +3,8 @@ unique-page-id: 35586140
 description: Schéma de Data Warehouse - Marketo Measure - Documentation du produit
 title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
-source-git-commit: e7993619e2dcfdfcab1a02d95d404e76fe1366c1
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '22610'
 ht-degree: 99%
@@ -18,7 +19,6 @@ Data Warehouse vous permet d’effectuer le suivi de toutes les données de votr
 >
 >* Les lignes contenant une valeur pour _DELETED_DATE sont conservées pendant 7 jours, puis supprimées de Snowflake.
 >* Les fuseaux horaires utilisés en Snowflake respectent l’heure universelle coordonnée (UTC).
-
 
 >[!NOTE]
 >

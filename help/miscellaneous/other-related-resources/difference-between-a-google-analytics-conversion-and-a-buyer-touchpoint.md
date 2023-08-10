@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874648
 description: Différence entre une conversion de Google Analytics et un point de contact d’achat - [!DNL Marketo Measure] - Documentation du produit
-title: Différence entre une conversion de Google Analytics et un point de contact d’achat
+title: Différence entre une conversion de Google Analytics et un point de contact acheteur
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Différence entre une conversion de Google Analytics et un point de contact d’achat {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
+# Différence entre une conversion de Google Analytics et un point de contact acheteur {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
-En savoir plus sur [!DNL Google Analytics (GA)] L’objectif est et la manière dont il se différencie d’un point de contact d’achat.
+Découvrez ce qu’est une [!DNL Google Analytics (GA)] L’objectif est et la manière dont il se différencie d’un point de contact d’achat.
 
 **Que sont les conversions de Google Analytics ?**
 
@@ -34,7 +35,7 @@ Cependant, les objectifs ne peuvent pas être codés pour gérer un comportement
   </tr> 
   <tr> 
    <td><p>Destination</p></td> 
-   <td>Chargement d’un emplacement spécifique</td> 
+   <td>Un emplacement spécifique charge</td> 
    <td><em>Merci de vous être inscrit !</em> page web ou écran d’application</td> 
   </tr> 
   <tr> 
@@ -49,7 +50,7 @@ Cependant, les objectifs ne peuvent pas être codés pour gérer un comportement
   </tr> 
   <tr> 
    <td>Événement</td> 
-   <td>Une action définie en tant qu’événement est déclenchée</td> 
+   <td>Une action définie comme un événement est déclenchée</td> 
    <td>Recommandations sociales, lecture vidéo, clic publicitaire</td> 
   </tr> 
  </tbody> 
@@ -68,8 +69,8 @@ Cependant, les points de contact d’achat agissent très différemment.
 [!DNL Marketo Measure] crée un point de contact de formulaire lorsque :
 
 * Un prospect/contact associé à ces conversions apparaît dans votre CRM.
-* Le [!DNL Marketo Measure] JS est présent sur les pages Web contenant le formulaire.
-* Un formulaire est envoyé dans un délai de 30 minutes.
+* La variable [!DNL Marketo Measure] JS est présent sur les pages Web contenant le formulaire.
+* Un formulaire est envoyé dans un délai d’une session de 30 minutes.
 
 [!DNL Marketo Measure] ignorera les conversions de Destination Google Analytics lorsque :
 

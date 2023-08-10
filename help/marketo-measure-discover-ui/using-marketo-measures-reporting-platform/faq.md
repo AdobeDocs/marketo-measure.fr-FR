@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874660
 description: FAQ - [!DNL Marketo Measure] - Documentation du produit
-title: FAQ
+title: Questions fréquentes
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
 
 ---
 
-# FAQ {#faq}
+# Questions fréquentes {#faq}
 
-[!DNL Marketo Measure Discover]: Questions fréquentes
+[!DNL Marketo Measure Discover]: Questions fréquentes.
 
 **Comment enregistrer les filtres sur un rapport ?**
 
@@ -34,7 +35,7 @@ L’une des fonctionnalités du tableau Croissance est que vous ne pouvez pas re
 
 Les valeurs n’existent pas pour chaque hiérarchie de données, car la hiérarchie n’est pas toujours un flux de découpe clair. Par exemple, que les coûts soient auto-déclarés ou importés d&#39;un fournisseur d&#39;annonces, le coût total du canal 1 peut être de 10 000 euros, mais par campagne individuelle, seul un total de 5 500 euros a été réellement reporté. Ainsi, lorsque le regroupement change entre les canaux et Campaign, les totaux varient.
 
-**Que signifie &quot;correspond à un attribut utilisateur&quot; dans les opérateurs de filtre ?**
+**Qu’est-ce que &quot;correspond à un attribut utilisateur&quot; dans les opérateurs de filtre ?**
 
 Les attributs utilisateur sont appliqués aux utilisateurs tels que l’identifiant de l’entreprise, le prénom ou le nom, mais comme nos utilisateurs sont vous (nos clients), et non vos clients, les attributs utilisateur ne peuvent pas être utilisés dans la variable [!DNL Marketo Measure Discover] expérience. N&#39;hésitez pas à ignorer cette option. Nous travaillons à une meilleure expérience de filtrage personnalisé qui supprimera les filtres qui ne s’appliquent pas à nos clients.
 
@@ -56,7 +57,7 @@ Il utilise les nombres de points de contact, distribués par le modèle d’attr
 
 **Le graphique des URL de formulaire par canal dans Marketing du contenu indique-t-il les visites web ou les remplissages de formulaire ?**
 
-Il s’agit uniquement des remplissages de formulaires suivis.
+Ils ne sont suivis que les remplissages de formulaires.
 
 **Quel est l’avantage de Discover sur la mesure ?**
 
@@ -82,7 +83,7 @@ Les visites uniques sont un sous-ensemble de visites. Alors que les visites sont
 
 Il s’agit d’un comptage de ce que nous considérons comme des points de contact &quot;bruts&quot;, ou &quot;points de contact utilisateur&quot;, où il s’agit d’un agrégat des deux, plus des touches qui n’ont pas entraîné de point de contact sur le prospect/contact ou l’opportunité.
 
-**Lorsque je filtre par URL, pourquoi le coût par mosaïque affiche-t-il seulement 0,00 $ ?**
+**Lorsque je filtre par URL, pourquoi le coût par mosaïque n’affiche-t-il que 0,00 $ ?**
 
 Il s’agit du comportement attendu en raison du fait que nous n’avons pas de coûts segmentés par URL. Il n’est donc pas applicable dans ce scénario.
 

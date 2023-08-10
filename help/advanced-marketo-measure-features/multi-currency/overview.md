@@ -3,7 +3,8 @@ unique-page-id: 27656735
 description: Présentation - [!DNL Marketo Measure] - Documentation du produit
 title: Vue d’ensemble
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
-source-git-commit: bf047695c4ea82c4fbf1e9079b7443a5c9821e42
+feature: Multi-Currency
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 2%
@@ -22,7 +23,7 @@ Niveau 2 et supérieur.
 
 [!DNL Marketo Measure] extrait automatiquement le paramètre de devise du CRM du client. Configuration manuelle dans [!DNL Marketo Measure] pour correspondre au CRM n’est plus nécessaire. Le paramètre de devise se trouve dans la page &quot;Général&quot; sous &quot;CRM&quot;.
 
-Dans [!DNL Salesforce], &quot;Activer plusieurs devises&quot; doit être activé pour le client. Le client peut également sélectionner &quot;Oui, je souhaite activer la gestion avancée des devises&quot;.
+Dans [!DNL Salesforce], &quot;Activer plusieurs devises&quot; doit être activé pour le client. En option, le client peut également sélectionner &quot;Oui, je souhaite activer la gestion avancée des devises&quot;.
 
 Dans Dynamics, le client peut définir des taux de change statiques dans ses Paramètres pour plusieurs devises. Il n’existe aucun concept de &quot;gestion avancée des devises&quot; dans Dynamics.
 

@@ -3,18 +3,19 @@ unique-page-id: 18874789
 description: "[!DNL Marketo Measure] Jeux d’autorisations - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] Jeux d’autorisations"
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
-# [!DNL Marketo Measure] Jeux d’autorisations {#marketo-measure-permission-sets}
+# Jeux d’autorisations [!DNL Marketo Measure] {#marketo-measure-permission-sets}
 
 Découvrez comment accéder à et affecter [!DNL Marketo Measure] Jeux d’autorisations dans Salesforce.
 
-## [!DNL Marketo Measure] Jeux d’autorisations {#marketo-measure-permission-sets-1}
+## Jeux d’autorisations [!DNL Marketo Measure] {#marketo-measure-permission-sets-1}
 
 Trois jeux d’autorisations sont inclus dans la variable [!DNL Marketo Measure] Package Salesforce. Ces jeux d’autorisations permettent d’accéder à [!DNL Marketo Measure] pour les administrateurs, les marketeurs et les utilisateurs standard.
 
@@ -22,7 +23,7 @@ Pour accéder aux jeux d’autorisations et les attribuer dans Salesforce :
 
 1. Cliquez sur **[!UICONTROL Configuration]**.
 1. Dans la marge de gauche, cliquez sur **[!UICONTROL Utilisateurs]**, puis **[!UICONTROL Jeux d’autorisations]**.
-1. Sélectionnez la [!DNL Marketo Measure] Jeu d’autorisations que vous souhaitez affecter.
+1. Sélectionnez la variable [!DNL Marketo Measure] Jeu d’autorisations que vous souhaitez affecter.
 1. Cliquez sur **[!UICONTROL Gestion des affectations]**, puis **[!UICONTROL Ajouter des affectations]**.
 1. Sélectionnez les utilisateurs du jeu d’autorisations, puis cliquez sur **[!UICONTROL Attribuer]**.
 
@@ -42,7 +43,7 @@ Pour accéder aux jeux d’autorisations et les attribuer dans Salesforce :
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Utilisateur standard</strong></span></td> 
-   <td><span>Permet à un utilisateur de lire des enregistrements depuis [!DNL Marketo Measure] objets.</span></td> 
+   <td><span>Permet à l’utilisateur de lire des enregistrements depuis [!DNL Marketo Measure] objets.</span></td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,4 +52,4 @@ Les équipes de développement des ventes entrantes et les dirigeants de compte 
 
 >[!NOTE]
 >
->En outre, l’utilisateur par lequel nous sommes connectés doit disposer de l’&quot;utilisateur marketing&quot;. [!DNL Salesforce] Profil activé au niveau de l’utilisateur afin que nous puissions accéder à l’objet Campaign. Pour vérifier cela, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Profils]** > **[!UICONTROL Utilisateur marketing]** > **Utilisateurs affectés**.
+>En outre, l’utilisateur par lequel nous sommes connectés doit disposer de l’utilisateur marketing [!DNL Salesforce] Profil activé au niveau de l’utilisateur afin que nous puissions accéder à l’objet Campaign. Pour vérifier cela, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Profils]** > **[!UICONTROL Utilisateur marketing]** > **Utilisateurs affectés**.

@@ -3,7 +3,8 @@ unique-page-id: 42762310
 description: Synchronisation des données historiques - [!DNL Marketo Measure] - Documentation du produit
 title: Synchronisation des données historiques
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1496'
 ht-degree: 2%
@@ -52,7 +53,7 @@ Le composant de mappage des canaux pour les données en ligne historiques peut �
 
 >[!NOTE]
 >
->Ce mappage de canal est effectué dans la variable [!UICONTROL Canaux hors ligne] de la section [!DNL Marketo Measure] car nous utilisons des campagnes SFDC.
+>Ce mappage de canal est effectué dans la variable [!UICONTROL Canaux hors ligne] de la [!DNL Marketo Measure] car nous utilisons des campagnes SFDC.
 
 | Type de campagne Salesforce | Canal | Sous-canal |
 |---|---|---|
@@ -82,7 +83,7 @@ Suivez les instructions ci-dessous pour organiser les données historiques dans 
 
 **En ligne :**
 
-Les données numériques historiques doivent être organisées en [!DNL Dynamics] campagnes afin d’être renvoyées. Idéalement, cette structure est déjà en place.
+Les données numériques historiques doivent être organisées en [!DNL Dynamics] campagnes pour être renvoyées. Idéalement, cette structure est déjà en place.
 
 Si les données sont hébergées ailleurs (comme toujours dans l’automatisation du marketing), elles doivent être transmises à [!DNL Dynamics] et organisées en campagnes appropriées. Vous devrez ensuite prendre en compte la date du point de contact, car vous souhaitez qu’elle reflète la date du passé, et non la date à laquelle vous l’avez envoyée. [!DNL Dynamics]. Pour remplacer cette date, vous pouvez utiliser le champ personnalisé &quot;Date du point de contact de l’acheteur&quot; pour modifier la date. Vous devez l’ajouter au formulaire Liste marketing.
 
@@ -96,7 +97,7 @@ Vous trouverez plus d’informations sur la synchronisation des listes marketing
 >
 >Si, pour une raison quelconque, vous disposez d’une activité de suivi de campagne en ligne principale au-delà de la date d’activation de JavaScript, veillez à définir le paramètre &quot;&quot;[!UICONTROL Date de fin du point de contact]&quot; à la date d’activation du JS. Cela permet d’éviter la duplication des points de contact pour une même interaction.
 
-Considérations : Les données en ligne ainsi ajoutées seront par nature moins granulaires que les données en ligne [!DNL Marketo Measure] effectue un suivi via JavaScript. Par exemple, des champs tels que : L’URL du formulaire, la page d’entrée, la page du référent, etc., ne seront pas renseignées. Par conséquent, il est recommandé de ventiler les campagnes dans chaque source si possible. Vous trouverez ci-dessous un exemple de mappage idéal.
+Considérations : les données en ligne ainsi ajoutées seront par nature moins granulaires que les données en ligne. [!DNL Marketo Measure] effectue un suivi via JavaScript. Par exemple, les champs tels que : URL du formulaire, Landing Page, Referrer Page, etc. ne seront pas renseignés. Par conséquent, il est recommandé de ventiler les campagnes dans chaque source si possible. Voici un exemple de mappage idéal.
 
 | Type de campagne Dynamics | Canal | Sous-canal |
 |---|---|---|

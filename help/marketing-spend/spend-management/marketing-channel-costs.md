@@ -1,22 +1,23 @@
 ---
 unique-page-id: 18874602
 description: Coûts du canal marketing - [!DNL Marketo Measure] - Documentation du produit
-title: Coûts du canal marketing
+title: Coûts associés aux canaux marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Channels, Spend Management
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '1297'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Coûts du canal marketing {#marketing-channel-costs}
+# Coûts associés aux canaux marketing {#marketing-channel-costs}
 
-L’un des avantages les plus fondamentaux de l’utilisation de [!DNL Marketo Measure] est la possibilité de lier les efforts marketing directement à l’impact sur les recettes, avec autant de granularité que vous le souhaitez. Il est possible d’afficher le retour sur investissement au niveau du point de contact. Pour tirer parti de cet avantage, les coûts du canal doivent simplement être transférés vers la variable [!DNL Marketo Measure] application. Les rapports sur le ROI sont automatiquement créés et disponibles dans la **Tableau de bord du ROI marketing** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
+L’un des avantages les plus fondamentaux de l’utilisation [!DNL Marketo Measure] est la possibilité de lier les efforts marketing directement à l’impact sur les recettes, avec autant de granularité que vous le souhaitez. Il est possible d’afficher le retour sur investissement au niveau du point de contact. Pour tirer parti de cet avantage, les coûts du canal doivent simplement être transférés vers la variable [!DNL Marketo Measure] application. Les rapports sur le ROI sont automatiquement créés et disponibles dans la **Tableau de bord du ROI marketing** in [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
 [Cliquez ici pour accéder directement aux instructions.](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 
-Le [!DNL Marketo Measure] La fonctionnalité de dépenses marketing permet aux clients de télécharger leurs dépenses sur tous les canaux, sous-canaux et campagnes. Plus les données sont ajoutées par les clients, plus le tableau de bord d’attribution des recettes répertorie les rapports de retour sur investissement.
+La variable [!DNL Marketo Measure] La fonctionnalité de dépenses marketing permet aux clients de télécharger leurs dépenses sur tous les canaux, sous-canaux et campagnes. Plus les données sont ajoutées par les clients, plus le tableau de bord d’attribution des recettes répertorie les rapports de retour sur investissement.
 
 Les coûts signalés et importés à partir des connexions publicitaires directes sont automatiquement extraits au niveau le plus granulaire et n’ont pas besoin d’être transférés. Cela inclut nos intégrations actuelles avec Google AdWords, Bing Ads, Doubleclick et Facebook.
 
@@ -66,25 +67,25 @@ L’erreur la plus courante à laquelle nous sommes confrontés est le format de
 
 [!DNL Marketo Measure] est fourni avec 13 canaux par défaut qui peuvent être utilisés ou développés. En outre, jusqu’à 40 canaux en ligne et hors ligne peuvent être créés pour s’adapter à votre structure marketing unique. Sur la base de cela, un total de 200 sous-canaux peuvent être créés pour prendre en charge ces canaux en ligne et hors ligne.
 
-[!DNL Marketo Measure] téléchargera automatiquement les coûts des canaux marketing à partir des plateformes avec lesquelles il dispose d’une intégration d’API, telles que Bing Ads et Google AdWords. Coûts des plateformes qui ne sont pas intégrées à [!DNL Marketo Measure] doit être chargé manuellement. Les canaux marketing doivent être configurés avant le chargement des données de coût.
+[!DNL Marketo Measure] téléchargera automatiquement les coûts des canaux marketing à partir des plateformes avec lesquelles il dispose d’une intégration API, telles que Bing Ads et Google AdWords. Coûts des plateformes qui ne sont pas intégrées à [!DNL Marketo Measure] doit être chargé manuellement. Les canaux marketing doivent être configurés avant le chargement des données de coût.
 
 ## Chargement des coûts marketing {#uploading-marketing-costs}
 
 Une fois les canaux et règles marketing configurés ou mis à jour, les coûts associés peuvent être transférés. Pour ce faire, procédez comme suit :
 
-**Étape 1 : Accédez à la page des dépenses marketing dans le [!DNL Marketo Measure] Application.**
+**Étape 1 : accédez à la page des dépenses marketing dans le [!DNL Marketo Measure] Application.**
 
-Accédez au **[!UICONTROL Mon compte]** , cliquez sur **[!UICONTROL Paramètres]** puis accédez au **[!UICONTROL Dépenses marketing]** dans la barre latérale gauche, sous **[!UICONTROL Reporting]** .
+Accédez au **[!UICONTROL Mon compte]** , cliquez sur **[!UICONTROL Paramètres]** puis accédez à la **[!UICONTROL Dépenses marketing]** dans la barre latérale gauche, sous **[!UICONTROL Reporting]** .
 
 ![](assets/1.png)
 
-**Étape 2 : Téléchargement du fichier CSV Coûts actuels**
+**Étape 2 : téléchargement du fichier CSV Coûts actuels**
 
 Accédez à droite de l’écran et cliquez sur **[!UICONTROL Télécharger les coûts actuels].** Cette option vous permet de télécharger une feuille de calcul au format CSV.
 
 ![](assets/2.png)
 
-**Étape 3 : Ouvrez le fichier CSV et effectuez des modifications.**
+**Étape 3 : ouverture du fichier CSV et modification**
 
 Vous pouvez importer le fichier et l’ouvrir à l’aide des feuilles de calcul Google Sheets, Apple Numbers, Microsoft Excel ou du logiciel de votre choix. [!DNL Marketo Measure] recommande d’utiliser des feuilles de calcul Google.
 
@@ -92,7 +93,7 @@ Après avoir importé la feuille, apportez les modifications souhaitées, telles
 
 Vérifiez les règles logiques dans votre feuille. Chaque ligne doit contenir un canal et un de ses sous-canaux séparés par un (.) point à la fin. Il est important d’utiliser ce format de manière cohérente.
 
-Par exemple, pour indiquer Facebook comme sous-canal et Social comme canal, la règle doit être écrite comme suit : &quot;Social.Facebook.&quot; De même, pour effectuer le suivi d’un événement hors ligne, la syntaxe du canal doit être : &quot;Events.Big Conference.&quot; Des exemples sont présentés dans l’image ci-dessous :
+Par exemple, pour indiquer Facebook comme sous-canal et Social comme canal, la règle doit être écrite comme suit : &quot;Social.Facebook&quot;. De même, pour effectuer le suivi d’un événement hors ligne, la syntaxe du canal doit être : &quot;Events.Big Conference&quot;. Des exemples sont présentés dans l’image ci-dessous :
 
 ![](assets/3.png)
 
@@ -104,15 +105,15 @@ Ne laissez aucun champ vide. Même s’il n’y a pas de valeur en dollars à aj
 
 Les coûts Bing Ads et Google AdWords n’ont pas besoin d’être renseignés ou mis à jour car [!DNL Marketo Measure] extrait automatiquement ces données de sa connexion API avec ces plateformes.
 
-**Étape 4 : Enregistrer le fichier au format CSV**
+**Étape 4 : enregistrer le fichier au format CSV**
 
 Si vous utilisez des feuilles de calcul Google Sheets, veillez d’abord à télécharger le fichier. N’excluez ou ne supprimez aucune donnée mensuelle, car elle risque de poser des problèmes lors du transfert du fichier CSV vers [!DNL Marketo Measure] plus tard.
 
-**Étape 5 : Téléchargement du fichier CSV**
+**Étape 5 : téléchargement du fichier CSV**
 
-Accédez au **[!UICONTROL Coût]** de la section [!DNL Marketo Measure] et cliquez sur **[!UICONTROL Upload.CSV]**. Le système actualise et reflète les nouvelles informations.
+Accédez au **[!UICONTROL Coût]** de la [!DNL Marketo Measure] et cliquez sur **[!UICONTROL Upload.CSV]**. Le système actualise et reflète les nouvelles informations.
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
 **Pourquoi les nombres apparaissent-ils dans le fichier CSV ?**
 
@@ -128,4 +129,4 @@ La possibilité de modifier la période, de filtrer le canal ou de rechercher de
 
 **Pourquoi ne puis-je pas télécharger un fichier ?**
 
-Nous avons différents jeux d’autorisations dans la variable [!DNL Marketo Measure] Application. Pour charger un fichier, vous devez être un &quot;AccountAdmin&quot;. Pour contourner ce problème, demandez l’accès à votre compteAdmin ou demandez à votre compteAdmin de télécharger le fichier en votre nom. Vous trouverez une liste d’utilisateurs et leurs rôles sous **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Afficher/Ajouter des utilisateurs de compte]**.
+Nous avons différents jeux d’autorisations dans la variable [!DNL Marketo Measure] Application. Pour charger un fichier, vous devez être un &quot;AccountAdmin&quot;. Pour contourner ce problème, demandez l’accès à votre compteAdmin ou demandez à votre compteAdmin de télécharger le fichier en votre nom. Vous trouverez une liste d’utilisateurs et leurs rôles sous **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Affichage/ajout d’utilisateurs de compte]**.

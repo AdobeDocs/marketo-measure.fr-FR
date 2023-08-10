@@ -1,9 +1,10 @@
 ---
 unique-page-id: 18874558
-description: Phases et points de contact Boomerang - [!DNL Marketo Measure] - Documentation du produit
+description: Étapes et points de contact Boomerang - [!DNL Marketo Measure] - Documentation du produit
 title: Étapes et points de contact de boomerang
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
-source-git-commit: 01be819ccee1b3079b15a748480e9dacf6adb488
+feature: Boomerang, Touchpoints
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 1%
@@ -20,7 +21,7 @@ ht-degree: 1%
 
 ## Fonctionnement de cette fonctionnalité {#what-this-feature-does}
 
-* Crée un point de contact &quot;boomerang&quot; pour toutes les transitions d’étape qui se produisent dans le parcours d’une opportunité.
+* Crée un point de contact &quot;boomerang&quot; pour toutes les transitions d’étape qui se produisent dans le parcours d’une opportunité
 * Effectue le suivi des transitions répétées entre toutes les étapes personnalisées (ex. lorsqu’un MQL de contact est déplacé vers SAL, puis revient à l’étape MQL).
 * Permet de spécifier le nombre et l’ensemble de transitions intermédiaires que vous souhaitez inclure dans l’ opportunité (ex. Les 10 premiers MQL ou les 5 derniers MQL)
 * Si vous êtes un utilisateur de modèle personnalisé, vous pouvez déterminer la pondération d’attribution et le crédit en pourcentage que vous souhaitez allouer à chacune de ces étapes (par exemple, désigner le poids de l’attribution à la première ou à la dernière occurrence de MQL ou répartir uniformément la pondération de l’attribution entre toutes les occurrences) ;
@@ -59,7 +60,7 @@ Boomerang Stages aura un impact :
 
 **Tout rapport qui utilise &quot;est égal à&quot; [Position du point de contact]&quot;**
 
-* Les scènes Boomerang introduiront de nouvelles positions de point de contact pour vos données. [!DNL Marketo Measure] modifie le format de la position du point de contact afin d’inclure l’occurrence de l’étape, comme &quot;MQL-01&quot; ou &quot;MQL-05 (Dernier)&quot;. Dans cet exemple, les phases Boomerang auront un impact sur tous les rapports qui utilisent &quot;La position du point de contact est égale à MQL&quot;. Pour ajuster ces rapports, le filtre doit utiliser l’opérateur &quot;contient&quot; à la place.
+* Les scènes Boomerang introduisent de nouvelles positions de points de contact pour vos données. [!DNL Marketo Measure] modifie le format de la position du point de contact afin d’inclure l’occurrence de l’étape, comme &quot;MQL-01&quot; ou &quot;MQL-05 (Dernier)&quot;. Dans cet exemple, les phases Boomerang auront un impact sur tous les rapports qui utilisent &quot;La position du point de contact est égale à MQL&quot;. Pour ajuster ces rapports, le filtre doit utiliser l’opérateur &quot;contient&quot; à la place.
 
 ## Questions fréquentes {#faq}
 
@@ -77,7 +78,7 @@ Vous pouvez sélectionner jusqu’à 10 points de contact boomerang par étape.
 
 **Q : J&#39;ai un Data Warehouse. Est-ce que je reçois toutes les données ou est-ce que la limite des phases Boomerang s&#39;applique aussi à moi ?**
 
-Le plafond s’applique aux Data Warehouse et aux CRM en raison des limites de traitement que la variable [!DNL Marketo Measure] a été mis en place. Data Warehouse affiche également la limite de 10 points de contact par étape.
+Le plafond s’applique aux Data Warehouse et aux CRM en raison des limites de traitement que la variable [!DNL Marketo Measure] est en place. Data Warehouse affiche également la limite de 10 points de contact par étape.
 
 **Q : Quel est l’avantage de l’utilisation des phases Boomerang avec la modélisation personnalisée ?**
 

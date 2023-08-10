@@ -1,15 +1,16 @@
 ---
 description: Présentation de l’interface de Adobe Experience Cloud - [!DNL Marketo Measure] - Documentation du produit
-title: Présentation de l’interface Adobe Experience Cloud
+title: Vue d’ensemble de l’interface Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
-source-git-commit: dc6c66daebd10b95333d8c27c2326a95555c555b
+feature: Integration, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '299'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# Présentation de l’interface Adobe Experience Cloud {#experience-cloud-interface-overview}
+# Vue d’ensemble de l’interface Adobe Experience Cloud {#experience-cloud-interface-overview}
 
 L’interface de Adobe Experience Cloud aligne l’aspect des applications et services Adobe Experience Cloud. Mais c&#39;est plus qu&#39;un nouveau design. Il s’agit d’une application d’une seule page qui offre une expérience utilisateur sur une seule instance.
 
@@ -67,7 +68,7 @@ Cliquez sur l’icône de votre profil pour modifier votre langue ou d’autres 
 
 Les signets seront redirigés. Par exemple, si vous accédez à https://apps.marketo-measure.com/Discover/391, vous êtes redirigé vers https://experience.adobe.com/marketo-measure/Discover/391 après avoir effectué l’authentification.
 
-**Je ne parviens pas à me connecter à [!DNL Marketo Measure] via l’interface Experience Cloud. Quel pourrait être le problème ?**
+**Je ne peux pas me connecter à [!DNL Marketo Measure] via l’interface Experience Cloud. Quel pourrait être le problème ?**
 
 Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une page comme celle-ci, le problème peut se trouver sur la page [!DNL Marketo Measure] side :
 

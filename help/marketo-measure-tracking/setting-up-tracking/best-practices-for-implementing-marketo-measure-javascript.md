@@ -1,54 +1,55 @@
 ---
-description: Bonnes pratiques pour la mise en oeuvre [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure] - Documentation du produit
-title: Bonnes pratiques pour la mise en oeuvre [!DNL Marketo Measure] JavaScript
+description: Bonnes pratiques pour la mise en œuvre du code JavaScript  [!DNL Marketo Measure]  -  [!DNL Marketo Measure]  - Documentation du produit
+title: Bonnes pratiques pour la mise en œuvre du code JavaScript  [!DNL Marketo Measure]
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
-source-git-commit: cf144eb4bc9282ae6a260acd3735f24644292a19
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '375'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# Bonnes pratiques pour la mise en oeuvre [!DNL Marketo Measure] JavaScript {#best-practices-for-implementing-marketo-measure-javascript}
+# Bonnes pratiques pour la mise en œuvre du code JavaScript [!DNL Marketo Measure] {#best-practices-for-implementing-marketo-measure-javascript}
 
-## APERÇU {#overview}
+## Vue d’ensemble {#overview}
 
-Le [!DNL Marketo Measure] JavaScript effectue le suivi des interactions marketing numérique de vos visiteurs web et est essentiel pour la variable [!DNL Marketo Measure] possibilité de créer des données de point de contact en ligne. La variable [!DNL Marketo Measure] Le code JavaScript déployé correctement et de manière globale sur l’ensemble de votre ou vos sites garantit que les données de session collectées produisent des données de point de contact précises.
+Le code JavaScript [!DNL Marketo Measure] effectue le suivi des interactions de marketing numérique de vos visiteurs web et est essentiel pour la fonction [!DNL Marketo Measure] de création des données de point de contact en ligne. Si vous déployez le code JavaScript [!DNL Marketo Measure] correctement et de manière globale sur l’ensemble de votre ou vos sites, cela garantit que les données de session collectées produisent des données de point de contact précises.
 
-Incohérences dans le déploiement de la variable [!DNL Marketo Measure] JavaScript entraîne des coupures dans les données de session, ce qui peut entraîner les éléments suivants :
+Les incohérences dans le déploiement du code JavaScript [!DNL Marketo Measure] entraîne des interruptions dans les données de session, ce qui peut entraîner les éléments suivants :
 
 * Attribution de canal/sous-canal incorrecte
-* Perte de données source
-* Niveaux élevés de trafic direct en erreur
+* Perte des données source
+* Niveaux élevés de trafic direct erroné
 * Rapports incohérents
 
-[!DNL Marketo Measure] JavaScript est un élément fondamental de votre [!DNL Marketo Measure] compte et clé de votre succès !
+Le code JavaScript [!DNL Marketo Measure] est un élément fondamental de votre compte [!DNL Marketo Measure] et constitue la clé de votre succès !
 
 ## Bonne pratique {#best-practice}
 
-Lorsqu’il s’agit de mettre en oeuvre et de gérer votre [!DNL Marketo Measure] Pour JavaScript, tenez compte des bonnes pratiques suivantes.
+Lorsqu’il s’agit de mettre en œuvre et de gérer votre code JavaScript [!DNL Marketo Measure], tenez compte des bonnes pratiques suivantes.
 
-* Vérifiez que tous les domaines sont répertoriés dans votre [!DNL Marketo Measure] account
+* Vérifiez que tous les domaines sont répertoriés dans votre compte [!DNL Marketo Measure]
    * Si vous avez des questions concernant vos domaines, contactez l’assistance
 * Déployez du code JavaScript sur TOUTES les pages.
-   * Le placement de code JavaScript sur certaines pages uniquement entraîne des pauses dans les données de session, ce qui entraîne des erreurs. [!DNL Marketo Measure] data
-* Pour un formulaire de votre site à partir duquel vous ne souhaitez pas créer de points de contact, veillez à ajouter la variable [!DNL Marketo Measure] Exclure le script
-   * Ce script d’exclusions assure que la variable [!DNL Marketo Measure] les données de session ne seront pas perturbées et que les données source restent en place.
-      * Voici quelques exemples de formulaires courants à supprimer :
-         * Connexions des clients
-         * Formulaires de mot de passe oubliés
-         * Désabonner les formulaires
-         * Formulaires de demande de carrière
-* Examinez les sections &quot;Considérations supplémentaires&quot; et &quot;Forms pour accorder une plus grande attention à&quot; de la section Ajout de [!DNL Marketo Measure] Ressource de script répertoriée ci-dessous pour rechercher les scénarios qui peuvent nécessiter une gestion spéciale
+   * Le placement de code JavaScript sur certaines pages uniquement entraîne des interruptions dans les données de session, ce qui entraîne des données [!DNL Marketo Measure] incorrectes
+* Pour un formulaire sur votre site à partir duquel vous ne souhaitez pas créer de points de contact, veillez à ajouter le script d’exclusions [!DNL Marketo Measure]
+   * Ce script d’exclusions garantit que les données de session [!DNL Marketo Measure] ne seront pas perturbées et que les données source restent en place
+      * Voici quelques exemples de formulaires courants à supprimer :
+         * Connexions des clients/clientes
+         * Formulaires de mot de passe oublié
+         * Formulaires de désinscription
+         * Formulaires de candidature à un poste
+* Consultez les sections « Considérations supplémentaires » et « Formulaires auxquels prêter une attention particulière » de la ressource Ajout d’un script [!DNL Marketo Measure] répertoriée ci-dessous pour rechercher les scénarios qui peuvent nécessiter une gestion spéciale
 
-## Bonne pratique pour la maintenance {#best-practice-for-maintenance}
+## Bonne pratique de maintenance {#best-practice-for-maintenance}
 
-Lors de la configuration de la variable [!DNL Marketo Measure] JavaScript est traité lors de la mise en oeuvre initiale. Les modifications apportées à votre site ou à l’équipe qui gère les modifications peuvent entraîner des interruptions de la [!DNL Marketo Measure] suivi. Nous vous recommandons de confirmer la variable [!DNL Marketo Measure] JavaScript est déployé correctement et intégralement une fois par an. En outre, si votre entreprise dispose d’une documentation sur le protocole de modification pour le site web, veillez à ce qu’une partie explique que [!DNL Marketo Measure] JavaScript doit être conservé/ajouté à toutes les nouvelles pages.
+Bien que la configuration du code JavaScript [!DNL Marketo Measure] soit traitée lors de la mise en œuvre initiale, les modifications apportées à votre site ou à l’équipe qui gère les modifications peuvent entraîner des interruptions du suivi de [!DNL Marketo Measure]. Nous vous recommandons de vérifier que le code JavaScript [!DNL Marketo Measure] est déployé correctement et intégralement une fois par an. En outre, si votre entreprise dispose d’une documentation sur le protocole de modification pour le site web, veillez à ce qu’une partie explique que le code JavaScript [!DNL Marketo Measure] doit être conservé/ajouté à toutes les nouvelles pages.
 
-D’autres raisons peuvent déclencher une révision de votre configuration JavaScript, telles que...
+Il existe d’autres raisons qui peuvent déclencher une révision de la configuration de votre code JavaScript, notamment...
 
-* Chiffre d’affaires de votre équipe marketing
+* Changements au sein de votre équipe marketing
 * Modifications et mises à jour de la structure de votre site
-* Migration du site
+* Migrations du site
 * Modifications apportées à votre domaine
-* Acquisition d’autres sociétés et de leurs propriétés web
+* Acquisition d’autres entreprises et de leurs propriétés web

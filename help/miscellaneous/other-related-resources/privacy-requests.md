@@ -1,24 +1,25 @@
 ---
-description: Demandes d’accès à des informations personnelles - [!DNL Marketo Measure] - Documentation du produit
-title: Demandes d’accès à des informations personnelles
+description: Requêtes de confidentialité - [!DNL Marketo Measure] - Documentation du produit
+title: Requêtes de confidentialité
 exl-id: 883e475f-9868-412a-b505-230556f38484
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: APIs, Tracking
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
 
 ---
 
-# Demandes d’accès à des informations personnelles {#privacy-requests}
+# Requêtes de confidentialité {#privacy-requests}
 
-Ce document présente la gestion des demandes de confidentialité des données individuelles que vous pouvez envoyer à [!DNL Marketo Measure] via la [!DNL Privacy Service] l’interface utilisateur et la fonction **[!DNL Privacy Service]API**.
+Ce document présente la gestion des demandes de confidentialité des données individuelles que vous pouvez envoyer à [!DNL Marketo Measure] par le biais du [!DNL Privacy Service] l’interface utilisateur et la fonction **[!DNL Privacy Service]API**.
 
 Vous pouvez envoyer des requêtes individuelles pour accéder aux données des consommateurs et les supprimer de [!DNL Marketo Measure] de deux manières :
 
 * Par le biais de la [[!DNL Privacy Service] Interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
 * Par le biais de la **[!DNL Privacy Service]API**. Consultez la documentation [here](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} and the API reference [here](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-Le [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} prend en charge deux types de requêtes : accès aux données et suppression des données.
+La variable [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} prend en charge deux types de requêtes : l’accès aux données et la suppression des données.
 
 Découvrez comment créer des demandes d’accès et de suppression.
 
@@ -28,7 +29,7 @@ Pour envoyer des requêtes d’accès et de suppression de données pour [!DNL M
 
 1. Identifiez les éléments suivants :
 
-   a. Identifiant de l’organisation IMS
+   a. Identifiant de l&#39;organisation IMS
 
    b. Adresse électronique de la personne sur laquelle vous souhaitez agir
 
@@ -45,7 +46,7 @@ Pour envoyer des requêtes d’accès et de suppression de données pour [!DNL M
 
 &quot;utilisateurs&quot;:
 
-* &quot;action&quot; : both [!UICONTROL access] ou supprimer
+* &quot;action&quot; : soit [!UICONTROL access] ou supprimer
 * &quot;userIDs&quot; :
    * &quot;namespace&quot; : email
    * &quot;type&quot;: standard
@@ -57,9 +58,9 @@ Pour envoyer des requêtes d’accès et de suppression de données pour [!DNL M
 
 &quot;regulation&quot; :
 
-* **gdpr**, **ccpa**, **pdpa**, **lgpd_bra** ou **nzpa_nzl** (qui est la réglementation sur la confidentialité qui s’applique à la demande)
+* **gdpr**, **ccpa**, **pdpa**, **lgpd_bra**, ou **nzpa_nzl** (qui est la réglementation sur la confidentialité qui s’applique à la demande)
 
-## Exemple 1 : Demande de suppression RGPD {#gdpr-delete-request}
+## Exemple 1 : demande de suppression en vertu du RGPD {#gdpr-delete-request}
 
 Requête JSON
 
@@ -122,7 +123,7 @@ Réponse JSON
 }
 ```
 
-## Exemple 2 : Demande d’accès au CCPA {#ccpa-access-request}
+## Exemple 2 : demande d’accès au CCPA {#ccpa-access-request}
 
 Requête JSON
 

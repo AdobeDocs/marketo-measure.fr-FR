@@ -3,7 +3,8 @@ unique-page-id: 18874554
 description: Génération et mappage des points de contact - [!DNL Marketo Measure] - Documentation du produit
 title: Génération et mappage des points de contact
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
-source-git-commit: 950dbfacf48cbb81acad9c40033c25a765287bee
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 2%
@@ -30,7 +31,7 @@ Le processus de génération du point de contact répond à la question &quot;Co
 | **Type d&#39;interaction** | **Exemple** | **Méthode de génération de point de contact** |
 |---|---|---|
 | En ligne, sur votre ou vos sites | Form fill | [!DNL Marketo Measure] JavaScript |
-| Hors ligne ; En ligne et non sur votre ou vos sites | les dépannages; Le partenaire de syndication de contenu fournit une liste de responsables qui ont interagi avec votre contenu. | Appartenance à Campaign CRM synchronisée avec [!DNL Marketo Measure], soit en définissant le type de synchronisation de campagne directement dans la campagne, soit en définissant des règles sur la page Campagnes dans [!DNL Marketo Measure] |
+| Hors ligne ; en ligne et non sur votre ou vos sites | Dépannage ; le partenaire de syndication de contenu fournit une liste de responsables qui ont interagi avec votre contenu. | Appartenance à Campaign CRM synchronisée avec [!DNL Marketo Measure], soit en définissant le type de synchronisation de campagne directement dans la campagne, soit en définissant des règles sur la page Campagnes dans [!DNL Marketo Measure] |
 | Activité de vente | Appel sortant par SDR | Enregistrement d’activité CRM (tâche ou événement) synchronisé avec [!DNL Marketo Measure], par le biais de la logique sur la variable [!UICONTROL Activités] page [!DNL Marketo Measure] |
 
 Méthodes de mappage des points de contact
@@ -40,7 +41,7 @@ Le processus de mappage des points de contact répond à la question : &quot;Une
 | **Type d&#39;interaction** | **Méthode de génération** | **Méthode de mappage** |
 |---|---|---|
 | En ligne, sur votre ou vos sites | [!DNL Marketo Measure] JavaScript | Par le biais de la [!DNL Online Channels] page [!DNL Marketo Measure], en référençant les valeurs UTM, la page d’entrée et les informations de page de référence |
-| Hors ligne ; En ligne, et non sur votre ou vos sites | Synchronisation de l’appartenance CRM Campaign | Par le biais de la [!UICONTROL Canaux hors ligne] page [!DNL Marketo Measure], en référençant Type de campagne |
+| Hors ligne ; en ligne, et non sur votre ou vos sites | Synchronisation de l’appartenance CRM Campaign | Par le biais de la [!UICONTROL Canaux hors ligne] page [!DNL Marketo Measure], en référençant Type de campagne |
 | Activité de vente | Synchronisation de l’activité CRM | Par le biais de la [!UICONTROL Canaux en ligne] page [!DNL Marketo Measure], en référençant le nom de la campagne affecté à la variable [!UICONTROL Activités] page |
 
 >[!MORELIKETHIS]
@@ -51,5 +52,4 @@ Le processus de mappage des points de contact répond à la question : &quot;Une
 >* [Mappage des campagnes CRM à [!DNL Marketo Measure] Canaux/Sous-canaux](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Création de points de contact à partir des activités de vente](/help/advanced-marketo-measure-features/activities-attribution/salesforce-activities-attribution.md)
 >* [FAQ sur les activités et mappage des points de contact des activités sur les canaux/sous-canaux](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
-
 

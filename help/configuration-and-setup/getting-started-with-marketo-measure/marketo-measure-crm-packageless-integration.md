@@ -3,20 +3,21 @@ unique-page-id: 37356027
 description: "[!DNL Marketo Measure] Intégration CRM sans package - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] Intégration CRM sans package"
 exl-id: a4f31d82-63ec-4bb2-bc8b-d3495e61af4f
-source-git-commit: 993a326c377b3b6ff48c4e0114b59297f9ca2ca6
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# [!DNL Marketo Measure] Intégration CRM sans package {#marketo-measure-crm-packageless-integration}
+# Intégration CRM de [!DNL Marketo Measure] sans package {#marketo-measure-crm-packageless-integration}
 
 Nous comprenons que toutes les équipes marketing ne souhaitent pas (ou n’ont pas accès) exécuter les rapports marketing en dehors du CRM, que ce soit en raison d’un accès limité, de la propriété CRM, d’un temps de valeur plus long ou d’implications juridiques. En suivant le chemin de [!DNL Marketo Measure] Démarrage rapide vous permet de mettre en oeuvre et d’exécuter efficacement. [!DNL Marketo Measure] avec le moins de confiance possible dans le CRM.
 
 ## Standard [!DNL Marketo Measure] Installation {#standard-marketo-measure-installation}
 
-Par le biais de la norme [!DNL Marketo Measure] installation, vous devez installer une [!DNL Salesforce] Module ou [!DNL Microsoft Dynamics] Solution gérée. L’installation comprend des objets/entités personnalisés et des champs personnalisés ajoutés au CRM qui [!DNL Marketo Measure] peut alors écrire des données sur .
+Par le biais du standard [!DNL Marketo Measure] installation, vous devez installer une [!DNL Salesforce] Module ou [!DNL Microsoft Dynamics] Solution gérée. L’installation comprend des objets/entités personnalisés et des champs personnalisés ajoutés au CRM qui [!DNL Marketo Measure] peut alors écrire des données sur .
 
 Une intégration sans package avec [!DNL Marketo Measure] est destiné aux clients qui ne souhaitent pas créer d’objets/d’entités personnalisés ou de champs personnalisés dans votre CRM. Il s’agit également d’une bonne option pour les clients qui utilisent un entrepôt de données externe.
 

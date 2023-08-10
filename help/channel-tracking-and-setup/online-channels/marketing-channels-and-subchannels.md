@@ -1,28 +1,29 @@
 ---
 unique-page-id: 18874682
 description: Canaux et sous-canaux marketing - [!DNL Marketo Measure] - Documentation du produit
-title: Canaux marketing et sous-canaux
+title: Canaux et sous-canaux marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Canaux marketing et sous-canaux {#marketing-channels-and-subchannels}
+# Canaux et sous-canaux marketing {#marketing-channels-and-subchannels}
 
 ## But {#purpose}
 
 Pour définir dans quel canal et sous-canal se trouvent [!DNL Marketo Measure], la manière dont ils sont associés à votre contenu, la différence entre les deux classifications et la manière dont ils sont utilisés au sein de la variable [!DNL Marketo Measure] application.
 
-## APERÇU {#overview}
+## Vue d’ensemble {#overview}
 
 Les canaux marketing permettent de classer (ou de &quot;regrouper&quot;) vos activités marketing afin de faciliter la création de rapports, à la fois dans la variable [!DNL Marketo Measure] Dash de retour sur investissement ainsi que dans votre CRM. [!DNL Marketo Measure] s’accompagne de 12 canaux prêts à l’emploi (que vous pouvez personnaliser/renommer pour les adapter aux conventions de votre entreprise), ainsi que de la possibilité de créer d’autres canaux personnalisés pour un filtrage encore plus granulaire.
 
 Chaque fois que vous recevez un visiteur sur l’une de vos pages de contenu de votre site (qu’il s’agisse d’une page web, d’un téléchargement de livre blanc, d’une URL de page, etc.), ce prospect est &quot;regroupé&quot; dans un canal/sous-canal en fonction de plusieurs paramètres de la gestion dynamique des balises trouvés dans l’URL :
 
-* Moyen
+* Support
 * Source
 * Campagne
 * Page de destination
@@ -50,14 +51,14 @@ Dans ce cas, le contenu auquel l’utilisateur tente d’accéder est le Guide d
 
 ![](assets/1.jpg)
 
-D&#39;autres exemples...
+Autres exemples...
 
 **Canal marketing (moyen)**
 
 * PPC
 * Social payant
 * Social organique
-* Adresse e-mail
+* E-mail
 * Événements et conférences
 * Recherche/SEO organiques
 * Presse
@@ -65,11 +66,11 @@ D&#39;autres exemples...
 
 **Sous-canal (source du point de contact)**
 
-* Google AdWords
+* Google AdWords
 * BingAds
 * Publicités Facebook
 * Adroll
-* Double-cliquer
+* Double-clic
 * Capterra
 * Campagnes de secours
 * LinkedIn Ads

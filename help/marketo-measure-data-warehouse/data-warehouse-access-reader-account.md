@@ -2,7 +2,8 @@
 description: Accès des Data Warehouse - Compte de Reader - Documentation du produit
 title: Accès des Data Warehouse - Compte de Reader
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Data Warehouse
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -43,7 +44,7 @@ Pour accéder à votre entrepôt de données de Snowflake, vous devez accéder �
 
    ![](assets/data-warehouse-access-reader-account-6.png)
 
-## Réinitialisation de votre mot de passe {#reset-your-password}
+## Réinitialiser votre mot de passe {#reset-your-password}
 
 [!DNL Marketo Measure] n’a pas accès à votre mot de passe de connexion de Snowflake. Si vous devez réinitialiser votre mot de passe, cliquez sur le bouton [!UICONTROL Réinitialiser le mot de passe] sur la page d’informations du Data Warehouse, puis suivez les instructions. Un mot de passe temporaire s’affiche immédiatement dans l’interface utilisateur. Vous serez invité à créer votre propre mot de passe lors de la prochaine connexion à l’entrepôt de données.
 
@@ -51,7 +52,6 @@ Pour accéder à votre entrepôt de données de Snowflake, vous devez accéder �
 >
 >* La réinitialisation du mot de passe le réinitialise pour tous. [!DNL Marketo Measure] des utilisateurs de votre entreprise, et pas seulement de l’utilisateur actuellement connecté.
 >* Le mot de passe temporaire s’affiche uniquement dans l’interface utilisateur. Un email ne sera pas envoyé.
-
 
 ![](assets/data-warehouse-access-reader-account-7.png)
 
@@ -63,16 +63,17 @@ Vous devrez saisir quelques informations pour connecter votre entrepôt de donn�
 
 >[!NOTE]
 >
->Chaque outil a des exigences de connexion différentes ; il est recommandé de consulter la documentation de l’outil spécifique que vous essayez de connecter.
+>Chaque outil a des exigences de connexion différentes. Il est recommandé de consulter la documentation de l’outil spécifique que vous essayez de connecter.
 
 * **URI** (toujours requis)
    * Il s’agit du nom de domaine du compte du Snowflake.  Il est contenu dans une partie du lien de connexion du Snowflake.
 * **Nom d’utilisateur** (toujours requis)
    * Le nom d’utilisateur est répertorié sur la page d’informations du Data Warehouse dans [!DNL Marketo Measure].
-* **Mot de passe** (toujours requis)
+* **Password** (toujours requis)
    * Il s’agit du mot de passe que vous définissez la première fois que vous vous connectez à votre compte de Snowflake.  Pour réinitialiser votre mot de passe, consultez les étapes décrites ci-dessus.
-* **Nom de la base de données** (pas toujours requis)
+* **Nom de base de données** (pas toujours requis)
    * La base de données est ce qui stocke les données en Snowflake. Il s’agit de la ressource de stockage. Le nom de la base de données est répertorié dans la page d’informations du Data Warehouse de la section [!DNL Marketo Measure].
 * **Nom de l’entrepôt** (pas toujours requis)
    * L’entrepôt est celui qui exécute les requêtes en Snowflake. C&#39;est la ressource informatique.  Le nom de l’entrepôt est répertorié sur la page d’informations du Data Warehouse dans [!DNL Marketo Measure].
-   ![](assets/data-warehouse-access-reader-account-9.png)
+
+  ![](assets/data-warehouse-access-reader-account-9.png)

@@ -3,14 +3,15 @@ unique-page-id: 37356962
 description: "[!DNL Marketo Measure] Liste des ressources - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] Liste des ressources"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Fundamentals
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# [!DNL Marketo Measure] Liste des ressources {#marketo-measure-resource-list}
+# Liste des ressources [!DNL Marketo Measure] {#marketo-measure-resource-list}
 
 Voici plusieurs liens vers des articles/vidéos pertinents pour vous aider à prendre en main les [!DNL Marketo Measure]!
 
@@ -19,14 +20,14 @@ Voici plusieurs liens vers des articles/vidéos pertinents pour vous aider à pr
 **Connaissances générales**
 
 * [Qu’est-ce que l’attribution marketing ?](/help/introduction-to-marketo-measure/overview-resources/marketing-attribution.md)
-* [[!DNL Marketo Measure] Modèles d’attribution](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
+* [Modèles d’attribution [!DNL Marketo Measure]](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md)
 
 **Configuration**
 
 * [Configuration de canal marketing, bonnes pratiques](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
 * [Configuration des canaux en ligne](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Configuration de canal hors ligne](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
-* [Que sont les paramètres UTM ?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
+* [Fonctionnement des paramètres UTM](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [Bonnes pratiques UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
 * [Synchronisation des campagnes SFDC avec les points de contact d’achat](/help/channel-tracking-and-setup/offline-channels/campaigns-and-campaign-members.md)
 * [Chargement des dépenses marketing](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
@@ -39,7 +40,7 @@ Voici plusieurs liens vers des articles/vidéos pertinents pour vous aider à pr
 * [Création de types de rapports personnalisés avec [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (si vous devez créer un rapport sur les champs de piste/contact/opportunité personnalisés)
 * [Glossaire [!DNL Marketo Measure] fields](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
-**Identification du problème**
+**Dépannage**
 
 * [Octroi [!DNL Marketo Measure] Accès à l’assistance technique](/help/miscellaneous/other-related-resources/granting-salesforce-access-to-marketo-measure-support.md)
 * Contact : [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}
@@ -53,7 +54,7 @@ Voici quelques vidéos pour vous aider à vous mettre au courant :
 
 **[[!DNL Marketo Measure] 101](https://universityonline.marketo.com/courses/bizible-101/) (~30 minutes)**
 
-Cette série de cours est conçue comme une présentation générale des concepts de base que vous devez connaître pour maîtriser [!DNL Marketo Measure]. Il présente le concept d’attribution, les éléments suivants : [!DNL Marketo Measure] et le cadre général sur lequel [!DNL Marketo Measure] fonctionne.
+Cette série de cours est conçue comme une présentation générale des concepts de base que vous devez connaître pour maîtriser. [!DNL Marketo Measure]. Il présente le concept d’attribution, les éléments suivants : [!DNL Marketo Measure] et le cadre général sur lequel [!DNL Marketo Measure] fonctionne.
 
 Sujets abordés :
 
@@ -61,11 +62,11 @@ Sujets abordés :
 * Présentation [!DNL Marketo Measure]
 * [!DNL Marketo Measure] Données
 * Points de contact
-* Modèles d’attribution
+* Modèles d’attribution 
 
 **[[!DNL Marketo Measure] Reporting dans SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30 à 45 minutes)**
 
-Cette série de cours présente le [!DNL Marketo Measure] rapports de stock qui ont été installés dans Salesforce. Ces rapports constituent la base de la plupart des rapports que vous utiliserez. [!DNL Marketo Measure] data.
+Cette série de cours est conçue comme une introduction à la [!DNL Marketo Measure] rapports de stock installés dans Salesforce. Ces rapports constituent la base de la plupart des rapports que vous utiliserez. [!DNL Marketo Measure] data.
 
 Sujets abordés :
 

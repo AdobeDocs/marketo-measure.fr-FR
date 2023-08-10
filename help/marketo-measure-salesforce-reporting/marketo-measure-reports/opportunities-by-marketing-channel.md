@@ -3,16 +3,17 @@ unique-page-id: 18874628
 description: Opportunités par canal marketing - [!DNL Marketo Measure] - Documentation du produit
 title: Opportunités par canal marketing
 exl-id: ce346fc9-5fc6-4004-ad90-e34a30e5b264
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Channels, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
 # Opportunités par canal marketing {#opportunities-by-marketing-channel}
 
-Ce rapport indique le nombre d’opportunités générées par vos canaux marketing ; cela inclut toutes vos opportunités. Vous pouvez toutefois filtrer ce rapport afin d’analyser des types d’opportunités spécifiques.
+Ce rapport indique le nombre d’opportunités générées par vos canaux marketing ; il comprend toutes vos opportunités. Vous pouvez toutefois filtrer ce rapport afin d’analyser des types d’opportunités spécifiques.
 
 1. Cliquez sur le bouton **[!UICONTROL Rapports]** dans Salesforce et sélectionnez **[!UICONTROL Nouveau rapport]**.
 
@@ -34,4 +35,4 @@ Ce rapport indique le nombre d’opportunités générées par vos canaux market
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Université : Rapports SFDC Stock](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)
+>[[!DNL Marketo Measure] Université : Stock SFDC Reports](https://universityonline.marketo.com/courses/bizible-fundamentals-bizible-102/#/page/5c5cb68dfb384d0c9fb96cc4)

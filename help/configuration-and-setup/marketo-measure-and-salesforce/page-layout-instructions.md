@@ -3,10 +3,11 @@ unique-page-id: 18874799
 description: Instructions de mise en page - [!DNL Marketo Measure] - Documentation du produit
 title: Instructions de mise en page
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
-source-git-commit: b910e5aedb9e178058f7af9a6907a1039458ce7a
+feature: Salesforce
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '836'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -30,11 +31,11 @@ Nous vous recommandons d’ajouter la variable [!DNL Marketo Measure] dans votre
 
    ![](assets/1-1.jpg)
 
-1. Cliquez sur **[!UICONTROL Modifier]** en regard de la mise en page que vous souhaitez mettre à jour.
+1. Cliquez sur **[!UICONTROL Modifier]** en regard de la mise en page à mettre à jour.
 
    ![](assets/2-1.jpg)
 
-1. Dans le [!UICONTROL fields] , sélectionnez l’option **[!UICONTROL Activation des points de contact d’achat]** et faites-le glisser à l’emplacement de votre choix sur la page. Ajoutez ensuite le **[!UICONTROL Date de début du point de contact]** et **[!UICONTROL Date de fin du point de contact]** champs.
+1. Dans le [!UICONTROL fields] , sélectionnez l’option **[!UICONTROL Activation des points de contact d’achat]** et faites-le glisser à l’emplacement de votre choix sur la page. Ajoutez ensuite le **[!UICONTROL Date de début du point de contact]** et **[!UICONTROL Date de fin du point de contact]** des champs.
 
    ![](assets/3-2.png)
 
@@ -48,7 +49,7 @@ Nous vous recommandons d’ajouter la variable [!DNL Marketo Measure] dans votre
 
    >[!NOTE]
    >
-   >Si vous utilisez plusieurs types d’enregistrements Campaign, les valeurs de liste de sélection pour la variable **[!UICONTROL Activation des points de contact d’achat]** doit être mis à jour. Veuillez consulter [cet article](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) pour obtenir des instructions.
+   >Si vous utilisez plusieurs types d’enregistrements Campaign, les valeurs de liste de sélection pour la variable **[!UICONTROL Activation des points de contact d’achat]** doit être mis à jour. Veuillez vous référer [cet article](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) pour obtenir des instructions.
 
 ## Prospects {#leads}
 
@@ -56,7 +57,7 @@ Nous vous recommandons d’ajouter la variable [!DNL Marketo Measure] dans votre
 
 1. Cliquez sur **[!UICONTROL Disposition de page]**.
 
-1. Cliquez sur **[!UICONTROL Modifier]** en regard de la mise en page que vous souhaitez mettre à jour. Gardez à l’esprit que plusieurs mises en page peuvent contenir les sections Points de contact de l’acheteur .
+1. Cliquez sur **[!UICONTROL Modifier]** en regard de la mise en page à mettre à jour. Gardez à l’esprit que plusieurs mises en page peuvent contenir les sections Points de contact de l’acheteur .
 
 1. Cliquez sur l’option de page VisualForce à gauche dans le menu de recherche rapide.
 
@@ -104,12 +105,12 @@ Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, [cliquez ici p
 
    * Point de contact de l&#39;acheteur
    * Canal marketing
-   * Source du Touchpoint
+   * Source du point de contact
    * Nom de la campagne publicitaire
    * Position du Touchpoint
    * Date du Touchpoint
 
-1. Trier par : Date De Point De Contact, Croissant.
+1. Trier Par : Date Du Point De Contact, Croissant.
 
    ![](assets/6.jpg)
 
@@ -159,7 +160,7 @@ Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, [cliquez ici p
 
 1. Tri par [!UICONTROL Date du point de contact] > [!UICONTROL ascendant].
 
-1. Désélectionner **[!UICONTROL Nouveau]** dans le [!UICONTROL Boutons] .
+1. Désélectionner **[!UICONTROL Nouveau]** dans la fonction [!UICONTROL Boutons] .
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -185,7 +186,7 @@ Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, [cliquez ici p
 
 1. Tri par date de point de contact > ascendant.
 
-1. Désélectionner **[!UICONTROL Nouveau]** dans le [!UICONTROL Boutons] .
+1. Désélectionner **[!UICONTROL Nouveau]** dans la fonction [!UICONTROL Boutons] .
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 

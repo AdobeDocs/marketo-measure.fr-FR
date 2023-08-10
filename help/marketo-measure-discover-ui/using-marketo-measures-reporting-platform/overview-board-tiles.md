@@ -1,16 +1,17 @@
 ---
 unique-page-id: 34406468
-description: Mosaïques des panoramas de présentation - [!DNL Marketo Measure] - Documentation du produit
-title: Mosaïques des panoramas de présentation
+description: Mosaïques de panorama - [!DNL Marketo Measure] - Documentation du produit
+title: Vue d’ensemble des cases du panorama
 exl-id: 35180928-6b75-4271-9bb5-7617bc2f9c74
-source-git-commit: 334dcd3dcbddacc4920d182d94908babd3cb8c89
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
-# Mosaïques des panoramas de présentation {#overview-board-tiles}
+# Vue d’ensemble des cases du panorama {#overview-board-tiles}
 
 Le panorama d’aperçu offre une vue d’ensemble la plus complète de vos performances marketing, ce qui permet aux équipes marketing de prendre les bonnes décisions lors de l’augmentation de votre équipe, de votre budget ou de vos recettes.
 
@@ -43,7 +44,7 @@ Le panorama d’aperçu offre une vue d’ensemble la plus complète de vos perf
    <td><p><strong>Nom de compte CRM</strong></p></td> 
   </tr> 
   <tr> 
-   <td><p><strong>Chiffre d'affaires</strong></p></td> 
+   <td><p><strong>Recettes</strong></p></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
@@ -56,7 +57,7 @@ Le panorama d’aperçu offre une vue d’ensemble la plus complète de vos perf
    <td><strong>X</strong></td> 
   </tr> 
   <tr> 
-   <td><p><strong>APERÇU</strong></p></td> 
+   <td><p><strong>Vue d’ensemble</strong></p></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
@@ -82,7 +83,7 @@ Le panorama d’aperçu offre une vue d’ensemble la plus complète de vos perf
    <td><br></td> 
   </tr> 
   <tr> 
-   <td><p><strong>RSI</strong></p></td> 
+   <td><p><strong>ROI</strong></p></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
@@ -186,7 +187,7 @@ Le panorama d’aperçu offre une vue d’ensemble la plus complète de vos perf
    <td><strong>X</strong></td> 
   </tr> 
   <tr> 
-   <td><p><strong>RSI</strong></p></td> 
+   <td><p><strong>ROI</strong></p></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
    <td><strong>X</strong></td> 
@@ -220,8 +221,8 @@ Le panorama d’aperçu offre une vue d’ensemble la plus complète de vos perf
 
 Chiffre d’affaires total attribué des opportunités de succès fermé en fonction du modèle d’attribution.
 
--Détails de l’opportunité : Affiche une ventilation des ID d’opportunité, de la date de création, de la date de fermeture, du code ISO et de l’attribution du chiffre d’affaires associés.\
--Afficher les détails : Ventilation par mois.
+-Détails de l’opportunité : affiche une ventilation des identifiants d’opportunité associés, de la date de création, de la date de fermeture, du code ISO et de l’attribution du chiffre d’affaires.\
+- Afficher les détails : ventilation par mois.
 
 ## Mosaïque Aperçu (graphique) {#overview-chart-tile}
 
@@ -229,7 +230,7 @@ Chiffre d’affaires total attribué des opportunités de succès fermé en fonc
 
 Le graphique affiche les recettes attribuées à chaque canal, affichées au fil du temps.
 
--Détails de l’opportunité : Affiche une ventilation des ID d’opportunité, de la date de création, de la date de fermeture, du code ISO et de l’attribution du chiffre d’affaires associés.\
+-Détails de l’opportunité : affiche une ventilation des identifiants d’opportunité associés, de la date de création, de la date de fermeture, du code ISO et de l’attribution du chiffre d’affaires.\
 -Affiche une ventilation des ID d’Opp de contribution :
 
 * Par semaine de retour sur investissement
@@ -248,7 +249,7 @@ Montant total des dépenses provenant des coûts de l’API et des coûts auto-d
 >
 >Lors d’un forage d’une valeur inférieure à un mois, [!DNL Marketo Measure] calculera la moyenne des dépenses pour ce mois-ci et affectera cette moyenne à chaque jour.
 
--Spend Details : Affiche une ventilation de l’identifiant unique de la campagne de dépenses associée, du nom de la campagne, du canal, du sous-canal, de la date, de la devise d’origine et des dépenses.  -Afficher les détails : Ventilation par mois.
+-Détails de la dépense : affiche une ventilation de l’identifiant unique de la campagne de dépenses associée, du nom de la campagne, du canal, du sous-canal, de la date, de la devise d’origine, des dépenses.  - Afficher les détails : ventilation par mois.
 
 ## Mosaïque ROI {#roi-tile}
 
@@ -266,13 +267,13 @@ Affiche le nombre total d’accords attribués (les contrats sont un nombre d’
 >
 >Si le type de date &quot;Date du point de contact&quot; est sélectionné, des décomptes partiels sont possibles, car certains points de contact peuvent ne pas faire partie de la période.
 
--Détails de l’opportunité : Affiche une ventilation des identifiants d’opportunité associés, de la date de création, de la date de fermeture et de l’attribution (nombre).  -Afficher les détails : Ventilation par mois.
+-Détails de l’opportunité : affiche une ventilation des identifiants d’opportunité associés, de la date de création, de la date de fermeture et de l’attribution (nombre).  - Afficher les détails : ventilation par mois.
 
 ## Mosaïque Coût par transaction {#cost-per-deal-tile}
 
 ![](assets/six.png)
 
-Le coût moyen d&#39;acquérir une occasion gagnée fermée. Total des dépenses divisé par le nombre total d’offres (Mosaïque Dépense ÷ Mosaïque Transactions = Mosaïque Coût par opération).
+Le coût moyen d&#39;acquérir une opportunité fermée. Total des dépenses divisé par le nombre total d’offres (Mosaïque Dépense ÷ Mosaïque Transactions = Mosaïque Coût par opération).
 
 ## Mosaïque Recettes du pipeline {#pipeline-revenue-tile}
 
@@ -284,13 +285,13 @@ Le total des recettes potentielles attribuées pour les opportunités ouvertes
 >
 >Les recettes seront reflétées pour le modèle d’attribution spécifié.
 
--Détails de l’opportunité : Affiche une ventilation des ID d’opportunité, de la date de création, de la date de fermeture, du code ISO et de l’attribution du chiffre d’affaires associés.  -Afficher les détails : Ventilation par mois.
+-Détails de l’opportunité : affiche une ventilation des identifiants d’opportunité associés, de la date de création, de la date de fermeture, du code ISO et de l’attribution du chiffre d’affaires.  - Afficher les détails : ventilation par mois.
 
 ## Mosaïque Taille de transaction {#deal-size-tile}
 
 ![](assets/eight.png)
 
-Recettes moyennes des opportunités de gains fermées (Mosaïque Recettes ÷ Mosaïque Transactions = Mosaïque Taille des transactions).
+Les recettes moyennes des opportunités de gains fermées (Mosaïque Recettes ÷ Mosaïque Opérations = Mosaïque Taille de l’opération).
 
 ## Mosaïque Résumé du canal {#channel-summary-tile}
 
@@ -302,7 +303,7 @@ Affichez une liste de canaux en fonction de la mesure sélectionnée (recettes, 
 
 ![](assets/ten.png)
 
-Affichez une liste de sous-canaux en fonction de la mesure sélectionnée (recettes, recettes de pipeline, dépenses, offres, opportunités, pistes, contacts).
+Afficher une liste de sous-canaux en fonction de la mesure sélectionnée (recettes, recettes de pipeline, dépenses, offres, opportunités, pistes, contacts).
 
 ## Mosaïque Résumé de campagne {#campaign-summary-tile}
 
@@ -322,6 +323,6 @@ Affiche le retour sur investissement attribué à la mesure sélectionnée (cana
 
 Affiche le retour sur investissement attribué à la mesure sélectionnée (canal, sous-canal, campagne, compte, groupe, publicitaire, publicitaire, créatif, mot-clé, emplacement, site) en fonction du modèle d’attribution sélectionné.
 
--Détails de l’opportunité : Affiche une ventilation des identifiants d’opportunité associés, de la date de création, de la date de fermeture et de l’attribution (nombre).
+-Détails de l’opportunité : affiche une ventilation des identifiants d’opportunité associés, de la date de création, de la date de fermeture et de l’attribution (nombre).
 
--Afficher les détails : Ventilation par mois.
+- Afficher les détails : ventilation par mois.

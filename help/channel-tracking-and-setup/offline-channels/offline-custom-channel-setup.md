@@ -3,16 +3,17 @@ unique-page-id: 18874598
 description: Configuration de canal personnalisé hors ligne - [!DNL Marketo Measure] - Documentation du produit
 title: Configuration de canal personnalisé hors ligne
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
-source-git-commit: 02f686645e942089df92800d8d14c76215ae558f
+feature: Channels
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 # Configuration de canal personnalisé hors ligne {#offline-custom-channel-setup}
 
-## Démarrer {#getting-started}
+## Prise en main {#getting-started}
 
 Comparé à [!DNL Marketo Measure] gère les règles de canal en ligne. Vous remarquerez que les règles de canal hors ligne ne nécessitent pas l’utilisation d’une feuille de calcul. Cependant, le plan de mise en oeuvre comporte toujours une feuille de calcul, car cela peut s’avérer utile pour réfléchir à la manière dont vous souhaitez organiser vos canaux hors ligne.
 
@@ -62,29 +63,28 @@ En savoir plus sur [synchronisation hors ligne [!DNL Salesforce] Campagnes avec 
 
 ## Gestion des campagnes SFDC pour les efforts de marketing en ligne {#handling-sfdc-campaigns-for-online-marketing-efforts}
 
-Il est courant que les équipes marketing créent des [!DNL Salesforce] campagnes pour effectuer le suivi de divers efforts de marketing numérique. Cette pratique ne pose aucun problème; cependant, il est important de traiter ces campagnes différemment des campagnes réelles hors ligne telles que le courrier ou les conférences, par exemple. Les campagnes liées aux événements numériques (interactions qui se produisent sur votre site web) ne doivent pas être synchronisées avec [!DNL Marketo Measure]. La synchronisation de ces campagnes entraînerait la duplication des points de contact, car la variable [!DNL Marketo Measure] JavaScript effectue déjà le suivi des efforts en ligne.
+Il est courant que les équipes marketing créent des [!DNL Salesforce] campagnes pour effectuer le suivi de divers efforts de marketing numérique. Cette pratique ne pose aucun problème. Il est toutefois important de traiter ces campagnes différemment des campagnes réelles hors ligne, telles que le courrier ou les conférences, par exemple. Les campagnes liées aux événements numériques (interactions qui se produisent sur votre site web) ne doivent pas être synchronisées avec [!DNL Marketo Measure]. La synchronisation de ces campagnes entraînerait la duplication des points de contact, car la variable [!DNL Marketo Measure] JavaScript effectue déjà le suivi des efforts en ligne.
 
-Une autre astuce pour gérer les campagnes pour les activités en ligne consiste à mapper la variable [!DNL Salesforce] Type de campagne à NULL. Pour ce faire, créez d’abord un canal dans la [!DNL Marketo Measure] application intitulée NULL comme illustré dans l’image ci-dessous. Cette variable se trouve dans la variable [!DNL Marketo Measure] sous **Création de canaux** . Cela s’avère utile si une campagne qui ne doit pas être synchronisée est synchronisée accidentellement. Il est facile de trouver la campagne et de corriger l’état de synchronisation en examinant tous les éléments regroupés sous NULL.
+Une autre astuce pour gérer les campagnes pour les activités en ligne consiste à mapper la variable [!DNL Salesforce] Type de campagne à NULL. Pour ce faire, créez d’abord un canal dans la variable [!DNL Marketo Measure] application intitulée NULL comme illustré dans l’image ci-dessous. Cette variable se trouve dans la variable [!DNL Marketo Measure] sous **Création de canaux** . Cela s’avère utile si une campagne qui ne doit pas être synchronisée est synchronisée accidentellement. Il est facile de trouver la campagne et de corriger l’état de synchronisation en examinant tous les éléments regroupés sous NULL.
 
 ![](assets/6-2.png)
 
 ## Saisie de vos règles de canal hors ligne dans l’application {#entering-your-offline-channel-rules-to-the-app}
 
-Une fois que vous avez modifié et mis à jour la feuille de calcul avec vos règles personnalisées, l’étape suivante consiste à recréer ce mappage de canal dans la variable [!DNL Marketo Measure] application : vous ne téléchargerez pas de feuille de calcul pour les canaux hors ligne. Vous devez saisir les informations dans les zones de liste de sélection, comme dans l’image ci-dessous. Pour le trouver, cliquez sur **[!UICONTROL Canaux hors ligne]** sous le **[!UICONTROL Canaux]** .
+Une fois que vous avez modifié et mis à jour la feuille de calcul avec vos règles personnalisées, l’étape suivante consiste à recréer ce mappage de canal dans le [!DNL Marketo Measure] application : vous ne téléchargerez pas de feuille de calcul pour les canaux hors ligne. Vous devez saisir les informations dans les zones de liste de sélection, comme dans l’image ci-dessous. Pour le trouver, cliquez sur **[!UICONTROL Canaux hors ligne]** sous le **[!UICONTROL Canaux]** .
 
 ![](assets/7-2.png)
 
 >[!TIP]
 >
->Vous souhaitez déterminer _when_ a [!DNL Salesforce] Le type de campagne est déplacé vers le bas. [!DNL Marketo Measure] mappage de canal ? Accédez simplement à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir les valeurs figurant dans la liste de sélection et celles qui sont inactives. Les inactifs n’apparaîtront pas comme type sélectionnable dans notre[!UICONTROL Canaux hors ligne]&quot;. Ce processus peut prendre de quelques minutes à 48 heures.
+>Vous souhaitez déterminer _when_ a [!DNL Salesforce] Le type de campagne est déplacé vers le bas [!DNL Marketo Measure] mappage de canal ? Accédez simplement à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir les valeurs figurant dans la liste de sélection et celles qui sont inactives. Les inactifs n’apparaîtront pas comme type sélectionnable dans notre[!UICONTROL Canaux hors ligne]&quot;. Ce processus peut prendre de quelques minutes à 48 heures.
 
 Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé et [!DNL Marketo Measure] charge les modifications et traite à nouveau les données.
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure] Université : Mappage des canaux hors ligne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>* [[!DNL Marketo Measure] Université : mappage des canaux hors ligne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
 >
->* [[!DNL Marketo Measure] Université : Synchronisation des campagnes hors ligne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
+>* [[!DNL Marketo Measure] Université : synchronisation des campagnes hors ligne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
 >
->* [Intégration des programmes Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)
-
+>* [Intégration des programmes dans Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)

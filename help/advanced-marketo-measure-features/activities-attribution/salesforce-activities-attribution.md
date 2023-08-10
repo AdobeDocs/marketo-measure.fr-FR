@@ -3,7 +3,8 @@ unique-page-id: 18874708
 description: Attribution des activités Salesforce - [!DNL Marketo Measure] - Documentation du produit
 title: Attribution des activités Salesforce
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Attribution, Salesforce
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 1%
@@ -12,7 +13,7 @@ ht-degree: 1%
 
 # Attribution des activités Salesforce {#salesforce-activities-attribution}
 
-Le [!DNL Marketo Measure] L’intégration des activités Salesforce va intégrer des enregistrements de tâches et d’événements spécifiques dans votre modèle d’attribution. Commencez à effectuer le suivi d’éléments tels que les e-mails de vente ou les appels téléphoniques de vente qui ne recevaient pas le crédit dû. Pour configurer votre règle d’activités, vous devez accéder à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. À partir de là, accédez au **[!UICONTROL Paramètres]** et cliquez sur l’onglet **[!UICONTROL Activités]** .
+La variable [!DNL Marketo Measure] L’intégration des activités Salesforce va intégrer des enregistrements de tâches et d’événements spécifiques dans votre modèle d’attribution. Commencez à effectuer le suivi d’éléments tels que les e-mails de vente ou les appels téléphoniques de vente qui n’étaient pas crédités en temps voulu. Pour configurer votre règle d’activités, vous devez accéder à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. À partir de là, accédez au **[!UICONTROL Paramètres]** et cliquez sur l’onglet **[!UICONTROL Activités]** .
 
 Vous êtes sur le point de rendre votre équipe de vente très heureuse ! Laissez-nous vous présenter un tutoriel rapide.
 

@@ -1,20 +1,21 @@
 ---
 unique-page-id: 27656745
 description: FAQ (multidevise) - [!DNL Marketo Measure] - Documentation du produit
-title: FAQ (multidevise)
+title: Questions fréquentes sur la gestion de plusieurs devises
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Multi-Currency
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
 
 ---
 
-# FAQ (multidevise) {#faq-multi-currency}
+# Questions fréquentes sur la gestion de plusieurs devises {#faq-multi-currency}
 
 **Comment savoir quelle fonctionnalité activer ?**
 
-Gardez à l’esprit qu’il existe deux bits de fonctionnalités différents pour cette fonctionnalité. Tous deux se trouvent dans l’onglet Général de la section CRM dans Paramètres : Devises multiples et Devises avancées. Plusieurs devises doivent être activées si le client utilise plus d’une seule devise, tandis que la fonctionnalité supplémentaire en bits Devises avancées peut être activée si le client utilise [!DNL Salesforce]Fonctionnalité de &quot;gestion de devise avancée&quot; dans laquelle l’utilisateur peut définir une plage temporelle pour les taux de conversion.
+Gardez à l’esprit qu’il existe deux bits de fonctionnalités différents pour cette fonctionnalité. Tous deux se trouvent dans l’onglet Général de la section CRM dans Paramètres : plusieurs devises et devises avancées. Plusieurs devises doivent être activées si le client utilise plus d’une seule devise, tandis que la fonctionnalité supplémentaire en bits Devises avancées peut être activée si le client utilise [!DNL Salesforce]Fonctionnalité de &quot;gestion de devise avancée&quot; dans laquelle l’utilisateur peut définir une plage temporelle pour les taux de conversion.
 
 Malheureusement, nous ne savons pas quand un client passe de Simple à Avancé si Avancé a déjà été activé. Pour cette raison, le client doit conserver le paramètre Devises avancées aligné manuellement sur son paramètre CRM. Cela devrait être visible pour le client si les conversions sont incorrectes, ce qui signifie que nous ne savions pas quel niveau de conversion appliquer.
 
@@ -36,7 +37,7 @@ Nous comprenons que certains pays ont une manière différente de mettre en form
 
 **Pourquoi ne pouvez-vous pas afficher le symbole monétaire de la devise que j’ai sélectionnée ?**
 
-[!DNL Salesforce] et [!DNL Dynamics] afficher leurs montants avec le code de conversion à 3 lettres. Par souci de cohérence, les montants convertis s’affichent également avec le code de conversion à 3 lettres et non le symbole .
+[!DNL Salesforce] et [!DNL Dynamics] afficher leurs montants avec le code de conversion à 3 lettres. Par souci de cohérence, les montants convertis s’affichent également avec le code de conversion à 3 lettres et non le symbole.
 
 **Que verra mon client s’il n’a pas activé le multidevise ?**
 
@@ -44,7 +45,7 @@ Si le client ne dispose pas de la fonctionnalité à plusieurs devises, les para
 
 **Comment cette fonction affecte-t-elle les rapports basés sur les points de contact dans le CRM ?**
 
-Pour [!DNL Dynamics] et [!DNL Salesforce] les clients qui utilisent uniquement la gestion de devise de base (non avancée), les recettes des points de contact doivent être correctement converties, de sorte que les rapports de gestion de la relation client fonctionnent comme prévu.
+Pour [!DNL Dynamics] et [!DNL Salesforce] les clients qui utilisent uniquement la gestion de devise de base (non avancée), les recettes des points de contact doivent être correctement converties, de sorte que les rapports CRM fonctionnent comme prévu.
 
 Malheureusement, il y a quelques nuances à la façon dont cela fonctionne pour les utilisateurs de [!DNL Salesforce] Gestion avancée des devises, en raison d’une limitation de longue date de [!DNL Salesforce]. La réponse courte à &quot;ce que nous faisons dans ce cas&quot; est que nous convertissons les recettes à l’aide des taux plats définis dans l’onglet de base (c’est-à-dire non avancé) &quot;Gestion des devises&quot;. En d&#39;autres termes, nous ignorons complètement les taux de change datés malgré le fait que le client ait défini des taux de change datés.
 

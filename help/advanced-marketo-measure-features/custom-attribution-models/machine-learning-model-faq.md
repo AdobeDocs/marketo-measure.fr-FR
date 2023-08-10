@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874775
 description: FAQ sur le modèle d’apprentissage automatique - [!DNL Marketo Measure] - Documentation du produit
-title: FAQ sur le modèle d’apprentissage automatique
+title: Questions fréquentes sur le modèle de machine learning
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Custom Models
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# FAQ sur le modèle d’apprentissage automatique {#machine-learning-model-faq}
+# Questions fréquentes sur le modèle de machine learning {#machine-learning-model-faq}
 
-Le [!DNL Marketo Measure] Le modèle d’apprentissage automatique utilise vos données de point de contact pour calculer la quantité de pondération d’attribution à attribuer à chaque étape. Ceci est déterminé par l&#39;importance de chaque étape dans la conclusion des accords.
+La variable [!DNL Marketo Measure] Le modèle d’apprentissage automatique utilise vos données de point de contact pour calculer la quantité de pondération d’attribution à attribuer à chaque étape. Ceci est déterminé par l&#39;importance de chaque étape dans la conclusion des accords.
 
 Que me disent les pourcentages d’attribution du modèle d’apprentissage automatique pour chaque étape ?
 
@@ -22,9 +23,9 @@ Comment le modèle d’apprentissage automatique est-il calculé ?
 
 [!DNL Marketo Measure] calcule l’importance de chaque étape personnalisée à l’aide des données de point de contact de votre compte. Les critères utilisés pour déterminer l’importance de chaque étape sont les suivants :
 
-* Précision du modèle : Si nous construisons un modèle prédictif avec les données du point de contact pour prédire si nous finirons par gagner un accord, quel degré de précision le modèle sera-t-il ? Une plus grande précision prédictive signifie que les détails de cette étape sont plus liés à la conclusion ou non d’un accord.
-* Taux de conversion : Si les prospects ou les opportunités à ce stade donné se convertissent à l’étape suivante à un rythme élevé, cela suggère que les activités marketing qui se sont produites à ce stade n’avaient pas beaucoup d’importance. Inversement, si une certaine étape se convertit à une étape suivante à un taux faible, cela peut suggérer que les activités marketing qui se sont produites à cette étape ont eu une influence sur la conversion.
-* Poids d’unicité des points de contact : Si une étape se produit en tant que transition autonome, ce qui signifie qu’il n’y a pas eu d’autres transitions d’étape qui se sont produites en même temps, cette étape peut recevoir un poids d’attribution plus élevé. Inversement, si un point de contact pour une étape est partagé avec d’autres étapes (par exemple, le point de contact partage les étapes Première touche, Conversion de piste et Conversion d’opportunités), cette étape peut recevoir une pondération d’attribution plus faible.
+* Précision du modèle : si nous créons un modèle prédictif avec les données du point de contact pour prédire si nous finirons par gagner un accord, quel degré de précision le modèle sera-t-il ? Une plus grande précision prédictive signifie que les détails de cette étape sont plus liés à la conclusion ou non d’un accord.
+* Taux de conversion : si les prospects ou les opportunités à ce stade sont convertis à l’étape suivante à un taux élevé, cela suggère que les activités marketing qui se sont produites à ce stade n’ont pas eu beaucoup d’importance. Inversement, si une certaine étape se convertit à une étape suivante à un taux faible, cela peut suggérer que les activités marketing qui se sont produites à cette étape ont eu une influence sur la conversion.
+* Poids d’unicité des points de contact : si une étape se produit en tant que transition autonome, ce qui signifie qu’il n’y a pas eu d’autres transitions d’étape qui se sont produites en même temps, cette étape pourrait recevoir un poids d’attribution plus élevé. Inversement, si un point de contact pour une étape est partagé avec d’autres étapes (par exemple, le point de contact partage les étapes Première touche, Conversion de piste et Conversion d’opportunités), cette étape peut recevoir une pondération d’attribution plus faible.
 
 Le poids final d’une étape personnalisée est calculé comme suit :
 

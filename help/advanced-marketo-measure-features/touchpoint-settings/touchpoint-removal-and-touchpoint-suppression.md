@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874710
 description: Suppression des points de contact et suppression des points de contact - [!DNL Marketo Measure] - Documentation du produit
-title: Suppression des points de contact et suppression des points de contact
+title: Suppression et retrait des points de contact
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Touchpoints
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Suppression des points de contact et suppression des points de contact {#touchpoint-removal-and-touchpoint-suppression}
+# Suppression et retrait des points de contact {#touchpoint-removal-and-touchpoint-suppression}
 
 Découvrez comment supprimer ou supprimer des points de contact qui répondent à des critères spécifiques de votre CRM. Cela peut s’avérer utile pour libérer de l’espace de données si vous disposez de [!DNL Salesforce] limites de stockage des données.
 
@@ -47,7 +48,7 @@ Effectuez une sélection dans une liste d’ Opérateurs qui se rapportent au pr
 >
 >Les champs de formule ne peuvent pas être utilisés dans vos règles et n’apparaîtront pas dans la liste de sélection. Parce que les formules sont calculées en arrière-plan et ne modifient pas d&#39;enregistrement, [!DNL Marketo Measure] ne peut pas détecter si un enregistrement correspond à une règle ou non.
 
-`2)` Ajoutez des règles au sein du même groupe pour utiliser la logique &quot;AND&quot; dans votre instruction.
+`2)` Ajoutez des règles au sein du même groupe afin d’utiliser la logique &quot;AND&quot; dans votre instruction.
 Vous pouvez également ajouter de nouvelles instructions en dehors du groupe pour utiliser la logique &quot;OU&quot; dans votre instruction.
 
 ![](assets/2.png)
@@ -73,4 +74,4 @@ Pour terminer, enregistrez et traitez vos règles. Si vous effectuez beaucoup de
 | Correspond à n’importe quel | Plusieurs valeurs - Correspondance exacte |
 | Correspond à n’importe quel (contient) | Plusieurs valeurs - &#42;value&#42;, &#42;value, &#42;value&#42; |
 
-Pour les clients utilisant Dynamics qui souhaitent configurer des règles de suppression en fonction de l’état et/ou du code d’état, nous avons besoin de la mise en forme suivante lors de la configuration de la règle : `[Object].Statecode` est égal/différent de `[Status Value]`. Par exemple, si le code d’état dans Dynamics indique &quot;1&quot; sur un contact et que l’état indique &quot;Inactif&quot;, et que vous souhaitez supprimer tous ces contacts, le format suivant est incorrect pour votre règle de suppression : Contact.Statecode est égal à 1. Vous souhaitez utiliser le format suivant, car Statecode et Status fonctionnent comme une paire, [!DNL Marketo Measure] lit la valeur de Status dans notre requête : Contact.Statecode est égal à Inactif.
+Pour les clients utilisant Dynamics qui souhaitent configurer des règles de suppression en fonction de l’état et/ou du code d’état, nous avons besoin de la mise en forme suivante lors de la configuration de la règle : `[Object].Statecode` est égal/différent de `[Status Value]`. Par exemple, si le Statecode dans Dynamics indique &quot;1&quot; sur un contact et que l’état indique &quot;Inactif&quot;, et que vous souhaitez supprimer tous ces contacts, le format suivant serait incorrect pour votre règle de suppression : Contact.Statecode est égal à 1. Vous souhaitez utiliser le format suivant, car Statecode et Status fonctionnent comme une paire, [!DNL Marketo Measure] lit la valeur de Status dans notre interrogation : Contact.Statecode est égal à Inactif.

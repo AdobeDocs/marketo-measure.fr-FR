@@ -2,47 +2,48 @@
 description: Bonnes pratiques relatives à la segmentation - [!DNL Marketo Measure] - Documentation du produit
 title: Bonnes pratiques relatives à la segmentation
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
-source-git-commit: b59c79236d3e324e8c8b07c5a6d68bd8176fc8a9
+feature: Segmentation
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 # Bonnes pratiques relatives à la segmentation {#best-practices-for-segmentation}
 
-## APERÇU {#overview}
+## Vue d’ensemble {#overview}
 
-[!DNL Marketo Measure] La segmentation vous permet de définir des règles, qui sont essentiellement des filtres, en fonction de vos champs CRM afin de les regrouper dans des segments individuels. Ces segments seront ensuite disponibles dans vos tableaux de bord Discover , ainsi que dans vos [!DNL Salesforce] création de rapports.
+La segmentation [!DNL Marketo Measure] vous permet de définir des règles, qui agissent en tant que filtres, en fonction de vos champs CRM. Vous pouvez ainsi les regrouper dans des segments individuels. Ces segments sont ensuite disponibles dans vos tableaux de bord Discover et vos rapports [!DNL Salesforce].
 
-La segmentation est essentielle à l’utilisation de [!DNL Marketo Measure] , notamment au sein des panoramas Discover. Parce que la variable [!DNL Marketo Measure] Les panoramas Discover se limitent à un ensemble prédéterminé de filtres ; la segmentation vous permet de disséquer vos données dans Discover comme vous le feriez dans votre [!DNL Salesforce] création de rapports.
+La segmentation fait partie intégrante de votre compte [!DNL Marketo Measure], notamment au sein des tableaux de bord Discover. Comme les tableaux de bord Discover de [!DNL Marketo Measure] affichent un jeu prédéterminé de filtres, la segmentation vous permet de disséquer vos données dans Discover comme vous le feriez dans les rapports [!DNL Salesforce].
 
-Lorsque la variable est envoyée à [!DNL Salesforce], les valeurs de segment sont écrites dans le champ &quot;Segment&quot; et se trouvent dans n’importe quel type de rapport de point de contact Acheteur. Cela permet d’uniformiser les rapports sur les deux plateformes. Le segment se trouve également sur le &quot;détail du point de contact&quot; de n’importe quel point de contact.
+Lorsqu’elles sont transmises à [!DNL Salesforce], les valeurs de segment sont écrites dans le champ « Segment » et se trouvent dans n’importe quel type de rapport Buyer Touchpoint. Cela permet d’uniformiser les rapports sur les deux plateformes. Le segment se trouve également dans le détail du point de contact de n’importe quel point de contact.
 
-Lorsque vous accédez à Discover, les segments apparaissent sous la forme d’un filtre disponible dans le menu déroulant de filtre situé sur tous les panoramas.
+Lorsque vous accédez à Discover, les segments apparaissent sous la forme d’un filtre disponible dans le menu déroulant du filtre situé sur tous les tableaux de bord.
 
 ## Bonne pratique {#best-practice}
 
 Gardez à l’esprit les bonnes pratiques suivantes, que vous définissiez la segmentation pour la première fois ou que vous examiniez simplement la segmentation qui a été précédemment définie.
 
-* Restez simple !
+* Ne vous compliquez pas la tâche !
 * Alignez le nom du segment sur la nomenclature de votre organisation, c’est-à-dire la catégorie = nom du filtre, le segment = valeur du filtre.
-* Ne pas utiliser de champs de formule dans vos règles
-* Dans la mesure du possible, créez la segmentation à la fois sur les pistes/contacts et opportunités afin de pouvoir l’utiliser dans l’entonnoir entier.
-   * Toutes les catégories de segments ne s’aligneront pas sur l’ensemble de l’entonnoir.
-      * Par exemple, une catégorie de segment &quot;Type d’opportunité&quot; ne sera pas liée aux pistes, mais un segment lié à &quot;région&quot; est probablement une catégorie qui peut être définie dans tout l’entonnoir.
-* Pensez aux façons dont vous souhaitez actuellement répartir vos données, que ce soit dans le CRM ou dans un outil de BI, envisagez de créer ceci en tant que segment dans [!DNL Marketo Measure] afin que vous puissiez avoir le même rapport dans Discover.
+* N’utilisez pas de champs de formule dans vos règles
+* Dans la mesure du possible, créez la segmentation à la fois sur les leads/contacts et opportunités afin de pouvoir l’utiliser dans l’entonnoir entier
+   * Toutes les catégories de segments ne s’aligneront pas sur l’ensemble de l’entonnoir
+      * Par exemple, une catégorie de segment « Type d’opportunité » ne sera pas liée aux leads, mais un segment lié à « Région » est probablement une catégorie qui peut être définie dans tout l’entonnoir
+* Pensez aux façons dont vous souhaitez actuellement répartir vos données, que ce soit dans le CRM ou dans un outil de BI. Envisagez de procéder en tant que segment dans [!DNL Marketo Measure] afin d’avoir les mêmes rapports dans Discover.
 
-## Bonne pratique pour la maintenance {#best-practice-for-maintenance}
+## Bonne pratique de maintenance {#best-practice-for-maintenance}
 
-La vérification de votre segmentation au moins deux fois par an vous permettra de vous assurer que votre segmentation est à jour. Il est recommandé de consulter vos règles dans le[!UICONTROL Segments]Onglet &#39; de votre [!DNL Marketo Measure] Paramètres du compte, ainsi que l’extraction de rapports dans [!DNL Salesforce] pour passer en revue vos segments en action. Ces étapes vous aideront, ainsi que votre équipe, à vous sentir confiant dans votre segmentation et, par la suite, dans votre [!DNL Marketo Measure] création de rapports.
+La vérification de votre segmentation au moins deux fois par an vous permettra de vous assurer qu’elle est à jour. En guise de bonne pratique, il est recommandé de consulter vos règles dans l’onglet [!UICONTROL Segments] de vos Paramètres du compte [!DNL Marketo Measure], ainsi que l’extraction de rapports dans [!DNL Salesforce] pour passer en revue vos segments en action. Ces étapes vous aideront, ainsi que votre équipe, à avoir davantage confiance dans votre segmentation et, par la suite, dans votre création de rapports [!DNL Marketo Measure].
 
-D’autres raisons peuvent déclencher une révision de votre segmentation, telles que...
+Vous pourrez vouloir réviser votre segmentation pour les raisons suivantes :
 
-* Chiffre d’affaires de votre équipe marketing
+* Changements au sein de votre équipe marketing
 * Modifications apportées aux champs utilisés pour définir vos segments
 * Ajouts ou modifications aux segments déjà créés
 
 >[!MORELIKETHIS]
 >
->[Configuration de la segmentation personnalisée](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md)
+>[Comment configurer la segmentation personnalisée](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md)

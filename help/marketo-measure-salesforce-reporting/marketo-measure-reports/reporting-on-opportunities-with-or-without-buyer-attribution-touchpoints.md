@@ -1,16 +1,17 @@
 ---
 unique-page-id: 18874618
 description: Création de rapports sur les opportunités avec ou sans points de contact d’attribution d’achat - [!DNL Marketo Measure] - Documentation du produit
-title: Création de rapports sur les opportunités avec ou sans points de contact d’attribution d’achat
+title: Création de rapports sur les opportunités avec ou sans points de contact d’attribution acheteur
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Touchpoints, Attribution, Reporting
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Création de rapports sur les opportunités avec ou sans points de contact d’attribution d’achat {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
+# Création de rapports sur les opportunités avec ou sans points de contact d’attribution acheteur {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
 
 >[!NOTE]
 >
@@ -28,7 +29,7 @@ Créez un nouveau type de rapport pour inclure toutes les opportunités avec ou 
 
 1. Définissez l’objet Principal sur &quot;[!UICONTROL Opportunités].&quot;
 
-   * Nommez le libellé de type de rapport en tant que : &quot;Opportunités avec ou sans attribution d’achat.&quot;
+   * Nommez le libellé de type de rapport en : &quot;Opportunités avec ou sans attribution d’achat&quot;.
    * Utilisez le même nom pour le nom du type de rapport. Dans la zone de description, &quot;Opportunités avec ou sans points de contact d’attribution d’achat&quot;.
    * Enregistrez le rapport dans le[!UICONTROL Autre]&quot; et définissez le rapport sur &quot;[!UICONTROL Déployé].&quot;
 

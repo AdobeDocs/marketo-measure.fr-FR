@@ -3,7 +3,8 @@ unique-page-id: 42762749
 description: "[!DNL Marketo Engage] Intégration des activités - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Engage] Intégration des activités"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
-source-git-commit: 54337a0a65b79d80ebeae6531f5e92f4f48721a7
+feature: Integration
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 0%
@@ -102,7 +103,7 @@ Email diffusé (7)\
 Rebond des emails (8)\
 Désabonner le courrier électronique (9)\
 Ouverture d’un courrier électronique (10)\
-Clic sur Courrier électronique (11)\
+Clic sur Courriel (11)\
 Modifier la valeur des données (13)\
 Score de modification (22)\
 Ajouter à la liste (24)\
@@ -140,7 +141,7 @@ Changement de statut dans la campagne SFDC (44)\
 Recevoir un courrier électronique de vente (45)\
 Demander la campagne (47)\
 Rebond des courriers électroniques de vente (48)\
-Étape du chiffre d’affaires des modifications (101)\
+Étape de modification des recettes (101)\
 Modifier manuellement l’étape des recettes (102)\
 Modifier le segment (108)\
 Appelez Webhook (110)\
@@ -167,7 +168,7 @@ Grâce à l’importation des données des programmes Marketo, les coûts sont a
 
 Suite au [!DNL Marketo Measure] intégration à Marketo, la variable [!DNL Marketo Measure] L’ID de cookie est également mappé et synchronisé avec la variable [!DNL Marketo Munchkin Id]. Cela permet de réduire l’écart pour attribuer la première touche anonyme à une session web plutôt que d’attribuer les touches FT et LC à une activité Marketo. Imaginez ce scénario :
 
-Mark clique sur une publicité Facebook et accède à wayneentreprises.com où il reçoit un cookie. [!DNL Marketo Measure] Id 123 et [!DNL Marketo Munchkin Id] 456. Aucun remplissage de formulaire n’a lieu.
+Mark clique sur une publicité Facebook et accède à wayneenterprises.com où il reçoit un cookie. [!DNL Marketo Measure] Id 123 et [!DNL Marketo Munchkin Id] 456. Aucun remplissage de formulaire n’a lieu.
 
 L’équipe marketing de Wayne Entreprises envoie un courrier électronique à des pistes ciblées spécifiques, l’une d’elles étant `mark@email.com`.
 
@@ -175,7 +176,7 @@ L’équipe marketing de Wayne Entreprises envoie un courrier électronique à d
 
 L’équipe marketing Wayne Entreprises crée une règle Activité Marketo afin de générer des points de contact pour un type d’activité &quot;Clic e-mail&quot;.
 
-La mise en oeuvre d’aujourd’hui créerait un point de contact FT et LC unique pour `mark@email.com` de l’activité Marketo à partir du type d’activité &quot;Clic email&quot;.
+La mise en oeuvre actuelle créerait un point de contact FT et LC unique pour `mark@email.com` de l’activité Marketo à partir du type d’activité &quot;Clic email&quot;.
 
 Avec cette amélioration du mappage de cookies, le FT revient et est crédité à la publicité Facebook et le LC est crédité au courrier électronique.
 
@@ -183,15 +184,15 @@ Avec cette amélioration du mappage de cookies, le FT revient et est crédité �
 >
 >Avec le comportement du mappage de cookies, vous pouvez trouver certains points de contact LC provenant d’une visite web. Il est possible qu’une piste apparaisse dans Marketo sans activité associée, puis [!DNL Marketo Measure] téléchargé ce prospect, correspondait aux cookies associés, puis le tracait vers la session web la plus récente, même si aucune activité de formulaire n’avait créé le prospect.
 
-## FAQ {#faq}
+## Questions fréquentes {#faq}
 
 **Comment savoir si vous devez créer une règle Programmes Marketo ou une règle Activités Marketo ?**
 
-Le [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme particulier, la variable [!DNL Marketo Engage] L’intégration des activités sera la configuration souhaitée, en particulier le type d’activité &quot;Modifier l’état de progression&quot; afin que la date du point de contact puisse être mappée à la date d’activité générée par le système.
+La variable [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme spécifique, la variable [!DNL Marketo Engage] L’intégration des activités sera la configuration souhaitée, en particulier le type d’activité &quot;Modifier l’état de progression&quot; afin que la date du point de contact puisse être mappée à la date d’activité générée par le système.
 
 **Pourquoi le nom de mon type de point de contact est-il tronqué ?**
 
-Le champ Type de point de contact a été créé dans [!DNL Marketo Measure] module contenant 16 caractères. Malheureusement, la modification de la limite de caractères du champ nécessiterait l’obsolescence du champ existant et la création d’un nouveau champ. La valeur du type de point de contact est le type d’activité, qui est également défini dans le champ Moyen .
+Le champ Type de point de contact a été créé dans la [!DNL Marketo Measure] module contenant 16 caractères. Malheureusement, la modification de la limite de caractères du champ nécessiterait l’obsolescence du champ existant et la création d’un nouveau champ. La valeur du type de point de contact est le type d’activité, qui est également défini dans le champ Moyen .
 
 **Pourquoi mon Type d’activité personnalisé n’apparaît-il pas dans la liste des activités disponibles ?**
 
@@ -203,7 +204,7 @@ Bien qu’il n’y ait pas de limite au nombre de types d’activité que vous p
 
 **Pourquoi mon nom de navigateur est-il coupé ?**
 
-Le [!DNL Marketo Measure] Le nom du navigateur est limité à 20 caractères, bien que la valeur de l’agent utilisateur que nous obtenons de Marketo ait tendance à être une chaîne plus longue.
+La variable [!DNL Marketo Measure] Le nom du navigateur est limité à 20 caractères, bien que la valeur de l’agent utilisateur que nous obtenons de Marketo ait tendance à être une chaîne plus longue.
 
 BrowserInfo.Name\
 BrowserInfo.Version\

@@ -3,10 +3,11 @@ unique-page-id: 18874678
 description: Compréhension [!DNL Marketo Measure] Balisage AdWords - [!DNL Marketo Measure] - Documentation du produit
 title: Comprendre le balisage AdWords dans [!DNL Marketo Measure]
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
-source-git-commit: 7ee55e3493558880408e76a4572667348ffedd8e
+feature: APIs, Integration, UTM Parameters
+source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -98,17 +99,17 @@ Il existe deux modèles de suivi [!DNL Marketo Measure] recommande d’utiliser 
 
 A : userinfo.email
 
-**Q : Combien de temps cela peut-il prendre pour importer des données de dépenses ?**
+**Q. : Combien de temps peut-on mettre pour importer des données de dépenses ?**
 
 A : 6 heures
 
-**Q : Combien de temps faut-il pour importer des données publicitaires ?**
+**Q. : Combien de temps peut-il s’écouler avant l’importation des données publicitaires ?**
 
 A : 4 heures
 
-**Q : Dans le cas des annonces de recherche dynamique, pouvons-nous suivre la combinaison du titre, de la description, etc. dans le créatif qui a été diffusé ?**
+**Q : Pour les annonces de recherche dynamique, pouvons-nous suivre la combinaison du titre, de la description, etc., dans le créatif qui a été diffusé ?**
 
-A : Nous ne pouvons pas récupérer les détails créatifs individuels pour les annonces de recherche dynamique, mais si le balisage automatique est activé, nous pouvons toujours obtenir l’identifiant créatif et les recettes d’attributs.
+R : Nous ne pouvons pas récupérer les détails créatifs individuels pour les annonces de recherche dynamique, mais si le balisage automatique est activé, nous pouvons toujours obtenir l’identifiant créatif et les recettes d’attributs.
 
 >[!NOTE]
 >

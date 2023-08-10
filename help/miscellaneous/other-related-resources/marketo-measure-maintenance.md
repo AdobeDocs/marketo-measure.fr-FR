@@ -3,14 +3,15 @@ unique-page-id: 18874556
 description: "[!DNL Marketo Measure] Maintenance - [!DNL Marketo Measure] - Documentation du produit"
 title: "[!DNL Marketo Measure] Maintenance"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+feature: Tracking
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '644'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# [!DNL Marketo Measure] Maintenance {#marketo-measure-maintenance}
+# Maintenance de [!DNL Marketo Measure] {#marketo-measure-maintenance}
 
 [!DNL Marketo Measure] récupère presque tous les besoins de votre CRM tous les jours, mais vous devrez planifier régulièrement quelques tâches de maintenance pour conserver [!DNL Marketo Measure] avec des informations très précises.
 
@@ -34,7 +35,7 @@ Lors de l’intégration, vous configurez un mappage personnalisé pour vos effo
 
 Souvenez-vous, [!DNL Marketo Measure] retraite vos données lorsque vous modifiez la logique de mappage, de sorte que vous ne pourrez pas modifier ces règles plus d’une fois tous les 7 jours.
 
-Référence [cet article](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md) pour la configuration en ligne, [cet article](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md) pour la configuration hors ligne, et cette liste des bonnes pratiques traitées par nos clients :
+Référence [cet article](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md) pour la configuration en ligne, [cet article](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md) pour la configuration hors ligne, et cette liste des bonnes pratiques organisées à partir de nos clients :
 
 * Examinez les points de contact qui tombent actuellement dans n’importe quel canal &quot;Autre&quot; ou &quot;NULL&quot; que vous avez configuré. Le cas échéant, mettez à jour votre logique de mappage pour reclasser ces points de contact dans des canaux plus précis.
 * Examinez les points de contact qui tombent actuellement dans vos canaux directs. Si des paramètres UTM sont absents de certaines de vos campagnes de marketing par e-mail ou d’autres efforts, il est fort possible que le trafic soit incorrectement regroupé dans un canal Direct. Envisagez de mettre à jour vos paramètres UTM pour capturer la source de référence.
@@ -45,7 +46,7 @@ Si vous constatez de nombreux points de contact que vous préféreriez ne pas pr
 
 **Vérification du mappage des étapes personnalisé pour plus de précision (1x/trimestre) (le cas échéant)**
 
-Si vous utilisez des [!UICONTROL prospect], [!UICONTROL Contact]ou [!UICONTROL Opportunités] étapes, vous avez peut-être également personnalisé la partie du pipeline vers laquelle ces étapes sont mappées et si ces étapes sont incluses ou non dans un modèle d’attribution personnalisé. Une fois par trimestre, visite [cet article](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) pour actualiser votre mémoire lors d’un mappage intermédiaire personnalisé et vous assurer que vous effectuez le suivi précis de vos scènes personnalisées.
+Si vous utilisez des [!UICONTROL prospect], [!UICONTROL Contact], ou [!UICONTROL Opportunités] étapes, vous avez peut-être également personnalisé la partie du pipeline vers laquelle ces étapes sont mappées et si ces étapes sont incluses ou non dans un modèle d’attribution personnalisé. Une fois par trimestre, visite [cet article](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md) pour actualiser votre mémoire lors d’un mappage intermédiaire personnalisé et vous assurer que vous effectuez le suivi précis de vos scènes personnalisées.
 
 **Comparer le modèle d’apprentissage automatique à la pondération de modèle personnalisé (1x/trimestre) (le cas échéant)**
 

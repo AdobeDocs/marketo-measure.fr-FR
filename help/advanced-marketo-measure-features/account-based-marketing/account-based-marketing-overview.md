@@ -1,18 +1,19 @@
 ---
 unique-page-id: 18874730
 description: Présentation marketing basée sur les comptes - [!DNL Marketo Measure] - Documentation du produit
-title: Présentation du marketing basé sur les comptes
+title: Vue d’ensemble du marketing basé sur les comptes
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
-source-git-commit: 48bff0d1cade7c216988170b16942ebffb71cc63
+feature: Account-based Marketing
+source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Présentation du marketing basé sur les comptes {#account-based-marketing-overview}
+# Vue d’ensemble du marketing basé sur les comptes {#account-based-marketing-overview}
 
-Vous trouverez ci-dessous un bref aperçu d’ABM, les composants de [!DNL Marketo Measure] fonction ABM et comment l’ajouter à votre [!DNL Salesforce] mise en page. Pour en savoir plus sur ABM, consultez [cette page](https://www.marketo.com/account-based-marketing/){target="_blank"}.
+Vous trouverez ci-dessous un bref aperçu d’ABM, les composants de [!DNL Marketo Measure] fonction ABM et comment l’ajouter à votre [!DNL Salesforce] mise en page. Pour en savoir plus sur ABM, consultez la rubrique [cette page](https://www.marketo.com/account-based-marketing/){target="_blank"}.
 
 Pour accéder directement aux instructions de configuration d’ABM dans votre [!DNL Salesforce] instance, s’il vous plaît [cliquez ici](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md#setting-up-abm-page-layout-in-salesforce){target="_blank"}.
 
@@ -23,15 +24,15 @@ Le marketing basé sur les comptes, ABM, est une stratégie marketing dans laque
 Pour que notre modèle de marketing basé sur les comptes commence à apparaître dans votre CRM, [!DNL Marketo Measure] nécessite que les critères suivants soient remplis :
 
 * Votre service de gestion de la relation client a besoin d’au moins 25 comptes disposant d’au moins une opportunité de gestion de la relation client fermée, afin que nous puissions mieux jauger les fonctionnalités communes d’un compte/opportunité &quot;réussi&quot; pour votre entreprise.
-* De l’autre côté de la médaille, votre CRM a besoin d’au moins 25 comptes sans opportunité de gain fermée (toutes les options doivent être soit dans notre catégorie d’étape &quot;Ouverture&quot;, soit dans une catégorie &quot;Fermé perdue&quot;), ce qui nous permet de jauger ce qui fait qu’un compte de qualité inférieure dans votre organisation.
+* De l’autre côté de la pièce, votre CRM a besoin d’au moins 25 comptes sans opportunité de gain fermée (toutes les options doivent être soit dans notre catégorie d’étape &quot;Ouverture&quot;, soit dans une catégorie &quot;Perte fermée&quot; - ce qui nous permet de jauger ce qui fait qu’un compte de qualité inférieure dans votre organisation.
 
 >[!NOTE]
 >
->Les comptes &quot;mauvais&quot; ci-dessus doivent être ouverts pendant au moins 12 mois sans avoir à accumuler une liste d’attente de paiement à terme fermée ; c’est notre ligne directrice de base pour savoir si une Opp est ou non devenue obsolète aux fins du modèle.
+>Les &quot;mauvais&quot; comptes ci-dessus doivent être ouverts pendant au moins 12 mois sans accumuler une valeur d’opt-in &quot;Closed Won&quot; ; c’est la ligne directrice de base pour savoir si une valeur d’opt-in est ou non devenue obsolète aux fins du modèle.
 
 ## Mappage de piste à compte {#lead-to-account-mapping}
 
-La mise en correspondance des pistes et des comptes est essentielle à l&#39;efficacité de l&#39;approche ABM. Grâce au mappage de piste sur compte, les prospects ou les prospects sont regroupés dans le même compte d’entreprise que celui auquel ils s’engagent auprès de votre marque. Cela vous permet de cibler et de vendre des données à des personnes d’une même société de manière cohérente. Il n’y a pas d’autres [!DNL Salesforce] configuration nécessaire pour commencer à bénéficier de cette fonctionnalité. Le [!DNL Marketo Measure] Mappage de compte de cinq méthodes de correspondance différentes :
+La mise en correspondance des pistes et des comptes est essentielle à l&#39;efficacité de l&#39;approche ABM. Grâce au mappage de piste sur compte, les prospects ou les prospects sont regroupés dans le même compte d’entreprise que celui auquel ils s’engagent auprès de votre marque. Cela vous permet de cibler et de vendre des données à des personnes d’une même société de manière cohérente. Il n’y a pas d’autres [!DNL Salesforce] configuration nécessaire pour commencer à bénéficier de cette fonctionnalité. La variable [!DNL Marketo Measure] Mappage de compte de cinq méthodes de correspondance différentes :
 
 * Diriger le site web vers le site web du compte
 * Domaine de courriel de piste vers le domaine du site web du compte
@@ -45,7 +46,7 @@ La mise en correspondance des pistes et des comptes est essentielle à l&#39;eff
 
 ## Score prédictif de l’engagement {#predictive-engagement-score}
 
-Le [!DNL Marketo Measure] Score d’engagement prédictif, ou SPE, est une valeur dynamique qui illustre l’engagement d’un compte particulier dans vos efforts marketing. Ce score est utile pour la segmentation des comptes à cibler. C’est un outil précieux pour identifier les comptes à cibler de manière plus efficace et plus efficace.
+La variable [!DNL Marketo Measure] Score d’engagement prédictif, ou SPE, est une valeur dynamique qui illustre l’engagement d’un compte particulier dans vos efforts marketing. Ce score est utile pour la segmentation des comptes à cibler. Il s’agit d’un outil précieux pour identifier les comptes à cibler de manière plus efficace et plus efficace.
 
 De nombreux composants entrent dans l’algorithme qui calcule le SPE. La récence et l’âge ont une grande influence sur les changements de score, ainsi que sur les dernières activités de point de contact ou pages vues. L&#39;ajout de nouveaux contacts à un compte a également un impact sur le SPE. Ci-dessous, une liste de quelques éléments du rapport :
 
@@ -56,7 +57,7 @@ De nombreux composants entrent dans l’algorithme qui calcule le SPE. La récen
 * Âge moyen des pages vues
 * Nombre de personnes dans le compte
 * Pages importantes spécifiques et s’il y a eu une visite au cours des 30/60/90 derniers jours
-* Si le compte a une transaction perdue/gagnée clôturée
+* Si le compte a une transaction perdue/gagnée fermée
 * La probabilité qu’il soit fermé est perdue/gagnée
 
 >[!NOTE]
@@ -84,5 +85,5 @@ Pour commencer à utiliser les PES, vous devez simplement ajouter le champ PES e
 
    ![](assets/3.png)
 
-Vous êtes toutes prêtes !
+Tout est prêt!
 

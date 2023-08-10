@@ -1,18 +1,19 @@
 ---
 unique-page-id: 34406495
 description: Mosaïques des opérations marketing - [!DNL Marketo Measure] - Documentation du produit
-title: Mosaïques des opérations marketing
+title: Opérations marketing  Cases
 exl-id: e7978a79-6f6e-4bfd-9962-b35b7d46a9ac
-source-git-commit: f13e55f009f33140ff36523212ed8b9ed5449a4d
+feature: Reporting
+source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '767'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
-# Mosaïques des opérations marketing {#marketing-ops-tiles}
+# Opérations marketing  Cases {#marketing-ops-tiles}
 
-Les opérations marketing vous permettent de valider et de diagnostiquer [!DNL Marketo Measure] données avec une visibilité complète sur les points de contact individuels par Leads, Contacts, Comptes, Campagnes et Opportunités.
+Les opérations marketing vous permettent de valider et de diagnostiquer [!DNL Marketo Measure] données avec une visibilité complète sur les points de contact individuels par prospect, contact, compte, campagne et opportunité.
 
 <table> 
  <colgroup> 
@@ -33,7 +34,7 @@ Les opérations marketing vous permettent de valider et de diagnostiquer [!DNL M
  <tbody> 
   <tr> 
    <td><br></td> 
-   <td><p><strong>ID de compte</strong></p></td> 
+   <td><p><strong>Identifiant de compte</strong></p></td> 
    <td><p><strong>Nom du compte</strong></p></td> 
    <td><p><strong>Identifiant Opp</strong></p></td> 
    <td><p><strong>Nom Opp</strong></p></td> 
@@ -132,37 +133,37 @@ Affiche les données suivantes relatives au(x) compte(s) spécifié(s).
 
 **Les comptes doivent comporter des données de point de contact (applicable uniquement si la fonctionnalité ABM est activée).**
 
--Identifiant de compte : Identifiant de compte dans le CRM
+-Identifiant de compte : identifiant de compte dans le CRM
 
 -Nom du compte : Nom du compte dans le CRM
 
-Date de création : Date de création du compte dans le CRM
+Date de création : date de création du compte dans le CRM
 
-* Zoom avant : Voir Date de création par heure, minute, heure
+* Zoom avant : voir Date de création par heure, minute, heure
 
--Site Web : Valeur trouvée dans le champ Site Web du compte
+-Site Web : valeur trouvée dans le champ Site Web du compte
 
--Évaluation de l’engagement : Score d’engagement prédictif (PES) renseigné par [!DNL Marketo Measure]^1
+-Note d’engagement : score d’engagement prédictif (PES) renseigné par [!DNL Marketo Measure]^1
 
--Opportunités : Nombre d’opportunités connectées au compte
+-Opportunités : nombre d’opportunités connectées au compte
 
-* Zoom avant : Voir les détails de la ou des opportunités associées
+* Zoom avant : voir les détails des opportunités associées
 
 -Contacts : Nombre de contacts répertoriés sur ce compte
 
-* Zoom avant : Voir les détails des contacts associés.
+* Zoom avant : voir les détails des contacts associés
 
--Leads : Nombre de pistes mappées à ce compte par mappage de pistes à des comptes^1
+-Leads : nombre de pistes mappées à ce compte par le biais du mapping de pistes vers comptes^1
 
-* Zoom avant : Afficher les détails des pistes qui ont été mappées au compte
+* Zoom avant : afficher les détails des pistes qui ont été mappées au compte
 
--Points de contact d’attribution : Nombre de points de contact d’attribution de l’achat pour le compte
+-Points de contact d’attribution : nombre de points de contact d’attribution de l’achat pour le compte
 
-* Zoom avant : Reportez-vous aux détails du point de contact d’attribution de l’achat (ID, courrier électronique, date de point de contact, nom du compte, campagne, canal, sous-canal, type de contact marketing, modèle d’attribution).
+* Exploration : voir les détails du point de contact d’attribution de l’achat (ID, adresse électronique, date de point de contact, nom du compte, campagne, canal, sous-canal, type de contact marketing, modèle d’attribution)
 
--Points de contact : Nombre de points de contact que les contacts de ce compte ont^2
+-Points de contact : nombre de points de contact que les contacts de ce compte ont^2
 
-* Zoom avant : Voir Points de contact dans les détails du point de contact du compte (ID, E-mail, Date de point de contact, Nom du compte, Campagne, Canal, Sous-canal, Type de contact marketing).
+* Zoom avant : voir Points de contact sur les détails du point de contact du compte (ID, E-mail, Date de point de contact, Nom du compte, Campagne, Canal, Sous-canal, Type de contact marketing)
 
 >[!NOTE]
 >
@@ -174,29 +175,29 @@ Date de création : Date de création du compte dans le CRM
 
 Affiche les données suivantes liées aux opportunités spécifiées.
 
--Identifiant d’opportunité : Identifiant d’opportunité dans le CRM
+-Identifiant d’opportunité : identifiant d’opportunité dans le CRM
 
--Nom de l’opportunité : Nom de l&#39;opportunité dans le CRM
+-Nom de l’opportunité : nom de l’opportunité dans le CRM
 
--Nom du compte : Nom du compte associé à l’opportunité
+-Nom du compte : nom du compte associé à l’opportunité
 
-Date de création : Date de création de l&#39;opportunité dans le CRM
+Date de création : date de création de l&#39;opportunité dans le CRM
 
-Zoom avant : Voir Date de création par heure, minute, heure
+Zoom avant : voir Date de création par heure, minute, heure
 
-Date de fermeture : Date de clôture de l&#39;opportunité dans le CRM
+-Date de fermeture : date de fermeture de l&#39;opportunité dans le CRM
 
-Zoom avant : Voir Date de fermeture par heure, minute, heure
+Zoom avant : voir Date de fermeture par heure, minute, heure
 
--Amount : Montant total de l’opportunité
+-Amount : montant total de l’opportunité
 
--Contacts : Nombre de contacts associés à l&#39;opportunité
+-Contacts : nombre de contacts associés à l’opportunité
 
-Zoom avant : Voir les détails des contacts associés.
+Zoom avant : voir les détails des contacts associés
 
--Points de contact d’attribution : Nombre de points de contact d’attribution d’achat associés
+-Points de contact d’attribution : nombre de points de contact d’attribution d’achat associés
 
-Zoom avant : Reportez-vous aux détails du point de contact d’attribution de l’achat (ID, courrier électronique, date de point de contact, nom du compte, campagne, canal, sous-canal, type de contact marketing, modèle d’attribution).
+Exploration : voir les détails du point de contact d’attribution de l’achat (ID, adresse électronique, date de point de contact, nom du compte, campagne, canal, sous-canal, type de contact marketing, modèle d’attribution)
 
 ## Mosaïque Contacts {#contacts-tile}
 
@@ -204,23 +205,23 @@ Zoom avant : Reportez-vous aux détails du point de contact d’attribution de l
 
 Affiche les données suivantes relatives au ou aux contacts spécifiés.
 
--Contact ID : Identifiant de contact dans le CRM
+-Contact ID : Contact dans le CRM
 
--Email: Adresse électronique de l’enregistrement de contact
+-Email : adresse email de l&#39;enregistrement de contact
 
-Date de création : Date de création du contact dans le CRM
+Date de création : date de création du contact dans le CRM.
 
-* Zoom avant : Voir Date de création par heure, minute, heure
+* Zoom avant : voir Date de création par heure, minute, heure
 
--Nom du compte : Nom du compte associé au contact
+-Nom du compte : nom du compte associé au contact
 
--Points de contact d’attribution : Nombre de points de contact d’attribution de l’achat pour le contact
+-Points de contact d’attribution : nombre de points de contact d’attribution de l’acheteur pour le contact
 
-* Zoom avant : Reportez-vous aux détails du point de contact d’attribution de l’achat (ID, courrier électronique, date de point de contact, nom du compte, campagne, canal, sous-canal, type de contact marketing, modèle d’attribution).
+* Exploration : voir les détails du point de contact d’attribution de l’achat (ID, adresse électronique, date de point de contact, nom du compte, campagne, canal, sous-canal, type de contact marketing, modèle d’attribution)
 
--Points de contact : Nombre de points de contact d’achat pour le contact
+-Points de contact : nombre de points de contact d’achat pour le contact
 
-* Zoom avant : Voir Contacts sur les détails du point de contact du compte (ID, E-mail, Date de point de contact, Nom du compte, Campagne, Canal, Sous-canal, Type de contact marketing).
+* Zoom avant : voir Contacts sur le compte - Détails du point de contact (ID, E-mail, Date de point de contact, Nom du compte, Campagne, Canal, Sous-canal, Type de contact marketing)
 
 ## Mosaïque Leads {#leads-tile}
 
@@ -228,21 +229,21 @@ Date de création : Date de création du contact dans le CRM
 
 Affiche les données suivantes relatives aux pistes spécifiées.
 
--Identifiant de piste : Identifiant de piste dans le CRM
+-Identifiant de piste : identifiant de piste dans le CRM
 
--Email: Adresse électronique de l’enregistrement de piste
+-Email : adresse email de l’enregistrement de piste
 
-Date de création : Lorsque le prospect a été créé dans le CRM
+Date de création : date de création du prospect dans le CRM
 
-* Zoom avant : Voir Date de création par heure, minute, heure
+* Zoom avant : voir Date de création par heure, minute, heure
 
-- Société (à partir du prospect) : Entreprise répertoriée dans l’enregistrement dans le CRM renseigné par le client
+-Société (à partir du prospect) : entreprise répertoriée dans l’enregistrement dans le CRM renseignée par le client
 
--Nom du compte : Nom du compte [!DNL Marketo Measure] renseigne en fonction de notre mappage de piste vers compte.
+-Nom du compte : nom du compte [!DNL Marketo Measure] renseigne en fonction de notre mappage de piste vers compte.
 
--Points de contact : Nombre de points de contact associés au(x) prospect(s).
+-Points de contact : nombre de points de contact associés à la piste.
 
-* Zoom avant : Voir Contacts sur les détails du point de contact du compte (ID, E-mail, Date de point de contact, Nom du compte, Campagne, Canal, Sous-canal, Type de contact marketing).
+* Zoom avant : voir Contacts sur le compte - Détails du point de contact (ID, E-mail, Date de point de contact, Nom du compte, Campagne, Canal, Sous-canal, Type de contact marketing)
 
 ## Mosaïque Campagnes {#campaigns-tile}
 
@@ -252,16 +253,16 @@ Affiche les données suivantes relatives à la ou aux campagnes spécifiées.
 
 -Identifiant de campagne : Identifiant de campagne dans le CRM
 
--Nom de la campagne : Nom de la campagne dans le CRM
+-Nom de campagne : nom de campagne dans le CRM
 
-- Dépense de campagne : Les dépenses [!DNL Marketo Measure] a été enregistré associé à la campagne
+-Dépense de la campagne : les dépenses [!DNL Marketo Measure] a été enregistré associé à la campagne
 
--Modèle d’attribution : L’attribution appropriée s’affiche alors en fonction du modèle sélectionné.
+-Modèle d’attribution : affiche l’attribution appropriée en fonction du modèle sélectionné.
 
--Points de contact d’attribution : Nombre de points de contact d’attribution d’achat associés à la ou aux campagnes.
+-Points de contact d’attribution : nombre de points de contact d’attribution d’achat associés à la ou aux campagnes.
 
-* Zoom avant : Reportez-vous aux détails du point de contact d’attribution de l’achat (ID, courrier électronique, date de point de contact, nom du compte, campagne, canal, sous-canal, type de contact marketing, modèle d’attribution).
+* Exploration : voir les détails du point de contact d’attribution de l’achat (ID, adresse électronique, date de point de contact, nom du compte, campagne, canal, sous-canal, type de contact marketing, modèle d’attribution)
 
--Points de contact : Le nombre de points de contact associés à la ou aux campagnes.
+-Points de contact : nombre de points de contact associés à la ou aux campagnes.
 
-* Zoom avant : Voir Contacts sur les détails du point de contact du compte (ID, E-mail, Date de point de contact, Nom du compte, Campagne, Canal, Sous-canal, Type de contact marketing).
+* Zoom avant : voir Contacts sur le compte - Détails du point de contact (ID, E-mail, Date de point de contact, Nom du compte, Campagne, Canal, Sous-canal, Type de contact marketing)
