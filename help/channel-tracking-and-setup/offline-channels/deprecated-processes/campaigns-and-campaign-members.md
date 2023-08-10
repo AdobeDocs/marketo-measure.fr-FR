@@ -4,9 +4,9 @@ description: Campagnes et membres de campagne - [!DNL Marketo Measure] - Documen
 title: Campagnes et membres de campagne
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1188'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Campagnes et membres de campagne {#campaigns-and-campaign-members}
 
 [!DNL Salesforce] Les campagnes sont destinées à effectuer le suivi des listes de pistes et de contacts associées à un programme ou à une activité marketing. Il s’agit généralement de webinaires, d’inscriptions ou de visites, par exemple. Les marketeurs peuvent indiquer si une campagne doit être créditée ou non dans un parcours de point de contact.
+
+>[!NOTE]
+>
+>Cet article couvre un processus obsolète. Nous encourageons les utilisateurs à utiliser la variable [nouveau processus in-app amélioré](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Activation des points de contact {#enabling-touchpoints}
 

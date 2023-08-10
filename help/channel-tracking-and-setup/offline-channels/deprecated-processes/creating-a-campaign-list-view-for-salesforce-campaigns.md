@@ -4,9 +4,9 @@ description: Création d’une vue de liste de campagnes pour [!DNL Salesforce C
 title: Création d’un affichage en liste des campagnes [!DNL Salesforce]
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '440'
 ht-degree: 3%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 3%
 # Création d’un affichage en liste des campagnes[!DNL Salesforce] {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Découvrez comment créer un mode Liste pour les campagnes que vous souhaitez synchroniser avec les points de contact d’achat.
+
+>[!NOTE]
+>
+>Cet article couvre un processus obsolète. Nous encourageons les utilisateurs à utiliser la variable [nouveau processus in-app amélioré](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 La vue Liste des campagnes qui peut être créée vous permet d’avoir un emplacement d’accès pour afficher et gérer les champs &quot;Type&quot; et &quot;Activer les points de contact du client&quot; afin de vous assurer que chacun de vos [!DNL Salesforce] les campagnes qui informent vos canaux marketing hors ligne sont correctement configurées.
 

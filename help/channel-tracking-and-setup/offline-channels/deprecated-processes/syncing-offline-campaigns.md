@@ -4,9 +4,9 @@ description: Synchronisation des campagnes hors ligne - [!DNL Marketo Measure] -
 title: Synchronisation des campagnes hors ligne
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 31ffb58f5318b71d478056f9b914eb1d42c7719a
+source-git-commit: e01738222e8845112892c0258cb084a4f0ebb257
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 0%
 # Synchronisation des campagnes hors ligne {#syncing-offline-campaigns}
 
 Il peut s’avérer difficile d’effectuer un suivi précis des campagnes hors ligne et de comparer ces campagnes à vos efforts de marketing numérique. [!DNL Marketo Measure] vous permet de suivre et d’attribuer des points de contact à vos campagnes hors ligne dans [!DNL Salesforce], même dans les cas où une [!DNL Salesforce] La campagne n’est créée que quelques semaines après l’événement.
+
+>[!NOTE]
+>
+>Cet article couvre un processus obsolète. Nous encourageons les utilisateurs à utiliser la variable [nouveau processus in-app amélioré](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Avant la synchronisation {#before-you-sync}
 
