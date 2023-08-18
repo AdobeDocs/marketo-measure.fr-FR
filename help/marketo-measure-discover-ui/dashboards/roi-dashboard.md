@@ -1,10 +1,8 @@
 ---
 description: Tableau de bord du ROI - [!DNL Marketo Measure] - Produit
 title: Tableau de bord du retour sur investissement
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 18%
@@ -26,8 +24,8 @@ Questions sur le panorama :
  <tr> 
    <th>Composant</th> 
    <th>Description</th>
+   <th>Type de date</th>
    <th>Champs d’exploration</th>
-   <th>Type de données</th>
    <th>Filtres</th>
   </tr>
   <tr>

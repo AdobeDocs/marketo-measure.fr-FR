@@ -1,10 +1,8 @@
 ---
 description: Tableau de bord Aperçu des recettes - [!DNL Marketo Measure] - Produit
 title: Tableau de bord Aperçu des recettes
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
+source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -26,7 +24,7 @@ Questions sur le panorama :
    <th>Composant</th> 
    <th>Description</th>
    <th>Champs d’exploration</th>
-   <th>Type de données</th>
+   <th>Type de date</th>
    <th>Filtres</th>
   </tr>
   <tr>
