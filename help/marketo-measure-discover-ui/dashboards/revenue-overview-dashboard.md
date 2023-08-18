@@ -4,7 +4,7 @@ title: Tableau de bord Aperçu des recettes
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: a90a3c7a8ed7ec83bc50060da8b7ca1e69bd37bd
+source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -46,30 +46,25 @@ Questions sur le panorama :
   <tr>
     <td>Mosaïque Total des affaires</td>
     <td>Nombre total d'offres marquées comme "ayant expiré" dans le CRM.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Mosaïque Recettes affectées</td>
     <td>Chiffre d’affaires total attribuable aux opportunités "Chiffre d’affaires fermé" avec points de contact enregistrés.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Mosaïque Traitements Attribuables</td>
     <td>Nombre total d'offres "à succès clos" issues d'opportunités imputables.</td>
-    <td> </td>
   </tr>
   <tr>
     <td>Graphique des recettes et des recettes attribuées</td>
     <td>Ce graphique à barres de série temporelle côte à côte fournit une vue complète de votre couverture d’attribution en combinant les recettes totales aux recettes attribuées.
     <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
-    <td> </td>
   </tr>
   <tr>
     <td>Graphique de couverture d’attribution</td>
     <td>Ce graphique circulaire fournit une comparaison visuelle claire entre les recettes attribuées et les recettes non attribuées. La tarte couvre le total des recettes.
     <br/>
     <img src="assets/revenue-overview-dashboard-2.png"></td>
-    <td> </td>
   </tr>
 </tbody>
 </table>
