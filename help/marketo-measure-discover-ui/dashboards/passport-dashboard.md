@@ -2,9 +2,9 @@
 description: Tableau de bord des passeports - [!DNL Marketo Measure] - Produit
 title: Tableau de bord des passeports
 feature: Reporting
-source-git-commit: dc4dd001d319f13ebd1c4ce418acf2faa27cfe81
+source-git-commit: 436e30c2a4138d780232d6ba9e64456d6277ac9b
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '266'
 ht-degree: 8%
 
 ---
@@ -60,3 +60,7 @@ Questions sur le panorama :
   </tr>
 </tbody>
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Découvrir les bases d’un tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
