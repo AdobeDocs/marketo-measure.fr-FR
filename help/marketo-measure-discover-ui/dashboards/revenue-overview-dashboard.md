@@ -4,7 +4,7 @@ title: Tableau de bord Aperçu des recettes
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 5a5133fbbd4668d33ea9a0f68f38ddac7cabf38c
+source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 8%
@@ -20,8 +20,8 @@ Questions sur le panorama :
 * Quel pourcentage de nos recettes est attribuable à nos efforts marketing ?
 * Quel pourcentage de nos offres &quot;à succès fermé&quot; a été influencé par nos efforts marketing ?
 
-<table>
-<tbody> 
+<table style="table-layout:auto"> 
+<tbody>
   <tr> 
    <th>Composant</th> 
    <th>Description</th>
@@ -58,13 +58,13 @@ Questions sur le panorama :
   <tr>
     <td>Graphique des recettes et des recettes attribuées</td>
     <td>Ce graphique à barres de série temporelle côte à côte fournit une vue complète de votre couverture d’attribution en combinant les recettes totales aux recettes attribuées.
-    <br/><img src="assets/revenue-overview-dashboard-1.png"></td>
+    <br/><img src="assets/revenue-overview-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
     <td>Graphique de couverture d’attribution</td>
     <td>Ce graphique circulaire fournit une comparaison visuelle claire entre les recettes attribuées et les recettes non attribuées. La tarte couvre le total des recettes.
     <br/>
-    <img src="assets/revenue-overview-dashboard-2.png"></td>
+    <img src="assets/revenue-overview-dashboard-2.png" width="600"></td>
   </tr>
 </tbody>
 </table>
