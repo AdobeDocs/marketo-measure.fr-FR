@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
-source-git-commit: e4852d6240a64b4a1a5c979a7528485623c68eb0
+source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 99%
+source-wordcount: '796'
+ht-degree: 97%
 
 ---
 
@@ -150,9 +150,15 @@ ht-degree: 99%
       + [Questions fréquentes sur la gestion de plusieurs devises](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + Interface utilisateur de [!DNL Marketo Measure] Discover {#marketo-measure-discover-ui}
    + Tableaux de bord {#dashboards}
-      + [Documentation du tableau de bord des parcours de cohortes](marketo-measure-discover-ui/dashboards/cohort-journey-dashboard-documentation.md)
-      + [Documentation du tableau de bord des passeports](marketo-measure-discover-ui/dashboards/passport-dashboard-documentation.md)
-      + [Documentation du tableau de bord des instantanés](marketo-measure-discover-ui/dashboards/snapshot-dashboard-documentation.md)
+      + [Découvrir les bases d’un tableau de bord](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Tableau de bord Aperçu des recettes](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Tableau de bord des recettes affectées](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Tableau de bord du retour sur investissement](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Tableau de bord des passeports](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+   + Tableaux de bord hérités {#legacy-dashboards}
+      + [Documentation du tableau de bord des parcours de cohortes](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
+      + [Documentation du tableau de bord des passeports](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
+      + [Documentation du tableau de bord des instantanés](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
    + Utilisation de la plateforme de création de rapports de [!DNL Marketo Measure] {#using-marketo-measures-reporting-platform}
       + [Scénarios classiques](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/common-use-cases.md)
       + [Définitions et encyclopédie](marketo-measure-discover-ui/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
