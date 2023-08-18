@@ -4,10 +4,10 @@ title: Tableau de bord des recettes affectées
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: fa7b28fd101e6d5013fe59649de379e36f23c6e0
+source-git-commit: f526b904fd3c04691ed784c259cb19fb24a5bd54
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 8%
+source-wordcount: '180'
+ht-degree: 15%
 
 ---
 
@@ -30,8 +30,8 @@ Quel est le montant total de nos recettes attribuées et le nombre de nos contra
    <th>Filtres</th>
   </tr>
   <tr>
-    <td>Mosaïque Recettes totales</td>
-    <td>Chiffre d’affaires total provenant du CRM, y compris les recettes attribuées.</td>
+    <td>Mosaïque Recettes affectées</td>
+    <td>Chiffre d’affaires total attribuable aux opportunités "Chiffre d’affaires fermé" avec points de contact enregistrés.</td>
     <td rowspan="6"><li>ID de l’opportunité</li>
 <li>Nom de l'opportunité</li>
 <li>Date de création d'opportunité</li>
@@ -39,32 +39,32 @@ Quel est le montant total de nos recettes attribuées et le nombre de nos contra
 <li>Est fermé (O/N)</li>
 <li>Est gagnant (O/N)</li>
 <li>Étape actuelle</li>
-<li>Recettes</li></td>
+<li>Modèle d’attribution</li>
+<li>Revenu attribué</li>
+<li>Recettes réalisées</li></td>
     <td rowspan="6">Jour complet</td>
-    <td rowspan="6">Date</td>
-  </tr>
-  <tr>
-    <td>Mosaïque Total des affaires</td>
-    <td>Nombre total d'offres marquées comme "ayant expiré" dans le CRM.</td>
-  </tr>
-  <tr>
-    <td>Mosaïque Recettes affectées</td>
-    <td>Chiffre d’affaires total attribuable aux opportunités "Chiffre d’affaires fermé" avec points de contact enregistrés.</td>
+    <td rowspan="6"><li>Date</li>
+<li>Modèle d’attribution</li>
+<li>Canal</li>
+<li>Sous-canal</li>
+<li>Campagne</li>
+<li>Segments</li></td>
   </tr>
   <tr>
     <td>Mosaïque Traitements Attribuables</td>
     <td>Nombre total d'offres "à succès clos" issues d'opportunités imputables.</td>
   </tr>
   <tr>
-    <td>Graphique des recettes et des recettes attribuées</td>
-    <td>Ce graphique à barres de série temporelle côte à côte fournit une vue complète de votre couverture d’attribution en combinant les recettes totales aux recettes attribuées.
-    <br/>PICC</td>
+    <td>Recettes affectées par canal au fil du temps</td>
+    <td>Graphique à barres empilées affichant le total des recettes attribuées, segmenté par canal associé, pour chaque trimestre/mois.
+    <br/><img src="assets/attributed-revenue-dashboard-1.png" width="600"></td>
   </tr>
   <tr>
-    <td>Graphique de couverture d’attribution</td>
-    <td>Ce graphique circulaire fournit une comparaison visuelle claire entre les recettes attribuées et les recettes non attribuées. La tarte couvre le total des recettes.
-    <br/>
-    PICC</td>
+    <td>Tableau des recettes attribuées</td>
+    <td>Total des recettes attribuées segmenté par canal, sous-canal et campagne, présenté aux formats Tableau et Arborescence.
+    <br/><img src="assets/attributed-revenue-dashboard-2.png" width="600">
+    <br/><img src="assets/attributed-revenue-dashboard-3.png" width="600"></td>
+  </tr>
   </tr>
 </tbody>
 </table>
