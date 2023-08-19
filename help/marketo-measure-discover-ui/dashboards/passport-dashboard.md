@@ -2,10 +2,10 @@
 description: Tableau de bord des passeports - [!DNL Marketo Measure] - Produit
 title: Tableau de bord des passeports
 feature: Reporting
-source-git-commit: 436e30c2a4138d780232d6ba9e64456d6277ac9b
+source-git-commit: 73f7d14f94b236b5e078a4c8ff7a1e81d13779ee
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 8%
+source-wordcount: '290'
+ht-degree: 12%
 
 ---
 
@@ -37,7 +37,15 @@ Questions sur le panorama :
 <li>Les dates de début et de fin sont inclusives.</li>
 <br/><img src="assets/passport-dashboard-1.png" width="600"></td>
     <td rowspan="2">Date de transition</td>
-    <td></td>
+    <td><li>ID opportunité</li>
+<li>Nom de l'opportunité</li>
+<li>Date de création</li>
+<li>Date de fermeture</li>
+<li>Est fermé (O/N)</li>
+<li>Est gagnant (O/N)</li>
+<li>Étape actuelle</li>
+<li>Date de transition entrante</li>
+<li>Date de transition sortante</li></td>
     <td rowspan="2"><li>Date</li>
 <li>Canal</li>
 <li>Sous-canal</li>
