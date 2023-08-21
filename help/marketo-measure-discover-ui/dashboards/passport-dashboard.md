@@ -1,8 +1,10 @@
 ---
 description: Tableau de bord des passeports - [!DNL Marketo Measure] - Produit
 title: Tableau de bord des passeports
+hide: true
+hidefromtoc: true
 feature: Reporting
-source-git-commit: 73f7d14f94b236b5e078a4c8ff7a1e81d13779ee
+source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 12%
