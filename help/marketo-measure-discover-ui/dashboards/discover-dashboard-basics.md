@@ -4,9 +4,9 @@ title: Découvrir les bases d’un tableau de bord
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
+source-git-commit: db435a669ca9a24a0661191bef9e14a8f8c78eb6
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '421'
 ht-degree: 1%
 
 ---
@@ -30,23 +30,23 @@ Chaque tableau de bord comporte une gamme de filtres, accompagnés des commandes
    <th>Description</th>
   </tr> 
   <tr> 
-   <td>Bouton de basculement de filtre</td>
+   <td><b>Bouton de basculement de filtre</b></td>
    <td>Active ou ferme le volet de filtrage.
    <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Bouton Réinitialiser</td>
-   <td>Redéfinissez les paramètres par défaut des filtres.
+   <td><b>Barre de recherche</b></td>
+   <td>Pour rechercher un filtre spécifique, utilisez la recherche dans la partie supérieure du volet de filtrage. Chaque filtre possède également sa propre barre de recherche.
    <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Bouton Appliquer</td>
-   <td>Cliquez sur pour confirmer et implémenter vos modifications de filtre dans le tableau de bord.
+   <td><b>Bouton Effacer le filtre</b></td>
+   <td>Pour effacer un filtre, cliquez sur l’icône de gomme située dans le coin supérieur droit de chaque filtre.
    <p><img src="assets/discover-dashboard-basics-3.png"></td>
   </tr>
   <tr> 
-   <td>Bouton Segment</td>
-   <td>Sur les tableaux de bord avec des filtres de segments, cliquez sur le bouton Segment au bas du volet de filtrage pour passer aux segments.
+   <td><b>Bouton Appliquer</b></td>
+   <td>Cliquez sur pour confirmer et implémenter vos modifications de filtre dans le tableau de bord.
    <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
