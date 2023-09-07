@@ -4,9 +4,9 @@ title: Découvrir les bases d’un tableau de bord
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: c77f880a2e88fa60ae685b61d9ae335308e78e10
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '404'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 1%
 # Découvrir les bases d’un tableau de bord {#discover-dashboard-basics}
 
 Cet article vous guidera tout au long des fonctionnalités fondamentales de l’interface repensée, en vous assurant que vous pouvez accéder facilement à vos données et les interpréter. Découvrez la dynamique du volet de filtrage et les complexités de nos fonctionnalités de création de rapports améliorées, telles que les fonctions d’analyse, le filtrage croisé et les info-bulles.
+
+>[!NOTE]
+>
+>Ce tableau de bord est actuellement en version bêta. Au cours de cette phase de transition, les tableaux de bord actuels et nouveaux seront accessibles. Le tableau de bord actuel sera obsolète une fois que nous aurons entièrement effectué la transition et garanti des fonctionnalités optimales.
 
 ## Volet Filtrer {#filter-pane}
 
@@ -23,26 +27,36 @@ Chaque tableau de bord comporte une gamme de filtres, accompagnés des commandes
  <tbody> 
   <tr> 
    <th>Nom</th> 
-   <th>Icône</th>
    <th>Description</th>
   </tr> 
   <tr> 
-   <td>Bouton Hamburger</td> 
-   <td><img src="assets/discover-dashboard-basics-1.png"></td>
-   <td>Active ou ferme le volet de filtrage.</td>
+   <td>Bouton de basculement de filtre</td>
+   <td>Active ou ferme le volet de filtrage.
+   <p><img src="assets/discover-dashboard-basics-1.png"></td>
   </tr>
   <tr> 
-   <td>Réinitialiser</td> 
-   <td><img src="assets/discover-dashboard-basics-2.png"></td>
-   <td>Redéfinissez les paramètres par défaut des filtres.</td>
+   <td>Bouton Réinitialiser</td>
+   <td>Redéfinissez les paramètres par défaut des filtres.
+   <p><img src="assets/discover-dashboard-basics-2.png"></td>
   </tr>
    <tr> 
-   <td>Filtres en mode visuel</td> 
-   <td><img src="assets/discover-dashboard-basics-3.png"></td>
-   <td>Pointez sur le coin supérieur droit d’un visuel, puis cliquez sur le bouton pour afficher ses filtres actifs.</td>
+   <td>Bouton Appliquer</td>
+   <td>Cliquez sur pour confirmer et implémenter vos modifications de filtre dans le tableau de bord.
+   <p><img src="assets/discover-dashboard-basics-3.png"></td>
+  </tr>
+  <tr> 
+   <td>Bouton Segment</td>
+   <td>Sur les tableaux de bord avec des filtres de segments, cliquez sur le bouton Segment au bas du volet de filtrage pour passer aux segments.
+   <p><img src="assets/discover-dashboard-basics-3a.png"></td>
   </tr>
  </tbody> 
 </table>
+
+## Filtres en mode visuel {#filters-on-visual}
+
+Passez la souris sur le coin supérieur droit d’un visuel pour afficher une liste de filtres appliqués en lecture seule.
+
+![](assets/discover-dashboard-basics-3b.png)
 
 ## Fonctionnalités des rapports {#report-capabilities}
 
@@ -70,21 +84,24 @@ Utilisez l’icône en forme de branchement pour ajouter un niveau de hiérarchi
 
 ### Exploration {#drill-through}
 
-* Pour explorer les données derrière le visuel, cliquez avec le bouton droit de la souris sur l’élément visuel et sélectionnez l’option &quot;perceuse&quot;.
+Pour explorer les données derrière le visuel, cliquez avec le bouton droit de la souris sur l’élément visuel et sélectionnez l’option &quot;perceuse&quot;.
 
-![](assets/discover-dashboard-basics-9.png)
+![](assets/discover-dashboard-basics-9.gif)
 
-* Pour exporter les données sous-jacentes, passez la souris sur le coin supérieur droit de la page d’analyse, cliquez sur le bouton &quot;Autres options&quot;, puis sélectionnez &quot;Exporter les données&quot;.
+### Exporter des données {#export-data}
 
-![](assets/discover-dashboard-basics-10.png)
+Pour exporter les données sous-jacentes à partir d’un visuel, passez la souris sur son coin supérieur droit. Cliquez sur le bouton &quot;Plus d&#39;options&quot;, choisissez &quot;Exporter les données&quot;, sélectionnez le format de votre choix, puis cliquez sur &quot;Exporter&quot;.
+![](assets/discover-dashboard-basics-10.gif)
 
-* Pour effectuer un zoom avant sur un visuel ou une mosaïque spécifique, passez la souris sur le coin supérieur droit et sélectionnez le bouton &quot;mise au point&quot;.
+### Mode de mise au point {#focus-mode}
 
-![](assets/discover-dashboard-basics-11.png)
+Pour effectuer un zoom avant sur un visuel ou une mosaïque spécifique, passez la souris sur le coin supérieur droit et sélectionnez le bouton &quot;mise au point&quot;.
+
+![](assets/discover-dashboard-basics-11.gif)
 
 ### Filtrage croisé {#cross-filtering}
 
-Par défaut, la sélection d’un libellé de valeur ou d’axe dans une visualisation transfère le filtre des autres visuels sur la page du rapport, en s’assurant qu’ils n’affichent que les données pertinentes filtrées.
+La sélection d’un libellé de valeur ou d’axe dans une visualisation transcende d’autres visuels sur la page du rapport, en s’assurant qu’ils n’affichent que les données pertinentes filtrées.
 
 ![](assets/discover-dashboard-basics-12.gif)
 
