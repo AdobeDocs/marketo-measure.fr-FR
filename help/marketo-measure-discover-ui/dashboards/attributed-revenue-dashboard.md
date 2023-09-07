@@ -4,70 +4,79 @@ title: Tableau de bord des recettes affectées
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: c6d9471ece2d249b68bcbfa259c328a6ab5e6192
+source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 14%
+source-wordcount: '391'
+ht-degree: 1%
 
 ---
 
 # Tableau de bord des recettes affectées {#attributed-revenue-dashboard}
 
-Le tableau de bord des recettes affectées offre une perspective précise des recettes directement liées à vos activités marketing. Découvrez en détail comment vos stratégies marketing ont contribué à sceller des offres.
+Le tableau de bord des recettes affectées offre une perspective précise des recettes directement liées à vos activités marketing. Découvrez comment vos stratégies marketing ont joué un rôle déterminant dans la conclusion d’offres.
 
-Questions sur le panorama :
+>[!NOTE]
+>
+>Ce tableau de bord est actuellement en version bêta. Au cours de cette phase de transition, les tableaux de bord actuels et nouveaux seront accessibles. Le tableau de bord actuel sera obsolète une fois que nous aurons entièrement effectué la transition et garanti des fonctionnalités optimales.
 
-Quels sont les canaux, sous-canaux ou campagnes qui se classent le plus en termes de recettes attribuées ?
-Quel est le montant total de nos recettes attribuées et le nombre de nos contrats à durée indéterminée ?
+**Questions sur le panorama :**
 
-<table style="table-layout:auto"> 
-<tbody>
-  <tr> 
-   <th>Composant</th> 
-   <th>Description</th>
-   <th>Champs d’exploration</th>
-   <th>Type de date</th>
-   <th>Filtres</th>
-  </tr>
-  <tr>
-    <td>Mosaïque Recettes affectées</td>
-    <td>Chiffre d’affaires total attribuable aux opportunités "Chiffre d’affaires fermé" avec points de contact enregistrés.</td>
-    <td rowspan="6"><li>ID de l’opportunité</li>
-<li>Nom de l'opportunité</li>
-<li>Date de création d'opportunité</li>
-<li>Date de fermeture de l'opportunité</li>
-<li>Est fermé (O/N)</li>
-<li>Est gagnant (O/N)</li>
-<li>Étape actuelle</li>
-<li>Modèle d’attribution</li>
-<li>Revenu attribué</li>
-<li>Recettes réalisées</li></td>
-    <td rowspan="6">Jour complet</td>
-    <td rowspan="6"><li>Date</li>
-<li>Modèle d’attribution</li>
-<li>Canal</li>
-<li>Sous-canal</li>
-<li>Campagne</li>
-<li>Segments</li></td>
-  </tr>
-  <tr>
-    <td>Mosaïque Traitements Attribuables</td>
-    <td>Nombre total d'offres "à succès clos" issues d'opportunités imputables.</td>
-  </tr>
-  <tr>
-    <td>Recettes affectées par canal au fil du temps</td>
-    <td>Graphique à barres empilées affichant le total des recettes attribuées, segmenté par canal associé, pour chaque trimestre/mois.
-    <br/><img src="assets/attributed-revenue-dashboard-1.png" width="600"></td>
-  </tr>
-  <tr>
-    <td>Tableau des recettes attribuées</td>
-    <td>Total des recettes attribuées segmenté par canal, sous-canal et campagne, présenté aux formats Tableau et Arborescence.
-    <br/><img src="assets/attributed-revenue-dashboard-2.png" width="600">
-    <br/><img src="assets/attributed-revenue-dashboard-3.png" width="600"></td>
-  </tr>
-  </tr>
-</tbody>
-</table>
+* Quels sont les canaux, sous-canaux ou campagnes qui se classent le plus en termes de recettes attribuées ?
+* Quel est le montant total de nos recettes attribuées et le nombre de nos contrats à durée indéterminée ?
+
+## Composants de tableau de bord {#dashboard-components}
+
+### Mosaïques IPC {#kpi-tiles}
+
+* **Recettes affectées**: contribution totale aux recettes, basée sur le modèle d’attribution sélectionné, provenant d’ Opportunités avec points de contact qui se sont terminés au cours de la période filtrée.
+* **Offres Attribuées**: nombre d’opportunités &quot;gagnantes fermées&quot; ayant des points de contact.
+
+### Graphique des recettes attribuées par canal au fil du temps {#attributed-revenue-by-channel-over-time-chart}
+
+Graphique à barres empilées affichant le total des recettes attribuées, segmenté par canal, pour chaque mois/trimestre/année.
+
+* Utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
+* Passez la souris sur un segment de barre ou l’espace entre les barres pour afficher des informations détaillées.
+
+**Questions sur le graphique :**
+
+* Quels canaux ont généré le plus de recettes par trimestre ?
+* Quelle a été la ventilation des recettes attribuées par canal le mois dernier ?
+
+![](assets/attributed-revenue-dashboard-1.png)
+
+### Tableau des recettes attribuées {#attributed-revenue-table}
+
+Total des recettes attribuées segmenté par canal, sous-canal et campagne, présenté aux formats Tableau et Arborescence. Cliquez sur le bouton dans le coin supérieur droit pour basculer entre les vues.
+
+**Questions sur le panorama :**
+
+* En quoi la distribution des recettes attribuée varie-t-elle entre différents sous-canaux au sein d’un canal ?
+* Quelles campagnes sous un certain sous-canal génèrent les recettes les plus attribuées ?
+
+**Vue tabulaire**
+
+* La vue tabulaire offre des informations claires et organisées sur la distribution des recettes attribuées. Les utilisateurs peuvent rapidement identifier les schémas de performances et identifier les stratégies marketing à fort impact en catégorisant les données dans les canaux, les sous-canaux et les campagnes.
+* Cliquez sur l’icône &quot;+&quot; en regard de chaque canal pour afficher la ventilation par sous-canal et par campagne.
+
+![](assets/attributed-revenue-dashboard-2.png)
+
+**Arborescence**
+
+* L’arborescence permet une exploration des données plus interactive et plus granulaire, ce qui permet aux marketeurs d’identifier les tendances, les anomalies ou les performances exceptionnelles dans le cadre de leurs efforts marketing.
+* Cliquez sur une branche pour approfondir l’analyse de la couche de hiérarchie suivante.
+
+![](assets/attributed-revenue-dashboard-3.png)
+
+## Volet Filtrer {#filter-pane}
+
+Ce tableau de bord est équipé des paramètres et filtres suivants :
+
+* Date (en fonction de la date de fermeture)
+* Modèle d’attribution
+* Canal, sous-canal
+* Campagne
+* Segments
 
 >[!MORELIKETHIS]
 >
