@@ -4,9 +4,9 @@ title: Nouveau guide de tableau de bord Discover
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
+source-git-commit: b75d9c7dae8886646d2df9613634c260d2d7b281
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1069'
 ht-degree: 9%
 
 ---
@@ -503,6 +503,4 @@ Les nouvelles fonctionnalités se trouvent dans la section [Découvrir les bases
 
 ## Retours {#feedback}
 
-Alors que nous nous efforçons continuellement d’améliorer votre expérience, nous apprécions beaucoup vos commentaires sur cette dernière mise à jour. Vos réflexions influenceront directement les améliorations futures, en veillant à ce que notre plateforme s’aligne toujours sur vos besoins.
-
-Fournissez des instructions sur la manière dont ils peuvent partager leurs commentaires (par exemple, un formulaire de retour in-app, un courrier électronique, etc.)
+Alors que nous nous efforçons continuellement d’améliorer votre expérience, nous apprécions beaucoup vos commentaires sur cette dernière mise à jour. Vos réflexions influenceront directement les améliorations futures, en veillant à ce que notre plateforme s’aligne toujours sur vos besoins. Veuillez garder un oeil sur un formulaire de commentaire dans Marketo Measure.
