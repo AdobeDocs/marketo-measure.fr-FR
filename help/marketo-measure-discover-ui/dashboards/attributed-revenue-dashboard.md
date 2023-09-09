@@ -4,9 +4,9 @@ title: Tableau de bord des recettes affectées
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '384'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Le tableau de bord des recettes affectées offre une perspective précise des re
 
 ### Mosaïques IPC {#kpi-tiles}
 
-* **Recettes affectées**: contribution totale aux recettes, basée sur le modèle d’attribution sélectionné, provenant d’ Opportunités avec points de contact qui se sont terminés au cours de la période filtrée.
+* **Recettes affectées**: contribution totale au chiffre d’affaires, basée sur le modèle d’attribution sélectionné, issue de la section Opportunités avec points de contact.
 * **Offres Attribuées**: nombre d’opportunités &quot;gagnantes fermées&quot; ayant des points de contact.
 
 ### Graphique des recettes attribuées par canal au fil du temps {#attributed-revenue-by-channel-over-time-chart}
