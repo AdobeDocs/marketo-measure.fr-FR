@@ -4,9 +4,9 @@ title: Tableau de bord des passeports
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: b3d4ea085d851908d52fb62fe58d860ae5c09099
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 1%
 
 ---
@@ -37,7 +37,7 @@ Le tableau de bord des passeports offre aux marketeurs une vue dynamique des pis
 
 ![](assets/passport-dashboard-1.png)
 
-### Contacts dans l’environnement intermédiaire par nom d’évaluation {#contacts-in-stage-by-stage-name}
+### Prospects ou contacts dans l’environnement intermédiaire par nom d’étape {#leads-or-contacts-in-stage-by-stage-name}
 
 * Chaque étape indique le nombre de pistes ou de contacts avec les points de contact qui les ont traversés au cours d’une période donnée.
    * L’affichage ou non de &quot;Prospère&quot; ou &quot;Contact&quot; est déterminé par les préférences définies dans : Paramètres > Paramètres d’attribution > Objet de tableau de bord par défaut.

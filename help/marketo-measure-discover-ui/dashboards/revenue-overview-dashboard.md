@@ -4,7 +4,7 @@ title: Tableau de bord Aperçu des recettes
 hide: true
 hidefromtoc: true
 feature: Reporting
-source-git-commit: e3900c57b68d4806f75639de35948838e9d120de
+source-git-commit: ed0252111fd75870b11ce1b0cdc7eec56c8c5e35
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -28,10 +28,10 @@ Le tableau de bord Aperçu des recettes fournit des informations sur les recette
 
 ### Mosaïques IPC {#kpi-tiles}
 
-* Chiffre d’affaires total : le total des recettes provenant des opportunités &quot;gagnantes fermées&quot;, y compris les opportunités sans points de contact.
-* Nombre total d’accords : nombre d’opportunités &quot;gagnantes fermées&quot;, y compris les opportunités sans points de contact.
-* Recettes affectées : recettes totales provenant des opportunités &quot;gagnantes fermées&quot; avec les points de contact.
-* Offres (attributs) : nombre d’opportunités &quot;gagnantes fermées&quot; ayant des points de contact.
+* **Recettes totales**: total des recettes provenant des opportunités &quot;gagnantes fermées&quot;, y compris les opportunités sans points de contact.
+* **Total des affaires**: nombre d’opportunités de &quot;gains fermés&quot;, y compris les opportunités sans points de contact.
+* **Recettes affectées**: recettes totales provenant des opportunités &quot;gagnantes fermées&quot; avec les points de contact.
+* **Offres Attribuées**: nombre d’opportunités &quot;gagnantes fermées&quot; ayant des points de contact.
 
 ### Graphique des recettes et des recettes attribuées {#revenue-and-attributed-revenue-chart}
 
