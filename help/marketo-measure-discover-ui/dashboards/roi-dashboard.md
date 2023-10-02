@@ -1,10 +1,8 @@
 ---
 description: Tableau de bord du ROI - [!DNL Marketo Measure] - Produit
 title: Tableau de bord du retour sur investissement
-hide: true
-hidefromtoc: true
 feature: Reporting
-source-git-commit: dabb6ed45ec87a97b333e11d5fc71be425edaf66
+source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 2%
@@ -19,7 +17,7 @@ Le tableau de bord du ROI offre aux marketeurs une vue granulaire des retours su
 >
 >Ce tableau de bord est actuellement en version bêta. Au cours de cette phase de transition, les tableaux de bord actuels et nouveaux seront accessibles. Le tableau de bord actuel sera obsolète une fois que nous aurons entièrement effectué la transition et garanti des fonctionnalités optimales.
 
-**Questions sur le panorama :**
+**Questions sur les réponses du panorama**
 
 * Quelles étaient les valeurs de ROI pour chaque canal, sous-canal et campagne ?
 * Comment les coûts et les revenus ont-ils été répartis sur chaque canal, sous-canal et campagne ?
@@ -49,7 +47,7 @@ Graphique à barres illustrant les coûts et les recettes, conçu pour offrir un
 * Tirez parti des fonctionnalités d’analyse et d’analyse pour classer les données par sous-canal et par campagne.
 * Passez la souris sur chaque barre pour afficher le ROI simple et réel.
 
-**Questions sur le graphique :**
+**Questions aux réponses du graphique**
 
 * Quelles étaient les valeurs de ROI pour chaque canal, sous-canal et campagne ?
 * Existe-t-il des canaux ou des sous-canaux aberrants avec des coûts exceptionnellement élevés ou faibles par rapport à leurs recettes ?
@@ -62,7 +60,7 @@ Graphique en courbes de série temporelle présentant la comparaison entre le re
 
 * Passez la souris sur une section du graphique pour afficher le ROI simple et réel.
 
-**Questions sur le graphique :**
+**Questions aux réponses du graphique**
 
 * Comment le ROI réalisé se compare-t-il au ROI simple sur des périodes spécifiques ?
 * Comment la tendance du ROI réalisé est-elle liée à des événements marketing significatifs au cours de la même période ?
@@ -76,7 +74,7 @@ Graphique à barres empilées affichant les coûts totaux, segmenté par canaux 
 * Utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
 * Passez la souris sur un segment de barre ou l’espace entre les barres pour afficher des informations détaillées.
 
-**Questions sur le graphique :**
+**Questions aux réponses du graphique**
 
 * Comment le coût combiné de tous les canaux se compare-t-il d&#39;un trimestre/mois au suivant ?
 * Comment les coûts d’un canal spécifique ont-ils évolué au fil du temps ?
@@ -89,7 +87,7 @@ Graphique à barres affichant les dépenses marketing segmentées par canal/sous
 
 * Tirez parti des fonctionnalités d’analyse et d’analyse pour classer les données par canal/sous-canal/campagne.
 
-**Questions sur le graphique :**
+**Questions aux réponses du graphique**
 
 * Quels sous-canaux ou campagnes d’un canal principal ont la distribution la plus élevée ?
 * Quels sont les moyens marketing (canal, sous-canal ou campagne) qui semblent sous-financés par rapport aux autres ?
@@ -102,7 +100,7 @@ Tableau présentant les recettes attribuées, les coûts et le retour sur invest
 
 * Cliquez sur l’icône &quot;+&quot; en regard de chaque canal pour afficher la ventilation par sous-canal et par campagne.
 
-**Colonnes:**
+**Colonnes**
 
 * Canal/Subchannel/Campaign
 * Coût
@@ -118,7 +116,7 @@ Tableau présentant les coûts, les nouvelles pistes, les opportunités et les o
 
 * Cliquez sur l’icône &quot;+&quot; en regard de chaque canal pour afficher la ventilation par sous-canal et par campagne.
 
-**Colonnes:**
+**Colonnes**
 
 * Canal/Subchannel/Campaign
 * Coût
