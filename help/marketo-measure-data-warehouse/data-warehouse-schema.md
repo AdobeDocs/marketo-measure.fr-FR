@@ -5,9 +5,9 @@ title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '22610'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Data Warehouse vous permet d’effectuer le suivi de toutes les données de votr
 >[!IMPORTANT]
 >
 >* Les lignes contenant une valeur pour _DELETED_DATE sont conservées pendant 7 jours, puis supprimées de Snowflake.
->* Les fuseaux horaires utilisés en Snowflake respectent l’heure universelle coordonnée (UTC).
+>* Les fuseaux horaires utilisés dans Snowflake respectent le temps universel coordonné (UTC).
 
 >[!NOTE]
 >
@@ -4331,7 +4331,7 @@ Contacts importés à partir du système source.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Cette fonctionnalité a été abandonnée. Veuillez ne pas utiliser cette colonne.</p>
+        <p>Cette fonctionnalité a été supprimée. Veuillez ne pas utiliser cette colonne.</p>
       </td>
       <td>
         <p>S/O</p>
@@ -9557,7 +9557,7 @@ Prospects importés à partir du système source.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Cette fonctionnalité a été abandonnée. Veuillez ne pas utiliser cette colonne.</p>
+        <p>Cette fonctionnalité a été supprimée. Veuillez ne pas utiliser cette colonne.</p>
       </td>
       <td>
         <p>S/O</p>
@@ -10175,7 +10175,7 @@ Opportunités importées à partir du système source.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Cette fonctionnalité a été abandonnée. Veuillez ne pas utiliser cette colonne.</p>
+        <p>Cette fonctionnalité a été supprimée. Veuillez ne pas utiliser cette colonne.</p>
       </td>
       <td>
         <p>S/O</p>
@@ -15558,7 +15558,7 @@ order by 1
 
 >[!NOTE]
 >
->Cette requête renvoie les recettes attribuées pour le modèle w de forme. Modifiez le modèle en mettant à jour le champ dans le calcul des recettes attribuées.
+>Cette requête renvoie les revenus attribués pour le modèle de forme w. Modifiez le modèle en mettant à jour le champ dans le calcul des revenus attribués.
 
 ```
 select bat.id
