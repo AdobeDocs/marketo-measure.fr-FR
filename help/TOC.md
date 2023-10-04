@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
 source-git-commit: 511509caaa89d7e71a68f19b4c90b43f44713ae3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 97%
       + Processus obsolètes {#deprecated-processes}
          + [[!UICONTROL Campagnes et membres de campagne]](channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
          + [Date de synchronisation de campagne](channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
-         + [Création d’un affichage en liste des campagnes [!DNL Salesforce] ](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+         + [Création d’un affichage des listes des campagnes  [!DNL Salesforce] ](channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
          + [Campagnes Dynamics et listes marketing](channel-tracking-and-setup/offline-channels/deprecated-processes/dynamics-campaigns-and-marketing-lists.md)
          + [Synchronisation des données historiques](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
          + [Synchronisation des campagnes hors ligne](channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
@@ -150,12 +150,12 @@ ht-degree: 97%
       + [Questions fréquentes sur la gestion de plusieurs devises](advanced-marketo-measure-features/multi-currency/faq-multi-currency.md)
 + Interface utilisateur de [!DNL Marketo Measure] Discover {#marketo-measure-discover-ui}
    + Tableaux de bord {#dashboards}
-      + [Découvrir les bases d’un tableau de bord](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
-      + [Nouveau guide de tableau de bord Discover](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Tableau de bord Aperçu des recettes](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Tableau de bord des recettes affectées](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-      + [Tableau de bord du retour sur investissement](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Tableau de bord des passeports](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Découvrir les bases du tableau de bord](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
+      + [Nouveau guide de découverte du tableau de bord](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
+      + [Tableau de bord Vue d’ensemble des revenus](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Tableau de bord Revenus affectés](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Tableau de bord Retour sur investissement](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Tableau de bord Passeport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
    + Tableaux de bord hérités {#legacy-dashboards}
       + [Documentation du tableau de bord des parcours de cohortes](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Documentation du tableau de bord des passeports](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
