@@ -1,12 +1,12 @@
 ---
 description: Notes de mise à jour actuelles - [!DNL Marketo Measure] - Documentation du produit
 title: Notes de mise à jour actuelles
-exl-id: 64b8fce8-af7d-4991-b01e-3fcf375d14e7
+exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 22f8cedf401a28444026d7b63384ce3cbabe0305
+source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 44%
+ht-degree: 47%
 
 ---
 
@@ -24,12 +24,12 @@ Tous les utilisateurs de Marketo Measure verront nos tableaux de bord in-app rec
 
 Le nouvel ensemble de tableaux de bord prédéfinis devrait être introduit par vagues, à partir de la première semaine d’octobre et se terminer avant la fin de l’année. Ces nouveaux tableaux de bord s’affichent automatiquement dans vos instances, avec des informations sur les produits et des liens vers la documentation.
 
-* [Nouveau guide de tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
-* [Découvrir les bases d’un tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
-* [Tableau de bord Aperçu des recettes](/help/marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md){target="_blank"}
-* [Tableau de bord des recettes affectées](/help/marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md){target="_blank"}
-* [Tableau de bord du retour sur investissement](/help/marketo-measure-discover-ui/dashboards/roi-dashboard.md){target="_blank"}
-* [Tableau de bord des passeports](/help/marketo-measure-discover-ui/dashboards/passport-dashboard.md){target="_blank"}
+* [Nouveau guide de découverte du tableau de bord](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
+* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+* [Tableau de bord Vue d’ensemble des revenus](/help/marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md){target="_blank"}
+* [Tableau de bord Revenus affectés](/help/marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md){target="_blank"}
+* [Tableau de bord Retour sur investissement](/help/marketo-measure-discover-ui/dashboards/roi-dashboard.md){target="_blank"}
+* [Tableau de bord Passeport](/help/marketo-measure-discover-ui/dashboards/passport-dashboard.md){target="_blank"}
 
 >[!NOTE]
 >
