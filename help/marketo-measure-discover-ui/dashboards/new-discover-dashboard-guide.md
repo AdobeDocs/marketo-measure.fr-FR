@@ -1,15 +1,16 @@
 ---
 description: Nouveau guide de tableau de bord Discover - [!DNL Marketo Measure] - Produit
-title: Nouveau guide de tableau de bord Discover
+title: Nouveau guide de découverte du tableau de bord
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 9%
+source-wordcount: '1076'
+ht-degree: 10%
 
 ---
 
-# Nouveau guide de tableau de bord Discover {#new-discover-dashboard-guide}
+# Nouveau guide de découverte du tableau de bord {#new-discover-dashboard-guide}
 
 Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. Notre objectif principal est de vous offrir une expérience plus simple et intuitive. Grâce à des visuels plus propres et une navigation plus simple, cette refonte conserve la plupart des mesures existantes, mais introduit également de nouvelles informations. Explorez et découvrez la clarté améliorée et la valeur ajoutée.
 
@@ -502,3 +503,9 @@ Les nouvelles fonctionnalités se trouvent dans la section [Découvrir les bases
 ## Retours {#feedback}
 
 Alors que nous nous efforçons continuellement d’améliorer votre expérience, nous apprécions beaucoup vos commentaires sur cette dernière mise à jour. Vos réflexions influenceront directement les améliorations futures, en veillant à ce que notre plateforme s’aligne toujours sur vos besoins. Veuillez garder un oeil sur un formulaire de commentaire dans Marketo Measure.
+
+>[!MORELIKETHIS]
+>
+>* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+

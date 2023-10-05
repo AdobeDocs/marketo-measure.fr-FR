@@ -1,15 +1,16 @@
 ---
 description: Tableau de bord du ROI - [!DNL Marketo Measure] - Produit
-title: Tableau de bord du retour sur investissement
+title: Tableau de bord Retour sur investissement
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 2%
+source-wordcount: '758'
+ht-degree: 3%
 
 ---
 
-# Tableau de bord du retour sur investissement {#roi-dashboard}
+# Tableau de bord Retour sur investissement {#roi-dashboard}
 
 Le tableau de bord du ROI offre aux marketeurs une vue granulaire des retours sur investissement sur les canaux, sous-canaux et campagnes. Il ventile méticuleusement les schémas de coûts et de recettes, tout en mettant en avant des mesures telles que le coût par prospect, l’offre et les opportunités, afin d’assurer une compréhension complète de l’attribution marketing.
 
@@ -143,4 +144,6 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 >[!MORELIKETHIS]
 >
->[Découvrir les bases d’un tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+

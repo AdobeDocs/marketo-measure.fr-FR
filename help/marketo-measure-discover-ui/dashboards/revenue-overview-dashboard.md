@@ -1,15 +1,16 @@
 ---
 description: Tableau de bord Aperçu des recettes - [!DNL Marketo Measure] - Produit
-title: Tableau de bord Aperçu des recettes
+title: Tableau de bord Vue d’ensemble des revenus
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '315'
+ht-degree: 2%
 
 ---
 
-# Tableau de bord Aperçu des recettes {#revenue-overview-dashboard}
+# Tableau de bord Vue d’ensemble des revenus {#revenue-overview-dashboard}
 
 Le tableau de bord Aperçu des recettes fournit des informations sur les recettes totales dérivées de votre gestion de la relation client, en mettant en lumière le rôle de vos stratégies marketing. Il offre un aperçu de la manière dont le marketing influence vos recettes globales et contribue à la conclusion réussie des offres.
 
@@ -59,9 +60,9 @@ Ce graphique circulaire visualise distinctement votre couverture d’attribution
 
 Ce tableau de bord est équipé des paramètres et filtres suivants :
 
-* Modèle d’attribution
 * Date (en fonction de la date de fermeture)
 
 >[!MORELIKETHIS]
 >
->[Découvrir les bases d’un tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

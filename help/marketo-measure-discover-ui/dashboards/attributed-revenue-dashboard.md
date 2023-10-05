@@ -1,15 +1,16 @@
 ---
 description: Tableau de bord des recettes attribuées - [!DNL Marketo Measure] - Produit
-title: Tableau de bord des recettes affectées
+title: Tableau de bord Revenus affectés
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
+source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 1%
+source-wordcount: '388'
+ht-degree: 3%
 
 ---
 
-# Tableau de bord des recettes affectées {#attributed-revenue-dashboard}
+# Tableau de bord Revenus affectés {#attributed-revenue-dashboard}
 
 Le tableau de bord des recettes affectées offre une perspective précise des recettes directement liées à vos activités marketing. Découvrez comment vos stratégies marketing ont joué un rôle déterminant dans la conclusion d’offres.
 
@@ -78,4 +79,6 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 >[!MORELIKETHIS]
 >
->[Découvrir les bases d’un tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+
