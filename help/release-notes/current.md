@@ -4,9 +4,9 @@ title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -20,12 +20,12 @@ Vous trouverez ci-dessous toutes les nouvelles fonctionnalités et fonctionnalit
 
 **Refonte du tableau de bord de Discover**
 
-Tous les utilisateurs de Marketo Measure verront nos tableaux de bord in-app reconçus, qui combinent une convivialité améliorée à une valeur ajoutée. Nous introduisons également de nouvelles mesures, telles que le &quot;retour sur investissement réalisé&quot;, qui prend en compte le délai type entre les investissements marketing et les achats dans les marchés d’accès B2B.
+Bientôt disponibles pour tous les utilisateurs et toutes les utilisatrices de Marketo Measure, les tableaux de bord in-app font peau neuve et offrent plus de convivialité et d’efficacité. Nous introduisons également de nouvelles mesures, telles que le « Retour sur investissement réalisé », qui prend en compte le délai type entre les investissements marketing et les achats dans les stratégies B2B clé-en-main.
 
-Le nouvel ensemble de tableaux de bord prédéfinis devrait être introduit par vagues, à partir de la première semaine d’octobre et se terminer avant la fin de l’année. Ces nouveaux tableaux de bord s’affichent automatiquement dans vos instances, avec des informations sur les produits et des liens vers la documentation.
+Ces nouveaux tableaux de bord intégrés seront progressivement déployés à partir de la première semaine d’octobre jusqu’à la fin de l’année. Ils seront automatiquement déployés sur vos instances et afficheront des informations sur les produits et des liens vers la documentation.
 
-* [Nouveau guide de découverte du tableau de bord](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
-* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+* [Nouveau guide du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md){target="_blank"}
+* [Bases du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 * [Tableau de bord Vue d’ensemble des revenus](/help/marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md){target="_blank"}
 * [Tableau de bord Revenus affectés](/help/marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md){target="_blank"}
 * [Tableau de bord Retour sur investissement](/help/marketo-measure-discover-ui/dashboards/roi-dashboard.md){target="_blank"}
@@ -33,21 +33,21 @@ Le nouvel ensemble de tableaux de bord prédéfinis devrait être introduit par 
 
 >[!NOTE]
 >
->Bien que les tableaux de bord actuels soient obsolètes à la mi-janvier 2024, vous pouvez utiliser les deux versions jusqu’à ce moment, ce qui garantit une transition fluide.
+>À la mi-janvier 2024, les tableaux de bord actuels deviendront obsolètes. Pour assurer une transition fluide, vous pouvez utiliser les deux versions jusqu’à cette date.
 
-### Dépréciations {#deprecations}
+### Obsolescence {#deprecations}
 
 <p>
 
-* **Champ &quot;custom_properties&quot;**
+* **Champ « custom_properties »**
 
-Dans notre entrepôt de données, le champ &quot;custom_properties&quot; sert de stockage pour les points de données supplémentaires non couverts par notre schéma fixe. Stockée au format JSON, l’utilisation de ce champ est limitée et son intégration aux requêtes SQL peut être compliquée, ce qui affecte les performances. Compte tenu de ces facteurs, nous avons décidé d&#39;abandonner ce domaine. Cette modification concernera principalement la couche de traitement de données dans notre stockage de table Azure et les données exportées vers notre entrepôt de données.
+Dans notre entrepôt de données, le champ « custom_properties » sert de stockage pour les points de données supplémentaires non couverts par notre schéma fixe. L’utilisation de ce champ, stocké au format JSON, est limitée et son intégration aux requêtes SQL peut s’avérer compliquée et nuire aux performances. Nous avons donc décidé de rendre ce champ obsolète. Ce changement aura une incidence sur la couche de traitement de données dans notre stockage Table Azure et les données exportées vers notre entrepôt de données.
 
 * **Package Dynamics**
 
-   * Pour rester connecté à Dynamics, installez notre dernière version de package, v6.12. Anciennes versions `(<v6.12)` ne sera plus prise en charge. Cette mise à jour optimise la création d’enregistrements historiques afin de réduire l’utilisation du stockage.
+   * Pour rester connecté à Dynamics, installez notre dernière version de package (6.12). Les anciennes versions `(<v6.12)` ne seront plus prise en charge. Cette mise à jour optimise la création d’enregistrements historiques afin de réduire l’utilisation du stockage.
 
-   * La méthode obsolète d’OAuth avec un RefreshToken sera obsolète. Reportez-vous à [ce guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} pour mettre à jour vos informations d’identification afin de respecter les bonnes pratiques de Microsoft concernant l’utilisation de ClientSecret.
+   * La méthode OAuth par jeton d’actualisation a fait son temps et devient obsolète. Consultez ce [ce guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} pour mettre à jour vos informations d’identification afin de respecter les bonnes pratiques de Microsoft concernant l’utilisation de ClientSecret.
 
 ### Que va-t-il se passer ? {#q4-whats-coming}
 
@@ -55,7 +55,7 @@ Dans notre entrepôt de données, le champ &quot;custom_properties&quot; sert de
 
 **Création de rapports personnalisés in-app**
 
-Pour la première fois, les clients Marketo Measure pourront créer et enregistrer leurs propres rapports directement dans l’application. Cette mise à jour fera suite à la publication des tableaux de bord préconfigurés début 2024.
+Pour la première fois, les clients et clientes Marketo Measure pourront créer et enregistrer leurs propres rapports directement dans l’application. Cette fonctionnalité sera déployée après la publication des tableaux de bord intégrés début 2024.
 
 <br>
 
