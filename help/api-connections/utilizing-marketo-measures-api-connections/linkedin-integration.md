@@ -4,10 +4,10 @@ description: Intégration linkedIn - [!DNL Marketo Measure] - Documentation du p
 title: Intégration linkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
 workflow-type: tm+mt
-source-wordcount: '2603'
-ht-degree: 2%
+source-wordcount: '2653'
+ht-degree: 3%
 
 ---
 
@@ -23,7 +23,7 @@ Forms Lead Gen : grâce à l’intégration à LinkedIn Lead Gen Forms, Marketo 
 
 ## Disponibilité {#availability}
 
-Disponible pour tous les clients.
+Disponible pour tous les utilisateurs.
 
 ## Exigences {#requirements}
 
@@ -109,7 +109,7 @@ Creative D : Partager 234
 
 ![](assets/two.png)
 
-`1)` [!DNL Marketo Measure] consultera d’abord toutes les campagnes, tous les créatifs et tous les partages avec un statut &quot;Principal&quot;. [!DNL Marketo Measure] ne marquera pas les publicités suspendues, archivées ou annulées. Si une publicité a été suspendue, définissez sur [!UICONTROL principal], nous la marquerons une fois de plus principale. Si nous pouvons trouver un partage unique, ce qui signifie qu’il n’est pas utilisé sur plusieurs créatifs ou campagnes (par exemple, Creative A : Partager 123), [!DNL Marketo Measure] ajoutera notre paramètre personnalisé `>> ?_bl={creativeId}` à l’URL de partage.
+`1)` [!DNL Marketo Measure] recherche d’abord toutes les campagnes, tous les créatifs et tous les partages avec un état &quot;actif&quot;. [!DNL Marketo Measure] ne marquera pas les publicités suspendues, archivées ou annulées. Si une publicité a été suspendue, définissez sur [!UICONTROL active], nous le marquerons une fois qu’il sera à nouveau actif. Si nous pouvons trouver un partage unique, ce qui signifie qu’il n’est pas utilisé sur plusieurs créatifs ou campagnes (par exemple, Creative A : Partager 123), [!DNL Marketo Measure] ajoutera notre paramètre personnalisé `>> ?_bl={creativeId}` à l’URL de partage.
 
 `2)` Désormais, si le partage a été partagé et qu’il a perdu son unicité (par exemple, Creative B : Partager 234 et Creative C : Partager 234 et Creative D : Partager 234), [!DNL Marketo Measure] arrêtera et archivera tous les créatifs similaires (qui seraient Creative B, Creative C et Creative D).
 
@@ -127,11 +127,17 @@ Creative D : Partager 234
 
 ## Fonctionnement : Lead Gen Forms {#how-it-works-lead-gen-forms}
 
+**[!DNL LinkedIn's]Exigences uniques en matière de balisage automatique**
+
+[!DNL Marketo Measure] peut vous aider à suivre les performances de votre campagne  en balisant automatiquement vos pages de destination.[!DNL LinkedIn]
+
+[!DNL Marketo Measure] rechercheront des créatifs avec un partage LinkedIn unique et ajouteront une `?_bl={creativeId}` à la fin de celle-ci.
+
 **Le processus**
 
 Via [!DNL LinkedIn's] API de formulaire d’annonce et API de réponse de formulaire d’annonce, nous pouvons rassembler les données d’envoi de formulaire pour un compte d’annonce et associer l’adresse électronique à un prospect depuis le CRM ou Marketo.
 
-Les formulaires linkedIn peuvent contenir plusieurs adresses électroniques. Lorsque nous téléchargeons les réponses de formulaire, nous recherchons les adresses électroniques avec la priorité suivante : Adresse électronique professionnelle, Adresse électronique (champ de formulaire Principal) ou champs personnalisés avec une valeur de courrier électronique valide.
+Les formulaires linkedIn peuvent contenir plusieurs adresses électroniques. Lorsque nous téléchargeons les réponses de formulaire, nous recherchons les adresses électroniques avec la priorité suivante : Adresse électronique professionnelle, Adresse électronique (champ de formulaire principal) ou champs personnalisés avec une valeur de courrier électronique valide.
 
 Quel que soit l’état Campaign ou Creative, toutes les réponses au formulaire auront un point de contact. [!DNL Marketo Measure] comporte une restriction de recherche en amont de 90 jours ; [!DNL Marketo Measure] ne peut pas accéder aux réponses de formulaire datant de plus de 90 jours, mais plus la variable [!DNL Marketo Measure] et [!DNL LinkedIn] l’intégration est activée, plus les points de contact du formulaire de génération de piste sont visibles par le biais de [!DNL Marketo Measure].
 
@@ -162,95 +168,99 @@ Une fois [!DNL Marketo Measure] a correctement balisé votre page d’entrée su
  </colgroup> 
  <tbody> 
   <tr> 
-   <th>Champ de point de contact</th> 
+   <th style="width:30%">Champ de point de contact</th> 
    <th>Valeur échantillon</th> 
   </tr> 
   <tr> 
-   <td><p>Identifiant de publicité </p></td> 
-   <td><p>84186224 </p></td> 
+   <td>Identifiant de publicité</td>
+   <td>84186224</td>
   </tr> 
   <tr> 
-   <td><p>Contenu publicitaire </p></td> 
-   <td><p>copy-1-image-2-man 95% des spécialistes du marketing #B2B considèrent que la stratégie de création de demande est une réussite. En savoir plus : [!DNL https]://lnkd.in/jgdi50vKrgv</p></td> 
+   <td>Contenu publicitaire</td>
+   <td>copy-1-image-2-man 95% des spécialistes du marketing #B2B considèrent que la stratégie de création de demande est une réussite. En savoir plus : [!DNL https]://lnkd.in/jgdi50vKrgv</td>
   </tr> 
   <tr> 
-   <td><p>Identifiant du groupe publicitaire </p></td> 
-   <td><p>(vide) </p></td> 
+   <td>Identifiant du groupe publicitaire</td>
+   <td>(vide)</td>
   </tr> 
   <tr> 
-   <td><p>Nom de groupe publicitaire </p></td> 
-   <td><p>(vide) </p></td> 
+   <td>Nom de groupe publicitaire</td>
+   <td>(vide)</td>
   </tr> 
   <tr> 
-   <td><p>Identifiant de campagne publicitaire </p></td> 
-   <td><p>138949954 </p></td> 
+   <td>Identifiant de campagne publicitaire</td>
+   <td>138949954</td>
   </tr> 
   <tr> 
-   <td><p>Nom de la campagne publicitaire </p></td> 
-   <td><p>SU - Comptes COM - Compétences à la demande </p></td> 
+   <td>Nom de la campagne publicitaire</td>
+   <td>SU - Comptes COM - Compétences à la demande</td>
   </tr> 
   <tr> 
-   <td><p>URL de destination de l’annonce </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>URL de destination de l’annonce <b>*</b></td>
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>URL du formulaire </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>URL du formulaire</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>URL du formulaire - Brut </p></td> 
-   <td><p>info.bizible.com/demo </p></td> 
+   <td>URL du formulaire - Brut</td> 
+   <td>info.bizible.com/demo</td> 
   </tr> 
   <tr> 
-   <td><p>Identifiant du mot-clé </p></td> 
-   <td><p>(vide) </p></td> 
+   <td>Identifiant du mot-clé</td> 
+   <td>(vide)</td> 
   </tr> 
   <tr> 
-   <td><p>Type de correspondance de mot-clé </p></td> 
-   <td><p>(vide) </p></td> 
+   <td>Type de correspondance de mot-clé</td> 
+   <td>(vide)</td> 
   </tr> 
   <tr> 
-   <td><p>Page de destination </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders </p></td> 
+   <td>Page de destination</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders</td> 
   </tr> 
   <tr> 
-   <td><p>Page d’entrée - Raw </p></td> 
-   <td><p>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217 </p></td> 
+   <td>Page d’entrée - Raw</td> 
+   <td>https://www.adobe.com/marketing-attribution-for-demand-generation-leaders?_bl=84186217</td> 
   </tr> 
   <tr> 
-   <td><p>Canal marketing </p></td> 
-   <td><p>Social payant </p></td> 
+   <td>Canal marketing</td> 
+   <td>Référencement social payant</td> 
   </tr> 
   <tr> 
-   <td><p>Canal marketing - Chemin </p></td> 
-   <td><p>Social payant.LinkedIn </p></td> 
+   <td>Canal marketing - Chemin</td> 
+   <td>Social payant.LinkedIn</td> 
   </tr> 
   <tr> 
-   <td><p>Support </p></td> 
-   <td><p>"cpc" ou "Lead Gen Form"</p></td> 
+   <td>Support</td> 
+   <td>"cpc" ou "Lead Gen Form"</td> 
   </tr> 
   <tr> 
-   <td><p>Page du référent </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Page du référent</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Page du référent - Brut </p></td> 
-   <td><p>www.linkedin.com/ </p></td> 
+   <td>Page du référent - Brut</td> 
+   <td>www.linkedin.com/</td> 
   </tr> 
   <tr> 
-   <td><p>Expression de recherche </p></td> 
-   <td><p>(vide) </p></td> 
+   <td>Expression de recherche</td> 
+   <td>(vide)</td> 
   </tr> 
   <tr> 
-   <td><p>Type de Touchpoint </p></td> 
-   <td><p>Formulaire web </p></td> 
+   <td>Type de Touchpoint</td> 
+   <td>Formulaire web</td>
   </tr> 
   <tr> 
-   <td><p>Source du point de contact </p></td> 
-   <td><p>LinkedIn </p></td> 
+   <td>Source du point de contact</td>
+   <td>LinkedIn</td>
   </tr> 
  </tbody> 
 </table>
+
+**&#42;** _Le champ &quot;URL de destination de l’annonce&quot; n’est renseigné que pour le contenu sponsorisé. Il n’est pas renseigné pour le Forms de génération de pistes._
+
+<br>
 
 ## Coûts {#costs}
 
@@ -262,7 +272,7 @@ Comme pour les autres intégrations d’annonces, [!DNL Marketo Measure] a défi
 
 ## [!DNL Marketo Measure] Discover {#marketo-measure-discover}
 
-Certaines améliorations ont été apportées à la fonction [!DNL Marketo Measure] Découvrez comment prendre en charge les rapports Forms de génération de pistes.
+Certaines améliorations ont été apportées à la fonction [!DNL Marketo Measure] Découvrez comment prendre en charge la création de rapports Forms de Lead Gen.
 
 **Payant Media Board**
 
@@ -280,7 +290,7 @@ Un partage obscur est un message où il n’est jamais publié sur la page de l�
 
 **Quelles sont les instructions ? [!DNL Marketo Measure] balise réelle ?**
 
-Il existe quatre statuts différents sur un [!DNL LinkedIn] Campaign et Creative : Principal, en pause, archivé et annulé. Nous ne marquons que les campagnes et les créatifs Principaux. Le balisage d’autres états les définit à nouveau sur Principal. [!DNL Marketo Measure] ne marquera pas les campagnes ou les créatifs en pause, archivés ou annulés, mais le balisage reprendra si l’état devient Principal.
+Il existe quatre statuts différents sur un [!DNL LinkedIn] Campagne et création : active, en pause, archivée et annulée. Nous marquons uniquement les campagnes et les créatifs actifs. Le balisage d’autres états les redéfinit sur Actif. [!DNL Marketo Measure] ne marquera pas Campagnes ou créatifs en pause, archivés ou annulés, mais le balisage reprendra si l’état devient Actif.
 
 **Quelle est la valeur de [!DNL Marketo Measure] utilise-t-il pour baliser ?**
 
