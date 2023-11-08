@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] Maintenance - [!DNL Marketo Measure] - Docu
 title: "[!DNL Marketo Measure] Maintenance"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 **Synchroniser les points de contact des acheteurs pour les nouvelles campagnes hors ligne (2x/mois)**
 
-Comme vous l&#39;avez appris lors de l&#39;intégration : [!DNL Marketo Measure] obtient des informations sur vos efforts de marketing hors ligne en synchronisant avec les campagnes de la gestion de la relation client. Lorsque votre entreprise lance de nouvelles campagnes, veillez à activer les points de contact d’achat pour chaque campagne, le cas échéant. Consulter [cet article](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)pour plus d’informations.
+Comme vous l&#39;avez appris lors de l&#39;intégration : [!DNL Marketo Measure] obtient des informations sur vos efforts de marketing hors ligne en synchronisant avec les campagnes de la gestion de la relation client. Lorsque votre entreprise lance de nouvelles campagnes, veillez à activer les points de contact d’achat pour chaque campagne, le cas échéant. Consulter [cet article](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)pour plus d’informations.
 
 **Dépense de chargement pour tous les canaux (1x/mois)**
 
@@ -27,7 +27,7 @@ Actualisez votre mémoire pour savoir comment télécharger des informations de 
 
 **Mise à jour de la liste des domaines à suivre (1x/mois)**
 
-Marketo Measure effectue le suivi de toutes les pages et sous-domaines pour lesquels notre JavaScript est principal, mais uniquement pour les domaines que nous connaissons. Si vous avez récemment débogué un nouveau domaine, développé à l’international ou modifié votre Principal domaine, contactez [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour vous assurer que nous mettons à jour votre compte en conséquence.
+Marketo Measure effectue le suivi de toutes les pages et sous-domaines sur lesquels notre JavaScript est actif, mais uniquement pour les domaines que nous connaissons. Si vous avez récemment débogué un nouveau domaine, développé à l’international ou modifié votre domaine principal, contactez [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour vous assurer que nous mettons à jour votre compte en conséquence.
 
 **Vérification du mapping de canal personnalisé pour plus de précision (1x/mois)**
 

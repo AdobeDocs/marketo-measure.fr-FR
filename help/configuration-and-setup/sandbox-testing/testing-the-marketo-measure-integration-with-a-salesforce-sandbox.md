@@ -4,7 +4,7 @@ description: Test de l’intégration Marketo Measure avec un environnement de t
 title: Test de l’intégration Marketo Measure avec un environnement de test Salesforce
 exl-id: df40b000-4572-46df-aef5-8f690ca8ed7a
 feature: Salesforce
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 L’un des [!DNL Marketo Measure] les fonctionnalités principales sont sa capacité à suivre vos efforts de marketing numérique par le biais d’actions sur votre site web, puis à transmettre ces données à votre production. [!DNL Salesforce org] par le biais de pistes et de contacts. Cependant, il n’existe généralement pas de pistes entrantes créées à partir de votre site web dans une intégration Sandbox. Par conséquent, l’accent mis sur les données sera uniquement mis hors ligne.
 
-Voici les deux sources référencées pour les deux phases du test. [Étapes 1 à 4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) et [Étapes 5 à 6](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md). Nous vous recommandons de consulter ces documents, car ils fournissent davantage de détails dans certains domaines.
+Voici les deux sources référencées pour les deux phases du test. [Étapes 1 à 4](https://help.salesforce.com/apex/HTViewHelpDoc?id=lead_import_wizard.htm&amp;language=en_US) et [Étapes 5 à 6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Nous vous recommandons de consulter ces documents, car ils fournissent davantage de détails dans certains domaines.
 
 1. Vous devez créer des pistes dans un fichier CSV afin de pouvoir les télécharger dans une campagne. Pour ce faire, exportez des pistes par le biais d’un rapport dans votre Salesforce de production. Dans le cas contraire, vous pouvez créer manuellement des pistes dans un fichier Excel, puis les enregistrer au format CSV pour importation. Vous n&#39;avez besoin que d&#39;environ 20 enregistrements. Le fichier doit contenir les colonnes suivantes :
 

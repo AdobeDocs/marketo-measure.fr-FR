@@ -3,10 +3,10 @@ description: Bonnes pratiques pour les canaux hors ligne - [!DNL Marketo Measure
 title: Bonnes pratiques pour les canaux hors ligne
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '1057'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 Pour avoir la précision [!DNL Marketo Measure] création de rapports, vos canaux marketing doivent être correctement configurés. Le &quot;[!UICONTROL Canal marketing]&#39; affiche le groupe de tactiques marketing de niveau supérieur auquel un point de contact peut appartenir (événements, webinaires, syndication de contenu, etc.).
 
-La configuration de vos canaux marketing comporte deux aspects : en ligne et hors ligne. Ce document sera axé sur la variable [!DNL Marketo Measure] recommandations de bonnes pratiques pour configurer et gérer vos canaux hors ligne et la manière dont ils sont synchronisés avec [!DNL Marketo Measure] via les campagnes CRM.
+La configuration de vos canaux marketing comporte deux aspects : en ligne et hors ligne. Ce document sera axé sur la variable [!DNL Marketo Measure] recommandations de bonnes pratiques pour configurer et gérer vos canaux hors ligne et la manière dont ils sont synchronisés avec [!DNL Marketo Measure] via les campagnes CRM.
 
 Les canaux hors ligne ont deux aspects clés :
 
@@ -32,7 +32,7 @@ La valeur &quot;Canal marketing&quot; de ces points de contact est basée sur le
 Gardez à l’esprit les bonnes pratiques suivantes, que vous mappiez vos canaux hors ligne pour la première fois ou que vous les examiniez simplement pour vérifier leur précision.
 
 * Création d’une structure délibérée pour vos canaux hors ligne
-   * Prenez le temps de réfléchir à l’organisation de vos campagnes marketing et à leur place dans la variable [!DNL Marketo Measure] framework. Déterminer quels canaux et sous-canaux doivent être représentés dans vos canaux hors ligne, ainsi que les types de campagne CRM qui différencient ces canaux les uns des autres
+   * Prenez le temps de réfléchir à l’organisation de vos campagnes marketing et à la manière dont elle s’inscrivent dans le framework [!DNL Marketo Measure]. Déterminer quels canaux et sous-canaux doivent être représentés dans vos canaux hors ligne, ainsi que les types de campagne CRM qui différencient ces canaux les uns des autres
 * Commencez par utiliser vos valeurs &quot;Type&quot; de campagne CRM actuelles.
    * Les canaux hors ligne sont définis par le &quot;Type&quot; de la campagne CRM. Toutefois, il se peut que la valeur &quot;Type&quot; de la campagne CRM personnalisée doive être créée pour s’adapter aux valeurs idéales Canal hors ligne et Sous-canal. Les valeurs &quot;Type&quot; de campagne CRM personnalisée doivent porter la convention d’affectation de nom illustrée ci-dessous :
       * CANAL - SUBCANAL
@@ -72,9 +72,9 @@ Si votre équipe a récemment effectué l’une des expériences ci-dessus, [!DN
 >
 >* [Configuration de canal hors ligne](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
 >* [Synchronisation de campagne personnalisée - Synchronisation des applications](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
->* [Synchronisation des campagnes hors ligne - Synchronisation CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md)
->* [Campagne hors ligne et membres de campagne - Synchronisation CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaigns-and-campaign-members.md)
->* [Dates de synchronisation de campagne - Synchronisation CRM](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/campaign-sync-dates.md)
+>* [Synchronisation des campagnes hors ligne - Synchronisation CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
+>* [Campagne hors ligne et membres de campagne - Synchronisation CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
+>* [Dates de synchronisation de campagne - Synchronisation CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
 >* [Configurations pour plusieurs types d’enregistrement de campagne](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
->* [Création d’un mode Liste des campagnes](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
->* [Synchronisation des données historiques](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-historical-data.md)
+>* [Création d’un mode Liste des campagnes](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
+>* [Synchronisation des données historiques](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

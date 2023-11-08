@@ -4,7 +4,7 @@ description: Configuration de canal personnalisé hors ligne - [!DNL Marketo Mea
 title: Configuration de canal personnalisé hors ligne
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Tous les types de campagne existants doivent être inclus dans la carte de vos c
 
 Prenez le temps d&#39;entrer dans [!DNL Salesforce] pour déterminer le nombre et la nature de vos types d’enregistrements existants, que vous souhaitez inclure, et si vous devez créer des campagnes supplémentaires en fonction des informations ci-dessus. Une fois que vous avez renseigné toutes les informations nécessaires, vous êtes prêt à les télécharger.
 
-En savoir plus sur [synchronisation hors ligne [!DNL Salesforce] Campagnes avec [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md).
+En savoir plus sur [synchronisation hors ligne [!DNL Salesforce] Campagnes avec [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md).
 
 ## Gestion des campagnes SFDC pour les efforts de marketing en ligne {#handling-sfdc-campaigns-for-online-marketing-efforts}
 

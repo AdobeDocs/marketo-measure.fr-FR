@@ -3,7 +3,7 @@ description: Méthodes de gestion des dépenses - [!DNL Marketo Measure] - Docum
 title: Méthodes de gestion des dépenses
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 3df1bd288ebd65f75a2ed52d7c8a6faf50c7ff1f
+source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Chaque [!DNL Marketo Measure] a accès à une fonctionnalité appelée [Coûts d
 
 Une fois activée, cette fonctionnalité extrait automatiquement les dépenses de n’importe quel programme/campagne CRM répondant aux critères suivants.
 
-i. [!DNL Marketo Measure] vérifie d’abord si la campagne/le programme crée des points de contact, à partir d’une correspondance [Règle de synchronisation de campagne](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) qui a été créé ou une correspondance [Règle de synchronisation du programme](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) qui a été créé, ou la variable [Activer la valeur Points de contact d’achat](/help/channel-tracking-and-setup/offline-channels/deprecated-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) est &quot;Inclure tous les membres de campagne&quot; ou &quot;Inclure les membres de campagne &quot;réactifs&quot;.
+i. [!DNL Marketo Measure] vérifie d’abord si la campagne/le programme crée des points de contact, à partir d’une correspondance [Règle de synchronisation de campagne](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) qui a été créé ou une correspondance [Règle de synchronisation du programme](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) qui a été créé, ou la variable [Activer la valeur Points de contact d’achat](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) est &quot;Inclure tous les membres de campagne&quot; ou &quot;Inclure les membres de campagne &quot;réactifs&quot;.
 
 ii. Une Date de début doit être renseignée sur la campagne/le programme.
 
