@@ -3,10 +3,10 @@ description: « Installation et configuration du package [!DNL Marketo Measure]
 title: « Installation et configuration du package [!DNL Marketo Measure] [!DNL Salesforce]  »
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: ht
-source-wordcount: '543'
-ht-degree: 100%
+source-git-commit: 68eb5bf83d589c9161490b1772551ed46a9ce444
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 99%
 
 ---
 
@@ -48,16 +48,6 @@ Une fois l’installation terminée, vous pouvez mettre à jour vos dispositions
 >
 >Pour en savoir plus sur les autorisations créées dans [!DNL Marketo Measure] et la façon dont elles seront utilisées, [cliquez ici](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.
 
-## Installation du package de tableau de bord [!DNL Marketo Measure] {#install-marketo-measure-dashboard-package}
-
-Le package d’extension [!UICONTROL Tableau de bord] contient trois tableaux prédéfinis. Nous vous recommandons d’installer ce package [!UICONTROL dans] l’environnement de production pour tous les utilisateurs.
-
-1. Installez le package à partir de [[!DNL Salesforce] AppExchange](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}.
-
-1. Sélectionnez **[!UICONTROL Installation pour tous les utilisateurs]**.
-
-   ![](assets/marketo-measure-salesforce-package-installation-and-set-up-3.png)
-
 ## Création d’un profil et d’un utilisateur [!DNL Marketo Measure] {#creating-a-marketo-measure-profile-and-user}
 
 [!DNL Marketo Measure] envoie et reçoit des données par l’intermédiaire d’un utilisateur [!DNL Salesforce] connecté à l’application [!DNL Marketo Measure].
@@ -98,3 +88,7 @@ Créez un profil [!DNL Marketo Measure] pour vous assurer que vous ne rencontrer
 1. Dans le regroupement **[!UICONTROL Intégrations]**, sélectionnez **[!UICONTROL Connexions]**.
 
 1. Cliquez sur l’icône de clé à droite de la connexion [!DNL Salesforce] actuelle, puis sélectionnez **Autoriser à nouveau en production**. Connectez-vous à nouveau à l’aide des informations d’identification du nouvel utilisateur (le cas échéant).
+
+>[!MORELIKETHIS]
+>
+>[Configuration de Adobe Admin Console](/help/configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md){target="_blank"}
