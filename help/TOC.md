@@ -45,7 +45,7 @@ ht-degree: 99%
    + Prise en main de [!DNL Marketo Measure] {#getting-started-with-marketo-measure}
       + [Génération et mappage des points de contact](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
       + [Méthodologie de mappage pour les attributions](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
-      + [Configuration de Adobe Admin Console](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
+      + [Configuration d’Adobe Admin Console](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
       + [Différence entre les points de contact acheteur et les points de contact d’attribution acheteur](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
       + [Explication des positions et de la génération de points de contact entre les BT et les  [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [Intégration CRM de [!DNL Marketo Measure] sans package](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
