@@ -4,10 +4,10 @@ description: Migration de l’environnement de test Salesforce vers la productio
 title: Migration de l’instance sandbox de Salesforce vers la production
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 8%
+source-wordcount: '331'
+ht-degree: 6%
 
 ---
 
@@ -20,7 +20,6 @@ Si vous choisissez de tester [!DNL Marketo Measure] dans [!DNL Salesforce] Envir
 * Installez les deux [!DNL Marketo Measure] modules en production avec le[!UICONTROL Tous les utilisateurs]Paramètre &quot;
 
    * [Package de base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
-   * [Package d’extension de tableau de bord](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t610000001jI6){target="_blank"}
 
 * Pour plus d’informations sur la variable [!DNL Marketo Measure] relation avec [!DNL Salesforce], reportez-vous à la section [cet article](/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
 * Un peu de [!DNL Salesforce] est nécessaire. Les actions spécifiques sont décrites ci-dessous dans la section [Étape 4 ci-dessous](#salesforce-configuration)
