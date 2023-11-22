@@ -223,7 +223,7 @@ ht-degree: 99%
       + [Restrictions de session de sécurité : adresses IP à placer sur la liste autorisée](security-and-compliance/compliance-related-resources/security-session-restrictions-ip-addresses-to-allowlist.md)
 + [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate}
    + [Vue d’ensemble de [!DNL Marketo Measure] Ultimate](marketo-measure-ultimate/marketo-measure-ultimate-overview.md)
-   + [Exigence d’intégrité des données](marketo-measure-ultimate/data-integrity-requirement.md)
+   + [Exigence en matière d’intégrité des données](marketo-measure-ultimate/data-integrity-requirement.md)
 + Divers {#miscellaneous}
    + Autres ressources connexes {#other-related-resources}
       + [Maintenance de [!DNL Marketo Measure]](miscellaneous/other-related-resources/marketo-measure-maintenance.md)
