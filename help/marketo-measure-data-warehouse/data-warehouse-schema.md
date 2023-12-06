@@ -4,10 +4,10 @@ description: Schéma de Data Warehouse - Marketo Measure - Documentation du prod
 title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '22610'
-ht-degree: 100%
+source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
+workflow-type: tm+mt
+source-wordcount: '20697'
+ht-degree: 99%
 
 ---
 
@@ -14246,102 +14246,52 @@ Agrégation des URL correspondant aux pages de destination, aux pages du référ
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>L’URL complète.</p>
-      </td>
-      <td>
-        <p>https://www.adobe.com/blog/strategic-marketing-plangoals</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>L’URL complète.</td>
+      <td>https://www.adobe.com/blog/strategic-marketing-plangoals</td>
     </tr>
     <tr>
-      <td>
-        <p>SCHEME</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Communication sécurisée de la page web sur le réseau.</p>
-      </td>
-      <td>
-        <p>https</p>
-      </td>
+      <td>SCHEME</td>
+      <td>varchar</td>
+      <td>Communication sécurisée de la page web sur le réseau.</td>
+      <td>https</td>
     </tr>
     <tr>
-      <td>
-        <p>HOST</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Domaine de l’URL, avec tous les sous-domaines.</p>
-      </td>
-      <td>
-        <p>www.adobe.com</p>
-      </td>
+      <td>HOST</td>
+      <td>varchar</td>
+      <td>Domaine de l’URL, avec tous les sous-domaines.</td>
+      <td>www.adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>PORT</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Port d’un hôte Internet, facultatif dans une URL.</p>
-      </td>
-      <td>
-        <p>584</p>
-      </td>
+      <td>PAGE_TITLE</td>
+      <td>varchar</td>
+      <td>Titre de la page.</td>
+      <td>Téléchargement du guide du CMO pour l’attribution marketing B2B</td>
     </tr>
     <tr>
-      <td>
-        <p>PATH</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Partie de l’URL qui pointe vers un emplacement spécifique sur l’hôte.</p>
-      </td>
-      <td>
-        <p>/blog/strategic-marketing-plangoals</p>
-      </td>
+      <td>PATH</td>
+      <td>varchar</td>
+      <td>Partie de l’URL qui pointe vers un emplacement spécifique sur l’hôte.</td>
+      <td>/blog/strategic-marketing-plangoals</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Clé étrangère de la vue Biz_Facts.</p>
-      </td>
-      <td>
-        <p>5686109553536636820</p>
-      </td>
+      <td>PORT</td>
+      <td>varchar</td>
+      <td>Port d’un hôte Internet, facultatif dans une URL.</td>
+      <td>584</td>
+    </tr>
+    <tr>
+      <td>ROW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Clé étrangère de la vue Biz_Facts.</td>
+      <td>5686109553536636820</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
