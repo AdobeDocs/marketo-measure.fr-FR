@@ -4,10 +4,10 @@ description: Migration de l’environnement de test Salesforce vers la productio
 title: Migration de l’instance sandbox de Salesforce vers la production
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: ad658a513b01dc7a51299abcb7313ff1877e49f3
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 6%
+source-wordcount: '322'
+ht-degree: 4%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 Si vous choisissez de tester [!DNL Marketo Measure] dans [!DNL Salesforce] Environnement Sandbox, suivez ces instructions pour migrer vers Production une fois que vous êtes prêt. Les instructions suivantes supposent que vous avez déjà téléchargé la variable [!DNL Marketo Measure] module dans votre organisation Sandbox, effectuez les tests nécessaires et êtes prêt à effectuer des notifications push. [!DNL Marketo Measure] vers Production.
 
-## Étape 1 : installation [!DNL Marketo Measure] Modules dans votre production [!DNL Salesforce] Instance {#install-marketo-measure-packages-into-your-production-salesforce-instance}
+## Étape 1 : installation de [!DNL Marketo Measure] Module dans votre production [!DNL Salesforce] Instance
 
-* Installez les deux [!DNL Marketo Measure] modules en production avec le[!UICONTROL Tous les utilisateurs]Paramètre &quot;
+* Installez le [!DNL Marketo Measure] en production avec le &quot;[!UICONTROL Tous les utilisateurs]Paramètre &quot;
 
    * [Package de base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
@@ -49,7 +49,7 @@ Si vous choisissez de tester [!DNL Marketo Measure] dans [!DNL Salesforce] Envir
 
 [Mises en page](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md)
 
-[Jeux d’autorisations ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+[Jeux d’autorisations](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
 [Partage de rapports](https://help.salesforce.com/articleView?id=analytics_share_folder.htm&amp;type=0){target="_blank"}
 
