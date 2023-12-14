@@ -3,10 +3,10 @@ description: Notes de mise à jour actuelles - [!DNL Marketo Measure] - Document
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: dc4fda07004398207fb5067eb42ecd9e8ffe8624
+source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,69 @@ Vous trouverez ci-dessous toutes les nouvelles fonctionnalités et fonctionnalit
 ## Version du 4e trimestre {#q4-release}
 
 <p>
+
+**Tableau de bord du trafic web**
+
+La nouvelle structure [Tableau de bord du trafic web](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} est désormais accessible à tous les clients. Ce tableau de bord offre un aperçu complet des interactions des visiteurs de votre site web. Vous pouvez analyser des mesures telles que le nombre de visiteurs uniques par URL, les visites globales, les pages vues et les envois de formulaire à partir d’URL ou de pages d’entrée de formulaire spécifiques. Vous pouvez également suivre les tendances mensuelles du trafic et identifier les médias payants hautement performants, ce qui vous aidera à affiner vos stratégies de génération optimale de recettes.
+
+Le nouvel ensemble de tableaux de bord prédéfinis doit être introduit par vagues et se terminer avant la fin de l’année.
+
+>[!NOTE]
+>
+>À la mi-janvier 2024, les tableaux de bord actuels deviendront obsolètes. Pour assurer une transition fluide, vous pouvez utiliser les deux versions jusqu’à cette date.
+
+**Suppression des données d’adresse IP**
+
+Nous supprimons les données d’adresse IP de notre stockage à long terme pour garantir la conformité de la confidentialité des données. Actuellement, les tableaux et vues de Snowflake suivants contiennent des adresses IP. Nous prévoyons de supprimer ces données et d’ajouter de nouvelles informations de géolocalisation :
+
+<table style="width:400px">
+<thead>
+  <tr>
+    <th style="width:50%">Tableaux</th>
+    <th>Vues</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>CUSTOMER_AB_TESTS</td>
+    <td>BIZ_CUSTOMER_AB_TESTS</td>
+  </tr>
+  <tr>
+    <td>CUSTOMER_EVENTS</td>
+    <td>BIZ_CUSTOMER_EVENTS</td>
+  </tr>
+  <tr>
+    <td>FORM_SUBMITS</td>
+    <td>BIZ_FORM_SUBMITS</td>
+  </tr>
+  <tr>
+    <td>IMPRESSIONS</td>
+    <td>BIZ_IMPRESSIONS</td>
+  </tr>
+  <tr>
+    <td>PAGE_VIEWS</td>
+    <td>BIZ_PAGE_VIEWS</td>
+  </tr>
+  <tr>
+    <td>SESSIONS</td>
+    <td>BIZ_SESSIONS</td>
+  </tr>
+  <tr>
+    <td>WEB_HOST_MAPPINGS</td>
+    <td>BIZ_WEB_HOST_MAPPINGS</td>
+  </tr>
+</tbody>
+</table>
+
+* Désormais, nous téléchargerons Code de pays, Nom de ville et Code de région au lieu du Nom du pays, Nom de ville et Nom de région.
+* Lors du traitement de toutes les activités web historiques, des incohérences peuvent survenir dans les informations de localisation entre les enregistrements. Ces incohérences peuvent inclure la présence d’adresses IP sans détails de géolocalisation, des informations de géolocalisation mises à jour sans adresses IP ou un mélange de noms et de codes de pays ou de région.
+* _**Cette période de données mixte devrait se dérouler du 01/04/2023 au 02/29/2023.**_
+
+**Données de titre de page dans le tableau de l’URL**
+
+Le tableau URL dans la variable [entrepôt de données](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} inclut désormais un champ de titre de page, en plus des tableaux de données web.
+
+Veuillez noter que le titre de la page dans le tableau URL ne correspond pas toujours au titre de la page dans d’autres tableaux Web. Le tableau URL comporte le titre de page le plus récent. Si le titre de l’URL a été modifié après l’activité web, il ne correspondra pas à ce qui se trouve dans le tableau URL.
 
 **Refonte du tableau de bord de Discover**
 
@@ -39,15 +102,54 @@ Ces nouveaux tableaux de bord intégrés seront progressivement déployés à pa
 
 <p>
 
-* **Champ « custom_properties »**
+* **Dépréciations des champs Salesforce**
 
-Dans notre entrepôt de données, le champ « custom_properties » sert de stockage pour les points de données supplémentaires non couverts par notre schéma fixe. L’utilisation de ce champ, stocké au format JSON, est limitée et son intégration aux requêtes SQL peut s’avérer compliquée et nuire aux performances. Nous avons donc décidé de rendre ce champ obsolète. Ce changement aura une incidence sur la couche de traitement de données dans notre stockage Table Azure et les données exportées vers notre entrepôt de données.
+Nous supprimerons progressivement nos tâches d’exportation pour les objets Lead/contact afin de simplifier notre intégration et d’éliminer la nécessité d’exporter vers des objets standard Salesforce. Les champs dénormalisés répertoriés ci-dessous seront également obsolètes, car les clients peuvent obtenir les mêmes données de leurs objets Touchpoint. _**Le calendrier de l’obsolescence est fixé à juin 2024.**_
+
+<table style="width:300px">
+<tbody>
+  <tr>
+    <td>bizible2__Ad_Campaign_Name_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Ad_Campaign_Name_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Landing_Page_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Landing_Page_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Date_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Date_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Source_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Touchpoint_Source_LC__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Marketing_Channel_FT__c</td>
+  </tr>
+  <tr>
+    <td>bizible2__Marketing_Channel_LC__c</td>
+  </tr>
+</tbody>
+</table>
 
 * **Package Dynamics**
 
    * Pour rester connecté à Dynamics, installez notre dernière version de package (6.12). Les anciennes versions `(<v6.12)` ne seront plus prise en charge. Cette mise à jour optimise la création d’enregistrements historiques afin de réduire l’utilisation du stockage.
 
    * La méthode OAuth par jeton d’actualisation a fait son temps et devient obsolète. Consultez ce [ce guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} pour mettre à jour vos informations d’identification afin de respecter les bonnes pratiques de Microsoft concernant l’utilisation de ClientSecret.
+
+* **Champ « custom_properties »**
+
+Dans notre entrepôt de données, le champ « custom_properties » sert de stockage pour les points de données supplémentaires non couverts par notre schéma fixe. L’utilisation de ce champ, stocké au format JSON, est limitée et son intégration aux requêtes SQL peut s’avérer compliquée et nuire aux performances. Nous avons donc décidé de rendre ce champ obsolète. Ce changement aura une incidence sur la couche de traitement de données dans notre stockage Table Azure et les données exportées vers notre entrepôt de données.
 
 ### Que va-t-il se passer ? {#q4-whats-coming}
 
