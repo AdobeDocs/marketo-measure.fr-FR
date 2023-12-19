@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
-source-git-commit: de74e51c023dfae454e51f99f91a3b4df7423ac2
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
+workflow-type: tm+mt
+source-wordcount: '820'
+ht-degree: 99%
 
 ---
 
@@ -152,13 +152,16 @@ ht-degree: 100%
    + Tableaux de bord {#dashboards}
       + [Découvrir les bases du tableau de bord](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Nouveau guide de découverte du tableau de bord](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
-      + [Tableau de bord Vue d’ensemble des revenus](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
-      + [Tableau de bord Revenus attribués](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
-        [Tableau de bord des engagements](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [Tableau de bord Retour sur investissement](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
-      + [Tableau de bord Passeport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
-      + [Tableau de bord Trafic web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
       + [Politique de visibilité des données du tableau de bord](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
+      + [Tableau de bord Revenus affectés](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Tableau de bord des engagements](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
+      + [Tableau de bord de la vitesse de la piste](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Tableau de bord Vitesse des opportunités](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Tableau de bord Passeport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
+      + [Tableau de bord Vue d’ensemble des revenus](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
+      + [Tableau de bord Retour sur investissement](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
+      + [Tableau de bord Trafic web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
+
    + Tableaux de bord hérités {#legacy-dashboards}
       + [Documentation du tableau de bord des parcours de cohortes](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
       + [Documentation du tableau de bord des passeports](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
