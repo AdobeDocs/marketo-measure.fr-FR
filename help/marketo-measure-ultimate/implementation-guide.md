@@ -4,10 +4,10 @@ title: '''[!DNL Marketo Measure] Guide de mise en oeuvre ultime'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: fad900c97f25e7d19692fb2b4403b439e479caa1
+source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 5%
+source-wordcount: '978'
+ht-degree: 6%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 PHRASE INTRO
 
-Principales différences lors de l’utilisation de l’option Ultimate par rapport aux mosaïques standard {#main-differences-when-using-ultimate-over-standard-tiers}
+## Principales différences lors de l’utilisation de l’option Ultimate par rapport aux mosaïques standard {#main-differences-when-using-ultimate-over-standard-tiers}
 
 Importer des données B2B par l’intermédiaire d’AEP : les marketeurs doivent importer leurs données B2B (par exemple, compte, opportunité, contact, prospect, campagne, membre de campagne, activité) via AEP. Ingérez des données de presque toutes les sources de données, ainsi que de plusieurs sources de données du même type, afin d’importer toutes vos données pour l’attribution.
 
@@ -36,42 +36,42 @@ En savoir plus sur [Marketo Measure Ultimate](/help/marketo-measure-ultimate/mar
 
 ## Schémas et jeux de données {#schemas-and-datasets}
 
->[!TIP]
+>[!NOTE]
 >
 >Consulter [Blocs de création d’un schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) pour un aperçu des schémas, des classes et des groupes de champs.
 
-Schéma XDM = Classe + Groupe de champs de schéma*
+**Schéma XDM = Classe + Groupe de champs de schéma&#42;**
 
 * Les champs obligatoires ne sont pas modifiables. Les clients peuvent créer et ajouter des champs personnalisés selon leurs besoins.
 * Exemple de nom de champ basé sur la hiérarchie : accountOrganization.yearRevenue.amount
 
 &#42; _Un schéma comprend une classe et zéro ou plusieurs groupes de champs de schéma. Cela signifie que vous pouvez composer un schéma de jeu de données sans utiliser de groupes de champs._
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-ExL : Présentation des jeux de données : toutes les données correctement ingérées dans AEP sont conservées en tant que jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour une collecte de données, généralement sous la forme d’un tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
+[Présentation des jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): toutes les données correctement ingérées dans AEP sont conservées en tant que jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour une collecte de données, généralement sous la forme d’un tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
 
 ## Création d’un schéma {#creating-a-schema}
 
-Nous recommandons aux clients d’utiliser un utilitaire de génération automatique pour créer 10 schémas B2B standard.
+Nous vous recommandons d’utiliser un utilitaire de génération automatique pour créer 10 schémas B2B standard.
 
-Les étapes de téléchargement et de configuration de l’utilitaire se trouvent dans la section &quot;Configuration des espaces de noms B2B et de l’utilitaire de génération automatique de schéma&quot; dans ExL : Espaces de noms et schémas B2B
+* Procédure de téléchargement et de configuration de l’utilitaire [peut être consulté ici](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
 
-Pour les clients disposant d’un droit CDP : créez des schémas en accédant à la page Sources .
+Pour ceux qui disposent d’un _**Droit CDP**_: créez des schémas en accédant à la page Sources .
 
-Depuis une source, sélectionnez Ajouter des données > Utiliser des modèles .
+* Depuis une source, sélectionnez Ajouter des données > Utiliser des modèles .
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-Sélectionnez un compte et tous les modèles B2B pour créer 10 schémas B2B standard.
+* Sélectionnez un compte et tous les modèles B2B pour créer 10 schémas B2B standard.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
 ## Flux de données {#dataflows}
 
-ExL : présentation des flux de données
+[Présentation des flux de données](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
 
-Procédure de création d’un flux de données :
+**Procédure de création d’un flux de données :**
 
 1. Sélectionnez une source.
 1. Sélectionnez un compte existant ou créez-en un.
@@ -91,23 +91,30 @@ Procédure de création d’un flux de données :
    >* Vous pouvez modifier un flux de données, mais les données ne sont pas renvoyées lorsqu’un mappage est modifié.
    >* Si un champ obligatoire est NULL, l’ensemble du flux est rejeté.
 
-ExL : exigence d’intégrité des données de Marketo Measure Ultimate
+   >[!NOTE]
+   >
+   >[Exigence d’intégrité des données de Marketo Measure Ultimate](help/marketo-measure-ultimate/data-integrity-requirement.md)
 
 1. Définissez une cadence de chargement des données.
 1. Vérifiez et terminez.
 1. Cochez la page &quot;État du compte&quot; dans les paramètres de l’interface utilisateur de mesure pour l’état du flux de données.
 
-Surveillance : Sources → Page Flux de données pour vérifier l’état des flux de données Pour afficher les détails d’activité d’un jeu de données, cliquez simplement sur le jeu de données Pour afficher les erreurs de flux de données, sélectionnez un flux de données, choisissez une exécution de flux de données, puis cliquez sur &quot;Aperçu des diagnostics d’erreur&quot;.
+**Surveillance :**
+
+Page Sources > Flux de données pour vérifier l’état des flux de données
+
+* Pour afficher les détails de l’activité d’un jeu de données, cliquez simplement sur le jeu de données.
+* Pour afficher les erreurs de flux de données, sélectionnez un flux de données, choisissez une exécution de flux de données, puis cliquez sur &quot;Aperçu des diagnostics d’erreur&quot;.
 
 ## Inspection des données {#data-inspection}
 
-ExL : exigence d’intégrité des données Marketo Measure Ultimate Ce document comprend les champs requis pour chaque XDM ainsi que les requêtes d’inspection. Il sera publié dans ExL.
+ExL : exigence d’intégrité des données Marketo Measure Ultimate Ce document comprend les champs requis pour chaque XDM ainsi que les requêtes d’inspection. Il sera publié dans ExL. - IL EST DÉJÀ BALISÉ AU-DESSUS - IL EST DE NOUVEAU POST???
 
 Option 1 : pour exécuter des requêtes directement à partir de l’interface utilisateur, accédez à l’onglet Requêtes sous Data Management.
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Option 2 : Téléchargez et utilisez PSQL (plus rapide et plus fiable) ExL : Connectez PSQL à Query Service
+Option 2 : [Téléchargement et utilisation de PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (plus rapide et plus fiable)
 
 ## Activation du jeu de données pour Marketo Measure {#activate-dataset-for-marketo-measure}
 
@@ -118,35 +125,46 @@ Avant de commencer, accédez à la section &quot;Experience Platform > Mappage d
 >Cette option ne peut pas être modifiée une fois sélectionnée.
 
 1. Dans AEP, accédez à &quot;Destinations > Page Marketo Measure&quot; pour exporter des jeux de données.
-
 1. Configurez la destination.
-
 1. Activez le jeu de données.
-
 1. Cochez la page &quot;État du compte&quot; dans les paramètres de l’interface utilisateur de mesure pour l’état du flux de données.
 
-Remarques : Les données d’une entité donnée (par exemple, Compte) provenant d’une source donnée ne peuvent être transmises qu’à un seul jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
-Supprimez la destination entière dans AEP pour supprimer les données dans Mesure. La désactivation ne fera qu’arrêter les nouvelles exportations de données et conserver les anciennes données.
-La configuration de la mesure sera pour la plupart identique, mais certaines parties, comme le mappage des étapes, auront un aspect différent.
-Il faut quelques heures pour qu’un nouveau flux de données génère une exécution de flux, puis elles se produisent à intervalles réguliers horaires.
+>[!NOTE]
+>
+>* Les données d’une entité donnée (un compte, par exemple) provenant d’une source donnée ne peuvent être transmises qu’à un seul jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
+>* Supprimez la destination entière dans AEP pour supprimer les données dans Mesure. La désactivation ne fera qu’arrêter les nouvelles exportations de données et conserver les anciennes données.
+>* La configuration de la mesure sera pour la plupart identique, mais certaines parties, comme le mappage des étapes, auront un aspect différent.
+>* Il faut quelques heures pour qu’un nouveau flux de données génère une exécution de flux, puis elles se produisent à intervalles réguliers horaires.
 
-Dans Mesure, la devise par défaut doit être définie dans la section &quot;Devise&quot;. Si les clients utilisent plusieurs devises, le schéma de taux de conversion de devise doit être renseigné dans AEP pour que nous puissions le lire et l’utiliser pour les conversions.
+En mesure, la devise par défaut doit être définie dans la section &quot;Devise&quot;.
 
-Mappage d’étape Nous n’importons pas automatiquement les étapes à partir des données client. Par conséquent, toutes les étapes doivent être mappées manuellement.
+* Si vous utilisez plusieurs devises, le schéma de taux de conversion de devise doit être renseigné dans AEP pour que nous puissions le lire et l’utiliser pour les conversions.
 
-Les utilisateurs peuvent mapper des scènes à partir de différentes sources.
+**Mappage d’étape :**
 
-![](assets/marketo-measure-ultimate-implementation-guide-.png)
+Les étapes n’étant pas automatiquement importées à partir des données utilisateur, elles doivent être mappées manuellement.
+
+* Les utilisateurs peuvent mapper des scènes à partir de différentes sources.
+
+![](assets/marketo-measure-ultimate-implementation-guide-5.png)
 
 Si les scènes ne sont pas mappées, le système ne fonctionnera pas, car il n’y aura nulle part où les données pourront aller.
-Règles de membre de campagne Vous devez sélectionner un jeu de données et définir des règles pour chacun d’eux.
 
-Règles des événements d’expérience Vous devez sélectionner un jeu de données et des types d’activité.
-Les activités personnalisées ne sont pas encore prises en charge.
-Si le client possède des activités qui ne correspondent pas aux options disponibles, nous vous suggérons de les classer comme &quot;Moments intéressants&quot; et d’utiliser des champs personnalisés pour les distinguer.
+**Règles des membres de campagne :**
 
-Canaux hors ligne Nous ne créons pas de règles de mappage de canal spécifiques à un jeu de données, ce serait donc global.
-Nous devons éventuellement faire correspondre le type de campagne CRM et le canal, mais pour l’instant, nous pouvons mapper le nom du canal aux deux champs comme solution de contournement.
-Règles de canal : les données renvoyées ne comportent pas de données de transition intermédiaire.
+Vous devez sélectionner un jeu de données et définir des règles pour chacun d’eux.
+
+**Règles d’événements d’expérience :**
+
+Vous devez sélectionner un jeu de données et les types d’activité.
+
+* Les activités personnalisées ne sont pas encore prises en charge.
+* Si le client possède des activités qui ne correspondent pas aux options disponibles, nous vous suggérons de les classer comme &quot;Moments intéressants&quot; et d’utiliser des champs personnalisés pour les distinguer.
+
+**Canaux hors ligne :**
+
+* Nous ne créons pas de règles de mappage de canal spécifiques à un jeu de données, ce serait donc global.
+* Nous devons éventuellement faire correspondre le type de campagne CRM et le canal, mais pour l’instant, nous pouvons mapper le nom du canal aux deux champs comme solution de contournement.
+* **Règles de canal : les données renvoyées ne comportent pas de données de transition intermédiaire.**
 
 Les paramètres Point de contact et Segment restent les mêmes.
