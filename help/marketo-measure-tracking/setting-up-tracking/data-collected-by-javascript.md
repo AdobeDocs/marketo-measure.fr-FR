@@ -2,7 +2,7 @@
 description: Données collectées par JavaScript - [!DNL Marketo Measure] - Documentation du produit
 title: Données collectées par JavaScript
 feature: Tracking
-source-git-commit: 2be08b96fb9f6d027e80751db64f16a7f2893764
+source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 8%
@@ -49,25 +49,25 @@ Marketo Measure collecte les données communes suivantes pour tous les types de 
     <td>Paramètre de requête</td>
     <td>_biz_u</td>
     <td>Chaîne</td>
-    <td>Identifiant de cookie Bizible</td>
+    <td>Identifiant du cookie Bizible.</td>
   </tr>
   <tr>
     <td>Paramètre de requête</td>
     <td>_biz_l</td>
     <td>Chaîne</td>
-    <td>URL de la page actuelle</td>
+    <td>URL de la page active.</td>
   </tr>
   <tr>
     <td>Paramètre de requête</td>
     <td>_biz_t</td>
     <td>long</td>
-    <td>Horodatage de l’activité</td>
+    <td>Horodatage de l’activité.</td>
   </tr>
   <tr>
     <td>Paramètre de requête</td>
     <td>_biz_i</td>
     <td>Chaîne</td>
-    <td>Titre de la page actuelle</td>
+    <td>Titre de la page active.</td>
   </tr>
 </tbody>
 </table>
@@ -104,7 +104,7 @@ Outre les données communes ci-dessus, bizible.js ajoute également des données
     <td></td>
     <td>_biz_c</td>
     <td>Chaîne</td>
-    <td>Paramètre facultatif. Si ce paramètre est présent, il indique que le client configure bizible.js pour attendre le consentement des utilisateurs avant le suivi, et que bizible.js a reçu le consentement de l’utilisateur à suivre.</td>
+    <td>Paramètre facultatif. Si ce paramètre est présent, il indique que le client configure bizible.js pour attendre le consentement de l’utilisateur avant de procéder au suivi, et que bizible.js a reçu le consentement de l’utilisateur à suivre.</td>
   </tr>
   <tr>
     <td>Envoi de formulaire</td>
@@ -118,7 +118,7 @@ Outre les données communes ci-dessus, bizible.js ajoute également des données
     <td>/u</td>
     <td>mapType</td>
     <td>enum</td>
-    <td>Quel type de mappage d’ID utilisateur bizible.js a détecté (ID de correspondance Marketo et ECID d’Adobe) ?</td>
+    <td>Quel type de mappage d’ID utilisateur bizible.js a détecté (Marketo Munchkin id et Adobe ECID) ?</td>
   </tr>
   <tr>
     <td></td>
