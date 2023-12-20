@@ -4,7 +4,7 @@ title: '''[!DNL Marketo Measure] Guide de mise en oeuvre ultime'
 hide: true
 hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: d8c1962aaf1830970c4cbde4385d05ca4ad3139e
+source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
 workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 6%
@@ -32,13 +32,13 @@ Les utilisateurs finaux sont configurés en AEP. S’ils disposent déjà d’AE
 
 * La version AEP configurée comprend tous les connecteurs source, la modélisation des données de schéma, les jeux de données, le service de requête ad hoc et une destination pour Marketo Measure uniquement.
 
-En savoir plus sur [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md).
+En savoir plus sur [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
 ## Schémas et jeux de données {#schemas-and-datasets}
 
 >[!NOTE]
 >
->Consulter [Blocs de création d’un schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema) pour un aperçu des schémas, des classes et des groupes de champs.
+>Consulter [Blocs de création d’un schéma](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=en#building-blocks-of-a-schema){target="_blank"} pour un aperçu des schémas, des classes et des groupes de champs.
 
 **Schéma XDM = Classe + Groupe de champs de schéma&#42;**
 
@@ -49,13 +49,13 @@ En savoir plus sur [Marketo Measure Ultimate](/help/marketo-measure-ultimate/mar
 
 ![](assets/marketo-measure-ultimate-implementation-guide-1.png)
 
-[Présentation des jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html): toutes les données correctement ingérées dans AEP sont conservées en tant que jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour une collecte de données, généralement sous la forme d’un tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
+[Présentation des jeux de données](https://experienceleague.adobe.com/docs/experience-platform/catalog/datasets/overview.html){target="_blank"}: toutes les données correctement ingérées dans AEP sont conservées en tant que jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour une collecte de données, généralement sous la forme d’un tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
 
 ## Création d’un schéma {#creating-a-schema}
 
 Nous vous recommandons d’utiliser un utilitaire de génération automatique pour créer 10 schémas B2B standard.
 
-* Procédure de téléchargement et de configuration de l’utilitaire [peut être consulté ici](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility).
+* Procédure de téléchargement et de configuration de l’utilitaire [peut être consulté ici](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
 Pour ceux qui disposent d’un _**Droit CDP**_: créez des schémas en accédant à la page Sources .
 
@@ -69,7 +69,7 @@ Pour ceux qui disposent d’un _**Droit CDP**_: créez des schémas en accédant
 
 ## Flux de données {#dataflows}
 
-[Présentation des flux de données](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html)
+[Présentation des flux de données](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html){target="_blank"}
 
 **Procédure de création d’un flux de données :**
 
@@ -93,7 +93,7 @@ Pour ceux qui disposent d’un _**Droit CDP**_: créez des schémas en accédant
 
    >[!NOTE]
    >
-   >[Exigence d’intégrité des données de Marketo Measure Ultimate](help/marketo-measure-ultimate/data-integrity-requirement.md)
+   >[Exigence d’intégrité des données de Marketo Measure Ultimate](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}
 
 1. Définissez une cadence de chargement des données.
 1. Vérifiez et terminez.
@@ -114,7 +114,7 @@ Option 1 : pour exécuter des requêtes directement à partir de l’interface u
 
 ![](assets/marketo-measure-ultimate-implementation-guide-4.png)
 
-Option 2 : [Téléchargement et utilisation de PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html) (plus rapide et plus fiable)
+Option 2 : [Téléchargement et utilisation de PSQL](https://experienceleague.adobe.com/docs/experience-platform/query/clients/psql.html){target="_blank"} (plus rapide et plus fiable).
 
 ## Activation du jeu de données pour Marketo Measure {#activate-dataset-for-marketo-measure}
 
