@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
-source-git-commit: 1fc0b98c0aa1273e5aa70ba7b89672d689e734e1
+source-git-commit: 4d91899f6126a83b29170c7c5bbe146ed49ad9b0
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 99%
+source-wordcount: '826'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 99%
       + [Bonnes pratiques pour la mise en œuvre du code JavaScript  [!DNL Marketo Measure] ](marketo-measure-tracking/setting-up-tracking/best-practices-for-implementing-marketo-measure-javascript.md)
       + [Ajout d’un script  [!DNL Marketo Measure] ](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
       + [Ajout d’un script  [!DNL Marketo Measure]  via Google Tag Manager](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-via-google-tag-manager.md)
+      + [Données collectées par JavaScript](marketo-measure-tracking/setting-up-tracking/data-collected-by-javascript.md)
       + Ajout d’un script [!DNL Marketo Measure] pour différents fournisseurs de formulaires {#adding-marketo-measure-script-to-different-form-providers}
          + [Ajout de code JavaScript  [!DNL Marketo Measure]  à Pardot](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-javascript-to-pardot.md)
          + [Ajout d’un script  [!DNL Marketo Measure]  à des formulaires Lightbox](marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script-to-different-form-providers/adding-marketo-measure-script-to-lightbox-forms.md)
