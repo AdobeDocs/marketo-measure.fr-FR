@@ -4,7 +4,7 @@ title: Présentation des autorisations d’intégration
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
+source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 4%
@@ -18,13 +18,13 @@ Ce guide décrit les autorisations nécessaires à une intégration transparente
 <table>
 <thead>
   <tr>
-    <th>Intégration</th>
-    <th>Type de données
+    <th style="width:10%">Intégration</th>
+    <th style="width:20%">Type de données
     <li>Données d’interaction web</li>
     <li>Données système B2B</li>
     <li>Données de la plateforme publicitaire</li></th>
-    <th>Ce que nous suivons</th>
-    <th>Exigences d’autorisation</th>
+    <th style="width:30%">Ce que nous suivons</th>
+    <th style="width:40%">Exigences d’autorisation</th>
   </tr>
 </thead>
 <tbody>
