@@ -1,19 +1,17 @@
 ---
 description: '''[!DNL Marketo Measure] Guide de mise en oeuvre ultime - [!DNL Marketo Measure] - Documentation du produit"'
 title: '''[!DNL Marketo Measure] Guide de mise en oeuvre ultime'
-hide: true
-hidefromtoc: true
 feature: Integration, Tracking, Attribution
-source-git-commit: a1838bec06d1a626bb282f8e7d26814840f860a7
+source-git-commit: 041079d08d8e1993ecc31368c443a9a6fe3a8336
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '966'
 ht-degree: 6%
 
 ---
 
 # [!DNL Marketo Measure] Guide de mise en oeuvre ultime {#marketo-measure-ultimate-implementation-guide}
 
-PHRASE INTRO
+Cet article sert de guide de mise en oeuvre de Marketo Measure Ultimate, fournissant des instructions et des informations claires pour garantir une intégration et une utilisation réussies.
 
 ## Principales différences lors de l’utilisation de l’option Ultimate par rapport aux mosaïques standard {#main-differences-when-using-ultimate-over-standard-tiers}
 
@@ -84,7 +82,7 @@ Pour ceux qui disposent d’un _**Droit CDP**_: créez des schémas en accédant
    >* Si vous mappez un type de schéma à un autre identique, cela sera fait automatiquement.
    >* Vous pouvez également importer le mappage à partir d’un autre flux du système.
    >* Vous pouvez mapper un champ Source à plusieurs champs de destination, mais vous ne pouvez pas faire le contraire.
-   >* Vous pouvez créer des champs calculés (ExL : fonctions de mappage de la préparation de données).
+   >* Vous pouvez créer des champs calculés ([Fonctions de mappage de la préparation de données](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html){target="_blank"}).
 
    >[!CAUTION]
    >
@@ -107,8 +105,6 @@ Page Sources > Flux de données pour vérifier l’état des flux de données
 * Pour afficher les erreurs de flux de données, sélectionnez un flux de données, choisissez une exécution de flux de données, puis cliquez sur &quot;Aperçu des diagnostics d’erreur&quot;.
 
 ## Inspection des données {#data-inspection}
-
-ExL : exigence d’intégrité des données Marketo Measure Ultimate Ce document comprend les champs requis pour chaque XDM ainsi que les requêtes d’inspection. Il sera publié dans ExL. - IL EST DÉJÀ BALISÉ AU-DESSUS - IL EST DE NOUVEAU POST???
 
 Option 1 : pour exécuter des requêtes directement à partir de l’interface utilisateur, accédez à l’onglet Requêtes sous Data Management.
 
