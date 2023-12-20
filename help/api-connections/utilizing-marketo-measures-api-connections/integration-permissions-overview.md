@@ -4,7 +4,7 @@ title: Présentation des autorisations d’intégration
 hide: true
 hidefromtoc: true
 feature: APIs, Integration
-source-git-commit: 9196877384140d60a22012b43ea960017528f4d5
+source-git-commit: 1c3cd5ac9999550003765a9e1ed8d538224fe8a9
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 4%
@@ -33,24 +33,24 @@ Ce guide décrit les autorisations nécessaires à une intégration transparente
     <td>Données système B2B    
 </td>
     <td>Marketo Measure effectue le suivi :
-    <br>
+    <p>
     <li>Compte</li>
-<li>Campagne</li>
-<li>CampaignMember</li>
-<li>Contact</li>
-<li>CurrencyConversionRange</li>
-<li>CurrencyStatus</li>
-<li>Événements</li>
-<li>FieldHistory (prospect, contact et opportunité)</li>
-<li>Prospect</li>
-<li>Opportunité</li>
-<li>OpportunityContactRole</li>
-<li>OpportunityHistory</li>
-<li>Tâches</li>
-<br>
+    <li>Campagne</li>
+    <li>CampaignMember</li>
+    <li>Contact</li>
+    <li>CurrencyConversionRange</li>
+    <li>CurrencyStatus</li>
+    <li>Événements</li>
+    <li>FieldHistory (prospect, contact et opportunité)</li>
+    <li>Prospect</li>
+    <li>Opportunité</li>
+    <li>OpportunityContactRole</li>
+    <li>OpportunityHistory</li>
+    <li>Tâches</li>
+<p>
 Les points de contact créés et d’autres données sont écrits dans des champs bizibles personnalisés sur Compte, Campaign, CampaignMember, Case, Contact, Lead et Opportunity.</td>
-    <td><b>Autorisations des utilisateurs connectés à Salesforce (requises)</b>
-    <br>
+    <td><b>Autorisations des utilisateurs connectés à Salesforce (obligatoire)</b>
+    <p>
     <b>Jeu d’autorisations d’administrateur Marketo Measure pour un utilisateur dédié :</b> Permet à l’administrateur SFDC d’effectuer des opérations CRUD sur le marketing pour mesurer des objets.
     <br>
     <b>Afficher et modifier le jeu d’autorisations de pistes converties :</b> Marketo Measure peut ainsi décorer les pistes après leur conversion en contacts.
