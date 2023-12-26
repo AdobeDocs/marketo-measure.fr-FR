@@ -4,9 +4,9 @@ title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -18,19 +18,19 @@ Vous trouverez ci-dessous toutes les nouvelles fonctionnalités et fonctionnalit
 
 <p>
 
-**Tableau de bord du trafic web**
+**Tableau de bord Trafic web**
 
-La nouvelle structure [Tableau de bord du trafic web](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} est désormais accessible à tous les clients. Ce tableau de bord offre un aperçu complet des interactions des visiteurs de votre site web. Vous pouvez analyser des mesures telles que le nombre de visiteurs uniques par URL, les visites globales, les pages vues et les envois de formulaire à partir d’URL ou de pages d’entrée de formulaire spécifiques. Vous pouvez également suivre les tendances mensuelles du trafic et identifier les médias payants hautement performants, ce qui vous aidera à affiner vos stratégies de génération optimale de recettes.
+Le nouveau [Tableau de bord Trafic web](/help/marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md){target="_blank"} est désormais accessible à l’ensemble de la clientèle. Ce tableau de bord offre une vue d’ensemble complète des interactions des visiteurs et visiteuses de votre site Web. Vous pouvez analyser des mesures telles que le nombre de visiteurs et visiteuses uniques par URL, les visites globales, les pages vues et les envois de formulaire à partir d’URL ou de pages de destination de formulaire spécifiques. Vous pouvez également suivre les tendances mensuelles du trafic et identifier les médias achetés hautement performants, ce qui vous aidera à affiner vos stratégies pour une génération optimale de revenu.
 
-Le nouvel ensemble de tableaux de bord prédéfinis doit être introduit par vagues et se terminer avant la fin de l’année.
+Ce nouvel ensemble de tableaux de bord préconfigurés devrait être introduit par étapes avant la fin de l’année.
 
 >[!NOTE]
 >
 >À la mi-janvier 2024, les tableaux de bord actuels deviendront obsolètes. Pour assurer une transition fluide, vous pouvez utiliser les deux versions jusqu’à cette date.
 
-**Suppression des données d’adresse IP**
+**Suppression des données d’adresse IP**
 
-Nous supprimons les données d’adresse IP de notre stockage à long terme pour garantir la conformité de la confidentialité des données. Actuellement, les tableaux et vues de Snowflake suivants contiennent des adresses IP. Nous prévoyons de supprimer ces données et d’ajouter de nouvelles informations de géolocalisation :
+Nous supprimons les données d’adresse IP de notre stockage à long terme pour garantir la conformité de la confidentialité des données. Actuellement, les tableaux et vues de Snowflake suivants contiennent des adresses IP. Nous prévoyons de supprimer ces données et d’ajouter de nouvelles informations de géolocalisation :
 
 <table style="width:400px">
 <thead>
@@ -71,15 +71,15 @@ Nous supprimons les données d’adresse IP de notre stockage à long terme pour
 </tbody>
 </table>
 
-* Désormais, nous téléchargerons Code de pays, Nom de ville et Code de région au lieu du Nom du pays, Nom de ville et Nom de région.
-* Lors du traitement de toutes les activités web historiques, des incohérences peuvent survenir dans les informations de localisation entre les enregistrements. Ces incohérences peuvent inclure la présence d’adresses IP sans détails de géolocalisation, des informations de géolocalisation mises à jour sans adresses IP ou un mélange de noms et de codes de pays ou de région.
-* _**Cette période de données mixte devrait se dérouler du 01/04/2023 au 02/29/2023.**_
+* Désormais, nous téléchargerons Code de pays, Nom de ville et Code de région au lieu du Nom de pays, Nom de ville et Nom de région.
+* Lors du traitement de toutes les activités web historiques, des incohérences peuvent survenir dans les informations de localisation entre les enregistrements. Ces incohérences peuvent inclure la présence d’adresses IP sans détails de géolocalisation, des informations de géolocalisation mises à jour sans adresses IP ou un mélange de noms et de codes de pays ou de région.
+* _**Cette période de données mixte devrait se dérouler du 04/01/2023 au 29/02/2023.**_
 
-**Données de titre de page dans le tableau de l’URL**
+**Données des titres de page dans la table des URL**
 
-Le tableau URL dans la variable [entrepôt de données](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} inclut désormais un champ de titre de page, en plus des tableaux de données web.
+La table des URL de l’[entrepôt de données](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} inclut désormais un champ de titre de page, en plus des tables de données web.
 
-Veuillez noter que le titre de la page dans le tableau URL ne correspond pas toujours au titre de la page dans d’autres tableaux Web. Le tableau URL comporte le titre de page le plus récent. Si le titre de l’URL a été modifié après l’activité web, il ne correspondra pas à ce qui se trouve dans le tableau URL.
+Veuillez noter que le titre de la page dans la table des URL ne correspond pas toujours au titre de la page dans d’autres tables web. La table des URL comporte le titre de page le plus récent. Si le titre de l’URL a été modifié après l’activité web, il ne correspondra pas à ce qui se trouve dans la table des URL.
 
 **Refonte du tableau de bord de Discover**
 
@@ -104,7 +104,7 @@ Ces nouveaux tableaux de bord intégrés seront progressivement déployés à pa
 
 * **Dépréciations des champs Salesforce**
 
-Nous supprimerons progressivement nos tâches d’exportation pour les objets Lead/contact afin de simplifier notre intégration et d’éliminer la nécessité d’exporter vers des objets standard Salesforce. Les champs dénormalisés répertoriés ci-dessous seront également obsolètes, car les clients peuvent obtenir les mêmes données de leurs objets Touchpoint. _**Le calendrier de l’obsolescence est fixé à juin 2024.**_
+Nous supprimerons progressivement nos tâches d’export pour les objets Prospect/contact afin de simplifier notre intégration et d’éliminer la nécessité d’exporter vers des objets standard Salesforce. Les champs dénormalisés répertoriés ci-dessous seront également obsolètes, car les clientes et clients peuvent obtenir les mêmes données de leurs objets Touchpoint. _**Le calendrier d’obsolescence est fixé à juin 2024.**_
 
 <table style="width:300px">
 <tbody>
