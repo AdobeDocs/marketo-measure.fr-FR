@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
 source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 98%
 + Connexions d’API {#api-connections}
    + Utilisation des connexions d’API de [!DNL Marketo Measure] {#utilizing-marketo-measures-api-connections}
       + [Plateformes publicitaires intégrées](api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
-      + [Présentation des autorisations d’intégration](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
+      + [Vue d’ensemble des autorisations d’intégration](api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md)
       + [Bonnes pratiques pour les connexions d’API](api-connections/utilizing-marketo-measures-api-connections/best-practices-for-api-connections.md)
       + [Incidence des outils de gestion des offres sur [!DNL Marketo Measure]](api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
       + [Paramètres [!DNL Marketo Measure]](api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
@@ -155,10 +155,10 @@ ht-degree: 98%
       + [Découvrir les bases du tableau de bord](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Nouveau guide de découverte du tableau de bord](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Politique de visibilité des données du tableau de bord](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
-      + [Tableau de bord Revenus affectés](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
+      + [Tableau de bord Revenus attribués](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Tableau de bord des engagements](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
-      + [Tableau de bord de la vitesse de la piste](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
-      + [Tableau de bord Vitesse des opportunités](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
+      + [Tableau de bord de la vitesse de lead](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
+      + [Tableau de bord de la vitesse des opportunités](marketo-measure-discover-ui/dashboards/opportunity-velocity-dashboard.md)
       + [Tableau de bord Passeport](marketo-measure-discover-ui/dashboards/passport-dashboard.md)
       + [Tableau de bord Vue d’ensemble des revenus](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Tableau de bord Retour sur investissement](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
