@@ -2,7 +2,7 @@
 description: Tableau de bord des engagements - [!DNL Marketo Measure] - Produit
 title: Tableau de bord des engagements
 feature: Reporting
-source-git-commit: 96a10a202e72f43c45041a4cb37a244d1722db17
+source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 1%
@@ -32,7 +32,7 @@ Le tableau de bord pose les questions suivantes :
 * Personnes connectées : nombre total de personnes qui disposent d’un point de contact.
 * Points de contact par personne : nombre moyen de points de contact par personne qui ont été touchés.
 
-## Points de contact et personnes tactiles au fil du temps {#touchpoints-and-people-touched-over-time}
+### Points de contact et personnes tactiles au fil du temps {#touchpoints-and-people-touched-over-time}
 
 Le graphique à barres de série chronologique affiche le nombre de points de contact, de points de contact avec les personnes et de points de contact par personne pour chaque mois, trimestre et année.
 
@@ -46,7 +46,7 @@ Questions sur le graphique :
 
 ![](assets/engagement-dashboard-1.png)
 
-## Points de contact/personnes touchées par le canal {#touchpoints-people-touched-by-channel}
+### Points de contact/personnes touchées par le canal {#touchpoints-people-touched-by-channel}
 
 Graphique à barres affichant les points de contact ou les personnes touchées segmenté par canal/sous-canal/campagne.
 
