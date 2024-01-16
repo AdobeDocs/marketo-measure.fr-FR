@@ -4,16 +4,20 @@ description: « [!DNL Marketo Measure] Cookies - [!DNL Marketo Measure] - Docum
 title: « Cookies [!DNL Marketo Measure] »
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 69304dddf3569cd92c95a50e9a2e346acdad0f43
-workflow-type: ht
-source-wordcount: '296'
-ht-degree: 100%
+source-git-commit: 327daa56fe1b346d067f2e0fb39006b91e6849ee
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 74%
 
 ---
 
 # Cookies Marketo Measure {#marketo-measure-cookies}
 
 En savoir plus sur les différents cookies [!DNL Marketo Measure] chargés sur votre site lorsque vous appliquez le JavaScript [!DNL Marketo Measure] à vos pages de destination. Ces informations peuvent se révéler utiles à l’équipe de développement web lors de la mise en œuvre.
+
+>[!IMPORTANT]
+>
+>En raison de problèmes de confidentialité, des cookies tiers sont en cours d’élimination. L’abandon des cookies tiers annoncé par Google Chrome au troisième trimestre 2024 marque effectivement la fin de cette forme de suivi. Par conséquent, Adobe abandonnera les fonctions Marketo Measure qui reposent sur des cookies tiers, en particulier le suivi inter-domaines et l’attribution d’affichage publicitaire, qui utilisent le cookie d’impression Google/DoubleClick. Aucune autre fonction de Marketo Measure ne sera affectée. L’utilisation des cookies propriétaires n’est pas non plus affectée. Compte tenu de la planification Google, la date d’obsolescence attendue des deux fonctions ci-dessus est 6/1/2024. Les données connexes collectées avant cette date restent disponibles pour les clients Adobe.
 
 <table>
 <thead>
