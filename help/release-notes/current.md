@@ -3,10 +3,10 @@ description: Notes de mise à jour actuelles - [!DNL Marketo Measure] - Document
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
-workflow-type: ht
+source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
+workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -26,7 +26,7 @@ Ce nouvel ensemble de tableaux de bord préconfigurés devrait être introduit p
 
 >[!NOTE]
 >
->À la mi-janvier 2024, les tableaux de bord actuels deviendront obsolètes. Pour assurer une transition fluide, vous pouvez utiliser les deux versions jusqu’à cette date.
+>Bien que les tableaux de bord actuels soient obsolètes d’ici mars 2024, vous pouvez utiliser les deux versions jusqu’à ce moment-là, ce qui garantit une transition fluide.
 
 **Suppression des données d’adresse IP**
 
@@ -96,7 +96,7 @@ Ces nouveaux tableaux de bord intégrés seront progressivement déployés à pa
 
 >[!NOTE]
 >
->À la mi-janvier 2024, les tableaux de bord actuels deviendront obsolètes. Pour assurer une transition fluide, vous pouvez utiliser les deux versions jusqu’à cette date.
+>Bien que les tableaux de bord actuels soient obsolètes d’ici mars 2024, vous pouvez utiliser les deux versions jusqu’à ce moment-là, ce qui garantit une transition fluide.
 
 ### Obsolescence {#deprecations}
 
