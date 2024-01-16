@@ -3,7 +3,7 @@ description: « Exigence en matière d’intégrité des données [!DNL Marketo
 title: « Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate »
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: e1c401ae41b5aeedf0c3c8b75a82f680a0dcbefb
+source-git-commit: b5277eef02d22b1f8cc10c184f232adb2ad7ac06
 workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
@@ -407,7 +407,7 @@ ht-degree: 100%
       <td>b2b.personStatus</td>
       <td>Chaîne</td>
       <td>Statut</td>
-      <td><font color="red">Oui pour le type de personne « Lead » uniquement</font></td>
+      <td><b><i>Oui pour le type de personne « Lead » uniquement</i></b></td>
       <td>Obligatoire uniquement si b2b.personType est « Lead »</td>
     </tr>
     <tr>
@@ -431,7 +431,7 @@ ht-degree: 100%
       <td>b2b.isConverted</td>
       <td>Booléen</td>
       <td>IsConverted</td>
-      <td><font color="red">Oui pour le type de personne « Lead » uniquement</font></td>
+      <td><b><i>Oui pour le type de personne « Lead » uniquement</i></b></td>
       <td>Obligatoire uniquement si b2b.personType est « Lead »</td>
     </tr>
     <tr>
