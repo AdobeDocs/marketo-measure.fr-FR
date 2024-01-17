@@ -3,10 +3,10 @@ description: Bonnes pratiques relatives à la segmentation - [!DNL Marketo Measu
 title: Bonnes pratiques relatives à la segmentation
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '419'
-ht-degree: 100%
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,9 @@ Gardez à l’esprit les bonnes pratiques suivantes, que vous définissiez la se
 * Alignez le nom du segment sur la nomenclature de votre organisation, c’est-à-dire la catégorie = nom du filtre, le segment = valeur du filtre.
 * N’utilisez pas de champs de formule dans vos règles
 * Dans la mesure du possible, créez la segmentation à la fois sur les leads/contacts et opportunités afin de pouvoir l’utiliser dans l’entonnoir entier
+   * Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut comme Contact, n’utilisez pas les deux champs ci-dessous spécifiques à la piste ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+      * b2b.personStatus
+      * b2b.isConverted
    * Toutes les catégories de segments ne s’aligneront pas sur l’ensemble de l’entonnoir
       * Par exemple, une catégorie de segment « Type d’opportunité » ne sera pas liée aux leads, mais un segment lié à « Région » est probablement une catégorie qui peut être définie dans tout l’entonnoir
 * Pensez aux façons dont vous souhaitez actuellement répartir vos données, que ce soit dans le CRM ou dans un outil de BI. Envisagez de procéder en tant que segment dans [!DNL Marketo Measure] afin d’avoir les mêmes rapports dans Discover.

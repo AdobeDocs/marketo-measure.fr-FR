@@ -4,9 +4,9 @@ description: Segmentation personnalisée - [!DNL Marketo Measure] - Documentatio
 title: Segmentation personnalisée
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,11 @@ Avant d’utiliser cette fonction, déterminez les informations de point de cont
 Si les règles ne sont pas configurées pour les pistes/contacts et les opportunités, seules une partie de vos données s’affiche. Pour plus d’informations, si vous ne configurez pas les règles d’opportunités, vous verrez uniquement les données de piste/contact sans les opportunités qui y sont associées. Il en va de même si vous ne définissez pas de règles pour les Leads/Contacts, vous ne verrez que les opportunités sans les Leads/Contacts associés.
 
 Lorsque vous avez terminé, cliquez sur [!UICONTROL Enregistrer] d’abord, double-vérifiez tout, puis cliquez sur [!UICONTROL Enregistrement et traitement]. N’oubliez pas que vous ne pourrez pas modifier vos paramètres pendant les sept jours qui suivent l’enregistrement et le traitement, comme suit : [!DNL Marketo Measure] reformate vos données pendant cette période.
+
+Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut comme Contact, n’utilisez pas les deux champs ci-dessous spécifiques à la piste ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+
+* b2b.personStatus
+* b2b.isConverted
 
 **Comment enregistrer les rapports générés ?**
 
