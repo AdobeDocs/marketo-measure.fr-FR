@@ -4,10 +4,10 @@ description: Schéma de Data Warehouse - Marketo Measure - Documentation du prod
 title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 3165d821000a1369ed6fdff3f786ae6632ea39f4
-workflow-type: ht
-source-wordcount: '20697'
-ht-degree: 100%
+source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
+workflow-type: tm+mt
+source-wordcount: '20757'
+ht-degree: 99%
 
 ---
 
@@ -147,8 +147,23 @@ Comptes importés à partir du système source.
       <td>Date à laquelle l’enregistrement a été marqué comme supprimé dans Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>∗</b> INDUSTRIE</td>
+      <td>varchar</td>
+      <td>Activité Principal du compte.</td>
+      <td>Vente au détail, télécommunications</td>
+    </tr>
+    <tr>
+      <td><b>∗</b> PAYS</td>
+      <td>varchar</td>
+      <td>Partie pays de l’adresse du compte.</td>
+      <td>États-Unis, Canada</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>∗</b> <i>Disponible uniquement dans Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
 
@@ -169,74 +184,34 @@ Table de mappage entre les adresses e-mail des prospects (adresses e-mail de con
       <td>0013800001MMPPiAAP_personne@adobe.com|2022-01-05 17:22:13.000</td>
     </tr>
     <tr>
-      <td>
-        <p>ACCOUNT_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Identifiant du compte dans le système source.</p>
-      </td>
-      <td>
-        <p>0013100001phrBAAAY</p>
-      </td>
+      <td>ACCOUNT_ID</td>
+      <td>varchar</td>
+      <td>Identifiant du compte dans le système source.</td>
+      <td>0013100001phrBAAAY</td>
     </tr>
     <tr>
-      <td>
-        <p>EMAIL</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Adresse électronique qui a été mappée au compte, soit par le biais des relations de contact, soit par la mise en correspondance des prospects avec le compte.</p>
-      </td>
-      <td>
-        <p>personne@adobe.com</p>
-      </td>
+      <td>EMAIL</td>
+      <td>varchar</td>
+      <td>Adresse électronique qui a été mappée au compte, soit par le biais des relations de contact, soit par la mise en correspondance des prospects avec le compte.</td>
+      <td>personne@adobe.com</td>
     </tr>
     <tr>
-      <td>
-        <p>MODIFIED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Date de dernière modification du compte dans le système source.</p>
-      </td>
-      <td>
-        <p>2018-08-31 23:53:39.000</p>
-      </td>
+      <td>MODIFIED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Date de dernière modification du compte dans le système source.</td>
+      <td>2018-08-31 23:53:39.000</td>
     </tr>
     <tr>
-      <td>
-        <p>CREATED_DATE</p>
-      </td>
-      <td>
-        <p>timestamp_ntz</p>
-      </td>
-      <td>
-        <p>Date de création du compte dans le système source.</p>
-      </td>
-      <td>
-        <p>2018-08-18 22:01:32.000</p>
-      </td>
+      <td>CREATED_DATE</td>
+      <td>timestamp_ntz</td>
+      <td>Date de création du compte dans le système source.</td>
+      <td>2018-08-18 22:01:32.000</td>
     </tr>
     <tr>
-      <td>
-        <p>IS_DELETED</p>
-      </td>
-      <td>
-        <p>boolean</p>
-      </td>
-      <td>
-        <p>Inique si l’enregistrement est considéré comme supprimé.</p>
-      </td>
-      <td>
-        <p>false</p>
-      </td>
+      <td>IS_DELETED</td>
+      <td>boolean</td>
+      <td>Inique si l’enregistrement est considéré comme supprimé.</td>
+      <td>false</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -272,58 +247,29 @@ Activités importées depuis un système source ou un compte publicitaire connec
     <th><strong>Exemple de données</strong></th>
     </tr>
     <tr>
-      <td>
-        <p>ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Identifiant d’activité du système source.</p>
-      </td>
-      <td>
-        <p>1678625515</p>
-      </td>
+      <td>ID</td>
+      <td>varchar</td>
+      <td>Identifiant d’activité du système source.</td>
+      <td>1678625515</td>
     </tr>
     <tr>
-      <td>
-        <p>LEAD_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
+      <td>LEAD_ID</td>
+      <td>varchar</td>
       <td>Identifiant du prospect associé à l’activité.</td>
-      <td>
-        <p>15530482</p>
-      </td>
+      <td>15530482</td>
     </tr>
     <tr>
-      <td>
-        <p>CONTACT_ID</p>
+      <td>CONTACT_ID</td>
+      <td>varchar</td>
+      <td>Identifiant du contact associé à l’activité.
       </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Identifiant du contact associé à l’activité.</p>
-      </td>
-      <td>
-        <p>13792552</p>
-      </td>
+      <td>13792552</td>
     </tr>
     <tr>
-      <td>
-        <p>ACTIVITY_TYPE_ID</p>
-      </td>
-      <td>
-        <p>varchar</p>
-      </td>
-      <td>
-        <p>Identifiant du type d’activité dans le système source.</p>
-      </td>
-      <td>
-        <p>104</p>
-      </td>
+      <td>ACTIVITY_TYPE_ID</td>
+      <td>varchar</td>
+      <td>Identifiant du type d’activité dans le système source.</td>
+      <td>104</td>
     </tr>
     <tr>
       <td>ACTIVITY_TYPE_NAME</td>
@@ -372,7 +318,7 @@ Activités importées depuis un système source ou un compte publicitaire connec
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td>IS_DELETD</td>
+      <td>IS_DELETED</td>
       <td>boolean</td>
       <td>Indique si l’enregistrement est considéré comme supprimé du système source.</td>
       <td>false</td>
@@ -4388,18 +4334,10 @@ Contacts importés à partir du système source.
       <td>{"Contact_Type__c":"CMO", "Foo":"Bar"}</td>
     </tr>
     <tr>
-      <td>
-        <p>ROW_KEY</p>
-      </td>
-      <td>
-        <p>number(38,0)</p>
-      </td>
-      <td>
-        <p>Clé étrangère de la vue Biz_Facts.</p>
-      </td>
-      <td>
-        <p>3263982503087870000</p>
-      </td>
+      <td>ROW_KEY</td>
+      <td>number(38,0)</td>
+      <td>Clé étrangère de la vue Biz_Facts.</td>
+      <td>3263982503087870000</td>
     </tr>
     <tr>
       <td>_CREATED_DATE</td>
@@ -4419,8 +4357,17 @@ Contacts importés à partir du système source.
       <td>Date à laquelle l’enregistrement a été marqué comme supprimé dans Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>∗</b> JOB_TITLE</td>
+      <td>varchar</td>
+      <td>Titre de la tâche du contact.</td>
+      <td>PDG, vice-président</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>∗</b> <i>Disponible uniquement dans Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
 
@@ -10271,8 +10218,17 @@ Opportunités importées à partir du système source.
       <td>Date à laquelle l’enregistrement a été marqué comme supprimé dans Snowflake.</td>
       <td>2020-01-01 01:01:00.000</td>
     </tr>
+    <tr>
+      <td><b>∗</b> OPPORTUNITY_TYPE</td>
+      <td>varchar</td>
+      <td>Type d’opportunité, comme Nouvelle entreprise, Renouvellement, etc.</td>
+      <td>Renouvellement, perspective</td>
+    </tr>
   </tbody>
 </table>
+<p>
+<b>∗</b> <i>Disponible uniquement dans Marketo Measure Ultimate</i>
+<p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
 
