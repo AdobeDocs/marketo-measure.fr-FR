@@ -4,9 +4,9 @@ title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '926'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Ce nouvel ensemble de tableaux de bord préconfigurés devrait être introduit p
 
 >[!NOTE]
 >
->Bien que les tableaux de bord actuels soient obsolètes d’ici mars 2024, vous pouvez utiliser les deux versions jusqu’à ce moment-là, ce qui garantit une transition fluide.
+>En mars 2024, les tableaux de bord actuels deviendront obsolètes. Pour assurer une transition fluide, vous pouvez utiliser les deux versions jusqu’à cette date.
 
 **Suppression des données d’adresse IP**
 
@@ -96,7 +96,7 @@ Ces nouveaux tableaux de bord intégrés seront progressivement déployés à pa
 
 >[!NOTE]
 >
->Bien que les tableaux de bord actuels soient obsolètes d’ici mars 2024, vous pouvez utiliser les deux versions jusqu’à ce moment-là, ce qui garantit une transition fluide.
+>En mars 2024, les tableaux de bord actuels deviendront obsolètes. Pour assurer une transition fluide, vous pouvez utiliser les deux versions jusqu’à cette date.
 
 ### Obsolescence {#deprecations}
 
