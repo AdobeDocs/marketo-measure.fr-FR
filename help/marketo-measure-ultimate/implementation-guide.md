@@ -3,9 +3,9 @@ description: « Guide de mise en œuvre [!DNL Marketo Measure] Ultimate –  [!
 title: Guide de mise en œuvre [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '997'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -146,7 +146,7 @@ Les étapes n’étant pas automatiquement importées à partir des données de 
 
 Si les étapes ne sont pas mappées, le système ne fonctionnera pas, car les données ne pourront aller nulle part.
 
-Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut comme Contact, n’utilisez pas les deux champs ci-dessous spécifiques à la piste ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Si vous êtes client ou cliente Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut sur Contact, n’utilisez pas les deux champs ci-dessous spécifiques au prospect ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted
