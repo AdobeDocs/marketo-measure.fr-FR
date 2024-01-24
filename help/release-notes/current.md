@@ -3,10 +3,10 @@ description: Notes de mise à jour actuelles - [!DNL Marketo Measure] - Document
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: d1fffd4848452f0e1b2abfaf89c2a10fba123036
-workflow-type: ht
-source-wordcount: '926'
-ht-degree: 100%
+source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+workflow-type: tm+mt
+source-wordcount: '1044'
+ht-degree: 89%
 
 ---
 
@@ -106,7 +106,7 @@ Ces nouveaux tableaux de bord intégrés seront progressivement déployés à pa
 
 Nous supprimerons progressivement nos tâches d’export pour les objets Prospect/contact afin de simplifier notre intégration et d’éliminer la nécessité d’exporter vers des objets standard Salesforce. Les champs dénormalisés répertoriés ci-dessous seront également obsolètes, car les clientes et clients peuvent obtenir les mêmes données de leurs objets Touchpoint. _**Le calendrier d’obsolescence est fixé à juin 2024.**_
 
-<table style="width:300px">
+<table style="width:350px">
 <tbody>
   <tr>
     <td>bizible2__Ad_Campaign_Name_FT__c</td>
@@ -140,6 +140,40 @@ Nous supprimerons progressivement nos tâches d’export pour les objets Prospec
   </tr>
 </tbody>
 </table>
+
+Les champs qui contiennent les mêmes informations sur les objets point de contact et point de contact d’attribution sont les suivants :
+
+* bizible2__Ad_Campaign_Name__c
+* bizible2__Landing_Page__c
+* bizible2__Marketing_Channel__c
+* bizible2__Touchpoint_Date__c
+* bizible2__Touchpoint_Source__c
+
+**Actions requises**
+
+* Créez de nouveaux types de rapports pour les pistes et les contacts avec ou sans points de contact.
+
+![](assets/release-notes-2023-1.png)
+
+* Créez des rapports qui capturent la fonctionnalité de tout rapport existant qui utilise les champs supprimés. Dans le cadre de ce processus, vous souhaiterez modifier les champs du rapport, comme indiqué ci-dessous :
+
+   * Supprimez les champs Lead/Contact FT/LC :
+
+![](assets/release-notes-2023-2.png)
+
+* Ajouter des champs de point de contact :
+
+![](assets/release-notes-2023-3.png)
+
+* Le filtre Position du point de contact et les filtres qui utilisent les champs FT/LC, y compris le champ Date, doivent être mis à jour comme suit :
+
+![](assets/release-notes-2023-4.png)
+
+![](assets/release-notes-2023-5.png)
+
+* Supprimez les rapports préexistants qui utilisaient les champs supprimés de l’objet Lead/Contact pour ne plus référencer ces champs.
+
+<p>
 
 * **Package Dynamics**
 
