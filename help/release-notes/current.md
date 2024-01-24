@@ -3,7 +3,7 @@ description: Notes de mise à jour actuelles - [!DNL Marketo Measure] - Document
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
+source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
 workflow-type: tm+mt
 source-wordcount: '1044'
 ht-degree: 88%
@@ -102,7 +102,7 @@ Ces nouveaux tableaux de bord intégrés seront progressivement déployés à pa
 
 <p>
 
-#### Dépréciations des champs Salesforce {#salesforce-field-deprecations}
+#### Dépréciations des champs Salesforce
 
 Nous supprimerons progressivement nos tâches d’export pour les objets Prospect/contact afin de simplifier notre intégration et d’éliminer la nécessité d’exporter vers des objets standard Salesforce. Les champs dénormalisés répertoriés ci-dessous seront également obsolètes, car les clientes et clients peuvent obtenir les mêmes données de leurs objets Touchpoint. _**Le calendrier d’obsolescence est fixé à juin 2024.**_
 
@@ -175,13 +175,13 @@ Les champs qui contiennent les mêmes informations sur les objets point de conta
 
 <p>
 
-* **Package Dynamics**
+#### Package Dynamics
 
-   * Pour rester connecté à Dynamics, installez notre dernière version de package (6.12). Les anciennes versions `(<v6.12)` ne seront plus prise en charge. Cette mise à jour optimise la création d’enregistrements historiques afin de réduire l’utilisation du stockage.
+* Pour rester connecté à Dynamics, installez notre dernière version de package (6.12). Les anciennes versions `(<v6.12)` ne seront plus prise en charge. Cette mise à jour optimise la création d’enregistrements historiques afin de réduire l’utilisation du stockage.
 
-   * La méthode OAuth par jeton d’actualisation a fait son temps et devient obsolète. Consultez ce [ce guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} pour mettre à jour vos informations d’identification afin de respecter les bonnes pratiques de Microsoft concernant l’utilisation de ClientSecret.
+* La méthode OAuth par jeton d’actualisation a fait son temps et devient obsolète. Consultez ce [ce guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} pour mettre à jour vos informations d’identification afin de respecter les bonnes pratiques de Microsoft concernant l’utilisation de ClientSecret.
 
-* **Champ « custom_properties »**
+#### Champ &quot;custom_properties&quot;
 
 Dans notre entrepôt de données, le champ « custom_properties » sert de stockage pour les points de données supplémentaires non couverts par notre schéma fixe. L’utilisation de ce champ, stocké au format JSON, est limitée et son intégration aux requêtes SQL peut s’avérer compliquée et nuire aux performances. Nous avons donc décidé de rendre ce champ obsolète. Ce changement aura une incidence sur la couche de traitement de données dans notre stockage Table Azure et les données exportées vers notre entrepôt de données.
 
