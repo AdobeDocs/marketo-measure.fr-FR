@@ -3,10 +3,10 @@ description: Notes de mise à jour actuelles - [!DNL Marketo Measure] - Document
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cc22d6af742de7cc1acd40bc3e8d6f4f9bf93fe1
+source-git-commit: 2e474dfbda67b53dbf643defa383fc1b4c5f0b42
 workflow-type: tm+mt
 source-wordcount: '1044'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -102,7 +102,7 @@ Ces nouveaux tableaux de bord intégrés seront progressivement déployés à pa
 
 <p>
 
-* **Dépréciations des champs Salesforce**
+#### Dépréciations des champs Salesforce {#salesforce-field-deprecations}
 
 Nous supprimerons progressivement nos tâches d’export pour les objets Prospect/contact afin de simplifier notre intégration et d’éliminer la nécessité d’exporter vers des objets standard Salesforce. Les champs dénormalisés répertoriés ci-dessous seront également obsolètes, car les clientes et clients peuvent obtenir les mêmes données de leurs objets Touchpoint. _**Le calendrier d’obsolescence est fixé à juin 2024.**_
 
