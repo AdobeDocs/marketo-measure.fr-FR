@@ -4,7 +4,7 @@ title: Notifications d’erreur
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
+source-git-commit: b4fadc6519761975736ce7a0e4f99a30c589c9af
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -18,10 +18,10 @@ Vous trouverez ci-dessous une liste des erreurs que vous pouvez recevoir par not
 <table>
   <tbody>
     <tr>
-      <th>Code d’erreur</th>
-      <th>Exemple de notification</th>
-      <th>Description</th>
-      <th>Étapes de dépannage</th>
+      <th style="width:31%">Code d’erreur</th>
+      <th style="width:23%">Exemple de notification</th>
+      <th style="width:23%">Description</th>
+      <th style="width:23%">Étapes de dépannage</th>
     </tr>
     <tr>
       <td>API_DISABLED</td>
