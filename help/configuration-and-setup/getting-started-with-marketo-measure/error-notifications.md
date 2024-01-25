@@ -4,7 +4,7 @@ title: Notifications d’erreur
 hide: true
 hidefromtoc: true
 feature: Fundamentals
-source-git-commit: 656c84090c93adb55a661869061e9e0771ede03d
+source-git-commit: 79f430fc8c0d5331bc4c12dee4937bb18dd801ce
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 0%
@@ -42,10 +42,10 @@ Vous trouverez ci-dessous une liste des erreurs que vous pouvez recevoir par not
           </ul>
           <p>Vous pouvez également ajuster les crédits CRM utilisés par Marketo Measure en procédant comme suit :</p>
           <ul>
-            <li>Accédez à Paramètres → CRM → Général</li>
+            <li>Accédez à <b>Paramètres</b> &gt; <b>CRM</b> &gt; <b>Général</b></li>
             <li>Mise à jour de la limite de l’API CRM quotidienne<br/>
               <ul>
-                <li><b>Remarque</b>: la valeur par défaut est de 100 000</li>
+                <li><b>Remarque : La valeur par défaut est de 100 000</b></li>
               </ul>
             </li>
           </ul>
