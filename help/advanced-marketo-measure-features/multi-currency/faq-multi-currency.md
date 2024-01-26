@@ -4,9 +4,9 @@ description: FAQ (multidevise) - [!DNL Marketo Measure] - Documentation du produ
 title: Questions fréquentes sur la gestion de plusieurs devises
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '796'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,7 @@ Pour le lecteur intéressé, voici pourquoi ça marche ainsi. Nos points de cont
 **Si mon client a utilisé un workflow pour renseigner un champ converti, comment doit-il utiliser ce champ à partir de maintenant ?**
 
 Puisque notre offre va maintenant gérer les conversions pour le client, nous vous recommandons de supprimer les workflows et le champ personnalisé et de nous permettre d’importer leur valeur brute Montant .
+
+>[!MORELIKETHIS]
+>
+>[Notifications d’erreur](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}

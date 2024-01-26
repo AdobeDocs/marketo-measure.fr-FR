@@ -4,10 +4,10 @@ description: "[!DNL Microsoft Dynamics] Guide d’installation CRM - Marketo Mea
 title: "[!DNL Microsoft Dynamics] Guide d'installation CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 86d610d07ab699266ba68a6f2eaf7c7981e62019
+source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 0%
+source-wordcount: '983'
+ht-degree: 14%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans notre documentation. Toutefois, votre gestion de la relation client (CRM) mentionne encore « Bizible ». Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
 
 ## Versions prises en charge {#supported-versions}
 
@@ -168,10 +168,14 @@ Pour [!DNL Marketo Measure] pour effectuer le suivi de vos activités web, plusi
 
    >[!NOTE]
    >
-   >Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d’API chaque fois qu’une tâche envoie des données à votre service de gestion de la relation client. Pour la plupart des clients, cela permet d’obtenir un équilibre optimal entre les crédits d’API consommés par [!DNL Marketo Measure] et les exigences en matière de ressources du processeur sur le CRM. Toutefois, pour les clients avec des configurations CRM complexes, comme les workflows et les triggers, une taille de lot réduite peut s’avérer utile pour améliorer les performances CRM. À cette fin, [!DNL Marketo Measure] permet aux clients de configurer la taille du lot d’exportation CRM. Ce paramètre est disponible sur la page Paramètres > CRM > Général de la [!DNL Marketo Measure] l’application web et les clients peuvent choisir entre des tailles de lot de 200 (par défaut), 100, 50 ou 25.
+   >Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d’API chaque fois qu’une tâche envoie des données à votre CRM. Pour la majeure partie de la clientèle, cela permet d’obtenir un équilibre optimal entre les crédits d’API consommés par [!DNL Marketo Measure] et les exigences en matière de ressources du processeur sur le CRM. Toutefois, pour la clientèle disposant de configurations CRM complexes, comme les workflows et les triggers, une taille de lot réduite peut se révéler utile pour améliorer les performances CRM. À cette fin, [!DNL Marketo Measure] permet à la clientèle de configurer la taille du lot d’export CRM. Ce paramètre est disponible sur la page Paramètres > CRM > Général de la [!DNL Marketo Measure] l’application web et les clients peuvent choisir entre des tailles de lot de 200 (par défaut), 100, 50 ou 25.
    >
-   >Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consommeront plus de crédits d’API de votre CRM. Il est conseillé de réduire la taille du lot uniquement si vous rencontrez un délai d’expiration du processeur ou une charge élevée du processeur dans votre CRM.
+   >Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consomment davantage de crédits d’API de votre CRM. Il est conseillé de réduire la taille des lots uniquement en cas de temporisation du processeur ou d’une charge élevée de ce dernier dans votre CRM.
 
    >[!NOTE]
    >
    >Lorsque vous désactivez Marketo Measure pour exporter des données vers Dynamics, aucune donnée existante n’est supprimée. Pour obtenir de l’aide sur la suppression des données existantes, contactez le support Dynamics.
+
+   >[!MORELIKETHIS]
+   >
+   >[Notifications d’erreur](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
