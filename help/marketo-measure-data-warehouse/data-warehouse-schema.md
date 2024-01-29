@@ -5,9 +5,9 @@ title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '20757'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -148,21 +148,21 @@ Comptes importés à partir du système source.
       <td>2020-01-01 01:01:00.000</td>
     </tr>
     <tr>
-      <td><b>∗</b> INDUSTRIE</td>
+      <td><b>∗</b> INDUSTRY</td>
       <td>varchar</td>
-      <td>Activité Principal du compte.</td>
+      <td>Activité principale du compte.</td>
       <td>Vente au détail, télécommunications</td>
     </tr>
     <tr>
-      <td><b>∗</b> PAYS</td>
+      <td><b>∗</b> COUNTRY</td>
       <td>varchar</td>
-      <td>Partie pays de l’adresse du compte.</td>
+      <td>Section « pays » de l’adresse du compte.</td>
       <td>États-Unis, Canada</td>
     </tr>
   </tbody>
 </table>
 <p>
-<b>∗</b> <i>Disponible uniquement dans Marketo Measure Ultimate</i>
+<b>∗</b> <i>Disponible uniquement dans Marketo Measure Ultimate</i>
 <p>
 
 ### BIZ_ACCOUNT_TO_EMAILS {#biz-account-to-emails}
@@ -4360,13 +4360,13 @@ Contacts importés à partir du système source.
     <tr>
       <td><b>∗</b> JOB_TITLE</td>
       <td>varchar</td>
-      <td>Titre de la tâche du contact.</td>
+      <td>Métier du contact.</td>
       <td>PDG, vice-président</td>
     </tr>
   </tbody>
 </table>
 <p>
-<b>∗</b> <i>Disponible uniquement dans Marketo Measure Ultimate</i>
+<b>∗</b> <i>Disponible uniquement dans Marketo Measure Ultimate</i>
 <p>
 
 ### BIZ_CONVERSION_RATES {#biz-conversion-rates}
@@ -10221,13 +10221,13 @@ Opportunités importées à partir du système source.
     <tr>
       <td><b>∗</b> OPPORTUNITY_TYPE</td>
       <td>varchar</td>
-      <td>Type d’opportunité, comme Nouvelle entreprise, Renouvellement, etc.</td>
-      <td>Renouvellement, perspective</td>
+      <td>Type d’opportunité, comme Nouvelle entreprise, Reconduction, etc.</td>
+      <td>Reeconduction, prospect</td>
     </tr>
   </tbody>
 </table>
 <p>
-<b>∗</b> <i>Disponible uniquement dans Marketo Measure Ultimate</i>
+<b>∗</b> <i>Disponible uniquement dans Marketo Measure Ultimate</i>
 <p>
 
 ### BIZ_OPP_STAGE_TRANSITIONS {#biz-opp-stage-transitions}
