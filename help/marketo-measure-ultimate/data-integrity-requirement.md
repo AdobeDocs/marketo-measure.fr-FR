@@ -3,8 +3,8 @@ description: « Exigence en matière d’intégrité des données [!DNL Marketo
 title: « Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate »
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: b5277eef02d22b1f8cc10c184f232adb2ad7ac06
-workflow-type: ht
+source-git-commit: 23890f24412e234f9ab7c08b684b6064eac5d0ed
+workflow-type: tm+mt
 source-wordcount: '1493'
 ht-degree: 100%
 
@@ -1366,7 +1366,7 @@ select 'last updated date', count(*) from salesforce_contact where extSourceSyst
 Il est recommandé d&#39;utiliser un champ calculé dans le mappage des champs pour définir par défaut le champ sur une valeur non nulle. Voici deux exemples :
 
 * Si la valeur du champ opportunityName de certains enregistrements d’opportunité est nulle, créez le champ calculé suivant et utilisez-le dans le mappage des champs
-   * `iif(name != null && name != "", name, "Unknown")`
+   * `iif(name != null && trim(name) != "", name, "Unknown")`
 
 * Si leadOperation.campaignProgression.campaignID de certains enregistrements experienceevent est nul, créez le champ calculé suivant et utilisez-le dans le mappage des champs.
    * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
