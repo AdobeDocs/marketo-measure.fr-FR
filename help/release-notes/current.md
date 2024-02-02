@@ -4,9 +4,9 @@ title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1044'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -141,7 +141,7 @@ Nous supprimerons progressivement nos tâches d’export pour les objets Prospec
 </tbody>
 </table>
 
-Les champs qui contiennent les mêmes informations sur les objets point de contact et point de contact d’attribution sont les suivants :
+Les champs qui contiennent les mêmes informations sur les objets Touchpoint et Attribution Touchpoints sont les suivants :
 
 * bizible2__Ad_Campaign_Name__c
 * bizible2__Landing_Page__c
@@ -151,37 +151,37 @@ Les champs qui contiennent les mêmes informations sur les objets point de conta
 
 **Actions requises**
 
-* Créez de nouveaux types de rapports pour les pistes et les contacts avec ou sans points de contact.
+* Créez de nouveaux types de rapports pour les prospects et les contacts avec ou sans Touchpoints.
 
 ![](assets/release-notes-2023-1.png)
 
-* Créez des rapports qui capturent la fonctionnalité de tout rapport existant qui utilise les champs supprimés. Dans le cadre de ce processus, vous souhaiterez modifier les champs du rapport, comme indiqué ci-dessous :
+* Créez des rapports pour capturer la fonctionnalité de tout rapport existant qui utilise les champs supprimés. Dans le cadre de ce processus, vous pouvez modifier les champs du rapport, comme indiqué ci-dessous :
 
-   * Supprimez les champs Lead/Contact FT/LC :
+   * Supprimer les champs Prospect/Contact FT/LC :
 
 ![](assets/release-notes-2023-2.png)
 
-* Ajouter des champs de point de contact :
+* Ajouter des champs Touchpoint :
 
 ![](assets/release-notes-2023-3.png)
 
-* Le filtre Position du point de contact et les filtres qui utilisent les champs FT/LC, y compris le champ Date, doivent être mis à jour comme suit :
+* Le filtre Position de Touchpoint et les filtres qui utilisent les champs FT/LC, y compris le champ Date, doivent être mis à jour comme suit :
 
 ![](assets/release-notes-2023-4.png)
 
 ![](assets/release-notes-2023-5.png)
 
-* Supprimez les rapports préexistants qui utilisaient les champs supprimés de l’objet Lead/Contact pour ne plus référencer ces champs.
+* Supprimez les rapports préexistants qui utilisaient les champs supprimés de l’objet Prospect/Contact pour ne plus référencer ces champs.
 
 <p>
 
-#### Package Dynamics
+#### Package Dynamics connexe
 
 * Pour rester connecté à Dynamics, installez notre dernière version de package (6.12). Les anciennes versions `(<v6.12)` ne seront plus prise en charge. Cette mise à jour optimise la création d’enregistrements historiques afin de réduire l’utilisation du stockage.
 
 * La méthode OAuth par jeton d’actualisation a fait son temps et devient obsolète. Consultez ce [ce guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} pour mettre à jour vos informations d’identification afin de respecter les bonnes pratiques de Microsoft concernant l’utilisation de ClientSecret.
 
-#### Champ &quot;custom_properties&quot;
+#### Champ « custom_properties »
 
 Dans notre entrepôt de données, le champ « custom_properties » sert de stockage pour les points de données supplémentaires non couverts par notre schéma fixe. L’utilisation de ce champ, stocké au format JSON, est limitée et son intégration aux requêtes SQL peut s’avérer compliquée et nuire aux performances. Nous avons donc décidé de rendre ce champ obsolète. Ce changement aura une incidence sur la couche de traitement de données dans notre stockage Table Azure et les données exportées vers notre entrepôt de données.
 
