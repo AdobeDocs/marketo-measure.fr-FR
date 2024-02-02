@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
 source-git-commit: 969cb2b4fb85aeb5c3a3aa21ead3eb5f4ff15ad9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 99%
       + [Génération et mappage des points de contact](configuration-and-setup/getting-started-with-marketo-measure/touchpoint-generation-and-mapping.md)
       + [Méthodologie de mappage pour les attributions](configuration-and-setup/getting-started-with-marketo-measure/attribution-mapping-methodology.md)
       + [Configuration d’Adobe Admin Console](configuration-and-setup/getting-started-with-marketo-measure/adobe-admin-console-setup.md)
-      + [Différence entre les points de contact acheteur et les points de contact d’attribution acheteur](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
+      + [Différence entre les Buyer Touchpoints et les Buyer Attribution Touchpoints](configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
       + [Notifications d’erreur](configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
       + [Explication des positions et de la génération de points de contact entre les BT et les  [!DNL BATs]](configuration-and-setup/getting-started-with-marketo-measure/explanation-of-touchpoint-positions-and-generation-across-bts-and-bats.md)
       + [Intégration CRM de [!DNL Marketo Measure] sans package](configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-crm-packageless-integration.md)
