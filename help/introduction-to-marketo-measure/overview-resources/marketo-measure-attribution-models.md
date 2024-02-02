@@ -5,9 +5,9 @@ title: Modèles d’attribution Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
 source-git-commit: aa12df4d0c77cdc677f78bcab19497806927ec2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '764'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Marketo Measure propose six types de modèles d’attribution :
 * Chemin complet
 * Modèle personnalisé
 
-Ces modèles n’ont pas tous la même complexité. Les modèles « Premier contact » et « Création de prospects » sont les plus simples, car ils se composent d’une seule prise de contact. Les quatre autres sont plus complexes, car ils comprennent plusieurs points de prise de contact. La structure des modèles d’attribution Marketo Measure reflète les quatre principaux points de contact qui se produisent dans le parcours client :
+Ces modèles n’ont pas tous la même complexité. Les modèles « Premier contact » et « Création de prospects » sont les plus simples, car ils se composent d’une seule prise de contact. Les quatre autres sont plus complexes, car ils comprennent plusieurs points de prise de contact. La structure des modèles d’attribution de Marketo Measure reflète les quatre principaux points de contact qui jalonnent le parcours client :
 
 * Premier contact (FT pour « First Touch »)
 * Création de prospects (LC pour « Lead Creation »)
@@ -31,7 +31,7 @@ Ces modèles n’ont pas tous la même complexité. Les modèles « Premier con
 
 ![](assets/1-1.png)
 
-Dans le **modèles tactiles simples**, le crédit d’attribution n’est attribué qu’à un point de contact de jalon, d’où le nom &quot;touche unique&quot;.
+Dans les **modèles simples**, le crédit d’attribution est attribué à un unique point de contact.
 Dans les **modèles complexes**, la plupart du crédit d’attribution est attribué à deux points de contact ou plus. Le crédit restant est attribué aux points de contact intermédiaires, situés entre les principaux jalons.
 
 Les sections suivantes détaillent chaque modèle d’attribution ainsi que la manière dont le crédit est alloué.
@@ -42,7 +42,7 @@ Les sections suivantes détaillent chaque modèle d’attribution ainsi que la m
 
 Le modèle « Premier contact » se concentre uniquement sur la toute première interaction qu’un prospect a avec votre entreprise. Il attribue 100 % du crédit au premier point de contact entre le prospect et votre société, appelé « Premier contact » (FT).
 
-Dites visite à Kate `www.adobe.com` pour la première fois via une publicité AdWords et affiche un livre blanc. Le canal AdWords recevra 100 % du crédit d’attribution de cette opportunité.
+Imaginons que Kate visite `www.adobe.com` pour la première fois via une annonce publicitaire AdWords et consulte un livre blanc. Le canal AdWords recevra 100 % du crédit d’attribution de cette opportunité.
 
 ![](assets/2.png)
 
@@ -50,19 +50,19 @@ Dites visite à Kate `www.adobe.com` pour la première fois via une publicité A
 
 Le modèle « création de prospects » attribue 100 % du crédit au point de contact où un prospect fournit ses coordonnées et devient un client potentiel.
 
-Suite à l’exemple précédent, après la première visite de Kate à `www.adobe.com` par Adwords, Austin visite le site via un billet de Linkedin. Il remplit un formulaire et devient un prospect. Dans ce modèle, LinkedIn recevra 100 % du crédit d’attribution.
+Dans la suite de l’exemple précédent, après la première visite de Kate sur `www.adobe.com` via AdWords, Austin se rend à son tour sur le site Web via un article sur LinkedIn. Il remplit un formulaire et devient un prospect. Dans ce modèle, LinkedIn recevra 100 % du crédit d’attribution.
 
 ![](assets/3.png)
 
 ## Modèles complexes {#multi-touch-models}
 
-Les modèles complexes sont utilisés pour des cycles de vente plus longs et qui comprennent plusieurs points de contact. Ces modèles sont particulièrement utiles si plusieurs personnes d’un compte/d’une société sont impliquées dans le parcours de l’acheteur.
+Les modèles complexes sont utilisés pour des cycles de vente plus longs et qui comprennent plusieurs points de contact. Ils sont particulièrement utiles si plusieurs personnes d’un même compte ou d’une même société sont impliquées dans le parcours d’achat.
 
 **Modèle en forme de U**
 
 Le modèle en U se concentre sur les points de contact FT et LC, qui reçoivent chacun 50 % du crédit de recettes.
 
-La première visite de Kate à `www.adobe.com` par l’intermédiaire d’une publicité AdWords recevra 50 % du crédit d’attribution. et les 50 % restants sont attribués à l’article sur LinkedIn qui a conduit Augustin à remplir un formulaire et à devenir un client potentiel.
+La première visite de Kate sur `www.adobe.com` via une annonce AdWords reçoit alors 50 % du crédit d’attribution. et les 50 % restants sont attribués à l’article sur LinkedIn qui a conduit Augustin à remplir un formulaire et à devenir un client potentiel.
 
 ![](assets/4.png)
 
@@ -86,4 +86,4 @@ Après la création de l’opportunité, Kate, Augustin et Hillary décident de 
 
 **Modèle d’attribution personnalisé**
 
-Marketo Measure propose également un modèle d’attribution personnalisé, qui permet aux utilisateurs de choisir les points de contact ou les étapes personnalisées à inclure dans leur modèle. En outre, les utilisateurs peuvent contrôler le pourcentage du crédit d’attribution attribué à ces points de contact et étapes. Si une opportunité ne comporte pas de touches intermédiaires dédiées, le pourcentage sera réparti uniformément entre les autres positions.
+Marketo Measure propose également un modèle d’attribution personnalisé, qui permet aux utilisateurs de choisir les points de contact ou les étapes personnalisées à inclure dans leur modèle. En outre, les utilisateurs et les utilisatrices peuvent contrôler le pourcentage du crédit d’attribution alloué à chacun de ces éléments. Si une opportunité ne comporte pas de points de contact intermédiaires dédiés, le pourcentage sera réparti uniformément entre les autres positions.
