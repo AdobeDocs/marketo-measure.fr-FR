@@ -4,10 +4,10 @@ description: Schéma de Data Warehouse - Marketo Measure - Documentation du prod
 title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: c1fc48028014160635c454138eb4ad8efb02c74a
-workflow-type: ht
-source-wordcount: '20757'
-ht-degree: 100%
+source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+workflow-type: tm+mt
+source-wordcount: '20781'
+ht-degree: 99%
 
 ---
 
@@ -6740,6 +6740,10 @@ Table de correspondance entre les adresses e-mail et les identifiants visiteur.
 ### BIZ_FACTS {#biz-facts}
 
 Regroupe les données de type Impressions, Pages vues, Visites, Envois de formulaire, Points de contact utilisateur, Point de contact (BT), Points de contact d’attribution (BAT) et Coût. Ce champ est utilisé par le système pour la création de rapports [!DNL Marketo Measure].
+
+>[!IMPORTANT]
+>
+>Marketo Measure abandonnera ce tableau à la mi-2024. Si vous souhaitez le créer de votre côté, exécutez [cette requête SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
