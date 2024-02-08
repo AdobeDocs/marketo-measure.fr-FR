@@ -4,9 +4,9 @@ description: Schéma de Data Warehouse - Marketo Measure - Documentation du prod
 title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: cec688a6e3495679bf8d16f3974a0bb32302601d
+source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
 workflow-type: tm+mt
-source-wordcount: '20781'
+source-wordcount: '20777'
 ht-degree: 99%
 
 ---
@@ -8120,9 +8120,7 @@ Impressions déclenchées et enregistrées. Cette table nécessite une connexion
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>Nom du fournisseur d’accès Internet. Champ utilisé par les clients qui disposent d’un suivi géographique avancé de l’adresse IP.</p>
-      </td>
+      <td>Valeur nulle attendue, car le champ est obsolète.</td>
       <td>
         <p>AT&amp;T U-verse</p>
       </td>
@@ -12037,9 +12035,7 @@ Sessions traitées à partir des pages vues. Plusieurs pages vues peuvent consti
       <td>
         <p>varchar</p>
       </td>
-      <td>
-        <p>Fournisseur d’accès Internet de l’utilisateur.</p>
-      </td>
+      <td>Valeur nulle attendue, car le champ est obsolète.</td>
       <td>
         <p>AT&amp;T U-verse</p>
       </td>
