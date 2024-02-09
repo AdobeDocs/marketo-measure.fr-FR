@@ -4,9 +4,9 @@ description: Schéma de Data Warehouse - Marketo Measure - Documentation du prod
 title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 737fe3e5e780e654b2e53f58c957cf67ec97548c
+source-git-commit: 999758c34b0264b8dac06fd0675e26b312fa58d6
 workflow-type: tm+mt
-source-wordcount: '20777'
+source-wordcount: '20775'
 ht-degree: 99%
 
 ---
@@ -729,18 +729,10 @@ Annonceurs importés depuis n’importe quel compte publicitaire connecté.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -1043,18 +1035,10 @@ Comptes publicitaires importés depuis n’importe quel compte publicitaire conn
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -1487,18 +1471,10 @@ Campagnes importées à partir des comptes publicitaires connectés, des systèm
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -2092,18 +2068,10 @@ Groupes publicitaires importés depuis n’importe quel compte publicitaire conn
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -2466,18 +2434,10 @@ Groupes publicitaires importés depuis n’importe quel compte publicitaire conn
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -2548,18 +2508,10 @@ Groupes publicitaires importés depuis n’importe quel compte publicitaire conn
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -3748,18 +3700,10 @@ Membres de la campagne importés à partir du système source. Cette table sera 
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -4061,18 +4005,10 @@ Canaux marketing, tels que créés dans l’application [!DNL Marketo Measure].
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -4144,18 +4080,10 @@ Contacts importés à partir du système source.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -5026,18 +4954,10 @@ Contenus créatifs importés depuis n’importe quel compte publicitaire connect
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -5527,18 +5447,10 @@ Contenus créatifs importés depuis n’importe quel compte publicitaire connect
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -5740,18 +5652,10 @@ Tâches importées à partir du système source. Cette table se remplit si la sy
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -6042,15 +5946,9 @@ Tests AB enregistrés. Cette table sera vide si les tests AB ne sont pas activ
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
       <th>Exemple de données</th>
     </tr>
     <tr>
@@ -6205,15 +6103,9 @@ Tests AB enregistrés. Cette table sera vide si les tests AB ne sont pas activ
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
       <th>Exemple de données</th>
     </tr>
     <tr>
@@ -6334,15 +6226,9 @@ Pages de destination téléchargées à partir de n’importe quel compte public
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
       <th>Exemple de données</th>
     </tr>
     <tr>
@@ -6619,18 +6505,10 @@ Table de correspondance entre les adresses e-mail et les identifiants visiteur.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -7540,17 +7418,11 @@ Envois de formulaire capturés.
   <tbody>
     <tr>
       <th>
-        <p>Colonne</p>
+        Colonne
       </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -7852,18 +7724,10 @@ Impressions déclenchées et enregistrées. Cette table nécessite une connexion
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -8121,9 +7985,7 @@ Impressions déclenchées et enregistrées. Cette table nécessite une connexion
         <p>varchar</p>
       </td>
       <td>Valeur nulle attendue, car le champ est obsolète.</td>
-      <td>
-        <p>AT&amp;T U-verse</p>
-      </td>
+      <td>NULL</td>
     </tr>
     <tr>
       <td>
@@ -8601,18 +8463,10 @@ Mots-clés importés depuis n’importe quel compte publicitaire connecté.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -9026,15 +8880,9 @@ Pages de destination importées depuis n’importe quel compte publicitaire conn
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
       <th>Exemple de données</th>
     </tr>
     <tr>
@@ -9293,18 +9141,10 @@ Prospects importés à partir du système source.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -9632,18 +9472,10 @@ Transitions d’étape pour les prospects ou les contacts.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -9909,18 +9741,10 @@ Opportunités importées à partir du système source.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -10239,18 +10063,10 @@ Transitions d’étape pour les opportunités.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -10528,18 +10344,10 @@ Pages vues collectées lors de visites web. Plusieurs pages vues peuvent corresp
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -10853,15 +10661,9 @@ Cette table stocke tous les emplacements téléchargés à partir de n’importe
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
       <th>Exemple de données</th>
     </tr>
     <tr>
@@ -11131,18 +10933,10 @@ Valeurs des segments, telles que définies dans l’application [!DNL Marketo Me
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -11214,18 +11008,10 @@ Mappe le nom du segment personnalisé avec la valeur de sa catégorie. (Mappe le
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -11309,18 +11095,10 @@ Sessions traitées à partir des pages vues. Plusieurs pages vues peuvent consti
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -12037,7 +11815,7 @@ Sessions traitées à partir des pages vues. Plusieurs pages vues peuvent consti
       </td>
       <td>Valeur nulle attendue, car le champ est obsolète.</td>
       <td>
-        <p>AT&amp;T U-verse</p>
+        <p>NULL</p>
       </td>
     </tr>
     <tr>
@@ -12176,18 +11954,10 @@ Sites importés depuis n’importe quel compte publicitaire connecté.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -12462,18 +12232,10 @@ Liens de sites provenant de n’importe quel compte publicitaire connecté.
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -12801,18 +12563,10 @@ Liste des étapes, telles qu’importées ou définies dans l’application [!DN
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -14277,18 +14031,10 @@ Tous les points de contact créés à partir de n’importe quel événement li�
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
@@ -15178,18 +14924,10 @@ Table de mappage permettant de faire correspondre l’ID de session [!DNL Market
 <table>
   <tbody>
     <tr>
-      <th>
-        <p>Colonne</p>
-      </th>
-      <th>
-        <p>Type de données</p>
-      </th>
-      <th>
-        <p>Description</p>
-      </th>
-      <th>
-        <p>Exemple de données</p>
-      </th>
+      <th>Colonne</th>
+      <th>Type de données</th>
+      <th>Description</th>
+      <th>Exemple de données</th>
     </tr>
     <tr>
       <td>
