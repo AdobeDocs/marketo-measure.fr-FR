@@ -1,12 +1,12 @@
 ---
 description: '''[!DNL Salesforce] Consolidation des modules - [!DNL Marketo Measure] - Documentation du produit"'
 title: '''[!DNL Salesforce] Consolidation des modules'
-exl-id: f1bd5dcb-d021-4140-b6b9-cdb40e566c4b
+exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 12%
+source-wordcount: '473'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ Le nouveau package V2 consolidé intègre toutes les fonctionnalités des packag
 Nous avons ajouté deux nouveaux champs qui vous aideront à améliorer vos capacités de reporting :
 
 * form_name : désormais disponible dans les objets BT/BAT, ce champ permet aux utilisateurs et utilisatrices de créer des rapports en fonction des noms de formulaire.
-* user_touchpoint_id : ce champ permet aux utilisateurs et utilisatrices de créer des rapports avec des nombres de points de contact utilisateur uniques.
+* user_touchpoint_id : ce champ permet aux utilisateurs de créer des rapports avec un nombre de points de contact utilisateur uniques (`bizible2__User_Touchpoint_V2__c` dans Salesforce).
 
 ## Assistance et transition {#support-and-transition}
 
