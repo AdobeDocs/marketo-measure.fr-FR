@@ -2,9 +2,9 @@
 description: Tableau de bord des engagements - [!DNL Marketo Measure] - Produit
 title: Tableau de bord des engagements
 feature: Reporting
-source-git-commit: b037a4a1be5c7d089cc94590caf91be05af4dd22
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '370'
 ht-degree: 1%
 
 ---
@@ -59,3 +59,11 @@ Questions sur le graphique :
 * Comment le nombre de points de contact est-il comparé au nombre de personnes touchées dans un canal/sous-canal/campagne spécifique ?
 
 ![](assets/engagement-dashboard-2.png)
+
+## Volet Filtrer {#filter-pane}
+
+Ce tableau de bord est équipé des paramètres et filtres suivants :
+
+* Date (basée sur la date du point de contact)
+* Canal, sous-canal
+* Campagne

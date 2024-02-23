@@ -3,10 +3,10 @@ description: Nouveau guide de tableau de bord Discover - [!DNL Marketo Measure] 
 title: Nouveau guide de découverte du tableau de bord
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
 workflow-type: tm+mt
 source-wordcount: '1076'
-ht-degree: 10%
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     <tr>
       <td>Vue d’ensemble</td>
       <td><ul><li><strong>Recettes</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
-          <li><strong>Vue d’ensemble</strong>:<ul>              <li>Tableau de bord des recettes attribuées : recettes attribuées par canal et graphique dans le temps</li>
+          <li><strong>Présentation</strong>:<ul>              <li>Tableau de bord des recettes attribuées : recettes attribuées par canal et graphique dans le temps</li>
             <li>Tableau de bord du retour sur investissement : graphique coût sur temps</li></ul></li><li><strong>Dépenser</strong>: tableau de bord du retour sur investissement</li>
           <li><strong>Offres</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
@@ -39,14 +39,12 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
           <li>
             <strong>Recettes du pipeline :</strong>Obsolète (voir ci-dessous)</li>
           <li>
-            <strong>Taille moyenne des transactions : </strong>Obsolète (voir ci-dessous)</li>
-        </ul>
+            <strong>Taille moyenne des transactions : </strong>Obsolète (voir ci-dessous)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Croissance</td>
-      <td>
-        <ul>
+      <td><ul>
           <li>
             <strong>Recettes et recettes dans le temps</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
@@ -168,13 +166,13 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
             <strong>Coût par visite</strong>
           </li>
           <li>
-            <strong>Chiffre d’affaires par visite unique</strong>
+            <strong>Recettes par visite unique</strong>
           </li>
           <li>
-            <strong>Chiffre d’affaires par visite</strong>
+            <strong>Recettes par visite</strong>
           </li>
           <li>
-            <strong>Leads par page de destination</strong>
+            <strong>Pistes par page d’entrée</strong>
           </li>
         </ul>
       </td>
@@ -186,7 +184,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
           <li>
             <strong>Recettes</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
-            <strong>Vue d’ensemble</strong>:<ul>
+            <strong>Présentation</strong>:<ul>
               <li>Tableau de bord des recettes attribuées : recettes attribuées par canal et graphique dans le temps</li>
               <li>Tableau de bord du retour sur investissement : graphique coût sur temps</li>
             </ul>
@@ -351,7 +349,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     <tr>
       <td>
         <p>
-          <strong>Chiffre d’affaires de pipeline</strong>
+          <strong>Recettes du pipeline</strong>
         </p>
       </td>
       <td rowspan="3">
@@ -362,7 +360,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     <tr>
       <td>
         <p>
-          <strong>Chiffre d’affaires de pipeline au fil du temps</strong>
+          <strong>Recettes du pipeline dans le temps</strong>
         </p>
       </td>
     </tr>
@@ -376,7 +374,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     <tr>
       <td>
         <p>
-          <strong>Valeur moyenne de l’affaire</strong>
+          <strong>Taille moyenne des transactions</strong>
         </p>
       </td>
       <td rowspan="3">Nous avons choisi de ne pas dupliquer ces points de données CRM dans nos tableaux de bord pour mettre l’accent sur les informations d’attribution.</td>
@@ -394,14 +392,14 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     <tr>
       <td>
         <p>
-          <strong>Taux de confirmation</strong>
+          <strong>Taux de Win</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Affaires au fil du temps</strong>
+          <strong>Offres dans le temps</strong>
         </p>
       </td>
       <td rowspan="4">Ces mesures sont déjà fournies dans les mosaïques IPC. Nous avons exclu leur vue de série temporelle de notre tableau de bord pour éviter la redondance et maintenir la clarté.
@@ -409,17 +407,17 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     </tr>
     <tr>
       <td>
-        <strong>Contacts au fil du temps</strong>
+        <strong>Contacts dans le temps</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Opportunités au fil du temps</strong>
+        <strong>Opportunités dans le temps</strong>
       </td>
     </tr>
     <tr>
       <td>
-        <strong>Leads au fil du temps</strong>
+        <strong>Pistes dans le temps</strong>
       </td>
     </tr>
     <tr>
@@ -454,28 +452,28 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     <tr>
       <td>
         <p>
-          <strong>Chiffre d’affaires par visite</strong>
+          <strong>Recettes par visite</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Leads par page de destination</strong>
+          <strong>Pistes par page d’entrée</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Pages de destination par chiffre d’affaires</strong>
+          <strong>Pages d’entrée par recettes</strong>
         </p>
       </td>
     </tr>
     <tr>
       <td>
         <p>
-          <strong>Pages de destination par compte d’opportunités</strong>
+          <strong>Pages d’entrée par nombre d’opportunités</strong>
         </p>
       </td>
     </tr>
@@ -493,7 +491,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
 **Filtrer les mises à jour**: pour simplifier votre expérience, nous avons ajusté nos sélections de filtres comme ci-dessous.
 
 * **Type de date, Mesure, Dimension, Regrouper par**: ces paramètres sont désormais prédéfinis pour chaque tableau de bord afin d’optimiser la diffusion des informations. Les détails détaillés sont accessibles via les info-bulles et la documentation qui les accompagne.
-* **Source de la campagne**
+* **Source de campagne**
 * **ID et nom du compte**: en cours de révision.
 
 ## Nouveaux ajouts et améliorations {#new-additions-and-improvements}
@@ -506,6 +504,6 @@ Alors que nous nous efforçons continuellement d’améliorer votre expérience,
 
 >[!MORELIKETHIS]
 >
->* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Bases du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 
