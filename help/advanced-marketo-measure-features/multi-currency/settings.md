@@ -4,7 +4,7 @@ description: Paramètres - [!DNL Marketo Measure] - Documentation du produit
 title: Paramètres
 exl-id: 704dc52d-fa21-4475-878b-073e2e65c566
 feature: Multi-Currency
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 1%
@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Paramètres {#settings}
 
-Il existe deux bits de fonctionnalités distincts liés à cette fonctionnalité, situés dans l’onglet Paramètres généraux du CRM : plusieurs devises et devises avancées.
+Il existe deux bits de fonctionnalités distincts liés à cette fonctionnalité, situés dans le noeud CRM : [!UICONTROL Paramètres généraux] onglet : plusieurs devises et des devises avancées.
 
 **Devises multiples**: activé si le client utilise plusieurs devises uniques.
 

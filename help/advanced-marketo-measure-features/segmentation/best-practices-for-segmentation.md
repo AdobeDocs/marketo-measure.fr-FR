@@ -3,10 +3,10 @@ description: Bonnes pratiques relatives à la segmentation - [!DNL Marketo Measu
 title: Bonnes pratiques relatives à la segmentation
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 93%
+source-wordcount: '451'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ La segmentation fait partie intégrante de votre compte [!DNL Marketo Measure], 
 
 Lorsqu’elles sont transmises à [!DNL Salesforce], les valeurs de segment sont écrites dans le champ « Segment » et se trouvent dans n’importe quel type de rapport Buyer Touchpoint. Cela permet d’uniformiser les rapports sur les deux plateformes. Le segment se trouve également dans le détail du point de contact de n’importe quel point de contact.
 
-Lorsque vous accédez à Discover, les segments apparaissent sous la forme d’un filtre disponible dans le menu déroulant du filtre situé sur tous les tableaux de bord.
+Lorsque la variable est envoyée à [!UICONTROL Discover], les segments s’affichent en tant que filtre disponible dans le menu déroulant de filtre situé sur tous les panoramas.
 
 ## Bonne pratique {#best-practice}
 

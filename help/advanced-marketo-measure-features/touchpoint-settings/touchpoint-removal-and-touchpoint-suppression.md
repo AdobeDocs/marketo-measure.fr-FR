@@ -4,9 +4,9 @@ description: Suppression des points de contact et suppression des points de cont
 title: Suppression et retrait des points de contact
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Effectuez une sélection dans une liste d’ Opérateurs qui se rapportent au pr
 
 >[!TIP]
 >
->Pour comptabiliser une valeur vide ou NULL dans un champ, laissez simplement la zone Valeur vide. Cela prend en compte des scénarios tels que l’évaluation par rapport à un point de contact sans URL de formulaire.
+>Pour comptabiliser une valeur vide ou NULL dans un champ, il vous suffit de laisser la variable [!UICONTROL Valeur] vide. Cela prend en compte des scénarios tels que l’évaluation par rapport à un point de contact sans URL de formulaire.
 
 >[!NOTE]
 >
@@ -53,7 +53,7 @@ Vous pouvez également ajouter de nouvelles instructions en dehors du groupe pou
 
 ![](assets/2.png)
 
-`3)` Si vos règles deviennent complexes et que vous devez recréer des groupes et apporter de petites modifications à chaque instruction, utilisez l’option Cloner pour simplifier les choses.
+`3)` Si vos règles deviennent complexes et que vous devez recréer des groupes et apporter de petites modifications à chaque instruction, utilisez la méthode [!UICONTROL Cloner] pour rendre les choses plus simples.
 
 ![](assets/3.png)
 
@@ -65,7 +65,7 @@ Si vous faites une erreur, ne vous inquiétez pas. Vous pouvez également suppri
 
 ![](assets/5.png)
 
-Pour terminer, enregistrez et traitez vos règles. Si vous effectuez beaucoup de modifications, veillez à enregistrer vos modifications en cours de route. [!DNL Marketo Measure] ne commencera pas à supprimer vos points de contact tant que vous n’aurez pas cliqué sur le bouton **Enregistrement et traitement** bouton .
+Pour terminer, [!UICONTROL Enregistrement et traitement] vos règles. Si vous effectuez beaucoup de modifications, veillez à enregistrer vos modifications en cours de route. [!DNL Marketo Measure] ne commencera pas à supprimer vos points de contact tant que vous n’aurez pas cliqué sur le bouton **Enregistrement et traitement** bouton .
 
 | **Opérateur** | **Cas d’utilisation** |
 |---|---|

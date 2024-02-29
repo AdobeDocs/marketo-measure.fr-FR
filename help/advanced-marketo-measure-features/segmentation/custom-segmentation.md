@@ -4,10 +4,10 @@ description: Segmentation personnalisée - [!DNL Marketo Measure] - Documentatio
 title: Segmentation personnalisée
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '743'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -29,7 +29,7 @@ La segmentation personnalisée peut être utilisée pour afficher les données d
 
 Avant d’utiliser cette fonction, déterminez les informations de point de contact que vous souhaitez filtrer. N’oubliez pas d’utiliser les valeurs exactes dans votre CRM pour vos types d’enregistrements. La configuration va filtrer les points de contact du haut vers le bas de l’entonnoir marketing.
 
-Étape 2 - Connectez-vous et recherchez la fonction Segments .
+Étape 2 - Connectez-vous et localisez la variable [!UICONTROL Segments] fonction .
 
 * Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et se connecter
 * Sous , [!UICONTROL Mon compte] onglet, sélectionnez [!UICONTROL Paramètres]
@@ -43,7 +43,7 @@ Avant d’utiliser cette fonction, déterminez les informations de point de cont
 
 Étape 4 - Ajout de règles de filtrage.
 
-* Saisissez tout d’abord le nom de la catégorie. Business Type est un exemple. Cliquez sur la coche lorsque vous avez terminé. Vous devez saisir un nom de catégorie avant d’ajouter des segments.
+* Saisissez tout d’abord le nom de la catégorie. [!UICONTROL Type d’entreprise] est un exemple. Cliquez sur la coche lorsque vous avez terminé. Vous devez saisir un nom de catégorie avant d’ajouter des segments.
 * Cliquez sur le signe plus pour ajouter un segment.
 * Saisissez un Nom de segment. Par exemple, vous pouvez avoir un segment pour Nouvelle entreprise, Partenaires, Renouvellement ou Mise à niveau.
 
@@ -57,11 +57,11 @@ Avant d’utiliser cette fonction, déterminez les informations de point de cont
 >
 >Les champs de formule ne peuvent pas être utilisés dans vos règles et n’apparaîtront pas dans la liste de sélection. Parce que les formules sont calculées en arrière-plan et ne modifient pas d&#39;enregistrement, [!DNL Marketo Measure] ne peut pas détecter si un enregistrement correspond à une règle ou non.
 
-* L’option Valeur n’est pas une liste déroulante et sa valeur doit être saisie manuellement. Veillez à vérifier les valeurs de votre organisation Salesforce.
+* La variable [!UICONTROL Valeur] n’est pas une liste déroulante et sa valeur doit être saisie manuellement. Veillez à vérifier les valeurs de votre organisation Salesforce.
 * Répétez ce processus pour les règles de segment Opportunités .
 * La catégorie &quot;Autre&quot; est un segment par défaut qui capture tous les points de contact non définis. Vous pouvez modifier le nom du segment par défaut.
 * Cliquez sur l’icône de corbeille pour supprimer une catégorie entière ou une règle individuelle dans une catégorie. Vous pouvez également cliquer sur l’icône en forme de crayon pour modifier la catégorie ou la règle.
-* Vous remarquerez que vous disposez d’un bouton &quot;Enregistrer&quot; et d’un bouton &quot;Enregistrer et traiter&quot;. Utilisez le bouton Enregistrer pour enregistrer votre travail et vos modifications au fil du temps. Utilisez le bouton Save and Process UNIQUEMENT une fois que vous avez vérifié que :
+* Vous remarquerez que vous avez un &quot;[!UICONTROL Enregistrer]&quot; et un bouton &quot;Enregistrer et traiter&quot;. Utilisez le bouton Enregistrer pour enregistrer votre travail et vos modifications au fil du temps. Utilisez le bouton Save and Process UNIQUEMENT une fois que vous avez vérifié que :
 
    * Votre mappage est précis
    * Vous avez ajouté tous les segments dont vous souhaitez effectuer le suivi dans une catégorie.
@@ -73,7 +73,7 @@ Si les règles ne sont pas configurées pour les pistes/contacts et les opportun
 
 Lorsque vous avez terminé, cliquez sur [!UICONTROL Enregistrer] d’abord, double-vérifiez tout, puis cliquez sur [!UICONTROL Enregistrement et traitement]. N’oubliez pas que vous ne pourrez pas modifier vos paramètres pendant les sept jours qui suivent l’enregistrement et le traitement, comme suit : [!DNL Marketo Measure] reformate vos données pendant cette période.
 
-Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut comme Contact, n’utilisez pas les deux champs ci-dessous spécifiques à la piste ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Si vous êtes client ou cliente Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut sur Contact, n’utilisez pas les deux champs ci-dessous spécifiques au prospect ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

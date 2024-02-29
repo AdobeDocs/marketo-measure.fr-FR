@@ -4,7 +4,7 @@ description: FAQ (multidevise) - [!DNL Marketo Measure] - Documentation du produ
 title: Questions fréquentes sur la gestion de plusieurs devises
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 **Comment savoir quelle fonctionnalité activer ?**
 
-Gardez à l’esprit qu’il existe deux bits de fonctionnalités différents pour cette fonctionnalité. Tous deux se trouvent dans l’onglet Général de la section CRM dans Paramètres : plusieurs devises et devises avancées. Plusieurs devises doivent être activées si le client utilise plus d’une seule devise, tandis que la fonctionnalité supplémentaire en bits Devises avancées peut être activée si le client utilise [!DNL Salesforce]Fonctionnalité de &quot;gestion de devise avancée&quot; dans laquelle l’utilisateur peut définir une plage temporelle pour les taux de conversion.
+Gardez à l’esprit qu’il existe deux bits de fonctionnalités différents pour cette fonctionnalité. Tous deux se trouvent dans la variable [!UICONTROL Général] de la section CRM dans Paramètres : plusieurs devises et devises avancées. Plusieurs devises doivent être activées si le client utilise plus d’une seule devise, tandis que la fonctionnalité supplémentaire en bits Devises avancées peut être activée si le client utilise [!DNL Salesforce]Fonctionnalité de &quot;gestion de devise avancée&quot; dans laquelle l’utilisateur peut définir une plage temporelle pour les taux de conversion.
 
 Malheureusement, nous ne savons pas quand un client passe de Simple à Avancé si Avancé a déjà été activé. Pour cette raison, le client doit conserver le paramètre Devises avancées aligné manuellement sur son paramètre CRM. Cela devrait être visible pour le client si les conversions sont incorrectes, ce qui signifie que nous ne savions pas quel niveau de conversion appliquer.
 

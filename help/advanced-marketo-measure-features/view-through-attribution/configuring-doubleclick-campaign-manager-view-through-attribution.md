@@ -4,9 +4,9 @@ description: Configuration de l’affichage double du Gestionnaire de campagnes 
 title: Configuration l’attribution de visionnage moyen dans le gestionnaire de campagnes Doubleclick
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '318'
 ht-degree: 4%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->Si vous utilisez la variable [!DNL Marketo Measure] et intégration de DoubleClick Campaign Manager, une [Connexion API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) nous pouvons donc télécharger les détails des campagnes et des créatifs pour résoudre les publicités.
+>Si vous utilisez la variable [!DNL Marketo Measure] et [!DNL DoubleClick Campaign Manager] intégration, une [Connexion API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) nous pouvons donc télécharger les détails des campagnes et des créatifs pour résoudre les publicités.
 
-Pour commencer à obtenir des informations plus granulaires à partir de la vue via le suivi avec Doubleclick Campaign Manager, notre pixel de suivi doit être configuré.
+Pour commencer à obtenir des informations plus granulaires à partir de la vue jusqu’au suivi avec [!DNL Doubleclick Campaign Manager], votre pixel de suivi doit être configuré.
 
 Veuillez [cliquez ici](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) pour plus d’informations sur la variable [!DNL Marketo Measure] Attribution d’affichage publicitaire .
 
@@ -29,7 +29,7 @@ Si vous utilisez une hiérarchie Parent et Enfant dans DCM, notre balise doit ê
 
 ## Ajout de la balise d’image {#how-to-add-the-image-tag}
 
-Vous allez ajouter la balise dans Doubleclick sous le paramètre Annonceur et vous allez créer une balise d’événement d’impression.
+Vous allez ajouter la balise dans [!DNL Doubleclick] sous le paramètre Annonceur et vous souhaitez créer une balise d’événement d’impression.
 
 1. Ajoutez le code suivant comme pixel d’image 1x1.
 
@@ -37,7 +37,7 @@ Vous allez ajouter la balise dans Doubleclick sous le paramètre Annonceur et vo
 
 1. Une fois ajoutées, vérifiez que les délimiteurs sont mappés comme suit. Cette fonction doit être automatique une fois la balise appliquée :
 
-   v = %epuisque! Développer l’identifiant publicitaire\
+   v = %epuisque! [!DNL Expand] Identifiant du publicitaire\
    a = %eaid! Développer l’ID de publicité\
    c = %ecid! Développer L’Identifiant Créatif\
    s = %esid! Développer l’ID de site\

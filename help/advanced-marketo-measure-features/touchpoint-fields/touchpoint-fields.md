@@ -4,9 +4,9 @@ description: Champs de point de contact - [!DNL Marketo Measure] - Documentation
 title: Champs de point de contact
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '1946'
+source-wordcount: '1956'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Pour créer un champ calculé, n’oubliez pas que l’utilisateur peut effectue
 
 Extractions
 
-L&#39;opérateur extrait la valeur d&#39;un champ depuis un autre emplacement, tel que : un champ de campagne, un champ de piste ou dans un cas pratique plus avancé, [extraire des paramètres personnalisés de la landing page ;](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+La variable [!UICONTROL extraction] extrait la valeur d’un champ d’un autre emplacement, par exemple : un champ de campagne, un champ de piste ou dans un cas d’utilisation plus avancé, [extraire des paramètres personnalisés de la landing page ;](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. It then places it onto a Touchpoint Field (See [Maps To Example](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
 
 **Exemple de #1**
 
@@ -123,7 +123,7 @@ Essayons un exemple similaire où nous extrayons un code de suivi tel que : `htt
 
 **Mappages sur**
 
-L’opérateur mappe sur crée un tableau des valeurs qui doivent être traduites ou regroupées dans une autre valeur. En règle générale, cela prend la forme d’une valeur clé où un code représente un nom convivial et doit être associé à ce nom convivial.
+La variable [!UICONTROL mappe à] crée un tableau des valeurs qui doivent être traduites ou regroupées dans une autre valeur. En règle générale, cela prend la forme d’une valeur clé où un code représente un nom convivial et doit être associé à ce nom convivial.
 
 **Exemple de #1**
 
@@ -145,18 +145,18 @@ Maintenant que nous avons appris à extraire et à mapper les champs, combinons 
    * **(** marque le début de l&#39;extraction
 
       * Puisque nous extrayons uniquement les 4, seuls les premiers chiffres ont la parenthèse ouverte
-
    * **)** marque la fin de l’extraction
 
       * Puisque nous extrayons uniquement les 4, seuls les premiers chiffres comportent des parenthèses fermées
-
    * **\d** nous dit que nous extrayons un &quot;chiffre&quot;
    * **{2}** est le nombre de caractères que nous extrayons
+
+
 
 * Cliquez sur [!UICONTROL Enregistrer]. Vous devez enregistrer votre nouveau champ pour pouvoir l’utiliser pour la règle suivante !
 * Ensuite, nous allons mapper toutes les valeurs possibles pour les premiers chiffres à ses noms conviviaux.
 * Créez un champ calculé et étiquetez-le &quot;Nom_région&quot;.
-* Définissez la règle en commençant par la recherche de votre champ extrait. Dans ce cas, Touchpoint.Region
+* Définissez la règle en commençant par la recherche de votre champ extrait. Dans ce cas, [!DNL Touchpoint.Region]
 * Utilisez l’opérateur &quot;[!UICONTROL mappe à]&quot; puisque nous voulons créer un mapping pour chaque nombre avec sa valeur
 * Un tableau vous sera présenté pour répertorier chaque mappage. Au final, il ressemblera à ceci :
 * En fonction du mappage et de l’URL ci-dessus, la &quot;Region_Value&quot; d’un point de contact avec cette page d’entrée serait &quot;EMEA&quot;.
@@ -171,7 +171,7 @@ Maintenant que nous avons appris à extraire et à mapper les champs, combinons 
 
 **Concaténes**
 
-L’opérateur concatène combine dans un même champ les valeurs de plusieurs champs. Cela s’avère utile pour créer une valeur personnalisée qui extrait des données dans différents champs afin de
+La variable [!UICONTROL concatène] combine les valeurs de plusieurs champs en un seul champ. Cela s’avère utile pour créer une valeur personnalisée qui extrait des données dans différents champs afin de
 
 **Exemple de #1**
 
@@ -221,7 +221,7 @@ Des travaux supplémentaires sont nécessaires pour exposer les nouveaux champs 
 
 **Comment puis-je vérifier que mon expression d’extraction est valide et extraire la valeur correcte ?**
 
-Il existe un outil en ligne ([https://regex101.com/](https://regex101.com/){target="_blank"}) que vous pouvez exécuter et tester l’expression. L’expression apparaît en vert si elle est valide ou en rouge si elle n’est pas valide. En outre, la boîte d’explication en haut à droite vous indique ce que vous extrayez.
+Il existe un outil en ligne ([[!DNL https]: /regex101.com/](https://regex101.com/){target="_blank"}) que vous pouvez exécuter et tester l’expression. L’expression apparaît en vert si elle est valide ou en rouge si elle n’est pas valide. En outre, la variable [!UICONTROL explication] La boîte en haut à droite vous aide et vous indique ce que vous extrayez.
 
 ![](assets/twelve.png)
 

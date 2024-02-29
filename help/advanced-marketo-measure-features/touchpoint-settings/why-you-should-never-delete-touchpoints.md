@@ -4,10 +4,10 @@ description: Pourquoi ne jamais supprimer les points de contact - [!DNL Marketo 
 title: Pourquoi il ne faut jamais supprimer les points de contact
 exl-id: e74c14ff-0399-4ee9-b732-6686823ff5c7
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 7%
+source-wordcount: '225'
+ht-degree: 5%
 
 ---
 
@@ -21,4 +21,4 @@ Lorsqu’un point de contact est supprimé, cela crée un trou dans les données
 
 ![](assets/1.png)
 
-Si des points de contact ont été supprimés de votre SFDC, contactez [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour demander une réimportation de vos données.
+Si des points de contact ont été supprimés de votre SFDC, contactez [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour demander une réimportation de vos données.
