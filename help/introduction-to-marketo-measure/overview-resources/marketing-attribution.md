@@ -4,10 +4,10 @@ description: Attribution marketing - Marketo Measure - Documentation du produit
 title: Attribution marketing
 exl-id: 6d838612-d158-4db0-bb9e-b615066fd97b
 feature: Attribution
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+source-git-commit: 204340c77a173c3e8fd87b65ed47a1a0dbc35880
+workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Marketo Measure permet aux professionnels du marketing de déterminer les effort
 
 L’**attribution marketing** est le processus d’attribution d’un crédit de recettes à un point de contact marketing. Pour ce faire, il est nécessaire de suivre l’ensemble du parcours client d’un prospect, depuis sa toute première interaction avec votre société jusqu’au moment où la vente est conclue. Les recettes générées par l’opération sont réattribuées aux points de contact marketing qui ont motivé la vente. Le montant du crédit de recettes attribué à un point de contact dépend de son influence sur la décision d’achat du client.
 
-Les **points de contact** sont les interactions entre un prospect et votre contenu marketing, que ce soit en ligne ou hors ligne. Quatre **principaux **points de contact** sont pris en compte dans l’attribution marketing. Chacun reflète une étape du parcours du client. Également appelés **jalons**, ces points de contact sont les suivants : Premier contact (FT), Création de prospects (LC), Création d’opportunité (OC), Vente conclue et réussie (CW).
+Les **points de contact** sont les interactions entre un prospect et votre contenu marketing, que ce soit en ligne ou hors ligne. Il y a quatre **points de contact principaux** qui sont prises en compte dans l’attribution marketing. Chacun reflète une étape du parcours du client. Également appelés **jalons**, ces points de contact sont les suivants : Premier contact (FT), Création de prospects (LC), Création d’opportunité (OC), Vente conclue et réussie (CW).
 
 ![](assets/1.png)
 
