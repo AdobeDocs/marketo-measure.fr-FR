@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762729
-description: "[!DNL Marketo Engage] Intégration de programmes - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Engage] Intégration de programmes - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Intégration de programmes"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 2%
+source-wordcount: '1260'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ Tous les niveaux.
 
    ![](assets/two.png)
 
-1. Vous pouvez éventuellement définir un nom pour la règle si cela permet d’en effectuer le suivi. Vous allez d’abord sélectionner le champ à définir pour votre règle dans la liste des champs Programme et Adhésion au programme . Continuez à créer la règle en sélectionnant l’opérateur et la valeur attendue à vérifier.
+1. Vous pouvez éventuellement définir un nom pour la règle si cela permet d’en effectuer le suivi. vous devez d’abord sélectionner le champ à définir dans la liste des champs Programme et Adhésion au programme . Continuez à créer la règle en sélectionnant l’opérateur et la valeur attendue à vérifier.
 
    ![](assets/three.png)
 
@@ -51,7 +51,7 @@ Tous les niveaux.
 
    >[!NOTE]
    >
-   >Si votre règle souhaite capturer la date d’activité ou la date à laquelle un membre du programme a atteint un état particulier, vous souhaiterez utiliser la variable [!DNL Marketo Engage] Intégration d’activités et configuration d’une règle pour le type d’activité &quot;Changement d’état dans la progression&quot;.
+   >Si votre règle souhaite capturer la date d’activité ou la date à laquelle un membre de programme a atteint un état particulier, vous souhaiterez utiliser la variable [!DNL Marketo Engage] Intégration d’activités et configuration d’une règle pour le type d’activité &quot;Changement d’état dans la progression&quot;.
 
    ![](assets/six.png)
 
@@ -85,7 +85,7 @@ Dans la liste des canaux de programme Marketo, vous souhaitez mapper les valeurs
 
 1. Commencez par accéder à **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Canaux hors ligne]**.
 
-1. Dans la partie supérieure, vous avez la possibilité de mapper vos types de campagne CRM, puis, dans la partie inférieure, vous verrez les options de vos canaux de programme Marketo.
+1. Dans la partie supérieure, vous aurez la possibilité de mapper les types de campagne CRM. Ensuite, dans la partie inférieure, vous verrez les options de vos canaux de programme Marketo.
 
 1. Sélectionnez tout d’abord le canal qui doit correspondre à la valeur, puis sélectionnez éventuellement le sous-canal. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]** en bas.
 
@@ -97,7 +97,7 @@ Grâce à l’importation des données des programmes Marketo, les coûts sont a
 
 ## Fonctionnement {#how-it-works}
 
-**Appariement des champs**
+**Mappages de champs**
 
 <table> 
  <colgroup> 
@@ -161,7 +161,7 @@ Avec cette amélioration du mappage de cookies, le FT revient et est crédité a
 
 **Comment définir la date du point de contact comme date de progression ou la date à laquelle le changement d’état est survenu pour mon membre de programme ?**
 
-Si votre règle souhaite capturer la date d’activité ou la date à laquelle un membre du programme a atteint un état particulier, vous souhaiterez utiliser la variable [!DNL Marketo Engage] Intégration d’activités et configuration d’une règle pour le type d’activité &quot;Changement d’état dans la progression&quot;. Sinon, la variable [!DNL Marketo Engage] L’intégration de programmes rend disponible uniquement la date d’adhésion, qui est la première date à avoir introduit la personne Marketo dans le programme, même s’il existe plusieurs états.
+Si votre règle souhaite capturer la date d’activité ou la date à laquelle un membre de programme a atteint un état particulier, vous souhaiterez utiliser la variable [!DNL Marketo Engage] Intégration d’activités et configuration d’une règle pour le type d’activité &quot;Changement d’état dans la progression&quot;. Sinon, la variable [!DNL Marketo Engage] L’intégration de programmes rend disponible uniquement la date d’adhésion, qui est la première date à avoir introduit la personne Marketo dans le programme, même s’il existe plusieurs états.
 
 **Puis-je obtenir une liste de sélection des options de date pour la date du point de contact ?**
 
@@ -169,7 +169,7 @@ Pour déclencher la saisie automatique, commencez par saisir une accolade. `{` d
 
 **Si je crée des règles de programme Marketo et que je dispose également de règles de campagne CRM, seront-elles comptabilisées deux fois ?**
 
-Cela dépend de votre définition de règle, mais peut-être, oui. Vous souhaitez évaluer votre jeu de règles de sorte que vous n’ayez pas de règles couvrant un programme et une campagne, car nous ne dédupliquerons ni ne détecterons les appartenances similaires. Une solution possible consiste à copier vos règles Campaign dans Programmes si vous souhaitez que Marketo soit votre source unique de vérité, puis à supprimer les règles Campaign. Une autre option consiste à ajouter un critère &quot;CreatedOn&quot; ou &quot;CreatedDate&quot; dans vos règles, de sorte que les règles antérieures à une certaine date utilisent les règles et règles de Campaign après qu’une certaine date utilisera les règles de programme. Il y a beaucoup de solutions possibles, mais cela demandera un peu de planification et de coordination.
+Cela dépend de votre définition de règle, mais peut-être, oui. vous souhaitez évaluer votre jeu de règles afin que vous ne disposiez pas de règles couvrant un programme et une campagne, car nous ne dédupliquerons ni ne détecterons les appartenances similaires. Une solution possible consiste à copier vos règles Campaign dans Programmes si vous souhaitez que Marketo soit votre source unique de vérité, puis à supprimer les règles Campaign. Une autre option consiste à ajouter un critère &quot;CreatedOn&quot; ou &quot;CreatedDate&quot; dans vos règles, de sorte que les règles antérieures à une certaine date utilisent les règles et règles de Campaign après qu’une certaine date utilisera les règles de programme. Il y a beaucoup de solutions possibles, mais cela demandera un peu de planification et de coordination.
 
 **Les champs personnalisés d’appartenance à un programme Marketo sont-ils disponibles à définir ?**
 
@@ -177,4 +177,4 @@ En raison de limitations techniques, nous ne pouvons pas prendre en charge pour 
 
 **Comment savoir si je dois utiliser des programmes ou des activités ?**
 
-La variable [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme spécifique, la variable [!DNL Marketo Engage] L’intégration des activités est la configuration que vous souhaitez, en particulier le type d’activité &quot;Modifier l’état de progression&quot;.
+La variable [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme spécifique, la variable [!DNL Marketo Engage] L’intégration des activités sera la configuration souhaitée, en particulier le type d’activité &quot;Changement d’état dans la progression&quot;.

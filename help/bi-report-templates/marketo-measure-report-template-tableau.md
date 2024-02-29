@@ -1,12 +1,12 @@
 ---
-description: « Modèle de rapport [!DNL Marketo Measure] - Tableau - [!DNL Marketo Measure] - Documentation du produit »
+description: "[!DNL Marketo Measure] Modèle de rapport - Tableau - [!DNL Marketo Measure]"
 title: « Modèle de rapport [!DNL Marketo Measure] - Tableau »
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '2323'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '2303'
+ht-degree: 87%
 
 ---
 
@@ -18,13 +18,13 @@ Vous pouvez accéder au modèle de rapport [!DNL Tableau] [ici](https://github.c
 
 Ouvrez le fichier Classeur de Tableau du modèle de création de rapports [!DNL Adobe Marketo Measure].
 
-Vous devez mettre à jour les données de connexion existantes avec vos informations de connexion Snowflake spécifiques. Cliquez sur le bouton [!UICONTROL Modifier la connexion] et suivez les étapes décrites dans la section [[!UICONTROL Connexion des données]](#data-connection) de cette documentation.
+Vous devez mettre à jour les données de connexion existantes avec vos informations de connexion de Snowflake spécifiques. Cliquez sur le bouton [!UICONTROL Modifier la connexion] et suivez les étapes décrites dans la section [[!UICONTROL Connexion des données]](#data-connection) de cette documentation.
 
 ![](assets/marketo-measure-report-template-tableau-1.png)
 
 ## Connexion des données {#data-connection}
 
-Vous devez configurer une connexion des données à votre instance Snowflake. Pour ce faire, vous aurez besoin du nom du serveur ainsi que de votre nom d’utilisateur et de votre mot de passe. En cas de besoin, vous trouverez [ici](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"} comment accéder à ces informaions et réinitialiser votre mot de passe.
+Vous devez configurer une connexion de données à votre instance de Snowflake. Pour ce faire, vous avez besoin du nom du serveur ainsi que de votre nom d’utilisateur et de votre mot de passe. En cas de besoin, vous trouverez [ici](/help/marketo-measure-data-warehouse/data-warehouse-access-reader-account.md){target="_blank"} comment accéder à ces informaions et réinitialiser votre mot de passe.
 
 ![](assets/marketo-measure-report-template-tableau-2.png)
 
@@ -47,7 +47,7 @@ Parce que [!DNL Tableau] applique des filtres de source de données à la requê
     and sn._deleted_date is null
 ```
 
-Cependant, cette erreur est due au fait que si une session a été supprimée, mais que le point de contact correspondant n’est pas supprimé, les données du point de contact sont supprimées du jeu de données. Nous voulons que les données de point de contact soient présentes dans le jeu de données, car le point de contact n’a pas été supprimé. L&#39;ajout de requêtes SQL personnalisées garantit que les critères de filtre sont appliqués au niveau du tableau, ce qui entraîne la requête suivante.
+Cependant, cette erreur est due au fait que si une session a été supprimée, mais que le point de contact correspondant n’est pas supprimé, les données du point de contact sont supprimées du jeu de données. Nous voulons que les données de point de contact soient présentes dans le jeu de données, car le point de contact n’a pas été supprimé. L&#39;ajout de SQL personnalisé garantit que les critères de filtrage sont appliqués au niveau de la table, ce qui entraîne la requête suivante.
 
 **Filtres appliqués via des requêtes SQL personnalisées**
 
@@ -62,7 +62,7 @@ Cependant, cette erreur est due au fait que si une session a été supprimée, m
 
 ## Transformations des données {#data-transformations}
 
-Quelques transformations ont été appliquées aux données dans [!DNL Tableau] depuis son état d’origine dans Snowflake. La plupart de ces transformations sont appliquées dans les requêtes SQL personnalisées qui génèrent les tableaux dans le modèle [!DNL Tableau]. Pour afficher la requête SQL personnalisée utilisée pour générer un tableau, cliquez avec le bouton droit sur le nom du tableau et sélectionnez « Modifier la requête SQL personnalisée ». Certaines des transformations spécifiques sont décrites ci-dessous.
+Quelques transformations ont été appliquées aux données dans [!DNL Tableau] depuis son état d’origine dans Snowflake. La plupart de ces transformations sont appliquées dans les requêtes SQL personnalisées qui génèrent les tableaux dans le modèle [!DNL Tableau]. Pour visualiser le code SQL personnalisé utilisé pour générer une table, cliquez avec le bouton droit sur le nom de la table et sélectionnez &quot;Modifier la requête SQL personnalisée&quot;. Certaines des transformations spécifiques sont décrites ci-dessous.
 
 ![](assets/marketo-measure-report-template-tableau-4.png)
 
@@ -70,7 +70,7 @@ Quelques transformations ont été appliquées aux données dans [!DNL Tableau] 
 
 ### Colonnes supprimées {#removed-columns}
 
-Pour simplifier le modèle de données et supprimer les données redondantes et inutiles, nous avons réduit le nombre de colonnes importées dans Tableau à partir du tableau Snowflake d’origine. Les colonnes supprimées comprennent les clés étrangères inutiles, les données dimensionnelles dénormalisées mieux exploitées par le biais de relations avec d’autres tableaux dans le modèle, les colonnes d’audit et les champs utilisés pour les traitements [!DNL Marketo Measure] internes. Vous pouvez ajouter ou supprimer des colonnes selon les besoins de votre entreprise en modifiant la liste des colonnes importées dans la section Sélectionner de la requête SQL personnalisée.
+Pour simplifier le modèle de données et supprimer les données redondantes et inutiles, nous avons réduit le nombre de colonnes importées dans Tableau à partir du tableau Snowflake d’origine. Les colonnes supprimées comprennent les clés étrangères inutiles, les données dénormalisées mieux utilisées par le biais des relations avec d’autres tables dans le modèle, les colonnes d’audit et les champs utilisés pour l’interne [!DNL Marketo Measure] traitement. Vous pouvez ajouter ou supprimer des colonnes selon les besoins de votre entreprise en modifiant la liste des colonnes importées dans la section Sélectionner de la requête SQL personnalisée.
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Pour simplifier le modèle de données et supprimer les données redondantes et 
 
 ### Colonnes renommées {#renamed-columns}
 
-Les tableaux et les colonnes ont été renommés afin de les rendre plus conviviaux et de normaliser les conventions de nommage. Pour afficher les modifications de nom de colonne, référencez les instructions SQL personnalisées qui créent les tableaux.
+Les tableaux et les colonnes ont été renommés afin de les rendre plus conviviaux et de normaliser les conventions d’appellation. Pour afficher les modifications de nom de colonne, référencez les instructions SQL personnalisées qui créent les tableaux.
 
 ### Lignes ajoutées {#rows-added}
 
@@ -120,7 +120,7 @@ Les points de contact de prospect et d’attribution sont combinés en un seul t
 
 Les transitions d’étape d’opportunité et les transitions d’étape de prospect sont combinées en un tableau dans ce modèle, avec un lien vers le tableau de points de contact [!UICONTROL Prospect et attribution]. La colonne « Type de transition » a été ajoutée pour désigner si une ligne est une transition d’étape d’opportunité ou de prospect.
 
-Les données Coût et Point de contact partagent les dimensions Canal et Campagne. Cependant, Tableau est limité dans sa capacité à modéliser des dimensions partagées entre des tableaux de faits. Puisque nous sommes limités à un seul tableau de dimension partagé, les données Canal et Campagne ont été combinées en un seul tableau. Elles sont combinées à l’aide d’une jointure croisée des deux dimensions en un tableau dans Tableau : Canal et Campaign. L’ID unique est créé en concaténant les ID de canal et de campagne. Cette même valeur d’ID est ajoutée aux tableaux Point de contact et Coût pour créer une relation avec ce tableau de dimension combiné.
+Les données Coût et Point de contact partagent les dimensions Canal et Campagne. Cependant, Tableau est limité dans sa capacité à modéliser des dimensions partagées entre des tableaux de faits. Puisque nous sommes limités à un seul tableau de dimension partagé, les données Canal et Campaign ont été combinées en un seul tableau. Elles sont combinées à l’aide d’une jointure croisée des deux dimensions en un tableau dans Tableau : Canal et Campaign. L’ID unique est créé en concaténant les ID de canal et de campagne. Cette même valeur d’ID est ajoutée aux tableaux Point de contact et Coût pour créer une relation avec ce tableau de dimension combiné.
 
 ![](assets/marketo-measure-report-template-tableau-12.png)
 
@@ -143,7 +143,7 @@ Les taux dans le tableau Taux de conversion représentent la valeur nécessaire 
 
 ![](assets/marketo-measure-report-template-tableau-13.png)
 
-Les mesures de conversion de devise de ce modèle remplacent le taux par une valeur de 1,0 si aucun taux de conversion ne peut être identifié. Des mesures distinctes ont été créées pour afficher la valeur de la devise de la mesure, et une alerte s’affiche si un calcul comprend plusieurs valeurs monétaires (c’est-à-dire qu’une valeur n’a pas pu être convertie dans la devise sélectionnée). Ces mesures, Devise de coût et Devise des recettes, sont incluses sous forme d’info-bulles dans n’importe quel visuel qui affiche des données Coûts ou Recettes.
+Les mesures de conversion de devise de ce modèle remplacent le taux par une valeur de 1,0 si aucun taux de conversion ne peut être identifié. Des mesures distinctes ont été créées pour afficher la valeur de la devise de la mesure. Une alerte s’affiche si un calcul comprend plusieurs valeurs dans une devise (c’est-à-dire qu’une valeur n’a pas pu être convertie dans la devise sélectionnée) a été créée. Ces mesures, Devise de coût et Devise des recettes, sont incluses sous forme d’info-bulles dans n’importe quel visuel qui affiche des données Coûts ou Recettes.
 
 ![](assets/marketo-measure-report-template-tableau-14.png)
 
@@ -153,7 +153,7 @@ Des définitions ont été ajoutées au [!DNL Tableau model] pour les paramètre
 
 ![](assets/marketo-measure-report-template-tableau-15.png)
 
-Pour afficher les définitions des colonnes provenant directement de [!DNL Snowflake], reportez-vous à la [documentation de l’entrepôt de données](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
+Pour afficher les définitions des colonnes provenant directement de [!DNL Snowflake], voir [documentation de l’entrepôt de données](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"}.
 
 ## Incohérences entre les modèles et Discover {#discrepancies-between-templates-and-discover}
 
@@ -179,13 +179,13 @@ Ces mesures, comme indiqué dans les modèles de création de rapports, ne sont 
 
 ### Trafic Web {#web-traffic}
 
-Le modèle de données de création de rapports normalise les données des dimensions des canaux, des sous-canaux et des campagnes au moyen de la relation entre la session et le point de contact. Il diffère du modèle de données Discover, qui dénormalise ces dimensions en session. En raison de cette distinction, les comptes globaux des visites, des visiteurs et des visiteuses doivent correspondre entre Discover et le modèle de création de rapports. Toutefois, une fois affichés ou filtrés par dimension, ces chiffres ne sont pas censés correspondre. En effet, les données dimensionnelles du modèle ne sont disponibles que pour les événements web qui ont généré un point de contact (c’est-à-dire des événements non anonymes). Pour plus d’informations, reportez-vous à la section [Modèle de données](#data-model) de cette documentation.
+Le modèle de données de création de rapports normalise les données des dimensions des canaux, des sous-canaux et des campagnes au moyen de la relation entre la session et le point de contact. Il diffère du modèle de données Discover, qui dénormalise ces dimensions en session. En raison de cette distinction, les comptes globaux des visites, des visiteurs et des visiteuses doivent correspondre entre Discover et le modèle de création de rapports. Toutefois, une fois affichés ou filtrés par dimension, ces chiffres ne sont pas censés correspondre. En effet, les données dimensionnelles du modèle ne sont disponibles que pour les événements web qui ont généré un point de contact (c’est-à-dire des événements non anonymes). Pour plus d’informations, reportez-vous au [Modèle de données](#data-model) de cette documentation.
 
 Il peut y avoir de légères différences dans le nombre total de formulaires du site entre [!DNL Discover] et le modèle. En effet, le modèle de données du modèle de création de rapports obtient des données dimensionnelles pour le formulaire du site par le biais d’une relation avec la session, puis avec le point de contact. Dans certains cas, les données de formulaire de site n’ont pas de session en corrélation.
 
 ### Prospects et comptes {#leads-and-accounts}
 
-Les rapports dimensionnels pour les comptes concernés peuvent différer légèrement entre [!DNL Discover] et le modèle. Cela est également dû à la modélisation dimensionnelle issue de la relation entre le point de contact et le point de contact de prospect ou le point de contact d’attribution. Pour plus d’informations, reportez-vous aux détails décrits dans la section Revenu attribué.
+Les rapports dimensionnels pour les comptes concernés peuvent différer légèrement entre [!DNL Discover] et le modèle. Cela est également dû à la modélisation dimensionnelle issue de la relation entre le point de contact et le point de contact de prospect ou le point de contact d’attribution. Pour plus d’informations, reportez-vous aux détails décrits dans la section Recettes affectées .
 
 Tous les comptes de prospects dans [!UICONTROL Discover] se voient attribuer des nombres de prospects et, dans le modèle de création de rapports, la mesure est le nombre de [!UICONTROL prospects] concernés. Il n’y a donc pas de comparaison directe entre les deux rapports pour cette mesure.
 

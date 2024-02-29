@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874594
-description: Plateformes d’annonces intégrées [!DNL Marketo Measure] - Documentation du produit
+description: Plateformes d’annonces intégrées [!DNL Marketo Measure]
 title: Plateformes publicitaires intégrées
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 1%
+source-wordcount: '1661'
+ht-degree: 0%
 
 ---
 
@@ -48,9 +48,9 @@ En savoir plus sur notre [[!DNL AdWords] fonctionnalité de balisage automatique
 
 ## Comment activer [!DNL Marketo Measure] Balisage automatique pour les mots-clés {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
-Avant l’activation [!DNL Marketo Measure] balisage automatique, **assurez-vous qu’un modèle de suivi est activé au niveau du compte, de la campagne ou du groupe publicitaire dans votre compte AdWords. Cela est nécessaire pour tout compte Adwords qui aura [!DNL Marketo Measure] balisage automatique activé.** L’activation d’un modèle de suivi évite toute perte dans les données de l’historique des performances publicitaires. Notez que l’activation des modèles de suivi au niveau du mot-clé, du lien de site ou de la publicité entraîne le processus de révision et d’approbation de la publicité et peut potentiellement redémarrer l’historique des performances de vos publicités. Si aucun modèle de suivi n’est activé, [!DNL Marketo Measure] ajoute le [!DNL Marketo Measure] les paramètres de suivi directement à l’&quot;URL finale&quot; de l’annonce, ce qui peut également entraîner la perte des données d’historique des publicités.
+Avant l’activation [!DNL Marketo Measure] balisage automatique, **assurez-vous qu’un modèle de suivi est activé au niveau du compte, de la campagne ou du groupe publicitaire dans votre compte AdWords. Cela est nécessaire pour tout compte Adwords qui aura [!DNL Marketo Measure] balisage automatique activé.** L’activation d’un modèle de suivi évite toute perte dans les données de l’historique des performances publicitaires. Notez que l’activation des modèles de suivi au niveau du mot-clé, du lien de site ou de la publicité entraîne la consultation et l’approbation de la publicité et peut potentiellement redémarrer l’historique des performances de vos publicités. Si aucun modèle de suivi n’est activé, [!DNL Marketo Measure] ajoute le [!DNL Marketo Measure] les paramètres de suivi directement à l’&quot;URL finale&quot; de l’annonce, ce qui peut également entraîner la perte des données d’historique des publicités.
 
-Une fois que vous avez mis en place un modèle de suivi, veuillez suivre les instructions ci-dessous pour activer [!DNL Marketo Measure] Balisage automatique. Remarque : [!DNL Marketo Measure] balise également automatiquement toute publicité suspendue dans votre compte.
+Une fois que vous avez mis en place un modèle de suivi, suivez les instructions ci-dessous pour activer [!DNL Marketo Measure] Balisage automatique. Remarque : [!DNL Marketo Measure] balise également automatiquement toute publicité suspendue dans votre compte.
 
 1. Se connecter à [!DNL Marketo Measure] compte à l’adresse [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
@@ -145,9 +145,9 @@ La variable [!DNL Marketo Measure] intégration avec [!DNL Facebook] permet de t
 
 Avant d’activer le balisage automatique avec [!DNL Facebook Ads], il est important d’exporter l’historique des performances précédent au format CSV. À ce stade, lorsque [!DNL Marketo Measure] tags [!DNL Facebook Ads] avec son paramètre _bf, [!DNL Facebook] lit les publicités comme étant toutes nouvelles et efface l’historique des performances. Par conséquent, il est important d’exporter un enregistrement des performances précédentes si cela vous intéresse, ainsi qu’à votre entreprise.
 
-Veuillez noter que vous pouvez connecter votre [!DNL Facebook] à tout moment au [!DNL Marketo Measure] et qu’aucune donnée ne sera perdue ; c’est seulement lorsque le balisage automatique est activé que l’historique des performances est effacé.
+Notez que vous pouvez connecter votre [!DNL Facebook] à tout moment au [!DNL Marketo Measure] et qu’aucune donnée ne sera perdue ; c’est seulement lorsque le balisage automatique est activé que l’historique des performances est effacé.
 
-[Consultez cet article](https://www.facebook.com/business/help/393890194130036){target="_blank"} à partir de Facebook pour plus d’informations sur l’exportation [!DNL Facebook] Rapports publicitaires.
+Voir [cet article](https://www.facebook.com/business/help/393890194130036){target="_blank"} à partir de Facebook pour plus d’informations sur l’exportation [!DNL Facebook] Rapports publicitaires.
 
 ## Contenu sponsorisé linkedIn {#linkedin-sponsored-content}
 

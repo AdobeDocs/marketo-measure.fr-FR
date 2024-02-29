@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874761
-description: Authentification unique - [!DNL Marketo Measure] - Documentation du produit
+description: Authentification unique - [!DNL Marketo Measure]
 title: Authentification unique SSO
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 09ffdbb0b1baeed870a3145268997e63a3707c97
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 3%
+source-wordcount: '1286'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ Le langage SAML (langage de balisage d’assertion de sécurité) pour SSO (auth
 
 >[!CAUTION]
 >
->Cet article décrit la connexion unique (SSO) et la gestion avancée des utilisateurs CRM. Si votre compte a été configuré **after 9/10/2020**, veuillez ignorer cet article, car SSO et Identity Management seront configurés dans la variable [Adobe Admin Console pour votre [!DNL Marketo Measure] integration](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md).
+>Cet article décrit l’authentification unique (SSO) et la gestion avancée des utilisateurs CRM. Si votre compte a été configuré **after 9/10/2020**, ignorez cet article, car SSO et Identity Management seront configurés dans la variable [Adobe Admin Console pour votre [!DNL Marketo Measure] integration](/help/configuration-and-setup/getting-started-with-marketo-measure/marketo-measure-quick-start.md).
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Le langage SAML (langage de balisage d’assertion de sécurité) pour SSO (auth
 * Utilisateur avec les autorisations AccountAdmin dans [!DNL Marketo Measure] Application
 * Utilisateur disposant d’un accès administratif au fournisseur d’identité du client
 
-## Démarrer {#getting-started}
+## Prise en main {#getting-started}
 
 Pour commencer, accédez à la page Paramètres > Sécurité > Authentification dans le [!DNL Marketo Measure] application. Puis, basculez le type de connexion sur SSO personnalisé pour afficher les options de configuration. Les modifications ne prennent effet que lorsque vous testez votre authentification et cliquez sur le bouton **[!UICONTROL Enregistrer]** en bas de la page.
 
@@ -37,27 +37,27 @@ Pour commencer, accédez à la page Paramètres > Sécurité > Authentification 
 
 [!DNL Marketo Measure] L’authentification unique requiert la configuration de vos paramètres d’authentification dans une série d’étapes importantes à suivre afin que vous ne risquiez pas d’être verrouillé hors de votre [!DNL Marketo Measure] compte .
 
-Configurez les [!DNL Marketo Measure] Application dans votre fournisseur d’identité. Consultez la documentation externe répertoriée ci-dessous pour obtenir des instructions pas à pas.
+Configurez la variable [!DNL Marketo Measure] Application dans votre fournisseur d’identité. Consultez la documentation externe répertoriée ci-dessous pour obtenir des instructions pas à pas.
 
-    a. Lorsque vous y êtes invité pour l’URL de connexion unique, l’URL du destinataire ou l’URL de destination, l’URL du service client d’assertion SAML (ACS), utilisez [https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest](https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest)
+    a. Lorsque vous êtes invité à saisir l’URL de connexion unique, l’URL du destinataire ou l’URL de destination, l’URL du service client d’assertion SAML (ACS), utilisez [https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest](https://apps.bizible.com/BizibleSAML2/ReceiveSSORequest)
     
-    b. Lorsque vous y êtes invité pour l’URL de restriction d’audience ou l’identifiant unique défini par l’application, utilisez [https://BizibleLPM](https://biziblelpm/)
+    b. Lorsque vous êtes invité à saisir l’URL de restriction d’audience ou l’identifiant unique défini par l’application, utilisez [https://BizibleLPM](https://biziblelpm/)
 
 Basculez vers SSO personnalisé dans la [!DNL Marketo Measure] Application
 
     a. Une fois que le groupe de facturation a été activé pour votre compte, vous pouvez accéder à [!UICONTROL Paramètres] &quot;[!UICONTROL Sécurité] &quot; [!UICONTROL Authentification]
     
-    b. Par défaut, votre type de connexion est défini sur &quot;Utilisateurs CRM&quot;.
+    b. Par défaut, votre Type de connexion est défini sur &quot;Utilisateurs CRM&quot;.
     
     c. Basculez le type de connexion sur &quot;SSO personnalisé&quot; pour lancer le processus de configuration.
 
 Renseignez les paramètres de connexion pour votre configuration du fournisseur d’identité.
 
-    a. Votre fournisseur d’identité peut fournir un document de métadonnées IdP .xml qui extrait les champs de configuration requis. Chargez le contenu du document .xml ou renseignez les trois champs ci-dessous à partir des résultats obtenus lors du processus de configuration du fournisseur d’identité. **Il est inutile de faire les deux.**
+    a. Votre fournisseur d’identité peut fournir un document de métadonnées IdP .xml qui extrait les champs de configuration requis. Chargez le contenu du document .xml ou remplissez les trois champs ci-dessous à partir de la sortie obtenue lors du processus de configuration du fournisseur d’identités. **Vous n’avez pas besoin d’effectuer les deux.**
     
-    i. URL IdP : L’URL qui [!DNL Marketo Measure] doit pointer vers pour authentifier vos utilisateurs dans la variable [!DNL Marketo Measure] application. Parfois appelée &quot;URL de redirection&quot;.
-    ii. IdP Issuer : Identifiant unique du fournisseur d’identité. Parfois appelée &quot;clé externe&quot;.
-    iii. IdP Certificate : Clé publique permettant [!DNL Marketo Measure] pour vérifier et valider la signature de toutes les réponses du fournisseur d’identité.
+    i. URL IdP : URL qui [!DNL Marketo Measure] doit pointer vers pour authentifier vos utilisateurs dans la variable [!DNL Marketo Measure] application. Parfois appelée &quot;URL de redirection&quot;.
+    ii. IdP Issuer : identifiant unique du fournisseur d’identité. Parfois appelée &quot;clé externe&quot;.
+    iii. Certificat IdP : clé publique qui permet [!DNL Marketo Measure] pour vérifier et valider la signature de toutes les réponses du fournisseur d’identité.
 
 Définissez l’expiration du jeton pour vos utilisateurs en minutes.
 
@@ -67,11 +67,11 @@ Configurez et mappez vos paramètres Attribut utilisateur avec le prénom, le no
 
     a. En saisissant les attributs SAML, [!DNL Marketo Measure] pourront reconnaître vos utilisateurs en fonction des informations transmises.
     
-    i. Email Attribute: Indiquez le nom d’attribut utilisé par votre fournisseur d’identité pour l’adresse électronique de l’utilisateur.
-    ii. Attribut First Name : Indiquez le nom d’attribut utilisé par votre fournisseur d’identité pour le prénom de l’utilisateur.
-    iii. Attribut de nom : Indiquez le nom d’attribut utilisé par votre fournisseur d’identité pour le nom de famille de l’utilisateur.
+    i. Attribut de courriel : indiquez le nom d’attribut utilisé par votre fournisseur d’identité pour l’adresse électronique de l’utilisateur.
+    ii. Attribut de prénom : indiquez le nom d’attribut utilisé par votre fournisseur d’identité pour le prénom de l’utilisateur.
+    iii. Attribut Nom : indiquez le nom d’attribut utilisé par votre fournisseur d’identité pour le nom de l’utilisateur.
     
-    b. Conseil : Si vous testez maintenant votre configuration SAML, nous allons analyser les attributs Email, Prénom et Nom que vous pouvez utiliser pour cette section.
+    b. Conseil : si vous testez maintenant votre configuration SAML, nous allons analyser les attributs Email, Prénom et Nom que vous pouvez utiliser pour cette section.
 
 ![](assets/single-sign-on-2.png)
 
@@ -81,8 +81,8 @@ Configurez et mappez vos paramètres de rôle utilisateur aux rôles ou groupes 
     
     b. Si aucun rôle ou groupe n’est mappé, le paramètre par défaut est que tous les employés du fournisseur d’identité auront accès aux utilisateurs standard.
     
-    i. [!DNL Marketo Measure] Utilisateur standard : Fournissez la valeur de rôle ou de groupe (de votre fournisseur d’authentification unique) pour les utilisateurs qui doivent disposer d’un accès en lecture seule à la variable [!DNL Marketo Measure] application.
-    ii. [!DNL Marketo Measure] Utilisateur administrateur du compte : Fournissez la valeur de rôle ou de groupe (à partir de votre fournisseur d’authentification unique) pour les utilisateurs qui doivent avoir un accès administratif à [!DNL Marketo Measure] application. Cela signifie que le rôle a accès à la modification des configurations et des paramètres liés à votre compte.
+    i. [!DNL Marketo Measure] Utilisateur standard : indiquez la valeur de rôle ou de groupe (de votre fournisseur d’authentification unique) pour les utilisateurs qui doivent disposer d’un accès en lecture seule à la variable [!DNL Marketo Measure] application.
+    ii. [!DNL Marketo Measure] Utilisateur administrateur du compte : indiquez le rôle ou la valeur de groupe (de votre fournisseur d’authentification unique) pour les utilisateurs qui doivent disposer d’un accès administratif à [!DNL Marketo Measure] application. Cela signifie que le rôle a accès à la modification des configurations et des paramètres liés à votre compte.
     iii. Vous devez avoir un attribut dans votre IdP avec le nom exact des &quot;groupes&quot; qui contient les valeurs que vous avez placées dans les attributs &quot;Utilisateur standard Bizible&quot; ou &quot;Utilisateur administrateur de compte Bizible&quot;.
     
     c. Si plusieurs rôles ou groupes doivent être mappés à un rôle, saisissez chaque valeur séparée par une virgule.
@@ -99,7 +99,7 @@ Test de la configuration de l’authentification unique
 
 Enregistrez vos paramètres et demandez à vos collègues d’utiliser [!UICONTROL Authentification unique] avec votre nouvelle URL de connexion personnalisée.
 
-    a. Important : Une fois que vous avez enregistré vos nouveaux paramètres d’authentification, il est possible que votre session se termine lorsque vous accédez à une nouvelle page, car vous avez désactivé la connexion par les utilisateurs CRM et activé l’authentification unique personnalisée.
+    a. Important : Une fois que vous avez enregistré vos nouveaux paramètres d’authentification, il est possible que votre session se termine une fois que vous accédez à une nouvelle page, car vous avez désactivé la connexion par les utilisateurs CRM et activé l’authentification unique personnalisée.
 
 ![](assets/single-sign-on-5.png)
 
@@ -107,7 +107,7 @@ Essaie-le !
 
     a. Utilisez votre nouvelle URL de connexion personnalisée et tentez de vous reconnecter au [!DNL Marketo Measure] Application avec vos informations d’identification de fournisseur d’identité.
     
-    b. Le format ressemble à &quot;https://apps.adobe.com/business/[accountName]&quot;
+    b. Le format ressemblera à &quot;https://apps.adobe.com/business/[nom_compte]&quot;
     
     c. Félicitations ! Vous avez correctement configuré l’authentification unique dans le [!DNL Marketo Measure] Demande pour votre compte !
 
@@ -119,12 +119,12 @@ Essaie-le !
 
 ## Utilisateurs de CRM (configuration avancée) {#crm-users-advanced-setup}
 
-Par défaut, tous les comptes peuvent accéder au [!DNL Marketo Measure] à l’aide de leurs informations d’identification CRM. Parfois, les propriétaires de compte doivent limiter l’accès à certains rôles et ne pas l’ouvrir à tous les utilisateurs disposant d’une principale licence CRM. La configuration avancée vous permet de mapper vos rôles et groupes CRM à [!DNL Marketo Measure] autorisations utilisateur.
+Par défaut, tous les comptes peuvent accéder à la variable [!DNL Marketo Measure] à l’aide de leurs informations d’identification CRM. Parfois, les propriétaires de compte doivent limiter l’accès à certains rôles et ne pas l’ouvrir à tous les utilisateurs disposant d’une licence CRM active. La configuration avancée vous permet de mapper vos rôles et groupes CRM à [!DNL Marketo Measure] autorisations utilisateur.
 
-Si aucun rôle ou groupe n’est mappé, le paramètre par défaut est que toutes les licences principales de votre CRM disposent d’un accès utilisateur standard.
+Si aucun rôle ou groupe n’est mappé, le paramètre par défaut est que toutes les licences actives dans votre CRM auront accès aux utilisateurs standard.
 
-* [!DNL Marketo Measure] Utilisateur standard : Fournissez la valeur de rôle ou de groupe aux utilisateurs qui doivent disposer d’un accès en lecture seule à la variable [!DNL Marketo Measure] application.
-* [!DNL Marketo Measure] Utilisateur administrateur du compte : Fournissez la valeur de rôle ou de groupe aux utilisateurs qui doivent disposer d’un accès administratif au [!DNL Marketo Measure] application. Cela signifie que le rôle a accès à la modification des configurations et des paramètres liés à votre compte.
+* [!DNL Marketo Measure] Utilisateur standard : indiquez la valeur de rôle ou de groupe pour les utilisateurs qui doivent disposer d’un accès en lecture seule au [!DNL Marketo Measure] application.
+* [!DNL Marketo Measure] Utilisateur administrateur du compte : indiquez la valeur de rôle ou de groupe pour les utilisateurs qui doivent disposer d’un accès administratif à la variable [!DNL Marketo Measure] application. Cela signifie que le rôle a accès à la modification des configurations et des paramètres liés à votre compte.
 
 Si plusieurs rôles ou groupes doivent être mappés à un rôle, saisissez chaque valeur séparée par une virgule.
 
@@ -155,4 +155,4 @@ Uniquement valide [!DNL Google] vous pouvez ajouter des comptes et un rôle util
 * [Okta](http://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
 * [Identité Ping](http://docs.pingidentity.com/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
 * [OneLogin](http://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
-* [Principal Directory](http://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [Active Directory](http://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

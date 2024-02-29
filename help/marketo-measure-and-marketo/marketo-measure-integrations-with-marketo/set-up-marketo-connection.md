@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762762
-description: Configuration de la connexion Marketo - [!DNL Marketo Measure] - Documentation du produit
+description: Configuration de la connexion Marketo - [!DNL Marketo Measure]
 title: Configuration de la connexion Marketo
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 0%
+source-wordcount: '193'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ Voici comment configurer votre connexion à Marketo.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. Dans un nouvel onglet, connectez-vous à votre compte de Marketo Engage. Accédez à **Administration** > **Services web**. Faites défiler l’écran jusqu’à l’API REST. Mettez en surbrillance et enregistrez le point de terminaison et l’URL du service d’identité. Tu en auras besoin dans un peu.
+1. Dans un nouvel onglet, connectez-vous à votre compte de Marketo Engage. Accédez à **Administration** > **Services web**. Faites défiler l’écran jusqu’à l’API REST. Mettez en surbrillance et enregistrez le point de terminaison et l’URL du service d’identité. vous en aurez besoin dans un peu.
 
    ![](assets/set-up-marketo-connection-5.png)
 

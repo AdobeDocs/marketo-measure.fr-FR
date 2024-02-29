@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874789
-description: "[!DNL Marketo Measure] Jeux d’autorisations - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Measure] Jeux d’autorisations - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Jeux d’autorisations"
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '260'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Pour accéder aux jeux d’autorisations et les attribuer dans Salesforce :
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Administrateur</strong></span></td> 
-   <td><span>Permet à un administrateur SFDC de créer, lire, écrire et supprimer des enregistrements depuis [!DNL Marketo Measure] objets. La licence sous laquelle [!DNL Marketo Measure] Ce jeu d’autorisations doit être activé pour les données envoyées à SFDC. En outre, il est recommandé que cette licence ait la possibilité de modifier les pistes converties dans les cas où la piste est convertie avant la conversion. [!DNL Marketo Measure] l’application de données à l’enregistrement. Cela garantit la précision des rapports entre Salesforce et [!DNL Marketo Measure]. <a href="http://releasenotes.docs.salesforce.com/en-us/spring17/release-notes/rn_sales_leads_view_converted.htm">En savoir plus ici</a>.</span></td> 
+   <td><span>Permet à un administrateur SFDC de créer, lire, écrire et supprimer des enregistrements depuis [!DNL Marketo Measure] objets. La licence sous laquelle [!DNL Marketo Measure] Ce jeu d’autorisations doit être activé pour les données envoyées à SFDC. En outre, il est recommandé que cette licence ait la possibilité de modifier les pistes converties dans les cas où la piste est convertie avant [!DNL Marketo Measure] l’application de données à l’enregistrement. Cela garantit la précision des rapports entre Salesforce et [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">En savoir plus ici</a>.</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Utilisateur marketing</strong></span></td> 
@@ -52,4 +52,4 @@ Les équipes de développement des ventes entrantes et les dirigeants de compte 
 
 >[!NOTE]
 >
->En outre, l’utilisateur par lequel nous sommes connectés doit disposer de l’utilisateur marketing [!DNL Salesforce] Profil activé au niveau de l’utilisateur afin que nous puissions accéder à l’objet Campaign. Pour vérifier cela, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Profils]** > **[!UICONTROL Utilisateur marketing]** > **Utilisateurs affectés**.
+>En outre, l’utilisateur auquel nous sommes connectés doit avoir un &quot;utilisateur marketing&quot;. [!DNL Salesforce] Profil activé au niveau de l’utilisateur pour que nous puissions accéder à l’objet Campaign. Pour vérifier cela, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Profils]** > **[!UICONTROL Utilisateur marketing]** > **Utilisateurs affectés**.

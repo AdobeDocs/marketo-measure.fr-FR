@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356962
-description: "[!DNL Marketo Measure] Liste des ressources - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Measure] Liste des ressources - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Liste des ressources"
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 9%
+source-wordcount: '307'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Voici plusieurs liens vers des articles/vidéos pertinents pour vous aider à pr
 * [Ajouter [!DNL Marketo Measure] Javascript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
    * [Exclure Forms](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
 
-**Production de rapports**
+**Reporting**
 
 * [Création de types de rapports personnalisés avec [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (si vous devez créer un rapport sur les champs de piste/contact/opportunité personnalisés)
 * [Glossaire [!DNL Marketo Measure] fields](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
@@ -62,11 +62,11 @@ Sujets abordés :
 * Présentation [!DNL Marketo Measure]
 * [!DNL Marketo Measure] Données
 * Points de contact
-* Modèles d’attribution 
+* Modèles d’attribution
 
 **[[!DNL Marketo Measure] Reporting dans SFDC](https://universityonline.marketo.com/courses/bizible-and-salesforce/) (30 à 45 minutes)**
 
-Cette série de cours est conçue comme une introduction à la [!DNL Marketo Measure] rapports de stock installés dans Salesforce. Ces rapports constituent la base de la plupart des rapports que vous utiliserez. [!DNL Marketo Measure] data.
+Cette série de cours est conçue comme une introduction à la [!DNL Marketo Measure] rapports de stock installés dans Salesforce. Ces rapports constituent la base de la plupart des rapports que vous allez créer. [!DNL Marketo Measure] data.
 
 Sujets abordés :
 

@@ -1,19 +1,19 @@
 ---
 unique-page-id: 18874556
-description: "[!DNL Marketo Measure] Maintenance - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Measure] Maintenance - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Maintenance"
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 1%
+source-wordcount: '640'
+ht-degree: 0%
 
 ---
 
 # Maintenance de [!DNL Marketo Measure] {#marketo-measure-maintenance}
 
-[!DNL Marketo Measure] récupère presque tous les besoins de votre CRM tous les jours, mais vous devrez planifier régulièrement quelques tâches de maintenance pour conserver [!DNL Marketo Measure] avec des informations très précises.
+[!DNL Marketo Measure] extrait quotidiennement pratiquement tout ce dont il a besoin de votre CRM, mais vous devrez planifier régulièrement quelques tâches de maintenance pour effectuer les tâches suivantes : [!DNL Marketo Measure] avec des informations très précises.
 
 **Synchroniser les points de contact des acheteurs pour les nouvelles campagnes hors ligne (2x/mois)**
 
@@ -31,7 +31,7 @@ Marketo Measure effectue le suivi de toutes les pages et sous-domaines sur lesqu
 
 **Vérification du mapping de canal personnalisé pour plus de précision (1x/mois)**
 
-Lors de l’intégration, vous configurez un mappage personnalisé pour vos efforts de marketing en ligne et hors ligne. Au fur et à mesure de l’évolution de votre stratégie marketing et de votre utilisation de Marketo Measure, vous souhaiterez garder un oeil sur cette logique de mappage pour vous assurer que tous vos points de contact sont correctement catégorisés.
+Lors de l’intégration, vous configurez un mappage personnalisé pour vos efforts de marketing en ligne et hors ligne. À mesure que votre stratégie marketing et votre utilisation de Marketo Measure évoluent, vous souhaiterez garder un oeil sur cette logique de mappage afin de vous assurer que tous vos points de contact sont correctement catégorisés.
 
 Souvenez-vous, [!DNL Marketo Measure] retraite vos données lorsque vous modifiez la logique de mappage, de sorte que vous ne pourrez pas modifier ces règles plus d’une fois tous les 7 jours.
 

@@ -4,9 +4,9 @@ description: Schéma de Data Warehouse - Marketo Measure - Documentation du prod
 title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: f77c4471887c18b177dedab5b4c41f3a64010539
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '21115'
+source-wordcount: '21110'
 ht-degree: 98%
 
 ---
@@ -26,7 +26,7 @@ Data Warehouse vous permet d’effectuer le suivi de toutes les données de votr
 
 ## Diagrammes de relation d’entité {#entity-relationship-diagrams}
 
-L’ERD du _modèle de données Data Warehouse_ indique comment les données de l’entrepôt de données sont destinées à s’organiser sous forme de flux et à être liées. Ce diagramme n’inclut pas toutes les tables disponibles dans l’entrepôt de données, car certaines d’entre elles représentent des tables de mappage, des vues correspondant à des tables déjà présentes ou des tables obsolètes que nous vous déconseillons d’utiliser. Consultez les descriptions détaillées des tables et des colonnes présentes dans l’entrepôt de données ci-dessous. La plupart de ces tables contiennent des champs dénormalisés. Cependant, ce diagramme correspond au modèle de données recommandé : il exploite les données des tables dimensionnelles à la place.
+L’ERD du _modèle de données Data Warehouse_ indique comment les données de l’entrepôt de données sont destinées à s’organiser sous forme de flux et à être liées. Ce diagramme n’inclut pas toutes les tables disponibles dans l’entrepôt de données, car certaines d’entre elles représentent des tables de mappage, des vues correspondant à des tables déjà présentes ou des tables obsolètes que nous vous déconseillons d’utiliser. Reportez-vous aux descriptions détaillées des tableaux et colonnes présents dans l’entrepôt de données ci-dessous. La plupart de ces tables contiennent des champs dénormalisés. Cependant, ce diagramme correspond au modèle de données recommandé : il exploite les données des tables dimensionnelles à la place.
 
 Le second ERD, qui correspond au _modèle de données dimensionnel pour les publicités_, présente la meilleure façon de lier les tables pour les dimensions spécifiques aux publicités à celles présentes dans le modèle de données principal. Bien que les dimensions publicitaires soient également dénormalisées dans d’autres tables, ce modèle est recommandé pour joindre ces dimensions.
 
@@ -3632,7 +3632,7 @@ Contacts importés à partir du système source.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Cette fonctionnalité a été supprimée. Veuillez ne pas utiliser cette colonne.</p>
+        <p>Cette fonctionnalité a été supprimée. N’utilisez pas cette colonne.</p>
       </td>
       <td>
         <p>S/O</p>
@@ -8245,7 +8245,7 @@ Prospects importés à partir du système source.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Cette fonctionnalité a été supprimée. Veuillez ne pas utiliser cette colonne.</p>
+        <p>Cette fonctionnalité a été supprimée. N’utilisez pas cette colonne.</p>
       </td>
       <td>
         <p>S/O</p>
@@ -8785,7 +8785,7 @@ Opportunités importées à partir du système source.
         <p>number(38,19)</p>
       </td>
       <td>
-        <p>Cette fonctionnalité a été supprimée. Veuillez ne pas utiliser cette colonne.</p>
+        <p>Cette fonctionnalité a été supprimée. N’utilisez pas cette colonne.</p>
       </td>
       <td>
         <p>S/O</p>

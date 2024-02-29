@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37356132
-description: "[!DNL Marketo Measure] Workflows des recettes pour Dynamics - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Measure] Workflows des recettes pour Dynamics - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Workflows des recettes pour Dynamics"
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ Si les opportunités d’ouverture ne comportent aucune donnée dans le champ Da
 1. Le client doit fournir le nom de l’API Date de fermeture personnalisée à [!DNL Marketo Measure].
 1. [!DNL Marketo Measure] pour mettre à jour la variable [!DNL Marketo Measure] paramètres de l’application pour pointer vers [!DNL Marketo Measure] Champ Date de fermeture personnalisée dans le tableau de bord.
 
-   Une fois les étapes ci-dessus terminées, nous devrons exécuter des workflows pour mettre à jour les [!DNL Marketo Measure] le champ Montant d’Opp et la variable [!DNL Marketo Measure] Le champ Date de fermeture personnalisée présente vos opportunités historiques de refléter les données correctes. Cela aura probablement pour effet de modifier les champs on/by modifiés afin que vous puissiez vérifier auprès de votre équipe s’il présente des problèmes.
+   Une fois les étapes ci-dessus terminées, nous devrons exécuter des workflows pour mettre à jour les [!DNL Marketo Measure] le champ Montant d’Opp et la variable [!DNL Marketo Measure] Le champ Date de fermeture personnalisée présente vos opportunités historiques de refléter les données correctes. Les champs on/by modifiés seront probablement modifiés. Vous devrez donc vérifier auprès de votre équipe si cela présente des problèmes.
 
 Pour mettre à jour les opportunités fermées...
 
-1. Isolez les opportunités qui ont été fermées depuis votre [!DNL Marketo Measure] date de démarrage jusqu’à ce que le workflow soit principal. Il s’agit du groupe d’opportunités historiques que vous devrez mettre à jour via un workflow.
+1. Isolez les opportunités qui ont été fermées depuis votre [!DNL Marketo Measure] date de démarrage jusqu’à ce que le workflow soit actif. Il s’agit du groupe d’opportunités historiques que vous devrez mettre à jour via un workflow.
 1. Exportez tous les enregistrements vers Excel.
 1. Ouvrez le fichier Excel, activez le contenu.
 1. Copier les données de date de fermeture réelle [!DNL Marketo Measure] Date de fermeture personnalisée.

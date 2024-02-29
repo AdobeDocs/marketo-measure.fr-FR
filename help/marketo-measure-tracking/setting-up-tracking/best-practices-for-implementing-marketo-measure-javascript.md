@@ -1,12 +1,12 @@
 ---
-description: Bonnes pratiques pour la mise en œuvre du code JavaScript  [!DNL Marketo Measure]  -  [!DNL Marketo Measure]  - Documentation du produit
+description: Bonnes pratiques pour la mise en oeuvre [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure]
 title: Bonnes pratiques pour la mise en œuvre du code JavaScript  [!DNL Marketo Measure]
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 96%
 
 ---
 

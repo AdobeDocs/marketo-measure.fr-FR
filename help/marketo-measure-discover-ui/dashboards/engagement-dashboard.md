@@ -2,7 +2,7 @@
 description: Tableau de bord des engagements - [!DNL Marketo Measure] - Produit
 title: Tableau de bord des engagements
 feature: Reporting
-source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -36,7 +36,7 @@ Le tableau de bord pose les questions suivantes :
 
 Le graphique à barres de série chronologique affiche le nombre de points de contact, de points de contact avec les personnes et de points de contact par personne pour chaque mois, trimestre et année.
 
-* Utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
+* utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
 * Pointez sur une barre ou une ligne pour afficher des informations détaillées.
 
 Questions sur le graphique :
@@ -50,7 +50,7 @@ Questions sur le graphique :
 
 Graphique à barres affichant les points de contact ou les personnes touchées segmenté par canal/sous-canal/campagne.
 
-* Tirez parti des fonctionnalités d’analyse et d’analyse pour classer les données par sous-canal et par campagne.
+* utilisez les fonctionnalités d’analyse et d’analyse pour classer les données par sous-canal et par campagne.
 * Passez la souris sur chaque barre pour afficher les points de contact ou les personnes touchées.
 
 Questions sur le graphique :

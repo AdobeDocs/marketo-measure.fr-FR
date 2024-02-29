@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874660
-description: FAQ - [!DNL Marketo Measure] - Documentation du produit
+description: FAQ - [!DNL Marketo Measure]
 title: Questions fréquentes
 exl-id: f1896bf8-2216-427e-ac3e-98d87efede76
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1078'
 ht-degree: 0%
 
 ---
@@ -33,15 +33,15 @@ L’une des fonctionnalités du tableau Croissance est que vous ne pouvez pas re
 
 **Lorsque je modifie le groupement, les totaux ne correspondent pas toujours au même montant. Pourquoi ?**
 
-Les valeurs n’existent pas pour chaque hiérarchie de données, car la hiérarchie n’est pas toujours un flux de découpe clair. Par exemple, que les coûts soient auto-déclarés ou importés d&#39;un fournisseur d&#39;annonces, le coût total du canal 1 peut être de 10 000 euros, mais par campagne individuelle, seul un total de 5 500 euros a été réellement reporté. Ainsi, lorsque le regroupement change entre les canaux et Campaign, les totaux varient.
+Les valeurs n’existent pas pour chaque hiérarchie de données, car la hiérarchie n’est pas toujours un flux de coupe clair. Par exemple, que les coûts soient auto-déclarés ou importés d&#39;un fournisseur d&#39;annonces, le coût total du canal 1 peut être de 10 000 euros, mais par campagne individuelle, seul un total de 5 500 euros a été réellement reporté. Ainsi, lorsque le regroupement change entre les canaux et Campaign, les totaux varient.
 
 **Qu’est-ce que &quot;correspond à un attribut utilisateur&quot; dans les opérateurs de filtre ?**
 
-Les attributs utilisateur sont appliqués aux utilisateurs tels que l’identifiant de l’entreprise, le prénom ou le nom, mais comme nos utilisateurs sont vous (nos clients), et non vos clients, les attributs utilisateur ne peuvent pas être utilisés dans la variable [!DNL Marketo Measure Discover] expérience. N&#39;hésitez pas à ignorer cette option. Nous travaillons à une meilleure expérience de filtrage personnalisé qui supprimera les filtres qui ne s’appliquent pas à nos clients.
+Les attributs utilisateur sont appliqués aux utilisateurs tels que l’identifiant de l’entreprise, le prénom ou le nom, mais comme nos utilisateurs sont vous (nos clients), et non vos clients, les attributs utilisateur ne peuvent pas être utilisés dans la variable [!DNL Marketo Measure Discover] expérience. Nous travaillons à une meilleure expérience de filtrage personnalisé qui supprimera les filtres qui ne s’appliquent pas à nos clients.
 
 **Comment se fait-il que certaines périodes par défaut passent par le premier du mois suivant ?**
 
-Bien que la période ne soit pas toujours intuitive, l’interface utilisateur du filtre par défaut comporte le texte &quot;précédent&quot; utile qui correspond à la date de fin. Cela devrait vous rappeler que la date de fin que vous utilisez doit être d’un jour en dehors de la période souhaitée.
+Bien que la période ne soit pas toujours intuitive, l’interface utilisateur du filtre par défaut comporte le texte &quot;précédent&quot; utile qui correspond à la date de fin. Cela devrait donc vous rappeler que la date de fin que vous utilisez doit être d’un jour en dehors de la plage souhaitée.
 
 **Quel modèle d’attribution est utilisé pour les Leads et les contacts ?**
 

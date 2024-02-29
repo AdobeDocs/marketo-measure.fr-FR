@@ -4,10 +4,10 @@ description: "[!DNL Microsoft Dynamics] Guide d’installation CRM - Marketo Mea
 title: "[!DNL Microsoft Dynamics] Guide d'installation CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 14%
+source-wordcount: '975'
+ht-degree: 11%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans notre documentation. Toutefois, votre gestion de la relation client (CRM) mentionne encore « Bizible ». Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
 
 ## Versions prises en charge {#supported-versions}
 
@@ -51,7 +51,7 @@ Nous vous recommandons de créer un utilisateur Marketo Measure dédié en tant 
 
 ## Rôles de sécurité {#security-roles}
 
-Si votre organisation utilise des rôles de sécurité Dynamics, veillez à ce que l’utilisateur connecté ou le [!DNL Marketo Measure] L’utilisateur dispose des autorisations de lecture/écriture suffisantes pour les entités requises.
+Si votre organisation utilise des rôles de sécurité Dynamics, assurez-vous que l’utilisateur connecté ou le [!DNL Marketo Measure] L’utilisateur dispose des autorisations de lecture/écriture suffisantes pour les entités requises.
 
 Les rôles de sécurité se trouvent ici : **[!UICONTROL Paramètres]** > **[!UICONTROL Sécurité]** > **[!UICONTROL Rôles de sécurité]**.
 
@@ -63,7 +63,7 @@ Pour [!DNL Marketo Measure] entités personnalisées, nous aurons besoin d’aut
 
 ![](assets/4.png)
 
-Pour les entités Dynamics standard, reportez-vous à la section [!DNL Marketo Measure] Document de schéma Dynamics. à un niveau élevé, [!DNL Marketo Measure] il suffit de lire certaines entités pour rassembler les données appropriées et d’écrire dans des champs personnalisés qui seront installés avec la solution gérée. Nous ne créerons pas de nouveaux enregistrements standard, ni ne mettrons à jour de champs standard.
+Pour les entités Dynamics standard, voir [!DNL Marketo Measure] Document de schéma Dynamics. à un niveau élevé, [!DNL Marketo Measure] il suffit de lire certaines entités pour rassembler les données appropriées et d’écrire dans des champs personnalisés qui seront installés avec la solution gérée. Nous ne créerons pas de nouveaux enregistrements standard, ni ne mettrons à jour de champs standard.
 
 ## Inclure les points de contact sur les mises en page : {#include-touchpoints-on-page-layouts}
 
@@ -94,11 +94,11 @@ Pour les entités Dynamics standard, reportez-vous à la section [!DNL Marketo M
 
 **Recettes**
 
-[!DNL Marketo Measure] pointe par défaut vers le champ Recettes réelles standard. Si vous n’utilisez pas cette méthode, veuillez expliquer comment vous signalez les recettes à votre ingénieur de solutions ou à votre gestionnaire de succès en tant que processus personnalisé nécessaire.
+[!DNL Marketo Measure] pointe par défaut vers le champ Recettes réelles standard. Si vous n’utilisez pas cette méthode, expliquez comment vous signalez les recettes à votre ingénieur de solutions ou à votre gestionnaire de succès en tant que processus personnalisé nécessaire.
 
 **Date de fermeture**
 
-[!DNL Marketo Measure] pointe vers le champ Date de fermeture réelle prêt à l’emploi. Si vous n’utilisez pas ce paramètre ou si vous utilisez également le champ Date de fermeture estimée, veuillez expliquer votre processus à votre ingénieur de solutions ou à votre responsable de succès. Un workflow personnalisé peut être nécessaire pour tenir compte des deux champs.
+[!DNL Marketo Measure] pointe vers le champ Date de fermeture réelle prêt à l’emploi. Si vous n’utilisez pas ce paramètre ou si vous utilisez également le champ Date de fermeture estimée, expliquez votre processus à votre ingénieur de solutions ou à votre responsable de succès. Un workflow personnalisé peut être nécessaire pour tenir compte des deux champs.
 
 ## Configuration des connexions et des fournisseurs de données {#configuring-your-connections-and-data-providers}
 
@@ -128,11 +128,11 @@ Après vous être connecté à la variable [!DNL Marketo Measure] et qui ont ét
 
    >[!NOTE]
    >
-   >Pour plus d’informations sur OAuth, consultez la page [cet article](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Si vous avez des questions sur le processus, contactez votre [!DNL Marketo Measure] Gestionnaire de compte.
+   >Pour plus d’informations sur OAuth, consultez [cet article](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md). Si vous avez des questions sur le processus, contactez votre [!DNL Marketo Measure] Gestionnaire de compte.
 
 1. Dans cet exemple, nous avons choisi Credentials (Informations d’identification). Saisissez vos informations d’identification, puis cliquez sur **[!UICONTROL Suivant]**.
 
-Après la connexion, vous verrez les détails de votre connexion Dynamics dans la liste Connexions CRM/MAP .
+Une fois la connexion établie, les détails de votre connexion Dynamics s’affichent dans la liste Connexions CRM/MAP .
 
 **Connexions à un compte publicitaire**
 
@@ -170,7 +170,7 @@ Pour [!DNL Marketo Measure] pour effectuer le suivi de vos activités web, plusi
    >
    >Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d’API chaque fois qu’une tâche envoie des données à votre CRM. Pour la majeure partie de la clientèle, cela permet d’obtenir un équilibre optimal entre les crédits d’API consommés par [!DNL Marketo Measure] et les exigences en matière de ressources du processeur sur le CRM. Toutefois, pour la clientèle disposant de configurations CRM complexes, comme les workflows et les triggers, une taille de lot réduite peut se révéler utile pour améliorer les performances CRM. À cette fin, [!DNL Marketo Measure] permet à la clientèle de configurer la taille du lot d’export CRM. Ce paramètre est disponible sur la page Paramètres > CRM > Général de la [!DNL Marketo Measure] l’application web et les clients peuvent choisir entre des tailles de lot de 200 (par défaut), 100, 50 ou 25.
    >
-   >Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consomment davantage de crédits d’API de votre CRM. Il est conseillé de réduire la taille des lots uniquement en cas de temporisation du processeur ou d’une charge élevée de ce dernier dans votre CRM.
+   >Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consomment plus de crédits d’API de votre CRM. Il est conseillé de réduire la taille des lots uniquement en cas de temporisation du processeur ou d’une charge élevée de ce dernier dans votre CRM.
 
    >[!NOTE]
    >

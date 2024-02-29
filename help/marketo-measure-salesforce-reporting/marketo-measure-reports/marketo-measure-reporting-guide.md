@@ -1,11 +1,11 @@
 ---
-description: "[!DNL Marketo Measure] Guide de création de rapports - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Measure] Guide de création de rapports - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Guide des rapports"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '6395'
+source-wordcount: '6431'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
 
 Avant de créer un [!DNL Marketo Measure] , il est essentiel de confirmer votre [!DNL Marketo Measure] Les paramètres du compte ont été examinés et configurés afin de garantir que les données des rapports sont exactes et reflètent les spécificités de votre entreprise. En outre, les projets de création de rapports fonctionnent mieux lorsqu’ils suivent un processus structuré. Justin Norris, un [!DNL Marketo Measure] utilisateur, défenseur et partenaire puissants de [Perkuto](https://perkuto.com/) résumé [approche de la création de rapports dans [!DNL Marketo Measure]](https://perkuto.com/blog/turning-attribution-data-into-actionable-insights/):
 
@@ -30,7 +30,7 @@ Jetons un coup d&#39;oeil &quot;sous le capot&quot; pour mieux comprendre ce qui
 
 ## Objets de point de contact client (CRM) {#buyer-touchpoint-objects-crm}
 
-Au niveau le plus élevé, il existe deux catégories de rapports basées sur les deux objets de point de contact d’achat différents : ces catégories déterminent le type de [!DNL Marketo Measure] données sur lesquelles vous souhaitez créer des rapports : données relatives à une _individu_, ou les données liées à un _occasion_.
+Au niveau le plus élevé, il existe deux catégories de rapports basées sur les deux objets point de contact d’achat différents : ces catégories déterminent le type de [!DNL Marketo Measure] données sur lesquelles vous souhaitez créer des rapports : données relatives à une _individu_, ou les données liées à un _occasion_.
 
 1. **Points de contact de l’utilisateur** (BAT) / Particuliers / Total des engagements
 
@@ -40,7 +40,7 @@ Au niveau le plus élevé, il existe deux catégories de rapports basées sur le
 1. **Points de contact d’attribution des acheteurs** (AT) / Opportunité / Niveau du compte / Recettes
 
    * Communément utilisé pour les mesures MOFU et BOFU (intermédiaire et/ou bas de l’entonnoir) et la création de rapports liés à _Opportunités_.
-   * Les AT représentent les points de contact pertinents de toutes les personnes connectées au **occasion** (via Rôles de contact d’opportunité ou via un identifiant de compte partagé, selon vos paramètres). Contrairement aux BT qui ne concernent que les personnes, les MAT peuvent également être associées à **revenue**. Ainsi, vous utiliserez les BAT pour répondre aux questions relatives aux opportunités, notamment le nombre d’opportunités ouvertes ou fermées, ou la valeur du pipeline et les recettes gagnées.
+   * Les AT représentent les points de contact pertinents de toutes les personnes connectées au **occasion** (via Rôles de contact d’opportunité ou via un identifiant de compte partagé, selon vos paramètres). Contrairement aux BT qui ne concernent que les personnes, les MAT peuvent également être associées à **revenue**. Ainsi, vous utiliserez les MAT pour répondre aux questions relatives aux opportunités, notamment le nombre d’opportunités ouvertes ou fermées, ou la valeur du pipeline et les recettes gagnées.
 
 >[!NOTE]
 >
@@ -250,7 +250,7 @@ Les gestionnaires d’événements peuvent toutefois être plus intéressés par
  </tbody>
 </table>
 
-**RAPPEL**: les deux champs Principaux pour la création de rapports sur le contenu/les ressources numériques sont &#39;Landing Page&#39; et &#39;Form URL&#39;. Ces deux valeurs peuvent être identiques si le prospect convertit (envoie un formulaire) sur la même page que celle sur laquelle il a accédé (Landing Page), _Cependant_, ces valeurs sont parfois différentes. Par exemple, le prospect peut cliquer sur un lien de Facebook qui l’amène à une page de votre site web (il s’agit de la valeur &quot;Page d’entrée&quot;). Il peut ensuite quitter cette page, poursuivre sa session sur le site et envoyer un formulaire sur une autre page (URL du formulaire). Cela serait résumé dans un seul point de contact qui représente l’origine du prospect (canal marketing), le contenu qui les a amenés sur le site (page d’entrée) et le contenu qu’ils ont fini par télécharger (URL du formulaire). &quot;URL du formulaire&quot; est également le champ d’orientation permettant de créer des rapports sur d’autres formulaires non associés à du contenu téléchargeable, tels que les formulaires &quot;Nous contacter&quot; ou &quot;Demo Request&quot;.
+**RAPPEL**: les deux champs principaux pour la création de rapports sur le contenu/les ressources numériques sont &#39;Landing Page&#39; et &#39;Form URL&#39;. Ces deux valeurs peuvent être identiques si le prospect convertit (envoie un formulaire) sur la même page que celle sur laquelle il a accédé (Landing Page), _Cependant_, ces valeurs sont parfois différentes. Par exemple, le prospect peut cliquer sur un lien de Facebook qui l’amène à une page de votre site web (il s’agit de la valeur &quot;Page d’entrée&quot;). Il peut ensuite quitter cette page, poursuivre sa session sur le site et envoyer un formulaire sur une autre page (URL du formulaire). Cela serait résumé dans un seul point de contact qui représente l’origine du prospect (canal marketing), le contenu qui les a amenés sur le site (page d’entrée) et le contenu qu’ils ont fini par télécharger (URL du formulaire). &quot;URL du formulaire&quot; est également le champ d’orientation permettant de créer des rapports sur d’autres formulaires non associés à du contenu téléchargeable, tels que les formulaires &quot;Nous contacter&quot; ou &quot;Demo Request&quot;.
 
 >[!TIP]
 >
@@ -301,13 +301,13 @@ Les rapports basés sur le &quot;contenu&quot; sont très utiles pour mieux comp
  </tbody>
 </table>
 
-**RAPPEL**: baser vos rapports sur la &quot;Date du point de contact&quot; est la manière la plus réfléchie de comprendre les performances marketing au cours d’une certaine période. La &quot;Date du point de contact&quot; structure le rapport d’une manière où l’attribution n’est pas seulement liée au canal, à la campagne ou au contenu, mais également au moment où le point de contact s’est produit. Il s’agit de la manière la plus efficace de comprendre ce qui se passait à un certain moment de l’engagement marketing. Il s’agit également de la manière recommandée de mesurer l’impact du marketing par rapport aux dépenses marketing investies au même moment. Il est recommandé d’effectuer toute analyse de dépenses marketing ou de retour sur investissement (voir 5.1).
+**RAPPEL**: baser vos rapports sur la &quot;Date du point de contact&quot; est la manière la plus réfléchie de comprendre les performances marketing au cours d’une certaine période. La &quot;Date du point de contact&quot; structure le rapport d’une manière où l’attribution n’est pas seulement liée au canal, à la campagne ou au contenu, mais elle indique également le moment où le point de contact s’est produit. Il s’agit de la manière la plus efficace de comprendre ce qui se passait à un certain moment de l’engagement marketing. Il s’agit également de la manière recommandée de mesurer l’impact du marketing par rapport aux dépenses marketing investies au même moment. Il est recommandé d’effectuer toute analyse de dépenses marketing ou de retour sur investissement (voir 5.1).
 
 **2. PISTES QUALIFIÉES MARKETING AVEC POINTS DE CONTACT D’ACHETEUR**
 
 L’un des rapports les plus courants ne concerne pas seulement les nouveaux engagements au niveau des pistes ou des pistes, mais plus particulièrement les &quot;pistes qualifiées en marketing&quot; (MQL). Il existe deux approches différentes en ce qui concerne la création de rapports sur les MQL en fonction des éléments suivants : [!DNL Marketo Measure] fonctionnalités auxquelles vous avez accès.
 
-**2,1 | Pistes marketing qualifiées par canal (multi-touch)**
+**2,1 | Pistes qualifiées marketing par canal (multi-touch)**
 
 Cette approche permettant de mesurer l’impact du marketing sur l’influence des MQL est essentiellement une suite du rapport &quot;Nouvelles pistes par canal marketing&quot; (1.1), mais avec les critères supplémentaires que les pistes mesurées sont plus spécifiquement des MQL. Le modèle d’attribution En forme de U est toujours recommandé ici pour identifier les canaux marketing et le contenu qui génèrent des pistes qui sont ensuite _probable_ pour devenir un MQL :
 
@@ -347,7 +347,7 @@ Cette approche permettant de mesurer l’impact du marketing sur l’influence d
  </tbody>
 </table>
 
-**2,2 | Pistes marketing qualifiées par canal (touche unique, CRM uniquement)**
+**2,2 | Pistes qualifiées marketing par canal (touche unique, CRM uniquement)**
 
 Cette approche permettant de mesurer l’impact du marketing sur l’influence des MQL est axée davantage sur l’identification des MQL _point de contact unique_ était la dernière touche avant que le prospect n’atteigne MQL.
 
@@ -384,7 +384,7 @@ Cette approche permettant de mesurer l’impact du marketing sur l’influence d
   </tr>
   <tr>
    <td>Modèles optimaux</td> 
-   <td><i>Ce rapport étant filtré sur un seul point de contact, les modèles d’attribution au niveau de l’piste ne sont pas aussi pertinents. Tout comme le "rapport Engagement de piste" (1.4), le nombre d’enregistrements de point de contact sera utilisé ici pour déterminer les canaux les plus puissants (chaque piste n’aura qu’un seul point de contact MQL).</i></td> 
+   <td><i>Ce rapport étant filtré sur un seul point de contact, les modèles d’attribution au niveau de l’piste ne sont pas aussi pertinents. À l’instar du "rapport Engagement de piste" (1.4), le nombre d’enregistrements de point de contact est utilisé ici pour déterminer les canaux les plus puissants (chaque piste ne possède qu’un seul point de contact MQL).</i></td> 
   </tr>
  </tbody>
 </table>
@@ -464,7 +464,7 @@ _Ce rapport ne s’applique que si des formulaires d’enregistrement sont hébe
   <tr>
    <td>Filtres</td> 
    <td>"URL du formulaire" CONTIENT (par exemple :<br>
-   <li>/événement</li>
+   <li>/event</li>
    <i>La valeur de filtre ci-dessus ne sont que des exemples. La valeur réelle sera basée sur la structure d’URL de chaque organisation.</i></td> 
   </tr>
   <tr>
@@ -511,11 +511,11 @@ Essentiellement, les données du point de contact reflètent ce qui a été suiv
 
 **POINT DE CONTACT D’ATTRIBUTION DE L’ACHETEUR (BAT)**
 
-Les points de contact d’attribution de l’acheteur (BAT) représentent les points de contact pertinents de tous les contacts connectés à l’opportunité (soit via les rôles de contact de l’opportunité, soit via un identifiant de compte partagé, selon vos paramètres). Contrairement aux BT (qui sont principalement liés aux personnes), les MAT peuvent être associées aux revenus. Ainsi, vous utiliserez les AT pour répondre à des questions liées aux opportunités, principalement ouvertes. _Opportunités/Recettes de pipeline_ et fermé gagné _Opportunités/Offres/Recettes_. Un MAT est créé par le biais des enregistrements BT d’un contact dès qu’une opportunité est créée sous le même compte que le contact (le MTA n’est pas converti en MTA). Les données de BT sont simplement référencées pour créer un enregistrement supplémentaire - le MTA qui se rapporte ensuite à l’opportunité).
+Les points de contact d’attribution de l’acheteur (BAT) représentent les points de contact pertinents de tous les contacts connectés à l’opportunité (soit via les rôles de contact de l’opportunité, soit via un identifiant de compte partagé, selon vos paramètres). Contrairement aux BT (qui sont principalement liés aux personnes), les MAT peuvent être associées aux revenus. Ainsi, vous utiliserez les MAT pour répondre à des questions liées aux opportunités, principalement ouvertes. _Opportunités/Recettes de pipeline_ et fermé gagné _Opportunités/Offres/Recettes_. Un MAT est créé par le biais des enregistrements BT d’un contact dès qu’une opportunité est créée sous le même compte que le contact (le MTA n’est pas converti en MTA). Les données de BT sont simplement référencées pour créer un enregistrement supplémentaire - le MTA qui se rapporte ensuite à l’opportunité).
 
 Le point de contact d’attribution des acheteurs nous permet de mesurer l’impact du marketing de manière plus approfondie dans l’entonnoir. _La profondeur de l’entonnoir à laquelle vous souhaitez mesurer peut être représentée par les différents modèles d’attribution multi-touch._.
 
-Compte tenu de la relation Principale entre les MAT et l’opportunité, elles sont utilisées pour répondre à des questions telles que :
+Étant donné que la relation principale entre les AT et l’opportunité est la suivante, elles sont utilisées pour répondre à des questions telles que :
 
 * Quels sont mes efforts marketing qui ont influencé les opportunités les plus importantes ?
 * Combien de nouvelles recettes de pipeline puis-je attribuer à chacun de mes canaux marketing ?
@@ -559,7 +559,7 @@ Lorsque vous essayez de mesurer l’impact du marketing sur les affaires clôtur
 >
 >Le modèle d’attribution personnalisé est une fonctionnalité supplémentaire qui n’est pas disponible pour tous les clients. Contactez l’équipe du compte d’Adobe (votre gestionnaire de compte) pour en savoir plus sur la manière d’ajouter cette fonctionnalité à votre compte.
 
-En général, les marketeurs doivent savoir d’où viennent mes opportunités. Tout comme pour les rapports au niveau des pistes, une seule valeur unidimensionnelle a été ajoutée à cette question lors de l’historique (source de campagne Principal, par exemple). Cependant, nous savons que le développement d’une opportunité est bien plus important qu’un seul point de contact d’un seul contact. Il existe généralement plusieurs points de contact de différents canaux et de plusieurs parties prenantes qui influencent une opportunité dans la création. Avec [!DNL Marketo Measure], nous pouvons faire apparaître tous les points de contact d’un compte pour mieux comprendre d’où provient une opportunité. Au-delà de cela, cependant, nous pouvons continuer à faire apparaître tout point de contact qui s’est produit après la création de l’opportunité et jusqu’au point où l’opportunité est fermée. Cela nous permet non seulement d’adopter une approche multi-touch pour comprendre d’où provient une opportunité, mais aussi ce qui l’a influencée pour fermer et finalement représenter des recettes gagnées fermées. Cela vous permet d’avoir un aperçu de différentes questions, telles que &quot;Quel est l’impact du marketing sur l’activation de la fermeture des transactions ?&quot;, &quot;Quel est le moteur de la fermeture des recettes par gagnant ?&quot;. et finalement, &quot;lequel de mes efforts de marketing est le plus rentable ?&quot;
+En général, les marketeurs doivent savoir d’où viennent mes opportunités. Tout comme pour les rapports au niveau des pistes, une seule valeur unidimensionnelle a été ajoutée à cette question lors de l’historique (source de campagne par Principal, par exemple). Cependant, nous savons que le développement d’une opportunité est bien plus important qu’un seul point de contact d’un seul contact. Il existe généralement plusieurs points de contact de différents canaux et de plusieurs parties prenantes qui influencent une opportunité dans la création. Avec [!DNL Marketo Measure], nous pouvons faire apparaître tous les points de contact d’un compte pour mieux comprendre d’où provient une opportunité. Au-delà de cela, cependant, nous pouvons continuer à faire apparaître tout point de contact qui s’est produit après la création de l’opportunité et jusqu’au point où l’opportunité est fermée. Cela nous permet non seulement d’adopter une approche multi-touch pour comprendre d’où provient une opportunité, mais aussi ce qui l’a influencée pour fermer et finalement représenter des recettes gagnées fermées. Cela vous permet d’avoir un aperçu de différentes questions, telles que &quot;Quel est l’impact du marketing sur l’activation de la fermeture des transactions ?&quot;, &quot;Quel est le moteur de la fermeture des recettes par gagnant ?&quot;. et, finalement, &quot;lequel de mes efforts marketing voit le meilleur retour sur investissement ?&quot;
 
 ## RAPPORTS RECOMMANDÉS À L’AIDE DU POINT DE CONTACT DE L’ATTRIBUTION DE L’ACHETEUR (TBAT) {#recommended-reports-using-the-buyer-attribution-touchpoint}
 
@@ -607,7 +607,7 @@ Résumer les données de point de contact d’attribution de vos opportunités p
 
 >[!TIP]
 >
->Pour tout type de rapport &quot;Points de contact d’attribution des acheteurs avec opportunités&quot;, commencez par personnaliser le rapport prédéfini intitulé &quot;&quot;.[!DNL Marketo Measure] 101 | Opportunités par canal&#39;. Ce rapport, qui est prêt à l’emploi, est un environnement de test prédéfini idéal, comme décrit dans le tableau ci-dessus. Il peut être rapidement personnalisé pour des besoins de création de rapports plus spécifiques (le rapport utilise un modèle Chemin complet prêt à l’emploi. Veillez donc à personnaliser le rapport afin d’inclure tout autre modèle d’attribution, le modèle En forme de W, dans ce cas).
+>Pour tout type de rapport &quot;Points de contact d’attribution des acheteurs avec opportunités&quot;, commencez par personnaliser le rapport prédéfini intitulé &quot;&quot;.[!DNL Marketo Measure] 101 | Opportunités par canal&quot;. Ce rapport, qui est prêt à l’emploi, est un environnement de test prédéfini idéal, comme décrit dans le tableau ci-dessus. Il peut être rapidement personnalisé pour des besoins de création de rapports plus spécifiques (le rapport utilise un modèle Chemin complet prêt à l’emploi. Veillez donc à personnaliser le rapport afin d’inclure tout autre modèle d’attribution, le modèle En forme de W, dans ce cas).
 
 >[!TIP]
 >

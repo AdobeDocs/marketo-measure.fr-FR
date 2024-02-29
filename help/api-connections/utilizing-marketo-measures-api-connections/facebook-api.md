@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874680
-description: "[!DNL Facebook] API - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Facebook] API - [!DNL Marketo Measure]"
 title: "[!DNL Facebook] API"
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 4%
+source-wordcount: '480'
+ht-degree: 3%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 4%
 Semblable à nos AdWords et [!DNL Bing Ads] intégrations, nos [!DNL Facebook] l’intégration effectue deux actions fondamentales :
 
 * Balisage automatique de toutes les [!DNL Facebook] Publicités avec un [!DNL Marketo Measure] parameter (_bf)
-* Téléchargement des informations de coût des publicités sur toutes les publicités Facebook principales
+* Téléchargement des informations de coût de la publicité sur toutes les publicités Facebook actives
 
 ## Comment configurer le [!DNL Facebook] Intégration {#how-to-configure-the-facebook-integration}
 
@@ -68,7 +68,7 @@ Pour que l’intégration fonctionne correctement, vous devez activer le balisag
   </tr> 
   <tr> 
    <td><p>Identifiant de campagne publicitaire</p></td> 
-   <td><p>[[!DNL Facebook] ID de la campagne]</p></td> 
+   <td><p>[[!DNL Facebook] ID de campagne]</p></td> 
   </tr> 
   <tr> 
    <td><p>Nom de la campagne publicitaire </p></td> 
@@ -120,7 +120,7 @@ Pour que l’intégration fonctionne correctement, vous devez activer le balisag
   </tr> 
   <tr> 
    <td><p>Account_Unique_ID (Data Warehouse)</p></td> 
-   <td><p>[[!DNL Facebook] Compte #]</p></td> 
+   <td><p>[[!DNL Facebook] N° de compte</p></td> 
   </tr> 
   <tr> 
    <td><p>Nom_compte (Data Warehouse)</p></td> 

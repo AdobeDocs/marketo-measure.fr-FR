@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874781
-description: Configuration de l’affichage double du Gestionnaire de campagnes via l’attribution - [!DNL Marketo Measure] - Documentation du produit
+description: Configuration de l’affichage double du Gestionnaire de campagnes via l’attribution - [!DNL Marketo Measure]
 title: Configuration l’attribution de visionnage moyen dans le gestionnaire de campagnes Doubleclick
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '317'
 ht-degree: 4%
 
 ---
@@ -21,15 +21,15 @@ ht-degree: 4%
 
 Pour commencer à obtenir des informations plus granulaires à partir de la vue jusqu’au suivi avec [!DNL Doubleclick Campaign Manager], votre pixel de suivi doit être configuré.
 
-Veuillez [cliquez ici](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md) pour plus d’informations sur la variable [!DNL Marketo Measure] Attribution d’affichage publicitaire .
+Pour plus d’informations sur la variable [!DNL Marketo Measure] Fonctionnalité d’attribution d’affichages publicitaires, voir [FAQ sur l’attribution d’affichages publicitaires Marketo Measure](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
 [!DNL Marketo Measure] est considérée comme une balise de rétrolien, car il s’agit d’un appel tiers via la balise publicitaire DCM. Les balises ping ne fonctionnent pas avec les balises d’image, mais uniquement avec les balises iframe ou javascript. Selon le support DCM, cela n&#39;a pas changé récemment et a toujours été le cas. Les balises standard ont été abandonnées le 2 octobre 2017, mais n’affectent pas la capacité de [!DNL Marketo Measure] pour suivre les impressions.
 
-Si vous utilisez une hiérarchie Parent et Enfant dans DCM, notre balise doit être appliquée à tous les niveaux pour le suivi des impressions.
+Dans le cas où vous utilisez une hiérarchie Parent et Enfant dans DCM, notre balise doit être appliquée à tous les niveaux pour le suivi des impressions.
 
 ## Ajout de la balise d’image {#how-to-add-the-image-tag}
 
-Vous allez ajouter la balise dans [!DNL Doubleclick] sous le paramètre Annonceur et vous souhaitez créer une balise d’événement d’impression.
+Ajoutez la balise dans Doubleclick sous le paramètre Advertiser et créez une balise d’événement d’impression.
 
 1. Ajoutez le code suivant comme pixel d’image 1x1.
 

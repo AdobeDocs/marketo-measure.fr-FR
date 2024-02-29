@@ -1,12 +1,12 @@
 ---
-description: Bonnes pratiques relatives à l’utilisation d’un montant de recettes personnalisé - [!DNL Marketo Measure] - Documentation du produit
+description: Bonnes pratiques relatives à l’utilisation d’un montant de recettes personnalisé - [!DNL Marketo Measure]
 title: Bonnes pratiques relatives à l’utilisation d’un montant de recettes personnalisé
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 10%
+source-wordcount: '429'
+ht-degree: 7%
 
 ---
 
@@ -50,7 +50,7 @@ Outre une révision annuelle, certaines modifications organisationnelles peuvent
 
 >[!MORELIKETHIS]
 >
->* [Utilisation d’un champ de montant de recettes personnalisé](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
->* [Utilisation d’un chargeur de données pour mettre à jour un champ de montant personnalisé dans](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
+>* [Utilisation d’un champ de montant des recettes personnalisé](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+>* [Utilisation du chargeur de données pour mettre à jour le champ Montant personnalisé](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md)
 >* [Présentation de plusieurs devises](/help/advanced-marketo-measure-features/multi-currency/overview.md)
 >* [Paramètres à plusieurs devises](/help/advanced-marketo-measure-features/multi-currency/settings.md)

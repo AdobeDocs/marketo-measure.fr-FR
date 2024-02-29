@@ -1,11 +1,11 @@
 ---
-description: Bonnes pratiques relatives aux connexions aux API - [!DNL Marketo Measure] - Documentation du produit
+description: Bonnes pratiques relatives aux connexions aux API - [!DNL Marketo Measure]
 title: Bonnes pratiques pour les connexions d’API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '736'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Quelle que soit la plate-forme publicitaire que vous connectez, les instructions
 * Connectez tous les comptes publicitaires possibles pour automatiser autant que possible les rapports de dépenses.
 * Si possible, implémentez toujours un modèle de suivi. Le modèle garantit que même si le compte publicitaire est déconnecté, [!DNL Marketo Measure] peut toujours extraire des détails de publicité granulaires
 
-Pour optimiser chaque [!DNL Marketo Measure] API, veuillez respecter les bonnes pratiques suivantes.
+Pour optimiser chaque [!DNL Marketo Measure] API, respectez les bonnes pratiques suivantes.
 
 **[!DNL Facebook]**: connexion avec le balisage automatique
 
@@ -36,7 +36,7 @@ Avant d’activer le balisage automatique, exportez votre historique d’annonce
 En suivant notre recommandation, la variable [!DNL Marketo Measure] [!DNL Facebook] API pourra :
 
 * Balisage automatique de toutes les [!DNL Facebook] Les publicités avec les [!DNL Marketo Measure] parameter `_bf ={creative}`
-* Télécharger les informations sur les coûts publicitaires dans toutes les principales [!DNL Facebook] publicités
+* Télécharger les informations de coût de la publicité dans tous les [!DNL Facebook] publicités
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ En suivant notre recommandation, la variable [!DNL Marketo Measure] [!DNL Facebo
 En suivant notre recommandation, la variable [!DNL Marketo Measure] L’API AdWords pourra :
 
 * Balisez automatiquement toutes les publicités AdWords à l’aide du [!DNL Marketo Measure] paramètres de `_bk={keyword}, _bt={creative}, _bm={matchtype}, _bn={network}, _bg={adgroupID}`
-* Télécharger les informations de coût de la publicité dans toutes les publicités AdWords principales
+* Télécharger les informations de coût de la publicité dans toutes les publicités AdWords actives
 
 **Bing**: implémentation d’un modèle de suivi au niveau du compte et activation du balisage automatique
 
@@ -57,7 +57,7 @@ Il n’y a aucun risque de perte d’historique publicitaire lors de la configur
 
 En suivant notre recommandation, la variable [!DNL Marketo Measure] L’API Bing pourra :
 * Balisez automatiquement toutes les publicités Bing avec les paramètres suivants de `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}`
-* Téléchargement des informations de coût des publicités sur toutes les publicités Bing principales
+* Télécharger les informations sur le coût des publicités sur toutes les publicités Bing actives
 
 **LinkedIn**: connexion avec le balisage automatique
 
@@ -66,7 +66,7 @@ L’activation du balisage automatique recrée un partage et le place dans un no
 En suivant notre recommandation, la variable [!DNL Marketo Measure] L’API linkedIn pourra :
 
 * Balisez automatiquement toutes les publicités LinkedIn qui sont de type publicitaire Contenu sponsorisé avec les [!DNL Marketo Measure] parameter_bl={creativeId}. Ce paramètre extrait l’ID de création permettant [!DNL Marketo Measure] pour résoudre la campagne et les informations créatives.
-* Télécharger les informations sur les coûts publicitaires dans tous les principaux et pris en charge [!DNL LinkedIn] publicités
+* Téléchargement des informations de coût des publicités sur tous les éléments actifs et pris en charge [!DNL LinkedIn] publicités
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Si votre équipe a fait l’expérience de l’un des scénarios ci-dessus, vér
 >[!MORELIKETHIS]
 >
 >* [Plateformes d’annonces intégrées (API)](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md)
->* [Incidence des outils de gestion des offres sur [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [Incidence des outils de gestion des offres [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md)
 >* [[!DNL Marketo Measure] Explication des paramètres d’API](/help/api-connections/utilizing-marketo-measures-api-connections/marketo-measure-parameters.md)
 >* [Présentation de l’API facebook](/help/api-connections/utilizing-marketo-measures-api-connections/facebook-api.md)
 >* [[!DNL LinkedIn] Présentation de l’intégration](/help/api-connections/utilizing-marketo-measures-api-connections/linkedin-integration.md)

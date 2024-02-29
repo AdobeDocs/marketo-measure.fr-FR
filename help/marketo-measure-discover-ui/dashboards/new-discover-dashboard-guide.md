@@ -3,10 +3,10 @@ description: Nouveau guide de tableau de bord Discover - [!DNL Marketo Measure] 
 title: Nouveau guide de découverte du tableau de bord
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 090c9da13c3956a229f09355d37cc590eb0a3728
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 3%
+source-wordcount: '1075'
+ht-degree: 4%
 
 ---
 
@@ -500,7 +500,7 @@ Les nouvelles fonctionnalités se trouvent dans la section [Découvrir les bases
 
 ## Retours {#feedback}
 
-Alors que nous nous efforçons continuellement d’améliorer votre expérience, nous apprécions beaucoup vos commentaires sur cette dernière mise à jour. Vos réflexions influenceront directement les améliorations futures, en veillant à ce que notre plateforme s’aligne toujours sur vos besoins. Veuillez garder un oeil sur un formulaire de commentaire dans Marketo Measure.
+Alors que nous nous efforçons continuellement d’améliorer votre expérience, nous apprécions beaucoup vos commentaires sur cette dernière mise à jour. Vos réflexions influenceront directement les améliorations futures, en veillant à ce que notre plateforme s’aligne toujours sur vos besoins. Gardez un oeil sur un formulaire de commentaire dans Marketo Measure.
 
 >[!MORELIKETHIS]
 >

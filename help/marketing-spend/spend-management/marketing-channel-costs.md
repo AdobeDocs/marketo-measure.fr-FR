@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874602
-description: Coûts du canal marketing - [!DNL Marketo Measure] - Documentation du produit
+description: Coûts du canal marketing - [!DNL Marketo Measure]
 title: Coûts associés aux canaux marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 2%
+source-wordcount: '1305'
+ht-degree: 0%
 
 ---
 
@@ -25,19 +25,19 @@ Les coûts signalés et importés à partir des connexions publicitaires directe
 
 ## Définitions {#definitions}
 
-**Dépenses par campagne**
+**Dépensé par campagne**
 
 Au niveau le plus granulaire, les clients peuvent entrer les dépenses par campagnes individuelles, regroupées dans leur canal respectif. Pour les campagnes CRM, [!DNL Marketo Measure] a extrait l’ID de campagne dans une colonne distincte qui vous aidera à mapper les dépenses de campagne hors ligne de votre CRM dans ce tableau. L&#39;ajout de dépenses à ce niveau permettra aux clients d&#39;afficher le ROI de Campaign et d&#39;optimiser les performances de Campaign.
 
 Le total de toutes les campagnes n’a pas besoin de totaliser les valeurs entrées au niveau du sous-canal ou du canal, mais il ne peut pas dépasser les valeurs entrées au niveau du sous-canal ou du canal. Si la somme est inférieure à la valeur saisie au niveau du sous-canal ou du canal, [!DNL Marketo Measure] ajoutera automatiquement une ligne pour &quot;Autre&quot; afin de couvrir la différence et de combler les trous.
 
-**Dépenses par sous-canal**
+**Dépensé par sous-canal**
 
 À un niveau supérieur, les clients peuvent entrer les dépenses par Subchannel, regroupées sous son canal. L’ajout de dépenses à ce niveau permet aux clients d’afficher le retour sur investissement du sous-canal et d’optimiser les performances par sous-canal.
 
 Le total de tous les sous-canaux n’a pas besoin de totaliser les valeurs entrées dans le canal, mais il ne peut pas dépasser les valeurs entrées dans le canal. Si la somme est inférieure à la valeur saisie au niveau du canal, [!DNL Marketo Measure] ajoutera automatiquement une ligne pour &quot;Autre&quot; afin de couvrir la différence et de combler les trous.
 
-**Dépenses par canal**
+**Dépensé par canal**
 
 Au niveau le plus élevé, les clients peuvent entrer les dépenses par canal. L’ajout de dépenses à ce niveau permet aux clients d’afficher le retour sur investissement du canal et d’optimiser les performances par canal.
 
@@ -45,7 +45,7 @@ Au niveau le plus élevé, les clients peuvent entrer les dépenses par canal. L
 
 La période par défaut commencera à partir de la date de début avec [!DNL Marketo Measure] jusqu’au mois en cours. Pour garantir que les coûts restent corrects, vous ne pouvez pas indiquer les coûts pour les mois futurs, mais vous pouvez saisir les coûts pour les mois précédant votre partenariat avec [!DNL Marketo Measure].
 
-**Filtre**
+**Filtrer**
 
 Pour affiner vos résultats dans le tableau des dépenses marketing, sélectionnez un canal dans la partie supérieure pour filtrer les autres canaux. Cela s’avère utile lorsque vous avez une équipe axée sur un canal unique.
 
@@ -57,7 +57,7 @@ Utilisez la zone de recherche pour trouver le texte correspondant à partir des 
 
 Le fichier CSV téléchargé extrait les résultats de l’écran actuel, ce qui signifie que toutes les dates, filtres ou recherches appliqués sont téléchargés en l’état.
 
-**Charger CSV**
+**Téléchargement d’un fichier CSV**
 
 Quelle que soit la vue qui se trouve dans le navigateur, s’il s’agit d’une vue filtrée ou de la vue par défaut avec toutes les dates et tous les canaux, vous pouvez télécharger n’importe quel fichier CSV.
 
@@ -129,4 +129,4 @@ La possibilité de modifier la période, de filtrer le canal ou de rechercher de
 
 **Pourquoi ne puis-je pas télécharger un fichier ?**
 
-Nous avons différents jeux d’autorisations dans la variable [!DNL Marketo Measure] Application. Pour charger un fichier, vous devez être un &quot;AccountAdmin&quot;. Pour contourner ce problème, demandez l’accès à votre compteAdmin ou demandez à votre compteAdmin de télécharger le fichier en votre nom. Vous trouverez une liste d’utilisateurs et leurs rôles sous **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Affichage/ajout d’utilisateurs de compte]**.
+Nous avons différents jeux d’autorisations dans la variable [!DNL Marketo Measure] Application. Pour charger un fichier, vous devez être un &quot;AccountAdmin&quot;. Pour contourner ce problème, demandez l’accès à votre AccountAdmin ou demandez à votre AccountAdmin de télécharger le fichier en votre nom. Vous trouverez une liste d’utilisateurs et leurs rôles sous **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Affichage/ajout d’utilisateurs de compte]**.

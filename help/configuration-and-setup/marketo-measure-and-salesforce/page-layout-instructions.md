@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874799
-description: Instructions de mise en page - [!DNL Marketo Measure] - Documentation du produit
+description: Instructions de mise en page - [!DNL Marketo Measure]
 title: Instructions de mise en page
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 7%
+source-wordcount: '832'
+ht-degree: 9%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
 
 Pour afficher facilement [!DNL Marketo Measure] , il est recommandé de mettre à jour les mises en page pour le [!UICONTROL Compte], [!UICONTROL Contact], [!UICONTROL prospect], [!UICONTROL Opportunité], et [!UICONTROL Campagne] Objets. Les instructions sont ventilées pour chaque disposition de page d’objet ci-dessous.
 
@@ -23,7 +23,7 @@ Pour commencer, accédez d’abord à [!DNL Salesforce] Configurez les paramètr
 
 ## Objet de campagne {#campaign-object}
 
-Nous vous recommandons d’ajouter la variable [!DNL Marketo Measure] dans votre campagne SFDC pour votre environnement de test uniquement. Les champs peuvent être utilisés pour tester la génération du point de contact. En production, il est recommandé de n’ajouter que la variable [!DNL Marketo Measure] Bouton Mettre à jour la date du point de contact en bloc. Il est déconseillé d’ajouter la variable [!DNL Marketo Measure] à la production puisque vous pouvez créer des règles de synchronisation de campagne.
+Il est recommandé d’ajouter la variable [!DNL Marketo Measure] dans votre campagne SFDC pour votre environnement de test uniquement. Les champs peuvent être utilisés pour tester la génération du point de contact. En production, il est recommandé de n’ajouter que la variable [!DNL Marketo Measure] Bouton Mettre à jour la date du point de contact en bloc. Il n’est pas recommandé d’ajouter la variable [!DNL Marketo Measure] à la production puisque vous pouvez créer la règle de synchronisation de campagne.
 
 1. Dans l’option Créer , sélectionnez **[!UICONTROL Campagnes]**.
 
@@ -49,7 +49,7 @@ Nous vous recommandons d’ajouter la variable [!DNL Marketo Measure] dans votre
 
    >[!NOTE]
    >
-   >Si vous utilisez plusieurs types d’enregistrements Campaign, les valeurs de liste de sélection pour la variable **[!UICONTROL Activation des points de contact d’achat]** doit être mis à jour. Veuillez vous référer [cet article](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) pour obtenir des instructions.
+   >Si vous utilisez plusieurs types d’enregistrements Campaign, vous devez mettre à jour les valeurs de liste de sélection pour la variable **[!UICONTROL Activation des points de contact d’achat]** champ . Voir [cet article](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md) pour obtenir des instructions.
 
 ## Prospects {#leads}
 
@@ -73,7 +73,7 @@ Nous vous recommandons d’ajouter la variable [!DNL Marketo Measure] dans votre
 
 1. Cliquez sur la clé à molette dans le [!DNL VisualForce] et définissez la hauteur sur 100 et activez les barres de défilement.
 
-1. De retour dans le menu, sélectionnez l’option [!UICONTROL Applications de canevas] et créez une section appelée &quot;Marketo Measure Insights&quot; sous les points de contact. [!DNL VisualForce] que vous venez de créer.
+1. De retour dans le menu, sélectionnez l’option [!UICONTROL Applications de canevas] et créez une section appelée &quot;Marketo Measure Insights&quot; sous les points de contact. [!DNL VisualForce] de la section que vous avez créée.
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ Nous vous recommandons d’ajouter la variable [!DNL Marketo Measure] dans votre
    >
    >La plupart des clients n’utilisent pas les champs qui se terminent par (FT) ou (LC), car il s’agit de champs hérités d’avant la balise [!DNL Marketo Measure] Le point de contact existait en tant qu’objet.
 
-Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, [cliquez ici pour obtenir des instructions supplémentaires sur la mise en page](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, [Cliquez ici pour obtenir des instructions de mise en page supplémentaires](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
 
 ## Contacts {#contacts}
 
@@ -107,7 +107,7 @@ Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, [cliquez ici p
    * Canal marketing
    * Source du point de contact
    * Nom de la campagne publicitaire
-   * Position du Touchpoint
+   * Position du point de contact
    * Date du Touchpoint
 
 1. Trier Par : Date Du Point De Contact, Croissant.
@@ -126,8 +126,8 @@ Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, [cliquez ici p
    * Canal marketing
    * Opportunité
    * Nom de la campagne publicitaire
-   * Type de Touchpoint
-   * Position du Touchpoint
+   * Type de point de contact
+   * Position du point de contact
    * Attribution % en forme W (_ou modèle d’attribution le plus robuste, tel que Chemin complet ou Personnalisé_)
    * En forme de W Recettes (_ou modèle d’attribution le plus robuste, tel que Chemin complet ou Personnalisé_)
    * Date du Touchpoint
@@ -152,8 +152,8 @@ Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, [cliquez ici p
    * Canal marketing
    * Contact
    * Nom de la campagne publicitaire
-   * Type de Touchpoint
-   * Position du Touchpoint
+   * Type de point de contact
+   * Position du point de contact
    * Attribution % en forme W (_ou modèle d’attribution le plus robuste, tel que Chemin complet ou Personnalisé_)
    * En forme de W Recettes (_ou modèle d’attribution le plus robuste, tel que Chemin complet ou Personnalisé_)
    * Date du Touchpoint
@@ -178,8 +178,8 @@ Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, [cliquez ici p
    * Canal marketing
    * Opportunité
    * Nom de la campagne publicitaire
-   * Type de Touchpoint
-   * Position du Touchpoint
+   * Type de point de contact
+   * Position du point de contact
    * Attribution % en forme W (_ou modèle d’attribution le plus robuste, tel que Chemin complet ou Personnalisé_)
    * En forme de W Recettes (_ou modèle d’attribution le plus robuste, tel que Chemin complet ou Personnalisé_)
    * Date du Touchpoint
@@ -190,4 +190,4 @@ Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, [cliquez ici p
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM,  [cliquez ici pour obtenir des instructions supplémentaires sur la mise en page](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).
+Si vous utilisez la variable [!DNL Marketo Measure] fonction ABM, passez en revue les [instructions de mise en page supplémentaires](/help/advanced-marketo-measure-features/account-based-marketing/account-based-marketing-overview.md).

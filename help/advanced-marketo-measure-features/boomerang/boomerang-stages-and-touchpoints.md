@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874558
-description: Étapes et points de contact Boomerang - [!DNL Marketo Measure] - Documentation du produit
+description: Étapes et points de contact Boomerang - [!DNL Marketo Measure]
 title: Étapes et points de contact de boomerang
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '721'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 >
 >La fonction Boomerang n’est activée que pour les clients de niveau 3. Pour demander un niveau de compte supérieur, contactez l’équipe Compte d’Adobe (votre gestionnaire de compte).
 
-[!DNL Marketo Measure] a lancé notre fonctionnalité Boomerang Stage ! La fonction d’évaluation Boomerang a été créée pour offrir une meilleure visibilité sur le parcours du client pour [!DNL Marketo Measure] clients ayant de longs cycles de vente. Cette fonctionnalité permet aux marketeurs de créer des points de contact pour toutes les transitions d’étape qui se produisent dans le parcours d’opportunité, comme lorsqu’un MQL de contact, passe ensuite à SAL, puis revient à l’étape MQL. Lorsque les contacts &quot;rentrent à nouveau dans la scène MQL&quot; ou &quot;re-MQL&#39;s&quot;, nous considérons que le MQL est une scène de boomerang. La fonction d’évaluation Boomerang fonctionne à côté de la fonction [!DNL Marketo Measure] Étapes personnalisées.
+[!DNL Marketo Measure] a lancé la fonctionnalité Boomerang Stage ! La fonction d’évaluation Boomerang a été créée pour offrir une meilleure visibilité sur le parcours du client pour [!DNL Marketo Measure] clients ayant de longs cycles de vente. Cette fonctionnalité permet aux marketeurs de créer des points de contact pour toutes les transitions d’étape qui se produisent dans le parcours d’opportunité, par exemple lorsqu’un MQL de contact, passe ensuite à SAL, puis revient à l’étape MQL. Lorsque des contacts &quot;entrent à nouveau dans la scène MQL&quot; ou &quot;re-MQL&quot;, le MQL est considéré comme une scène de boomerang. La fonction d’évaluation Boomerang fonctionne à côté de la fonction [!DNL Marketo Measure] Étapes personnalisées.
 
 ## Fonctionnement de cette fonctionnalité {#what-this-feature-does}
 
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 ## À quoi ressemblent les étapes et points de contact Boomerang dans votre CRM {#what-boomerang-stages-and-touchpoints-look-like-in-your-crm}
 
-Sans scènes Boomerang (le &quot;before&quot;), vous ne verrez que le MQL le plus récent ou le point de contact SQL le plus récent associé à un enregistrement Lead/Contact.
+Sans scènes Boomerang (le &quot;before&quot;), vous ne voyez que le MQL le plus récent ou le point de contact SQL le plus récent associé à un enregistrement Lead/contact.
 
 ![](assets/1.png)
 
-Avec les étapes Boomerang et les points de contact, vous verrez les points de contact qui se produisent pour chaque transition d’étape. La convention de dénomination de ces points de contact boomerang est la suivante :
+Avec les étapes Boomerang et les points de contact, vous voyez les points de contact qui se produisent pour chaque transition d’étape. La convention de dénomination de ces points de contact boomerang est la suivante :
 
 **[Nom de l’étape]-00.**
 
@@ -52,15 +52,15 @@ MQL-02 **(Dernier)**
 
 ## Comment les phases Boomerang changent vos données existantes {#how-boomerang-stages-change-your-existing-data}
 
-Boomerang Stages aura un impact :
+Boomerang Les étapes ont un impact :
 
 **Attribution par canal**
 
-* Depuis [!DNL Boomerang Stages] créera d’autres points de contact, ce qui modifiera la manière dont l’attribution est distribuée parmi les points de contact qui existent actuellement dans vos données. Cela peut donc signifier que les valeurs des recettes changent d’un canal marketing à l’autre. Tenez compte de ces points avant de mettre en oeuvre la [!DNL Boomerang stages]ou contactez votre gestionnaire de compte pour plus d’informations.
+* Depuis [!DNL Boomerang Stages] crée plus de points de contact, ce qui modifie la manière dont l’attribution est distribuée parmi les points de contact qui existent actuellement dans vos données. Cela peut donc signifier que les valeurs des recettes changent entre les canaux marketing. Tenez compte de ces éléments avant d’implémenter [!DNL Boomerang stages]ou contactez votre gestionnaire de compte pour plus d’informations.
 
 **Tout rapport qui utilise &quot;est égal à&quot; [Position du point de contact]&quot;**
 
-* Les scènes Boomerang introduisent de nouvelles positions de points de contact pour vos données. [!DNL Marketo Measure] modifie le format de la position du point de contact afin d’inclure l’occurrence de l’étape, comme &quot;MQL-01&quot; ou &quot;MQL-05 (Dernier)&quot;. Dans cet exemple, les phases Boomerang auront un impact sur tous les rapports qui utilisent &quot;La position du point de contact est égale à MQL&quot;. Pour ajuster ces rapports, le filtre doit utiliser l’opérateur &quot;contient&quot; à la place.
+* Les phases Boomerang introduisent de nouvelles positions de points de contact pour vos données. [!DNL Marketo Measure] modifie le format de la position du point de contact afin d’inclure l’occurrence de l’étape, comme &quot;MQL-01&quot; ou &quot;MQL-05 (Dernier)&quot;. Dans cet exemple, les phases de boomerang ont un impact sur tous les rapports qui utilisent &quot;La position du point de contact est égale à MQL&quot;. Pour ajuster ces rapports, le filtre doit utiliser l’opérateur &quot;contient&quot; à la place.
 
 ## Questions fréquentes {#faq}
 
@@ -70,18 +70,18 @@ Vous pouvez sélectionner jusqu’à 15 étapes.
 
 **Q : Combien de points de contact &quot;boomerang&quot; puis-je avoir par étape ?**
 
-Vous pouvez sélectionner jusqu’à 10 points de contact boomerang par étape.
+Vous pouvez sélectionner jusqu’à dix points de contact boomerang par étape.
 
-**Q : Pourquoi ne sommes-nous limités qu&#39;à 10 boomerangs par étape ?**
+**Q : Pourquoi y a-t-il une limite de dix boomerangs par étape ?**
 
 [!DNL Marketo Measure] doit limiter le nombre d’étapes pour que les temps de traitement restent sous contrôle. Si vous choisissez d’inclure les 15 étapes Boomerang dans votre modèle d’attribution et 10 points de contact boomerang par étape, vous pouvez avoir potentiellement plus de 150 points de contact par enregistrement de piste/contact.
 
 **Q : J&#39;ai un Data Warehouse. Est-ce que je reçois toutes les données ou est-ce que la limite des phases Boomerang s&#39;applique aussi à moi ?**
 
-Le plafond s’applique aux Data Warehouse et aux CRM en raison des limites de traitement que la variable [!DNL Marketo Measure] est en place. Data Warehouse affiche également la limite de 10 points de contact par étape.
+Le plafond s’applique aux Data Warehouse et aux CRM en raison des limites de traitement que la variable [!DNL Marketo Measure] est en place. Data Warehouse affiche également la limite de dix points de contact par étape.
 
 **Q : Quel est l’avantage de l’utilisation des phases Boomerang avec la modélisation personnalisée ?**
 
-Utilisation [!UICONTROL Boomerang] Les étapes avec un modèle personnalisé vous permettent d’affecter une pondération d’attribution à [!UICONTROL Boomerang] points de contact, qui attribueront du crédit de recettes à ces étapes.
+Utilisation [!UICONTROL Boomerang] Les étapes avec un modèle personnalisé vous permettent d’affecter une pondération d’attribution à [!UICONTROL Boomerang] points de contact, qui alloue du crédit de recettes à ces étapes.
 
-Sans modélisation personnalisée, [!DNL Marketo Measure] créera des points de contact pour chaque transition boomerang et d’étape, mais n’attribuera aucun crédit d’attribution à ces points de contact. Les seuls points de contact boomerang qui recevront des crédits d’attribution sont les points de contact d’envoi de formulaire. Sans modèle personnalisé, [!DNL Boomerang] les points de contact sont considérés comme identiques à une &quot;touche intermédiaire&quot; et reçoivent un crédit d’attribution en conséquence.
+Sans modélisation personnalisée, [!DNL Marketo Measure] crée des points de contact pour chaque transition boomerang et d’étape, mais n’affecte aucun crédit d’attribution à ces points de contact. Les seuls points de contact boomerang qui reçoivent des crédits d’attribution proviennent des points de contact d’envoi. Sans modèle personnalisé, [!DNL Boomerang] les points de contact sont considérés comme identiques à une &quot;touche intermédiaire&quot; et reçoivent un crédit d’attribution en conséquence.

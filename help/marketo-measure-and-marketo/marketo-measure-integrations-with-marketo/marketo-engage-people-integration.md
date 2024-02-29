@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356395
-description: "[!DNL Marketo Engage] Intégration de personnes - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Engage] Intégration de personnes - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Intégration de personnes"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 3%
+source-wordcount: '867'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ L’intégration des personnes Marketo permet [!DNL Marketo Measure] pour commen
 * Instance Marketo de production
 * Production [!DNL Salesforce] ou [!DNL Microsoft Dynamics] instance
 * Tout paiement [!DNL Marketo Measure] abonnement
-* SOLR activé (veuillez contacter [Prise en charge de Marketo](https://nation.marketo.com/t5/Support/ct-p/Support) pour activer cette option)
+* SOLR activé (atteindre [Prise en charge de Marketo](https://nation.marketo.com/t5/Support/ct-p/Support) pour activer cette option)
 
 ## Fonctionnement {#how-it-works}
 
@@ -40,7 +40,7 @@ Les clients ont la possibilité de créer des rapports sur l’ensemble des pers
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 
-Lors de la création de rapports sur les pistes (personnes) dans [!DNL Marketo Measure Discover], vous verrez le total de vos prospects Marketo et CRM. Pour créer des rapports uniquement sur les personnes Marketo ou uniquement sur les prospects CRM, vous souhaiterez créer une catégorie de segments pour votre source, puis créer des règles de segments pour Marketo et CRM à l’aide du champ &quot;Système source&quot; pour définir la règle. Une fois vos segments créés, la catégorie Source est disponible pour les filtrer dans vos [!DNL Marketo Measure Discover] tableaux de bord.
+Lors de la création de rapports sur les pistes (personnes) dans [!DNL Marketo Measure Discover], vous verrez le total de vos prospects Marketo et CRM. Pour créer des rapports uniquement sur les personnes Marketo ou uniquement sur les prospects CRM, vous souhaiterez créer une catégorie de segments pour votre source, puis créer des règles de segments pour Marketo et CRM à l’aide du champ &quot;Système source&quot; afin de définir la règle. Une fois vos segments créés, la catégorie Source est disponible pour les filtrer dans vos [!DNL Marketo Measure Discover] tableaux de bord.
 
 ![](assets/bizible-discover-1.png)
 

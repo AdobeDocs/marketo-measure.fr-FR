@@ -1,12 +1,12 @@
 ---
-description: Bonnes pratiques pour les canaux hors ligne - [!DNL Marketo Measure] - Documentation du produit
+description: Bonnes pratiques pour les canaux hors ligne - [!DNL Marketo Measure]
 title: Bonnes pratiques pour les canaux hors ligne
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 5%
+source-wordcount: '1054'
+ht-degree: 4%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 5%
 
 ## Vue d’ensemble {#overview}
 
-Pour avoir la précision [!DNL Marketo Measure] création de rapports, vos canaux marketing doivent être correctement configurés. Le &quot;[!UICONTROL Canal marketing]&#39; affiche le groupe de tactiques marketing de niveau supérieur auquel un point de contact peut appartenir (événements, webinaires, syndication de contenu, etc.).
+Pour avoir la précision [!DNL Marketo Measure] , vos canaux marketing doivent être correctement configurés. Le &quot;[!UICONTROL Canal marketing]&#39; affiche le groupe de tactiques marketing de niveau supérieur auquel un point de contact peut appartenir (par exemple, Événements, Webinaires, Syndication du contenu, etc.).
 
-La configuration de vos canaux marketing comporte deux aspects : en ligne et hors ligne. Ce document sera axé sur la variable [!DNL Marketo Measure] recommandations de bonnes pratiques pour configurer et gérer vos canaux hors ligne et la manière dont ils sont synchronisés avec [!DNL Marketo Measure] via les campagnes CRM.
+La configuration de vos canaux marketing comporte deux aspects : en ligne et hors ligne. Ce document est axé sur la [!DNL Marketo Measure] recommandations de bonnes pratiques pour configurer et gérer vos canaux hors ligne et la manière dont ils sont synchronisés avec [!DNL Marketo Measure] via les campagnes CRM.
 
 Les canaux hors ligne ont deux aspects clés :
 
@@ -32,7 +32,7 @@ La valeur &quot;Canal marketing&quot; de ces points de contact est basée sur le
 Gardez à l’esprit les bonnes pratiques suivantes, que vous mappiez vos canaux hors ligne pour la première fois ou que vous les examiniez simplement pour vérifier leur précision.
 
 * Création d’une structure délibérée pour vos canaux hors ligne
-   * Prenez le temps de réfléchir à l’organisation de vos campagnes marketing et à la manière dont elle s’inscrivent dans le framework [!DNL Marketo Measure]. Déterminer quels canaux et sous-canaux doivent être représentés dans vos canaux hors ligne, ainsi que les types de campagne CRM qui différencient ces canaux les uns des autres
+   * Prenez le temps de réfléchir à l’organisation de vos campagnes marketing et à la manière dont elle s’inscrivent dans le framework [!DNL Marketo Measure]. Déterminer quels canaux et sous-canaux doivent être représentés dans vos canaux hors ligne et quels types de campagne CRM différencient ces canaux les uns des autres
 * Commencez par utiliser vos valeurs &quot;Type&quot; de campagne CRM actuelles.
    * Les canaux hors ligne sont définis par le &quot;Type&quot; de la campagne CRM. Toutefois, il se peut que la valeur &quot;Type&quot; de la campagne CRM personnalisée doive être créée pour s’adapter aux valeurs idéales Canal hors ligne et Sous-canal. Les valeurs &quot;Type&quot; de campagne CRM personnalisée doivent porter la convention d’affectation de nom illustrée ci-dessous :
       * CANAL - SUBCANAL
@@ -49,19 +49,19 @@ Gardez à l’esprit les bonnes pratiques suivantes, que vous mappiez vos canaux
    * &quot;Type&quot; détermine Canal marketing et Sous-canal pour tous les points de contact provenant de la campagne une fois synchronisés.
 * Si vous utilisez la méthode de synchronisation des campagnes basée sur la gestion de la relation client (Activer les points de contact de l’acheteur) ou la méthode [!DNL Marketo Measure] Méthode de synchronisation basée sur l’application (synchronisation de campagne personnalisée dans le &#39;[!UICONTROL Campagnes]Onglet &#39; de votre [!UICONTROL Marketo Measure] Paramètres du compte), les points de contact hors ligne ne doivent être créés que si le membre de campagne a un engagement hors ligne réel avec Campaign et votre marque :
    * Pour les canaux hors ligne tels que les événements ou les webinaires : les &quot;inscriptions&quot; sont généralement suivies par le biais des envois de formulaire sur votre site web et [!DNL Marketo Measure] Fonctionnalités en ligne. Par conséquent, les membres de la campagne dont le statut est &quot;enregistrés&quot; ne doivent pas recevoir de point de contact hors ligne de la campagne pour éviter un double comptage. Les points de contact hors ligne doivent être représentatifs de la &quot;participation&quot; à l’événement ou au webinaire uniquement.
-   * Certains canaux hors ligne comme la syndication de contenu sont généralement plus simples, car chaque membre de campagne a le même état de &quot;réponse&quot; qui indique qu’il a effectivement répondu à la campagne. Dans ce cas, il télécharge du contenu sur un site tiers et doit donc recevoir un point de contact hors ligne.
+   * Certains canaux hors ligne, tels que la syndication de contenu, sont plus simples dans la mesure où chaque membre de campagne a le même état de &quot;réponse&quot; qui indique qu’il a effectivement répondu à la campagne. Dans ce cas, il télécharge du contenu sur un site tiers et doit donc recevoir un point de contact hors ligne.
 * Lors de l’utilisation de la méthode de synchronisation de campagne personnalisée dans la variable [!DNL Marketo Measure] Application, assurez-vous que le champ &quot;Date du point de contact&quot; est basé sur le champ de date de la campagne ou du membre de la campagne qui est le plus indicateur du moment où l’interaction du point de contact s’est réellement produite.
 * Utilisez le bouton &quot;Date de point de contact de mise à jour en bloc&quot; si vous devez remplacer la &quot;Date de point de contact&quot; pour l’un des points de contact hors ligne provenant d’une campagne CRM. La &quot;Date du point de contact&quot; doit être aussi précise que possible pour s’assurer que le point de contact contient la &quot;position du point de contact&quot; la plus précise possible et, par conséquent, le crédit d’attribution approprié.
 
 ## Bonne pratique de maintenance {#best-practice-for-maintenance}
 
-Une fois la configuration initiale effectuée, votre configuration de canal hors ligne continue à créer des points de contact hors ligne en conséquence. Il est recommandé de passer en revue votre configuration hors ligne au moins deux fois par an. Cela garantit des données de point de contact d’achat claires et précises.
+Une fois la configuration initiale effectuée, votre configuration de canal hors ligne continue à créer des points de contact hors ligne en conséquence. Il est recommandé de passer en revue votre configuration hors ligne au moins deux fois par an. Cela garantit des données de point de contact Acheteur claires et précises.
 
-De plus, si vous apportez des modifications à la gestion de Campaign ou à vos processus, vous devrez veiller à mettre à jour votre [!DNL Marketo Measure] Mappage et/ou processus de synchronisation des canaux hors ligne.
+En outre, si vous apportez des modifications à la gestion ou aux processus de Campaign, vous devez vous assurer que vous mettez à jour votre [!DNL Marketo Measure] Mappage et/ou processus de synchronisation des canaux hors ligne.
 
 Modifications susceptibles de déclencher une mise à jour de la configuration du canal hors ligne dans [!DNL Marketo Measure] peut inclure :
 
-* Campagne CRM &quot;Type(s)&quot; créée ou modifiée
+* Types de campagne CRM créés ou modifiés
 * Statut du membre de la campagne créé ou modifié
 * Si vous utilisez la méthode de synchronisation des campagnes CRM via le champ &quot;Activer les points de contact des acheteurs&quot;, assurez-vous que ce champ est révisé et mis à jour pour chaque campagne CRM créée. Si ce champ est négligé, il n’y aura aucune donnée de point de contact hors ligne associée.
 * Si vous rencontrez des points de contact hors ligne d’une campagne CRM qui semblent être des points de contact en ligne (Canal marketing = NULL), vérifiez que la campagne CRM associée est passée en revue et que la synchronisation est désactivée.
@@ -75,6 +75,6 @@ Si votre équipe a récemment effectué l’une des expériences ci-dessus, [!DN
 >* [Synchronisation des campagnes hors ligne - Synchronisation CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 >* [Campagne hors ligne et membres de campagne - Synchronisation CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 >* [Dates de synchronisation de campagne - Synchronisation CRM](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaign-sync-dates.md)
->* [Configurations pour plusieurs types d’enregistrement de campagne](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
+>* [Configurations pour plusieurs types d’enregistrement Campaign](/help/channel-tracking-and-setup/offline-channels/configurations-for-multiple-campaign-record-types.md)
 >* [Création d’un mode Liste des campagnes](/help/channel-tracking-and-setup/offline-channels/legacy-processes/creating-a-campaign-list-view-for-salesforce-campaigns.md)
 >* [Synchronisation des données historiques](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-historical-data.md)

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874580
-description: Connexion de Marketo Measure à Salesforce - [!DNL Marketo Measure] - Documentation du produit
+description: Connexion de Marketo Measure à Salesforce - [!DNL Marketo Measure]
 title: Connexion de Marketo Measure à Salesforce
 exl-id: 9be8d3fa-1045-4e41-bc2e-5b9d4d3513ae
 feature: Salesforce
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '423'
 ht-degree: 0%
 
 ---
@@ -29,19 +29,19 @@ Cet article présente un aperçu de la façon de connecter votre [!DNL Salesforc
 
    ![](assets/connect-marketo-measure-to-salesforce-2.png)
 
-1. Une fenêtre contextuelle s&#39;affiche vous demandant de sélectionner la connexion CRM. Cliquez sur le bouton **[!UICONTROL Connexion]** en regard du bouton [!DNL Salesforce] logo.
+1. Une fenêtre contextuelle s’affiche vous demandant de sélectionner la connexion CRM. Cliquez sur **[!UICONTROL Connexion]** en regard de [!DNL Salesforce] logo.
 
    ![](assets/connect-marketo-measure-to-salesforce-3.png)
 
-1. Une dernière fenêtre contextuelle s’affiche, vous demandant de [!DNL Salesforce] informations d’identification, environnement de test ou production. Saisissez vos informations et cliquez sur **[!UICONTROL Autoriser]** pour connecter le compte à [!DNL Marketo Measure].
+1. Une dernière fenêtre contextuelle s’affiche, vous demandant de [!DNL Salesforce] informations d’identification, sandbox ou production. Saisissez vos informations et cliquez sur **[!UICONTROL Autoriser]** pour connecter le compte à [!DNL Marketo Measure].
 
 >[!NOTE]
 >
 >[!DNL Marketo Measure] ne peut être connecté qu’à un seul [!DNL Salesforce] instance à la fois.
 >
->* A [!DNL Marketo Measure] L’instance peut être connectée à une instance Sandbox SFDC pour tester l’intégration avant de basculer vers votre instance de production SFDC.
+>* A [!DNL Marketo Measure] Vous pouvez connecter une instance à une instance Sandbox SFDC pour tester l’intégration avant de basculer vers votre instance de production SFDC.
 >* Si vous testez d’abord avec un environnement de test SFDC, nous vous recommandons vivement d’en tester un qui est une réplique exacte de votre instance de production SFDC en termes de champs sur les objets Lead, Contact, Account, Opportunity, Campaign et Case. Si des triggers APEX actifs en production se déclenchent lors des mises à jour des objets Lead, Contact, Account, Opportunity, Campaign et Case, essayez de les activer dans votre environnement de test.
->* Une fois le test terminé, vous allez mettre à jour votre [!DNL Marketo Measure] compte à pointer vers votre environnement de production [!DNL Salesforce] (au lieu de sandbox) [!DNL Salesforce]). En raison de la manière dont l’intégration a été créée, une fois par [!DNL Marketo Measure] compte connecté à Production [!DNL Salesforce], vous ne pouvez pas revenir en arrière et vous connecter à un environnement de test. [!DNL Salesforce] org.
+>* Une fois le test terminé, vous devez mettre à jour votre [!DNL Marketo Measure] compte à pointer vers votre environnement de production [!DNL Salesforce] (au lieu de sandbox) [!DNL Salesforce]). En raison de la manière dont l’intégration a été créée, une fois par [!DNL Marketo Measure] compte connecté à Production [!DNL Salesforce], vous ne pouvez pas revenir en arrière et vous connecter à un environnement de test. [!DNL Salesforce] org.
 
 ## Utilisation des crédits API {#api-credits-usage}
 
@@ -55,7 +55,7 @@ Vous pouvez accéder à cette limite dans Marketo Measure via : **Mon compte** >
 
 1. Accédez à **Mon compte** > **Paramètres**.
 
-1. Sous CRM, cliquez sur **Général**. Vous verrez le **Limite de l&#39;API CRM quotidienne** .
+1. Sous CRM, cliquez sur **Général**. Vous voyez le **Limite de l&#39;API CRM quotidienne** .
 
 1. Cliquez sur l’icône représentant un cadenas pour la modifier.
 

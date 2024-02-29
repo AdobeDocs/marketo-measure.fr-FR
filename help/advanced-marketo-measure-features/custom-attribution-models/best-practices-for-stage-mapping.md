@@ -1,12 +1,12 @@
 ---
-description: Bonnes pratiques pour le mappage des étapes - [!DNL Marketo Measure] - Documentation du produit
+description: Bonnes pratiques pour le mappage des étapes - [!DNL Marketo Measure]
 title: Bonnes pratiques relatives au mappage des étapes
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-source-git-commit: 7bb458941e513b6155b834d27f76f0b5df4e0a09
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 4%
+source-wordcount: '478'
+ht-degree: 10%
 
 ---
 
@@ -31,7 +31,7 @@ Que vous évaluiez votre mappage dans l’environnement intermédiaire pour la p
    * Un champ booléen est la recommandation recommandée.
 * Notez que la section Intervalle de piste ou Contact est divisée en Perdu, Ouvert et Converti ; vérifiez que les étapes se trouvent dans la section correspondante.
    * Le fait qu’une étape se trouve dans une section d’étape incorrecte peut entraîner une erreur. [!DNL Marketo Measure] data
-   * Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut comme Contact, n’utilisez pas les deux champs ci-dessous spécifiques à la piste ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Si vous êtes client ou cliente Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut sur Contact, n’utilisez pas les deux champs ci-dessous spécifiques au prospect ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
 * Notez que la section Étape d’opportunité est divisée en Perdu, Ouvert et Gagnant ; vérifiez que les étapes se trouvent dans la section d’étape appropriée.

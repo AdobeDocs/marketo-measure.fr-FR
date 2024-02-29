@@ -1,12 +1,12 @@
 ---
 unique-page-id: 27656737
-description: Signaler les dépenses marketing - [!DNL Marketo Measure] - Documentation du produit
+description: Signaler les dépenses marketing - [!DNL Marketo Measure]
 title: Rapport sur les dépenses marketing
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 Le tableau Dépense marketing comporte désormais une nouvelle colonne pour afficher la devise de chaque canal, sous-canal et ligne Campagne. Cette nouvelle colonne s’affiche pour tous les clients, même si l’option Plusieurs devises n’est pas activée.
 
-Le tableau contiendra désormais un mélange de différentes devises. Reportez-vous au tableau de bord des dépenses marketing si vous devez obtenir la somme des canaux, sous-canaux ou campagnes dans une seule devise.
+Le tableau contiendra désormais un mélange de différentes devises. Consultez le tableau de bord des dépenses marketing si vous devez obtenir la somme des canaux, sous-canaux ou campagnes dans une seule devise.
 
 ## Chargement des coûts {#upload-costs}
 

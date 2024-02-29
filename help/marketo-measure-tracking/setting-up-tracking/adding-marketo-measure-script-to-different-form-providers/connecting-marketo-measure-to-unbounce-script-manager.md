@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874743
-description: Connexion [!DNL Marketo Measure] pour Unbounce Script Manager - [!DNL Marketo Measure] - Documentation du produit
+description: Connexion [!DNL Marketo Measure] pour Unbounce Script Manager - [!DNL Marketo Measure]
 title: Connexion de  [!DNL Marketo Measure]  au gestionnaire de script Unbounce
 exl-id: c3212bc3-1d8f-4da5-bb2d-11ffd2fb4e98
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 8%
+source-wordcount: '122'
+ht-degree: 5%
 
 ---
 
-# Connexion de [!DNL Marketo Measure] au gestionnaire de script Unbounce {#connecting-marketo-measure-to-unbounce-script-manager}
+# Connexion [!DNL Marketo Measure] pour annuler le rebond du gestionnaire de script {#connecting-marketo-measure-to-unbounce-script-manager}
 
 [!DNL Marketo Measure] s’intègre directement avec Unbounce, ce qui vous permet de suivre la source marketing numérique des conversions de vos landing pages directement dans [!DNL Salesforce]. Pour établir la connexion, ajoutez simplement la variable [!DNL Marketo Measure] à votre Gestionnaire de script de débounce. Voici comment.
 

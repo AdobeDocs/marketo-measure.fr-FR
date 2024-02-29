@@ -3,7 +3,7 @@ description: Tableau de bord du trafic web - [!DNL Marketo Measure] - Produit
 title: Tableau de bord Trafic web
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: 40cd00c8edeb04c1939db9402d537d4c0e7a3406
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 6%
@@ -102,7 +102,7 @@ Tableau affichant le nombre total de visites et de visiteurs uniques par référ
 
 Graphique à barres affichant Visites ou Visiteurs uniques segmentés par Canal/Sous-canal/Campagne.
 
-* Tirez parti des fonctionnalités d’analyse et d’analyse pour classer les données par sous-canal et par campagne.
+* utilisez les fonctionnalités d’analyse et d’analyse pour classer les données par sous-canal et par campagne.
 * Passez la souris sur chaque barre pour afficher les Visites ou les Visiteurs uniques.
 
 Questions sur le graphique :

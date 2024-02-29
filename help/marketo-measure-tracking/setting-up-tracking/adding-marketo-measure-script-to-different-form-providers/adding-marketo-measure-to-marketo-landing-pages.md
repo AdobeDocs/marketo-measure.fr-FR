@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874755
-description: Ajouter [!DNL Marketo Measure] to [!DNL Marketo] Pages d’entrée - [!DNL Marketo Measure] - Documentation du produit
+description: Ajouter [!DNL Marketo Measure] to [!DNL Marketo] Pages d’entrée - [!DNL Marketo Measure]
 title: Ajout de  [!DNL Marketo Measure]  à des pages de destination Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 4%
+source-wordcount: '217'
+ht-degree: 3%
 
 ---
 
-# Ajout de [!DNL Marketo Measure] à des pages de destination Marketo {#adding-marketo-measure-to-marketo-landing-pages}
+# Ajouter [!DNL Marketo Measure] aux pages d’entrée Marketo {#adding-marketo-measure-to-marketo-landing-pages}
 
 Découvrez comment ajouter le suivi à [!DNL Marketo Engage] Pages d’entrée, car elles nécessitent une gestion supplémentaire. [!DNL Marketo Measure] JavaScript doit être en place à la fois sur la page d’entrée et sur la page [!DNL Marketo Engage] formulaire lui-même. Pour ce faire, vous devez charger la variable [!DNL Marketo Measure] JavaScript dans [!DNL Marketo Engage] comme expliqué dans les directions suivantes.
 

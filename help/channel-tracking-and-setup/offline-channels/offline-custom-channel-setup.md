@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874598
-description: Configuration de canal personnalisé hors ligne - [!DNL Marketo Measure] - Documentation du produit
+description: Configuration de canal personnalisé hors ligne - [!DNL Marketo Measure]
 title: Configuration de canal personnalisé hors ligne
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: b8ea008c594ed114323dedd3762d1265287193c7
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '870'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ La feuille de calcul comporte trois colonnes :
 
 [!DNL Marketo Measure] La logique de canal hors ligne est déterminée par l’objet Campaign, en particulier par la variable [!DNL Salesforce] Type de campagne. Chaque opération hors ligne doit avoir une [!DNL Salesforce] Type de campagne, tel que dîner ou commerce, car [!DNL Marketo Measure] repose sur ce champ pour déterminer le canal et le sous-canal à mapper.
 
-Les types de campagne de la collecte de données régionale apparaîtront dans l’onglet du canal hors ligne, répertoriés sous [!DNL Salesforce] Type de campagne. Veuillez noter que [!DNL Marketo Measure] ne peut importer que les types de campagne SFDC pour les campagnes auxquelles sont associés des points de contact Acheteur.
+Les types de campagne de la collecte de données régionale apparaîtront dans l’onglet du canal hors ligne, répertoriés sous [!DNL Salesforce] Type de campagne. Notez que [!DNL Marketo Measure] ne peut importer que les types de campagne SFDC pour les campagnes auxquelles sont associés des points de contact Acheteur.
 
 ![](assets/2-2.png)
 
@@ -77,7 +77,7 @@ Une fois que vous avez modifié et mis à jour la feuille de calcul avec vos rè
 
 >[!TIP]
 >
->Vous souhaitez déterminer _when_ a [!DNL Salesforce] Le type de campagne est déplacé vers le bas [!DNL Marketo Measure] mappage de canal ? Accédez simplement à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir les valeurs figurant dans la liste de sélection et celles qui sont inactives. Les inactifs n’apparaîtront pas comme type sélectionnable dans notre[!UICONTROL Canaux hors ligne]&quot;. Ce processus peut prendre de quelques minutes à 48 heures.
+>Vous souhaitez déterminer _when_ a [!DNL Salesforce] Le type de campagne est déplacé vers le bas [!DNL Marketo Measure] mappage de canal ? Accédez simplement à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir les valeurs figurant dans la liste de sélection et celles qui sont inactives. Les inactifs n’apparaîtront pas comme type sélectionnable dans notre[!UICONTROL Canaux hors ligne]&quot;. Notez que ce processus peut prendre de quelques minutes à 48 heures.
 
 Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé et [!DNL Marketo Measure] charge les modifications et traite à nouveau les données.
 
@@ -87,4 +87,4 @@ Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé et [!DNL Mar
 >
 >* [[!DNL Marketo Measure] Université : synchronisation des campagnes hors ligne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
 >
->* [Intégration des programmes dans Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)
+>* [Intégration des programmes Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)

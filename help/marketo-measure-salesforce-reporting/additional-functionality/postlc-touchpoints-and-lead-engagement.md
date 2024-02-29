@@ -4,9 +4,9 @@ description: Points de contact PostLC et engagement au prospect - Marketo Measur
 title: Points de contact PostLC et engagement des prospects
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
@@ -35,7 +35,7 @@ Les points de contact PostLC sont dynamiques. Comme un prospect ou un contact co
 
 Pour régler les paramètres des points de contact PostLC pour vos Leads ou contacts, suivez les instructions ci-dessous.
 
-**Prospects**
+**Pistes**
 
 1. Connectez-vous à [!DNL Marketo Measure] compte à l’adresse [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et accédez à [!UICONTROL Paramètres].
 

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874793
-description: Utilisation d’un champ de montant des recettes personnalisé - [!DNL Marketo Measure] - Documentation du produit
+description: Utilisation d’un champ de montant des recettes personnalisé - [!DNL Marketo Measure]
 title: Utilisation d’un champ de montant de recettes personnalisé
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 560ca558ae9ef4d2ef4da57eb9bfa672ed00e0fc
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 3%
+source-wordcount: '676'
+ht-degree: 2%
 
 ---
 
@@ -100,10 +100,10 @@ Les étapes suivantes sont destinées aux utilisateurs de Salesforce Classic. Si
 
    ![](assets/using-a-custom-revenue-amount-field-15.png)
 
-1. Vous serez redirigé vers une page de cumul pour votre workflow, assurez-vous d’&quot;activer&quot; et vous serez opérationnel. Pour activer, cliquez sur **[!UICONTROL Modifier]** en regard de votre nouveau workflow, puis cliquez sur **[!UICONTROL Activer]**.
+1. vous serez ramené à une page de cumul pour votre workflow, assurez-vous d’&quot;activer&quot; et vous serez ravis d’y aller. Pour activer, cliquez sur **[!UICONTROL Modifier]** en regard de votre nouveau workflow, puis cliquez sur **[!UICONTROL Activer]**.
 
    Une fois ces étapes terminées, les opportunités doivent être mises à jour afin de déclencher le workflow pour que la nouvelle valeur de la variable [!UICONTROL opportunité personnalisée] champ .
 
    Pour ce faire, exécutez vos opportunités via Data Loader dans SFDC. Pour plus d’informations sur l’utilisation de Data Loader dans [cet article](/help/advanced-marketo-measure-features/custom-revenue-amount/using-data-loader-to-update-marketo-measure-custom-amount-field.md).
 
-Si vous avez des questions, n’hésitez pas à contacter l’équipe du compte Adobe (votre gestionnaire de compte) ou [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Si vous avez des questions, n’hésitez pas à contacter l’équipe de compte d’Adobe (votre gestionnaire de compte) ou [[!DNL Marketo] Assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

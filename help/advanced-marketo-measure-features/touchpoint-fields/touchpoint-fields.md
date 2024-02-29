@@ -1,12 +1,12 @@
 ---
 unique-page-id: 37355835
-description: Champs de point de contact - [!DNL Marketo Measure] - Documentation du produit
+description: Champs de point de contact - [!DNL Marketo Measure]
 title: Champs de point de contact
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: cc786cb3af08fa36af91ef22f4dba3072c9617eb
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,7 @@ Maintenant que nous avons appris à extraire et à mapper les champs, combinons 
 * Créez un champ calculé et étiquetez-le &quot;Nom_région&quot;.
 * Définissez la règle en commençant par la recherche de votre champ extrait. Dans ce cas, [!DNL Touchpoint.Region]
 * Utilisez l’opérateur &quot;[!UICONTROL mappe à]&quot; puisque nous voulons créer un mapping pour chaque nombre avec sa valeur
-* Un tableau vous sera présenté pour répertorier chaque mappage. Au final, il ressemblera à ceci :
+* Un tableau vous est présenté pour répertorier chaque mappage. Au final, il ressemblera à ceci :
 * En fonction du mappage et de l’URL ci-dessus, la &quot;Region_Value&quot; d’un point de contact avec cette page d’entrée serait &quot;EMEA&quot;.
 * Répétez l’extraction et le mappage pour les 4 jeux de chiffres restants.
 
@@ -213,7 +213,7 @@ N’oubliez pas d’enregistrer vos règles après les avoir créées. Si vous n
 
 **Quelle expression utiliser pour extraire plusieurs paramètres d’une seule page d’entrée ?**
 
-Comme dans l’exemple d’extraction #4, vous devrez créer plusieurs champs pour extraire chacun des paramètres. Ainsi, si vous avez cinq valeurs différentes, vous allez créer cinq champs de point de contact pour extraire chacun d’eux.
+Comme dans l’exemple d’extraction #4, vous devez créer plusieurs champs pour extraire chacun des paramètres. Ainsi, si vous avez cinq valeurs différentes, vous allez créer cinq champs de point de contact pour extraire chacun d’eux.
 
 **Pourquoi mes nouveaux champs ne s’affichent-ils pas dans la variable [!DNL Marketo Measure] schéma ?**
 

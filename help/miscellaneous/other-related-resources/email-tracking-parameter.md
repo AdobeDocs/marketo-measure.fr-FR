@@ -1,13 +1,13 @@
 ---
 unique-page-id: 37356030
-description: Paramètre de suivi des emails - [!DNL Marketo Measure] - Documentation du produit
+description: Paramètre de suivi des emails - [!DNL Marketo Measure]
 title: Paramètre de suivi des e-mails
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 3%
+source-wordcount: '406'
+ht-degree: 4%
 
 ---
 
@@ -17,15 +17,15 @@ La variable [!DNL Marketo Measure] Le paramètre de suivi des courriers électro
 
 ## Cas d’utilisation  {#use-cases}
 
-**Enregistrement de webinaire**: l’équipe marketing envoie une invitation par courrier électronique avec un seul bouton pour s’inscrire à un webinaire. Comme le courrier électronique contient déjà les informations de la personne, un seul clic l’enregistre automatiquement. La page d’entrée contient le paramètre de suivi des emails. Ainsi, lorsqu’ils cliquent et arrivent sur la page de confirmation, [!DNL Marketo Measure] peut capturer l’adresse électronique et traiter le clic publicitaire comme un remplissage de formulaire, ce qui génère un point de contact.
+**Enregistrement de webinaire**: l’équipe marketing envoie une invitation par courrier électronique avec un seul bouton pour s’inscrire à un webinaire. Comme le courrier électronique contient déjà les informations de la personne, le simple clic les enregistre automatiquement. La page d’entrée contient le paramètre de suivi des emails. Ainsi, lorsqu’ils cliquent et arrivent sur la page de confirmation, [!DNL Marketo Measure] peut capturer l’adresse électronique et traiter le clic publicitaire comme un remplissage de formulaire, ce qui génère un point de contact.
 
-**Téléchargement de contenu**: l’équipe marketing du contenu souhaite promouvoir un livre électronique récent qu’elle a publié avec un lien de téléchargement direct à partir d’un e-mail. Lors de la création du modèle d&#39;email, la page de confirmation des téléchargements contiendra le paramètre de suivi email de sorte que lorsqu&#39;ils cliquent, [!DNL Marketo Measure] peut capturer l’adresse électronique. Sans avoir à remplir un formulaire sur le site, [!DNL Marketo Measure] peut générer un point de contact pour le téléchargement de contenu qui s’est produit via l’email, car il les a placés sur la page de confirmation avec le paramètre de suivi de l’email.
+**Téléchargement de contenu**: l’équipe marketing du contenu souhaite promouvoir un livre électronique récent qu’elle a publié avec un lien de téléchargement direct à partir d’un e-mail. Lors de la création du modèle d&#39;email, la page de confirmation des téléchargements contient le paramètre de suivi des emails afin que, lorsqu&#39;ils cliquent, [!DNL Marketo Measure] peut capturer l’adresse électronique. Sans avoir à remplir un formulaire sur le site, [!DNL Marketo Measure] peut générer un point de contact pour le téléchargement du contenu. En effet, le courrier électronique les a envoyés sur la page de confirmation avec le paramètre de suivi de courrier électronique.
 
 ## Fonctionnement {#how-it-works}
 
 Lorsqu’un visiteur arrive sur votre site, [!DNL Marketo Measure] s’attend à trouver une page d’entrée avec une adresse électronique ou [!DNL Salesforce] Identifiant permettant d’associer cette visite à un &quot;envoi de formulaire&quot; et de générer un point de contact pour cette activité.
 
-En tant que client, vous allez créer un modèle d’email comme vous le feriez normalement. Une fois qu’il est temps d’ajouter dans la page d’entrée l’action dont vous souhaitez effectuer le suivi, vous devez déterminer le jeton, la balise de variable ou la macro que votre plateforme d’automatisation marketing accepte pour afficher dynamiquement la valeur de chaque individu.
+En tant que client, vous créez un modèle d’email comme vous le feriez normalement. Une fois qu’il est temps d’ajouter dans la page d’entrée l’action dont vous souhaitez effectuer le suivi, vous devez déterminer le jeton, la balise de variable ou la macro que votre plateforme d’automatisation marketing accepte pour afficher dynamiquement la valeur de chaque individu.
 
 Marketo Measure accepte les valeurs suivantes : Email Address, Salesforce Lead Id ou Salesforce Contact Id.
 
@@ -49,19 +49,19 @@ Marketo Measure accepte les valeurs suivantes : Email Address, Salesforce Lead I
    <td><p>Marketo</p></td> 
    <td><p>{{lead.Email Address} </p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId={{lead.EmailAddress}}</p></td> 
-   <td><p>https://docs.marketo.com/display/public/DOCS/Tokens+Overview#TokensOverview-PersonTokens</p></td> 
+   <td><p>https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/personalizing-landing-pages/tokens-overview.html</p></td> 
   </tr> 
   <tr> 
    <td><p>Pardot</p></td> 
-   <td><p>%%E-mail%% </p><p>ou</p><p>%%user_crm_id%%</p></td> 
+   <td><p>%%email% </p><p>ou</p><p>%%user_crm_id%%</p></td> 
    <td><p>https://engage.marketo.com/rs/460-TDH-945/images/BZ-B2B-Marketing-Attribution-101-ebook.pdf?mailId=%%email%%</p></td> 
-   <td><p>https://help.salesforce.com/articleView?id=pardot_variable_tags_reference.htm&amp;type=5</p></td> 
+   <td><p>https://help.salesforce.com/s/articleView?language=en_US&amp;id=pardot_variable_tags_reference.htm&amp;type=5</p></td> 
   </tr> 
   <tr> 
    <td><p>Hubspot</p></td> 
    <td><p>(inséré via l’éditeur)</p></td> 
    <td><p>s/o</p></td> 
-   <td><p>https://knowledge.hubspot.com/cos-general/how-to-use-personalization-with-your-content</p></td> 
+   <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td> 
   </tr> 
   <tr> 
    <td><p>Activation</p></td> 

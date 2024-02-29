@@ -1,10 +1,10 @@
 ---
-description: Présentation des autorisations d’intégration - [!DNL Marketo Measure] - Documentation du produit
+description: Présentation des autorisations d’intégration - [!DNL Marketo Measure]
 title: Vue d’ensemble des autorisations d’intégration
 feature: APIs, Integration
-source-git-commit: b7aea1e0789b2f4f3fd4b250c0f66595618317bb
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1286'
 ht-degree: 2%
 
 ---
@@ -98,7 +98,7 @@ Nous vous recommandons de créer un utilisateur Marketo Measure dédié dans Dyn
 <p>
 <b>Rôles de sécurité</b>
 <br>
-Si votre organisation utilise les rôles de sécurité Dynamics, veillez à ce que l’utilisateur connecté ou l’utilisateur Marketo Measure dédié dispose des autorisations de lecture/écriture suffisantes pour les entités requises.
+Si votre organisation utilise les rôles de sécurité Dynamics, assurez-vous que l’utilisateur connecté ou l’utilisateur Marketo Measure dédié dispose des autorisations de lecture/écriture suffisantes pour les entités requises.
 <br>
 Les rôles de sécurité se trouvent ici : Paramètres &gt; Sécurité &gt; Rôles de sécurité
 <br>
@@ -221,7 +221,7 @@ Marketo Measure effectue le suivi des campagnes, groupes publicitaires, créatif
     <td>L’intégration des attributs du client B2B permet aux utilisateurs mutuels de Marketo Measure et d’Adobe Analytics d’enrichir leurs profils utilisateur Adobe Analytics avec des métadonnées précieuses dérivées du moteur d’attribution Marketo Measure et par le biais de sa fonctionnalité de synchronisation avec les CRM (Microsoft Dynamics et Salesforce). <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">En savoir plus</a>.</td>
     <td>Le client doit fournir à Marketo Measure un ID d’alias et des informations d’identification du serveur FTP à un emplacement où les données seront transférées vers son instance Analytics.
     <p>
-    Prenez note des informations suivantes, car vous en aurez besoin pour quelques-unes des étapes suivantes du processus :
+    Prenez note des informations suivantes, car vous en aurez besoin pour certaines des étapes suivantes du processus :
     <p>
     <li>ID d’alias, qui peut être n’importe quelle valeur que vous souhaitez. Nous recommandons "marketomeasure_id"</li>
     <li>Nom d’hôte et informations d’identification du serveur FTP (nom d’utilisateur et mot de passe)</li>

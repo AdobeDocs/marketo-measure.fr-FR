@@ -1,18 +1,18 @@
 ---
-description: '''[!DNL Salesforce] Consolidation des modules - [!DNL Marketo Measure] - Documentation du produit"'
+description: '[!DNL Salesforce] Consolidation des modules - [!DNL Marketo Measure]'
 title: '''[!DNL Salesforce] Consolidation des modules'
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: d6bba3ea7cf97ef730681da1e21cf76e9edab779
+source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 7%
+source-wordcount: '433'
+ht-degree: 5%
 
 ---
 
 # Consolidation des packages [!DNL Salesforce] {#salesforce-package-consolidation}
 
-Nous sommes ravis d’annoncer les modifications à venir des packages Marketo Measure Salesforce. Afin d’améliorer l’expérience utilisateur et de simplifier l’utilisation, nous consolidons tous les modules existants en un seul module complet.
+Pour améliorer l’expérience utilisateur et simplifier l’utilisation, les modules existants sont compilés en un seul module complet.
 
 ## Retrait d’un paquet {#package-retirement}
 
@@ -22,19 +22,19 @@ En raison de cette consolidation, les modules V1, V2_EXT, V2_Security et tous le
 
 Le nouveau package V2 consolidé intègre toutes les fonctionnalités des packages précédents, offrant ainsi une meilleure expérience utilisateur. Ce package mis à jour permet un suivi plus efficace des performances marketing et de vente et permet d’obtenir des informations plus détaillées sur le comportement des clients.
 
-Nous avons ajouté deux nouveaux champs qui vous aideront à améliorer vos capacités de reporting :
+Deux nouveaux champs vous permettent d’améliorer vos fonctionnalités de reporting :
 
 * form_name : désormais disponible dans les objets BT/BAT, ce champ permet aux utilisateurs et utilisatrices de créer des rapports en fonction des noms de formulaire.
 * user_touchpoint_id : ce champ permet aux utilisateurs de créer des rapports avec un nombre de points de contact utilisateur uniques (`bizible2__User_Touchpoint_V2__c` dans Salesforce).
 
 ## Assistance et transition {#support-and-transition}
 
-Nous comprenons que ce changement peut nécessiter des ajustements, et nous nous engageons à vous soutenir tout au long du processus. Notre [Équipe d’assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} est facilement disponible pour répondre à toutes les questions et faciliter la transition vers le nouveau module consolidé.
+La variable [Équipe d’assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} est disponible pour répondre à toutes les questions et vous aider à assurer une transition en douceur vers le nouveau package consolidé.
 
 ## Actions requises {#retired-actions}
 
 * Si le package V2 est déjà installé, vous devez le mettre à jour vers la nouvelle version consolidée.
-* Si vous disposez de rapports ou de tableaux de bord provenant de n’importe quel package de reporting, vous pouvez facilement les recréer sans aucune modification requise, car tous les champs utilisés existent dans le package consolidé.
+* Si vous disposez de rapports ou de tableaux de bord provenant de n’importe quel package de reporting, vous pouvez facilement les recréer sans aucune modification requise, car tous les champs existent dans le package consolidé.
 * Si des rapports utilisent des champs dans le package V2_EXT, vous pouvez les recréer dans le package consolidé en procédant comme suit :
    * Toutes les données des champs V2_EXT sont disponibles dans les champs de point de contact. Vous pouvez donc modifier vos rapports pour récupérer les données des champs de point de contact V2 correspondants en ajoutant un filtre sur la position du point de contact.
    * Exemple de rapport récupérant toutes les pistes avec le contenu publicitaire FT contenant le texte &quot;Attractivité&quot;.
@@ -53,7 +53,7 @@ Nous comprenons que ce changement peut nécessiter des ajustements, et nous nous
 
 **Le package consolidé sera-t-il en conflit avec les champs de mon package existant ?**
 
-Vous n’avez pas besoin de désinstaller votre package avant d’installer le package consolidé. Il n’y aura aucun conflit dans les champs, car ils seront dans un autre espace de noms.
+Vous n’avez pas besoin de désinstaller votre package avant d’installer le package consolidé. Il n’y aura aucun conflit dans les champs, car ils se trouvent dans un autre espace de noms.
 
 **Comment puis-je renvoyer les données de mes packages actuels ?**
 
@@ -61,8 +61,8 @@ Vous pouvez déposer un ticket [avec assistance](https://nation.marketo.com/t5/s
 
 **Les champs des packages V1 et V2_EXT seront-ils disponibles dans le package consolidé ?**
 
-Oui. Le package consolidé contient les mêmes champs dans la version V1 avec d’autres ventilations par objets et les champs V2_EXT via les champs de point de contact.
+Oui. Le package consolidé contient les mêmes champs dans V1 avec d’autres ventilations par objets et des champs V2_EXT via les champs de point de contact.
 
 **Les rapports qui utilisent des champs V2_EXT peuvent-ils être recréés dans le package consolidé ?**
 
-Oui. Suivez les étapes de la section [Actions requises](#retired-actions) ci-dessus.
+Oui. Suivez les étapes de la section [Actions requises](#retired-actions) .

@@ -1,12 +1,12 @@
 ---
-description: Présentation de l’interface de Adobe Experience Cloud - [!DNL Marketo Measure] - Documentation du produit
+description: Présentation de l’interface de Adobe Experience Cloud - [!DNL Marketo Measure]
 title: Vue d’ensemble de l’interface Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 6%
+source-wordcount: '277'
+ht-degree: 4%
 
 ---
 
@@ -28,7 +28,7 @@ Si vous êtes _not_ déjà connecté à un produit Adobe Experience Cloud, conne
 
 ## Nouvelles fonctionnalités {#new-features}
 
-Outre l’aspect mis à jour, vous remarquerez les fonctionnalités suivantes :
+Outre l’aspect mis à jour, notez les fonctionnalités suivantes :
 
 **Gestion des domaines**
 
@@ -44,7 +44,7 @@ Recherchez des articles d’assistance, envoyez des tickets, fournissez des comm
 
 **Sélecteur d’applications**
 
-Ceux qui ont accès à plusieurs produits Adobe pourront facilement basculer entre eux.
+Ceux qui ont accès à plusieurs produits Adobe peuvent facilement basculer entre eux.
 
 ![](assets/unified-shell-overview-7.png)
 
@@ -58,7 +58,7 @@ Affichez et interagissez avec des notifications spécifiques à un produit et de
 
 **Paramètres d’Adobe**
 
-Cliquez sur l’icône de votre profil pour modifier votre langue ou d’autres préférences à l’échelle de l’Adobe. Vous pouvez également [!DNL Marketo Measure]Modifications spécifiques en cliquant sur **Mes paramètres**.
+Pour modifier votre langue ou d’autres préférences à l’échelle de l’Adobe, cliquez sur l’icône de votre profil. Vous pouvez également [!DNL Marketo Measure]Modifications spécifiques en cliquant sur **Mes paramètres**.
 
 ![](assets/unified-shell-overview-10.png)
 
@@ -66,7 +66,7 @@ Cliquez sur l’icône de votre profil pour modifier votre langue ou d’autres 
 
 **Qu’advient-il de mes signets ?**
 
-Les signets seront redirigés. Par exemple, si vous accédez à https://apps.marketo-measure.com/Discover/391, vous êtes redirigé vers https://experience.adobe.com/marketo-measure/Discover/391 après avoir effectué l’authentification.
+Les signets sont redirigés. Par exemple, si vous accédez à https://apps.marketo-measure.com/Discover/391, vous êtes redirigé vers https://experience.adobe.com/marketo-measure/Discover/391 après avoir effectué l’authentification.
 
 **Je ne peux pas me connecter à [!DNL Marketo Measure] via l’interface Experience Cloud. Quel pourrait être le problème ?**
 
@@ -74,4 +74,4 @@ Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une
 
 ![](assets/unified-shell-overview-11.png)
 
-Si vous recevez l’erreur ci-dessus, veuillez [Contacter l’assistance](https://nation.marketo.com/t5/support/ct-p/Support) pour obtenir de l’aide.
+Si vous recevez l’erreur ci-dessus, [Contacter l’assistance](https://nation.marketo.com/t5/support/ct-p/Support) pour obtenir de l’aide.

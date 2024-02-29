@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874767
-description: Configuration des phases Boomerang - [!DNL Marketo Measure] - Documentation du produit
+description: Configuration des phases Boomerang - [!DNL Marketo Measure]
 title: Configuration d’étapes de boomerang
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 4%
+source-wordcount: '319'
+ht-degree: 3%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 4%
 >
 >La fonction Boomerang n’est activée que pour les clients de niveau 3. Pour demander un niveau de compte supérieur, contactez l’équipe Compte d’Adobe (votre gestionnaire de compte).
 
-Pour activer [!UICONTROL Boomerang] Pour votre compte, vous devez être un administrateur de compte. Ou bien, elle peut être activée en tendant la main vers [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Une fois la fonctionnalité activée, suivez ces instructions pour la configurer.
+Pour activer [!UICONTROL Boomerang] Pour votre compte, vous devez être un administrateur de compte. Ou bien, elle peut être activée en tendant la main vers [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Une fois la fonction activée, suivez ces instructions pour la configurer.
 
 ## Configuration de l’étape Boomerang {#boomerang-stage-setup}
 
@@ -33,7 +33,7 @@ Pour activer [!UICONTROL Boomerang] Pour votre compte, vous devez être un admin
 
    >[!NOTE]
    >
-   >Veuillez prévoir entre 24 et 48 heures pour que vos données soient retraitées en fonction de ces modifications.
+   >Prévoyez de 24 à 48 heures le retraitement de vos données en fonction de ces modifications.
 
 ## Configuration de l’état Boomerang avec attribution de modèle personnalisée {#boomerang-stage-setup-with-custom-model-attribution}
 
@@ -59,4 +59,4 @@ Pour activer [!UICONTROL Boomerang] Pour votre compte, vous devez être un admin
 
    >[!NOTE]
    >
-   >Veuillez prévoir entre 24 et 48 heures pour que vos données soient retraitées en fonction de ces modifications.
+   >Prévoyez de 24 à 48 heures le retraitement de vos données en fonction de ces modifications.

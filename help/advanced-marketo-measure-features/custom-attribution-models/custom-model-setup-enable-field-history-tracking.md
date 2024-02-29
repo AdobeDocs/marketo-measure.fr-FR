@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874777
-description: Configuration de modèle personnalisé - Activer le suivi de l’historique des champs - [!DNL Marketo Measure] - Documentation du produit
+description: Configuration de modèle personnalisé - Activer le suivi de l’historique des champs - [!DNL Marketo Measure]
 title: Configuration de modèle personnalisé - Activation du suivi de l’historique des champs
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---

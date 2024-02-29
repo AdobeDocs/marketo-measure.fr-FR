@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874539
-description: Création d’une [!DNL Marketo Measure] Types de rapports - [!DNL Marketo Measure] - Documentation du produit
+description: Création d’une [!DNL Marketo Measure] Types de rapports - [!DNL Marketo Measure]
 title: Création de types de rapports personnalisés dans [!DNL Marketo Measure]
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 2%
+source-wordcount: '372'
+ht-degree: 5%
 
 ---
 
-# Création de types de rapports personnalisés dans[!DNL Marketo Measure] {#creating-custom-marketo-measure-report-types}
+# Création d’une [!DNL Marketo Measure] Types de rapports {#creating-custom-marketo-measure-report-types}
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
 
 Découvrez comment créer des [!DNL Marketo Measure] [!DNL Salesforce] types de rapports. Il existe trois types de rapports différents que nous vous recommandons de créer : Pistes avec points de contact d’achat (personnalisés), [!DNL Marketo Measure] Personne avec points de contact d’achat (personnalisés), opportunités avec point de contact d’attribution d’achat (personnalisé).
 

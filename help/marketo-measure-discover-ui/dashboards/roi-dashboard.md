@@ -3,7 +3,7 @@ description: Tableau de bord du ROI - [!DNL Marketo Measure] - Produit
 title: Tableau de bord Retour sur investissement
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 3%
@@ -45,7 +45,7 @@ Le tableau de bord du ROI offre aux marketeurs une vue granulaire des retours su
 
 Graphique à barres illustrant les coûts et les recettes, conçu pour offrir une perspective comparative de leur ampleur par rapport à divers canaux, sous-canaux et campagnes.
 
-* Tirez parti des fonctionnalités d’analyse et d’analyse pour classer les données par sous-canal et par campagne.
+* utilisez les fonctionnalités d’analyse et d’analyse pour classer les données par sous-canal et par campagne.
 * Passez la souris sur chaque barre pour afficher le ROI simple et réel.
 
 **Questions aux réponses du graphique**
@@ -72,7 +72,7 @@ Graphique en courbes de série temporelle présentant la comparaison entre le re
 
 Graphique à barres empilées affichant les coûts totaux, segmenté par canaux associés pour chaque mois/trimestre/année.
 
-* Utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
+* utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
 * Passez la souris sur un segment de barre ou l’espace entre les barres pour afficher des informations détaillées.
 
 **Questions aux réponses du graphique**
@@ -86,7 +86,7 @@ Graphique à barres empilées affichant les coûts totaux, segmenté par canaux 
 
 Graphique à barres affichant les dépenses marketing segmentées par canal/sous-canal/campagne.
 
-* Tirez parti des fonctionnalités d’analyse et d’analyse pour classer les données par canal/sous-canal/campagne.
+* utilisez les fonctionnalités d’analyse et d’analyse pour classer les données par canal/sous-canal/campagne.
 
 **Questions aux réponses du graphique**
 
@@ -144,6 +144,6 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 >[!MORELIKETHIS]
 >
->* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Bases du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874616
-description: Type de rapport pour les contacts sans opportunités - [!DNL Marketo Measure] - Documentation du produit
+description: Type de rapport pour les contacts sans opportunités - [!DNL Marketo Measure]
 title: Type de rapport pour les contacts sans opportunités
 exl-id: 255048be-16ff-4964-85fd-cc07888a05af
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 7%
+source-wordcount: '164'
+ht-degree: 17%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
 
 Pour créer des rapports sur les contacts avec les points de contact d’acheteurs qui ne sont pas associés à une opportunité, vous devez créer un type de rapport personnalisé.
 

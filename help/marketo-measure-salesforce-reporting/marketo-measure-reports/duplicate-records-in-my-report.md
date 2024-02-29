@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874634
-description: Duplication d’enregistrements dans mon rapport - [!DNL Marketo Measure] - Documentation du produit
+description: Duplication d’enregistrements dans mon rapport - [!DNL Marketo Measure]
 title: Doublons d’enregistrements dans mon rapport
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 3%
+source-wordcount: '267'
+ht-degree: 10%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
 
 En plongeant dans le [!DNL Marketo Measure] Rapports dans [!DNL Salesforce], vous pouvez commencer à rechercher des enregistrements &quot;en double&quot; dans vos rapports. Vous allez probablement ressentir ce sentiment lorsque vous passerez en revue [!DNL Marketo Measure] rapports d’usine.
 
-Lors de la création de rapports avec l’objet Points de contact de l’acheteur ou l’objet Point de contact de l’attribution de l’acheteur, il est important de comprendre que vous ne signalez plus le nombre de prospects, de contacts ou d’opportunités, mais que vous signalez plutôt le nombre de points de contact de l’achat ou de points de contact de l’attribution de l’acheteur associés à ces objets standard (pistes, contacts, opportunités).
+Lors de la création de rapports avec l’objet Points de contact de l’acheteur ou l’objet Point de contact de l’attribution de l’acheteur, il est important de comprendre que vous ne signalez plus le nombre de prospects, de contacts ou d’opportunités, mais que vous rapporterez plutôt le nombre de points de contact de l’achat ou de points de contact de l’attribution de l’acheteur associés à ces objets standard (prospects, contacts, opportunités).
 
 Prenons comme exemple le rapport suivant :
 

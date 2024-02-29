@@ -1,21 +1,21 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Champs dans Standard [!DNL Salesforce] Objets - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Measure] Champs dans Standard [!DNL Salesforce] Objets - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Champs dans Standard [!DNL Salesforce] Objets"
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 1%
+source-wordcount: '1292'
+ht-degree: 2%
 
 ---
 
-# Champs [!DNL Marketo Measure] sur les objets[!DNL Salesforce]standard {#marketo-measure-fields-on-standard-salesforce-objects}
+# [!DNL Marketo Measure] Champs dans Standard [!DNL Salesforce] Objets {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
 
 En savoir plus sur les [!DNL Marketo Measure] champs ajoutés à [!DNL Salesforce] objets standard.
 
@@ -63,7 +63,7 @@ Date de point de contact de la mise à jour en bloc (bouton) : ce bouton permet 
 
 Mettre à jour [!DNL Marketo Measure] Attribution (règle de validation) : cette règle est obsolète après la version 6.0 du package.
 
-## Membre de la campagne {#campaign-member}
+## Personne membre de la campagne {#campaign-member}
 
 Il y a 5 champs et 1 déclencheur d’application ajouté avec le package.
 
@@ -105,7 +105,7 @@ Date du point de contact (LC) : il s’agit de la date de l’interaction tactil
 
 BizibleID : il est utilisé par rapport à l’attribution des activités et à l’intégration des mesures de suivi pour l’association Contact au point de contact.
 
-## Prospect {#lead}
+## Lead {#lead}
 
 Nous ajoutons des champs à l’objet Lead liés aux jalons Première touche et Création de piste. Cela est destiné aux clients qui préfèrent que l’attribution soit rapportée directement aux champs plutôt que de créer des enregistrements de point de contact. La plupart de nos clients utilisent l’itinéraire des enregistrements Touchpoint, mais également ces champs dans leur plateforme d’automatisation.
 
@@ -137,7 +137,7 @@ Il est utilisé pour notre mappage de piste au compte pour notre fonctionnalité
 
 ## Opportunité {#opportunity}
 
-[!DNL Marketo Measure] Montant de l&#39;opportunité : ce champ est utilisé dans le scénario où un champ de montant personnalisé est appliqué sur l&#39;opportunité. Nous associons cette valeur de champ personnalisée à [!DNL Marketo Measure] Montant de l’opportunité à l’aide d’un workflow, puis lisez ce champ pour nos champs d’attribution Recettes sur l’objet Point de contact d’attribution de l’achat.
+[!DNL Marketo Measure] Montant de l&#39;opportunité : ce champ est utilisé dans le scénario où un champ de montant personnalisé est utilisé sur l&#39;opportunité. Nous associons cette valeur de champ personnalisée à [!DNL Marketo Measure] Montant de l’opportunité à l’aide d’un workflow, puis lisez ce champ pour nos champs d’attribution Recettes sur l’objet Point de contact d’attribution de l’achat.
 
 ## Activité {#activity}
 

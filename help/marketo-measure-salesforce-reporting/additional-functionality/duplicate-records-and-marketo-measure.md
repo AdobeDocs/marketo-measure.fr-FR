@@ -1,23 +1,23 @@
 ---
 unique-page-id: 18874572
-description: Duplication d’enregistrements et [!DNL Marketo Measure] - [!DNL Marketo Measure] - Documentation du produit
+description: Duplication d’enregistrements et [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Doublons d’enregistrements et  [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 2%
+source-wordcount: '288'
+ht-degree: 6%
 
 ---
 
-# Doublons d’enregistrements et [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
+# Duplication d’enregistrements et [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
 
-[!DNL Marketo Measure] tire parti de l’adresse électronique comme identifiant unique lors de la mise en correspondance des données avec un prospect ou un contact associé dans le CRM. When [!DNL Marketo Measure] trouve plusieurs Leads ou contacts avec la même adresse email, nous allons faire apparaître les mêmes données sur tous les enregistrements. L’impact de cette situation se produit lorsque vous créez des rapports sur les Leads ou les contacts avec [!DNL Marketo Measure] et peut gonfler incorrectement le nombre de personnes uniques qui ont des points de contact d’achat.
+[!DNL Marketo Measure] utilise l’adresse électronique comme identifiant unique lors de la mise en correspondance des données avec un prospect ou un contact associé dans le CRM. When [!DNL Marketo Measure] trouve plusieurs Leads ou contacts avec la même adresse email, nous allons faire apparaître les mêmes données sur tous les enregistrements. L’impact de cette situation se produit lorsque vous créez des rapports sur les Leads ou les contacts avec [!DNL Marketo Measure] et peut gonfler incorrectement le nombre de personnes uniques qui ont des points de contact d’achat.
 
 À quoi cela ressemble dans [!DNL Marketo Measure] Reporting ?
 

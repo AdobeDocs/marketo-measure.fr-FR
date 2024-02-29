@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874688
-description: Coûts de la campagne CRM - [!DNL Marketo Measure] - Documentation du produit
+description: Coûts de la campagne CRM - [!DNL Marketo Measure]
 title: Coûts de campagne CRM
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 1%
+source-wordcount: '1253'
+ht-degree: 0%
 
 ---
 
@@ -99,4 +99,4 @@ Bien que vous puissiez transférer le fichier avec succès, [!DNL Marketo Measur
 
 **Comment suggéreriez-vous que nous l’ayons obtenu de nos campagnes numériques que nous avons mises en place dans le CRM ?**
 
-Parce que [!DNL Marketo Measure] javascript effectue déjà le suivi des activités web à partir de votre site. nous vous déconseillons de synchroniser les campagnes qui effectuent le suivi des membres de Campaign à partir de formulaires web ou d’autres activités du site, car cela comptabilisera deux fois les touches. Pour cette raison, vous pouvez continuer à utiliser l’option Téléchargement CSV dans les dépenses marketing pour effectuer le suivi de ces coûts en ligne/numériques si nous ne sommes pas déjà intégrés à cette plateforme (c’est-à-dire Twitter, Adroll).
+Parce que [!DNL Marketo Measure] javascript effectue déjà le suivi des activités web à partir de votre site. nous vous déconseillons de synchroniser les campagnes qui effectuent le suivi des membres de Campaign à partir de formulaires web ou d’autres activités du site, car cela comptabilisera deux fois les touches. Pour cette raison, vous pouvez continuer à utiliser l’option Téléchargement CSV dans les dépenses marketing pour effectuer le suivi de ces coûts en ligne/numériques si nous ne sommes pas déjà intégrés à cette plate-forme (c’est-à-dire Twitter, Adroll).

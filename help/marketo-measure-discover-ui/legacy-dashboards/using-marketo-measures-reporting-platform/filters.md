@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874656
-description: Filtres - [!DNL Marketo Measure] - Documentation du produit
+description: Filtres - [!DNL Marketo Measure]
 title: Filtres
 exl-id: 249266c8-9ff5-4895-979c-4f377423d031
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '1290'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ Découvrez les différents filtres disponibles dans Discover et comment les util
 >
 >Les opérateurs &quot;correspond à un attribut utilisateur&quot; et &quot;correspond à (avancé)&quot; de vos filtres Discover sont purement administratifs et peuvent être ignorés en toute sécurité.
 
-**ID de compte**
+**Identifiant de compte**
 
 _Utilisé dans : Marketing basé sur les comptes_
 
@@ -55,7 +55,7 @@ _Utilisé dans : Présentation, Croissance, Dépenses marketing, RSI des publici
 
 Vous pouvez filtrer le panorama selon un ou plusieurs canaux. Les opérateurs donnent au filtre une flexibilité supplémentaire, comme l&#39;utilisation des opérateurs &quot;contient&quot; ou &quot;commence par&quot;. Une fois un canal saisi, les valeurs affichées dans les filtres Sous-canal et Campagne proviennent du filtre sous-canal appliqué.
 
-**Étape de la cohorte**
+**Évaluation des cohortes**
 
 _Utilisé dans : entonnoir de cohortes_
 
@@ -96,7 +96,7 @@ Par défaut, la Dimension est définie sur Sous-canal et peut être remplacée p
 * Placement : répertorie les données par emplacement. S’applique aux emplacements double-clic. Par conséquent, si le double-clic n’est pas utilisé, aucun résultat n’apparaîtra.
 * Site : répertorie les données par site. S’applique aux sites Doubleclick. Par conséquent, si Doubleclick n’est pas utilisé, aucun résultat n’apparaîtra.
 
-**Grouper par**
+**Group by**
 
 _Utilisé dans : Présentation, Croissance, Dépenses marketing, Marketing Basé Sur Les Comptes, Trafic Web, CMO_
 
@@ -117,13 +117,13 @@ Ajuste les graphiques pour modifier la dimension empilée et regroupée. Par dé
 
 ![](assets/2.png)
 
-**Page de destination**
+**Page d’entrée**
 
 _Utilisé dans : Marketing de contenu_
 
 Découvrez les performances d’une seule page d’entrée ou peut-être des pages d’entrée contenant un certain mot, par exemple &quot;blog&quot;.
 
-**Métrique**
+**Mesure**
 
 _Utilisé dans : Présentation, Trafic web, CMO, Média payant, Marketing de contenu_
 
@@ -155,7 +155,7 @@ Sur les panoramas Trafic web, Médias payants et Marketing de contenu, il existe
 * Aperçu pages
 * Formulaires
 
-**Étape**
+**Évaluation**
 
 _Utilisé dans : Velocity_
 
@@ -173,7 +173,7 @@ _Utilisé dans : Trafic web_
 
 Explorez le trafic d’une seule URL, ou peut-être des URL qui contiennent un certain mot tel que &quot;produit&quot;.
 
-**Remporté**
+**Won**
 
 _Utilisé dans : Velocity_
 

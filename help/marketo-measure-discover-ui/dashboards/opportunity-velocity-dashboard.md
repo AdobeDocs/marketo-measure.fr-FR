@@ -2,7 +2,7 @@
 description: Tableau de bord Vitesse de l'opportunité - [!DNL Marketo Measure] - Produit
 title: Tableau de bord de la vitesse des opportunités
 feature: Reporting
-source-git-commit: 35d2dfb0e2b3e0d04c942312fe9c83863064e3f4
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 4%
@@ -43,7 +43,7 @@ Questions sur le graphique :
 
 Le graphique en courbes de série temporelle affiche la durée moyenne, en jours, des opportunités passées à chaque étape de vente au cours de la période spécifiée.
 
-* Utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
+* utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
 * Pointez sur une ligne pour afficher des informations détaillées.
 
 Questions sur le graphique :

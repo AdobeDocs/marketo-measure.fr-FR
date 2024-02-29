@@ -1,16 +1,16 @@
 ---
-description: Explication des positions et de la génération de points de contact entre les BT et les AT - [!DNL Marketo Measure] - Documentation du produit
+description: Explication des positions et de la génération de points de contact entre les BT et les AT - [!DNL Marketo Measure]
 title: Explication des positions et de la génération de points de contact entre les BT et les  [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 4%
+source-wordcount: '770'
+ht-degree: 3%
 
 ---
 
-# Explication des positions et de la génération de points de contact entre les BT et les [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
+# Explication des positions et de la génération de points de contact entre les BT et [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
 **Génération de positions de points de contact et flux via le Parcours des acheteurs**
 

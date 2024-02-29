@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874578
-description: Campagnes et membres de campagne - [!DNL Marketo Measure] - Documentation du produit
+description: Campagnes et membres de campagne - [!DNL Marketo Measure]
 title: Campagnes et membres de campagne
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 1%
+source-wordcount: '1164'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Les options disponibles dans la liste de sélection sont les suivantes :
 * Inclure uniquement les membres de campagne &quot;réactifs&quot; : seuls les Leads ou les contacts dont le statut de membre de campagne est &quot;réagit&quot; recevront un point de contact associé à cette campagne.
 * Exclure tous les membres de campagne : aucun des chefs ou contacts ne recevra de point de contact associé à cette campagne.
 
-Pour que la variable [!DNL Marketo Measure] pour créer un point de contact. Sans adresse email, [!DNL Marketo Measure] n’affectera pas de point de contact au membre de la campagne.
+Notez que les membres de la campagne doivent être associés à une adresse électronique pour que [!DNL Marketo Measure] pour créer un point de contact. Sans adresse email, [!DNL Marketo Measure] n’affectera pas de point de contact au membre de la campagne.
 
 ## Date de synchronisation de campagne {#campaign-sync-dates}
 
@@ -47,7 +47,7 @@ La date de début peut être utilisée dans le cas où une campagne existante es
 
 ## Cas d’utilisation de la date de fin du point de contact {#use-case-for-touchpoint-end-date}
 
-Si vous utilisez [!DNL Marketo Measure], vous avez utilisé une plateforme d’automatisation marketing qui a suivi les interactions numériques de Leads (envois de formulaires IE), puis téléchargé ces Leads dans une [!DNL Saleforce] Dans Campaign, vous pouvez utiliser le champ Date de fin du point de contact . Vous définiriez la date de fin du point de contact comme date de début avec [!DNL Marketo Measure] et activez Points de contact d’achat, l’interaction numérique de ces Leads sera alors créée en tant que point de contact. La raison pour laquelle vous définirez la Date de fin du point de contact comme Date de début avec [!DNL Marketo Measure] car, à partir de maintenant, nous suivrons ces interactions numériques à travers notre javascript.
+Si vous utilisez [!DNL Marketo Measure], vous avez utilisé une plateforme d’automatisation marketing qui a suivi les interactions numériques de Leads (envois de formulaires IE), puis téléchargé ces Leads dans une [!DNL Saleforce] Dans Campaign, vous pouvez utiliser le champ Date de fin du point de contact . Vous définiriez la date de fin du point de contact comme date de début avec [!DNL Marketo Measure] et activez Points de contact d’achat, l’interaction numérique de ces Leads sera alors créée en tant que point de contact. La raison pour laquelle vous définirez la date de fin du point de contact comme Date de début avec [!DNL Marketo Measure] car, à partir de maintenant, nous suivrons ces interactions numériques à travers notre javascript.
 
 ![](assets/3.png)
 

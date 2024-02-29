@@ -1,11 +1,11 @@
 ---
-description: Données collectées par JavaScript –  [!DNL Marketo Measure]  – Documentation du produit
+description: Données collectées par JavaScript - [!DNL Marketo Measure]
 title: Données collectées par JavaScript
 feature: Tracking
-source-git-commit: 4953d6c51a87669ced0a13e2a54810d14976585c
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '230'
+ht-degree: 98%
 
 ---
 

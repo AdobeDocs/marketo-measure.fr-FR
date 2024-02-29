@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874718
-description: Création d’une vue de liste de campagnes pour [!DNL Salesforce Campaigns] - [!DNL Marketo Measure] - Documentation du produit
+description: Création d’une vue de liste de campagnes pour [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]
 title: Création d’un affichage des listes des campagnes  [!DNL Salesforce]
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 3%
+source-wordcount: '431'
+ht-degree: 1%
 
 ---
 
-# Création d’un affichage des listes des campagnes [!DNL Salesforce] {#creating-a-campaign-list-view-for-salesforce-campaigns}
+# Création d’une vue de liste de campagnes pour [!DNL Salesforce] Campagnes {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Découvrez comment créer un mode Liste pour les campagnes que vous souhaitez synchroniser avec les points de contact d’achat.
 

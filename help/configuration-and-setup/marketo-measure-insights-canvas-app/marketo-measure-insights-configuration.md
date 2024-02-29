@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874769
-description: "[!DNL Marketo Measure] Configuration des statistiques - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Measure] Configuration des statistiques - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Configuration des statistiques"
 exl-id: f6fe296b-d22a-43f2-b124-5d4b2f74d67a
 feature: Reporting
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '117'
+source-wordcount: '114'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ La variable [!DNL Marketo Measure] L’application du canevas de statistiques do
 
    ![](assets/1-1.png)
 
-1. Une fois la page enregistrée, vous pouvez cliquer sur le bouton **[!UICONTROL Gestion des profils]** bouton .
+1. Une fois la page enregistrée, vous pouvez cliquer sur le **[!UICONTROL Gestion des profils]** bouton .
 
    ![](assets/2-1.png)
 

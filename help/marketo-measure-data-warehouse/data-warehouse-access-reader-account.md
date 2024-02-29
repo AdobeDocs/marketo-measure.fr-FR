@@ -3,9 +3,9 @@ description: Accès des Data Warehouse - Compte de Reader - Documentation du pro
 title: Accès à Data Warehouse - Compte en lecture seule
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '497'
 ht-degree: 2%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ## Lien d’accès Snowflake {#snowflake-access-link}
 
-Pour accéder à votre entrepôt de données de Snowflake, vous devez accéder à l’URL spécifique de votre compte de Snowflake. Vous pouvez trouver ce lien d’accès en vous connectant à [!DNL Marketo Measure] et suivez les étapes ci-dessous pour accéder à la page d’informations du Data Warehouse.
+Pour accéder à l’entrepôt de données de votre Snowflake, vous devez accéder à l’URL spécifique de votre compte de Snowflake. Vous pouvez trouver ce lien d’accès en vous connectant à [!DNL Marketo Measure] et suivez les étapes ci-dessous pour accéder à la page d’informations du Data Warehouse.
 
 1. Dans [!DNL Marketo Measure], en haut de la page, cliquez sur **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]**.
 
@@ -59,7 +59,7 @@ Pour accéder à votre entrepôt de données de Snowflake, vous devez accéder �
 
 ## Connexion à Snowflake via des outils tiers {#connecting-to-snowflake-via-third-party-tools}
 
-Vous devrez saisir quelques informations pour connecter votre entrepôt de données de Snowflake à un outil tiers.
+vous devrez saisir quelques informations pour connecter votre entrepôt de données Snowflake à un outil tiers.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Vous devrez saisir quelques informations pour connecter votre entrepôt de donn�
 * **Nom d’utilisateur** (toujours requis)
    * Le nom d’utilisateur est répertorié sur la page d’informations du Data Warehouse dans [!DNL Marketo Measure].
 * **Password** (toujours requis)
-   * Il s’agit du mot de passe que vous définissez la première fois que vous vous connectez à votre compte de Snowflake.  Pour réinitialiser votre mot de passe, consultez les étapes décrites ci-dessus.
+   * Il s’agit du mot de passe que vous définissez la première fois que vous vous connectez à votre compte de Snowflake.  Pour réinitialiser votre mot de passe, reportez-vous aux étapes décrites ci-dessus.
 * **Nom de base de données** (pas toujours requis)
    * La base de données est ce qui stocke les données en Snowflake. Il s’agit de la ressource de stockage. Le nom de la base de données est répertorié dans la page d’informations du Data Warehouse de la section [!DNL Marketo Measure].
 * **Nom de l’entrepôt** (pas toujours requis)

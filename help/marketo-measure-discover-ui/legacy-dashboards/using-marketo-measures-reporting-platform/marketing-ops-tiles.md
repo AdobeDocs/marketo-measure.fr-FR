@@ -1,17 +1,17 @@
 ---
 unique-page-id: 34406495
-description: Mosaïques des opérations marketing - [!DNL Marketo Measure] - Documentation du produit
-title: Opérations marketing  Cases
+description: Mosaïques des opérations marketing - [!DNL Marketo Measure]
+title: Mosaïques des opérations marketing
 exl-id: e7978a79-6f6e-4bfd-9962-b35b7d46a9ac
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 11%
+source-wordcount: '766'
+ht-degree: 4%
 
 ---
 
-# Opérations marketing  Cases {#marketing-ops-tiles}
+# Mosaïques des opérations marketing {#marketing-ops-tiles}
 
 Les opérations marketing vous permettent de valider et de diagnostiquer [!DNL Marketo Measure] données avec une visibilité complète sur les points de contact individuels par prospect, contact, compte, campagne et opportunité.
 
@@ -35,7 +35,7 @@ Les opérations marketing vous permettent de valider et de diagnostiquer [!DNL M
   <tr> 
    <td><br></td> 
    <td><p><strong>Identifiant de compte</strong></p></td> 
-   <td><p><strong>Nom du compte</strong></p></td> 
+   <td><p><strong>Nom de compte</strong></p></td> 
    <td><p><strong>Identifiant Opp</strong></p></td> 
    <td><p><strong>Nom Opp</strong></p></td> 
    <td><p><strong>ID de lead ou de contact</strong></p></td> 

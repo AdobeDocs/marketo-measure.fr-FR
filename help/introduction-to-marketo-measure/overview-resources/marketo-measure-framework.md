@@ -4,10 +4,10 @@ description: Structure de Marketo Measure - Marketo Measure - Documentation du p
 title: Structure de Marketo Measure
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ Le code JavaScript de Marketo Measure effectue le suivi de toutes les interactio
 
 >[!NOTE]
 >
->Pour plus d’informations sur l’ajout du code JS Marketo Measure, [cliquez ici](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
+>Pour plus d’informations sur l’ajout de Marketo Measure JS, [cliquez ici](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
 Le code JS de Marketo Measure capture les données provenant des visites web (y compris les visites anonymes), du trafic général, de la navigation sur les pages, des téléchargements de contenu et des envois de formulaire. Ces données sont transmises à votre CRM et chaque interaction marketing est affichée comme un point de contact.
 

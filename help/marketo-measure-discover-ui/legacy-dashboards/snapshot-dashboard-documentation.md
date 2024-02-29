@@ -1,13 +1,13 @@
 ---
 unique-page-id: 42762600
-description: Documentation du tableau de bord des instantanés - [!DNL Marketo Measure] - Documentation du produit
+description: Documentation du tableau de bord des instantanés - [!DNL Marketo Measure]
 title: Documentation du tableau de bord des instantanés
 exl-id: 4dfc92d2-ccab-4726-a869-3ae32aa89a5f
 feature: Reporting
-source-git-commit: f8a37a996afefe78900e57e1eb166cdd50b5347f
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 2%
+source-wordcount: '414'
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,7 @@ La logique &quot;AND&quot; est utilisée sur tous les filtres.
 >
 >Si un enregistrement change d’étape à la date sélectionnée, l’enregistrement est comptabilisé pour les scènes de et de , ainsi que pour toutes les étapes intermédiaires.
 
-## Capture instantanée du lead/contact {#lead-contact-snapshot}
+## Instantané de piste/contact {#lead-contact-snapshot}
 
 ![](assets/one.png)
 

@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874584
-description: "[!DNL Marketo Measure] Taxonomie des objets et des champs - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Measure] Taxonomie des objets et des champs - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Taxonomie des objets et des champs"
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '162'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,7 @@ Définitions de la variable [!DNL Marketo Measure] champs qui résident dans cha
 
 **Quelle est la logique des flèches ?**
 
-Chaque flèche décrit la relation entre un objet et l’autre. Par exemple, vous verrez que la variable [!DNL Marketo Measure] La personne remplit les champs selon la norme [!DNL Salesforce] Objet Lead. Si elle pointe vers elle, alors cela signifie qu&#39;elle remplit l&#39;extrémité de réception de la flèche.
+Chaque flèche décrit la relation entre un objet et l’autre. Par exemple, vous voyez que la variable [!DNL Marketo Measure] La personne remplit les champs selon la norme [!DNL Salesforce] Objet Lead. Si elle pointe vers elle, alors cela signifie qu&#39;elle remplit l&#39;extrémité de réception de la flèche.
 
 **Qu’est-ce que la variable [!DNL Marketo Measure] Personne ?**
 

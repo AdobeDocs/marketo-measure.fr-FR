@@ -1,17 +1,17 @@
 ---
 unique-page-id: 18874678
-description: Compréhension [!DNL Marketo Measure] Balisage AdWords - [!DNL Marketo Measure] - Documentation du produit
+description: Compréhension [!DNL Marketo Measure] Balisage AdWords - [!DNL Marketo Measure]
 title: Comprendre le balisage AdWords dans [!DNL Marketo Measure]
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 3bad77a72c0dea6caf0daadbb594f10f791af715
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 2%
+source-wordcount: '591'
+ht-degree: 1%
 
 ---
 
-# Comprendre le balisage AdWords dans[!DNL Marketo Measure] {#understanding-marketo-measure-adwords-tagging}
+# Compréhension [!DNL Marketo Measure] Balisage AdWords {#understanding-marketo-measure-adwords-tagging}
 
 Pour effectuer le suivi de vos publicités à un niveau très granulaire, les URL de destination de l’annonce doivent être uniques. Pour ce faire, procédez comme suit : [!DNL Marketo Measure] Le balisage automatique ajoute automatiquement des paramètres de suivi aux URL de destination de l’annonce de votre [!DNL AdWords] publicités. Regardons un exemple ci-dessous.
 
@@ -45,7 +45,7 @@ Comme expliqué par [!DNL Google AdWords], un modèle de suivi est l’URL utili
 
 [!DNL Marketo Measure] recommande d’utiliser un modèle de suivi au niveau du compte, de la campagne ou du groupe publicitaire, car il permet l’ajout et la soustraction de paramètres pour toutes les publicités sans risque d’interruption ou de suppression de l’historique des publicités.
 
-Il existe deux modèles de suivi [!DNL Marketo Measure] recommande d’utiliser . Utilisez ce qui suit pour déterminer la version qui vous convient :
+Il existe deux modèles de suivi [!DNL Marketo Measure] recommande d’utiliser . Utilisez les éléments suivants pour déterminer la version qui vous convient :
 
 * Si toutes les URL de vos publicités comportent un &quot;?&quot; dans , utilisez cette URL :
 

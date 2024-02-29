@@ -1,12 +1,12 @@
 ---
-description: Bonnes pratiques relatives au modèle personnalisé - [!DNL Marketo Measure] - Documentation du produit
+description: Bonnes pratiques relatives au modèle personnalisé - [!DNL Marketo Measure]
 title: Bonnes pratiques relatives aux modèles personnalisés
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ Il est essentiel que ces deux aspects de votre modèle personnalisé soient déf
 Que vous configuriez votre modèle personnalisé pour la première fois ou que vous examiniez ce qui a été précédemment établi, il est important de garder à l’esprit les bonnes pratiques suivantes.
 
 * Commencer simple
-   * Identifiez les étapes clés que vous souhaitez ajouter à votre modèle personnalisé qui sont essentielles à votre [!DNL Marketo Measure] création de rapports. En règle générale, il s’agit d’étapes sur lesquelles vous êtes généralement mesuré ou sur lesquelles vous souhaitez obtenir des informations.
+   * Identifiez les étapes clés que vous souhaitez ajouter à votre modèle personnalisé qui sont essentielles à votre [!DNL Marketo Measure] création de rapports. En règle générale, il s’agit d’étapes sur lesquelles vous êtes généralement mesuré ou dont vous souhaitez obtenir des informations.
    * Vous pouvez toujours ajouter à votre modèle personnalisé au fil du temps.
 * Utilisez la variable [!DNL Marketo Measure] Modèle d’apprentissage automatique
    * Si vous avez du mal à décider de la ventilation d’attribution en pourcentage, la variable [!DNL Marketo Measure] Le modèle d’apprentissage automatique peut vous aider à prendre des décisions éclairées lors de la définition de votre modèle d’attribution personnalisé.
@@ -69,6 +69,6 @@ D’autres raisons peuvent déclencher une révision de votre modèle personnali
 
 >[!MORELIKETHIS]
 >
->* [Configuration et modèle et d’attribution personnalisés](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [Modèle et configuration d’attribution personnalisée](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Activation Du Suivi De L’Historique Des Champs Pour Un Modèle Personnalisé](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
->* [Modèle de machine learning](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
+>* [Modèle d’apprentissage automatique](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)

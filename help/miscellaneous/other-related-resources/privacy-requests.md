@@ -1,12 +1,12 @@
 ---
-description: Requêtes de confidentialité - [!DNL Marketo Measure] - Documentation du produit
+description: Requêtes de confidentialité - [!DNL Marketo Measure]
 title: Requêtes de confidentialité
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 1%
+source-wordcount: '249'
+ht-degree: 0%
 
 ---
 
@@ -42,15 +42,15 @@ Pour envoyer des requêtes d’accès et de suppression de données pour [!DNL M
 &quot;companyContexts&quot;:
 
 * &quot;namespace&quot; : **imsOrgID**
-* &quot;Valeur&quot;: `<Your IMS Org ID Value>`
+* &quot;value&quot; : `<Your IMS Org ID Value>`
 
-&quot;utilisateurs&quot;:
+&quot;users&quot; :
 
 * &quot;action&quot; : soit [!UICONTROL access] ou supprimer
 * &quot;userIDs&quot; :
    * &quot;namespace&quot; : email
    * &quot;type&quot;: standard
-   * &quot;Valeur&quot;: `<Data Subject's Email Address>`
+   * &quot;value&quot; : `<Data Subject's Email Address>`
 
 &quot;include&quot; :
 

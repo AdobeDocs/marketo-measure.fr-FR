@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874632
-description: Fermeture des opportunités perdues par canal marketing - [!DNL Marketo Measure] - Documentation du produit
+description: Fermeture des opportunités perdues par canal marketing - [!DNL Marketo Measure]
 title: Opportunités concrétisées ou perdues par canal marketing
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '263'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ Bien que ce rapport puisse dépendre de vos étapes d’opportunité, il vous in
 
 1. Maintenant, allez-y et exécutez le rapport !
 
-   Il s’agit d’un rapport sur les opportunités résumé par Canal marketing qui mesure les opportunités perdues fermées sur l’ensemble de vos canaux. Ce rapport vous permet de comprendre quels canaux sont peu performants. N’hésitez pas à ajouter des filtres ou des champs sur lesquels vous souhaitez créer des rapports.
+   Il s’agit d’un rapport sur les opportunités résumé par Canal marketing qui mesure les opportunités perdues fermées sur l’ensemble de vos canaux. Ce rapport vous permet de comprendre les canaux peu performants. N’hésitez pas à ajouter des filtres ou des champs sur lesquels vous souhaitez créer des rapports.
 
 >[!MORELIKETHIS]
 >

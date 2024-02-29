@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874745
-description: Gestion AJAX formulaire - [!DNL Marketo Measure] - Documentation du produit
+description: Gestion AJAX formulaire - [!DNL Marketo Measure]
 title: Gestion des formulaires AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 2%
+source-wordcount: '321'
+ht-degree: 1%
 
 ---
 
@@ -64,7 +64,7 @@ Dans ce code, la variable [!UICONTROL email] est obligatoire. [!DNL Marketo Meas
 
 Dans certains cas, il est plus pratique de signaler les informations de piste à [!DNL Marketo Measure] à partir de la page de remerciement, une fois le formulaire envoyé. La méthode la plus simple pour générer des rapports sur ces informations consiste à ajouter à la page un élément masqué qui contient les informations de l’envoi du formulaire, et [!DNL Bizible.js] lira ces informations lorsque la page de remerciement sera chargée.
 
-**Par exemple :**
+**Par exemple :**
 
 ```html
 <div id="bizible.reportUser" style="display:none"  

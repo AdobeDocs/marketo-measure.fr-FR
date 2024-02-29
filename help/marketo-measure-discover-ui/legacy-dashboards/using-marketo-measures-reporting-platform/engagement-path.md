@@ -1,13 +1,13 @@
 ---
 unique-page-id: 35586105
-description: Chemin de l’engagement - [!DNL Marketo Measure] - Documentation du produit
+description: Chemin de l’engagement - [!DNL Marketo Measure]
 title: Parcours d’engagement
 exl-id: 104d803f-9f40-4ab6-872d-6432f8c087e9
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 9%
+source-wordcount: '873'
+ht-degree: 4%
 
 ---
 
@@ -42,8 +42,8 @@ Chemin d’accès de l’engagement vous permet d’afficher une vue complète d
 **Source Web :** Cette colonne affiche la source de l’engagement.
 
 * Si l’engagement provient d’une plateforme connectée à une API, la source web affichera le nom de la plateforme publicitaire.
-*  Si le point de contact provient du référencement naturel, ce champ indique le nom du moteur de recherche.
-*  Si les deux premiers scénarios ne s’appliquent pas et qu’une valeur utm_source est présente dans l’URL de la page de destination associée au point de contact, cette valeur est reprise dans ce champ.
+* Si le point de contact provient de la recherche organique, ce champ affiche le nom du moteur de recherche.
+* Si elle n’est pas #1 ou #2 et que la valeur utm_source est présente dans l’URL de la page d’entrée pour le point de contact, cette valeur est affichée ici.
 * Si vous ne trouvez pas #1 ou #2 et qu’aucune valeur utm_source n’est présente, le domaine racine de l’URL de référence s’affiche ici.
 * Si aucune des options ci-dessus n’est affichée, Web direct ou Web
 

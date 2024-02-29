@@ -1,12 +1,12 @@
 ---
-description: Notes de mise à jour actuelles - [!DNL Marketo Measure] - Documentation du produit
+description: Notes de mise à jour actuelles - [!DNL Marketo Measure]
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: ecca4ace2bf79a3c276976ea14a73acf4927d622
-workflow-type: ht
-source-wordcount: '1044'
-ht-degree: 100%
+source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+workflow-type: tm+mt
+source-wordcount: '1041'
+ht-degree: 94%
 
 ---
 
@@ -79,7 +79,7 @@ Nous supprimons les données d’adresse IP de notre stockage à long terme pou
 
 La table des URL de l’[entrepôt de données](/help/marketo-measure-data-warehouse/data-warehouse-schema.md){target="_blank"} inclut désormais un champ de titre de page, en plus des tables de données web.
 
-Veuillez noter que le titre de la page dans la table des URL ne correspond pas toujours au titre de la page dans d’autres tables web. La table des URL comporte le titre de page le plus récent. Si le titre de l’URL a été modifié après l’activité web, il ne correspondra pas à ce qui se trouve dans la table des URL.
+Notez que le titre de la page dans le tableau URL ne correspond pas toujours au titre de la page dans d’autres tableaux Web. La table des URL comporte le titre de page le plus récent. Si le titre de l’URL a été modifié après l’activité web, il ne correspondra pas à ce qui se trouve dans la table des URL.
 
 **Refonte du tableau de bord de Discover**
 
@@ -157,7 +157,7 @@ Les champs qui contiennent les mêmes informations sur les objets Touchpoint et 
 
 * Créez des rapports pour capturer la fonctionnalité de tout rapport existant qui utilise les champs supprimés. Dans le cadre de ce processus, vous pouvez modifier les champs du rapport, comme indiqué ci-dessous :
 
-   * Supprimer les champs Prospect/Contact FT/LC :
+* Supprimer les champs Prospect/Contact FT/LC :
 
 ![](assets/release-notes-2023-2.png)
 
@@ -179,7 +179,7 @@ Les champs qui contiennent les mêmes informations sur les objets Touchpoint et 
 
 * Pour rester connecté à Dynamics, installez notre dernière version de package (6.12). Les anciennes versions `(<v6.12)` ne seront plus prise en charge. Cette mise à jour optimise la création d’enregistrements historiques afin de réduire l’utilisation du stockage.
 
-* La méthode OAuth par jeton d’actualisation a fait son temps et devient obsolète. Consultez ce [ce guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} pour mettre à jour vos informations d’identification afin de respecter les bonnes pratiques de Microsoft concernant l’utilisation de ClientSecret.
+* La méthode OAuth par jeton d’actualisation a fait son temps et devient obsolète. Voir [ce guide](/help/marketo-measure-and-dynamics/getting-started-with-marketo-measure-and-dynamics/oauth-with-azure-active-directory-for-dynamics-crm.md){target="_blank"} pour mettre à jour vos informations d’identification afin de respecter les bonnes pratiques de Microsoft concernant l’utilisation de ClientSecret.
 
 #### Champ « custom_properties »
 

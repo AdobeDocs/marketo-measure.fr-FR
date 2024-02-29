@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874775
-description: FAQ sur le modèle d’apprentissage automatique - [!DNL Marketo Measure] - Documentation du produit
+description: FAQ sur le modèle d’apprentissage automatique - [!DNL Marketo Measure]
 title: Questions fréquentes sur le modèle de machine learning
 exl-id: 2fc142b2-8ac4-4c48-a8f1-398e29ccfe97
 feature: Custom Models
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '688'
 ht-degree: 1%
 
 ---
@@ -55,4 +55,4 @@ Une tendance que nous avons remarqué est qu’il n’est pas toujours bénéfiq
 
 Nous avons également remarqué qu’il existe un taux de conversion élevé entre la création de piste et les étapes qualifiées en marketing. Par conséquent, l’étape Qualifiée en marketing pourrait recevoir une pondération d’attribution en pourcentage plus faible. En fonction de votre cycle de vente et de votre entreprise, il peut être bénéfique de supprimer cette étape du modèle personnalisé.
 
-Gardez à l’esprit que si vous souhaitez effectuer le suivi des activités marketing par le biais d’une transition à une étape spécifique, mais que vous ne souhaitez pas que cette étape reçoive un crédit d’attribution, vous pouvez inclure cette étape dans votre modèle et lui attribuer un crédit d’attribution de 0 %.
+Gardez à l’esprit que si vous souhaitez effectuer le suivi des activités marketing par le biais d’une transition à une étape spécifique, mais que vous ne souhaitez pas que cette étape reçoive un crédit d’attribution, vous pouvez l’inclure dans votre modèle et lui attribuer un crédit d’attribution de 0 %.

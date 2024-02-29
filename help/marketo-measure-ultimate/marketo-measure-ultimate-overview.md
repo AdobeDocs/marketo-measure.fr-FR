@@ -1,12 +1,12 @@
 ---
-description: « Présentation de [!DNL Marketo Measure] Ultimate -  [!DNL Marketo Measure]  - Documentation du produit »
+description: '[!DNL Marketo Measure] Présentation finale - [!DNL Marketo Measure]'
 title: « Présentation de [!DNL Marketo Measure] Ultimate »
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
-workflow-type: ht
-source-wordcount: '707'
-ht-degree: 100%
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
+source-wordcount: '691'
+ht-degree: 98%
 
 ---
 
@@ -57,7 +57,7 @@ L’instance [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de
 >
 >Une instance de production [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de production AEP, une instance de développeurs [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de développeurs AEP.
 
-Une fois la sélection du mappage du sandbox enregistrée, vous ne pouvez plus la modifier dans l’application. Pour la modifier, veuillez contacter [l’assistance Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Une fois la sélection du mappage du sandbox enregistrée, vous ne pouvez plus la modifier dans l’application. Pour le changer, contactez [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Les données d’une entité donnée (un compte, par exemple) provenant d’une source de données donnée ne peuvent entrer que dans un seul jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
 

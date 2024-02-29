@@ -1,16 +1,16 @@
 ---
 description: Tableau de bord des recettes attribuées - [!DNL Marketo Measure] - Produit
-title: Tableau de bord Revenus affectés
+title: Tableau de bord Revenus attribués
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 3%
 
 ---
 
-# Tableau de bord Revenus affectés {#attributed-revenue-dashboard}
+# Tableau de bord Revenus attribués {#attributed-revenue-dashboard}
 
 Le tableau de bord des recettes affectées offre une perspective précise des recettes directement liées à vos activités marketing. Découvrez comment vos stratégies marketing ont joué un rôle déterminant dans la conclusion d’offres.
 
@@ -34,7 +34,7 @@ Le tableau de bord des recettes affectées offre une perspective précise des re
 
 Graphique à barres empilées affichant le total des recettes attribuées, segmenté par canal, pour chaque mois/trimestre/année.
 
-* Utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
+* utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
 * Passez la souris sur un segment de barre ou l’espace entre les barres pour afficher des informations détaillées.
 
 **Questions sur le graphique :**
@@ -79,6 +79,6 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 >[!MORELIKETHIS]
 >
->* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Bases du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

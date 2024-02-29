@@ -1,12 +1,12 @@
 ---
 unique-page-id: 42762749
-description: "[!DNL Marketo Engage] Intégration des activités - [!DNL Marketo Measure] - Documentation du produit"
+description: "[!DNL Marketo Engage] Intégration des activités - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Engage] Intégration des activités"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1691'
 ht-degree: 0%
 
 ---
@@ -188,7 +188,7 @@ Avec cette amélioration du mappage de cookies, le FT revient et est crédité �
 
 **Comment savoir si vous devez créer une règle Programmes Marketo ou une règle Activités Marketo ?**
 
-La variable [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme spécifique, la variable [!DNL Marketo Engage] L’intégration des activités sera la configuration souhaitée, en particulier le type d’activité &quot;Modifier l’état de progression&quot; afin que la date du point de contact puisse être mappée à la date d’activité générée par le système.
+La variable [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme spécifique, la variable [!DNL Marketo Engage] L’intégration des activités sera la configuration souhaitée, en particulier le type d’activité &quot;Changement d’état dans la progression&quot; afin que la date du point de contact puisse être mappée à la date d’activité générée par le système.
 
 **Pourquoi le nom de mon type de point de contact est-il tronqué ?**
 

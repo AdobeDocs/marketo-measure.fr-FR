@@ -3,9 +3,9 @@ description: Tableau de bord Aperçu des recettes - [!DNL Marketo Measure] - Pro
 title: Tableau de bord Vue d’ensemble des revenus
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '316'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Le tableau de bord Aperçu des recettes fournit des informations sur les recette
 
 Ce graphique à barres de série temporelle côte à côte compare les recettes totales aux recettes affectées, en visualisant clairement votre impact marketing sur les recettes globales.
 
-* Tirez parti des fonctionnalités d’analyse et d’analyse pour classer les données par trimestre et par année.
+* utilisez les fonctionnalités d’analyse et d’analyse pour classer les données par trimestre et par année.
 * Pointez sur une section du graphique à barres pour afficher ses informations détaillées.
 
 **Questions sur le graphique :**
@@ -64,5 +64,5 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 >[!MORELIKETHIS]
 >
->* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Bases du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

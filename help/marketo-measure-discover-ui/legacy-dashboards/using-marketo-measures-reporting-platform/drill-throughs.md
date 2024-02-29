@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874664
-description: Exploration - [!DNL Marketo Measure] - Documentation du produit
+description: Exploration - [!DNL Marketo Measure]
 title: Exploration publicitaire
 exl-id: c9ce5a51-e8f9-40ff-aa10-6b059e4998d3
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '3849'
-ht-degree: 4%
+source-wordcount: '3847'
+ht-degree: 0%
 
 ---
 
@@ -31,23 +31,23 @@ Définition : Chiffre d’affaires total par mois, à partir d’un graphique à
 
 _Exploration : total des recettes par mois ventilé par semaine ou date._
 
-**Dépenses**
+**Dépenser**
 
 Définition : somme des dépenses par mois, exprimée en graphique à barres et en tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Affaires**
+**Offres**
 
 Définition : Nombre total d&#39;offres par mois, via graphique à barres et tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Chiffre d’affaires de pipeline**
+**Recettes du pipeline**
 
 Définition : Chiffre d’affaires total du pipeline par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Résumé du RSI**
+**Résumé du ROI**
 
 Définition : Total des recettes ou des dépenses de chaque canal par mois, sous la forme d’un graphique à barres et d’un tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Coût par contrat**
+**Coût par opération**
 
 Définition : somme des dépenses divisée par le nombre total d’offres, qui fournit le coût moyen nécessaire pour acquérir une opportunité remportée fermée. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -73,7 +73,7 @@ Définition : Nombre total de dépenses ou d’affaires depuis chaque canal par 
 
 ![](assets/3-1.png)
 
-**Chiffre d’affaires total**
+**Recettes totales**
 
 Définition : Chiffre d’affaires total par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -93,7 +93,7 @@ Définition : Nombre total d&#39;offres par mois, via graphique à barres et tab
 
 _Nombre total d’offres par mois, ventilées par semaine ou date._
 
-**Total des chiffres d’affaires de pipeline**
+**Recettes totales du pipeline**
 
 Définition : Chiffre d’affaires total du pipeline par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -105,7 +105,7 @@ _Chiffre d’affaires total du pipeline par mois ventilé par semaine ou date._
 
 ![](assets/4-1.png)
 
-**Total des leads**
+**Total des pistes**
 
 Définition : Nombre total de pistes par mois, via un graphique à barres et un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -115,7 +115,7 @@ Définition : Nombre total de pistes par mois, via un graphique à barres et un 
 
 _Nombre total de pistes par mois ventilé par semaine ou date._
 
-**Total des contacts**
+**Nombre total de contacts**
 
 Définition : Nombre total de contacts par mois, via graphique à barres et tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -125,7 +125,7 @@ Définition : Nombre total de contacts par mois, via graphique à barres et tabl
 
 _Nombre total de contacts par mois, répartis par semaine ou date._
 
-**Total des opportunités**
+**Opportunités totales**
 
 Définition : Nombre total d&#39;opportunités par mois, via graphique à barres et tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -153,7 +153,7 @@ Définition : Nombre total de visites du site par mois, à partir d’un graphiq
 
 Définition : nombre total de visites suivies sur le site qui affiche la tendance sur une période spécifique. Utilisez le filtre Groupe par pour modifier la pile par canal, sous-canal, campagne, compte, groupe publicitaire, publicité, annonceur, créatif, mot-clé, référencement et site. Cette propriété apparaît vide si cette fonction est désactivée.
 
-**Formulaires**
+**Forms**
 
 Définition : nombre total d’envois de formulaire par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -165,7 +165,7 @@ Définition : nombre total de formulaires envoyés affichant la tendance sur une
 
 ![](assets/6-1.png)
 
-**Dépenses**
+**Dépenser**
 
 Définition : somme des dépenses par mois, exprimée en graphique à barres et en tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -175,15 +175,15 @@ Définition : somme des dépenses par mois, exprimée en graphique à barres et 
 
 _Total des dépenses par mois ventilé par semaine, date ou heure. Le temps peut être passé puisque [!DNL Marketo Measure] télécharge les dépenses réelles par minute à partir de nos connexions publicitaires._
 
-**Dépenses par canal**
+**Dépensé par canal**
 
 Définition : somme des dépenses depuis chaque canal par mois, exprimée en graphique à barres et en tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Dépenses par sous-canal**
+**Dépensé par sous-canal**
 
 Définition : somme des dépenses depuis chaque sous-canal par mois, exprimée en graphique à barres et en tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Dépenses par campagne**
+**Dépensé par campagne**
 
 Définition : Total des dépenses de chaque opération, par mois, à partir d&#39;un graphique à barres et d&#39;un tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -191,7 +191,7 @@ Définition : Total des dépenses de chaque opération, par mois, à partir d&#3
 
 ![](assets/7-1.png)
 
-**Vitesse (jours)**
+**Velocity (jours)**
 
 Définition : nombre moyen de jours pendant lesquels les opportunités se trouvent dans leur cycle de vente, depuis la première touche anonyme jusqu’à la fin de l’opportunité.
 
@@ -199,11 +199,11 @@ Définition : nombre moyen de jours pendant lesquels les opportunités se trouve
 
 Définition : nombre total d’opportunités provenant d’une opportunité ouverte, ce qui signifie qu’elle n’est pas Fermée Perdue ou Fermée Gagnée.
 
-**Valeur de l’affaire**
+**Taille de transaction**
 
 Définition : quantité moyenne d’une opportunité en gagnant fermé.
 
-**Taux de confirmation**
+**Taux de Win**
 
 Définition : nombre total d’opportunités avec succès fermé divisé par le nombre total d’opportunités avec succès fermé et avec succès fermé.
 
@@ -211,7 +211,7 @@ Définition : nombre total d’opportunités avec succès fermé divisé par le 
 
 Définition : nombre moyen de jours pendant lesquels les opportunités se trouvent dans leur cycle par étape, regroupées par canal marketing et montrant le temps nécessaire pour passer à l’étape suivante. Les scènes qui apparaissent ici sont des scènes de jalon (FT, LC, OC) et personnalisées.
 
-**Vitesse des leads par canal**
+**Vitesse de la piste par canal**
 
 Définition : nombre moyen de jours pendant lesquels les Pistes se trouvent dans leur cycle par étape avant d’être converties en Contact/Opportunité/Montant, regroupées par canal marketing et montrant le temps nécessaire pour passer à l’étape suivante. Les scènes qui apparaissent ici sont des scènes de jalon (FT, LC) et personnalisées.
 
@@ -221,7 +221,7 @@ Définition : nombre moyen de jours pendant lesquels les Pistes se trouvent dans
 
 Définition : nombre moyen de jours pendant lesquels les opportunités se trouvent dans leur cycle par étape, indiquant le temps nécessaire pour passer à l’étape suivante. Les scènes qui apparaissent ici sont des scènes de jalon (FT, LC, OC) et personnalisées. les chiffres ici reflètent le temps par étape dans le graphique Vitesse de l’opportunité par canal.
 
-**Vitesse moyenne des leads**
+**Vitesse moyenne de la piste**
 
 Définition : nombre moyen de jours pendant lesquels les pistes se trouvent dans leur cycle par étape avant d’être converties en contact/opportunité/montant, indiquant le temps nécessaire pour passer à l’étape suivante. Les scènes qui apparaissent ici sont des scènes de jalon (FT, LC) et personnalisées. les chiffres ici reflètent le temps par étape dans le graphique Vitesse de la piste par canal.
 
@@ -237,15 +237,15 @@ Définition : nombre moyen de jours pendant lesquels les pistes se trouvent dans
 
 ![](assets/9-1.png)
 
-**Chiffre d’affaires total**
+**Recettes totales**
 
 Définition : Chiffre d’affaires total par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Total des chiffres d’affaires de pipeline**
+**Recettes totales du pipeline**
 
 Définition : Chiffre d’affaires total du pipeline par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Leads appariés**
+**Pistes mises en correspondance**
 
 Définition : nombre total de pistes qui correspondent à un compte.
 
@@ -315,13 +315,13 @@ Définition : une liste de landing pages basée sur le nombre de visites de chaq
 
 Définition : source des visiteurs de votre site. Peut être modifié par canal, sous-canal, campagne, compte, groupe publicitaire, publicité, annonceur, créatif, mot-clé, référencement et site.
 
-**Visites au fil du temps**
+**Visites dans le temps**
 
 Définition : nombre total de visites suivies, indiquant la tendance sur une période spécifique. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
 ![](assets/12-1.png)
 
-**Aperçu pages**
+**Pages vues**
 
 Définition : nombre total de pages vues par mois, via un graphique à barres et un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -345,7 +345,7 @@ Définition : nombre total de formulaires suivis, indiquant la tendance sur une 
 
 ![](assets/13-1.png)
 
-**Formulaires**
+**Forms**
 
 Définition : nombre total d’envois de formulaire par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -357,11 +357,11 @@ Définition : somme des dépenses divisée par le total des formulaires envoyés
 
 Définition : liste des URL de formulaire basée sur le nombre qui ont été envoyées sur chaque URL.
 
-**Leads par page de destination**
+**Pistes par page d’entrée**
 
 Définition : liste des landing pages en fonction du nombre de pistes générées à partir de chaque landing page.
 
-**Leads par URL de formulaire**
+**Pistes par URL de formulaire**
 
 Définition : liste des URL de formulaire en fonction du nombre de pistes générées à partir de chaque URL.
 
@@ -379,7 +379,7 @@ Définition : Chiffre d’affaires total par mois, à partir d’un graphique à
 
 _Chiffre d’affaires total par mois ventilé par semaine ou date._
 
-**Dépenses**
+**Dépenser**
 
 Définition : somme des dépenses par mois, exprimée en graphique à barres et en tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -387,19 +387,19 @@ Définition : somme des dépenses par mois, exprimée en graphique à barres et 
 
 Définition : retour sur investissement calculé à partir du total des recettes et des dépenses (basé sur le modèle d’attribution).
 
-**Affaires**
+**Offres**
 
 Définition : Nombre total d&#39;offres par mois, via graphique à barres et tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Coût par contrat**
+**Coût par opération**
 
 Définition : somme des dépenses divisée par le nombre total d’offres, fournissant le coût moyen nécessaire pour acquérir une opportunité gagnée fermée.
 
-**Chiffre d’affaires de pipeline**
+**Recettes du pipeline**
 
 Définition : Chiffre d’affaires total du pipeline par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Valeur de l’affaire**
+**Taille de transaction**
 
 Définition : quantité moyenne d’une opportunité gagnée fermée.
 
@@ -417,7 +417,7 @@ Définition : Chiffre d’affaires total, par mois, de chaque sous-canal au moye
 
 Définition : total des recettes de chaque opération, par mois, à partir d&#39;un graphique à barres et d&#39;un tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Résumé du RSI**
+**Résumé du ROI**
 
 Définition : Total des recettes ou des dépenses de chaque canal par mois, sous la forme d’un graphique à barres et d’un tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -429,33 +429,33 @@ Définition : Nombre total de dépenses ou d’affaires depuis chaque canal par 
 
 ![](assets/16-1.png)
 
-**Chiffre d’affaires total**
+**Recettes totales**
 
 Définition : Chiffre d’affaires total par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Pages de destination par chiffre d’affaires**
+**Pages d’entrée par recettes**
 
 Définition : Recettes totales de chaque landing page via un graphique à barres et un tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Total des chiffres d’affaires de pipeline**
+**Recettes totales du pipeline**
 
 Définition : Chiffre d’affaires total du pipeline par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Pages de destination par chiffre d’affaires de pipeline**
+**Pages d’entrée par recettes de pipeline**
 
 Définition : total des recettes de pipeline depuis chaque landing page via un graphique à barres et un tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Total des opportunités**
+**Opportunités totales**
 
 Définition : Nombre total d&#39;opportunités par mois, via un graphique à barres et un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Pages de destination par compte d’opportunités**
+**Pages d’entrée par nombre d’opportunités**
 
 Définition : Nombre total d&#39;opportunités depuis chaque landing page via un graphique à barres et un tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
 ![](assets/17-1.png)
 
-**Total des formulaires**
+**Total Forms**
 
 Définition : Nombre total de formulaires par mois, via graphique à barres et tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -463,7 +463,7 @@ Définition : Nombre total de formulaires par mois, via graphique à barres et t
 
 Définition : Nombre total de formulaires de chaque URL de formulaire, via un graphique à barres et un tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**URL du formulaire par canal**
+**URL de formulaire par canal**
 
 Définition : Nombre total de formulaires envoyés depuis l’URL du formulaire par mois, via un graphique à barres et un tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -473,7 +473,7 @@ Définition : Nombre total de formulaires envoyés depuis l’URL du formulaire 
 
 Définition : nombre total de visites de site uniques suivies sur tous les visiteurs connus et anonymes. Explorez les statistiques pour afficher les visites uniques du site suivies par mois.
 
-**Pages de destination principales par visites uniques**
+**Pages d’entrée principales par visite unique**
 
 Définition : une liste de landing pages basée sur le nombre de visites uniques de chaque landing page. Accédez à l’URL sélectionnée en effectuant une recherche pour afficher les visites uniques par mois.
 
@@ -481,15 +481,15 @@ Définition : une liste de landing pages basée sur le nombre de visites uniques
 
 Définition : nombre total de visites sur le site suivies sur tous les visiteurs connus et anonymes. Explorez les statistiques pour afficher les visites suivies par mois.
 
-**Pages de destination principales par visites**
+**Pages d’entrée principales par visite**
 
 Définition : une liste de landing pages basée sur le nombre de visites initiales de chaque landing page. Accédez à l’URL sélectionnée en effectuant une recherche sur les visites par mois.
 
-**Total des leads**
+**Total des pistes**
 
 Définition : Nombre total de pistes par mois, via un graphique à barres et un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Pages de destination par compte des leads**
+**Pages d’entrée par nombre de pistes**
 
 Définition : Nombre total de pistes depuis chaque landing page via un graphique à barres et un tableau. À partir de là, il est possible d’explorer cette ligne pendant un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
@@ -513,7 +513,7 @@ Définition : Nombre total de clics par mois, via graphique à barres et tableau
 
 Définition : somme des dépenses des clics suivis, divisée par le total des clics.
 
-**Prospects**
+**Pistes**
 
 Définition : nombre total de pistes en fonction du modèle d’attribution.
 
@@ -525,7 +525,7 @@ Définition : somme des dépenses des pistes créées divisée par le nombre tot
 
 Définition : Nombre total de visites du site par mois, à partir d’un graphique à barres et d’un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 
-**Aperçu pages**
+**Pages vues**
 
 Définition : nombre total de pages vues par mois, via un graphique à barres et un tableau. À partir de là, il est possible d’analyser un seul mois ou de ventiler un mois par semaine, jour ou heure.
 

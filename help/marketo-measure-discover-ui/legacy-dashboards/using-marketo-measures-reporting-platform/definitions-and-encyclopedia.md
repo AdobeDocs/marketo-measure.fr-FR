@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874662
-description: Définitions et encyclopédie - [!DNL Marketo Measure] - Documentation du produit
+description: Définitions et encyclopédie - [!DNL Marketo Measure]
 title: Définitions et encyclopédie
 exl-id: 10db8461-5c17-466f-87e7-6fdad442abee
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '6083'
-ht-degree: 5%
+source-wordcount: '6137'
+ht-degree: 2%
 
 ---
 
@@ -29,7 +29,7 @@ Dépenses de marketing
 
 Trafic Web
 
-**Affichage basé sur les rôles**
+**Vues basées sur les rôles**
 
 Directeur marketing
 
@@ -83,11 +83,11 @@ Catégories
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Vue d’ensemble**
+**Présentation**
 
 `2.` À l’aide de la liste déroulante Mesure du menu Filtres , ce graphique présente les recettes/recettes de pipeline/dépenses/offres/opportunités/pistes/contacts attribués à chaque canal, affichées au fil du temps.
 
-**Dépenses**
+**Dépenser**
 
 `3.` Le montant total des dépenses enregistrées des coûts d’API et des coûts auto-déclarés cumulés au niveau de canal le plus élevé.
 
@@ -97,27 +97,27 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 `4.` À l’aide de la liste déroulante Dimensions du menu Filtres , cela indique le retour sur investissement attribué à chaque canal/sous-canal/campagne/compte/groupe publicitaire/annonceur/créatif/mot-clé/référencement/site en fonction du modèle d’attribution pendant toute la période sélectionnée.
 
-**Résumé du RSI**
+**Résumé du ROI**
 
 À l’aide de la liste déroulante Dimensions du menu Filtres , cela indique le montant des recettes, des dépenses et du retour sur investissement attribué à chaque canal/sous-canal/campagne/compte/AdGroup/publicitaire/publicitaire/créatif/mot-clé/référencement/site en fonction du modèle d’attribution pendant toute la période sélectionnée.
 
-**Affaires**
+**Offres**
 
 `5.` Le nombre total d’opportunités de gains fermés, en fonction du nombre de modèles d’attribution. Si le type de date &quot;Date du point de contact&quot; est sélectionné, des décomptes partiels sont possibles, car il est possible d’exclure certains points de contact d’une opportunité en utilisant ce type de date.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Coût par contrat**
+**Coût par opération**
 
 `6.` Le total des dépenses divisé par le nombre total d’offres, ce qui fournit un coût moyen nécessaire pour acquérir une opportunité gagnée fermée.
 
-**Chiffre d’affaires de pipeline**
+**Recettes du pipeline**
 
 `7.` Chiffre d’affaires potentiel total provenant de toute opportunité ouverte, ce qui signifie qu’il n’est pas Fermé perdu ou Fermé gagné. Les recettes sont basées sur le modèle d’attribution sélectionné.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Valeur de l’affaire**
+**Taille de transaction**
 
 `8.` Montant moyen d&#39;une opportunité de victoire close.
 
@@ -129,7 +129,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 `10.` À l’aide de la liste déroulante Mesure du menu Filtres , il s’agit d’une liste de sous-canaux basée sur le montant des recettes / recettes de pipeline / dépenses / offres / opportunités / pistes / contacts attribué à chaque sous-canal, trié par le plus élevé en fonction du modèle d’attribution sélectionné.
 
-**Résumé campagne**
+**Résumé de campagne**
 
 `11.` À l’aide de la liste déroulante Mesure du menu Filtres , il s’agit d’une liste de campagnes basées sur le montant des recettes/recettes de pipeline/dépenses/offres/opportunités/contacts a été attribué à chaque campagne, triée par le plus élevé en fonction du modèle d’attribution sélectionné.
 
@@ -171,7 +171,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 Explorez les données d’une dimension de date plus petite.
 
-**Affaires**
+**Offres**
 
 `3.` Le nombre total d’opportunités de gains fermés, en fonction du nombre de modèles d’attribution.
 
@@ -183,7 +183,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 Explorez les données d’une dimension de date plus petite.
 
-**Chiffre d’affaires de pipeline**
+**Recettes du pipeline**
 
 `5.` Chiffre d’affaires potentiel total provenant de toute opportunité ouverte, ce qui signifie qu’il n’est pas Fermé perdu ou Fermé gagné. Les recettes sont basées sur le modèle d’attribution sélectionné.
 
@@ -195,7 +195,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 Explorez les données d’une dimension de date plus petite.
 
-**Prospects**
+**Pistes**
 
 `7.` Nombre total de pistes, en fonction du modèle d’attribution. Si le type de date &quot;Date du point de contact&quot; est sélectionné, des décomptes partiels sont possibles, car il est possible d’exclure certains points de contact d’un enregistrement de piste utilisant ce type de date. Si un modèle d’attribution autre que En forme de U est appliqué, le nombre en forme de U est utilisé pour les modèles en forme de W, en forme de W et personnalisés.
 
@@ -263,7 +263,7 @@ Explorez les données d’une dimension de date plus petite.
 
 (Cette propriété apparaît vide si cette fonction est désactivée.)
 
-**Formulaires**
+**Forms**
 
 `17.` Le nombre total de formulaires envoyés à tous les visiteurs connus et anonymes.
 
@@ -303,15 +303,15 @@ Catégories
 
 ![](assets/definitions-and-encyclopedia-5.png)
 
-**Résumé du RSI de la campagne**
+**Résumé du ROI de la campagne**
 
 `1.` Liste des campagnes basées sur le montant des recettes, des dépenses et du retour sur investissement attribués à chaque campagne, triées selon les recettes les plus élevées en fonction du modèle d’attribution sélectionné.
 
-**Résumé du RSI du contenu publicitaire**
+**Résumé du ROI créatif**
 
 `2.` Liste des créatifs basés sur le montant des recettes, des dépenses et du retour sur investissement attribué à chaque créatif, triés par les recettes les plus élevées en fonction du modèle d’attribution sélectionné.
 
-**Résumé du RSI du mot-clé**
+**Résumé du ROI des mots-clés**
 
 `3.` Liste de mots-clés basés sur le montant des recettes, des dépenses et du retour sur investissement attribués à chaque mot-clé, triés par les recettes les plus élevées en fonction du modèle d’attribution sélectionné.
 
@@ -339,7 +339,7 @@ Le montant total des recettes des opportunités de gains fermés, basé sur le m
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Chiffre d’affaires de pipeline**
+**Recettes du pipeline**
 
 Chiffre d’affaires potentiel total provenant de toute opportunité ouverte, ce qui signifie qu’il n’est pas Fermé perdu ou Fermé gagné. Les recettes sont basées sur le modèle d’attribution sélectionné.
 
@@ -347,7 +347,7 @@ Chiffre d’affaires potentiel total provenant de toute opportunité ouverte, ce
 
 Nombre moyen de points de contact générés par chaque compte CRM, par identifiant de compte.
 
-**Leads appariés**
+**Pistes mises en correspondance**
 
 Nombre total de pistes qui ont été mises en correspondance avec un compte à l’aide de la variable [!DNL Marketo Measure] Fonctionnalité de piste à compte, à l’aide des algorithmes de mise en correspondance de site web, nom de société et domaine de courriel.
 
@@ -355,15 +355,15 @@ Nombre total de pistes qui ont été mises en correspondance avec un compte à l
 
 Nombre total de comptes qui ont reçu un point de contact. Si une liste de comptes cible est utilisée, il s’agit du sous-ensemble de comptes de cette liste de comptes cible.
 
-**Opportunités engagées**
+**Opportunités**
 
 Nombre total d’opportunités qui ont reçu un point de contact. Si une liste de comptes cible est utilisée, il s’agit du sous-ensemble des opportunités de cette liste de comptes cible.
 
-**Individus engagés**
+**Personnes engagées**
 
 Nombre total d’individus (prospects et contacts par adresses email) ayant reçu un point de contact. Si une liste de comptes cible est utilisée, il s’agit du sous-ensemble des individus de cette liste de comptes cible.
 
-**Touchpoints au fil du temps**
+**Points de contact dans le temps**
 
 Nombre total de points de contact enregistrés au cours d’une période donnée. Si une liste de comptes cible est utilisée, il s’agit du sous-ensemble de comptes de cette liste de comptes cible.
 
@@ -371,11 +371,11 @@ Nombre total de points de contact enregistrés au cours d’une période donnée
 
 Nombre total de comptes ayant reçu un point de contact par mois au cours d’une période spécifiée avec la possibilité de regrouper les résultats par canal, sous-canal, campagne, compte, groupe publicitaire, publicité, publicitaire, créatif, mot-clé, référencement ou site. Si une liste de comptes cible est utilisée, il s’agit du sous-ensemble de comptes de cette liste de comptes cible.
 
-**Comptes par nombre de Touchpoints**
+**Comptes par nombre de points de contact**
 
 Par ID de compte et Nom du compte, le nombre total de points de contact de chaque compte.
 
-**Nombre de Touchpoints**
+**Nombre de points de contact**
 
 Le nombre de points de contact attribués à chaque dimension, où la dimension peut être modifiée par le filtre Groupe Par , par exemple : Aucun/Canal/Sous-canal/Campagne/Compte/Annonceur/Publicité/Créatif/Groupe publicitaire/Mot-clé/Emplacement/Site.
 
@@ -407,7 +407,7 @@ Le montant total des recettes des opportunités de gains fermés, basé sur le m
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Dépenses**
+**Dépenser**
 
 Le montant total des dépenses enregistrées des coûts d’API et des coûts auto-déclarés cumulés au niveau de canal le plus élevé.
 
@@ -427,15 +427,15 @@ Comme la dépense n’est pas enregistrée à tous les niveaux, il est possible 
 
 Affiche le montant des dépenses marketing par mois en plus du retour sur investissement sur l’axe Y droit.
 
-**Dépenses par canal**
+**Dépensé par canal**
 
 Liste de canaux basés sur le montant reporté pour chaque canal, triés par dépenses les plus élevées.
 
-**Dépenses par sous-canal**
+**Dépensé par sous-canal**
 
 Liste de sous-canaux basés sur le montant reporté pour chaque sous-canal, triés par dépenses les plus élevées.
 
-**Dépenses par campagne**
+**Dépensé par campagne**
 
 Liste des campagnes basées sur le montant déclaré pour chaque campagne, triées par dépenses les plus élevées. Les campagnes se composent d’une liste complète de campagnes qui inclut des valeurs utm_campaign provenant de Pages vues.
 
@@ -499,23 +499,23 @@ Moyenne calculée des recettes clôturées par visite de site unique en provenan
 
 Moyenne calculée des recettes clôturées par visite de site en provenance de visiteurs connus et anonymes.
 
-**Aperçu pages**
+**Pages vues**
 
 Nombre total de pages vues suivies sur tous les visiteurs connus et anonymes.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Formulaires**
+**Forms**
 
 Le nombre total de formulaires envoyés à tous les visiteurs connus et anonymes.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Vue d’ensemble**
+**Présentation**
 
 À l’aide de la liste déroulante Mesure du menu Filtres , ce graphique affiche les recettes/recettes de pipeline/dépenses/offres/opportunités/contacts/clics/impressions/visites uniques/pages vues/formulaires attribués à chaque dimension, affichés au fil du temps. Les Dimensions peuvent être changées de Aucun en Canal/Sous-canal/Campagne/Compte/Annonceur/Publicité/Créatif/Groupe publicitaire/Mot-clé/Emplacement/Site.
 
-**Résumé du trafic Web**
+**Résumé du trafic web**
 
 Par URL, affichez le nombre de pages vues, de visites, de visites uniques et d’envois de formulaire crédités à chacune d’elles.
 
@@ -531,11 +531,11 @@ Dans la liste déroulante Regrouper par du menu Filtres , affichez la source des
 
 Dans la liste déroulante Regrouper par du menu Filtres , affichez la source des visiteurs de votre site. Remplacez le groupe par : Canal, Sous-canal, Campagne, Compte, Groupe publicitaire, Publicité, Annonceur, Créatif, Mot-clé, Emplacement, Site.
 
-**Leads par page de destination**
+**Pistes par page d’entrée**
 
 Liste des landing pages en fonction du nombre de pistes générées à partir de chaque landing page, triées selon le nombre le plus élevé de pistes.
 
-**Leads par URL de formulaire**
+**Pistes par URL de formulaire**
 
 Une liste d’URL de formulaire basée sur le nombre de pistes générées à partir de chaque URL, triées par le nombre le plus élevé de pistes.
 
@@ -571,11 +571,11 @@ Catégories
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Vue d’ensemble**
+**Présentation**
 
 `2.` À l’aide de la liste déroulante Mesure du menu Filtres , ce graphique présente les recettes/recettes de pipeline/dépenses/offres/opportunités/pistes/contacts attribués à chaque canal, affichées au fil du temps.
 
-**Dépenses**
+**Dépenser**
 
 `3.` Le montant total des dépenses enregistrées des coûts d’API et des coûts auto-déclarés cumulés au niveau de canal le plus élevé.
 
@@ -585,23 +585,23 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 `4.` Le ROI calculé (retour sur investissement) provenant du total des recettes (du modèle d’attribution sélectionné) et du total des dépenses.
 
-**Affaires**
+**Offres**
 
 `5.` Le nombre total d’opportunités de gains fermés, en fonction du nombre de modèles d’attribution. Si le type de date &quot;Date du point de contact&quot; est sélectionné, des décomptes partiels sont possibles, car il est possible d’exclure certains points de contact d’une opportunité en utilisant ce type de date.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Coût par contrat**
+**Coût par transaction**
 
 `6.` Le total des dépenses divisé par le nombre total d’offres, ce qui fournit un coût moyen nécessaire pour acquérir une opportunité gagnée fermée.
 
-**Chiffre d’affaires de pipeline**
+**Recettes du pipeline**
 
 `7.` Chiffre d’affaires potentiel total provenant de toute opportunité ouverte, ce qui signifie qu’il n’est pas Fermé perdu ou Fermé gagné. Les recettes sont basées sur le modèle d’attribution sélectionné.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Valeur de l’affaire**
+**Taille de transaction**
 
 `8.` Montant moyen d&#39;une opportunité de victoire close.
 
@@ -613,7 +613,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 `10.` À l’aide de la liste déroulante Mesure du menu Filtres , il s’agit d’une liste de sous-canaux basée sur le montant des recettes / recettes de pipeline / dépenses / offres / opportunités / pistes / contacts attribué à chaque sous-canal, trié par le plus élevé en fonction du modèle d’attribution sélectionné.
 
-**Résumé campagne**
+**Résumé de campagne**
 
 `11.` À l’aide de la liste déroulante Mesure du menu Filtres , il s’agit d’une liste de campagnes basées sur le montant des recettes/recettes de pipeline/dépenses/offres/opportunités/contacts a été attribué à chaque campagne, triée par le plus élevé en fonction du modèle d’attribution sélectionné.
 
@@ -651,7 +651,7 @@ Catégories
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Dépenses**
+**Dépenser**
 
 `2.` Le montant total des dépenses enregistrées des coûts d’API et des coûts auto-déclarés cumulés au niveau de canal le plus élevé.
 
@@ -661,13 +661,13 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 `3.` Le ROI calculé (retour sur investissement) provenant du total des recettes (du modèle d’attribution sélectionné) et du total des dépenses.
 
-**Chiffre d’affaires de pipeline**
+**Recettes du pipeline**
 
 `4.` Chiffre d’affaires potentiel total provenant de toute opportunité ouverte, ce qui signifie qu’il n’est pas Fermé perdu ou Fermé gagné. Les recettes sont basées sur le modèle d’attribution sélectionné.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Vue d’ensemble**
+**Présentation**
 
 `5.` À l’aide de la liste déroulante Mesure du menu Filtres , ce graphique présente les recettes/recettes de pipeline/dépenses/offres/opportunités/contacts/visites/visites uniques/impressions/clics/formulaires au fil du temps.
 
@@ -691,7 +691,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 `9.` Le total des dépenses des clics suivis divisé par le total des clics, fournissant le taux CPC.
 
-**Prospects**
+**Pistes**
 
 `10.` Nombre total de pistes créées dans le CRM.
 
@@ -711,11 +711,11 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Résumé du trafic Web**
+**Résumé du trafic web**
 
 À l’aide du sélecteur de dimension dans le menu Filtres, basculez entre Canal, Sous-canal, Campagne, Compte, Groupe publicitaire, Publicité, Annonceur, Créatif, Mot-clé, Emplacement, Site et afficher le nombre de pages vues, de visites, de visites uniques et d’envois de formulaire crédités à chacun d’eux.
 
-**Résumé du pipeline de lead**
+**Résumé du pipeline de piste**
 
 À l’aide du sélecteur de dimension dans le menu Filtres , basculez entre Canal, Sous-canal, Campagne, Compte, Groupe publicitaire, Publicité, Annonceur, Créatif, Mot-clé, Emplacement, Site et consultez le nombre de pistes ou de contacts attribués à chacune d’elles, en fonction du modèle d’attribution sélectionné.
 
@@ -751,37 +751,37 @@ Catégories
 
 ![](assets/definitions-and-encyclopedia-17.png)
 
-**Chiffre d’affaires total**
+**Recettes totales**
 
 `1.` Le montant total des recettes provenant des opportunités Closed Won provenant de sources numériques uniquement, selon le modèle d’attribution.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Pages de destination par chiffre d’affaires**
+**Pages d’entrée par recettes**
 
 `2.` Liste des landing pages basée sur le montant des recettes attribué à chaque landing page, triées selon les recettes les plus élevées en fonction du modèle d’attribution sélectionné.
 
-**Total des chiffres d’affaires de pipeline**
+**Recettes totales du pipeline**
 
 `3.` Chiffre d’affaires potentiel total provenant de n’importe quelle opportunité ouverte provenant de sources numériques uniquement, ce qui signifie qu’il n’est pas Fermé perdu ou Fermé gagné. Les recettes sont basées sur le modèle d’attribution sélectionné.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Pages de destination par chiffre d’affaires de pipeline**
+**Pages d’entrée par recettes de pipeline**
 
 `4.` Liste de pages d’entrée basées sur le montant des recettes de pipeline attribuées à chaque page d’entrée, triées selon les recettes de pipeline les plus élevées en fonction du modèle d’attribution sélectionné.
 
-**Total des opportunités**
+**Opportunités totales**
 
 `5.` Nombre total d’opportunités provenant de sources numériques uniquement, en fonction du modèle d’attribution.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Pages de destination par compte d’opportunités**
+**Pages d’entrée par nombre d’opportunités**
 
 `6.` Liste des landing pages basée sur le nombre d’opportunités attribuées à chaque landing page, triées selon le nombre d’opportunités le plus élevé en fonction du modèle d’attribution sélectionné.
 
-**Formulaires**
+**Forms**
 
 `7.` Nombre total de formulaires envoyés sur toutes les pages suivies.
 
@@ -789,7 +789,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 `8.` Une liste d’URL de formulaire basée sur le nombre de formulaires envoyés sur chaque URL, triés par le nombre maximum de formulaires envoyés sur une page.
 
-**URL du formulaire par canal**
+**URL de formulaire par canal**
 
 `9.` Les 10 premières URL de formulaire regroupées par canal qui conduit la visite.
 
@@ -801,7 +801,7 @@ Cliquez sur pour Afficher les détails et explorez les données en les visualisa
 
 Explorez les statistiques pour afficher les visites uniques du site suivies par mois.
 
-**Pages de destination principales par visites uniques**
+**Pages d’entrée principales par visite unique**
 
 `11.` Une liste de landing pages basée sur le nombre de visites uniques de chaque landing page, triée par les pages comportant le plus grand nombre de visites uniques.
 
@@ -811,17 +811,17 @@ Accédez à l’URL sélectionnée en effectuant une recherche pour afficher les
 
 `12.` Le nombre total de visites du site suivies par tous les visiteurs connus et anonymes.
 
-**Pages de destination principales par visites**
+**Pages d’entrée principales par visite**
 
 `13.` Une liste de landing pages basée sur le nombre de visites initiales de chaque landing page, triée par les pages comportant le plus grand nombre de visites.
 
-**Prospects**
+**Pistes**
 
 `14.` Nombre total de pistes, en fonction du modèle d’attribution. Si le type de date &quot;Date du point de contact&quot; est sélectionné, des décomptes partiels sont possibles, car il est possible d’exclure certains points de contact d’un enregistrement de piste utilisant ce type de date. Si un modèle d’attribution autre que En forme de U est appliqué, le nombre en forme de U est utilisé pour les modèles en forme de W, en forme de W et personnalisés.
 
 Cliquez sur pour Afficher les détails et explorez les données en les visualisant sous forme de visualisation et de tableau.
 
-**Pages de destination par compte des leads**
+**Pages d’entrée par nombre de pistes**
 
 `15.` Liste des URL de page en fonction du nombre de pistes créées à partir de chaque URL, triées par pages comportant le plus de pistes.
 
@@ -833,7 +833,7 @@ Valider et diagnostiquer [!DNL Marketo Measure] données avec une visibilité co
 
 Identifiant de compte
 
-Nom du compte
+Nom de compte
 
 ID de l’opportunité
 
@@ -885,7 +885,7 @@ Cliquez sur les nombres agrégés pour accéder aux détails des données de bas
 
 Cliquez sur les nombres agrégés pour accéder aux détails des données de base.
 
-**Prospects**
+**Pistes**
 
 `4.` Liste de toutes les pistes avec points de contact. Les informations de chaque piste incluent le nombre de points de contact.
 
@@ -953,11 +953,11 @@ Subchannel est égal à __
 
 `2.` Nombre total d’opportunités provenant d’une opportunité ouverte, ce qui signifie qu’elle n’est pas Fermée Perdue ou Fermée Gagnée.
 
-**Valeur moyenne de l’affaire**
+**Taille moyenne des transactions**
 
 `3.` Montant moyen d&#39;une opportunité de victoire close.
 
-**Taux de confirmation**
+**Taux de Win**
 
 `4.` Le nombre total d’opportunités avec succès fermé divisé par le nombre total d’opportunités avec succès fermé et d’opportunités avec succès fermé, indiquant le pourcentage de taux de victoire.
 
@@ -965,7 +965,7 @@ Subchannel est égal à __
 
 `5.` Nombre moyen de jours pendant lesquels les opportunités se trouvent dans leur cycle par étape, regroupées par canal marketing et montrant le temps nécessaire pour passer à l’étape suivante. Les scènes qui apparaissent ici sont des scènes de jalon (FT, LC, OC) et personnalisées.
 
-**Vitesse des leads par canal**
+**Vitesse de la piste par canal**
 
 `6.` Nombre moyen de jours pendant lesquels les pistes se trouvent dans leur cycle par étape avant d’être converties en contact/opportunité/compte, regroupées par canal marketing et indiquant le temps nécessaire pour passer à l’étape suivante. Les scènes qui apparaissent ici sont des scènes de jalon (FT, LC) et personnalisées.
 
@@ -973,7 +973,7 @@ Subchannel est égal à __
 
 `7.` Nombre moyen de jours pendant lesquels les opportunités se trouvent dans leur cycle par étape, indiquant le temps nécessaire pour passer à l’étape suivante. Les scènes qui apparaissent ici sont des scènes de jalon (FT, LC, OC) et personnalisées. Les chiffres ici reflètent le temps par étape dans le graphique Vitesse de l’opportunité par canal ci-dessus.
 
-**Vitesse moyenne des leads**
+**Vitesse moyenne de la piste**
 
 `8.` Nombre moyen de jours pendant lesquels les pistes se trouvent dans leur cycle par étape avant d’être converties en contact/opportunité/compte, indiquant le temps nécessaire pour passer à l’étape suivante. Les scènes qui apparaissent ici sont des scènes de jalon (FT, LC) et personnalisées. Les chiffres ici reflètent le temps par étape dans le graphique Vitesse de la piste par canal ci-dessus.
 
@@ -997,7 +997,7 @@ Leads ou contacts
 
 ![](assets/definitions-and-encyclopedia-21.png)
 
-**Capture instantanée du lead/contact**
+**Instantané de piste/contact**
 
 `1.` Nombre d’enregistrements de piste ou de contact qui se trouvaient à chaque étape à la date sélectionnée.
 
@@ -1005,7 +1005,7 @@ Leads ou contacts
 
 `2.` Nombre d’enregistrements de piste ou de contact qui se trouvaient à chaque étape à la date sélectionnée.
 
-**Capture instantanée d’opportunités**
+**Instantané des opportunités**
 
 `3.` Le nombre d&#39;enregistrements d&#39;opportunité présents à chaque étape à la date sélectionnée.
 
@@ -1039,7 +1039,7 @@ Catégories
 
 `1.` &amp; `2.` Chaque étape indique le nombre d’enregistrements dans chaque étape État de piste ou Contact et le total des enregistrements transmis au cours de chaque étape.
 
-**Passeport d’opportunités**
+**Transfert d’opportunité**
 
 `3.` Chaque étape affiche le nombre d’enregistrements dans chaque étape d’opportunité et le total des enregistrements qui ont passé par chaque étape.
 
@@ -1051,9 +1051,9 @@ Découvrez comment les prospects, les contacts, les opportunités et les comptes
 
 Nom/ID du compte
 
-E-mail/ID du lead
+Identifiant de piste/courrier électronique
 
-E-mail/ID du contact
+ID de contact/adresse électronique
 
 Modèle d’attribution
 

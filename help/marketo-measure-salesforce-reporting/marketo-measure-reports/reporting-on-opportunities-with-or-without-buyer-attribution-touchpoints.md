@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874618
-description: Création de rapports sur les opportunités avec ou sans points de contact d’attribution d’achat - [!DNL Marketo Measure] - Documentation du produit
+description: Création de rapports sur les opportunités avec ou sans points de contact d’attribution d’achat - [!DNL Marketo Measure]
 title: Création de rapports sur les opportunités avec ou sans points de contact d’attribution acheteur
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-source-git-commit: a2a7657e8377fd5c556d38f6eb815e39d2b8d15e
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 9%
+source-wordcount: '174'
+ht-degree: 20%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans notre documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version et la nouvelle image sera bientôt répercutée dans votre CRM.
+>Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
 
 Créez un nouveau type de rapport pour inclure toutes les opportunités avec ou sans points de contact d’attribution d’achat.
 

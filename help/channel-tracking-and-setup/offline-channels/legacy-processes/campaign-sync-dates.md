@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874684
-description: Dates de synchronisation de campagne - [!DNL Marketo Measure] - Documentation du produit
+description: Dates de synchronisation de campagne - [!DNL Marketo Measure]
 title: Date de synchronisation de campagne
 exl-id: 66ce9948-9297-47ef-8b16-0ac45c5664fc
 feature: Channels
-source-git-commit: 38c721d10ac33ae85da1d425b6af53b9e3dfd0a1
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 2%
+source-wordcount: '490'
+ht-degree: 1%
 
 ---
 
@@ -36,7 +36,7 @@ De même, si vous deviez ajouter une date de début de point de contact sur une 
 
 **Remplissage des points de contact**
 
-Il peut arriver qu’une équipe marketing ne puisse pas ajouter de paramètres utm à un effort marketing particulier. Les dates de synchronisation des campagnes vous permettent de (si vous utilisez des campagnes SFDC pour des efforts en ligne) de renvoyer certaines données manquantes. Supposons que vous exécutiez une campagne par e-mail qui a commencé le 1er mai, mais que votre équipe n’ait pas ajouté de paramètres utm à cette campagne par e-mail avant le 15 mai. Si vous effectuez le suivi des conversions d’emails via une campagne SFDC, vous pourrez définir une date de fin de point de contact du 15 mai sur cette campagne et activer les points de contact pour les membres &quot;réactifs&quot; de la campagne. Cette action indique : [!DNL Marketo Measure] pour créer des points de contact pour toutes ces réponses jusqu’au 15 mai.
+Il peut arriver qu’une équipe marketing ne puisse pas ajouter de paramètres utm à un effort marketing particulier. Les dates de synchronisation des campagnes vous permettent de (si vous utilisez des campagnes SFDC pour des efforts en ligne) de renvoyer certaines données manquantes. Supposons que vous exécutiez une campagne par e-mail qui a commencé le 1er mai, mais que votre équipe n’ait pas ajouté de paramètres utm à cette campagne par e-mail avant le 15 mai. Si vous effectuez le suivi des conversions d’emails via une campagne SFDC, vous pourrez définir une date de fin de point de contact le 15 mai sur cette campagne et activer les points de contact pour les membres &quot;réactifs&quot; de la campagne. Cette action indique : [!DNL Marketo Measure] pour créer des points de contact pour toutes ces réponses jusqu’au 15 mai.
 
 **Points de contact de l’adhésion à Campaign rétroactifs**
 

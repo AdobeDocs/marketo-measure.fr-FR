@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874606
-description: Paramètres UTM - [!DNL Marketo Measure] - Documentation du produit
+description: Paramètres UTM - [!DNL Marketo Measure]
 title: Paramètres UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
-source-wordcount: '946'
-ht-degree: 100%
+source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+workflow-type: tm+mt
+source-wordcount: '926'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Le balisage des URL est un moyen simple et efficace de capturer des données sur vos efforts de marketing digital. Ce processus consiste en un ajout de paramètres à la fin des URL dans le but de collecter et d’enregistrer des données. Les paramètres les plus couramment utilisés sont les modules de suivi d’URL (UTM pour « Urchin Tracking Modules »), qui sont pris en charge par Google. Il y a cinq paramètres UTM principaux : Support, Source, Campagne, Contenu et Terme. Ces points sont abordés plus en détail dans la section suivante.
 
-Les paramètres UTM peuvent être ajoutés manuellement aux URL ou ajoutés par balisage automatique avec certaines plateformes, comme AdWords. Dans ce dernier cas, l’ajout de paramètres aux URL est automatisé. Vous pouvez également utiliser des [créateurs d’URL](https://ga-dev-tools.appspot.com/campaign-url-builder/){target="_blank"} pour accélérer le balisage manuel des URL. Avec ces outils, il vous suffit de spécifier les valeurs à utiliser pour chaque paramètre, et l’URL est formatée pour vous.
+Les paramètres de la gestion dynamique des balises peuvent être ajoutés manuellement aux URL ou ajoutés par le balisage automatique avec certaines plateformes, telles que AdWords . Dans ce dernier cas, l’ajout de paramètres aux URL est automatisé. Vous pouvez également utiliser des [créateurs d’URL](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} pour accélérer le balisage manuel des URL. Avec un créateur d’URL, vous spécifiez simplement les valeurs à utiliser pour chaque paramètre et le créateur formate l’URL pour vous.
 
 ## Fonctionnement des paramètres UTM {#what-are-utm-parameters}
 
@@ -27,13 +27,13 @@ Maintenant, observons une URL avec des UTM :
 
 `http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
-Comme vous pouvez le voir, le deuxième lien contient beaucoup plus de texte. Les paramètres UTM s’appliquent toujours au domaine de niveau supérieur (.com dans cet exemple) et commencent par un point d’interrogation. Ensuite, l’ordre des paramètres n’a pas d’importance, mais il est conseillé de respecter une convention de nommage cohérente. Pour séparer chaque UTM, vous devez utiliser des esperluettes. Nous pouvons maintenant nous intéresser plus en détail au fonctionnement de chaque paramètre.
+Le deuxième lien contient plus de texte. Les paramètres UTM s’appliquent toujours au domaine de niveau supérieur (.com dans cet exemple) et commencent par un point d’interrogation. Ensuite, l’ordre des paramètres n’a pas d’importance, mais il est conseillé de respecter une convention d’affectation des noms cohérente. Des esperluettes doivent être placées entre chaque paramètre pour séparer chaque UTM. Nous pouvons maintenant nous intéresser plus en détail au fonctionnement de chaque paramètre.
 
 Découvrez les [bonnes pratiques relatives à la configuration des paramètres UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md).
 
 **utm_medium**
 
-* Ce paramètre identifie les supports que vous utilisez pour faire connaître votre société.
+* Medium identifie les véhicules que vous utilisez pour commercialiser votre entreprise.
 * Il répond à la question : « Comment vos clients vous trouvent-ils ? ».
 * En d’autres termes, il indique le canal de niveau supérieur.
 * Les réseaux sociaux, les e-mails, le référencement naturel et le référencement payant sont des exemples de valeurs potentielles.
@@ -48,7 +48,7 @@ Découvrez les [bonnes pratiques relatives à la configuration des paramètres U
    * Dans cet exemple, [!DNL Facebook] est la valeur de la source, mais il pourrait également s’agir de Twitter ou d’Instagram. Si le support UTM est [!DNL Paid Search], en revanche, la source peut être AdWords ou Bing Ads.
 
 * Dans SFDC, ce paramètre mappe les données au champ [!DNL Marketo Measure] « Source du point de contact ».
-* Bonne pratique _[!DNL Marketo Measure] :_ ce paramètre identifie uniquement la source de votre trafic. Il ne peut donc pas indiquer le type d’annonce, par exemple un reciblage, un parrainage, etc. Il est préférable de l’utiliser pour effectuer le suivi du sous-canal de niveau supérieur. Rappelez-vous, la question posée est « D’où vient mon trafic ? ». Votre objectif est d’identifier le référent. Dans cet exemple, la source UTM est l’endroit où se trouve votre publicité (et non la page web proprement dite, car elle est automatiquement suivie en dehors des balises). Si vous effectuez le suivi d’une campagne par e-mail progressive, alors il s’agit de votre source.
+* _[!DNL Marketo Measure]Bonne pratique :_ Ce paramètre effectue le suivi de la source de votre trafic. Il ne convient donc pas de l’utiliser pour indiquer le type d’annonce, par exemple, le reciblage, le parrainage, etc. Il est préférable de l’utiliser pour effectuer le suivi du sous-canal de niveau supérieur. Rappelez-vous, la question posée est « D’où vient mon trafic ? ». Votre objectif est d’identifier le référent. Dans cet exemple, la source UTM est l’endroit où se trouve votre publicité (et non la page web proprement dite, car elle est automatiquement suivie en dehors des balises). Si vous effectuez le suivi d’une campagne par e-mail progressive, alors il s’agit de votre source.
 
 **utm_campaign**
 

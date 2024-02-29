@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874646
-description: Différence entre les points de contact acheteur et les points de contact d’attribution acheteur - [!DNL Marketo Measure] - Documentation du produit
+description: Différence entre les points de contact des acheteurs et les points de contact d’attribution des acheteurs - [!DNL Marketo Measure]
 title: Différence entre les points de contact acheteur et les points de contact d’attribution acheteur
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
-workflow-type: ht
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 100%
+ht-degree: 61%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 Découvrez ce qui définit un point de contact acheteur (BT) et un point de contact d’attribution acheteur (BAT), les différences entre les deux et les réponses aux questions fréquemment posées.
 
-La différence principale entre les points de contact acheteur et les points de contact d’attribution acheteur réside dans leur relation avec les objets [!DNL Salesforce]. Les BT se rapportent aux objets Prospect, Contact et Dossier, mais pas à Opportunité. En d’autres termes, il n’y aura jamais de recettes associées aux points de contact acheteur.
+La différence principale entre les points de contact acheteur et les points de contact d’attribution acheteur réside dans leur relation avec les objets [!DNL Salesforce]. Les BT se rapportent aux objets Prospect, Contact et Dossier, mais pas à Opportunité. En d’autres termes, il n’y a jamais de recettes associées aux points de contact de l’acheteur.
 
-Un point de contact d’attribution acheteur (BAT) peut être lié à des objets Contact, Compte et Opportunité, mais pas à des objets Prospect. En d’autres termes, il n’y aura jamais de points de contact d’attribution acheteur liés à des prospects. L’objet BAT permet de lier des recettes à des interactions marketing spécifiques.
+Bien que l’objet point de contact d’attribution de l’achat soit lié aux objets de contact, de compte et d’opportunité, mais pas à l’objet de piste ; les points de contact d’attribution de l’achat ne sont pas liés aux pistes. L’objet BAT est l’endroit où les recettes sont liées à des interactions marketing spécifiques.
 
 Différence entre BT et BAT :
 
@@ -52,15 +52,15 @@ Différence entre BT et BAT :
 
 **À quel moment un point de contact acheteur devient-il un point de contact d’attribution acheteur ?**
 
-Un BT devient un BAT une fois qu’il est associé à un contact lui-même associé à une opportunité. Ce qu’il faut comprendre, c’est qu’une interaction marketing spécifique peut être liée à un BT et à un BAT.
+Un BT devient un BAT une fois qu’il est associé à un contact lui-même associé à une opportunité. Une chose importante à comprendre est qu’une interaction marketing spécifique peut être un test BT et une technologie BAT.
 
 **Un point de contact acheteur peut-il avoir une position correspondant à la création d’une opportunité ?**
 
-Un point de contact acheteur peut uniquement avoir trois positions : Premier contact (FT), Création de prospects (LC) ou Envoi de formulaire (points de contact intermédiaires). Puisque les BT ne sont pas liés à des opportunités, il n’est pas possible qu’ils aient une position correspondant à la création ou à l’aboutissement d’une opportunité.
+Un point de contact acheteur peut uniquement avoir trois positions : Premier contact (FT), Création de prospects (LC) ou Envoi de formulaire (points de contact intermédiaires). Comme les BT ne sont pas liés aux opportunités, il n&#39;est pas possible pour un BT d&#39;avoir une position de point de contact de la création d&#39;opportunités ou de fermeture.
 
-**Comment les données de point de contact acheteur sont-elles exploitées ?**
+**Comment les données de point de contact de l’achat sont-elles utilisées ?**
 
-En règle générale, les clients utilisent les données du point de contact acheteur pour comprendre le haut et le milieu de l’entonnoir d’engagement. En d’autres termes, les utilisateurs de [!DNL Marketo Measure] savent qui envoie des formulaires, qui visite leur site, quel article de blog est souvent consulté, quelle publicité AdWords amène à une conversion des prospects, etc. Les données de point de contact acheteur sont particulièrement utiles pour comprendre l’engagement de vos prospects et contacts.
+En règle générale, les clients utilisent les données du point de contact de l’acheteur pour comprendre les champs Haut de l’entonnoir et Milieu de l’engagement entonnoir. Signification [!DNL Marketo Measure] les utilisateurs savent qui envoie des formulaires, qui consulte leur site, quelle publication de blog se comporte bien, ce qu’AdWords et génère génère des conversions, etc. Les données de point de contact acheteur sont particulièrement utiles pour comprendre l’engagement de vos prospects et contacts.
 
 **À quoi ressemble un point de contact acheteur dans Salesforce ?**
 

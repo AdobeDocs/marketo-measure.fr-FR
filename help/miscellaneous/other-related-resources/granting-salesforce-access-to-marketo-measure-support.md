@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874791
-description: Octroi [!DNL Salesforce] Accès à [!DNL Marketo Measure] Assistance - [!DNL Marketo Measure] - Documentation du produit
+description: Octroi [!DNL Salesforce] Accès à [!DNL Marketo Measure] Assistance - [!DNL Marketo Measure]
 title: Octroi [!DNL Salesforce] Accès à l’assistance Marketo Measure
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 0%
+source-wordcount: '191'
+ht-degree: 2%
 
 ---
 

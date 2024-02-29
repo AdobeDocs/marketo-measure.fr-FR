@@ -1,61 +1,61 @@
 ---
-source-git-commit: a5648e73c470f61720741a5dd828e00fa532c4d5
+source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 6%
+source-wordcount: '401'
+ht-degree: 82%
 
 ---
-# Article sur les contributions
+# Contribuer à l’article
 
-Nous acceptons les contributions de notre communauté ainsi que des employés d’Adobe qui ne font pas partie des équipes de documentation.
+Nous accueillons avec plaisir les contributions de notre communauté ainsi que celles des employés d’Adobe qui ne sont pas membres des équipes de documentation.
 
 
-## Adobe de code de conduite Open Source
+## Code de conduite d’Adobe Open Source
 
 Ce projet respecte le [Code de conduite d’Adobe Open Source](code-of-conduct.md) ou le [Code de conduite .NET Foundation](https://dotnetfoundation.org/code-of-conduct). Pour plus d’informations, consultez l’article [Contribution](contributing.md).
 
-## À propos de vos contributions pour Adobe du contenu
+## À propos de vos contributions aux contenus d’Adobe
 
-Voir [Guide du contributeur de documents d’Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Consultez le [Guide du contributeur aux documents d’Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr).
 
-Votre contribution dépend de qui vous êtes et du type de modifications que vous souhaitez apporter :
+La manière dont vous contribuez dépend de qui vous êtes et du type de changements que vous souhaitez apporter :
 
 ### Modifications mineures
 
-Si vous contribuez à des mises à jour mineures, consultez l’article et cliquez sur le bouton **Modifier** lien dans l’article qui accède à la source GitHub de l’article. Ensuite, utilisez simplement l’interface utilisateur GitHub pour effectuer vos mises à jour. Voir le [Guide du contributeur pour Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) pour plus d’informations.
+Si vous contribuez à des mises à jour mineures par pure générosité, visitez l’article et cliquez sur le lien **Modifier** au niveau de l’article ; ce lien renvoie à la source GitHub de l’article. Ensuite, utilisez simplement l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, consultez le [Guide du contributeur aux documents d’Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr).
 
-Les corrections mineures ou les clarifications que vous envoyez pour la documentation et les exemples de code dans ce référentiel sont couvertes par les conditions d’utilisation Adobe.
+Les corrections ou clarifications mineures que vous soumettez pour la documentation et les exemples de code dans ce référentiel sont couvertes par les conditions d’utilisation d’Adobe.
 
-### Modifications majeures ou nouveaux articles des membres de la communauté
+### Changements majeurs ou nouveaux articles des membres de la communauté
 
 Si vous faites partie de la communauté Adobe et que vous souhaitez créer un nouvel article ou envoyer des modifications majeures, utilisez l’onglet Problèmes du référentiel Git pour soumettre un problème afin de démarrer une conversation avec l’équipe de documentation. Une fois que vous avez accepté un plan, vous devez collaborer avec un employé pour intégrer ce nouveau contenu par le biais d’une combinaison de travaux dans les référentiels publics et privés.
 
 <!--
-If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
+If you submit a pull request with significant changes to documentation and code examples, you will see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
 -->
 
-### Modifications majeures par les employés d’Adobe
+### Principaux changements apportés par les employés d’Adobe
 
-Si vous êtes rédacteur technique, chef de programme ou développeur de l’équipe produit d’une solution Adobe Experience Cloud et qu’il vous incombe de contribuer ou de rédiger des articles techniques, vous devez utiliser le référentiel privé à l’adresse `https://git.corp.adobe.com/AdobeDocs`.
+Si vous êtes un rédacteur technique, un responsable de programme ou un développeur de l’équipe produit d’une solution Adobe Experience Cloud et que c’est votre travail de contribuer ou de créer des articles techniques, vous devez utiliser le référentiel privé à l’adresse `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repository for minor updates.-->
 
 ## Outils et configuration
 
-Les contributeurs de la communauté peuvent utiliser l’interface utilisateur GitHub pour effectuer des modifications de base ou dupliquer le référentiel pour apporter des contributions majeures.
+Les contributeurs de la communauté peuvent se servir de l’interface utilisateur GitHub pour effectuer des modifications de base ou créer une copie du référentiel pour apporter des contributions majeures.
 
-Voir [Guide du contributeur de documents d’Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) pour plus d’informations.
+Pour plus d’informations, consultez le [Guide du contributeur pour la documentation Adobe](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=fr).
 
-## Utilisation de Markdown pour formater votre rubrique
+## Utilisation des balises pour la mise en forme de votre rubrique
 
-Tous les articles de ce référentiel utilisent GitHub Flavored Markdown. Si vous ne connaissez pas Markdown, voir :
+Tous les articles de ce référentiel utilisent le balisage GitHub. Si les balises ne vous sont pas familières, consultez les rubriques suivantes :
 
-* [Concepts de base de Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Markdown cheatsheet imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Notions de base en balisage](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github)
+* [Feuille de calcul de balisage imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
-## Intitulés
+## Étiquettes
 
-Dans le référentiel public, des étiquettes automatisées sont attribuées aux demandes d’extraction afin de nous aider à gérer le workflow de demande d’extraction et de vous aider à savoir ce qui se passe avec votre demande d’extraction :
+Dans le référentiel public, des étiquettes automatisées sont attribuées pour extraire les demandes afin de nous aider à gérer le processus de demande d’extraction et pour vous permettre de suivre votre demande d’extraction :
 
-* **Modification envoyée à l’auteur**: L’auteur a été informé de la demande d’extraction en attente.
-* **ready-to-merge**: Prêt à être examiné par notre équipe d’examen des demandes d’extraction.
+* **Change sent to author** (Modification envoyée à l’auteur) : l’auteur a été informé de la demande d’extraction en attente.
+* **ready-to-merge** (Prêt pour la fusion) : prêt à être examiné par notre équipe d’examen des demandes d’extraction.
