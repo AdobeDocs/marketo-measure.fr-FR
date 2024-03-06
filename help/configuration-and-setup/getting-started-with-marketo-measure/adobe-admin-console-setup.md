@@ -3,22 +3,22 @@ description: Configuration d’Adobe Admin Console - Marketo Measure - Docume
 title: Configuration d’Adobe Admin Console
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 39%
+source-wordcount: '372'
+ht-degree: 34%
 
 ---
 
 # Configuration d’Adobe Admin Console {#adobe-admin-console-setup}
 
-La première étape de l’utilisation de [!DNL Marketo Measure] est de créer et de se connecter à votre Adobe Admin Console configuré. Si vous n’avez pas encore reçu l’e-mail contenant les instructions de connexion, contactez votre [!DNL Marketo Measure] Responsable de compte.
+La première étape de l’utilisation de [!DNL Marketo Measure] est de créer et de se connecter à votre Adobe Admin Console configuré. Si vous n’avez pas reçu le courrier électronique contenant les instructions de connexion, contactez votre [!DNL Marketo Measure] Responsable de compte.
 
 ## Configurer votre Adobe Admin Console et votre fournisseur d’identité {#set-up-your-adobe-admin-console-and-identity-provider}
 
 En tant que produit dans Adobe Suite, [!DNL Marketo Measure] utilise toutes les fonctionnalités de Adobe Admin Console pour Identity Management. Vous trouverez plus de ressources [ici](https://helpx.adobe.com/fr/enterprise/using/admin-console.html).
 
-Nous vous recommandons de passer en revue toutes les ressources, bonnes pratiques et options disponibles pour [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
+Il est recommandé de consulter les ressources, les bonnes pratiques et les options disponibles pour [Identity Management](https://helpx.adobe.com/enterprise/using/set-up-identity.html).
 
 Pour obtenir des conseils sur la configuration d’Identity Management dans Adobe Admin Console, contactez votre [!DNL Marketo Measure] Responsable de compte.
 

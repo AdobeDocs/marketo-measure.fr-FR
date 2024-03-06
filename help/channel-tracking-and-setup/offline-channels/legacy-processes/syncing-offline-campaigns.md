@@ -4,9 +4,9 @@ description: Synchronisation des campagnes hors ligne - [!DNL Marketo Measure]
 title: Synchronisation des campagnes hors ligne
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '722'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Dans ce cas, la date de transfert serait renvoyée de trois semaines. Cette éta
 
 En résumé, si vous utilisez la variable [!UICONTROL Date de point de contact de mise à jour en bloc] et modifiez la date du point de contact à la date de l’événement, [!DNL Marketo Measure] génère des points de contact pour la date réelle de l’événement, et non la date du téléchargement.
 
-Vous pouvez également mettre à jour les dates de tous les membres d’une campagne existante. Pour ce faire, veillez à ce que la date du point de contact soit la date de l’interaction du membre. Il vous suffit de cliquer sur la Date de point de contact de l’achat de mise à jour en bloc, de filtrer la liste des membres de la campagne selon le cas et de[!UICONTROL Sélectionner la date]&quot; au-dessus de la liste des membres de la campagne, ajoutez la même date que celle à laquelle l&#39;événement a eu lieu.
+Vous pouvez également mettre à jour les dates de tous les membres d’une campagne existante. Pour ce faire, veillez à ce que la date du point de contact soit la date de l’interaction du membre. Cliquez sur la Date de point de contact de l’achat de mise à jour en bloc, filtrez la liste des membres de la campagne selon le cas et dans le[!UICONTROL Sélectionner la date]&quot; au-dessus de la liste des membres de la campagne, ajoutez la même date que celle à laquelle l&#39;événement a eu lieu.
 
 >[!CAUTION]
 >

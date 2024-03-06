@@ -4,10 +4,10 @@ description: Configuration de canal personnalisé en ligne - [!DNL Marketo Measu
 title: Configuration de canal personnalisé en ligne
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 71%
+source-wordcount: '1219'
+ht-degree: 69%
 
 ---
 
@@ -82,7 +82,7 @@ En outre, si vous créez un sous-canal pour l’un de vos canaux, vous devez cr�
 
 ## Configuration de règles de canaux personnalisés {#setting-up-your-custom-channels-rules}
 
-Une fois que vous avez décidé comment organiser et prioriser vos données, vous pouvez ajouter vos règles à la feuille de calcul. Voici quelques bonnes pratiques :
+Une fois que vous avez décidé comment organiser et classer par priorité vos données, vous êtes prêt à ajouter vos règles à la feuille de calcul. Voici quelques bonnes pratiques :
 
 * Faites en sorte que vos règles soient aussi simples que possible dès le départ. Vous pouvez toujours ajouter de la complexité au fur et à mesure.
 * N’ajoutez pas de caractères spéciaux dans les noms de canal (par exemple, $%#&amp;&#42;@)

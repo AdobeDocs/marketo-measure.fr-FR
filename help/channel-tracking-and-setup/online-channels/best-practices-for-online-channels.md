@@ -3,10 +3,10 @@ description: Bonnes pratiques pour les canaux en ligne - [!DNL Marketo Measure]
 title: Bonnes pratiques pour les canaux en ligne
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 67%
+source-wordcount: '611'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +22,7 @@ Les règles de canal en ligne constituent les directives relatives à la manièr
 
 ## Bonne pratique {#best-practice}
 
-Gardez à l’esprit les bonnes pratiques suivantes, que vous configuriez vos règles pour la première fois ou que vous les révisiez simplement pour en vérifier l’exactitude.
+Gardez à l’esprit les bonnes pratiques suivantes, que vous configuriez vos règles pour la première fois ou que vous les examiniez simplement pour vérifier leur exactitude.
 
 Prenez le temps de réfléchir à l’organisation de vos campagnes marketing et à la manière dont elle s’inscrivent dans le framework [!DNL Marketo Measure]. Déterminez les canaux et les sous-canaux à représenter dans vos canaux en ligne et les campagnes, paramètres UTM ou sites web de référence qui différencient ces canaux les uns des autres.
 

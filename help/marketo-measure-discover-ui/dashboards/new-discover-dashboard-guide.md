@@ -3,10 +3,10 @@ description: Nouveau guide de tableau de bord Discover - [!DNL Marketo Measure] 
 title: Nouveau guide de découverte du tableau de bord
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 4%
+source-wordcount: '1076'
+ht-degree: 3%
 
 ---
 
@@ -427,7 +427,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
         </p>
       </td>
       <td>
-        <p>Ces dimensions sont spécifiques à la plateforme et ne proposent pas une vue d’ensemble du trafic web. Nous recommandons aux utilisateurs d’explorer les données de canal/sous-canal/campagne dans Marketo Measure, puis de découvrir des outils de plateforme spécifiques pour obtenir des informations sur les mots-clés/au niveau créatif afin de préserver la précision et le contexte.
+        <p>Ces dimensions sont spécifiques à la plateforme et ne proposent pas une vue d’ensemble du trafic web. Il est recommandé aux utilisateurs d’explorer les données de canal/sous-canal/campagne dans Marketo Measure, puis d’explorer des outils de plateforme spécifiques pour obtenir des informations sur les mots-clés/au niveau créatif afin de préserver la précision et le contexte.
         </p>
       </td>
     </tr>

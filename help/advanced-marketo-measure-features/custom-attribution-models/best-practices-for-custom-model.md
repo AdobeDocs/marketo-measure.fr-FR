@@ -3,9 +3,9 @@ description: Bonnes pratiques relatives au modèle personnalisé - [!DNL Marketo
 title: Bonnes pratiques relatives aux modèles personnalisés
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 2%
 
 ---
@@ -49,9 +49,9 @@ Que vous configuriez votre modèle personnalisé pour la première fois ou que v
 * N’utilisez pas de champs de formule pour définir une étape personnalisée
    * Un champ booléen est une recommandation recommandée.
 * N’incorporez pas d’étapes personnalisées dans votre modèle personnalisé qui correspond à une [!DNL Marketo Measure] Position du point de contact Milestone (FT, LC, OC, perte/perte/perte/perte/perte/perte/perte/perte/perte/perte de propriété)
-   * Si vous le faites, ces positions se produiront toujours simultanément et peuvent entraîner un crédit d’attribution exagéré pour certaines parties de votre entonnoir.
+   * Si vous le faites, ces positions se produisent toujours simultanément et peuvent entraîner un crédit d’attribution exagéré pour certaines parties de votre entonnoir.
 * Travail avec votre équipe d’Opt-marketing
-   * Si vous intégrez l’équipe qui travaille le plus étroitement avec les scènes et leur signification, vous aurez la garantie d’utiliser les scènes correctes et de les définir correctement.
+   * L’intégration de l’équipe qui travaille le plus avec les étapes et leur signification garantit que vous utilisez les étapes correctes et qu’elles sont correctement définies.
 
 ## Bonne pratique de maintenance {#best-practice-for-maintenance}
 

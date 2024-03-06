@@ -4,9 +4,9 @@ description: Configuration de canal personnalisé hors ligne - [!DNL Marketo Mea
 title: Configuration de canal personnalisé hors ligne
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Une fois que vous avez modifié et mis à jour la feuille de calcul avec vos rè
 
 >[!TIP]
 >
->Vous souhaitez déterminer _when_ a [!DNL Salesforce] Le type de campagne est déplacé vers le bas [!DNL Marketo Measure] mappage de canal ? Accédez simplement à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir les valeurs figurant dans la liste de sélection et celles qui sont inactives. Les inactifs n’apparaîtront pas comme type sélectionnable dans notre[!UICONTROL Canaux hors ligne]&quot;. Notez que ce processus peut prendre de quelques minutes à 48 heures.
+>Vous souhaitez déterminer _when_ a [!DNL Salesforce] Le type de campagne est déplacé vers le bas [!DNL Marketo Measure] mappage de canal ? Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir les valeurs figurant dans la liste de sélection et celles qui sont inactives. Les inactifs n’apparaîtront pas comme type sélectionnable dans notre[!UICONTROL Canaux hors ligne]&quot;. Notez que ce processus peut prendre de quelques minutes à 48 heures.
 
 Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé et [!DNL Marketo Measure] charge les modifications et traite à nouveau les données.
 

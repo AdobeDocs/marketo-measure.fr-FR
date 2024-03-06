@@ -1,15 +1,16 @@
 ---
 description: Concepts de base du tableau de bord de Discover - [!DNL Marketo Measure] - Produit
-title: Découvrir les bases d’un tableau de bord
+title: Découvrir les bases du tableau de bord
 feature: Reporting
-source-git-commit: b984779d8d4795bf43b7494d5cba06ab84ae097d
+exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: '419'
+ht-degree: 2%
 
 ---
 
-# Découvrir les bases d’un tableau de bord {#discover-dashboard-basics}
+# Découvrir les bases du tableau de bord {#discover-dashboard-basics}
 
 Cet article vous guidera tout au long des fonctionnalités fondamentales de l’interface repensée, en vous assurant que vous pouvez accéder facilement à vos données et les interpréter. Découvrez la dynamique du volet de filtrage et les complexités de nos fonctionnalités de création de rapports améliorées, telles que les fonctions d’analyse, le filtrage croisé et les info-bulles.
 
@@ -105,6 +106,6 @@ La sélection d’un libellé de valeur ou d’axe dans une visualisation transc
 
 ### Infobulles {#tooltips}
 
-Les info-bulles fournissent des détails supplémentaires sur les données affichées. Pointez simplement sur un élément visuel et une info-bulle contextuelle s’affiche, fournissant des informations ou des explications relatives à ce point de données spécifique.
+Les info-bulles fournissent des détails supplémentaires sur les données affichées. Passez la souris sur un élément visuel et une info-bulle contextuelle s’affiche, fournissant des informations ou des explications relatives à ce point de données spécifique.
 
 ![](assets/discover-dashboard-basics-13.gif)

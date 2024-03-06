@@ -4,18 +4,18 @@ description: Structure de Marketo Measure - Marketo Measure - Documentation du p
 title: Structure de Marketo Measure
 exl-id: fa6de27c-cdd2-4fd9-ac35-7286fe2752d8
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 96%
+source-wordcount: '388'
+ht-degree: 62%
 
 ---
 
 # Structure de Marketo Measure {#marketo-measure-framework}
 
-Découvrez plus d’informations sur les quatre principaux composants qui constituent la structure de Marketo Measure. Marketo Measure s’appuie sur ces applications pour effectuer le suivi, l’organisation et l’hébergement des données, ainsi que pour fournir des fonctionnalités de création de rapports. Ces composants sont les suivants :
+Découvrez plus d’informations sur les quatre principaux composants qui constituent la structure de Marketo Measure. Marketo Measure s’appuie sur ces applications pour effectuer le suivi, l’organisation et l’hébergement des données, ainsi que pour fournir des fonctionnalités de création de rapports. Les quatre composants qui constituent la structure de Marketo Measure sont les suivants :
 
-* Code JavaScript Marketo Measure
+* Marketo Measure JavaScript
 * Intégrations CRM
 * Applications/systèmes tiers
 * Application Marketo Measure
@@ -30,7 +30,7 @@ Le code JavaScript de Marketo Measure effectue le suivi de toutes les interactio
 >
 >Pour plus d’informations sur l’ajout de Marketo Measure JS, [cliquez ici](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md).
 
-Le code JS de Marketo Measure capture les données provenant des visites web (y compris les visites anonymes), du trafic général, de la navigation sur les pages, des téléchargements de contenu et des envois de formulaire. Ces données sont transmises à votre CRM et chaque interaction marketing est affichée comme un point de contact.
+Marketo Measure JS capture les données provenant des visites web (y compris les visites web anonymes), du trafic général/de la navigation sur les pages, des téléchargements de contenu et des envois de formulaire. Ces données sont transmises à votre CRM et chaque interaction marketing est affichée comme un point de contact.
 
 ## Intégrations CRM {#crm-integrations}
 
@@ -38,7 +38,7 @@ Marketo Measure dispose d’intégrations CRM pour héberger et organiser toutes
 
 ![](assets/1-2.png)
 
-En intégrant les données Marketo Measure dans votre CRM, vous pouvez consulter les informations granulaires relatives à chaque point de contact et générer des rapports pour comprendre les performances de vos canaux.
+En affichant les données Marketo Measure dans votre CRM, vous pouvez consulter les informations granulaires relatives à chaque point de contact et générer des rapports pour comprendre les performances de vos canaux.
 
 ## Applications tierces {#third-party-applications}
 
@@ -54,12 +54,12 @@ L’application Marketo Measure sert à afficher des données d’attribution, g
 
 **Configuration de compte**
 
-C’est ici que vous pouvez mettre à jour les informations générales portant sur votre entreprise et accéder au code JavaScript Marketo Measure.
+C’est là que vous pouvez mettre à jour les informations générales de votre entreprise et accéder au JavaScript Marketo Measure.
 
 **Paramètres**
 
-Cet élément de menu vous permet de configurer les paramètres d’attribution et de mappage des canaux, de gérer les intégrations avec les CRM et les applications tierces, d’afficher/ajouter des utilisateurs Marketo Measure et de mettre à jour vos informations de facturation.
+Cet élément de menu vous permet de configurer vos paramètres d’attribution et de mappage de canaux, de gérer les intégrations avec les CRM et les applications tierces, d’afficher/ajouter des utilisateurs de compte Marketo Measure et de mettre à jour les informations de facturation.
 
 **Tableau de bord de retour sur investissement marketing**
 
-Le tableau de bord de retour sur investissement marketing vous permet de visualiser vos données en termes de performances, d’activité et de coûts pour chaque canal.
+Dans le menu Tableau de bord du retour sur investissement, vous pouvez visualiser vos données en termes de performances, d’activité et de coûts du canal.

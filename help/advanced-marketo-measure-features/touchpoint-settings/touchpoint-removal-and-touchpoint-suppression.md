@@ -4,9 +4,9 @@ description: Suppression des points de contact et suppression des points de cont
 title: Suppression et retrait des points de contact
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,8 @@ Si vous faites une erreur, ne vous inquiétez pas. Vous pouvez également suppri
 
 ![](assets/5.png)
 
-Pour terminer, [!UICONTROL Enregistrement et traitement] vos règles. Si vous effectuez beaucoup de modifications, veillez à enregistrer vos modifications en cours de route. [!DNL Marketo Measure] ne commencera pas à supprimer vos points de contact tant que vous n’aurez pas cliqué sur le bouton **Enregistrement et traitement** bouton .
+Pour terminer, [!UICONTROL Enregistrement et traitement] vos règles. Si vous effectuez de nombreuses modifications, veillez à enregistrer vos modifications en cours de route. [!DNL Marketo Measure] ne commencera pas réellement à supprimer vos points de contact tant que vous n’aurez pas cliqué sur
+[!UICONTROL **Enregistrement et traitement**].
 
 | **Opérateur** | **Cas d’utilisation** |
 |---|---|

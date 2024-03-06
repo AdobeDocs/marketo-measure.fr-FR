@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] Schéma Dynamics - [!DNL Marketo Measure]"
 title: "[!DNL Marketo Measure] Schéma Dynamics"
 exl-id: f8da47b1-d844-4bd2-8125-8689cbb5cc30
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 65%
+source-wordcount: '1070'
+ht-degree: 66%
 
 ---
 
@@ -912,7 +912,7 @@ Ce diagramme est une visualisation de haut niveau des relations entre les entit�
 
 ## Entités Dynamics Standard {#dynamics-standard-entities}
 
-Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] interagit avec, ainsi que les champs personnalisés que nous ajoutons à ces entités.
+Cette liste fournit les entités Dynamics Standard qui [!DNL Marketo Measure] interagit avec et les champs personnalisés que nous ajoutons à ces entités.
 
 **Lead**
 

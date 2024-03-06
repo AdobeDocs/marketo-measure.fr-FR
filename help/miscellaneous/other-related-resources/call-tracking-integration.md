@@ -4,9 +4,9 @@ description: Intégration du suivi des appels - [!DNL Marketo Measure]
 title: Intégration du suivi d’appel
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Notre intégration avec [!DNL CallTrackingMetrics] est conçu pour fusionner une
 
 ## Avant et après {#before-and-after}
 
-Consultez l’organigramme ci-dessous pour découvrir comment [!DNL Marketo Measure] utilisé pour gérer les appels téléphoniques sans intégration à CallTrackingMetrics. L’appel téléphonique qui a eu lieu n’a pas fait l’objet d’un suivi, il a donc été considéré comme une session web et aucun point de contact n’a été créé pour celui-ci. Ce n’est qu’au cours de la prochaine visite que l’utilisateur a rempli un formulaire qu’un point de contact a finalement été renseigné.
+Consultez l’organigramme ci-dessous pour voir comment [!DNL Marketo Measure] utilisé pour gérer les appels téléphoniques sans intégration à CallTrackingMetrics. L’appel téléphonique qui a eu lieu n’a pas fait l’objet d’un suivi, il a donc été considéré comme une session web et aucun point de contact n’a été créé pour celui-ci. Ce n’est qu’au cours de la prochaine visite que l’utilisateur a rempli un formulaire qu’un point de contact a finalement été renseigné.
 
 Avec l’intégration, vous pouvez voir que la session web a été liée à un appel téléphonique. Le prochain remplissage de formulaire se présente sous la forme d’une touche PostLC et est toujours suivi dans le cadre du parcours.
 
@@ -31,9 +31,9 @@ Avec l’intégration, vous pouvez voir que la session web a été liée à un a
 
 ## Fonctionnement {#how-it-works}
 
-CallTrackingMetrics doit faire un peu de travail de développement de son côté pour que cela fonctionne. Avec le code JavaScript qu’il place sur votre site, CallTrackingMetrics peut récupérer le _biz_uid de la variable [!DNL Marketo Measure] du cookie. Ce &quot;[!DNL BizibleId]&quot; est ensuite stocké par CallTrackingMetrics.
+CallTrackingMetrics doit effectuer un certain travail de développement pour que cela fonctionne. Avec le code JavaScript qu’il place sur votre site, CallTrackingMetrics peut récupérer _biz_uid de la variable [!DNL Marketo Measure] du cookie. Ce &quot;[!DNL BizibleId]&quot; est ensuite stocké par CallTrackingMetrics.
 
-Lorsqu’un visiteur se rend sur votre site et effectue un appel téléphonique, la fonction CallTrackingMetrics de transmettre ces données à [!DNL Salesforce]  En règle générale, une [!DNL Salesforce Task] est créé pour renseigner des données telles que le numéro de téléphone, l’objet, le type, et maintenant, la variable [!DNL BizibleId]
+Lorsqu’un visiteur se rend sur votre site et effectue un appel téléphonique, la fonction CallTrackingMetrics de transmettre ces données à [!DNL Salesforce].  En règle générale, une [!DNL Salesforce Task] est créé pour renseigner des données telles que le numéro de téléphone, l’objet, le type, et maintenant, la variable [!DNL BizibleId]
 
 La variable [!DNL BizibleId] est un champ installé avec la version 6.7+ de la variable [!DNL Marketo Measure] Package d’attribution marketing.
 
@@ -45,7 +45,7 @@ When [!DNL Marketo Measure] Trouve un enregistrement de tâche avec un connu [!D
 
 ## Point de contact {#the-touchpoint}
 
-When [!DNL Marketo Measure] peut importer/télécharger la tâche, nous traitons ce détail avec la session web. Dans la plupart des cas, il peut être fusionné avec un référent ou une publicité. Dans l’exemple ci-dessous, un visiteur a trouvé l’entreprise via une publicité Google payante et a effectué un appel téléphonique.
+When [!DNL Marketo Measure] peut importer/télécharger la tâche, nous traitons ce détail avec la session web. En règle générale, il peut être fusionné avec un référent ou une publicité. Dans l’exemple ci-dessous, un visiteur a trouvé l’entreprise via une publicité Google payante et a effectué un appel téléphonique.
 
 La variable [!UICONTROL Point de contact] Le type &quot;Appel&quot; est extrait de la tâche, de la capture d’écran ci-dessus, qui est également renseignée par CallTrackingMetrics lors de la création de la tâche.
 
@@ -69,9 +69,9 @@ Le type de point de contact et le support contiennent tous deux les données ext
 
 **Pourquoi cet appel téléphonique n’est-il pas lié à une session web ?**
 
-Tout d’abord, vérifiez la tâche pour vous assurer qu’une [!DNL BizibleId] renseignée. S’il n’y a aucune valeur, nous ne créerons pas et ne pourrons pas créer de point de contact pour celui-ci. Cela doit être réaffecté avec CallTrackingMetrics.
+Tout d’abord, vérifiez la tâche pour vous assurer qu’une [!DNL BizibleId] renseignée. S’il n’y a aucune valeur, nous ne pouvons pas créer de point de contact pour celui-ci. Cela doit être réaffecté avec CallTrackingMetrics.
 
-S’il existe une valeur, notez que toutes les sessions web ne sont prises en compte que pour 30 minutes. Si un utilisateur a cliqué sur une publicité Google à 12h17 (début de la session sur le site web), mais que l’appel téléphonique n’a pas eu lieu avant 13h05, nous ne fusionnerons pas la session web et l’appel téléphonique. En revanche, [!DNL Marketo Measure] crée une propriété distincte [!DNL Salesforce Task] point de contact pour effectuer le suivi de l’appel téléphonique, mais ne contiendra aucune donnée de session web.
+S’il existe une valeur, notez que toutes les sessions web ne sont prises en compte que pour 30 minutes. Si un utilisateur a cliqué sur une publicité Google à 12h17 (début de la session sur le site web), mais que l’appel téléphonique n’a pas eu lieu avant 13h05, nous ne fusionnerons pas la session web et l’appel téléphonique. En revanche, [!DNL Marketo Measure] crée une [!DNL Salesforce Task] point de contact pour effectuer le suivi de l’appel téléphonique, mais ne contiendra aucune donnée de session web.
 
 ![](assets/6.png)
 

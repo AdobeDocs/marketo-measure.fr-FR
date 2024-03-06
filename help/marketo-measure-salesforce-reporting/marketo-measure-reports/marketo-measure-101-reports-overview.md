@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Présentation des 101 rapports - [!DNL Mark
 title: "[!DNL Marketo Measure] Présentation des rapports 101"
 exl-id: 83977b81-8055-47fd-8a6b-5ef32d280269
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '926'
 ht-degree: 2%
 
 ---
@@ -55,4 +55,4 @@ Il est recommandé de traiter le _[!DNL Marketo Measure]101.._&quot; comme modè
 
 Le dossier &quot;Rapports points de contact client&quot; est conçu pour vous aider à prendre en main vos [!DNL Marketo Measure] création de rapports, pour les rapports pratiques, vous devez personnaliser ces rapports afin qu’ils soient adaptés à vos besoins de création de rapports. vous devez ajouter les filtres nécessaires pour vous assurer que les enregistrements du rapport (et leurs points de contact associés) sont alignés sur votre objectif de création de rapports.
 
-Une fois que vous connaissez le &quot;_[!DNL Marketo Measure]101.._&quot; , vous pouvez les recréer à partir de types de rapports personnalisés pour des besoins de création de rapports plus personnalisés. Création de la variable [[!DNL Marketo Measure] Types de rapports personnalisés](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) vous permettra d’extraire des champs personnalisés que vous pouvez généralement utiliser dans d’autres rapports de gestion de la relation client. Cela vous aidera à vous amener [!DNL Marketo Measure] création de rapports au niveau suivant !
+Lorsque vous connaissez le _[!DNL Marketo Measure]101.._&quot; , vous pouvez les recréer à partir de types de rapports personnalisés pour des besoins de création de rapports plus personnalisés. Création de la variable [[!DNL Marketo Measure] Types de rapports personnalisés](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) vous permettra d’extraire des champs personnalisés que vous pouvez généralement utiliser dans d’autres rapports de gestion de la relation client. Cela vous aidera à vous amener [!DNL Marketo Measure] création de rapports au niveau suivant !

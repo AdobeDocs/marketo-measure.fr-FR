@@ -4,9 +4,9 @@ description: Ajouter [!DNL Marketo Measure] to [!DNL Hubspot] - [!DNL Marketo Me
 title: Ajouter [!DNL Marketo Measure] to [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '179'
 ht-degree: 1%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 Découvrez comment ajouter le [!DNL Marketo Measure] JavaScript pour effectuer le suivi de votre [!DNL Hubspot] landing pages et envois de formulaire.
 
-La zone réactive est un peu différente des autres systèmes d’automatisation marketing, dans la mesure où elle peut héberger vos landing pages/formulaires ET votre site web. Il est important de noter que les instructions ci-dessous servent à [!DNL Marketo Measure] suivi de l’activité [!DNL Hubspot]- pages hébergées. Si vous mettez votre site web sous tension avec un CMS autre que [!DNL Hubspot] (Par exemple, Wordpress), vous devrez ajouter la variable [!DNL Marketo Measure] JavaScript vers ce CMS également.
+La zone réactive est un peu différente des autres systèmes d’automatisation marketing, dans la mesure où elle peut héberger vos landing pages/formulaires ET votre site web. Il est important de noter que les instructions ci-dessous servent à [!DNL Marketo Measure] suivi de l’activité [!DNL Hubspot]- pages hébergées. Si vous mettez votre site web sous tension avec un CMS autre que [!DNL Hubspot] (par exemple, Wordpress), vous devez ajouter la variable [!DNL Marketo Measure] JavaScript vers ce CMS également.
 
 >[!NOTE]
 >

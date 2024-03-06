@@ -3,9 +3,9 @@ description: Bonnes pratiques relatives aux paramètres des points de contact - 
 title: Bonnes pratiques relatives aux paramètres des points de contact
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '658'
 ht-degree: 6%
 
 ---
@@ -37,7 +37,7 @@ Dans votre [!DNL Marketo Measure] , [!UICONTROL Paramètres des points de contac
 Gardez à l’esprit les bonnes pratiques suivantes, que vous créiez des règles de définition des points de contact pour la première fois ou que vous les examiniez simplement pour vérifier leur exactitude.
 
 * Définition de la liste des données que vous souhaitez supprimer ou supprimer avant de créer les règles
-* Identifiez exactement les champs qui désigneront clairement la ou les règles que vous configurez.
+* Identifier exactement les champs qui désigneront clairement la ou les règles que vous définissez
 * Assurez-vous d’avoir spécifié l’opérateur correct pour la règle.
 * À l’aide de la clé ci-dessus, assurez-vous que votre règle est spécifiée dans la section appropriée des paramètres du point de contact.
 * Testez vos règles avant de les implémenter en répliquant la logique de règle dans un rapport Point de contact d’acheteur dans le CRM afin de vous assurer qu’elles suppriment ou suppriment les données souhaitées.

@@ -3,10 +3,10 @@ description: Bonnes pratiques relatives à la segmentation - [!DNL Marketo Measu
 title: Bonnes pratiques relatives à la segmentation
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 87%
+source-wordcount: '450'
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ Lorsque la variable est envoyée à [!UICONTROL Discover], les segments s’affi
 
 ## Bonne pratique {#best-practice}
 
-Gardez à l’esprit les bonnes pratiques suivantes, que vous définissiez la segmentation pour la première fois ou que vous examiniez simplement la segmentation qui a été précédemment définie.
+Gardez à l’esprit les bonnes pratiques suivantes, que vous définissiez la segmentation pour la première fois ou que vous passiez simplement en revue la segmentation précédemment établie.
 
 * Ne vous compliquez pas la tâche !
 * Alignez le nom du segment sur la nomenclature de votre organisation, c’est-à-dire la catégorie = nom du filtre, le segment = valeur du filtre.

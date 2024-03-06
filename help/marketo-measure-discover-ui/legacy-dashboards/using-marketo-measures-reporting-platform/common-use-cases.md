@@ -4,9 +4,9 @@ description: Cas d’utilisation courants - [!DNL Marketo Measure]
 title: Scénarios classiques
 exl-id: bf271658-9460-4fb2-9a0f-0c7404348421
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Lorsque vous examinez les recettes du pipeline, nous vous recommandons de modifi
 
 ## ROI de recherche payante {#paid-search-roi}
 
-Si vous souhaitez obtenir des informations sur la campagne et même le retour sur investissement au niveau du mot-clé de vos efforts de recherche payante, accédez au tableau de bord ROI Publicités sous les vues basées sur les rôles dans Discover. Ce tableau de bord fournit également des informations sur les recettes, les dépenses, les recettes de pipeline, les pistes, les contacts, les opportunités et les affaires provenant des publicités payantes.
+Si vous souhaitez obtenir des informations sur la campagne et même le retour sur investissement au niveau du mot-clé de vos efforts de recherche payante, accédez au tableau de bord du retour sur investissement des publicités sous les vues basées sur les rôles dans Discover. Ce tableau de bord fournit également des informations sur les recettes, les dépenses, les recettes de pipeline, les pistes, les contacts, les opportunités et les affaires provenant des publicités payantes.
 
 En outre, le tableau de bord Média payant sous les vues basées sur les rôles affichera les impressions, les clics, les pages vues et les visites provenant de tous les canaux de médias payants.
 

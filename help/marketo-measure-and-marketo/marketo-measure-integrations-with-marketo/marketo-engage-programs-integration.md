@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] Intégration de programmes - [!DNL Marketo M
 title: "[!DNL Marketo Engage] Intégration de programmes"
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1261'
 ht-degree: 1%
 
 ---
@@ -177,4 +177,4 @@ En raison de limitations techniques, nous ne pouvons pas prendre en charge pour 
 
 **Comment savoir si je dois utiliser des programmes ou des activités ?**
 
-La variable [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme spécifique, la variable [!DNL Marketo Engage] L’intégration des activités sera la configuration souhaitée, en particulier le type d’activité &quot;Changement d’état dans la progression&quot;.
+La variable [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme particulier, la variable [!DNL Marketo Engage] L’intégration des activités sera la configuration souhaitée, en particulier le type d’activité &quot;Changement d’état dans la progression&quot;.

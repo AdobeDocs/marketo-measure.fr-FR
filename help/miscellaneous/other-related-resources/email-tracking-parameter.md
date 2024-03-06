@@ -4,9 +4,9 @@ description: Paramètre de suivi des emails - [!DNL Marketo Measure]
 title: Paramètre de suivi des e-mails
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '404'
 ht-degree: 4%
 
 ---
@@ -72,6 +72,6 @@ Marketo Measure accepte les valeurs suivantes : Email Address, Salesforce Lead I
  </tbody> 
 </table>
 
-Et enfin, à l&#39;intérieur [!DNL Marketo Measure], vous devez spécifier le paramètre de suivi pour que [!DNL Marketo Measure] peut localiser la valeur d’adresse électronique ou d’identifiant. La valeur par défaut est &quot;mailId&quot;, comme illustré dans les exemples ci-dessus et dans la capture d’écran ci-dessous. Saisissez la valeur dans vos Paramètres dans [!DNL Marketo Measure], puis cliquez sur **[!UICONTROL Enregistrer]**.
+Et enfin, à l&#39;intérieur [!DNL Marketo Measure], vous devez spécifier le paramètre de suivi de sorte que [!DNL Marketo Measure] peut localiser la valeur d’adresse électronique ou d’identifiant. La valeur par défaut est &quot;mailId&quot;, comme illustré dans les exemples ci-dessus et dans la capture d’écran ci-dessous. Saisissez la valeur dans vos Paramètres dans [!DNL Marketo Measure], puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 ![](assets/one.png)

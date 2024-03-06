@@ -4,9 +4,9 @@ description: Configuration de l’affichage double du Gestionnaire de campagnes 
 title: Configuration l’attribution de visionnage moyen dans le gestionnaire de campagnes Doubleclick
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '318'
 ht-degree: 4%
 
 ---

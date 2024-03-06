@@ -2,16 +2,16 @@
 description: Notifications d’erreur - [!DNL Marketo Measure]
 title: Notifications d’erreur
 feature: Fundamentals
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '609'
+ht-degree: 83%
 
 ---
 
 # Notifications d’erreur {#error-notifications}
 
-Vous trouverez ci-dessous une liste des erreurs que vous pouvez recevoir par notification dans l’application ou par e-mail. Si vous recevez l’une de ces notifications, suivez les étapes de dépannage correspondantes. Si ces étapes ne résolvent pas le problème, contactez le [Support de Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
+Vous trouverez ci-dessous une liste des erreurs que vous pouvez recevoir par notification ou email in-app. Si vous recevez l’une de ces notifications, suivez les étapes de dépannage correspondantes. Si ces étapes ne résolvent pas le problème, contactez le [Support de Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
 
 <table>
   <tbody>
@@ -25,7 +25,7 @@ Vous trouverez ci-dessous une liste des erreurs que vous pouvez recevoir par not
       <td>API_DISABLED</td>
       <td>Une erreur s’est produite lors de l’import de CRM : API_DISABLED. Les appels API ont été désactivés pour cet utilisateur ou cette utilisatrice.</td>
       <td>L’autorisation d’API a été désactivée pour l’utilisateur ou l’utilisatrice de Marketo Measure.</td>
-      <td>Reportez-vous à la documentation Salesforce suivante pour savoir <a href="https://help.salesforce.com/s/articleView?id=sf.branded_apps_commun_api_permset.htm&amp;type=5">comment activer l’accès aux API</a>.</td>
+      <td>Reportez-vous à la documentation Salesforce suivante pour savoir <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">comment activer l’accès aux API</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
@@ -54,7 +54,7 @@ Vous trouverez ci-dessous une liste des erreurs que vous pouvez recevoir par not
     </tr>
     <tr>
       <td>INVALID_ADOBE_ANALYTICS_CONFIGURATION</td>
-      <td>Une erreur s’est produite lors de l’export d’Adobe Analytics : INVALID_ADOBE_ANALYTICS_CONFIGURATION. Erreur : chargement non autorisé. Confirmez le schéma de la source de données avant de le charger. ID de la source de données : 1234</td>
+      <td>Une erreur s’est produite pendant l’exportation Adobe Analytics : INVALID_ADOBE_ANALYTICS_CONFIGURATION : Erreur : Téléchargement non autorisé. Confirmez le schéma de la source de données avant de le charger. ID de la source de données : 1234</td>
       <td>L’intégration d’Adobe Analytics n’est pas configurée correctement.</td>
       <td>Pour garantir une configuration correcte, reportez-vous aux articles d’aide suivants :
         <ul>
@@ -73,7 +73,7 @@ Vous trouverez ci-dessous une liste des erreurs que vous pouvez recevoir par not
       <p>
       Une erreur s’est produite lors de l’import de l’annonce publicitaire : INVALID_CURRENCY_ISO_CODE. La devise XXX sur le compte 1234 n’est pas prise en charge par Marketo Measure.</td>
       <td>Une devise n’est pas prise en charge.</td>
-      <td>Dans le système source indiqué dans la notification (annonce publicitaire, CRM, Marketo), vérifiez que la devise associée à l’enregistrement comporte une devise prise en charge et valide. Les devises prises en charge sont dérivées des normes de devise ISO.</td>
+      <td>Dans le système source indiqué dans la notification (Ad, Crm, Marketo), assurez-vous que la devise associée à l’enregistrement dispose d’une devise prise en charge et valide. Les devises prises en charge sont dérivées des normes de devise ISO.</td>
     </tr>
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
@@ -127,7 +127,7 @@ Vous trouverez ci-dessous une liste des erreurs que vous pouvez recevoir par not
           Une erreur s’est produite lors de l’import CRM : NULL_EMPTY_CURRENCY_ISO_CODE. Le code ISO de devise est NULL ou vide lorsque MultiCurrency est activé pour RecordId 1234.
       </td>
       <td>La devise doit être un code de devise ISO pris en charge.</td>
-      <td>Dans le système source indiqué dans la notification (annonce publicitaire, CRM, Marketo), vérifiez que la devise associée à l’enregistrement comporte une devise prise en charge et valide. Les devises prises en charge sont dérivées des normes de devise ISO.</td>
+      <td>Dans le système source indiqué dans la notification (Ad, Crm, Marketo), assurez-vous que la devise associée à l’enregistrement dispose d’une devise prise en charge et valide. Les devises prises en charge sont dérivées des normes de devise ISO.</td>
     </tr>
     <tr>
       <td>OPERATION_TOO_LARGE</td>

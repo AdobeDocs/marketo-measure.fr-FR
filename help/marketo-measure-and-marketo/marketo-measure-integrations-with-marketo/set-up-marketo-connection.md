@@ -4,9 +4,9 @@ description: Configuration de la connexion Marketo - [!DNL Marketo Measure]
 title: Configuration de la connexion Marketo
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '190'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Voici comment configurer votre connexion à Marketo.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. Dans un nouvel onglet, connectez-vous à votre compte de Marketo Engage. Accédez à **Administration** > **Services web**. Faites défiler l’écran jusqu’à l’API REST. Mettez en surbrillance et enregistrez le point de terminaison et l’URL du service d’identité. vous en aurez besoin dans un peu.
+1. Dans un nouvel onglet, connectez-vous à votre compte de Marketo Engage. Accédez à **Administration** > **Services web**. Faites défiler l’écran jusqu’à l’API REST. Mettez en surbrillance et enregistrez le point de terminaison et l’URL du service d’identité. Vous en avez besoin dans les étapes suivantes.
 
    ![](assets/set-up-marketo-connection-5.png)
 
@@ -47,14 +47,14 @@ Voici comment configurer votre connexion à Marketo.
 
    ![](assets/set-up-marketo-connection-7.png)
 
-1. Retour à [!DNL Marketo Measure], renseignez les champs avec les données que vous venez de collecter.
+1. Retour à [!DNL Marketo Measure], renseignez les champs avec les données que vous avez collectées.
 
    ![](assets/set-up-marketo-connection-8.png)
 
-1. Après avoir saisi les valeurs, cliquez sur **[!UICONTROL Authentification]**. Votre compte de Marketo Engage sera alors connecté à [!DNL Marketo Measure].
+1. Après avoir saisi les valeurs, cliquez sur **[!UICONTROL Authentification]**. Votre compte de Marketo Engage est connecté à [!DNL Marketo Measure].
 
    ![](assets/set-up-marketo-connection-9.png)
 
    >[!NOTE]
    >
-   >[!DNL Marketo Measure] lancera des appels à l’API Marketo en votre nom sans utiliser aucune de vos limites d’API Marketo. Il n’est donc pas nécessaire de vous soucier des limites et de l’attribution de crédit avec d’autres intégrations.
+   >[!DNL Marketo Measure] appelle l’API Marketo en votre nom sans utiliser aucune de vos limites d’API Marketo. Il n’est donc pas nécessaire de vous soucier des limites et de l’attribution de crédit avec d’autres intégrations.

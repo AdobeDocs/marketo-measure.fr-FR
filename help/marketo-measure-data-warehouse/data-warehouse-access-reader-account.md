@@ -3,9 +3,9 @@ description: Accès des Data Warehouse - Compte de Reader - Documentation du pro
 title: Accès à Data Warehouse - Compte en lecture seule
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '488'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Pour accéder à l’entrepôt de données de votre Snowflake, vous devez accéd
 
    ![](assets/data-warehouse-access-reader-account-2.png)
 
-1. Sur cette page, vous trouverez le lien vers votre entrepôt de données de Snowflake et votre nom d’utilisateur.
+1. Cette page contient le lien vers votre entrepôt de données de Snowflake et votre nom d’utilisateur.
 
    ![](assets/data-warehouse-access-reader-account-3.png)
 
@@ -32,7 +32,7 @@ Pour accéder à l’entrepôt de données de votre Snowflake, vous devez accéd
    >
    >Il s’agit d’un compte en lecture seule disponible pour votre organisation, et pas seulement pour un utilisateur individuel. Tout utilisateur de votre entreprise qui a accès à [!DNL Marketo Measure] Vous pouvez utiliser ce compte pour vous connecter au compte de lecteur du Data Warehouse de Snowflake.
 
-1. Cliquez sur le lien proposé dans l’URL du Snowflake. Vous accédez alors à la page de connexion du Snowflake dans laquelle vous saisissez votre nom d’utilisateur et votre mot de passe. _Si vous ne disposez pas de votre mot de passe, reportez-vous aux étapes ci-dessous pour le réinitialiser._.
+1. Cliquez sur le lien fourni dans l’URL du Snowflake. Vous accédez alors à la page de connexion du Snowflake dans laquelle vous saisissez votre nom d’utilisateur et votre mot de passe. _Si vous ne disposez pas de votre mot de passe, reportez-vous aux étapes ci-dessous pour le réinitialiser._.
 
    ![](assets/data-warehouse-access-reader-account-4.png)
 
@@ -59,21 +59,21 @@ Pour accéder à l’entrepôt de données de votre Snowflake, vous devez accéd
 
 ## Connexion à Snowflake via des outils tiers {#connecting-to-snowflake-via-third-party-tools}
 
-vous devrez saisir quelques informations pour connecter votre entrepôt de données Snowflake à un outil tiers.
+Vous devez saisir quelques informations pour connecter votre entrepôt de données de Snowflake à un outil tiers.
 
 >[!NOTE]
 >
 >Chaque outil a des exigences de connexion différentes. Il est recommandé de consulter la documentation de l’outil spécifique que vous essayez de connecter.
 
 * **URI** (toujours requis)
-   * Il s’agit du nom de domaine du compte du Snowflake.  Il est contenu dans une partie du lien de connexion du Snowflake.
+   * Il s’agit du nom de domaine du compte du Snowflake. Il est contenu dans une partie du lien de connexion du Snowflake.
 * **Nom d’utilisateur** (toujours requis)
    * Le nom d’utilisateur est répertorié sur la page d’informations du Data Warehouse dans [!DNL Marketo Measure].
 * **Password** (toujours requis)
-   * Il s’agit du mot de passe que vous définissez la première fois que vous vous connectez à votre compte de Snowflake.  Pour réinitialiser votre mot de passe, reportez-vous aux étapes décrites ci-dessus.
+   * Il s’agit du mot de passe que vous définissez la première fois que vous vous connectez à votre compte de Snowflake. Pour réinitialiser votre mot de passe, reportez-vous aux étapes décrites ci-dessus.
 * **Nom de base de données** (pas toujours requis)
    * La base de données est ce qui stocke les données en Snowflake. Il s’agit de la ressource de stockage. Le nom de la base de données est répertorié dans la page d’informations du Data Warehouse de la section [!DNL Marketo Measure].
 * **Nom de l’entrepôt** (pas toujours requis)
-   * L’entrepôt est celui qui exécute les requêtes en Snowflake. C&#39;est la ressource informatique.  Le nom de l’entrepôt est répertorié sur la page d’informations du Data Warehouse dans [!DNL Marketo Measure].
+   * L’entrepôt est celui qui exécute les requêtes en Snowflake. C&#39;est la ressource calculée. Le nom de l’entrepôt est répertorié sur la page d’informations du Data Warehouse dans [!DNL Marketo Measure].
 
   ![](assets/data-warehouse-access-reader-account-9.png)

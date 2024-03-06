@@ -4,18 +4,18 @@ description: Ajouter [!DNL Marketo Measure] Script via [!DNL Google Tag Manager]
 title: Ajout d’un script  [!DNL Marketo Measure]  via  [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 59%
+source-wordcount: '192'
+ht-degree: 44%
 
 ---
 
 # Ajout d’un script [!DNL Marketo Measure] via [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 
-Lors de l’installation du code JavaScript [!DNL Marketo Measure], nous vous recommandons vivement de [coder en dur le script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} directement sur votre site. Cependant, si cela n’est pas possible, vous pouvez également utiliser [!DNL Google Tag Manager] (GTM) pour charger la variable [!DNL Marketo Measure] JS. Notez que [!DNL Marketo Measure] Les fichiers JS chargés via GTM sont sensibles à la latence. La latence entraîne un délai de chargement du script, ce qui peut entraîner l’absence d’environ 3 à 5 % de tous les envois de formulaire.
+Lors de l’installation du [!DNL Marketo Measure] JavaScript, il est recommandé de [codage dur du script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} directement sur le site. Si cela n’est pas possible, vous pouvez également utiliser [!DNL Google Tag Manager] (GTM) pour charger la variable [!DNL Marketo Measure] JS. Notez que [!DNL Marketo Measure] Les fichiers JS chargés via GTM sont sensibles à la latence. La latence entraîne un délai de chargement du script, ce qui peut entraîner l’absence d’environ 3 à 5 % de tous les envois de formulaire.
 
-Si vous décidez d’ajouter votre script via GTM, définissez la variable [!DNL Marketo Measure] de la priorité la plus élevée dans l’ordre de déclenchement et assurez-vous qu’il n’y a pas de scripts synchrones devant la balise [!DNL Marketo Measure] afin de réduire les effets liés à la latence de GTM.
+Si vous décidez d’ajouter votre script via GTM, définissez la variable [!DNL Marketo Measure] de la priorité la plus élevée dans l’ordre de déclenchement et assurez-vous qu’il n’y a pas de scripts synchrones devant la balise [!DNL Marketo Measure] pour réduire les effets liés à la latence de GTM.
 
 >[!NOTE]
 >
@@ -31,4 +31,4 @@ Si vous décidez d’ajouter votre script via GTM, définissez la variable [!DNL
 
 1. Cliquez sur **[!UICONTROL Ajouter une règle de déclenchement]** pour indiquer à Google de charger notre fragment de code sur *toutes les pages*.
 
-1. Accédez à la section Vue d’ensemble du brouillon de conteneur à gauche. Cliquez sur le bouton pour créer une nouvelle version de votre conteneur et publier les modifications.
+1. Accédez à la section Vue d’ensemble du brouillon de conteneur à gauche. Cliquez sur le bouton pour créer une version de votre conteneur et publier les modifications.

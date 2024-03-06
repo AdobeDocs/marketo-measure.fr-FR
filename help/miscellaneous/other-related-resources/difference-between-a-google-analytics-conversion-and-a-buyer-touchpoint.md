@@ -4,10 +4,10 @@ description: Différence entre une conversion de Google Analytics et un point de
 title: Différence entre une conversion de Google Analytics et un point de contact acheteur
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 4%
+source-wordcount: '495'
+ht-degree: 5%
 
 ---
 
@@ -17,9 +17,9 @@ Découvrez ce qu’est une [!DNL Google Analytics (GA)] L’objectif est et la m
 
 **Que sont les conversions de Google Analytics ?**
 
-[!UICONTROL Google Analytics] les conversions sont entièrement déterminées par la manière dont un marketeur ou un développeur web code les performances &quot;objectif&quot; sur un site web particulier. Les objectifs, selon Google, peuvent être considérés comme &quot;effectuer un achat (pour un site de commerce électronique), terminer un niveau de jeu (pour une application de jeux mobile) ou envoyer un formulaire d’information de contact (pour un site de marketing ou de génération de prospects)&quot;. La plupart du temps, les marketeurs voient les objectifs/conversions comme une personne remplissant un formulaire d’information.
+[!UICONTROL Google Analytics] les conversions sont déterminées par la manière dont un marketeur ou un développeur web code les performances &quot;objectif&quot; sur un site web particulier. Les objectifs, selon Google, peuvent être considérés comme &quot;effectuer un achat (pour un site de commerce électronique), terminer un niveau de jeu (pour une application de jeu mobile) ou envoyer un formulaire d’information de contact (pour un site de marketing ou de génération de prospects)&quot;. La plupart du temps, les marketeurs voient les objectifs/conversions comme une personne remplissant un formulaire d’information.
 
-Cependant, les objectifs ne peuvent pas être codés pour gérer un comportement très spécifique. Il existe plutôt des types d’objectifs qu’un développeur web peut configurer. Voici quelques exemples :
+Cependant, les objectifs ne peuvent pas être codés pour gérer un comportement spécifique. Il existe plutôt des types d’objectifs qu’un développeur web peut configurer. Voici quelques exemples :
 
 <table> 
  <colgroup> 
@@ -60,7 +60,7 @@ La plupart des spécialistes du marketing configurent leurs conversions comme &q
 
 Cela signifie que Google considère les pages vues de remerciement comme une conversion. D’un point de vue Google Analytics, c’est une prise de conscience que la plupart des spécialistes du marketing sont d’accord.
 
-Cependant, les points de contact d’achat agissent très différemment.
+Cependant, les points de contact d’achat agissent différemment.
 
 **En quoi les points de contact des acheteurs diffèrent-ils ?**
 
@@ -70,9 +70,9 @@ Cependant, les points de contact d’achat agissent très différemment.
 
 * Un prospect/contact associé à ces conversions apparaît dans votre CRM.
 * La variable [!DNL Marketo Measure] JS est présent sur les pages Web contenant le formulaire.
-* Un formulaire est envoyé dans un délai d’une session de 30 minutes.
+* Un formulaire est envoyé dans le cadre d’une session de 30 minutes.
 
-[!DNL Marketo Measure] ignorera les conversions de Destination Google Analytics lorsque :
+[!DNL Marketo Measure] ignore les conversions Destination Google Analytics lorsque :
 
 * Un robot envoie les formulaires sur un site web (ces robots ne sont généralement pas intégrés au CRM d’un client).
 * Un utilisateur envoie davantage de formulaires après leur premier envoi. [!DNL Marketo Measure] ne poussera que la première conversion de cette session.
@@ -80,4 +80,4 @@ Cependant, les points de contact d’achat agissent très différemment.
 * L’utilisateur recharge la page de remerciement plusieurs fois.
 * L’utilisateur utilise n’importe quel outil de blocage des publicités.
 
-Comme vous pouvez le voir, il existe des différences fondamentales entre ce qui est GA et ce qui est [!DNL Marketo Measure] envisagez une conversion comme telle. Par conséquent, il est très probable que le nombre de conversions et le nombre de points de contact du formulaire diffèrent.
+Comme vous pouvez le voir, il existe des différences fondamentales entre ce qui est GA et ce qui est [!DNL Marketo Measure] envisagez une conversion comme telle. Par conséquent, il est probable que le nombre de conversions et le nombre de points de contact du formulaire diffèrent.

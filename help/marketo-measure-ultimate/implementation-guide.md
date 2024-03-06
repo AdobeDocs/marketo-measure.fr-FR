@@ -2,10 +2,10 @@
 description: '[!DNL Marketo Measure] Guide de mise en oeuvre ultime - [!DNL Marketo Measure]'
 title: Guide de mise en œuvre [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
-source-git-commit: 289c40a07c60ccc0262e2aaf95f21fca0c945b11
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 96%
+source-wordcount: '997'
+ht-degree: 64%
 
 ---
 
@@ -15,7 +15,7 @@ Cet article sert de guide de mise en œuvre de Marketo Measure Ultimate. Il fou
 
 ## Principales différences lors de l’utilisation de l’option Ultimate par rapport aux niveaux standard {#main-differences-when-using-ultimate-over-standard-tiers}
 
-Importer des données B2B via AEP : les personnes spécialisées dans le marketing peuvent importer leurs données B2B (par exemple, compte, opportunité, contact, lead, campagne, personne membre de campagne, activité) via AEP. Ingérez des données de presque toutes les sources de données, ainsi que de plusieurs sources de données du même type, afin d’importer toutes vos données pour l’attribution.
+Importation de données B2B par l’intermédiaire d’AEP : les marketeurs doivent importer leurs données B2B (par exemple, compte, opportunité, contact, prospect, campagne, membre de campagne, activité) via AEP. Ingérez à partir de pratiquement n’importe quelle source de données et de plusieurs sources de données du même type afin d’importer toutes vos données pour l’attribution.
 
 * Utilisez-le avec presque tous les CRM, pas uniquement Salesforce et Dynamics.
 * Connectez plusieurs instances CRM et/ou MAP à une instance Marketo Measure.
@@ -24,11 +24,11 @@ Importer des données B2B via AEP : les personnes spécialisées dans le marke
 Les connexions directes au CRM et à Marketo Engage ne sont plus disponibles pour Ultimate.
 
 * Ultimate ne repousse pas les données vers le CRM. La clientèle peut utiliser les données de l’entrepôt de données.
-* Les personnes spécialisées dans le marketing continueront à importer les données de la plateforme d’annonces publicitaires par le biais de connexions directes et à effectuer le suivi des activités web par le biais du code JavaScript Marketo Measure.
+* Les marketeurs continuent d’apporter des données Ad Platform par le biais de connexions directes et du suivi des activités web via Marketo Measure javascript.
 
-Les personnes utilisant Ultimate sont approvisionnées par AEP. Si elles disposent déjà d’AEP, aucune nouvelle instance n’est réapprovisionnée.
+Les utilisateurs finaux sont configurés en AEP. S’ils disposent déjà d’AEP, nous ne réinitialiserons pas une nouvelle instance.
 
-* La version AEP configurée comprend tous les connecteurs source, la modélisation des données de schéma, les jeux de données, le service de requête ad hoc et une destination pour Marketo Measure uniquement.
+* La version AEP configurée inclut tous les connecteurs source, la modélisation des données de schéma, les jeux de données, le service de requête ad hoc et une destination pour Marketo Measure uniquement.
 
 En savoir plus sur [Marketo Measure Ultimate](/help/marketo-measure-ultimate/marketo-measure-ultimate-overview.md){target="_blank"}.
 
@@ -51,7 +51,7 @@ En savoir plus sur [Marketo Measure Ultimate](/help/marketo-measure-ultimate/m
 
 ## Créer un schéma {#creating-a-schema}
 
-Nous vous recommandons d’utiliser un utilitaire de génération automatique pour créer 10 schémas B2B standard.
+Nous vous recommandons d’utiliser un utilitaire de génération automatique pour créer dix schémas B2B standard.
 
 * Les étapes de téléchargement et de configuration de l’utilitaire [peuvent être consultées ici](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=fr#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
@@ -61,7 +61,7 @@ Pour les personnes qui disposent d’un _**Droit CDP**_ : créez des schémas e
 
 ![](assets/marketo-measure-ultimate-implementation-guide-2.png)
 
-* Sélectionnez un compte et tous les modèles B2B pour créer 10 schémas B2B standard.
+* Sélectionnez un compte et tous les modèles B2B pour créer dix schémas B2B standard.
 
 ![](assets/marketo-measure-ultimate-implementation-guide-3.png)
 
@@ -69,7 +69,7 @@ Pour les personnes qui disposent d’un _**Droit CDP**_ : créez des schémas e
 
 >[!IMPORTANT]
 >
->Lors de l’ajout d’un nouveau jeu de données, nous vous recommandons de créer un nouveau flux plutôt que d’en utiliser un existant.
+>Lors de l’ajout d’un nouveau jeu de données, nous vous recommandons de créer un flux plutôt que d’en utiliser un existant.
 
 [Vue d’ensemble des flux de données](https://experienceleague.adobe.com/docs/experience-platform/dataflows/home.html?lang=fr){target="_blank"}
 
@@ -78,12 +78,12 @@ Pour les personnes qui disposent d’un _**Droit CDP**_ : créez des schémas e
 1. Sélectionnez une source.
 1. Sélectionnez un compte existant ou créez-en un.
 1. Sélectionnez un type de données dans la liste des types disponibles à l’import à partir de la source.
-1. Sélectionnez le jeu de données existant ou créez-en un.
+1. Sélectionnez un jeu de données existant ou créez-en un.
 1. Mappez les champs de la source au schéma.
 
    >[!NOTE]
    >
-   >* Si vous mappez un type de schéma à un autre type identique, l’opération est automatique.
+   >* Si vous mappez un type de schéma à un autre identique, cela se fait automatiquement.
    >* Vous pouvez également importer le mappage à partir d’un autre flux du système.
    >* Vous pouvez mapper un champ Source à plusieurs champs de destination, mais le contraire est impossible.
    >* Vous pouvez créer des champs calculés ([fonctions de mappage de la préparation de données](https://experienceleague.adobe.com/docs/experience-platform/data-prep/functions.html?lang=fr){target="_blank"}).
@@ -99,7 +99,7 @@ Pour les personnes qui disposent d’un _**Droit CDP**_ : créez des schémas e
 
 1. Définissez une cadence de chargement des données.
 1. Vérifiez et validez.
-1. Consultez la page « Statut du compte » dans les paramètres de l’interface utilisateur de Measure pour connaître le statut du flux de données.
+1. Consultez la page &quot;État du compte&quot; dans les paramètres de l’interface utilisateur de mesure pour connaître l’état du flux de données.
 
 **Surveillance :**
 
@@ -131,12 +131,12 @@ Avant de commencer, accédez à la section « Experience Platform > Mappage d
 
 >[!NOTE]
 >
->* Les données d’une entité donnée (un compte, par exemple) provenant d’une source de données particulière ne peuvent entrer que dans un seul jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
->* Supprimez la destination entière dans AEP pour supprimer les données dans Measure. La désactivation ne fera qu’arrêter les nouveaux exports de données et les anciennes données seront conservées.
+>* Les données d’une entité donnée (par exemple, Compte) provenant d’une source donnée ne peuvent entrer que dans un jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
+>* Supprimez la destination entière dans AEP pour supprimer les données dans Measure. La désactivation arrête les nouveaux exports de données et conserve les anciennes données.
 >* La configuration de Measure sera pour la plupart identique, mais certaines parties, comme le mappage des étapes, auront un aspect différent.
 >* Quelques heures sont nécessaires pour qu’un nouveau flux de données génère une exécution de flux, ces dernières se produisant à intervalles horaires réguliers.
 
-Dans Measure, la devise par défaut doit être définie dans la section « Devise ».
+En mesure, la devise par défaut doit être définie dans la section &quot;Devise&quot;.
 
 * Si vous utilisez plusieurs devises, le schéma de taux de conversion de devise doit être renseigné dans AEP pour qu’il puisse être lu et utilisé pour les conversions.
 
@@ -150,26 +150,26 @@ Les étapes n’étant pas automatiquement importées à partir des données de 
 
 Si les étapes ne sont pas mappées, le système ne fonctionnera pas, car les données ne pourront aller nulle part.
 
-Si vous êtes client ou cliente Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut sur Contact, n’utilisez pas les deux champs ci-dessous spécifiques au prospect ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut comme Contact, n’utilisez pas les deux champs ci-dessous spécifiques à la piste ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted
 
 **Règles des personnes membres de la campagne**
 
-Vous devez sélectionner un jeu de données et définir des règles pour chacun d’eux.
+Sélectionnez un jeu de données et définissez des règles pour chacun d’eux.
 
 **Règles des événements d’expérience**
 
-Vous devez sélectionner un jeu de données et les types d’activité.
+Choisissez un jeu de données et sélectionnez les types d’activité.
 
 * Les activités personnalisées ne sont pas prises en charge.
 * Si la clientèle a des activités qui ne correspondent pas aux options disponibles, nous vous suggérons de les classer comme « Moments intéressants » et d’utiliser des champs personnalisés pour les distinguer.
 
 **Canaux hors ligne :**
 
-* Nous ne créons pas de règles de mappage de canal spécifiques à un jeu de données, pour une approche globale.
-* Nous devons éventuellement faire correspondre le type de campagne CRM et le canal, mais pour l’instant, nous pouvons mapper le nom du canal aux deux champs comme solution de contournement.
+* Nous ne créons pas de règles de mappage de canal spécifiques à un jeu de données, ce serait donc global.
+* Nous devons éventuellement faire correspondre le type de campagne CRM et le canal, mais pour l’instant, nous pouvons mapper le nom du canal aux deux champs comme solution de contournement.
 * **Règles de canal : les données renvoyées ne comportent pas de données de transition d’étapes.**
 
 Les paramètres Touchpoint et Segment restent les mêmes.

@@ -3,16 +3,16 @@ unique-page-id: 18874761
 description: Authentification unique - [!DNL Marketo Measure]
 title: Authentification unique SSO
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
 
 # Authentification unique SSO {#single-sign-on}
 
-Le langage SAML (langage de balisage d’assertion de sécurité) pour SSO (authentification unique) permet aux utilisateurs de s’authentifier par le biais du fournisseur d’identité d’une entreprise lorsqu’ils se connectent au [!DNL Marketo Measure] application. La connexion unique permet à un utilisateur de s’authentifier une seule fois, sans avoir à authentifier des applications distinctes. SAML est une nécessité pour les clients d’entreprise, car tous les utilisateurs n’auront pas une [!DNL Salesforce] ou [!DNL Google] au sein de leur organisation. Pour l&#39;échelle, [!DNL Marketo Measure] a développé une solution SAML qui peut prendre en charge les fournisseurs d’identité de l’entreprise.
+Le langage SAML (langage de balisage d’assertion de sécurité) pour SSO (authentification unique) permet aux utilisateurs de s’authentifier par le biais du fournisseur d’identité d’une entreprise lorsqu’ils se connectent au [!DNL Marketo Measure] application. La connexion unique permet à un utilisateur de s’authentifier une seule fois, sans avoir à authentifier des applications distinctes. SAML est une nécessité pour les clients d’entreprise, car tous les utilisateurs n’ont pas une [!DNL Salesforce] ou [!DNL Google] au sein de leur organisation. Pour mettre à l’échelle, [!DNL Marketo Measure] a développé une solution SAML qui peut prendre en charge les fournisseurs d’identité de l’entreprise.
 
 >[!CAUTION]
 >
@@ -35,7 +35,7 @@ Pour commencer, accédez à la page Paramètres > Sécurité > Authentification 
 
 ## Processus {#process}
 
-[!DNL Marketo Measure] L’authentification unique requiert la configuration de vos paramètres d’authentification dans une série d’étapes importantes à suivre afin que vous ne risquiez pas d’être verrouillé hors de votre [!DNL Marketo Measure] compte .
+[!DNL Marketo Measure] L’authentification unique requiert la configuration de vos paramètres d’authentification en une série d’étapes afin que vous ne risquiez pas d’être verrouillé hors de votre [!DNL Marketo Measure] compte .
 
 Configurez la variable [!DNL Marketo Measure] Application dans votre fournisseur d’identité. Consultez la documentation externe répertoriée ci-dessous pour obtenir des instructions pas à pas.
 
@@ -121,7 +121,7 @@ Essaie-le !
 
 Par défaut, tous les comptes peuvent accéder à la variable [!DNL Marketo Measure] à l’aide de leurs informations d’identification CRM. Parfois, les propriétaires de compte doivent limiter l’accès à certains rôles et ne pas l’ouvrir à tous les utilisateurs disposant d’une licence CRM active. La configuration avancée vous permet de mapper vos rôles et groupes CRM à [!DNL Marketo Measure] autorisations utilisateur.
 
-Si aucun rôle ou groupe n’est mappé, le paramètre par défaut est que toutes les licences actives dans votre CRM auront accès aux utilisateurs standard.
+Si aucun rôle ou groupe n’est mappé, le paramètre par défaut est que toutes les licences actives dans votre CRM disposent d’un accès utilisateur standard.
 
 * [!DNL Marketo Measure] Utilisateur standard : indiquez la valeur de rôle ou de groupe pour les utilisateurs qui doivent disposer d’un accès en lecture seule au [!DNL Marketo Measure] application.
 * [!DNL Marketo Measure] Utilisateur administrateur du compte : indiquez la valeur de rôle ou de groupe pour les utilisateurs qui doivent disposer d’un accès administratif à la variable [!DNL Marketo Measure] application. Cela signifie que le rôle a accès à la modification des configurations et des paramètres liés à votre compte.
@@ -152,7 +152,7 @@ Uniquement valide [!DNL Google] vous pouvez ajouter des comptes et un rôle util
 
 ## Liens externes {#external-links}
 
-* [Okta](http://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
-* [Identité Ping](http://docs.pingidentity.com/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
-* [OneLogin](http://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
-* [Active Directory](http://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)
+* [Okta](https://developer.okta.com/standards/SAML/setting_up_a_saml_application_in_okta)
+* [Identité Ping](https://docs.pingidentity.com:443/bundle/p1_enterpriseConfigSsoSaml_cas/page/enableAppWithoutURL.html)
+* [OneLogin](https://onelogin.service-now.com/support?id=kb_article&amp;sys_id=b2c91143db109700d5505eea4b9619d5)
+* [Active Directory](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-saas-custom-apps)

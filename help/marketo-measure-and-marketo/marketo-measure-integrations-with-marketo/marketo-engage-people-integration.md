@@ -4,9 +4,9 @@ description: "[!DNL Marketo Engage] Intégration de personnes - [!DNL Marketo Me
 title: "[!DNL Marketo Engage] Intégration de personnes"
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '868'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Pour détecter ces doublons, veillez à ce que [!DNL Marketo-Salesforce] ou [!DN
 
 ![](assets/5b.png)
 
-Les clients ont la possibilité de créer des rapports sur l’ensemble des personnes Marketo et des personnes CRM dans le [!DNL Marketo Measure] Découvrez-le. Si vous souhaitez créer des rapports uniquement sur les personnes CRM, nous vous recommandons de créer un segment pour les filtrer.
+Les clients ont la possibilité de créer des rapports sur l’ensemble des personnes Marketo et des personnes CRM dans le [!DNL Marketo Measure] Découvrez-le. Si vous souhaitez créer des rapports uniquement sur les personnes CRM, nous vous recommandons de créer un segment afin de les filtrer.
 
 ## [!DNL Marketo Measure Discover] {#marketo-measure-discover}
 

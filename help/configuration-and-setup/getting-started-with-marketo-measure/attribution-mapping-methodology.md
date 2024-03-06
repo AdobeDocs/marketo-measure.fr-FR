@@ -4,9 +4,9 @@ description: Méthodologie de mappage des attributs - [!DNL Marketo Measure]
 title: Méthodologie de mappage pour les attributions
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: cd5597a681f388a5b5c743dadd38bf3127811bff
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Inconvénients : Cependant, si aucun processus de rôle de contact n’est en pl
 
 ## Mappage des rôles de contact de Principal d’opportunité {#opportunity-primary-contact-role-mapping}
 
-En plus de se contenter d&#39;examiner les rôles de contact sur l&#39;opportunité, [!DNL Marketo Measure] peut se concentrer encore plus sur les contacts de Principal sur une opportunité. Avec cette configuration à l’esprit, [!DNL Marketo Measure] ne saisira que le point de contact marketing associé aux contacts principaux d’une opportunité et poussera ces informations dans l’histoire d’attribution de cette opportunité spécifique. Voir l’image ci-dessous.
+En plus de se contenter d&#39;examiner les rôles de contact sur l&#39;opportunité, [!DNL Marketo Measure] peut se concentrer encore plus sur les contacts de Principal sur une opportunité. Avec cette configuration à l’esprit, [!DNL Marketo Measure] attrape uniquement le point de contact marketing associé aux principaux contacts d’une opportunité et envoie ces informations dans l’histoire d’attribution de cette opportunité spécifique. Voir l’image ci-dessous.
 
 ![](assets/3.png)
 

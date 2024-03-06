@@ -3,10 +3,10 @@ description: "[!DNL Marketo Measure] Modèle de rapport - Tableau - [!DNL Market
 title: « Modèle de rapport [!DNL Marketo Measure] - Tableau »
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '2303'
-ht-degree: 87%
+source-wordcount: '2302'
+ht-degree: 88%
 
 ---
 
@@ -62,7 +62,7 @@ Cependant, cette erreur est due au fait que si une session a été supprimée, m
 
 ## Transformations des données {#data-transformations}
 
-Quelques transformations ont été appliquées aux données dans [!DNL Tableau] depuis son état d’origine dans Snowflake. La plupart de ces transformations sont appliquées dans les requêtes SQL personnalisées qui génèrent les tableaux dans le modèle [!DNL Tableau]. Pour visualiser le code SQL personnalisé utilisé pour générer une table, cliquez avec le bouton droit sur le nom de la table et sélectionnez &quot;Modifier la requête SQL personnalisée&quot;. Certaines des transformations spécifiques sont décrites ci-dessous.
+Quelques transformations ont été appliquées aux données dans [!DNL Tableau] depuis son état d’origine dans Snowflake. La plupart de ces transformations sont appliquées dans les requêtes SQL personnalisées qui génèrent les tableaux dans le modèle [!DNL Tableau]. Pour visualiser le code SQL personnalisé utilisé pour générer une table, cliquez avec le bouton droit de la souris sur le nom de la table et sélectionnez &quot;Modifier la requête SQL personnalisée&quot;. Certaines des transformations spécifiques sont décrites ci-dessous.
 
 ![](assets/marketo-measure-report-template-tableau-4.png)
 

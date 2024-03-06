@@ -4,10 +4,10 @@ description: Configurations pour plusieurs types d’enregistrement Campaign - [
 title: Configurations pour plusieurs types d’enregistrement de campagne
 exl-id: 10499556-a591-4630-9149-ae676e6494af
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 9%
+source-wordcount: '134'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ Si votre organisation SFDC utilise plusieurs types d’enregistrements de campag
 
    ![](assets/2.jpg)
 
-1. Vous êtes alors amené à l’écran avec les listes de sélection disponibles pour ce type d’enregistrement. Sélectionner **[!UICONTROL Modifier]** en regard du champ &quot;Activer les points de contact de l’acheteur&quot;.
+1. Vous accédez ici à l’écran avec les listes de sélection disponibles pour ce type d’enregistrement. Sélectionner **[!UICONTROL Modifier]** en regard du champ &quot;Activer les points de contact de l’acheteur&quot;.
 
    ![](assets/3.jpg)
 

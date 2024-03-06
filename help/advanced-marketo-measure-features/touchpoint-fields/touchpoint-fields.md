@@ -4,9 +4,9 @@ description: Champs de point de contact - [!DNL Marketo Measure]
 title: Champs de point de contact
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Historiquement, lorsque les clients embarquent avec [!DNL Marketo Measure] et da
 
 ## Activation de la fonctionnalité {#enabling-the-feature}
 
-Dans la [!DNL Marketo Measure] Dans le menu Paramètres, accédez à la page Champs de point de contact . De là, vous pouvez activer la fonction en sélectionnant **Oui** under **Activation des champs calculés**. Une fois cette option activée, vous pouvez créer des champs de point de contact.
+Dans la [!DNL Marketo Measure] Dans le menu Paramètres, accédez à la page Champs de point de contact . De là, vous pouvez activer la fonction en sélectionnant **Oui** under **Activation des champs calculés**. Une fois la fonction activée, vous pouvez créer des champs de point de contact.
 
 ![](assets/one.png)
 
@@ -70,7 +70,7 @@ Ce cas pratique courant permet d’extraire des valeurs des paramètres personna
    * **)** marque la fin de l’extraction
    * **\w** nous dit que nous extrayons un &quot;mot&quot; qui inclut 0-9
    * **+** extrait la valeur complète du paramètre sans limite de caractères.
-   * Notez que vous utilisez une barre oblique et non une barre oblique inverse.
+   * Notez que vous utilisez une barre oblique (forward slash) et non une barre oblique inverse (back slash).
 
 ![](assets/three.png)
 
@@ -221,7 +221,7 @@ Des travaux supplémentaires sont nécessaires pour exposer les nouveaux champs 
 
 **Comment puis-je vérifier que mon expression d’extraction est valide et extraire la valeur correcte ?**
 
-Il existe un outil en ligne ([[!DNL https]: /regex101.com/](https://regex101.com/){target="_blank"}) que vous pouvez exécuter et tester l’expression. L’expression apparaît en vert si elle est valide ou en rouge si elle n’est pas valide. En outre, la variable [!UICONTROL explication] La boîte en haut à droite vous aide et vous indique ce que vous extrayez.
+Il existe un outil en ligne ([[!DNL https]: /regex101.com/](https://regex101.com/){target="_blank"}) que vous pouvez exécuter et tester l’expression. L’expression apparaît en vert si elle est valide ou en rouge si elle n’est pas valide. En outre, la variable [!UICONTROL explication] La zone située en haut à droite vous aide et vous indique ce que vous extrayez.
 
 ![](assets/twelve.png)
 

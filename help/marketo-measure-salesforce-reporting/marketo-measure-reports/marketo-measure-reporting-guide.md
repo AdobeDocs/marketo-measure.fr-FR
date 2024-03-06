@@ -3,9 +3,9 @@ description: "[!DNL Marketo Measure] Guide de création de rapports - [!DNL Mark
 title: "[!DNL Marketo Measure] Guide des rapports"
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
-source-wordcount: '6431'
+source-wordcount: '6437'
 ht-degree: 2%
 
 ---
@@ -445,7 +445,7 @@ Ce rapport serait identique à un rapport basé sur le &quot;contenu&quot; au ni
 
 >[!TIP]
 >
->Vous pouvez utiliser ce rapport pour mieux comprendre l’engagement total d’une dimension marketing à partir de l’objet point de contact Acheteur, et pas seulement les téléchargements de contenu comme présenté dans l’exemple. Le rapport peut plutôt être groupé ou filtré selon des dimensions telles que &quot;Canal marketing&quot; ou &quot;Nom de la campagne publicitaire&quot; afin de mieux comprendre l’engagement total des Leads et des contacts dans votre base de données. Il vous suffit de modifier les filtres ou les regroupements du rapport en les remplaçant par zéro dans d’autres dimensions représentées par d’autres champs à partir de l’objet de point de contact.
+>Vous pouvez utiliser ce rapport pour mieux comprendre l’engagement total d’une dimension marketing à partir de l’objet point de contact Acheteur, et pas seulement les téléchargements de contenu comme présenté dans l’exemple. Le rapport peut plutôt être groupé ou filtré selon des dimensions telles que &quot;Canal marketing&quot; ou &quot;Nom de la campagne publicitaire&quot; afin de mieux comprendre l’engagement total des Leads et des contacts dans votre base de données. Remplacez les filtres ou les groupements dans le rapport par zéro dans les autres dimensions représentées par d’autres champs de l’objet de point de contact.
 
 **3,2 [!DNL Marketo Measure] Personnes qui se sont enregistrées pour un événement (CRM uniquement)**
 
@@ -615,7 +615,7 @@ Résumer les données de point de contact d’attribution de vos opportunités p
 
 >[!TIP]
 >
->Obtenez des informations encore plus granulaires en résumant le rapport avec d’autres champs disponibles à partir de l’objet Point de contact d’attribution des acheteurs. Cette opération s’effectue de la même manière qu’au niveau de l’piste avec les points de contact d’achat (1.2). Pour ce faire, ajoutez des regroupements (CRM) ou des dimensions supplémentaires (Discover). Selon le canal (qui peut être représentatif de votre rôle), il peut y avoir des détails supplémentaires au-delà du niveau de campagne dans lequel vous souhaitez obtenir plus d’informations. Explorons la section &quot;Recherche payante&quot; ci-dessous :
+>Obtenez des informations encore plus granulaires en résumant le rapport avec d’autres champs disponibles à partir de l’objet Point de contact d’attribution des acheteurs. Cette opération s’effectue de la même manière qu’au niveau de l’piste avec les points de contact d’achat (1.2). Pour ce faire, ajoutez des regroupements (CRM) ou des dimensions supplémentaires (Discover). Selon le canal (qui peut être représentatif de votre rôle), il peut y avoir des détails supplémentaires au-delà du niveau de campagne dans lequel vous souhaitez obtenir des informations supplémentaires. Explorons la section &quot;Recherche payante&quot; ci-dessous :
 
 <table> 
  <tbody>

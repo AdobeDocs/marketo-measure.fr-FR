@@ -4,7 +4,7 @@ description: "[!DNL Marketo Measure] FAQ sur l’attribution d’affichages publ
 title: "[!DNL Marketo Measure] FAQ sur l’attribution d’affichages publicitaires"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 13%

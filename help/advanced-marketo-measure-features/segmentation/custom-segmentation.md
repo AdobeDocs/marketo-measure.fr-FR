@@ -4,10 +4,10 @@ description: Segmentation personnalisée - [!DNL Marketo Measure]
 title: Segmentation personnalisée
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 4%
+source-wordcount: '740'
+ht-degree: 0%
 
 ---
 
@@ -71,9 +71,9 @@ Avant d’utiliser cette fonction, déterminez les informations de point de cont
 
 Si les règles ne sont pas configurées pour les pistes/contacts et les opportunités, seules une partie de vos données s’affiche. Pour plus d’informations, si vous ne configurez pas les règles d’opportunités, vous verrez uniquement les données de piste/contact sans les opportunités qui y sont associées. Il en va de même si vous ne définissez pas de règles pour les Leads/Contacts, vous ne verrez que les opportunités sans les Leads/Contacts associés.
 
-Lorsque vous avez terminé, cliquez sur [!UICONTROL Enregistrer] d’abord, double-vérifiez tout, puis cliquez sur [!UICONTROL Enregistrement et traitement]. N’oubliez pas que vous ne pourrez pas modifier vos paramètres pendant les sept jours qui suivent l’enregistrement et le traitement, comme suit : [!DNL Marketo Measure] reformate vos données pendant cette période.
+Lorsque vous avez terminé, cliquez sur [!UICONTROL Enregistrer] d’abord, double-vérifiez tout, puis cliquez sur [!UICONTROL Enregistrement et traitement]. N’oubliez pas que vous ne pouvez pas modifier vos paramètres pendant les sept jours qui suivent l’enregistrement et le traitement, car [!DNL Marketo Measure] reformate vos données pendant cette période.
 
-Si vous êtes client ou cliente Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut sur Contact, n’utilisez pas les deux champs ci-dessous spécifiques au prospect ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut comme Contact, n’utilisez pas les deux champs ci-dessous spécifiques à la piste ([en savoir plus](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

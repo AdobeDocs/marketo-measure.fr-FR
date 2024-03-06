@@ -4,10 +4,10 @@ description: "[!DNL Microsoft Dynamics] Guide d’installation CRM - Marketo Mea
 title: "[!DNL Microsoft Dynamics] Guide d'installation CRM"
 exl-id: bc422c98-60bb-49ea-9bd1-c4149ae628b1
 feature: Installation, Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 11%
+source-wordcount: '954'
+ht-degree: 9%
 
 ---
 
@@ -47,7 +47,7 @@ Pour la connexion et l&#39;authentification, [!DNL Marketo Measure] prend en cha
 
 ## Création d’un [!DNL Marketo Measure] Utilisateur {#creating-a-marketo-measure-user}
 
-Nous vous recommandons de créer un utilisateur Marketo Measure dédié en tant qu’&quot;utilisateur d’application&quot; dans Dynamics afin que nous puissions exporter et importer des données via afin d’éviter tout problème avec d’autres utilisateurs de votre CRM. Prenez note du nom d’utilisateur et du mot de passe, ainsi que de l’URL du point de terminaison, car ils seront utilisés lors de la création de la variable [!DNL Marketo Measure] compte .
+Il est recommandé de créer un utilisateur Marketo Measure dédié en tant qu’&quot;utilisateur de l’application&quot; dans Dynamics pour exporter et importer des données via afin d’éviter tout problème avec d’autres utilisateurs dans votre CRM. Prenez note du nom d’utilisateur et du mot de passe, ainsi que de l’URL du point de terminaison, car ils sont utilisés lors de la création de la variable [!DNL Marketo Measure] compte .
 
 ## Rôles de sécurité {#security-roles}
 
@@ -55,15 +55,15 @@ Si votre organisation utilise des rôles de sécurité Dynamics, assurez-vous qu
 
 Les rôles de sécurité se trouvent ici : **[!UICONTROL Paramètres]** > **[!UICONTROL Sécurité]** > **[!UICONTROL Rôles de sécurité]**.
 
-Pour [!DNL Marketo Measure] entités personnalisées, nous aurons besoin d’autorisations complètes sur toutes nos entités.
+Pour [!DNL Marketo Measure] entités personnalisées, nous avons besoin d’autorisations complètes sur toutes nos entités.
 
 >[!NOTE]
 >
->Les utilisateurs qui fermeront les opportunités auront également besoin d’autorisations complètes.
+>Les utilisateurs qui ferment des opportunités ont également besoin d’une autorisation complète.
 
 ![](assets/4.png)
 
-Pour les entités Dynamics standard, voir [!DNL Marketo Measure] Document de schéma Dynamics. à un niveau élevé, [!DNL Marketo Measure] il suffit de lire certaines entités pour rassembler les données appropriées et d’écrire dans des champs personnalisés qui seront installés avec la solution gérée. Nous ne créerons pas de nouveaux enregistrements standard, ni ne mettrons à jour de champs standard.
+Pour les entités Dynamics standard, voir [!DNL Marketo Measure] Document de schéma Dynamics. à un niveau élevé, [!DNL Marketo Measure] lit dans certaines entités pour rassembler les données appropriées et écrire dans des champs personnalisés installés avec la solution gérée. Les enregistrements standard ne sont pas créés et les champs standard ne sont pas mis à jour.
 
 ## Inclure les points de contact sur les mises en page : {#include-touchpoints-on-page-layouts}
 
@@ -81,7 +81,7 @@ Pour les entités Dynamics standard, voir [!DNL Marketo Measure] Document de sch
 
    ![](assets/7.png)
 
-1. Sélectionnez l’objet (points de contact d’attribution de l’achat ou points de contact de l’achat) qui doit être rendu dans la sous-grille, qui dépend de la relation de l’objet. Vous pouvez éventuellement modifier les colonnes qui s’afficheront en cliquant sur le bouton Modifier . Une mise en page par défaut a été définie par la solution gérée.
+1. Sélectionnez l’objet (points de contact d’attribution de l’achat ou points de contact de l’achat) qui doit être rendu dans la sous-grille, qui dépend de la relation de l’objet. Vous pouvez éventuellement modifier les colonnes affichées en cliquant sur le bouton Modifier . La mise en page par défaut est définie par la solution gérée.
 
    Sous-grille Point de contact d’attribution de l’achat - Comptes, opportunités et contacts\
    Sous-grille Point de contact de l’acheteur - Pistes et contacts
@@ -156,7 +156,7 @@ Pour [!DNL Marketo Measure] pour effectuer le suivi de vos activités web, plusi
 
    ![](assets/microsoft-dynamics-crm-installation-guide-23.png)
 
-1. Saisissez votre numéro de téléphone. Pour le site Web, saisissez le domaine racine principal qui sera utilisé pour [!DNL Marketo Measure] suivi sur votre site web. Cliquez sur **[!UICONTROL Enregistrer]** une fois terminé.
+1. Saisissez votre numéro de téléphone. Pour le site Web, saisissez le domaine racine principal utilisé pour [!DNL Marketo Measure] suivi sur votre site web. Cliquez sur **[!UICONTROL Enregistrer]** une fois terminé.
 
    ![](assets/microsoft-dynamics-crm-installation-guide-24.png)
 
@@ -170,11 +170,11 @@ Pour [!DNL Marketo Measure] pour effectuer le suivi de vos activités web, plusi
    >
    >Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d’API chaque fois qu’une tâche envoie des données à votre CRM. Pour la majeure partie de la clientèle, cela permet d’obtenir un équilibre optimal entre les crédits d’API consommés par [!DNL Marketo Measure] et les exigences en matière de ressources du processeur sur le CRM. Toutefois, pour la clientèle disposant de configurations CRM complexes, comme les workflows et les triggers, une taille de lot réduite peut se révéler utile pour améliorer les performances CRM. À cette fin, [!DNL Marketo Measure] permet à la clientèle de configurer la taille du lot d’export CRM. Ce paramètre est disponible sur la page Paramètres > CRM > Général de la [!DNL Marketo Measure] l’application web et les clients peuvent choisir entre des tailles de lot de 200 (par défaut), 100, 50 ou 25.
    >
-   >Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consomment plus de crédits d’API de votre CRM. Il est conseillé de réduire la taille des lots uniquement en cas de temporisation du processeur ou d’une charge élevée de ce dernier dans votre CRM.
+   >Lorsque vous modifiez ce paramètre, gardez à l’esprit que les tailles de lots plus petites consomment plus de crédits d’API de votre gestion de la relation client. Il est conseillé de réduire la taille du lot uniquement si vous rencontrez un délai d’expiration du processeur ou une charge élevée du processeur dans votre CRM.
 
    >[!NOTE]
    >
-   >Lorsque vous désactivez Marketo Measure pour exporter des données vers Dynamics, aucune donnée existante n’est supprimée. Pour obtenir de l’aide sur la suppression des données existantes, contactez le support Dynamics.
+   >Lorsque vous désactivez Marketo Measure pour exporter des données vers Dynamics, cela ne supprime aucune donnée existante. Pour obtenir de l’aide sur la suppression des données existantes, contactez le support Dynamics.
 
    >[!MORELIKETHIS]
    >

@@ -3,9 +3,9 @@ description: Accès des Data Warehouse - Partage direct - Documentation du produ
 title: Accès à Data Warehouse - Partage direct
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '277'
 ht-degree: 4%
 
 ---
@@ -32,7 +32,7 @@ Ouvrez le **Paramètres** dans l’application Marketo Measure et accédez à la
 
 ## Accès au partage {#accessing-the-share}
 
-Une fois que le partage a été créé pour l’identifiant de compte fourni, vous devez renseigner la variable [étapes de configuration](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} dans votre instance de Snowflake pour accéder aux données.
+Une fois le partage créé pour l’ID de compte fourni, vous devez renseigner la variable [étapes de configuration](https://docs.snowflake.com/en/user-guide/data-share-consumers.html){target="_blank"} dans votre instance de Snowflake pour accéder aux données.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Une fois que le partage a été créé pour l’identifiant de compte fourni, vo
 USE ROLE ACCOUNTADMIN
 ```
 
-* Afficher les partages disponibles (le nom du partage accordé s’affiche)
+* Afficher les partages disponibles (indique le nom du partage accordé)
 
 ```
 SHOW SHARES

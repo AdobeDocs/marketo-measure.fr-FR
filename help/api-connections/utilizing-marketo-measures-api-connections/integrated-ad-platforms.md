@@ -4,7 +4,7 @@ description: Plateformes d’annonces intégrées [!DNL Marketo Measure]
 title: Plateformes publicitaires intégrées
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 4787f765348da71bc149c997470ce678ba498772
 workflow-type: tm+mt
 source-wordcount: '1661'
 ht-degree: 0%
@@ -97,7 +97,7 @@ Les balises UTM peuvent sembler difficiles à créer au début, mais de nombreux
 
 **[!DNL Google URL]Créateur**
 
-Google URL Builder est un outil standard permettant de créer des URL correctement formatées à l’aide de balises UTM. Il vous suffit de saisir l’URL et la valeur souhaitée de chaque paramètre et de cliquer sur &quot;[!UICONTROL Générer l’URL]&quot;. Il s’agit d’un outil idéal à utiliser si vous avez seulement quelques URL à baliser. Accès à l’outil [here](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"}.
+Google URL Builder est un outil standard permettant de créer des URL correctement formatées à l’aide de balises UTM. Saisissez l’URL et la valeur souhaitée de chaque paramètre, puis cliquez sur &quot;[!UICONTROL Générer l’URL]&quot;. Il s’agit d’un outil idéal à utiliser si vous avez seulement quelques URL à baliser. Accès à l’outil [here](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"}.
 
 **Feuille de calcul Google générée par EpikOne**
 

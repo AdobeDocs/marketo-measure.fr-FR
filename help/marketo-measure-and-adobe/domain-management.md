@@ -3,9 +3,9 @@ description: Gestion des domaines - [!DNL Marketo Measure]
 title: Gestion des domaines
 exl-id: 4db287a0-0267-463c-a359-266b41f15c59
 feature: Integration, Tracking
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Après l’ajout d’un domaine dans le Admin Console, [!DNL Marketo Measure] sy
 
 ![](assets/domain-management-2.png)
 
-Sur le **[!UICONTROL Intégration]** > **[!UICONTROL Domaines]** , l’utilisateur voit tous les domaines qu’il a enregistrés dans le Admin Console, ainsi que leur état. Chaque domaine peut être activé ou désactivé. Si un domaine est activé, [!DNL Marketo Measure] Le suivi collecte tout trafic qui s’affiche sur ce domaine. Si un domaine est désactivé, [!DNL Marketo Measure] ignore le trafic affiché provenant de ce domaine et ne crée pas de points de contact ni d’autres données. [!DNL Marketo Measure] confirme la désactivation d’un domaine et avertit les ramifications :
+Sur le **[!UICONTROL Intégration]** > **[!UICONTROL Domaines]** , l’utilisateur voit tous les domaines qu’il a enregistrés dans le Admin Console, ainsi que leur état. Chaque domaine peut être activé ou désactivé. Si un domaine est activé, [!DNL Marketo Measure] Le suivi collecte tout trafic qui s’affiche sur ce domaine. Si un domaine est désactivé, [!DNL Marketo Measure] ignore le trafic provenant de ce domaine et ne crée pas de points de contact ni d’autres données. [!DNL Marketo Measure] confirme la désactivation d’un domaine et avertit les utilisateurs de toutes ramifications :
 
 ![](assets/domain-management-3.png)
 

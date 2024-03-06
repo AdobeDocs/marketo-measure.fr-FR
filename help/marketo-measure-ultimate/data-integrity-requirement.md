@@ -3,16 +3,16 @@ description: '[!DNL Marketo Measure] Exigence ultime en matière d’intégrité
 title: « Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate »
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
 # Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valide les jeux de données AEP entrants afin de s’assurer que les données sont suffisantes et cohérentes pour l’attribution. Si vous ne remplissez pas les exigences en matière d’intégrité des données, le jeu de données sera rejeté par le système [!DNL Marketo Measure]. Ce document décrit l’exigence en matière d’intégrité des données, fournit des exemples de requête pour l’examen des données et recommande une solution pour les champs obligatoires contenant une valeur nulle.
+[!DNL Marketo Measure] valide les jeux de données AEP entrants afin de s’assurer que les données sont suffisantes et cohérentes pour l’attribution. Si l’intégrité des données n’est pas respectée, le jeu de données est rejeté par la variable [!DNL Marketo Measure] système. Ce document décrit l’exigence en matière d’intégrité des données, fournit des exemples de requête pour l’examen des données et recommande une solution pour les champs obligatoires contenant une valeur nulle.
 
 ## Objet d’entité {#entity-object}
 
@@ -37,7 +37,7 @@ ht-degree: 99%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 123@999-abc-888.Marketo</td>
+      <td>Par exemple : 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -365,7 +365,7 @@ ht-degree: 99%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 333@999-abc-888.Marketo</td>
+      <td>Par exemple : 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -373,7 +373,7 @@ ht-degree: 99%
       <td>Chaîne</td>
       <td>ID</td>
       <td>Oui</td>
-      <td>Par exemple, : 333 (selon la table de la source de données, il s’agit de l’ID de lead ou de contact)</td>
+      <td>Par exemple : 333, selon la table de la source de données, il s’agit de l’ID de piste ou de contact.</td>
     </tr>
     <tr>
       <td></td>
@@ -1105,7 +1105,7 @@ ht-degree: 99%
   </tbody>
 </table>
 
-Utilisez le type d’événement « Moment intéressant » pour les types d’événement non pris en charge dans le tableau ci-dessus. Ajoutez un champ personnalisé pour indiquer le sous-type « Moment intéressant ».
+Utilisez le type d’événement « Moment intéressant » pour les types d’événement non pris en charge dans le tableau ci-dessus. Ajoutez un champ personnalisé pour indiquer le sous-type &quot;Moment intéressant&quot;.
 
 ## Exemples de requêtes pour l’examen des données {#query-examples-for-data-inspection}
 

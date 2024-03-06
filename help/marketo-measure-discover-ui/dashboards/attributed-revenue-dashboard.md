@@ -3,9 +3,9 @@ description: Tableau de bord des recettes attribuées - [!DNL Marketo Measure] -
 title: Tableau de bord Revenus attribués
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '384'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ Le tableau de bord des recettes affectées offre une perspective précise des re
 
 >[!NOTE]
 >
->Ce tableau de bord est actuellement en version bêta. Au cours de cette phase de transition, les tableaux de bord actuels et nouveaux seront accessibles. Le tableau de bord actuel sera obsolète une fois que nous aurons entièrement effectué la transition et garanti des fonctionnalités optimales.
+>Ce tableau de bord est en version bêta. Au cours de cette phase de transition, les tableaux de bord actuels et nouveaux seront accessibles. Le tableau de bord actuel sera obsolète une fois que nous aurons entièrement effectué la transition et garanti des fonctionnalités optimales.
 
 **Questions sur le panorama :**
 
@@ -34,7 +34,7 @@ Le tableau de bord des recettes affectées offre une perspective précise des re
 
 Graphique à barres empilées affichant le total des recettes attribuées, segmenté par canal, pour chaque mois/trimestre/année.
 
-* utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
+* Utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
 * Passez la souris sur un segment de barre ou l’espace entre les barres pour afficher des informations détaillées.
 
 **Questions sur le graphique :**

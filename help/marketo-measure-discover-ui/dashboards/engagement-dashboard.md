@@ -2,9 +2,9 @@
 description: Tableau de bord des engagements - [!DNL Marketo Measure] - Produit
 title: Tableau de bord des engagements
 feature: Reporting
-source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
+source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '369'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Le tableau de bord pose les questions suivantes :
 
 * Combien de personnes ont été engagées ? Quel est le nombre moyen de touches par personne engagée ?
 * Comment le nombre de points de contact est-il comparé au nombre de personnes touchées dans un canal/sous-canal/campagne spécifique ?
-* Combien de points de contact y avait-il sur un ou plusieurs sous-canaux donnés ? Comment cela a-t-il changé au fil du temps ?
+* Combien de points de contact y avait-il sur un canal ou sous-canal donné ? Comment cela a-t-il changé au fil du temps ?
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Le tableau de bord pose les questions suivantes :
 ### Mosaïques IPC {#kpi-tiles}
 
 * Points de contact : nombre total de points de contact bruts générés.
-   * Les points de contact d’achat et les points de contact d’attribution sont des résultats d’attribution créés en sélectionnant des points de contact spécifiques pour le crédit. Tous les points de contact ne seront pas sélectionnés en tant que BAT et BT.
+   * Les points de contact d’achat et les points de contact d’attribution sont des résultats d’attribution créés en sélectionnant des points de contact spécifiques pour le crédit. Tous les points de contact ne sont pas sélectionnés en tant que BAT et BT.
 * Personnes connectées : nombre total de personnes qui disposent d’un point de contact.
 * Points de contact par personne : nombre moyen de points de contact par personne qui ont été touchés.
 

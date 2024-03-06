@@ -4,16 +4,16 @@ description: "[!DNL Marketo Engage] Intégration des activités - [!DNL Marketo 
 title: "[!DNL Marketo Engage] Intégration des activités"
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
 workflow-type: tm+mt
-source-wordcount: '1691'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo Engage] Intégration des activités {#marketo-engage-activities-integration}
 
-Dans le cadre de la [!DNL Marketo Measure] et [!DNL Marketo Engage] L’intégration, cet effort d’extraction des activités Marketo joue un rôle énorme. Par le biais des activités Marketo, le système effectue le suivi des événements tels que Clic électronique, Changer de score ou Modifier l’état de progression. Ces types d’activité peuvent être analysés et définis pour sélectionner un sous-ensemble éligible aux points de contact. Une fois les points de contact créés sur ces activités, ils sont suivis dans le parcours d’engagement et mesurés avec vos autres canaux marketing tels que Recherche payante ou Marketing partenaire.
+Dans le cadre de la [!DNL Marketo Measure] et [!DNL Marketo Engage] L’intégration, cet effort d’extraction des activités Marketo joue un rôle énorme. Le système effectue le suivi des événements tels que `Click Email`, `Change Score` ou `Change Status in Progression` - ces types d’activité peuvent être réduits et définis pour sélectionner un sous-ensemble éligible aux points de contact. Une fois les points de contact créés sur ces activités, ils sont suivis dans le parcours d’engagement et mesurés avec vos autres canaux marketing tels que Recherche payante ou Marketing partenaire.
 
 ## Exigences {#requirements}
 
@@ -32,17 +32,17 @@ Dans le cadre de la [!DNL Marketo Measure] et [!DNL Marketo Engage] L’intégra
 
    ![](assets/two-1.png)
 
-   La première chose requise est de sélectionner la liste des types d’activité sur lesquels vous prévoyez de créer des règles. Aucun type d’activité n’est requis, mais nous vous recommandons également de ne pas surcharger vos points de contact et de ne pas diluer l’importance des jalons significatifs. Cela dit, vous n’aurez peut-être pas besoin de plus de 5 types d’activité pour effectuer le suivi des engagements pertinents.
+   La première chose requise est de sélectionner la liste des types d’activité sur lesquels vous prévoyez de créer des règles. Aucun type d’activité n’est requis, mais il est recommandé de ne pas surcharger vos points de contact et de diluer l’importance des jalons significatifs. Cela dit, vous n’aurez peut-être pas besoin de plus de cinq types d’activité pour effectuer le suivi des engagements pertinents.
 
 1. Cliquez sur le menu déroulant sous [!UICONTROL Sélectionner les types d’activités] pour commencer à choisir les différents types.
 
    ![](assets/three-1.png)
 
-1. Une fois toutes les activités dont vous avez besoin sélectionnées, elles sont également renseignées dans votre [!UICONTROL Liste des activités sélectionnées] ainsi que sous [!UICONTROL Définition de règles].
+1. Lorsque toutes les activités dont vous avez besoin sont sélectionnées, vous pouvez les voir renseignées dans votre [!UICONTROL Liste des activités sélectionnées] et sous [!UICONTROL Définition de règles].
 
    ![](assets/four-1.png)
 
-1. Pour chaque type d’activité, vous devez définir une ou plusieurs règles qui déterminent quels enregistrements sont éligibles pour les points de contact. Dans notre exemple, nous allons ajouter une règle pour le type d’activité &quot;Changer de score&quot; afin que le système crée un point de contact lorsqu’une personne Marketo atteint un score de 90 ou plus.
+1. Pour chaque type d’activité, vous devez définir une ou plusieurs règles qui déterminent quels enregistrements sont éligibles pour les points de contact. Dans cet exemple, nous ajoutons une règle pour le type d’activité &quot;Changer de score&quot; de sorte que le système crée un point de contact lorsqu’une personne Marketo atteint un score de 90 ou plus.
 
 1. Tout d’abord, selon le type d’activité, vous devrez peut-être configurer une [!DNL Marketo Measure] Nom de la campagne pouvant être utilisé ultérieurement pour le mappage des canaux. [!DNL Marketo Measure] Les noms de campagne peuvent être réutilisés dans plusieurs règles. Cela permet d’obtenir des noms plus larges qui peuvent être utilisés dans une règle de canal unique. Tous les types d’activité ne contiennent pas de programme Marketo. Par conséquent, un nom doit être ajouté à cette première étape.
 
@@ -50,7 +50,7 @@ Dans le cadre de la [!DNL Marketo Measure] et [!DNL Marketo Engage] L’intégra
 
    ![](assets/five-1.png)
 
-1. Dans notre exemple &quot;Changer de score&quot;, il n’est pas nécessaire de saisir un nom de campagne, car nous pouvons extraire ces informations du programme Marketo. Vous pouvez maintenant créer l’expression de règle. Dans notre exemple, nous allons sélectionner le champ &quot;[!UICONTROL Nouvelle valeur]&quot; avec un opérateur de &quot;[!UICONTROL est supérieur à]&quot; avec une valeur de 90.
+1. Dans l’exemple &quot;Changer de score&quot;, il est nécessaire de saisir un nom de campagne, car ces informations sont extraites du programme Marketo. Créez maintenant l’expression de règle. Dans cet exemple, sélectionnez le champ &quot;[!UICONTROL Nouvelle valeur]&quot; avec un opérateur de &quot;[!UICONTROL est supérieur à]&quot; avec une valeur de 90.
 
    Vous pouvez développer les règles et ajouter des filtres ou critères supplémentaires en ajoutant des instructions &quot;et&quot; ou &quot;ou&quot; pour affiner les résultats.
 
@@ -58,7 +58,7 @@ Dans le cadre de la [!DNL Marketo Measure] et [!DNL Marketo Engage] L’intégra
 
    ![](assets/seven-1.png)
 
-1. Enfin, choisissez ce que nous devons utiliser comme Date du point de contact. Tous les champs de date ou date/heure disponibles s’affichent ici à partir de Marketo. Si vous ne disposez pas de champs de date personnalisés, vous verrez &quot;[!UICONTROL Date d’activité].&quot;
+1. Enfin, choisissez ce que vous souhaitez utiliser comme Date du point de contact. Tous les champs de date ou date/heure disponibles s’affichent ici à partir de Marketo. À moins que vous n’ayez des champs de date personnalisés, vous voyez &quot;[!UICONTROL Date d’activité].&quot;
 
    ![](assets/eight-1.png)
 
@@ -154,7 +154,7 @@ Dialogue de partage de contenu (400) Engagé (158) Document Interagi avec (159) 
 
 ## Mappage de canaux {#channel-mapping}
 
-Pour l’une des règles d’un type d’activité avec un ID de programme, le canal de programme Marketo est déterminé à partir du programme. Nous utilisons le canal du programme pour mapper vos canaux hors ligne personnalisés. Vous devrez donc vous assurer que vos canaux sont correctement configurés. [suivant les instructions ici](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
+Pour l’une des règles d’un type d’activité avec un ID de programme, le canal de programme Marketo est déterminé à partir du programme. Nous utilisons le canal du programme pour mapper vos canaux hors ligne personnalisés. Vous devez donc vous assurer que vos canaux sont correctement configurés. [suivant les instructions ici](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping).
 
 Et pour l’une des règles d’un type d’activité sans ID de programme, la première étape consistait à créer un nom de campagne. Utilisez ce nom de campagne pour configurer vos canaux en ligne personnalisés [présenté ici](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md).
 
@@ -162,13 +162,13 @@ Si les canaux de vos activités Marketo ne sont pas correctement configurés, il
 
 ## Coûts du programme {#program-costs}
 
-Grâce à l’importation des données des programmes Marketo, les coûts sont automatiquement téléchargés à partir des Coûts de la période et le coût reporté dans Marketo est distribué tout au long du mois affecté. Si, par exemple, 1 000 $ est signalé pour janvier 2021, les 1 000 $ sont répartis sur 31 jours. Les coûts sont présentés dans la section [!DNL Marketo Measure Discover].
+Grâce à l’importation des données des programmes Marketo, les coûts sont automatiquement téléchargés à partir des Coûts de la période et les coûts signalés dans Marketo sont répartis tout au long du mois affecté. Si, par exemple, 1 000 $ est signalé pour janvier 2021, les 1 000 $ sont répartis sur 31 jours. Les coûts sont présentés dans la section [!DNL Marketo Measure Discover].
 
 ## Mappage des cookies {#cookie-mapping}
 
 Suite au [!DNL Marketo Measure] intégration à Marketo, la variable [!DNL Marketo Measure] L’ID de cookie est également mappé et synchronisé avec la variable [!DNL Marketo Munchkin Id]. Cela permet de réduire l’écart pour attribuer la première touche anonyme à une session web plutôt que d’attribuer les touches FT et LC à une activité Marketo. Imaginez ce scénario :
 
-Mark clique sur une publicité Facebook et accède à wayneenterprises.com où il reçoit un cookie. [!DNL Marketo Measure] Id 123 et [!DNL Marketo Munchkin Id] 456. Aucun remplissage de formulaire n’a lieu.
+Mark clique sur une publicité Facebook et accède à wayneenterprises.com où il obtient un cookie avec [!DNL Marketo Measure] Id 123 et [!DNL Marketo Munchkin Id] 456. Aucun remplissage de formulaire n’a lieu.
 
 L’équipe marketing de Wayne Entreprises envoie un courrier électronique à des pistes ciblées spécifiques, l’une d’elles étant `mark@email.com`.
 
@@ -188,11 +188,11 @@ Avec cette amélioration du mappage de cookies, le FT revient et est crédité �
 
 **Comment savoir si vous devez créer une règle Programmes Marketo ou une règle Activités Marketo ?**
 
-La variable [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme spécifique, la variable [!DNL Marketo Engage] L’intégration des activités sera la configuration souhaitée, en particulier le type d’activité &quot;Changement d’état dans la progression&quot; afin que la date du point de contact puisse être mappée à la date d’activité générée par le système.
+La variable [!DNL Marketo Engage] L’intégration de programmes est un moyen simple de générer des points de contact selon qu’une personne est membre d’un programme ou non. Si vous souhaitez définir une règle en fonction du moment où une personne passe à un état de programme particulier, la variable [!DNL Marketo Engage] L’intégration des activités sera la configuration souhaitée, en particulier le type d’activité &quot;Modifier l’état de progression&quot; afin que la date du point de contact puisse être mappée à la date d’activité générée par le système.
 
 **Pourquoi le nom de mon type de point de contact est-il tronqué ?**
 
-Le champ Type de point de contact a été créé dans la [!DNL Marketo Measure] module contenant 16 caractères. Malheureusement, la modification de la limite de caractères du champ nécessiterait l’obsolescence du champ existant et la création d’un nouveau champ. La valeur du type de point de contact est le type d’activité, qui est également défini dans le champ Moyen .
+Le champ Type de point de contact a été créé dans la [!DNL Marketo Measure] module contenant 16 caractères. Malheureusement, la modification de la limite de caractères du champ nécessiterait l’obsolescence du champ existant et la création d’un champ. La valeur du type de point de contact est le type d’activité, qui est également défini dans le champ Moyen .
 
 **Pourquoi mon Type d’activité personnalisé n’apparaît-il pas dans la liste des activités disponibles ?**
 
@@ -200,7 +200,7 @@ Seuls les types d’activité personnalisés &quot;Approuvé&quot; sont affiché
 
 **Comment déterminer les types d’activité pour lesquels je souhaite générer un point de contact ?**
 
-Bien qu’il n’y ait pas de limite au nombre de types d’activité que vous pouvez créer, nous vous recommandons généralement de ne pas dépasser 5 types d’activité. Il faut du temps pour déterminer quelles activités marketing sont suffisamment pertinentes pour faire partie du parcours de point de contact. Par exemple, &quot;Désabonner le courrier électronique&quot; peut ne pas être un point de contact important à suivre, mais &quot;Clic électronique&quot; avec des filtres supplémentaires peut être un bon point. Cela varie selon chaque organisation et chaque équipe. Nous vous suggérons donc de travailler avec vos équipes pour réfléchir sur la meilleure approche à suivre.
+Bien qu’il n’y ait pas de limite au nombre de types d’activité que vous pouvez créer, nous vous recommandons généralement de ne pas créer plus de cinq types d’activité. Il faut du temps pour déterminer quelles activités marketing sont suffisamment pertinentes pour faire partie du parcours de point de contact. Par exemple, &quot;Désabonner le courrier électronique&quot; peut ne pas être un point de contact important à suivre, mais &quot;Clic électronique&quot; avec des filtres supplémentaires peut être un bon point. Cela varie selon chaque organisation et chaque équipe. Nous vous suggérons donc de travailler avec votre équipe pour réfléchir sur la meilleure approche à suivre.
 
 **Pourquoi mon nom de navigateur est-il coupé ?**
 
