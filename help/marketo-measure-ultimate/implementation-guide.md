@@ -2,9 +2,9 @@
 description: '[!DNL Marketo Measure] Guide de mise en oeuvre ultime - [!DNL Marketo Measure]'
 title: Guide de mise en œuvre [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1008'
 ht-degree: 64%
 
 ---
@@ -131,12 +131,13 @@ Avant de commencer, accédez à la section « Experience Platform > Mappage d
 
 >[!NOTE]
 >
+>* Il est recommandé d’inclure un seul jeu de données par flux de données.
 >* Les données d’une entité donnée (par exemple, Compte) provenant d’une source donnée ne peuvent entrer que dans un jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
 >* Supprimez la destination entière dans AEP pour supprimer les données dans Measure. La désactivation arrête les nouveaux exports de données et conserve les anciennes données.
 >* La configuration de Measure sera pour la plupart identique, mais certaines parties, comme le mappage des étapes, auront un aspect différent.
 >* Quelques heures sont nécessaires pour qu’un nouveau flux de données génère une exécution de flux, ces dernières se produisant à intervalles horaires réguliers.
 
-En mesure, la devise par défaut doit être définie dans la section &quot;Devise&quot;.
+Dans Mesure, la devise par défaut doit être définie dans la section &quot;Devise&quot;.
 
 * Si vous utilisez plusieurs devises, le schéma de taux de conversion de devise doit être renseigné dans AEP pour qu’il puisse être lu et utilisé pour les conversions.
 

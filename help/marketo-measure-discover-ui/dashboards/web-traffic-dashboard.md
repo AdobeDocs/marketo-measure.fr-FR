@@ -3,9 +3,9 @@ description: Tableau de bord du trafic web - [!DNL Marketo Measure] - Produit
 title: Tableau de bord Trafic web
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '442'
 ht-degree: 6%
 
 ---
@@ -120,3 +120,4 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 * Canal, sous-canal
 * Campagne
 * URL
+* Titre de la page
