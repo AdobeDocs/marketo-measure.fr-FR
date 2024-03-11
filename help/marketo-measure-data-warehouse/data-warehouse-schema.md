@@ -7,7 +7,7 @@ feature: Data Warehouse
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '21110'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -3045,7 +3045,7 @@ Groupes publicitaires importés depuis n’importe quel compte publicitaire conn
 
 ### BIZ_ATTRIBUTION_AI_TOUCHPOINTS {#biz-attribution-ai-touchpoints}
 
-Données générées à partir de l’intégration Attribution AI. Ces champs sont renseignés uniquement pour les clients Marketo Measure Ultimate.
+Données générées à partir de l’intégration Attribution AI. Ces champs sont renseignés uniquement pour les clientes et clients Marketo Measure Ultimate.
 
 <table>
 <thead>
@@ -3060,141 +3060,141 @@ Données générées à partir de l’intégration Attribution AI. Ces champs so
   <tr>
     <td>CONVERSION_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>date de la conversion</td>
+    <td>Date de la conversion</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>CONVERSION_NAME</td>
     <td>varchar</td>
-    <td>nom de l’événement de conversion (tel que spécifié par le client dans le paramètre de l’interface utilisateur)</td>
+    <td>Nom de l’événement de conversion (tel que spécifié par le client ou la cliente dans le paramètre de l’interface utilisateur)</td>
     <td> </td>
   </tr>
   <tr>
     <td>CONVERSION_ID</td>
     <td>varchar</td>
-    <td>id de l’événement de conversion (il s’agit de la valeur d’identifiant unique d’origine envoyée avec l’enregistrement de données d’événement dans le jeu de données source)</td>
+    <td>Identifiant de l’événement de conversion (il s’agit de la valeur d’identifiant unique d’origine envoyée avec l’enregistrement de données d’événement dans le jeu de données source)</td>
     <td>0013100001b44aGAAQ</td>
   </tr>
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>ID d’événement MM d’origine pour l’événement de conversion 
-    <br>mappe à un point de contact utilisateur ou à une transition d’évaluation</td>
+    <td>Identifiant d’événement MM d’origine pour l’événement de conversion
+<br>mappé à un point de contact de l’utilisateur ou l’utilisatrice ou à une transition d’étape</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
     <td>CONVERSION_ACCOUNT_ID</td>
     <td>varchar</td>
-    <td>ID de compte MM d’origine pour l’événement de conversion</td>
+    <td>Identifiant de compte MM d’origine pour l’événement de conversion</td>
     <td>0013100001kpAZxAAM</td>
   </tr>
   <tr>
     <td>CONVERSION_OPPORTUNITY_ID</td>
     <td>varchar</td>
-    <td>ID d’opportunité MM d’origine pour l’événement de conversion</td>
+    <td>Identifiant d’opportunité MM d’origine pour l’événement de conversion</td>
     <td>0060Z00000lFHtOQAW</td>
   </tr>
   <tr>
     <td>CONVERSION_LEAD_ID</td>
     <td>varchar</td>
-    <td>ID de piste MM d’origine pour l’événement de conversion <br>susceptible d’être nul la plupart du temps</td>
+    <td>Identifiant de prospect MM d’origine pour l’événement de conversion <br>susceptible d’être nul la plupart du temps</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
-    <td>ID de contact MM original de l’événement de conversion
-    <br>susceptible d’être nul la plupart du temps</td>
+    <td>Identifiant de contact MM d’origine de l’événement de conversion
+<br>susceptible d’être nul la plupart du temps</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
     <td>CONVERSION_EVENT_TYPE</td>
     <td>varchar</td>
-    <td>type d’événement de conversion (b2b = conversion de piste, b2c = conversion d’opportunité)</td>
+    <td>Type d’événement de conversion (b2b = conversion de prospect, b2c = conversion d’opportunité)</td>
     <td>b2b</td>
   </tr>
   <tr>
     <td>SCORE_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>date à laquelle les points de contact ont été notés en dernier</td>
+    <td>Date à laquelle les points de contact ont été notés en dernier</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>INFLUENCED_PERCENT</td>
     <td>number(38,35)</td>
-    <td>fraction de la conversion dont chaque point de contact est responsable</td>
+    <td>Fraction de la conversion dont chaque point de contact est responsable</td>
     <td>0,10</td>
   </tr>
   <tr>
     <td>INCREMENTAL_PERCENT</td>
     <td>number(38,35)</td>
-    <td>l’impact marginal directement causé par un point de contact ;</td>
+    <td>Impact marginal directement causé par un point de contact</td>
     <td>0,25</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>date de transition du point de contact ou de l’étape</td>
+    <td>Date de transition du point de contact ou de l’étape</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_EVENT_ID</td>
     <td>varchar</td>
-    <td>id de l’événement qui a généré le point de contact</td>
+    <td>Identifiant de l’événement à l’origine du point de contact</td>
     <td>00U3100000VLUnEEAX</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_OPPORTUNITY_ID</td>
     <td>varchar</td>
-    <td>ID de l’opportunité associée au point de contact</td>
+    <td>Identifiant de l’opportunité associée au point de contact</td>
     <td>0060Z00000lFHtOQAW</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_ACCOUNT_ID</td>
     <td>varchar</td>
-    <td>ID du compte associé au point de contact</td>
+    <td>Identifiant du compte associé au point de contact</td>
     <td>0013100001kpAZxAAM</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_LEAD_ID</td>
     <td>varchar</td>
-    <td>id de la piste associée au point de contact</td>
+    <td>Identifiant du prospect associé au point de contact</td>
     <td>00Q0Z000013dw4GUAQ</td>
   </tr>
   <tr>
     <td>TOUCHPOINT_CONTACT_ID</td>
     <td>varchar</td>
-    <td>id du contact associé au point de contact</td>
+    <td>Identifiant du contact associé au point de contact</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
     <td>COUNT_TO_CONVERSION</td>
     <td>number(38,0)</td>
-    <td>le rang ou la valeur ordinale du point de contact dans la chaîne menant à l’événement de conversion ;</td>
-    <td>10000</td>
+    <td>Classement ou valeur ordinale du point de contact dans la chaîne menant à l’événement de conversion</td>
+    <td>10 000</td>
   </tr>
   <tr>
     <td>AAI_SOURCE_ID</td>
     <td>varchar</td>
-    <td>clé étrangère pour le tableau des sources ai d’attribution</td>
+    <td>Clé étrangère pour le tableau des sources d’IA dédiée à l’attribution</td>
     <td> </td>
   </tr>
   <tr>
     <td>_CREATED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>date à laquelle l’enregistrement a été créé en Snowflake</td>
+    <td>Date de création de l’enregistrement dans Snowflake</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>_MODIFIED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>date de la dernière modification de l’enregistrement en Snowflake</td>
+    <td>Date de la dernière modification de l’enregistrement dans Snowflake</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
   <tr>
     <td>_DELETED_DATE</td>
     <td>Timestamp_ntz</td>
-    <td>date à laquelle l’enregistrement a été supprimé dans Snowflake.</td>
+    <td>Date de la suppression de l’enregistrement dans Snowflake</td>
     <td>2020-01-01 01:01:00.000</td>
   </tr>
 </tbody>
