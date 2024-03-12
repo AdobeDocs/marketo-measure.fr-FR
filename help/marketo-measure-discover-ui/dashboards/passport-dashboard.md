@@ -3,10 +3,10 @@ description: Tableau de bord des passeports - [!DNL Marketo Measure] - Produit
 title: Tableau de bord Passeport
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+source-git-commit: 88dfdac366d29bed29ed39979cb76cad7aee4025
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 3%
+source-wordcount: '332'
+ht-degree: 2%
 
 ---
 
@@ -51,13 +51,11 @@ Le tableau de bord des passeports offre aux marketeurs une vue dynamique des pis
 Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 * Date (basée sur la date de transition)
-* Modèle d’attribution
 * Canal, sous-canal
 * Campagne
 * Segments
 
 >[!MORELIKETHIS]
 >
->* [Découvrir les bases du tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
+>* [Bases du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
 >* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
-
