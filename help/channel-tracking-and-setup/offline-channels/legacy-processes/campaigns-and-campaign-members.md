@@ -4,7 +4,7 @@ description: Campagnes et membres de campagne - [!DNL Marketo Measure]
 title: Campagnes et membres de campagne
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 0%
@@ -112,7 +112,7 @@ Une fois la date et l’heure définies, cliquez sur le bouton **[!UICONTROL Met
 
 ## Coûts de la campagne {#campaign-costs}
 
-En savoir plus sur les coûts de campagne [dans cet article](/help/marketing-spend/spend-management/crm-campaign-costs.md).
+En savoir plus sur les coûts de campagne [dans cet article](/help/marketing-spend/spend-management/crm-campaign-costs.md){target="_blank"}.
 
 ## Retrait des membres de campagne {#campaign-member-removal}
 
@@ -126,6 +126,6 @@ Pour contourner ce problème, procédez comme suit : [!DNL Marketo Measure] a cr
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Université : champs d’objet de campagne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63007334d9f0367662b758)
+>[[!DNL Marketo Measure] Tutorials : champs d’objet Campaign](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] Université : mappage des canaux hors ligne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>[[!DNL Marketo Measure] Tutorials : mappage de canaux hors ligne](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

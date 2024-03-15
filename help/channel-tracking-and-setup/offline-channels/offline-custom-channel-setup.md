@@ -4,7 +4,7 @@ description: Configuration de canal personnalisé hors ligne - [!DNL Marketo Mea
 title: Configuration de canal personnalisé hors ligne
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 1%
@@ -83,8 +83,8 @@ Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé et [!DNL Mar
 
 >[!MORELIKETHIS]
 >
->* [[!DNL Marketo Measure] Université : mappage des canaux hors ligne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c630eca34d9f0367662b77f)
+>* [[!DNL Marketo Measure] Tutorials : mappage de canaux hors ligne](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Université : synchronisation des campagnes hors ligne](https://universityonline.marketo.com/courses/bizible-fundamentals-channel-management/#/page/5c63286e34d9f0367662b78b)
+>* [[!DNL Marketo Measure] Tutorials : synchronisation des campagnes hors ligne](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
->* [Intégration des programmes Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping)
+>* [Intégration des programmes Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
