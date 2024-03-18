@@ -3,9 +3,9 @@ description: Notifications d’erreur - [!DNL Marketo Measure]
 title: Notifications d’erreur
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 9efdafadd8714237f27dfd722df533c5411f5fe0
+source-git-commit: 2b13a518d1be768a5c312ea4abdf2039aa22cf08
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1675'
 ht-degree: 30%
 
 ---
@@ -143,7 +143,7 @@ Documentation Salesforce sur les déclencheurs de flux <a href="https://admin.sa
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>Une erreur s'est produite lors de l'export Crm : INACTIVE_OWNER_OR_USER : Type d'entité 'Contact' : Code d'erreur CRM : INACTIVE_OWNER_OR_USER, Message d'erreur CRM : opération effectuée avec l'utilisateur inactif [1234] en tant que propriétaire du contact, RecordId : 0123456</td>
       <td>Marketo Measure ne dispose pas de l’autorisation "Mettre à jour les enregistrements avec les propriétaires inactifs".</td>
-      <td>Accorder à Marketo Measure le<a href="/">Mise à jour d’enregistrements avec des propriétaires inactifs</a>".</td>
+      <td>Accorder à Marketo Measure le<a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1">Mise à jour d’enregistrements avec des propriétaires inactifs</a>".</td>
     </tr>
     <tr>
       <td>INSUFFICIENT_ACCESS_OR_READONLY</td>
