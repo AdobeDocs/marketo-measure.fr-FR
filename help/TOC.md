@@ -4,10 +4,10 @@ product: Bizible
 audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
-source-git-commit: 969cb2b4fb85aeb5c3a3aa21ead3eb5f4ff15ad9
-workflow-type: ht
-source-wordcount: '831'
-ht-degree: 100%
+source-git-commit: 00a362a2e143749e1a132672b847eb06dcab6b9c
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 99%
 
 ---
 
@@ -246,3 +246,5 @@ ht-degree: 100%
    + [Test](miscellaneous/test.md)
 + Notes de mise à jour {#release-notes}
    + [Notes de mise à jour actuelles](release-notes/current.md)
+   + Versions précédentes {#previous-releases}
+      + [Notes de mise à jour : 2023](release-notes/previous-releases/2023.md)
