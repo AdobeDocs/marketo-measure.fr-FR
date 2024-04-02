@@ -3,20 +3,16 @@ description: Tableau de bord Aperçu des recettes - [!DNL Marketo Measure] - Pro
 title: Tableau de bord Vue d’ensemble des revenus
 feature: Reporting
 exl-id: 37e00d79-18f4-46f1-9a1a-e25bbfd55bfd
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 2%
+source-wordcount: '283'
+ht-degree: 3%
 
 ---
 
 # Tableau de bord Vue d’ensemble des revenus {#revenue-overview-dashboard}
 
 Le tableau de bord Aperçu des recettes fournit des informations sur les recettes totales dérivées de votre gestion de la relation client, en mettant en lumière le rôle de vos stratégies marketing. Il offre un aperçu de la manière dont le marketing influence vos recettes globales et contribue à la conclusion réussie des offres.
-
->[!NOTE]
->
->Ce tableau de bord est actuellement en version bêta. Au cours de cette phase de transition, les tableaux de bord actuels et nouveaux seront accessibles. Le tableau de bord actuel sera obsolète une fois que nous aurons entièrement effectué la transition et garanti des fonctionnalités optimales.
 
 **Questions sur le panorama :**
 

@@ -4,9 +4,9 @@ product: Bizible
 audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
-source-git-commit: 00a362a2e143749e1a132672b847eb06dcab6b9c
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '802'
 ht-degree: 99%
 
 ---
@@ -164,20 +164,6 @@ ht-degree: 99%
       + [Tableau de bord Vue d’ensemble des revenus](marketo-measure-discover-ui/dashboards/revenue-overview-dashboard.md)
       + [Tableau de bord Retour sur investissement](marketo-measure-discover-ui/dashboards/roi-dashboard.md)
       + [Tableau de bord Trafic web](marketo-measure-discover-ui/dashboards/web-traffic-dashboard.md)
-
-   + Tableaux de bord hérités {#legacy-dashboards}
-      + [Documentation du tableau de bord des parcours de cohortes](marketo-measure-discover-ui/legacy-dashboards/cohort-journey-dashboard-documentation.md)
-      + [Documentation du tableau de bord des passeports](marketo-measure-discover-ui/legacy-dashboards/passport-dashboard-documentation.md)
-      + [Documentation du tableau de bord des instantanés](marketo-measure-discover-ui/legacy-dashboards/snapshot-dashboard-documentation.md)
-      + Utilisation de la plateforme de création de rapports de [!DNL Marketo Measure] {#using-marketo-measures-reporting-platform}
-         + [Scénarios classiques](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/common-use-cases.md)
-         + [Définitions et encyclopédie](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/definitions-and-encyclopedia.md)
-         + [Exploration publicitaire](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/drill-throughs.md)
-         + [Filtres](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/filters.md)
-         + [Questions fréquentes](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/faq.md)
-         + [Parcours d’engagement](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/engagement-path.md)
-         + [Mosaïques des opérations marketing](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/marketing-ops-tiles.md)
-         + [Vue d’ensemble des cases du panorama](marketo-measure-discover-ui/legacy-dashboards/using-marketo-measures-reporting-platform/overview-board-tiles.md)
 + [!DNL Marketo Measure] et Adobe {#marketo-measure-and-adobe}
    + [Intégrations [!DNL Marketo Measure] avec Adobe Analytics](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md)
    + [Intégrations [!DNL Marketo Measure] avec Adobe Launch](marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-launch.md)

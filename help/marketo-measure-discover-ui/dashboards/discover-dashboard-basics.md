@@ -3,9 +3,9 @@ description: Concepts de base du tableau de bord de Discover - [!DNL Marketo Mea
 title: Découvrir les bases du tableau de bord
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '386'
 ht-degree: 2%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 2%
 # Découvrir les bases du tableau de bord {#discover-dashboard-basics}
 
 Cet article vous guidera tout au long des fonctionnalités fondamentales de l’interface repensée, en vous assurant que vous pouvez accéder facilement à vos données et les interpréter. Découvrez la dynamique du volet de filtrage et les complexités de nos fonctionnalités de création de rapports améliorées, telles que les fonctions d’analyse, le filtrage croisé et les info-bulles.
-
->[!NOTE]
->
->Ce tableau de bord est actuellement en version bêta. Au cours de cette phase de transition, les tableaux de bord actuels et nouveaux seront accessibles. Le tableau de bord actuel sera obsolète une fois que nous aurons entièrement effectué la transition et garanti des fonctionnalités optimales.
 
 ## Volet Filtrer {#filter-pane}
 
