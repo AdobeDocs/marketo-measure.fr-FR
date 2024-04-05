@@ -3,10 +3,10 @@ description: Notes de mise à jour actuelles - [!DNL Marketo Measure]
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 00a362a2e143749e1a132672b847eb06dcab6b9c
+source-git-commit: 4a3b8a1df9d8a675d977b08693b9d7facb64bc02
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 2%
+source-wordcount: '424'
+ht-degree: 1%
 
 ---
 
@@ -41,3 +41,7 @@ Visibilité immédiate : l’introduction des notifications Push permet de réag
 _Support de votre transition_
 
 Pour vous aider à vous adapter à cette modification, [nous avons créé la documentation](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} avec des descriptions d’erreur claires et des étapes de dépannage complètes.
+
+**Action requise pour l’intégration LinkedIn**
+
+LinkedIn a récemment publié une version mise à jour de son API de synchronisation des pistes. Veuillez réauthentifier la connexion LinkedIn dans votre instance Marketo Measure d’ici le 20 mai pour éviter toute interruption.
