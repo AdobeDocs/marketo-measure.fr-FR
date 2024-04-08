@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] Exigence ultime en matière d’intégrité des données - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Exigence d’intégrité des données ultime - [!DNL Marketo Measure]'
 title: « Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate »
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
 # Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valide les jeux de données AEP entrants afin de s’assurer que les données sont suffisantes et cohérentes pour l’attribution. Si l’intégrité des données n’est pas respectée, le jeu de données est rejeté par la variable [!DNL Marketo Measure] système. Ce document décrit l’exigence en matière d’intégrité des données, fournit des exemples de requête pour l’examen des données et recommande une solution pour les champs obligatoires contenant une valeur nulle.
+[!DNL Marketo Measure] valide les jeux de données AEP entrants pour s’assurer que les données sont suffisantes et cohérentes pour l’attribution. Si l’exigence d’intégrité des données n’est pas respectée, le jeu de données est rejeté par le [!DNL Marketo Measure] système. Cet article détaille les exigences d’intégrité des données, fournit des exemples de requête pour l’inspection des données et recommande une solution pour les champs obligatoires avec une valeur nulle.
 
 ## Objet d’entité {#entity-object}
 
@@ -373,7 +373,7 @@ ht-degree: 95%
       <td>Chaîne</td>
       <td>ID</td>
       <td>Oui</td>
-      <td>Par exemple : 333, selon la table de la source de données, il s’agit de l’ID de piste ou de contact.</td>
+      <td>Par exemple - 333, selon la table de source de données, il s’agit de l’ID de lead ou de l’ID de contact</td>
     </tr>
     <tr>
       <td></td>
@@ -1105,7 +1105,7 @@ ht-degree: 95%
   </tbody>
 </table>
 
-Utilisez le type d’événement « Moment intéressant » pour les types d’événement non pris en charge dans le tableau ci-dessus. Ajoutez un champ personnalisé pour indiquer le sous-type &quot;Moment intéressant&quot;.
+Utilisez le type d’événement « Moment intéressant » pour les types d’événement non pris en charge dans le tableau ci-dessus. Ajoutez un champ personnalisé pour indiquer le sous-type « Moment intéressant ».
 
 ## Exemples de requêtes pour l’examen des données {#query-examples-for-data-inspection}
 
