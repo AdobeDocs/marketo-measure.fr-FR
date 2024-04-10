@@ -3,7 +3,7 @@ description: Notes de mise à jour actuelles - [!DNL Marketo Measure]
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
+source-git-commit: 6aaf6fd26f19e9382cc559e54558e1c5d84cfd6d
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 1%
@@ -43,6 +43,7 @@ _Prise en charge de votre transition_
 Pour vous aider à vous adapter à ce changement, [nous avons créé la documentation](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} avec des descriptions d’erreur claires et des étapes de dépannage complètes.
 
 <br>
+
 **Action requise pour l’intégration de LinkedIn**
 
 LinkedIn a récemment publié une version mise à jour de son API de synchronisation des leads. Veuillez réauthentifier la connexion LinkedIn dans votre instance Marketo Measure d’ici le 20 mai afin d’éviter toute interruption.
