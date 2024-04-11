@@ -1,12 +1,12 @@
 ---
-description: '[!DNL Marketo Measure] Présentation finale - [!DNL Marketo Measure]'
+description: « Vue d’ensemble de [!DNL Marketo Measure] Ultimate -  [!DNL Marketo Measure] »
 title: « Présentation de [!DNL Marketo Measure] Ultimate »
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 74%
 
 [!DNL Marketo Measure Ultimate] inclut les fonctionnalités supplémentaires suivantes :
 
-* Ingérez à partir de pratiquement n’importe quelle source de données et de plusieurs sources de données du même type afin d’importer toutes vos données pour l’attribution.
+* Ingérez des données de presque toutes les sources de données, ainsi que de plusieurs sources de données du même type, afin d’importer toutes vos données pour l’attribution.
    * Utilisez-le avec presque tous les CRM, pas uniquement Salesforce et Dynamics.
    * Connectez plusieurs instances CRM et/ou MAP à une instance [!DNL Marketo Measure].
    * Incluez des données d’inscription et de participation à des webinaires tiers.
@@ -39,13 +39,13 @@ Niveaux 1 à 3 **[!DNL Marketo Measure]**
 
 **Import de données B2B via AEP**
 
-Les marketeurs sont censés importer leurs données B2B (par exemple, Compte, Opportunité, Contact, Responsable, Campagne, Membre de la campagne, Activité) via AEP. Les connexions directes au CRM et à Marketo Engage ne sont plus disponibles pour Ultimate. Les marketeurs continuent d’apporter des données Ad Platform par le biais de connexions directes et du suivi des activités web par le biais de [!DNL Marketo Measure] javascript.
+Les personnes spécialisées dans le marketing sont censées importer leurs données B2B (par exemple, Compte, Opportunité, Contact, Prospect, Campagne, Personne membre de campagne, Activité) via AEP. Les connexions directes au CRM et à Marketo Engage ne sont plus disponibles pour Ultimate. Les personnes spécialisées dans le marketing continueront d’importer les données de la plateforme publicitaire par le biais de connexions directes et d’effectuer le suivi des activités web par le biais du code JavaScript [!DNL Marketo Measure].
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
 **Paramètre de devise par défaut**
 
-[!DNL Marketo Measure Ultimate] définit la devise par défaut sur USD jusqu’à ce que l’utilisateur la modifie. La définition d’une nouvelle devise par défaut met à jour les données sans retraitement. Tant que la devise sélectionnée est présente en tant que code ISO cible, il n’est pas nécessaire d’envoyer des taux de conversion.
+[!DNL Marketo Measure Ultimate] définit la devise par défaut sur USD jusqu’à ce que l’utilisateur ou l’utilisatrice la modifie. Si vous définissez une nouvelle devise par défaut, les données sont mises à jour sans nouveau traitement. Tant que la devise sélectionnée est présente en tant que code ISO cible, il n’est pas nécessaire d’envoyer des taux de conversion.
 
 ![](assets/marketo-measure-ultimate-overview-4.png)
 
@@ -55,11 +55,11 @@ L’instance [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de
 
 >[!NOTE]
 >
->A [!DNL Marketo Measure Ultimate] l’instance de production doit être mappée à un environnement de test de production AEP, un [!DNL Marketo Measure Ultimate] l’instance de développeur doit être mappée à un environnement de test de développeur AEP.
+>Une instance de production [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de production AEP, une instance de développement [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de développement AEP.
 
-Une fois la sélection de mappage des environnements de test enregistrée, vous ne pouvez pas la modifier dans l’application. Pour le changer, contactez [Prise en charge de Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Une fois la sélection du mappage de sandbox enregistrée, vous ne pouvez plus la modifier dans l’application. Pour la modifier, contactez [l’assistance Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-Les données d’une entité donnée (par exemple, Compte) provenant d’une source de données donnée ne peuvent entrer que dans un seul jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
+Les données d’une entité donnée (un compte, par exemple) provenant d’une source de données particulière ne peuvent entrer que dans un seul jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
 
 ![](assets/marketo-measure-ultimate-overview-5.png)
 
@@ -106,9 +106,9 @@ Les services ML ABM [!DNL Marketo Measure] (mappage prospect>compte et score d�
 
 ## Limites {#limitations}
 
-* Des champs limités sont disponibles pour les règles de transformation des données.
-* Il n’existe aucun chemin de migration pour les utilisateurs et utilisatrices de niveau 1/2/3 existants. Nécessite une nouvelle mise en oeuvre, mais nous vous aidons à migrer les données d’activité web suivies à partir de l’instance existante.
+* Les champs disponibles pour les règles de transformation des données sont limités.
+* Il n’existe aucun chemin de migration pour les utilisateurs et utilisatrices de niveau 1/2/3 existants. Nécessite une nouvelle implémentation, mais nous aidons à migrer les données d’activité web suivies à partir de l’instance existante.
 
 >[!MORELIKETHIS]
 >
->[Destination Marketo Measure Ultimate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=fr){target="_blank"}
+>[Destination Marketo Measure Ultimate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=fr){target="_blank"}

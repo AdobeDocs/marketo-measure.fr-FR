@@ -1,146 +1,146 @@
 ---
 unique-page-id: 18874574
-description: "[!DNL Marketo Measure] Champs dans Standard [!DNL Salesforce] Objets - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Champs dans Standard [!DNL Salesforce] Objets"
+description: « Champs [!DNL Marketo Measure] sur les objets  [!DNL Salesforce]  standard -  [!DNL Marketo Measure] »
+title: « Champs [!DNL Marketo Measure] sur les objets  [!DNL Salesforce]  standard »
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1292'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# [!DNL Marketo Measure] Champs dans Standard [!DNL Salesforce] Objets {#marketo-measure-fields-on-standard-salesforce-objects}
+# « Champs [!DNL Marketo Measure] sur les objets [!DNL Salesforce] standard » {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
+>Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans la documentation tandis que votre CRM peut mentionner « Bizible ». Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
 
-En savoir plus sur les [!DNL Marketo Measure] champs ajoutés à [!DNL Salesforce] objets standard.
+Découvrez les différents champs [!DNL Marketo Measure] ajoutés aux objets standards [!DNL Salesforce].
 
 ## Compte {#account}
 
-Score d’engagement prédictif : ce champ est utilisé avec notre fonction ABM pour fournir un score lié à l’engagement du compte et prend en compte de nombreux facteurs tels que la récence des pages vues, le nombre de contacts associés au compte, l’existence d’une option fermée, etc.
+Score d’engagement prédictif : ce champ est utilisé avec notre fonction ABM pour fournir un score lié à l’engagement du compte et prend en compte de nombreux facteurs tels que la date des consultations de pages, le nombre de contacts associés au compte, le fait qu’une opportunité est fermée, etc.
 
 ## Dossier {#case}
 
-Nous ajoutons des champs à l’objet Cas associé aux jalons Première touche et Création de piste. Il s’agit pour les clients qui utilisent l’objet Cas au lieu de l’prospect ou du contact et qui ont également pour but d’afficher les données d’une autre manière lorsqu’un client ne souhaite pas que nous créions d’enregistrements de point de contact.
+Nous ajoutons des champs à l’objet « Dossier » en rapport avec les étapes de contact « Premier contact » et « Création d’un prospect ». Ceci est destiné aux clientes et clients qui utilisent l’objet Dossier au lieu de Prospect ou de Contact, et sert également de moyen alternatif pour visualiser les données au cas où une cliente ou un client ne souhaiterait pas que nous créions des enregistrements de point de contact.
 
-Source du point de contact (FT) : source de l’interaction Première touche.
+Source du point de contact (FT) : il s’agit de la source de l’interaction de premier contact.
 
-Source du point de contact (LC) : source de l’interaction tactile de création de pistes.
+Source du point de contact (LC) : il s’agit de la source de l’interaction de contact de création de prospects.
 
-Canal marketing (FT) : il s’agit du canal marketing de l’interaction Première touche.
+Canal marketing (FT) : il s’agit du canal marketing de l’interaction de premier contact.
 
-Canal marketing (LC) : il s’agit du canal marketing de l’interaction tactile de création de pistes.
+Canal marketing (LC) : il s’agit du canal marketing de l’interaction de contact de création de prospects.
 
-Nom de la campagne publicitaire (FT) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires, ou [!DNL Salesforce] Campagne de l’interaction Première touche.
+Nom de la campagne publicitaire (FT) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de premier contact.
 
-Nom de la campagne publicitaire (LC) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires, ou [!DNL Salesforce] Campagne du [!UICONTROL création de piste] interaction tactile.
+Nom de la campagne publicitaire (LC) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de contact de [!UICONTROL création de prospects].
 
-Landing Page (FT) : il s’agit de la landing page de l’interaction Première touche.
+Page de destination (FT) : il s’agit de la page de destination de l’interaction de premier contact.
 
-Page d’entrée (LC) : il s’agit de la page d’entrée de [!UICONTROL création de piste] interaction tactile.
+Page de destination (LC) : il s’agit de la page de destination de l’interaction de contact de [!UICONTROL création de prospects].
 
-Date du point de contact (FT) : il s’agit de la date de l’interaction Première touche.
+Date du point de contact (FT) : il s’agit de la date de l’interaction de premier contact.
 
-Date du point de contact (LC) : il s’agit de la date de l’interaction tactile de création de piste.
+Date du point de contact (LC) : il s’agit de la date de l’interaction de contact pour la création de prospects.
 
 ## Campagne {#campaign}
 
-Seuls 4 champs ont été ajoutés, 1 bouton et 1 règle de validation.
+Seuls 4 champs sont ajoutés, 1 bouton et 1 règle de validation.
 
-UniqueID : ce champ est utilisé en interne pour effectuer le suivi des différentes campagnes synchronisées avec [!DNL Marketo Measure].
+UniqueID : ce champ est utilisé en interne pour nous permettre d’effectuer un suivi des différentes campagnes synchronisées avec [!DNL Marketo Measure].
 
-Activer les points de contact d’achat : ce champ est destiné à la synchronisation réelle des campagnes pour l’inclusion hors ligne et les données historiques.
+Activer Buyer Touchpoints : ce champ sert à synchroniser les campagnes pour l’inclusion de l’attribution hors ligne et des données historiques.
 
-Date de début du point de contact : ce champ est utilisé pour définir la date de début de l’application des points de contact aux campagnes historiques.
+Date de début du point de contact : ce champ permet de définir la date de début d’application de points de contact aux campagnes historiques.
 
-Date de fin du point de contact : ce champ est utilisé pour définir une date de fin pour appliquer des points de contact aux campagnes historiques. Un exemple courant est l’inclusion de campagnes numériques avant[!DNL Marketo Measure] puis définir la date de fin comme jour d’application du script.
+Date de fin du point de contact : ce champ permet de définir la date de fin d’application de points de contact aux campagnes historiques. Un exemple courant serait l’inclusion de campagnes numériques antérieures à [!DNL Marketo Measure] et la définition de la date de fin sur le jour où le script a été appliqué.
 
-Date de point de contact de la mise à jour en bloc (bouton) : ce bouton permet de gérer la date de point de contact des membres de la campagne lors de la synchronisation de la campagne, car nous référencerons la date d’adhésion à la campagne ou la date de première réponse prête à l’emploi. Si ces champs de date ne représentent pas de manière exacte la date réelle du point de contact, nous utiliserons ce bouton pour définir la date du point de contact.
+Mise à jour en bloc de la date du point de contact (bouton) : ce bouton permet de gérer la date du point de contact des personnes membres de la campagne lors de la synchronisation de la campagne, car par défaut, nous ferons référence soit à la date d’abonnement à la campagne, soit à la date de la première réponse. Dans le cas où ces champs de date ne seraient pas une représentation exacte de la date réelle du point de contact, nous utiliserions ce bouton pour définir la date du point de contact.
 
-Mettre à jour [!DNL Marketo Measure] Attribution (règle de validation) : cette règle est obsolète après la version 6.0 du package.
+Mise à jour de l’attribution [!DNL Marketo Measure] (règle de validation) : cette règle est obsolète depuis la version 6.0 du package.
 
 ## Personne membre de la campagne {#campaign-member}
 
-Il y a 5 champs et 1 déclencheur d’application ajouté avec le package.
+5 champs et 1 déclencheur Apex ont été ajoutés au package.
 
-État du point de contact (prospect) : il s’agit d’un champ de diagnostic associé à une fonctionnalité qui n’est pas activée prête à l’emploi. Nous l’utilisons pour comprendre si un point de contact a été créé par rapport à l’enregistrement de piste associé ou, dans le cas contraire, pourquoi.
+Statut du point de contact (Prospect) : il s’agit d’un champ de diagnostic lié à une fonctionnalité qui n’est pas activée initialement. Nous l’utilisons pour savoir si un point de contact a été créé par rapport à l’enregistrement de prospect correspondant ou, si ce n’est pas le cas, pour en connaître la raison.
 
-État du point de contact (Contact) : il s’agit d’un champ de diagnostic associé à une fonctionnalité qui n’est pas activée prête à l’emploi. Nous l’utilisons pour comprendre si un point de contact a été créé par rapport à l’enregistrement Contact associé ou, dans le cas contraire, pourquoi.
+Statut du point de contact (Contact) : il s’agit d’un champ de diagnostic lié à une fonctionnalité qui n’est pas activée initialement. Nous l’utilisons pour savoir si un point de contact a été créé par rapport à l’enregistrement de contact correspondant ou, si ce n’est pas le cas, pour en connaître la raison.
 
-État du point de contact (opportunité) : il s’agit d’un champ de diagnostic associé à une fonctionnalité qui n’est pas activée prête à l’emploi. Nous l’utilisons pour comprendre si un point de contact a été créé par rapport à l’enregistrement d’opportunité associé ou, dans le cas contraire, pourquoi.
+Statut du point de contact (Opportunité) : il s’agit d’un champ de diagnostic lié à une fonctionnalité qui n’est pas activée initialement. Nous l’utilisons pour savoir si un point de contact a été créé par rapport à l’enregistrement d’opportunité correspondant ou, si ce n’est pas le cas, pour en connaître la raison.
 
-Date d’état du point de contact : il s’agit de la date à laquelle les champs de diagnostic ont été renseignés.
+Date de statut du point de contact : il s’agit de la date à laquelle les champs de diagnostic ont été renseignés.
 
-Date de point de contact de l’acheteur : liée à la date [!UICONTROL Date de point de contact de mise à jour en bloc] à partir de l’objet Campaign. Lorsqu&#39;elle est utilisée, nous appliquons la date de point de contact définie au membre de campagne.
+Date du Buyer Touchpoint : lié au bouton [!UICONTROL Mise à jour en bloc de la date du point de contact] de l’objet Campagne. Lorsqu’il est utilisé, nous appliquons la date du point de contact définie à la personne membre de la campagne.
 
-OnCampaignMemberDelete : prêt à l’emploi, [!DNL Salesforce] ne s’affiche pas lorsque des membres de campagne sont supprimés, ce qui peut entraîner des problèmes avec des rapports d’attribution précis. Lorsqu&#39;un membre de Campaign est supprimé, il est déclenché pour informer : [!DNL Marketo Measure] pour supprimer les points de contact liés à ce membre de campagne inexistant.
+OnCampaignMemberDelete : [!DNL Salesforce] n’apparaît pas initialement lorsque des personnes membres de la campagne sont supprimées, ce qui peut entraîner des problèmes de précision dans les rapports d’attribution. Lorsqu’une personne membre de la campagne est supprimée, cette action est déclenchée pour demander à [!DNL Marketo Measure] de supprimer les points de contact liés à cette personne membre de la campagne qui n’existe plus.
 
 ## Contact {#contact}
 
-Nous ajoutons des champs à l’objet Contact liés aux jalons Première touche et Création de piste. Cela est destiné aux clients qui préfèrent que l’attribution soit rapportée directement aux champs plutôt que de créer des enregistrements de point de contact. La plupart de nos clients utilisent l’itinéraire des enregistrements Touchpoint, mais également ces champs dans leur plateforme d’automatisation.
+Nous ajoutons des champs à l’objet Contact en rapport avec les jalons Premier contact et Création de prospects. Cette option est destinée aux clientes et clients qui préfèrent que l’attribution soit signalée directement dans les champs plutôt que de créer des enregistrements de point de contact. La plupart de nos clientes et clients optent pour l’enregistrement du point de contact, mais utilisent également ces champs dans leur plateforme d’automatisation.
 
-Source du point de contact (FT) : source de l’interaction Première touche.
+Source du point de contact (FT) : il s’agit de la source de l’interaction de premier contact.
 
-Source du point de contact (LC) : source de l’interaction tactile de création de pistes.
+Source du point de contact (LC) : il s’agit de la source de l’interaction de contact de création de prospects.
 
-Canal marketing (FT) : il s’agit du canal marketing de l’interaction Première touche.
+Canal marketing (FT) : il s’agit du canal marketing de l’interaction de premier contact.
 
-Canal marketing (LC) : il s’agit du canal marketing de l’interaction tactile de création de pistes.
+Canal marketing (LC) : il s’agit du canal marketing de l’interaction de contact de création de prospects.
 
-Nom de la campagne publicitaire (FT) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires, ou [!DNL Salesforce] Campagne de l’interaction Première touche.
+Nom de la campagne publicitaire (FT) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de premier contact.
 
-Nom de la campagne publicitaire (LC) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires, ou [!DNL Salesforce] Campagne du [!UICONTROL création de piste] interaction tactile.
+Nom de la campagne publicitaire (LC) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de contact pour la [!UICONTROL création de prospects].
 
-Landing Page (FT) : il s’agit de la landing page de l’interaction Première touche.
+Page de destination (FT) : il s’agit de la page de destination de l’interaction de premier contact.
 
-Page d’entrée (LC) : il s’agit de la page d’entrée de [!UICONTROL création de piste] interaction tactile.
+Page de destination (LC) : il s’agit de la page de destination de l’interaction de contact pour la [!UICONTROL création de prospects].
 
-Date du point de contact (FT) : il s’agit de la date de l’interaction Première touche.
+Date du point de contact (FT) : il s’agit de la date de l’interaction de premier contact.
 
-Date du point de contact (LC) : il s’agit de la date de l’interaction tactile de création de piste.
+Date du point de contact (LC) : il s’agit de la date de l’interaction de contact pour la création de prospects.
 
-BizibleID : il est utilisé par rapport à l’attribution des activités et à l’intégration des mesures de suivi pour l’association Contact au point de contact.
+BizibleID : cette information est utilisée dans le cadre de l’attribution de nos activités et de l’intégration de calltrackingmetrics pour l’association du contact au point de contact.
 
-## Lead {#lead}
+## Prospect {#lead}
 
-Nous ajoutons des champs à l’objet Lead liés aux jalons Première touche et Création de piste. Cela est destiné aux clients qui préfèrent que l’attribution soit rapportée directement aux champs plutôt que de créer des enregistrements de point de contact. La plupart de nos clients utilisent l’itinéraire des enregistrements Touchpoint, mais également ces champs dans leur plateforme d’automatisation.
+Nous ajoutons des champs à l’objet Prospect en rapport avec les étapes Premier contact et Création de prospects. Cette option est destinée aux clientes et clients qui préfèrent que l’attribution soit signalée directement dans les champs plutôt que de créer des enregistrements de point de contact. La plupart de nos clientes et clients optent pour l’enregistrement du point de contact, mais utilisent également ces champs dans leur plateforme d’automatisation.
 
-Source du point de contact (FT) : source de l’interaction Première touche.
+Source du point de contact (FT) : il s’agit de la source de l’interaction de premier contact.
 
-Source du point de contact (LC) : source de l’interaction tactile de création de pistes.
+Source du point de contact (LC) : il s’agit de la source de l’interaction de contact de création de prospects.
 
-Canal marketing (FT) : il s’agit du canal marketing de l’interaction Première touche.
+Canal marketing (FT) : il s’agit du canal marketing de l’interaction de premier contact.
 
-Canal marketing (LC) : il s’agit du canal marketing de l’interaction tactile de création de pistes.
+Canal marketing (LC) : il s’agit du canal marketing de l’interaction de contact de création de prospects.
 
-Nom de la campagne publicitaire (FT) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires, ou [!DNL Salesforce] Campagne de l’interaction Première touche.
+Nom de la campagne publicitaire (FT) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de premier contact.
 
-Nom de la campagne publicitaire (LC) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires, ou [!DNL Salesforce] Campagne de l’interaction tactile de création de piste.
+Nom de la campagne publicitaire (LC) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de contact de création de prospects.
 
-Landing Page (FT) : il s’agit de la landing page de l’interaction Première touche.
+Page de destination (FT) : il s’agit de la page de destination de l’interaction de premier contact.
 
-Landing Page (LC) : il s’agit de la landing page de l’interaction tactile de création de piste.
+Page de destination (LC) : il s’agit de la page de destination de l’interaction de contact de création de prospects.
 
-Date du point de contact (FT) : il s’agit de la date de l’interaction Première touche.
+Date du point de contact (FT) : il s’agit de la date de l’interaction de premier contact.
 
-Date du point de contact (LC) : il s’agit de la date de l’interaction tactile de création de piste.
+Date du point de contact (LC) : il s’agit de la date de l’interaction de contact pour la création de prospects.
 
-BizibleID : il est utilisé par rapport à l’attribution des activités et à l’intégration des mesures de suivi pour l’association de piste au point de contact.
+BizibleID : cette information est utilisée dans le cadre de l’attribution de nos activités et de l’intégration de calltrackingmetrics pour l’association du prospect au point de contact.
 
 ## Compte {#account-1}
 
-Il est utilisé pour notre mappage de piste au compte pour notre fonctionnalité ABM. Nous renseignons ce champ pour créer la relation de recherche entre les deux objets.
+Cette information est utilisée pour le mappage d’un prospect à un compte dans le cadre de notre fonctionnalité ABM. Nous remplissons ce champ pour créer la relation de consultation entre les deux objets.
 
 ## Opportunité {#opportunity}
 
-[!DNL Marketo Measure] Montant de l&#39;opportunité : ce champ est utilisé dans le scénario où un champ de montant personnalisé est utilisé sur l&#39;opportunité. Nous associons cette valeur de champ personnalisée à [!DNL Marketo Measure] Montant de l’opportunité à l’aide d’un workflow, puis lisez ce champ pour nos champs d’attribution Recettes sur l’objet Point de contact d’attribution de l’achat.
+Montant de l’opportunité [!DNL Marketo Measure] : ce champ est utilisé lorsqu’un champ de montant personnalisé est utilisé dans l’opportunité. Nous mappons la valeur de ce champ personnalisé au montant de l’opportunité [!DNL Marketo Measure] à l’aide d’un workflow, puis nous lisons ce champ pour nos champs d’attribution de revenus sur l’objet Buyer Attribution Touchpoint.
 
 ## Activité {#activity}
 
-BizibleID : nous permet d’associer un point de contact aux activités pour l’intégration des mesures d’attribution des activités et de suivi des appels.
+BizibleID : cette information nous permet de relier un point de contact à des activités pour notre attribution d’activités et l’intégration de mesures de suivi des appels.
 
-Date point de contact de l’acheteur : il s’agit d’un champ qui peut être renseigné via un workflow à utiliser comme date d’attribution des activités et qui sera renseigné pour l’intégration de nos mesures de rappel afin de savoir quand l’interaction s’est produite.
+Date du Buyer Touchpoint : il s’agit d’un champ qui peut être rempli via un workflow, à utiliser comme date pour l’attribution des activités. Il sera rempli pour notre intégration de calltrackingmetrics afin de savoir à quel moment a eu lieu l’interaction.

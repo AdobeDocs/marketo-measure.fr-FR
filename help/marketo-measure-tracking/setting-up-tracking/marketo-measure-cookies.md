@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874590
-description: "[!DNL Marketo Measure] Cookies - [!DNL Marketo Measure]"
+description: « Cookies [!DNL Marketo Measure] -  [!DNL Marketo Measure] »
 title: « Cookies [!DNL Marketo Measure] »
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ En savoir plus sur les différents cookies [!DNL Marketo Measure] chargés sur v
 
 >[!IMPORTANT]
 >
->En raison de problèmes de confidentialité, des cookies tiers sont en cours d’élimination. L’abandon des cookies tiers annoncé par Google Chrome au troisième trimestre 2024 marque effectivement la fin de cette forme de suivi. Par conséquent, Adobe abandonne les fonctions Marketo Measure qui reposent sur des cookies tiers, en particulier le suivi inter-domaines et l’attribution d’affichage publicitaire, qui utilisent le cookie d’impression Google/DoubleClick. Aucune autre fonction de Marketo Measure ne sera affectée. L’utilisation des cookies propriétaires ne sera pas non plus affectée. Compte tenu du planning de Google, la date d’obsolescence attendue des deux fonctions ci-dessus est le 01/06/2024. Les données connexes collectées avant cette date restent disponibles pour les clients Adobe.
+>En raison de problèmes de confidentialité, des cookies tiers sont en cours d’élimination. L’abandon des cookies tiers annoncé par Google Chrome au troisième trimestre 2024 marque effectivement la fin de cette forme de suivi. Par conséquent, Adobe abandonnera les fonctions Marketo Measure qui reposent sur des cookies tiers, en particulier le suivi inter-domaines et l’attribution après affichage (View-through), qui utilisent le cookie d’impression Google/DoubleClick. Aucune autre fonction de Marketo Measure ne sera affectée. L’utilisation des cookies propriétaires ne sera pas non plus affectée. Compte tenu du planning de Google, la date d’obsolescence attendue des deux fonctions ci-dessus est le 01/06/2024. Les données connexes collectées avant cette date restent disponibles pour les clientes et clients Adobe.
 
 <table>
 <thead>
@@ -116,6 +116,6 @@ En savoir plus sur les différents cookies [!DNL Marketo Measure] chargés sur v
 </tbody>
 </table>
 
-Si un avertissement de pare-feu d’applications web (WAF) est déclenché lors de la configuration de JavaScript, les utilisateurs peuvent désactiver cette règle de WAF ou placer sur la liste autorisée les cookies, comme dans l’exemple ci-dessous :
+Si un avertissement de pare-feu d’application web (WAF) est déclenché lors de la configuration de JavaScript, les utilisateurs et utilisatrices peuvent désactiver cette règle WAF ou placer les cookies sur la liste autorisée, comme dans l’exemple ci-dessous :
 
 ![](assets/marketo-measure-cookies-1.png)

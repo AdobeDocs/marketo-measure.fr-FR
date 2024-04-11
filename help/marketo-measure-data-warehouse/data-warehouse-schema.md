@@ -5,9 +5,9 @@ title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '21110'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Data Warehouse vous permet d’effectuer le suivi de toutes les données de votr
 
 ## Diagrammes de relation d’entité {#entity-relationship-diagrams}
 
-L’ERD du _modèle de données Data Warehouse_ indique comment les données de l’entrepôt de données sont destinées à s’organiser sous forme de flux et à être liées. Ce diagramme n’inclut pas toutes les tables disponibles dans l’entrepôt de données, car certaines d’entre elles représentent des tables de mappage, des vues correspondant à des tables déjà présentes ou des tables obsolètes que nous vous déconseillons d’utiliser. Reportez-vous aux descriptions détaillées des tableaux et colonnes présents dans l’entrepôt de données ci-dessous. La plupart de ces tables contiennent des champs dénormalisés. Cependant, ce diagramme correspond au modèle de données recommandé : il exploite les données des tables dimensionnelles à la place.
+L’ERD du _modèle de données Data Warehouse_ indique comment les données de l’entrepôt de données sont destinées à s’organiser sous forme de flux et à être liées. Ce diagramme n’inclut pas toutes les tables disponibles dans l’entrepôt de données, car certaines d’entre elles représentent des tables de mappage, des vues correspondant à des tables déjà présentes ou des tables obsolètes que nous vous déconseillons d’utiliser. Consultez les descriptions détaillées des tableaux et colonnes présents dans l’entrepôt de données ci-dessous. La plupart de ces tables contiennent des champs dénormalisés. Cependant, ce diagramme correspond au modèle de données recommandé : il exploite les données des tables dimensionnelles à la place.
 
 Le second ERD, qui correspond au _modèle de données dimensionnel pour les publicités_, présente la meilleure façon de lier les tables pour les dimensions spécifiques aux publicités à celles présentes dans le modèle de données principal. Bien que les dimensions publicitaires soient également dénormalisées dans d’autres tables, ce modèle est recommandé pour joindre ces dimensions.
 
@@ -5802,7 +5802,7 @@ Regroupe les données de type Impressions, Pages vues, Visites, Envois de formul
 
 >[!IMPORTANT]
 >
->Marketo Measure abandonnera ce tableau à la mi-2024. Si vous souhaitez le créer de votre côté, exécutez [cette requête SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure abandonnera ce tableau à la mi-2024. Si vous souhaitez procéder à la création de votre côté, exécutez [cette requête SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>

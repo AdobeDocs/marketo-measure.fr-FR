@@ -1,12 +1,12 @@
 ---
-description: Bonnes pratiques relatives à la segmentation - [!DNL Marketo Measure]
+description: Bonnes pratiques relatives à la segmentation -  [!DNL Marketo Measure]
 title: Bonnes pratiques relatives à la segmentation
 exl-id: 68281210-383b-4688-86e9-27fbdc1fabbb
 feature: Segmentation
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -20,17 +20,17 @@ La segmentation fait partie intégrante de votre compte [!DNL Marketo Measure], 
 
 Lorsqu’elles sont transmises à [!DNL Salesforce], les valeurs de segment sont écrites dans le champ « Segment » et se trouvent dans n’importe quel type de rapport Buyer Touchpoint. Cela permet d’uniformiser les rapports sur les deux plateformes. Le segment se trouve également dans le détail du point de contact de n’importe quel point de contact.
 
-Lorsque la variable est envoyée à [!UICONTROL Discover], les segments s’affichent en tant que filtre disponible dans le menu déroulant de filtre situé sur tous les panoramas.
+Lors d’une transmission à [!UICONTROL Discover], les segments apparaissent sous la forme d’un filtre disponible dans le menu déroulant des filtres, situé sur tous les tableaux de bord.
 
 ## Bonne pratique {#best-practice}
 
-Gardez à l’esprit les bonnes pratiques suivantes, que vous définissiez la segmentation pour la première fois ou que vous passiez simplement en revue la segmentation précédemment établie.
+Gardez à l’esprit les bonnes pratiques suivantes, que vous définissiez la segmentation pour la première fois ou que vous examiniez simplement la segmentation qui a été précédemment définie.
 
 * Ne vous compliquez pas la tâche !
 * Alignez le nom du segment sur la nomenclature de votre organisation, c’est-à-dire la catégorie = nom du filtre, le segment = valeur du filtre.
 * N’utilisez pas de champs de formule dans vos règles
 * Dans la mesure du possible, créez la segmentation à la fois sur les leads/contacts et opportunités afin de pouvoir l’utiliser dans l’entonnoir entier
-   * Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut comme Contact, n’utilisez pas les deux champs ci-dessous spécifiques à la piste ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+   * Si vous êtes client ou cliente Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut sur Contact, n’utilisez pas les deux champs ci-dessous, spécifiques au prospect ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
       * b2b.personStatus
       * b2b.isConverted
    * Toutes les catégories de segments ne s’aligneront pas sur l’ensemble de l’entonnoir

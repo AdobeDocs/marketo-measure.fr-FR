@@ -1,12 +1,12 @@
 ---
-description: Bonnes pratiques relatives aux connexions aux API - [!DNL Marketo Measure]
+description: Bonnes pratiques relatives aux connexions API -  [!DNL Marketo Measure]
 title: Bonnes pratiques relatives aux connexions API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '737'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ Les connexions API [!DNL Marketo Measure] constituent un aspect inestimable de v
 
 ## Bonne pratique {#best-practice}
 
-Quelle que soit la plate-forme publicitaire que vous connectez, les instructions suivantes sont importantes à garder à l’esprit.
+Quelle que soit la plateforme publicitaire que vous connectez, il est important de garder à l’esprit les instructions ci-après.
 
 * Utilisez un compte d’administration pour vous connecter.
 * Vous pouvez connecter plusieurs comptes publicitaires dans une seule plateforme.
 * Connectez tous les comptes publicitaires possibles pour automatiser autant que possible les rapports de dépenses.
 * Si possible, implémentez toujours un modèle de suivi. Le modèle garantit que même si le compte publicitaire est déconnecté, [!DNL Marketo Measure] peut toujours extraire des informations publicitaires détaillées.
 
-Pour optimiser chaque [!DNL Marketo Measure] API, respectez les bonnes pratiques suivantes.
+Pour optimiser chaque API [!DNL Marketo Measure], respectez les bonnes pratiques suivantes.
 
 **[!DNL Facebook]** : connexion avec le balisage automatique
 
@@ -84,7 +84,7 @@ Les raisons d’une déconnexion et d’une réautorisation incluent les éléme
 * Cette personne n’est plus dans l’entreprise.
 * Des mises à jour des API.
 
-Si votre équipe a fait l’expérience de l’un des scénarios ci-dessus, vérifiez vos connexions API dans la variable [!DNL Marketo Measure] pour s’assurer qu’elles n’ont pas besoin d’être réautorisées.
+Si votre équipe a fait l’expérience de l’un des scénarios ci-dessus, vérifiez vos connexions API dans l’application [!DNL Marketo Measure] pour vous assurer qu’elles n’ont pas besoin d’être réautorisées.
 
 >[!MORELIKETHIS]
 >

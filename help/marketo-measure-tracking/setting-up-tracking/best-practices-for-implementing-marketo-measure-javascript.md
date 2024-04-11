@@ -1,12 +1,12 @@
 ---
-description: Bonnes pratiques pour la mise en oeuvre [!DNL Marketo Measure] JavaScript - [!DNL Marketo Measure]
+description: Bonnes pratiques pour la mise en œuvre du code JavaScript  [!DNL Marketo Measure]  -  [!DNL Marketo Measure]
 title: Bonnes pratiques pour la mise en œuvre du code JavaScript  [!DNL Marketo Measure]
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Le code JavaScript [!DNL Marketo Measure] est un élément fondamental de votre 
 Lorsqu’il s’agit de mettre en œuvre et de gérer votre code JavaScript [!DNL Marketo Measure], tenez compte des bonnes pratiques suivantes.
 
 * Vérifiez que tous les domaines sont répertoriés dans votre compte [!DNL Marketo Measure]
-   * Si vous avez des questions concernant vos domaines, contactez l’assistance
+   * Si vous avez des questions concernant vos domaines, contactez l’assistance.
 * Déployez du code JavaScript sur TOUTES les pages.
    * Le placement de code JavaScript sur certaines pages uniquement entraîne des interruptions dans les données de session, ce qui entraîne des données [!DNL Marketo Measure] incorrectes
 * Pour un formulaire sur votre site à partir duquel vous ne souhaitez pas créer de points de contact, veillez à ajouter le script d’exclusions [!DNL Marketo Measure]
