@@ -5,9 +5,9 @@ title: Campagnes et personnes membres de campagne
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
 source-git-commit: b84909fbb34a1d8f739ebeea3400ef8816e17d32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1164'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,6 +126,6 @@ Pour contourner ce problème, [!DNL Marketo Measure] a créé un objet d’histo
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials : champs d’objet Campaign](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
+>[[!DNL Marketo Measure] Tutoriels : champs d’objets de campagne](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/campaign-object-fields){target="_blank"}
 >
->[[!DNL Marketo Measure] Tutorials : mappage de canaux hors ligne](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
+>[[!DNL Marketo Measure] Tutoriels : mappage de canaux hors ligne](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}

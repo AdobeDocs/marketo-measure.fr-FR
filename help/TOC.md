@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
 source-git-commit: 403b31acce25ddc9c1dcafbd53008b6e2868b3df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
