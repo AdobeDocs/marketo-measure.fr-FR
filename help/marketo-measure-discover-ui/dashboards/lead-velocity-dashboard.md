@@ -2,9 +2,10 @@
 description: Tableau de bord Velocity de piste - [!DNL Marketo Measure] - Produit
 title: Tableau de bord de la vitesse de lead
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
+source-git-commit: de7239abaedaf1a59b3760f12736a225d71027a1
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '363'
 ht-degree: 3%
 
 ---
@@ -20,14 +21,16 @@ Questions : Ce tableau de bord répond :
 
 ## Composants de tableau de bord {#dashboard-components}
 
+L’affichage ou non de &quot;Prospère&quot; ou &quot;Contact&quot; est déterminé par les préférences définies dans : Paramètres > Paramètres d’attribution > Objet de tableau de bord par défaut.
+
 ### Vitesse de piste/contact par étape {#lead-contact-velocity-by-stage}
 
 Le graphique à barres affiche la durée moyenne, en jours, des prospects/contacts qui ont été engagés au cours de chaque étape de vente au cours d’une période spécifique.
 
 Questions sur le graphique :
 
-Quelle étape de vente a généralement la durée la plus longue pour les pistes/contacts ?
-Quelle est la différence entre le temps passé dans la phase &quot;Première touche&quot; et la phase &quot;MQL&quot; ?
+* Quelle étape de vente a généralement la durée la plus longue pour les pistes/contacts ?
+* Quelle est la différence entre le temps passé dans la phase &quot;Première touche&quot; et la phase &quot;MQL&quot; ?
 
 ![](assets/lead-velocity-dashboard-1.png)
 
@@ -35,7 +38,7 @@ Quelle est la différence entre le temps passé dans la phase &quot;Première to
 
 Le graphique en courbes de série temporelle affiche la durée moyenne, en jours, des visites/contacts à chaque étape de vente au cours de la période spécifiée.
 
-* utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
+* Utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
 * Pointez sur une ligne pour afficher des informations détaillées.
 
 Questions sur le graphique :
