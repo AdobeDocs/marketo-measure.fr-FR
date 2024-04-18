@@ -4,16 +4,20 @@ description: Configuration de l’affichage double du Gestionnaire de campagnes 
 title: Configuration l’attribution de visionnage moyen dans le gestionnaire de campagnes Doubleclick
 exl-id: 2cc6c2cd-afb7-4052-b18b-9ad0bf16a9fa
 feature: Attribution
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 4%
+source-wordcount: '417'
+ht-degree: 27%
 
 ---
 
 # Configuration l’attribution de visionnage moyen dans le gestionnaire de campagnes Doubleclick {#configuring-doubleclick-campaign-manager-view-through-attribution}
 
 ## Mesure de l’attribution des vues {#measuring-view-through-attribution}
+
+>[!IMPORTANT]
+>
+>En raison de problèmes de confidentialité, des cookies tiers sont en cours d’élimination. L’abandon des cookies tiers annoncé par Google Chrome au troisième trimestre 2024 marque effectivement la fin de cette forme de suivi. Par conséquent, Adobe abandonnera les fonctions Marketo Measure qui reposent sur des cookies tiers, en particulier le suivi inter-domaines et l’attribution après affichage (View-through), qui utilisent le cookie d’impression Google/DoubleClick. Aucune autre fonction de Marketo Measure ne sera affectée. L’utilisation des cookies propriétaires ne sera pas non plus affectée. Compte tenu du planning de Google, la date d’obsolescence attendue des deux fonctions ci-dessus est le 01/06/2024. Les données connexes collectées avant cette date restent disponibles pour les clientes et clients Adobe.
 
 >[!NOTE]
 >

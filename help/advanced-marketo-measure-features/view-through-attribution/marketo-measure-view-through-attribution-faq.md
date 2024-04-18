@@ -4,10 +4,10 @@ description: "[!DNL Marketo Measure] FAQ sur l’attribution d’affichages publ
 title: "[!DNL Marketo Measure] FAQ sur l’attribution d’affichages publicitaires"
 exl-id: d20e88f3-3ff8-4381-a4b8-6862798caa74
 feature: Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 48962b999fdd16fe96d18708ec301e64a39bc76e
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 13%
+source-wordcount: '492'
+ht-degree: 30%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 13%
 ## Qu’est-ce que l’attribution d’affichage publicitaire ? {#what-is-view-through-attribution}
 
 La variable [!DNL Marketo Measure] [!UICONTROL Attribution d’affichage publicitaire] Cette fonctionnalité offre la possibilité d’inclure les impressions publicitaires dans le modèle d’attribution.
+
+>[!IMPORTANT]
+>
+>En raison de problèmes de confidentialité, des cookies tiers sont en cours d’élimination. L’abandon des cookies tiers annoncé par Google Chrome au troisième trimestre 2024 marque effectivement la fin de cette forme de suivi. Par conséquent, Adobe abandonnera les fonctions Marketo Measure qui reposent sur des cookies tiers, en particulier le suivi inter-domaines et l’attribution après affichage (View-through), qui utilisent le cookie d’impression Google/DoubleClick. Aucune autre fonction de Marketo Measure ne sera affectée. L’utilisation des cookies propriétaires ne sera pas non plus affectée. Compte tenu du planning de Google, la date d’obsolescence attendue des deux fonctions ci-dessus est le 01/06/2024. Les données connexes collectées avant cette date restent disponibles pour les clientes et clients Adobe.
 
 ## Pourquoi [!UICONTROL Attribution d’affichage publicitaire] Important ? {#why-is-view-through-attribution-important}
 
@@ -99,7 +103,7 @@ Nous avons effectué une analyse approfondie des données d’impression et de l
    <td>Personnalisé</td> 
   </tr> 
   <tr> 
-   <td><strong>Moyen</strong></td> 
+   <td><strong>Deuxième prénom</strong></td> 
    <td>0 %</td> 
    <td>0 %</td> 
    <td>20 %</td> 
