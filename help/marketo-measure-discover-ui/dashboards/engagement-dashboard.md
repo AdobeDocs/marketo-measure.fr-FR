@@ -2,16 +2,25 @@
 description: Tableau de bord des engagements - [!DNL Marketo Measure] - Produit
 title: Tableau de bord des engagements
 feature: Reporting
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
+source-git-commit: db71635a77d6e2555c442fb45371fd5a93e3c502
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 1%
+source-wordcount: '503'
+ht-degree: 0%
 
 ---
 
 # Tableau de bord des engagements {#engagement-dashboard}
 
 Le tableau de bord Engagement effectue un suivi méticuleux des mesures d’engagement des utilisateurs. Il présente les points de contact, le nombre de personnes engagées et la moyenne des points de contact par personne. Utilisez le graphique à barres des séries temporelles pour une vue mensuelle, trimestrielle ou annuelle, ainsi que le graphique à barres pour obtenir des informations détaillées sur les canaux, les sous-canaux et les campagnes. Cet outil est essentiel pour comprendre les schémas d’engagement et pour affiner vos stratégies d’engagement.
+
+Nous effectuons le suivi de chaque interaction client en tant que points de contact utilisateur (UT), points de données collectés &quot;bruts&quot;, qui servent de base aux mesures d’engagement dans notre tableau de bord. Toutes les UT ne deviennent pas des points de contact d’achat (BAT) ou des points de contact d’attribution d’achat (BAT), car il s’agit de résultats sélectionnés pour attribuer des interactions client spécifiques à des activités liées aux recettes. Il est important de noter que les règles de suppression n’affectent pas les UT ou le tableau de bord de l’engagement.
+
+* **Points de contact utilisateur**: points de contact créés à partir de tous les engagements.
+* **Points de contact de l’utilisateur**: points de contact sélectionnés pour l’attribution de pistes et de contacts. Les BAT ne sont pas liés aux opportunités et n’ont pas de revenus associés.
+* **Points de contact d’attribution des acheteurs**: points de contact sélectionnés pour l’attribution d’opportunité. Les MAT ont des répercussions sur les recettes, car elles sont liées aux opportunités.
+
+L’utilisation de BAT ou de BAT uniquement pour mesurer l’engagement sous-estimerait l’ampleur réelle des interactions des clients, puisque l’engagement est plus large que la simple attribution.
 
 Le tableau de bord pose les questions suivantes :
 
