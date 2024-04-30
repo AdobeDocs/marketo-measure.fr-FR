@@ -4,9 +4,9 @@ title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -27,10 +27,10 @@ En réponse aux préoccupations croissantes concernant la confidentialité, les 
 
 **Déploiement par phases de notre gestion améliorée des erreurs**
 
-Nous introduisons un déploiement progressif de la gestion améliorée des erreurs pour les tâches d’exportation, en commençant par des notifications Push in-app immédiates pour les erreurs d’autorisation, et en passant à une nouvelle approche où les tâches d’exportation seront suspendues au point d’erreur. Ce changement vise à améliorer l’intégrité et la visibilité des données, en assurant des processus de gestion des données plus fluides et plus fiables pour nos utilisateurs et nos utilisatrices. Pour garantir une transition fluide et une perturbation minimale de vos opérations, nous effectuons l’implémentation de ces modifications en deux phases :
+Nous mettons en place un déploiement progressif de la gestion améliorée des erreurs pour les traitements d’export, en commençant par des notifications lumineuses in-app immédiates pour les erreurs d’autorisation, puis en instaurant une nouvelle approche consistant à interrompre les traitements d’export au moment de l’erreur. Ce changement vise à améliorer l’intégrité et la visibilité des données, en assurant des processus de gestion des données plus fluides et plus fiables pour nos utilisateurs et nos utilisatrices. Pour garantir une transition fluide et une perturbation minimale de vos opérations, nous effectuons l’implémentation de ces modifications en deux phases :
 
 * Disponibilité immédiate des notifications lumineuses : vous recevrez des notifications lumineuses in-app pour les erreurs d’autorisation lors des traitements d’export. Celles-ci n’interrompent pas vos exports, mais vous aident à en savoir plus sur les erreurs sans affecter vos traitements actuels.
-* Mise en oeuvre de la suspension de tâche le 25 avril : **POSTPONED** - Après avoir pris en compte les commentaires des utilisateurs de Marketo Measure, nous avons décidé de reporter la mise en oeuvre de la mise en pause des tâches d’exportation au point d’erreur, initialement planifiée pour le 25 avril. Nous reconnaissons que l&#39;arrêt des emplois n&#39;est peut-être pas l&#39;approche la plus efficace. Nous nous engageons à trouver une meilleure solution qui préserve l’intégrité des données et minimise les perturbations. Nous repousserons toute modification de notre système actuel jusqu’à ce que nous puissions garantir une solution qui s’aligne plus étroitement sur les besoins de nos utilisateurs.
+* Implémentation des pauses de traitement le 25 avril : **REPORTÉ** - Après avoir pris en compte les commentaires des utilisateurs et utilisatrices de Marketo Measure, nous avons décidé de reporter l’implémentation des pauses de traitement d’export au moment de l’erreur, initialement planifiée pour le 25 avril. Nous avons conscience que l’arrêt des traitements n’est peut-être pas l’approche la plus efficace. Nous nous engageons à trouver une meilleure solution qui préserve l’intégrité des données et minimise les perturbations. Nous mettons en pause toute modification de notre système actuel jusqu’à ce que nous puissions garantir une solution qui s’aligne plus étroitement sur les besoins de nos utilisateurs et utilisatrices.
 
 _Pourquoi c’est important_
 
