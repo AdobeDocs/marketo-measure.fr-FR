@@ -3,7 +3,7 @@ description: Tableau de bord des recettes attribuées - [!DNL Marketo Measure] -
 title: Tableau de bord Revenus attribués
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: 01ed0bfa424a1fb5eb68983b1a54c4c5eddc163a
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 3%
@@ -18,7 +18,7 @@ Le tableau de bord des recettes affectées offre une perspective précise des re
 >
 >Ce tableau de bord est en version bêta. Au cours de cette phase de transition, les tableaux de bord actuels et nouveaux seront accessibles. Le tableau de bord actuel sera obsolète une fois que nous aurons entièrement effectué la transition et garanti des fonctionnalités optimales.
 
-**Questions sur le panorama :**
+**Questions sur les réponses du panorama**:
 
 * Quels sont les canaux, sous-canaux ou campagnes qui se classent le plus en termes de recettes attribuées ?
 * Quel est le montant total de nos recettes attribuées et le nombre de nos contrats à durée indéterminée ?
@@ -37,7 +37,7 @@ Graphique à barres empilées affichant le total des recettes attribuées, segme
 * Utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
 * Passez la souris sur un segment de barre ou l’espace entre les barres pour afficher des informations détaillées.
 
-**Questions sur le graphique :**
+**Questions aux réponses du graphique**:
 
 * Quels canaux ont généré le plus de recettes par trimestre ?
 * Quelle a été la ventilation des recettes attribuées par canal le mois dernier ?
@@ -48,7 +48,7 @@ Graphique à barres empilées affichant le total des recettes attribuées, segme
 
 Total des recettes attribuées segmenté par canal, sous-canal et campagne, présenté aux formats Tableau et Arborescence. Cliquez sur le bouton dans le coin supérieur droit pour basculer entre les vues.
 
-**Questions sur le panorama :**
+**Questions sur les réponses du panorama**:
 
 * En quoi la distribution des recettes attribuée varie-t-elle entre différents sous-canaux au sein d’un canal ?
 * Quelles campagnes sous un certain sous-canal génèrent les recettes les plus attribuées ?
