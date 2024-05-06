@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
 source-git-commit: 5759615376954806d6f0682378ce4bbc786bc43a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '805'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -156,7 +156,7 @@ ht-degree: 99%
       + [Découvrir les bases du tableau de bord](marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md)
       + [Nouveau guide de découverte du tableau de bord](marketo-measure-discover-ui/dashboards/new-discover-dashboard-guide.md)
       + [Politique de visibilité des données du tableau de bord](marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md)
-      + [Tableau de bord des opportunités attribuées](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
+      + [Tableau de bord Opportunité attribuées](marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md)
       + [Tableau de bord Revenus attribués](marketo-measure-discover-ui/dashboards/attributed-revenue-dashboard.md)
       + [Tableau de bord des engagements](marketo-measure-discover-ui/dashboards/engagement-dashboard.md)
       + [Tableau de bord de la vitesse de lead](marketo-measure-discover-ui/dashboards/lead-velocity-dashboard.md)
