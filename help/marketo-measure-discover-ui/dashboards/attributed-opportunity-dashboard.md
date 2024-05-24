@@ -1,18 +1,16 @@
 ---
 description: Tableau de bord des opportunités attribuées - [!DNL Marketo Measure] - Produit
-title: Tableau de bord des opportunités attribuées
-hide: true
-hidefromtoc: true
+title: Tableau de bord Opportunité attribuées
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-source-git-commit: 01ed0bfa424a1fb5eb68983b1a54c4c5eddc163a
+source-git-commit: 40c9a92582d0177474bd6390be58726844e1714a
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Tableau de bord des opportunités attribuées {#attributed-opportunity-dashboard}
+# Tableau de bord Opportunité attribuées {#attributed-opportunity-dashboard}
 
 Le tableau de bord des opportunités attribuées offre une vue d’ensemble exhaustive de la manière dont les efforts marketing contribuent aux opportunités de pipeline naissantes et matures. Découvrez les détails de chaque opportunité ouverte et fermée pouvant être attribuée à vos stratégies, avec la flexibilité de filtrer par étape d’opportunité, ce qui souligne l’étendue de l’influence du marketing au-delà des offres fermées.
 
