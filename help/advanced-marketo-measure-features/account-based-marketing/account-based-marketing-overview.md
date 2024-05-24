@@ -4,10 +4,10 @@ description: Découvrez Account-Based Marketing (ABM) et comment Adobe Marketo
 title: Vue d’ensemble du marketing basé sur les comptes
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
+workflow-type: tm+mt
+source-wordcount: '822'
+ht-degree: 89%
 
 ---
 
@@ -32,17 +32,22 @@ Pour que notre modèle Account-Based Marketing commence à s’afficher dans vo
 
 ## Mappage prospect>compte {#lead-to-account-mapping}
 
-Le mappage prospect>compte est essentiel à l’efficacité de l’approche ABM. Grâce au mappage prospect>compte, les prospects sont regroupés dans le même compte d’entreprise lorsqu’ils s’intéressent à votre marque. Cela vous permet de cibler et de vendre à des personnes d’une même entreprise de manière cohérente. Il n’y a pas d’autre configuration [!DNL Salesforce] nécessaire pour commencer à bénéficier de cette fonctionnalité. Le mappage prospect>compte [!DNL Marketo Measure] dispose de cinq méthodes de correspondance différentes :
+Le mappage prospect>compte est essentiel à l’efficacité de l’approche ABM. Grâce au mappage prospect>compte, les prospects sont regroupés dans le même compte d’entreprise lorsqu’ils s’intéressent à votre marque. Cela vous permet de cibler et de vendre à des personnes d’une même entreprise de manière cohérente. Il n’y a pas d’autre configuration [!DNL Salesforce] nécessaire pour commencer à bénéficier de cette fonctionnalité. La variable [!DNL Marketo Measure] Différentes méthodes de correspondance de pistes vers le mappage de comptes :
 
 * Site web du prospect > site Web du compte
 * Domaine d’adresse e-mail du prospect > domaine du site Web du compte
 * Nom de l’entreprise du prospect > nom du compte
 * Entreprise du prospect > domaine du site Web du compte
-* Correspondance du domaine de l’adresse e-mail du prospect et le compte via l’adresse e-mail du contact
+* Diriger le site web vers le domaine d’adresse électronique des contacts du compte
+* Domaine de l’e-mail de prospect vers le domaine de l’e-mail des contacts du compte
+* Diriger le site web vers le domaine de messagerie des prospects de compte
+* Domaine de courriel de piste vers le domaine de courriel des prospects de compte
+
+Les Leads/contacts des comptes sont validés par leurs domaines d’email/de site web et mis en correspondance avec le domaine ou le sous-domaine de l’email/du site web principal. Le compte avec le plus de correspondances est utilisé.
 
 >[!NOTE]
 >
->Chaque prospect tente d’être associé à un compte dans l’ordre préférentiel des méthodes ci-dessus. Une fois qu’une correspondance est établie, l’ID de compte est immédiatement défini sur le prospect et ne sera pas mis en correspondance à l’aide d’une autre méthode. Si le prospect dispose déjà d’un ID de compte valide, il est ignoré.
+>Chaque prospect tente d’être associé à un compte dans l’ordre préférentiel des méthodes ci-dessus. Une fois qu’une correspondance est établie, le AccountId est immédiatement défini sur le prospect et ne sera pas mis en correspondance à l’aide d’une autre méthode.
 
 ## Score d’engagement prédictif {#predictive-engagement-score}
 
