@@ -7,7 +7,7 @@ feature: Account-based Marketing
 source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
 workflow-type: tm+mt
 source-wordcount: '822'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -38,16 +38,16 @@ Le mappage prospect>compte est essentiel à l’efficacité de l’approche ABM.
 * Domaine d’adresse e-mail du prospect > domaine du site Web du compte
 * Nom de l’entreprise du prospect > nom du compte
 * Entreprise du prospect > domaine du site Web du compte
-* Diriger le site web vers le domaine d’adresse électronique des contacts du compte
-* Domaine de l’e-mail de prospect vers le domaine de l’e-mail des contacts du compte
-* Diriger le site web vers le domaine de messagerie des prospects de compte
-* Domaine de courriel de piste vers le domaine de courriel des prospects de compte
+* Site web du lead > Domaine de messagerie des contacts du compte
+* Domaine de messagerie du lead > Domaine de messagerie des contacts du compte
+* Site web du lead > Domaine de messagerie des leads du compte
+* Domaine de messagerie du lead > Domaine de messagerie des leads du compte
 
-Les Leads/contacts des comptes sont validés par leurs domaines d’email/de site web et mis en correspondance avec le domaine ou le sous-domaine de l’email/du site web principal. Le compte avec le plus de correspondances est utilisé.
+Les leads/contacts des comptes sont validés par leurs domaines de messagerie/de site web et mis en correspondance avec le domaine ou le sous-domaine de messagerie/de site web du lead. Le compte avec le plus de correspondances est utilisé.
 
 >[!NOTE]
 >
->Chaque prospect tente d’être associé à un compte dans l’ordre préférentiel des méthodes ci-dessus. Une fois qu’une correspondance est établie, le AccountId est immédiatement défini sur le prospect et ne sera pas mis en correspondance à l’aide d’une autre méthode.
+>Chaque lead tente d’être associé à un compte dans l’ordre préférentiel des méthodes ci-dessus. Une fois qu’une correspondance est établie, l’ID de compte est immédiatement défini sur le lead et ne sera pas mis en correspondance à l’aide d’une autre méthode.
 
 ## Score d’engagement prédictif {#predictive-engagement-score}
 
