@@ -3,16 +3,42 @@ description: Notes de mise à jour actuelles -  [!DNL Marketo Measure]
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: cbb2afd48c0e462768be0a7cfe56007ae285c492
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 69b937f53f8ba3e449f7b13fb92d169dadc14c17
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 61%
 
 ---
 
 # Notes de mise à jour : 2024 {#release-notes-2024}
 
 Vous trouverez ci-dessous toutes les nouvelles fonctionnalités ainsi que les fonctionnalités mises à jour pour nos versions de 2024.
+
+## Version du troisième trimestre {#q3-release}
+
+<p>
+
+**Rappel : Dépréciations des champs Salesforce - 14 juin**
+
+Comme annoncé l’an dernier, nous supprimerons progressivement nos tâches d’exportation vers les objets Lead/Contact afin de simplifier notre intégration et d’éliminer la nécessité d’exporter vers des objets standard Salesforce. Vous pouvez obtenir les mêmes données de vos objets de point de contact en suivant les étapes ci-dessous. [documenté ici](/help/release-notes/previous-releases/2023.md#deprecations). Nous partagerons également la documentation sur la création de workflows pour ajouter ces données à l’objet Lead/contact. L’obsolescence prendra effet le 14 juin 2024.
+
+Ce changement aura deux avantages clés :
+
+* **Réduction des coûts de l’API Salesforce**: les clients peuvent s’attendre à réduire leurs coûts d’API Salesforce d’environ 10 %.
+* **Intégration rationalisée**: le nombre maximum d&#39;erreurs dans les traitements d&#39;export est lié à ces traitements. Leur suppression permettra de rationaliser considérablement notre intégration.
+
+**Tableau de bord des opportunités attribuées**
+
+Nous sommes ravis de vous présenter la nouvelle [Tableau de bord des opportunités attribuées](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md), conçu pour vous donner une vue d’ensemble exhaustive de la manière dont vos efforts marketing contribuent aux opportunités de pipeline naissantes et matures. Ce tableau de bord vous permet de vous plonger dans les détails de chaque opportunité ouverte et fermée pouvant être attribuée à vos stratégies, avec la possibilité de filtrer par étape d&#39;opportunité. Il fournit des informations sur les canaux, sous-canaux ou campagnes qui se classent le plus en termes de montant d’opportunité attribué et affiche le montant total d’opportunité attribuée ainsi que le nombre d’opportunités ouvertes et fermées attribuées.
+
+**Synchronisation des cookies de Marketo Engage pour Marketo Measure Ultimate**
+
+La synchronisation des cookies de Marketo Engage est désormais disponible pour Marketo Measure Ultimate. Pour utiliser cette fonctionnalité :
+
+1. Sur la page Schémas AEP, modifiez le schéma de personne B2B et ajoutez le groupe de champs &quot;Détails de la personne du Marketo Engage&quot;.
+1. Lors de l’ingestion des données à MMU, mappez le champ Identifiant du cookie du groupe de champs au champ Cookies de Marketo Engage.
+
+<p>
 
 ## Version du 2e trimestre {#q2-release}
 
