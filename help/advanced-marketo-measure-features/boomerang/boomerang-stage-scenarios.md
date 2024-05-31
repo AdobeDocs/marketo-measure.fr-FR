@@ -4,9 +4,9 @@ description: Scénarios d’évaluation de Boomerang - [!DNL Marketo Measure]
 title: Scénarios d’étape de boomerang
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1771'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->La fonction Boomerang n’est activée que pour les clients de niveau 3. Pour demander un niveau de compte supérieur, contactez l’équipe Compte d’Adobe (votre gestionnaire de compte).
+>La fonction Boomerang n’est activée que pour les clients des niveaux 2 et 3. Pour demander un niveau de compte supérieur, contactez l’équipe Compte d’Adobe (votre gestionnaire de compte).
 
 Vous trouverez ci-dessous quelques exemples de scénarios de Boomerang Stage pour expliquer comment [!DNL Marketo Measure] crée des points de contact dans chaque situation.
 
