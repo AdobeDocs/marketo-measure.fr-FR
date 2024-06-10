@@ -5,9 +5,9 @@ title: Vue d’ensemble du marketing basé sur les comptes
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
 source-git-commit: e2165fea3e76baeedf9b22247d005578d6c6da5d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '822'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Pour que notre modèle Account-Based Marketing commence à s’afficher dans vo
 
 ## Mappage prospect>compte {#lead-to-account-mapping}
 
-Le mappage prospect>compte est essentiel à l’efficacité de l’approche ABM. Grâce au mappage prospect>compte, les prospects sont regroupés dans le même compte d’entreprise lorsqu’ils s’intéressent à votre marque. Cela vous permet de cibler et de vendre à des personnes d’une même entreprise de manière cohérente. Il n’y a pas d’autre configuration [!DNL Salesforce] nécessaire pour commencer à bénéficier de cette fonctionnalité. La variable [!DNL Marketo Measure] Différentes méthodes de correspondance de pistes vers le mappage de comptes :
+Le mappage prospect>compte est essentiel à l’efficacité de l’approche ABM. Grâce au mappage prospect>compte, les prospects sont regroupés dans le même compte d’entreprise lorsqu’ils s’intéressent à votre marque. Cela vous permet de cibler et de vendre à des personnes d’une même entreprise de manière cohérente. Il n’y a pas d’autre configuration [!DNL Salesforce] nécessaire pour commencer à bénéficier de cette fonctionnalité. Le mappage prospect>compte [!DNL Marketo Measure] dispose de cinq méthodes de correspondance différentes :
 
 * Site web du prospect > site Web du compte
 * Domaine d’adresse e-mail du prospect > domaine du site Web du compte
