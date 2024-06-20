@@ -3,10 +3,10 @@ description: Notes de mise à jour actuelles -  [!DNL Marketo Measure]
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 97a82ae0649ae5b1349d025a7a7cf433bc64bc7e
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+workflow-type: tm+mt
+source-wordcount: '793'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Vous trouverez ci-dessous toutes les nouvelles fonctionnalités ainsi que les fo
 
 **Rappel : obsolescence des champs Salesforce : 14 juin**
 
-Comme annoncé l’année dernière, nous supprimerons progressivement nos traitements d’export pour les objets Lead/Contact afin de simplifier notre intégration et d’éliminer la nécessité d’exporter vers des objets standard Salesforce. Vous pouvez obtenir les mêmes données de vos objets de point de contact en suivant les étapes [documentées ici](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Nous partagerons également la documentation sur la création de workflows pour ajouter ces données à l’objet Lead/Contact. L’obsolescence prendra effet le 14 juin 2024.
+Comme annoncé l&#39;année dernière, nous serons [suppression progressive de nos tâches d’exportation vers des objets de piste/contact](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} pour simplifier notre intégration et éliminer la nécessité d’exporter vers des objets standard Salesforce. Vous pouvez obtenir les mêmes données de vos objets de point de contact en suivant les étapes [documentées ici](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Nous partagerons également la documentation sur la création de workflows pour ajouter ces données à l’objet Lead/Contact. L’obsolescence prendra effet le 14 juin 2024.
 
 Ce changement aura les deux avantages clés suivants :
 

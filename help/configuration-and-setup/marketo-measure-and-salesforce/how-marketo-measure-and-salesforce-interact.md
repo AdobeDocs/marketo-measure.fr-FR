@@ -4,9 +4,9 @@ description: Explication des interactions entre  [!DNL Marketo Measure]  et  [!D
 title: Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
-workflow-type: ht
-source-wordcount: '1267'
+source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+workflow-type: tm+mt
+source-wordcount: '1271'
 ht-degree: 100%
 
 ---
@@ -683,6 +683,12 @@ Cette section répertorie les objets standard [!DNL Salesforce] avec lesquels [!
    <td>Standard</td> 
    <td>x</td> 
    <td><br></td> 
+  </tr>
+  <tr> 
+   <td>bizible2__UniqueId__c</td> 
+   <td>Personnalisé</td> 
+   <td>x</td> 
+   <td>x</td> 
   </tr> 
  </tbody> 
 </table>
