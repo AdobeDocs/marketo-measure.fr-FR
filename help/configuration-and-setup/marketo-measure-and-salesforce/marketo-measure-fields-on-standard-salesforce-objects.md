@@ -4,10 +4,10 @@ description: « Champs [!DNL Marketo Measure] sur les objets  [!DNL Salesforce]
 title: « Champs [!DNL Marketo Measure] sur les objets  [!DNL Salesforce]  standard »
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
-source-wordcount: '1292'
-ht-degree: 100%
+source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+workflow-type: tm+mt
+source-wordcount: '670'
+ht-degree: 97%
 
 ---
 
@@ -22,30 +22,6 @@ Découvrez les différents champs [!DNL Marketo Measure] ajoutés aux objets sta
 ## Compte {#account}
 
 Score d’engagement prédictif : ce champ est utilisé avec notre fonction ABM pour fournir un score lié à l’engagement du compte et prend en compte de nombreux facteurs tels que la date des consultations de pages, le nombre de contacts associés au compte, le fait qu’une opportunité est fermée, etc.
-
-## Dossier {#case}
-
-Nous ajoutons des champs à l’objet « Dossier » en rapport avec les étapes de contact « Premier contact » et « Création d’un prospect ». Ceci est destiné aux clientes et clients qui utilisent l’objet Dossier au lieu de Prospect ou de Contact, et sert également de moyen alternatif pour visualiser les données au cas où une cliente ou un client ne souhaiterait pas que nous créions des enregistrements de point de contact.
-
-Source du point de contact (FT) : il s’agit de la source de l’interaction de premier contact.
-
-Source du point de contact (LC) : il s’agit de la source de l’interaction de contact de création de prospects.
-
-Canal marketing (FT) : il s’agit du canal marketing de l’interaction de premier contact.
-
-Canal marketing (LC) : il s’agit du canal marketing de l’interaction de contact de création de prospects.
-
-Nom de la campagne publicitaire (FT) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de premier contact.
-
-Nom de la campagne publicitaire (LC) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de contact de [!UICONTROL création de prospects].
-
-Page de destination (FT) : il s’agit de la page de destination de l’interaction de premier contact.
-
-Page de destination (LC) : il s’agit de la page de destination de l’interaction de contact de [!UICONTROL création de prospects].
-
-Date du point de contact (FT) : il s’agit de la date de l’interaction de premier contact.
-
-Date du point de contact (LC) : il s’agit de la date de l’interaction de contact pour la création de prospects.
 
 ## Campagne {#campaign}
 
@@ -79,57 +55,9 @@ Date du Buyer Touchpoint : lié au bouton [!UICONTROL Mise à jour en bloc de l
 
 OnCampaignMemberDelete : [!DNL Salesforce] n’apparaît pas initialement lorsque des personnes membres de la campagne sont supprimées, ce qui peut entraîner des problèmes de précision dans les rapports d’attribution. Lorsqu’une personne membre de la campagne est supprimée, cette action est déclenchée pour demander à [!DNL Marketo Measure] de supprimer les points de contact liés à cette personne membre de la campagne qui n’existe plus.
 
-## Contact {#contact}
-
-Nous ajoutons des champs à l’objet Contact en rapport avec les jalons Premier contact et Création de prospects. Cette option est destinée aux clientes et clients qui préfèrent que l’attribution soit signalée directement dans les champs plutôt que de créer des enregistrements de point de contact. La plupart de nos clientes et clients optent pour l’enregistrement du point de contact, mais utilisent également ces champs dans leur plateforme d’automatisation.
-
-Source du point de contact (FT) : il s’agit de la source de l’interaction de premier contact.
-
-Source du point de contact (LC) : il s’agit de la source de l’interaction de contact de création de prospects.
-
-Canal marketing (FT) : il s’agit du canal marketing de l’interaction de premier contact.
-
-Canal marketing (LC) : il s’agit du canal marketing de l’interaction de contact de création de prospects.
-
-Nom de la campagne publicitaire (FT) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de premier contact.
-
-Nom de la campagne publicitaire (LC) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de contact pour la [!UICONTROL création de prospects].
-
-Page de destination (FT) : il s’agit de la page de destination de l’interaction de premier contact.
-
-Page de destination (LC) : il s’agit de la page de destination de l’interaction de contact pour la [!UICONTROL création de prospects].
-
-Date du point de contact (FT) : il s’agit de la date de l’interaction de premier contact.
-
-Date du point de contact (LC) : il s’agit de la date de l’interaction de contact pour la création de prospects.
-
-BizibleID : cette information est utilisée dans le cadre de l’attribution de nos activités et de l’intégration de calltrackingmetrics pour l’association du contact au point de contact.
-
 ## Prospect {#lead}
 
-Nous ajoutons des champs à l’objet Prospect en rapport avec les étapes Premier contact et Création de prospects. Cette option est destinée aux clientes et clients qui préfèrent que l’attribution soit signalée directement dans les champs plutôt que de créer des enregistrements de point de contact. La plupart de nos clientes et clients optent pour l’enregistrement du point de contact, mais utilisent également ces champs dans leur plateforme d’automatisation.
-
-Source du point de contact (FT) : il s’agit de la source de l’interaction de premier contact.
-
-Source du point de contact (LC) : il s’agit de la source de l’interaction de contact de création de prospects.
-
-Canal marketing (FT) : il s’agit du canal marketing de l’interaction de premier contact.
-
-Canal marketing (LC) : il s’agit du canal marketing de l’interaction de contact de création de prospects.
-
-Nom de la campagne publicitaire (FT) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de premier contact.
-
-Nom de la campagne publicitaire (LC) : il s’agit de la campagne UTM, de la campagne publicitaire des réseaux publicitaires ou de la campagne [!DNL Salesforce] de l’interaction de contact de création de prospects.
-
-Page de destination (FT) : il s’agit de la page de destination de l’interaction de premier contact.
-
-Page de destination (LC) : il s’agit de la page de destination de l’interaction de contact de création de prospects.
-
-Date du point de contact (FT) : il s’agit de la date de l’interaction de premier contact.
-
-Date du point de contact (LC) : il s’agit de la date de l’interaction de contact pour la création de prospects.
-
-BizibleID : cette information est utilisée dans le cadre de l’attribution de nos activités et de l’intégration de calltrackingmetrics pour l’association du prospect au point de contact.
+Le champ Compte Bizible est utilisé pour le mappage &quot;prospect à compte&quot; de notre fonctionnalité ABM. Nous remplissons ce champ pour créer la relation de consultation entre les deux objets.
 
 ## Compte {#account-1}
 
