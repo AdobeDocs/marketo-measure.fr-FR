@@ -5,9 +5,9 @@ title: « Champs [!DNL Marketo Measure] sur les objets  [!DNL Salesforce]  stan
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
 source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '670'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,13 +55,13 @@ Date du Buyer Touchpoint : lié au bouton [!UICONTROL Mise à jour en bloc de l
 
 OnCampaignMemberDelete : [!DNL Salesforce] n’apparaît pas initialement lorsque des personnes membres de la campagne sont supprimées, ce qui peut entraîner des problèmes de précision dans les rapports d’attribution. Lorsqu’une personne membre de la campagne est supprimée, cette action est déclenchée pour demander à [!DNL Marketo Measure] de supprimer les points de contact liés à cette personne membre de la campagne qui n’existe plus.
 
-## Prospect {#lead}
+## Lead {#lead}
 
-Le champ Compte Bizible est utilisé pour le mappage &quot;prospect à compte&quot; de notre fonctionnalité ABM. Nous remplissons ce champ pour créer la relation de consultation entre les deux objets.
+Le champ Compte Bizible est utilisé pour le mappage d’un lead à un compte dans le cadre de notre fonctionnalité ABM. Nous renseignons ce champ pour créer la relation de consultation entre les deux objets.
 
 ## Compte {#account-1}
 
-Cette information est utilisée pour le mappage d’un prospect à un compte dans le cadre de notre fonctionnalité ABM. Nous remplissons ce champ pour créer la relation de consultation entre les deux objets.
+Cette information est utilisée pour le mappage d’un prospect à un compte dans le cadre de notre fonctionnalité ABM. Nous renseignons ce champ pour créer la relation de consultation entre les deux objets.
 
 ## Opportunité {#opportunity}
 
