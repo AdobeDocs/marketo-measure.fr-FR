@@ -3,9 +3,9 @@ description: '[!DNL Marketo Measure] Exigence ultime d’intégrité des donnée
 title: « Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate »
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1611'
 ht-degree: 86%
 
 ---
@@ -886,6 +886,8 @@ ht-degree: 86%
     </tr>
   </tbody>
 </table>
+
+## Exigences de données de conversion de devise {#currency-conversion-data-requirements}
 
 **Devise par défaut** : dans Marketo Measure, toutes les recettes et tous les coûts sont convertis en devise par défaut au moment de la création du rapport. Il doit y avoir un enregistrement avec la même couverture de date pour la devise cible elle-même (par exemple, USD vers USD) avec un taux de conversion de 1.
 
