@@ -1,18 +1,18 @@
 ---
-description: '[!DNL Marketo Measure] Exigence d’intégrité des données ultime - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Exigence ultime d’intégrité des données - [!DNL Marketo Measure]'
 title: « Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate »
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: db71cbfaf7deb5b724ac4babc38e835c04fadac7
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 93%
+source-wordcount: '1607'
+ht-degree: 86%
 
 ---
 
 # Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valide les jeux de données AEP entrants pour s’assurer que les données sont suffisantes et cohérentes pour l’attribution. Si l’exigence d’intégrité des données n’est pas respectée, le jeu de données est rejeté par le [!DNL Marketo Measure] système. Cet article détaille les exigences d’intégrité des données, fournit des exemples de requête pour l’inspection des données et recommande une solution pour les champs obligatoires avec une valeur nulle.
+[!DNL Marketo Measure] valide les jeux de données AEP entrants pour s’assurer que les données sont suffisantes et cohérentes pour l’attribution. Si vous ne remplissez pas les exigences d’intégrité des données, le jeu de données est rejeté par le système [!DNL Marketo Measure]. Cet article décrit les exigences en matière d’intégrité des données, fournit des exemples de requête pour l’inspection des données et recommande une solution pour les champs obligatoires avec une valeur nulle.
 
 ## Objet d’entité {#entity-object}
 
@@ -373,7 +373,7 @@ ht-degree: 93%
       <td>Chaîne</td>
       <td>ID</td>
       <td>Oui</td>
-      <td>Par exemple - 333, selon la table de source de données, il s’agit de l’ID de lead ou de l’ID de contact</td>
+      <td>Par exemple : 333, selon la table de la source de données, il s’agit de l’ID de piste ou de contact.</td>
     </tr>
     <tr>
       <td></td>
@@ -887,6 +887,16 @@ ht-degree: 93%
   </tbody>
 </table>
 
+**Devise par défaut** : dans Marketo Measure, toutes les recettes et tous les coûts sont convertis en devise par défaut au moment de la création du rapport. Il doit y avoir un enregistrement avec la même couverture de date pour la devise cible elle-même (par exemple, USD vers USD) avec un taux de conversion de 1.
+
+**Taux de conversion** : chaque paire (devise source, devise cible) peut avoir plusieurs taux de conversion pour différentes périodes. Les taux doivent couvrir toute la durée de 0001-01-01 à 9999-12-31, selon l’objet Salesforce DatedConversionRate .
+
+**Plage de dates** :
+* Aucune période ne chevauche un jeu de taux (devise source, devise cible) (par exemple, 2023-01-01 à 2023-02-01 et 2023-01-01 à 2024-01-01).
+* Aucun intervalle entre les périodes. La date de début est incluse et la date de fin est exclusive.
+
+<p>
+
 ## ExperienceEvent {#experienceevent}
 
 <table style="table-layout:auto">
@@ -1105,7 +1115,7 @@ ht-degree: 93%
   </tbody>
 </table>
 
-Utilisez le type d’événement « Moment intéressant » pour les types d’événement non pris en charge dans le tableau ci-dessus. Ajoutez un champ personnalisé pour indiquer le sous-type « Moment intéressant ».
+Utilisez le type d’événement « Moment intéressant » pour les types d’événement non pris en charge dans le tableau ci-dessus. Ajoutez un champ personnalisé pour indiquer le sous-type &quot;Moment intéressant&quot;.
 
 ## Exemples de requêtes pour l’examen des données {#query-examples-for-data-inspection}
 

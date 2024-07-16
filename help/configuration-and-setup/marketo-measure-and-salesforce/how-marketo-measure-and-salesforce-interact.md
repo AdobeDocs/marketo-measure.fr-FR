@@ -4,10 +4,10 @@ description: Explication des interactions entre  [!DNL Marketo Measure]  et  [!D
 title: Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
+workflow-type: tm+mt
+source-wordcount: '1240'
+ht-degree: 93%
 
 ---
 
@@ -32,6 +32,17 @@ Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d�
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
 Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consomment davantage de crédits d’API de votre CRM. Il est conseillé de réduire la taille des lots uniquement en cas de temporisation du processeur ou d’une charge élevée de ce dernier dans votre CRM.
+
+## Autorisations des utilisateurs connectés à Salesforce {#salesforce-connected-user-permissions}
+
+**Jeu d’autorisations d’administrateur Marketo Measure pour un utilisateur dédié** : permet à l’administrateur SFDC d’effectuer des opérations CRUD sur des objets Marketo Measure.
+
+**Afficher et modifier le jeu d’autorisations de pistes converties** : permet à Marketo Measure de décorer les pistes après leur conversion en contacts.
+
+**Case à cocher des utilisateurs marketing Salesforce** : permet aux utilisateurs de créer des campagnes et d’utiliser les assistants d’importation de campagne.
+* Des autorisations supplémentaires pour Campaign &quot;Créer&quot; sont requises.
+
+**Utilisateur Marketo Measure Standard** : permet à un utilisateur de lire les enregistrements des objets Marketo Measure.
 
 ## Objets standard et accès Salesforce {#salesforce-standard-objects-and-access}
 
@@ -1304,3 +1315,7 @@ Buyer Attribution Touchpoint est un objet personnalisé [!DNL Marketo Measure] p
   </tr> 
  </tbody> 
 </table>
+
+>[!MORELIKETHIS]
+>
+>[Vue d’ensemble des autorisations d’intégration](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
