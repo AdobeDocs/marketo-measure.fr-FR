@@ -1,5 +1,5 @@
 ---
-description: Tableau de bord Velocity de piste - [!DNL Marketo Measure] - Produit
+description: Tableau de bord Velocity de piste - [!DNL Marketo Measure]  - Produit
 title: Tableau de bord de la vitesse de lead
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d

@@ -1,5 +1,5 @@
 ---
-description: Tableau de bord des opportunités attribuées - [!DNL Marketo Measure] - Produit
+description: Tableau de bord des opportunités attribuées - [!DNL Marketo Measure]  - Produit
 title: Tableau de bord Opportunité attribuées
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Le tableau de bord des opportunités attribuées offre une vue d’ensemble exhaustive de la manière dont les efforts marketing contribuent aux opportunités de pipeline naissantes et matures. Découvrez les détails de chaque opportunité ouverte et fermée pouvant être attribuée à vos stratégies, avec la flexibilité de filtrer par étape d’opportunité, ce qui souligne l’étendue de l’influence du marketing au-delà des offres fermées.
 
-**Questions aux réponses du tableau de bord**:
+**Questions sur les réponses du tableau de bord** :
 
 * Quels canaux, sous-canaux ou campagnes se classent en termes de montant d’opportunité attribué ?
 * Quel est le montant total des opportunités attribuées et le nombre de nos opportunités ouvertes et fermées attribuées ?
@@ -23,8 +23,8 @@ Le tableau de bord des opportunités attribuées offre une vue d’ensemble exha
 
 ### Mosaïques IPC {#kpi-tiles}
 
-* **Montant de l’opportunité attribuée**: contribution totale aux recettes, basée sur le modèle d’attribution sélectionné, issue des opportunités fermées et ouvertes avec les points de contact créés au cours de la période filtrée.
-* **Opportunités attribuées**: nombre d’opportunités fermées et ouvertes ayant des points de contact.
+* **Montant de l’opportunité attribuée** : montant total de la contribution du revenu, basé sur le modèle d’attribution sélectionné, provenant des opportunités fermées et ouvertes avec les points de contact créés au cours de la période filtrée.
+* **Opportunités attribuées** : nombre d’opportunités fermées et ouvertes ayant des points de contact.
 
 ### Graphique Attribué du montant des opportunités par canal dans le temps {#attributed-opportunity-amount-by-channel-over-time-chart}
 
@@ -33,7 +33,7 @@ Graphique à barres empilées affichant le montant total des opportunités attri
 * Utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
 * Passez la souris sur un segment de barre ou l’espace entre les barres pour afficher des informations détaillées.
 
-**Questions aux réponses du graphique**:
+**Questions sur le graphique qui répondent** :
 
 * Quels canaux ont généré le montant d’opportunité le plus attribué chaque trimestre ?
 * Quelle était la répartition du montant d’opportunité attribué par canal le mois dernier ?
@@ -44,7 +44,7 @@ Graphique à barres empilées affichant le montant total des opportunités attri
 
 Montant total des opportunités attribuées segmenté par canal, sous-canal et campagne, présenté aux formats Tableau et Arborescence. Cliquez sur le bouton dans le coin supérieur droit pour basculer entre les vues.
 
-**Questions sur les réponses du panorama**:
+**Questions sur le panorama et réponses** :
 
 * En quoi la distribution du montant d’opportunité attribué varie-t-elle entre différents sous-canaux au sein d’un canal ?
 * Quelles campagnes sous un certain sous-canal génèrent le plus grand montant d’opportunité attribué ?
@@ -53,7 +53,7 @@ Montant total des opportunités attribuées segmenté par canal, sous-canal et c
 
 La vue tabulaire offre des informations claires et organisées sur la distribution du montant d’opportunité attribué. Les utilisateurs peuvent rapidement identifier les schémas de performances et identifier les stratégies marketing à fort impact en catégorisant les données dans les canaux, les sous-canaux et les campagnes.
 
-Cliquez sur le bouton **+** en regard de chaque canal pour afficher la ventilation par sous-canal et par campagne.
+Cliquez sur l’icône **+** en regard de chaque canal pour afficher la ventilation par sous-canal et par campagne.
 
 ![](assets/attributed-opportunity-dashboard-2.png)
 

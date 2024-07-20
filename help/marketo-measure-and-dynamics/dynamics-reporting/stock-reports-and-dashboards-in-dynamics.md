@@ -7,7 +7,7 @@ feature: Microsoft Dynamics
 source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais consultez toujours &quot;Bizible&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
+>Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans la documentation. Toutefois, votre gestion de la relation client (CRM) mentionne encore « Bizible ». Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
 
-La variable [!DNL Marketo Measure] La solution gérée s’accompagne de plusieurs tableaux de bord et rapports de stock, conçus pour répondre à vos besoins de base lors de l’affichage [!DNL Marketo Measure] données dans Dynamics. Vous trouverez ci-dessous la liste complète et quelques cas pratiques courants.
+La [!DNL Marketo Measure] solution gérée est fournie avec plusieurs tableaux de bord et rapports de stock, conçus pour répondre à vos besoins de base lors de l’affichage des données [!DNL Marketo Measure] dans Dynamics. Vous trouverez ci-dessous la liste complète et quelques cas pratiques courants.
 
 ## Tableaux de bord (neuf au total) {#dashboards-total}
 
@@ -97,12 +97,12 @@ La variable [!DNL Marketo Measure] La solution gérée s’accompagne de plusieu
   </tr> 
   <tr> 
    <td>Comptes par note d’engagement</td> 
-   <td>Regroupez tous les comptes avec leur note A, B, C, D, N/A de la catégorie [!DNL Marketo Measure] Score prédictif de l’engagement.</td> 
+   <td>Regroupez tous les comptes avec leur note A, B, C, D, N/A de la note d’engagement prédictif [!DNL Marketo Measure].</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
    <td>Comptes avec Leads et contacts</td> 
-   <td>Afficher tous les leads et contacts les uns avec les autres, regroupés par leur compte, à l’aide de la variable [!DNL Marketo Measure] Correspondance avec le compte.</td> 
+   <td>Affichez tous les prospects et contacts les uns à côté des autres, regroupés par compte, à l’aide de la correspondance de [!DNL Marketo Measure] prospect vers compte.</td> 
    <td>ABM</td> 
   </tr> 
   <tr> 
@@ -141,7 +141,7 @@ La variable [!DNL Marketo Measure] La solution gérée s’accompagne de plusieu
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td>[!DNL Marketo Measure] Attribution par source sociale</td> 
+   <td>[!DNL Marketo Measure] Attribution par Social Source</td> 
    <td>Examinez l’attribution des recettes par vos canaux sociaux et mesurez son efficacité.</td> 
    <td>Tous</td> 
   </tr> 
@@ -161,12 +161,12 @@ La variable [!DNL Marketo Measure] La solution gérée s’accompagne de plusieu
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td>Leads by [!DNL Marketo Measure] Canal marketing (FT)</td> 
+   <td>Pistes par [!DNL Marketo Measure] canal marketing (FT)</td> 
    <td>Mesurez le nombre de pistes Première touche de chaque canal marketing.</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td>Leads by [!DNL Marketo Measure] Canal marketing (LC)</td> 
+   <td>Pistes par [!DNL Marketo Measure] canal marketing (LC)</td> 
    <td>Mesurez le nombre de pistes générées avec une touche de création de pistes de chaque canal marketing.</td> 
    <td>Tous</td> 
   </tr> 
@@ -191,12 +191,12 @@ La variable [!DNL Marketo Measure] La solution gérée s’accompagne de plusieu
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td>Pistes par source sociale (FT)</td> 
+   <td>Pistes par Social Source (FT)</td> 
    <td>Mesurez le nombre de pistes qui ont reçu une Première touche du canal social.</td> 
    <td>Tous</td> 
   </tr> 
   <tr> 
-   <td>Pistes par source sociale (LC)</td> 
+   <td>Pistes par Social Source (LC)</td> 
    <td>Mesurez le nombre de pistes générées avec une touche de création de pistes du canal social.</td> 
    <td>Tous</td> 
   </tr> 

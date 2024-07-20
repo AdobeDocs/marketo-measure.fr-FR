@@ -1,8 +1,9 @@
 ---
-description: Tableau de bord Vitesse de l'opportunité - [!DNL Marketo Measure] - Produit
+description: Tableau de bord Velocity de l’opportunité - [!DNL Marketo Measure]  - Produit
 title: Tableau de bord de la vitesse des opportunités
 feature: Reporting
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 4%
@@ -22,7 +23,7 @@ Questions : Ce tableau de bord répond :
 
 ### Mosaïque IPC {#kpi-tile}
 
-* **Vitesse de l&#39;accord fermé**: nombre moyen de jours pour les opportunités de &quot;gains clos&quot; de la première étape à la fin.
+* **Vitesse de l’opération close** : nombre moyen de jours pour les opportunités &quot;Closed Won&quot; depuis la première étape jusqu’à la fin.
 
 ### Vitesse des opportunités par étape {#opportunity-velocity-by-stage}
 

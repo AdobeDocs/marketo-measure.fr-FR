@@ -13,6 +13,6 @@ ht-degree: 8%
 
 # Rapports Discover {#discover-reporting}
 
-Within [!UICONTROL Paramètres utilisateur], les utilisateurs auront la possibilité de modifier la devise par défaut en n’importe quelle autre des devises d’entreprise répertoriées. Cela modifie l’affichage des montants tels que Coût, Recettes et Recettes du pipeline, par exemple, en même temps que le code de devise à trois lettres.
+Dans [!UICONTROL Paramètres utilisateur], les utilisateurs auront la possibilité de modifier la devise par défaut en une autre des devises d’entreprise répertoriées. Cela modifie l’affichage des montants tels que Coût, Recettes et Recettes du pipeline, par exemple, en même temps que le code de devise à trois lettres.
 
 ![](assets/one.png)

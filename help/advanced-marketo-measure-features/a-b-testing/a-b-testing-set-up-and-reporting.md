@@ -5,9 +5,9 @@ title: Configuration des tests A/B et création de rapports
 exl-id: 9a3f0731-5909-4fbf-a35a-9608ff561061
 feature: A/B Testing
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 95%
 
 ---
 
@@ -17,7 +17,7 @@ L’intégration des tests A/B [!DNL Marketo Measure] vous permet de suivre l�
 
 ## Configuration {#set-up}
 
-Ajoutez les sections de tests A/B [!DNL Marketo Measure] sur les pages Prospect, Contact, Dossier et Opportunité. L’intégration des tests A/B [!DNL Marketo Measure] vous permet de suivre l’impact sur les revenus de vos expériences sur le site [Optimizely](https://www.optimizely.com/){target="_blank"} and [VWO](https://vwo.com/){target="_blank"}.
+Ajoutez les sections de tests A/B [!DNL Marketo Measure] sur les pages Prospect, Contact, Dossier et Opportunité. [!DNL Marketo Measure] L’intégration des tests A/B vous permet de suivre l’impact sur les recettes de vos expériences de site [Optimizely](https://www.optimizely.com/){target="_blank"} et [VWO](https://vwo.com/){target="_blank"}.
 
 1. Vérifiez que vous utilisez le package [!DNL Marketo Measure] v3.9 ou version ultérieure. Vous pouvez le faire en accédant à [!UICONTROL Salesforce] > [!UICONTROL Configuration] > [!UICONTROL Packages installés].
 1. Modifiez la disposition de la page Prospect et ajoutez la liste connexe Tests A/B **[!DNL Marketo Measure]** à la page.

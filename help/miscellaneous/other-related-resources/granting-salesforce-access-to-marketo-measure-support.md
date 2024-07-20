@@ -1,7 +1,7 @@
 ---
 unique-page-id: 18874791
-description: Octroi [!DNL Salesforce] Accès à [!DNL Marketo Measure] Assistance - [!DNL Marketo Measure]
-title: Octroi [!DNL Salesforce] Accès à l’assistance Marketo Measure
+description: Octroi à  [!DNL Salesforce] l’accès à [!DNL Marketo Measure] l’assistance - [!DNL Marketo Measure]
+title: Octroi de l’accès à la prise en charge de Marketo Measure [!DNL Salesforce]
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
 source-git-commit: 4787f765348da71bc149c997470ce678ba498772
@@ -11,30 +11,30 @@ ht-degree: 2%
 
 ---
 
-# Octroi [!DNL Salesforce] Accès à l’assistance Marketo Measure {#granting-salesforce-access-to-marketo-measure-support}
+# Octroi à [!DNL Salesforce] de l’accès au support Marketo Measure {#granting-salesforce-access-to-marketo-measure-support}
 
-Dans certains cas, [!DNL Marketo Measure] L’assistance peut demander l’accès à votre [!DNL Salesforce] pour faciliter la résolution des problèmes de diagnostic ou la configuration de Salesforce lors de l’implémentation.
+Dans certains cas, l’assistance [!DNL Marketo Measure] peut demander l’accès à votre environnement [!DNL Salesforce] pour vous aider à résoudre les problèmes de diagnostic ou à configurer Salesforce pendant la mise en oeuvre.
 
-L’octroi de l’accès à la connexion varie légèrement selon que vous utilisez ou non [!DNL Salesforce Classic] ou le [!DNL Salesforce Lightning] Expérience.
+L’attribution de l’accès à la connexion diffère légèrement selon que vous utilisez [!DNL Salesforce Classic] ou l’expérience [!DNL Salesforce Lightning].
 
 ## Octroi de l’accès à la connexion dans Salesforce Classic {#granting-login-access-in-salesforce-classic}
 
-Selon votre organisation, la variable [!UICONTROL Configuration] est soit en regard de votre nom dans le coin supérieur droit de la page, soit répertorié comme option déroulante lorsque vous cliquez sur votre nom.
+Selon votre organisation, le bouton [!UICONTROL Configuration] se trouve à côté de votre nom dans le coin supérieur droit de la page ou est répertorié comme option déroulante lorsque vous cliquez sur votre nom.
 
-1. Pour accéder au **Accorder l’accès à la connexion** page [!DNL Salesforce Classic] Interface utilisateur, au choix :
+1. Pour accéder à la page **Accorder l’accès à la connexion** dans l’interface utilisateur de [!DNL Salesforce Classic], procédez comme suit :
 
-   * Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Mes informations personnelles]** > **[!UICONTROL Accorder l’accès à la connexion]**.
+   * Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Mes informations personnelles]** > **[!UICONTROL Accorder l’accès de connexion]**.
 
-     OR
+     OU
 
-   * Cliquez sur `<your name>` > **[!UICONTROL Mes paramètres]** > **[!UICONTROL Personal Personal]** > **[!UICONTROL Accorder l’accès à la connexion au compte]**.
+   * Cliquez sur `<your name>` > **[!UICONTROL My Settings]** > **[!UICONTROL Personal]** > **[!UICONTROL Accorder Account Login Access]** (Accorder l’accès à la connexion au compte).
 
-1. Définition de la date d’expiration d’accès pour [!UICONTROL Prise en charge de Marketo Measure]. Pour la résolution des problèmes techniques, il est recommandé d’octroyer [!DNL Marketo Measure] prise en charge de l’accès pendant au moins une semaine.
+1. Définissez la date d’expiration de l’accès pour le [!UICONTROL support Marketo Measure]. Pour la résolution des problèmes techniques, nous vous recommandons d’accorder l’accès au support [!DNL Marketo Measure] pendant au moins une semaine.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Octroi de l’accès à la connexion dans [!DNL Salesforce] Eclairage {#granting-login-access-in-salesforce-lightning}
+## Octroi de l’accès à la connexion dans [!DNL Salesforce] Lightning {#granting-login-access-in-salesforce-lightning}
 
-1. Cliquez sur l’avatar en haut à droite de l’écran, puis sélectionnez **[!UICONTROL Paramètres]**.
+1. Cliquez sur votre avatar en haut à droite de l’écran et sélectionnez **[!UICONTROL Paramètres]**.
 1. Cliquez sur **[!UICONTROL Accorder l’accès à la connexion au compte]**.
-1. Définissez la date d’expiration d’accès pour &quot;[!UICONTROL Prise en charge de Marketo Measure].&quot; Pour la résolution des problèmes techniques, il est recommandé d’octroyer [!DNL Marketo Measure] prise en charge de l’accès pendant au moins une semaine.
+1. Définissez la date d’expiration de l’accès pour &quot;[!UICONTROL Marketo Measure Support]&quot;. Pour la résolution des problèmes techniques, nous vous recommandons d’accorder l’accès au support [!DNL Marketo Measure] pendant au moins une semaine.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.

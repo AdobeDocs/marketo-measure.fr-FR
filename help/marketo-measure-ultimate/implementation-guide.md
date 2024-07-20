@@ -1,11 +1,12 @@
 ---
-description: '[!DNL Marketo Measure] Guide de mise en oeuvre ultime - [!DNL Marketo Measure]'
+description: '[!DNL Marketo Measure] Ultimate Implementation Guide - [!DNL Marketo Measure]'
 title: Guide de mise en œuvre [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
-source-git-commit: 1d954811e90165953f9d56a17747a3f12c723023
+exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
+source-git-commit: c5a799c20d15c9e14bbdc69f422cd1b90a121e37
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 64%
+ht-degree: 70%
 
 ---
 
@@ -15,7 +16,7 @@ Cet article sert de guide de mise en œuvre de Marketo Measure Ultimate. Il fou
 
 ## Principales différences lors de l’utilisation de l’option Ultimate par rapport aux niveaux standard {#main-differences-when-using-ultimate-over-standard-tiers}
 
-Importation de données B2B par l’intermédiaire d’AEP : les marketeurs doivent importer leurs données B2B (par exemple, compte, opportunité, contact, prospect, campagne, membre de campagne, activité) via AEP. Ingérez à partir de pratiquement n’importe quelle source de données et de plusieurs sources de données du même type afin d’importer toutes vos données pour l’attribution.
+Importation de données B2B par l’intermédiaire d’AEP : les marketeurs doivent importer leurs données B2B (par exemple, compte, opportunité, contact, prospect, campagne, membre de campagne, activité) via AEP. Ingérez des données de presque toutes les sources de données, ainsi que de plusieurs sources de données du même type, afin d’importer toutes vos données pour l’attribution.
 
 * Utilisez-le avec presque tous les CRM, pas uniquement Salesforce et Dynamics.
 * Connectez plusieurs instances CRM et/ou MAP à une instance Marketo Measure.
@@ -151,7 +152,7 @@ Les étapes n’étant pas automatiquement importées à partir des données de 
 
 Si les étapes ne sont pas mappées, le système ne fonctionnera pas, car les données ne pourront aller nulle part.
 
-Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut comme Contact, n’utilisez pas les deux champs ci-dessous spécifiques à la piste ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+Si vous êtes client ou cliente Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut sur Contact, n’utilisez pas les deux champs ci-dessous, spécifiques au prospect ([en savoir plus ici](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
 
 * b2b.personStatus
 * b2b.isConverted

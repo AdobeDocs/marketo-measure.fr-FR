@@ -13,9 +13,9 @@ ht-degree: 9%
 
 # Activation de l’autorisation de modifier les prospects convertis {#enabling-the-permission-to-edit-converted-leads}
 
-Découvrez comment activer l’autorisation de modifier les enregistrements de piste convertis dans [!DNL Salesforce]. [!DNL Marketo Measure] permet de transmettre des données à vos différents objets dans Salesforce. Lorsque vous passez à Leads, nous découvrons que, dans certains scénarios, nous devrons peut-être repousser vers un enregistrement de piste qui a déjà été converti. Pour que nous puissions transmettre des données à ces enregistrements, l’utilisateur connecté par le biais de doit disposer de l’autorisation d’afficher et de modifier les pistes converties au niveau du profil.
+Découvrez comment activer l’autorisation de modifier les enregistrements de piste convertis dans [!DNL Salesforce]. [!DNL Marketo Measure] peut transmettre des données à vos différents objets dans Salesforce. Lorsque vous passez à Leads, nous découvrons que, dans certains scénarios, nous devrons peut-être repousser vers un enregistrement de piste qui a déjà été converti. Pour que nous puissions transmettre des données à ces enregistrements, l’utilisateur connecté par le biais de doit disposer de l’autorisation d’afficher et de modifier les pistes converties au niveau du profil.
 
-1. Accédez à [!UICONTROL Configuration] et développez la variable [!UICONTROL Gestion des utilisateurs] regroupement pour sélectionner Profils.
+1. Accédez à [!UICONTROL Configuration] et développez le groupe [!UICONTROL Gérer les utilisateurs] pour sélectionner Profils.
 
    ![](assets/1-2.png)
 

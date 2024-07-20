@@ -1,20 +1,20 @@
 ---
-description: "[!UICONTROL Téléchargement des données de Discover] Contrôle d’accès - Marketo Measure - Documentation du produit"
-title: '"[!UICONTROL Contrôle d’accès au téléchargement des données de Discover"]'
+description: "[!UICONTROL Téléchargement de données Discover] Contrôle d’accès - Marketo Measure - Documentation du produit"
+title: "[!UICONTROL Téléchargement de données Discover] Contrôle d’accès"
 exl-id: fa9f2245-4bb0-4b58-849c-1941c108e1c1
 feature: Discover
 source-git-commit: 8ac315e7c4110d14811e77ef0586bd663ea1f8ab
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 10%
+ht-degree: 5%
 
 ---
 
-# [!UICONTROL Contrôle d’accès au téléchargement des données de Discover] {#discover-data-download-access-control}
+# [!UICONTROL Téléchargement de données Discover] Contrôle d’accès {#discover-data-download-access-control}
 
-[!UICONTROL Téléchargement des données de Discover] control active [!DNL Marketo Measure] Les administrateurs doivent définir les stratégies de téléchargement des données pour les tableaux de bord de Discover en fonction des rôles des utilisateurs. Le contrôle couvre toutes les actions de téléchargement de données sur les tableaux de bord de Discover.
+Le contrôle [!UICONTROL  Téléchargement des données de Discover ] permet aux administrateurs [!DNL Marketo Measure] de définir les stratégies de téléchargement des données pour les tableaux de bord de Discover en fonction des rôles des utilisateurs. Le contrôle couvre toutes les actions de téléchargement de données sur les tableaux de bord de Discover.
 
-1. Cliquez sur **[!UICONTROL Accès aux données]** under [!UICONTROL Sécurité].
+1. Cliquez sur **[!UICONTROL Data Access]** sous [!UICONTROL Security].
 
    ![](assets/discover-data-download-access-control-1.png)
 
@@ -37,7 +37,7 @@ ht-degree: 10%
     </tr>
    </table>
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** une fois terminé.
+1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé.
 
    ![](assets/discover-data-download-access-control-3.png)
 

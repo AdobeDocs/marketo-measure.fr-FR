@@ -1,5 +1,5 @@
 ---
-description: Bonnes pratiques relatives aux paramètres des points de contact - [!DNL Marketo Measure]
+description: Bonnes pratiques pour les paramètres de point de contact - [!DNL Marketo Measure]
 title: Bonnes pratiques relatives aux paramètres des points de contact
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
@@ -14,23 +14,23 @@ ht-degree: 6%
 
 ## Vue d’ensemble {#overview}
 
-La variable [!UICONTROL Paramètres des points de contact] de votre [!DNL Marketo Measure] vous permet de définir des règles qui supprimeront ou supprimeront les points de contact de votre [!DNL Marketo Measure] données et systèmes associés. Ces règles peuvent vous aider à isoler certains ensembles de données qui n’ont pas besoin d’être représentés dans vos données de point de contact d’achat ou que vous ne souhaitez pas recevoir de crédit d’attribution sans perturber votre suivi et votre collecte de données.
+La section [!UICONTROL Paramètres du point de contact] de votre application [!DNL Marketo Measure] vous permet de définir des règles qui supprimeront ou supprimeront les points de contact de vos données [!DNL Marketo Measure] et des systèmes associés. Ces règles peuvent vous aider à isoler certains ensembles de données qui n’ont pas besoin d’être représentés dans vos données de point de contact d’achat ou que vous ne souhaitez pas recevoir de crédit d’attribution sans perturber votre suivi et votre collecte de données.
 
-**Retrait du point de contact** signifie [!DNL Marketo Measure] purge (c’est-à-dire, supprime) les points de contact de votre CRM qui correspondent aux critères de règle. Les données peuvent faire l’objet de rapports dans la variable [!DNL Marketo Measure] Tableau de bord du ROI (Discover), mais pas dans le CRM. Couramment utilisé pour atténuer la contrainte sur vos limites de stockage des données dans votre CRM
+**Touchpoint Removal** signifie que [!DNL Marketo Measure] purge (c’est-à-dire qu’il supprime) tous les points de contact de votre CRM qui correspondent aux critères de règle. Les données peuvent faire l’objet de rapports dans le tableau de bord du ROI [!DNL Marketo Measure] (Discover), mais elles ne s’affichent pas dans le CRM. Couramment utilisé pour atténuer la contrainte sur vos limites de stockage des données dans votre CRM
 
-**Suppression des points de contact** est similaire à la suppression du point de contact, mais les données ne peuvent PAS être rapportées dans le tableau de bord du retour sur investissement. Les points de contact supprimés ne seront pas accessibles dans le CRM ou Discover. La suppression garantit que vos données CRM et vos données Discover correspondent. Utilisé généralement pour affiner et spécifier davantage les données de point de contact que vous souhaitez recevoir du crédit d’attribution.
+La **suppression de point de contact** est similaire à la suppression de point de contact, mais les données ne peuvent PAS être consignées dans le tableau de bord du retour sur investissement. Les points de contact supprimés ne seront pas accessibles dans le CRM ou Discover. La suppression garantit que vos données CRM et vos données Discover correspondent. Utilisé généralement pour affiner et spécifier davantage les données de point de contact que vous souhaitez recevoir du crédit d’attribution.
 
-Dans votre [!DNL Marketo Measure] , [!UICONTROL Paramètres des points de contact] sera divisée en quatre sections clés. Chaque section supprime ou supprime un ensemble de données différent. Utilisez la touche ci-dessous pour vous assurer que vos règles suppriment ou suppriment les points de contact souhaités.
+Dans votre application [!DNL Marketo Measure], la section [!UICONTROL Paramètres du point de contact] sera divisée en quatre sections clés. Chaque section supprime ou supprime un ensemble de données différent. Utilisez la touche ci-dessous pour vous assurer que vos règles suppriment ou suppriment les points de contact souhaités.
 
 * Supprimer les Buyer Touchpoints du CRM
-   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **Données du point de contact de l’achat** (les points de contact associés à l’individu, et non l’opportunité) de votre **CRM**
+   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera les **données Buyer Touchpoint** (les points de contact associés à l’individu, et non l’opportunité) de votre **CRM**
 * Supprimer les Buyer Touchpoints du CRM
-   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **Données du point de contact de l’achat** (les points de contact associés à l’individu, et non l’opportunité) de votre **CRM** et **Discover**
+   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **les données Buyer Touchpoint** (les points de contact associés à l’individu, et non l’opportunité) de vos **CRM** et **Discover**
 * Supprimer Buyer Attribution Touchpoint du CRM
-   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **Point de contact d’attribution de l’achat** les données (points de contact associés à l’opportunité et aux recettes) provenant de vos **CRM**
+   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera les données **Buyer Attribution Touchpoint** (les points de contact associés à l’opportunité et aux recettes) de votre **CRM**
 * Supprimer le Buyer Attribution Touchpoint du CRM
 
-   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **Point de contact d’attribution de l’achat** les données (points de contact associés à l’opportunité et aux recettes) provenant de vos **CRM** et **Discover**
+   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera les données **Buyer Attribution Touchpoint** (les points de contact associés à l’opportunité et aux recettes) de vos **CRM** et **Discover**
 
 ## Bonne pratique {#best-practice}
 
@@ -44,19 +44,19 @@ Gardez à l’esprit les bonnes pratiques suivantes, que vous créiez des règle
 
 ## Bonne pratique de maintenance {#best-practice-for-maintenance}
 
-Consultez votre [!UICONTROL Paramètres des points de contact] est important, car ils peuvent modifier radicalement vos données lorsqu’elles ne sont pas définies correctement. En règle générale, il est recommandé de consulter vos paramètres de point de contact au moins deux fois par an. Il s’agit d’une simple révision visuelle des règles configurées dans la section Paramètres des points de contact de votre [!DNL Marketo Measure] application. Cette révision vous permet de vous assurer que vos paramètres de point de contact sont à jour et que toute modification peut être apportée en conséquence.
+La révision de vos [!UICONTROL paramètres de point de contact] est importante, car ils peuvent modifier radicalement vos données lorsqu’ils ne sont pas définis correctement. En règle générale, il est recommandé de consulter vos paramètres de point de contact au moins deux fois par an. Il s’agit d’une simple révision visuelle des règles configurées dans la section Paramètres des points de contact de votre application [!DNL Marketo Measure]. Cette révision vous permet de vous assurer que vos paramètres de point de contact sont à jour et que toute modification peut être apportée en conséquence.
 
-Raisons de consulter vos [!UICONTROL Point de contact] Les paramètres incluent..
+Les raisons de consulter vos paramètres [!UICONTROL Touchpoint] incluent...
 
 * Changements au sein de votre équipe marketing
 * Mises à jour majeures de la structure de votre site web
 * Identification des données de point de contact qui ne sont plus utiles
-   * Chaque fois que vous découvrez des données de point de contact qui, selon vous, ne devraient pas recevoir de crédit d’attribution, [!DNL touchpoint suppression] les règles sont la fonctionnalité permettant d’assurer vos données aussi propres et précises que possible.
+   * Chaque fois que vous découvrez des données de point de contact qui selon vous ne devraient pas recevoir de crédit d’attribution, les règles [!DNL touchpoint suppression] sont la fonctionnalité permettant d’assurer vos données aussi propres et précises que possible.
 * Modifications apportées aux champs utilisés pour définir les règles de suppression ou de suppression
 
 >[!MORELIKETHIS]
 >
->* [Présentation de la suppression et de la suppression des points de contact](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
->* [Pourquoi ne jamais supprimer les points de contact](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+>* [Présentation de la suppression et de la suppression de points de contact](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
+>* [Pourquoi les points de contact ne doivent jamais être supprimés](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
 >* [Points de contact d’achat (BT) et points de contact d’attribution d’achat (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

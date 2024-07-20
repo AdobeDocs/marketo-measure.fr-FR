@@ -13,12 +13,12 @@ ht-degree: 1%
 
 # Paramètres {#settings}
 
-Il existe deux bits de fonctionnalités distincts liés à cette fonctionnalité, situés dans le noeud CRM : [!UICONTROL Paramètres généraux] onglet : plusieurs devises et des devises avancées.
+Il existe deux bits de fonctionnalités distincts liés à cette fonctionnalité, situés dans l’onglet [!UICONTROL Paramètres généraux] du CRM : plusieurs devises et devises avancées.
 
-**Devises multiples**: activé si le client utilise plusieurs devises uniques.
+**Plusieurs devises** : activé si le client utilise plusieurs devises.
 
-**Devises avancées**: bits supplémentaire qui doit être activé si le client utilise la fonction &quot;Advanced Currency Management&quot; (gestion de devise avancée) de Salesforce, dans laquelle l’utilisateur peut définir une plage temporelle pour les taux de conversion.
+**Devises avancées** : un bit supplémentaire qui doit être activé si le client utilise la fonction &quot;Advanced Currency Management&quot; (gestion de devise avancée) de Salesforce, où l’utilisateur peut définir une plage temporelle pour les taux de conversion.
 
-Sous [!UICONTROL Paramètres utilisateur] dans le [!DNL Marketo Measure] Application, nous afficherons la devise de l’entreprise et toutes les devises prises en charge extraites du CRM. Comme ces valeurs sont toutes extraites du CRM, ces champs sont en lecture seule et ne peuvent pas être modifiés. La devise du tableau de bord est votre devise par défaut pour chaque chargement d’un tableau de bord. Vous pouvez revenir et modifier la devise selon vos besoins.
+Sous vos [!UICONTROL Paramètres utilisateur] dans l’application [!DNL Marketo Measure], nous afficherons la devise de l’entreprise et toutes les devises prises en charge extraites du CRM. Comme ces valeurs sont toutes extraites du CRM, ces champs sont en lecture seule et ne peuvent pas être modifiés. La devise du tableau de bord est votre devise par défaut pour chaque chargement d’un tableau de bord. Vous pouvez revenir et modifier la devise selon vos besoins.
 
 ![](assets/one-1.png)

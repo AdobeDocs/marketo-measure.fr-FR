@@ -1,5 +1,5 @@
 ---
-description: Concepts de base du tableau de bord de Discover - [!DNL Marketo Measure] - Produit
+description: Concepts de base du tableau de bord de Discover - [!DNL Marketo Measure]  - Produit
 title: Découvrir les bases du tableau de bord
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545

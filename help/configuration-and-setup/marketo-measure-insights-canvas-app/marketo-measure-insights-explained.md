@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # Explication des analyses [!DNL Marketo Measure] {#marketo-measure-insights-explained}
 
-En savoir plus sur les [!DNL Marketo Measure] Vue des informations dans [!DNL Salesforce], y compris ce que représentent les différentes icônes et comment utiliser la fonction. Cette fonctionnalité s’avère particulièrement utile pour afficher les 20 premières sessions d’un prospect, d’un contact ou d’un compte.
+Découvrez la vue [!DNL Marketo Measure] Insights dans [!DNL Salesforce], y compris ce que représentent les différentes icônes et comment utiliser la fonctionnalité. Cette fonctionnalité s’avère particulièrement utile pour afficher les 20 premières sessions d’un prospect, d’un contact ou d’un compte.
 
-Une fois qu’une personne est suivie par la variable [!DNL Marketo Measure] JavaScript et remplissant un formulaire sur votre site web, la personne devient un prospect dans votre système et ses données de marketing numérique sont envoyées à votre organisation Salesforce (SFDC). Dans ce cas, les données de point de contact renseignées dans la variable [!DNL Marketo Measure] Section Informations sur les pistes (une application de canevas) sur les objets de piste/contact/opportunité/compte.
+Une fois qu’une personne est suivie par le [!DNL Marketo Measure] JavaScript et qu’elle remplit un formulaire sur votre site web, elle devient un prospect dans votre système et ses données de marketing numérique sont envoyées à votre organisation Salesforce (SFDC). Dans ce cas, les données de point de contact renseignées dans la section [!DNL Marketo Measure] Lead Insights (une application de canevas) sur les objets Lead/Contact/Opportunity/Account.
 
 Tout d’abord, vous voyez dans la partie centrale de vos informations le nombre de sessions que la personne a eues sur votre site web. Vous pouvez faire défiler ces sessions et naviguer à votre gré.
 
@@ -37,8 +37,8 @@ Si vous cliquez sur une session spécifique (vous pouvez le faire en cliquant su
 
 ![](assets/4.png)
 
-Sur le côté droit de chaque session, vous pouvez voir d’autres données marketing granulaires qui enchaînent les [!DNL Marketo Measure] dans votre SFDC. Dans cet exemple, vous pouvez voir Groupe d’annonces, Contenu de publicités, Campagne, Mot-clé, Support. Vous pouvez également faire défiler l’écran vers le bas pour afficher d’autres [!DNL Marketo Measure] données que nous fournissons.
+Sur le côté droit de chaque session, vous pouvez voir d’autres données marketing granulaires qui poussent les champs [!DNL Marketo Measure] dans votre SFDC. Dans cet exemple, vous pouvez voir Groupe publicitaire, Contenu de publicité, Campagne, Mot-clé, Medium. Vous pouvez également faire défiler l’écran vers le bas pour voir d’autres données [!DNL Marketo Measure] fournies.
 
-Enfin, une fois qu’une personne dispose d’une myriade de sessions, vous pouvez utiliser certains filtres dans [!UICONTROL Informations] pour rechercher des parties spécifiques de leur engagement sur votre site. Vous pouvez filtrer par [!UICONTROL Position du point de contact] par exemple.
+Enfin, une fois qu’une personne dispose d’une myriade de sessions, vous pouvez utiliser certains filtres dans [!UICONTROL Statistiques] pour rechercher des parties spécifiques de son engagement sur votre site. Vous pouvez filtrer par [!UICONTROL Position du point de contact] par exemple.
 
 Vous pouvez également effectuer des recherches par Pages vues, Tests AB ou Forms.

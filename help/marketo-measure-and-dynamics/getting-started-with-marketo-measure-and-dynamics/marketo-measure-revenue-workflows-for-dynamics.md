@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Marketo Measure] Workflows des recettes pour Dynamics {#marketo-measure-revenue-workflows-for-dynamics}
+# [!DNL Marketo Measure] Workflows de recettes pour Dynamics {#marketo-measure-revenue-workflows-for-dynamics}
 
 ## Partie 1 : Recettes estimées par rapport aux recettes réelles {#part-estimated-revenue-vs-actual-revenue}
 
-[!DNL Marketo Measure] pointe vers un champ de recettes standard prêt à l’emploi (Recettes réelles), mais Dynamics dispose de deux champs de recettes standard : Recettes réelles et Recettes estimées. Pour que les recettes de pipeline soient disponibles dans le tableau de bord de Discover, un champ personnalisé et un workflow sont nécessaires pour capturer le montant correct des recettes estimées ou des recettes réelles selon que l’opportunité est ouverte ou fermée (gagnante).
+[!DNL Marketo Measure] pointe vers un champ de recettes standard prêt à l’emploi (Recettes réelles), mais Dynamics a deux champs de recettes standard : Recettes réelles et Recettes estimées. Pour que les recettes de pipeline soient disponibles dans le tableau de bord de Discover, un champ personnalisé et un workflow sont nécessaires pour capturer le montant correct des recettes estimées ou des recettes réelles selon que l’opportunité est ouverte ou fermée (gagnante).
 
 Étape 1 : Créer un champ de montant d’opportunité personnalisé dans Dynamics
 
@@ -23,23 +23,23 @@ ht-degree: 0%
 >
 >Tous les champs de recettes Dynamics ont un champ de base et un champ normal. Ignorez le champ de base.
 
-Étape 2 : créer un workflow qui met à jour le champ personnalisé du montant de l&#39;opportunité créé à l&#39;étape 1 et le [!DNL Marketo Measure] Champ Montant de l&#39;opportunité.
+Étape 2 : créez un workflow qui met à jour le champ de montant d’opportunité personnalisé créé à l’étape 1 et le champ [!DNL Marketo Measure] Montant d’opportunité.
 
 >[!NOTE]
 >
->Nous ne pouvons pas pointer vers le [!DNL Marketo Measure] Montant de l’opportunité (bizible2_bizible_occasion_amount) dans Discover avec des comptes Dynamics. Les clients Dynamics doivent créer un champ de montant d’opportunité personnalisé pour [!DNL Marketo Measure] pour pointer vers dans Discover. Une fois terminé, le client doit créer un workflow qui met à jour **both** la valeur [!DNL Marketo Measure] Quantité d’opportunité (bizible2_bizible_occasion_amount) **et** le champ montant personnalisé de l’opportunité. La variable [!DNL Marketo Measure] Le champ Montant de l&#39;opportunité est fourni avec le package, mais un champ personnalisé doit être créé.
+>Nous ne pouvons pas pointer vers le champ [!DNL Marketo Measure] Montant de l’opportunité (bizible2_bizible_opportunité_amount) dans Discover avec des comptes Dynamics. Les clients Dynamics doivent créer un champ de montant d’opportunité personnalisé pour [!DNL Marketo Measure] vers lequel pointer dans Discover. Une fois l’opération terminée, le client doit créer un workflow qui met à jour **à la fois** le [!DNL Marketo Measure] montant de l’opportunité (bizible2_bizible_opportunité_amount) **et** le champ de montant personnalisé de l’opportunité. Le champ [!DNL Marketo Measure] Montant de l’opportunité est fourni avec le package, mais un champ personnalisé doit être créé.
 
 Instructions de workflow Amount :
 
-**#1 DE WORKFLOW**: opportunité - mise à jour [!DNL Marketo Measure] Champ Montant de l&#39;opportunité et champ personnalisé = Recettes estimées
+**WORKFLOW #1** : Opportunité - Mettre à jour [!DNL Marketo Measure] Champ Montant de l’opportunité et champ personnalisé = Recettes estimées
 
-Ce workflow s’exécute sur les opportunités ouvertes chaque fois que le revenu estimé change et met à jour la variable [!DNL Marketo Measure] Montant de l&#39;opportunité et votre champ personnalisé pour égal au champ Recettes estimées . Le workflow doit être défini pour exécuter &quot;Temps réel&quot;, mais peut également être exécuté &quot;à la demande&quot; pour mettre à jour les opportunités ouvertes.
+Ce workflow s’exécute à chaque fois que des opportunités sont ouvertes. Le revenu estimé change et met à jour le champ [!DNL Marketo Measure] Montant de l’opportunité et votre champ personnalisé pour qu’il soit égal au champ Recettes estimées . Le workflow doit être défini pour exécuter &quot;Temps réel&quot;, mais peut également être exécuté &quot;à la demande&quot; pour mettre à jour les opportunités ouvertes.
 
-Fournissez les [!DNL Marketo Measure] point de contact avec le nom du champ montant personnalisé de l&#39;opportunité. Ils mettent à jour la variable [!DNL Marketo Measure] Paramètres d’opportunité de l’application pour inclure le nom du champ de montant d’opportunité personnalisé. Cela indique à Discover le champ à utiliser dans les rapports.
+Indiquez à votre point de contact [!DNL Marketo Measure] le nom du champ de montant d’opportunité personnalisé. Ils mettent à jour les paramètres d’opportunité de l’application [!DNL Marketo Measure] afin d’inclure le nom du champ de montant d’opportunité personnalisé. Cela indique à Discover le champ à utiliser dans les rapports.
 
-**#2 DE WORKFLOW**: opportunité - mise à jour [!DNL Marketo Measure] Champ Montant de l&#39;opportunité et champ personnalisé = Recettes réelles
+**WORKFLOW #2{1: Opportunity - Update [!DNL Marketo Measure] Opportunity Amount Field &amp; Custom Field = Revenus réels**
 
-Ce workflow se déclenche lorsqu’un utilisateur ferme une opportunité et met à jour la variable [!DNL Marketo Measure] Montant de l&#39;opportunité et votre champ personnalisé avec le champ Recettes réelles ajouté au formulaire Fermeture de l&#39;opportunité avant que l&#39;opportunité ne se bloque comme fermée.
+Ce workflow se déclenche lorsqu’un utilisateur ferme une opportunité et met à jour le champ [!DNL Marketo Measure] Montant de l’opportunité et votre champ personnalisé avec les Recettes réelles ajoutées au formulaire Fermeture de l’opportunité avant que l’opportunité ne se bloque comme fermée.
 
 ## Partie 2 : Date de fermeture estimée par rapport à la date de fermeture réelle {#part-estimated-close-date-vs-actual-close-date}
 
@@ -47,28 +47,28 @@ Les données de recettes de pipeline prêtes à l’emploi ne sont pas disponibl
 
 Si les opportunités d’ouverture ne comportent aucune donnée dans le champ Date de fermeture réelle , le tableau de bord ne contient aucune donnée pour les opportunités d’ouverture. Cela dit, un workflow est nécessaire en fonction de l’étape d’opportunité pour prendre en charge les deux champs de date.
 
-1. Créer un champ Date de fermeture personnalisée sur l’objet d’opportunité ([!DNL Marketo Measure] Date de fermeture personnalisée).
-1. Créer un workflow pour mettre à jour la variable [!DNL Marketo Measure] Champ Date de fermeture personnalisée avec la date de fermeture estimée ou la date de fermeture réelle, selon que l’opportunité est ouverte ou fermée (le workflow doit être enregistré pour s’exécuter en temps réel, mais doit être exécuté &quot;à la demande&quot; au moins une fois pour mettre à jour toutes les opérations d’ouverture actuelles).
+1. Créez un champ Date de fermeture personnalisée sur l’objet d’opportunité ([!DNL Marketo Measure] Date de fermeture personnalisée).
+1. Créez un workflow pour mettre à jour le champ [!DNL Marketo Measure] Date de fermeture personnalisée avec la date à partir de la Date de fermeture estimée ou de la Date de fermeture réelle, selon que l&#39;opportunité est ouverte ou fermée (le workflow doit être enregistré pour s&#39;exécuter en temps réel, mais doit être exécuté &quot;à la demande&quot; au moins une fois pour mettre à jour toutes les opérations d&#39;ouverture actuelles).
 1. Testez le workflow et vérifiez qu&#39;il fonctionne.
 1. Le client doit fournir le nom de l’API Date de fermeture personnalisée à [!DNL Marketo Measure].
-1. [!DNL Marketo Measure] pour mettre à jour la variable [!DNL Marketo Measure] paramètres de l’application pour pointer vers [!DNL Marketo Measure] Champ Date de fermeture personnalisée dans le tableau de bord.
+1. [!DNL Marketo Measure] pour mettre à jour les paramètres de l’application [!DNL Marketo Measure] afin qu’ils pointent vers le champ [!DNL Marketo Measure] Date de fermeture personnalisée dans le tableau de bord.
 
-   Une fois les étapes ci-dessus terminées, exécutez les workflows pour mettre à jour les [!DNL Marketo Measure] le champ Montant d’Opp et la variable [!DNL Marketo Measure] Le champ Date de fermeture personnalisée présente vos opportunités historiques de refléter les données correctes. Les champs on/by modifiés seront alors modifiés. Vérifiez donc auprès de votre équipe si cela présente des problèmes.
+   Une fois les étapes ci-dessus terminées, exécutez les workflows pour mettre à jour le champ Montant d’Opp [!DNL Marketo Measure] personnalisé et le champ [!DNL Marketo Measure] Date de Fermeture personnalisée sur vos opportunités historiques de refléter les données correctes. Les champs on/by modifiés seront alors modifiés. Vérifiez donc auprès de votre équipe si cela présente des problèmes.
 
 Pour mettre à jour les opportunités fermées...
 
-1. Isolez les opportunités qui ont été fermées depuis votre [!DNL Marketo Measure] date de démarrage jusqu’à ce que le workflow soit actif. Il s’agit du groupe d’opportunités historiques que vous devez mettre à jour via un workflow.
+1. Isolez les opportunités qui se sont fermées depuis la date de démarrage de votre [!DNL Marketo Measure] jusqu&#39;à ce que le workflow soit actif. Il s’agit du groupe d’opportunités historiques que vous devez mettre à jour via un workflow.
 1. Exportez tous les enregistrements vers Excel.
 1. Ouvrez le fichier Excel, activez le contenu.
-1. Copier les données de date de fermeture réelle [!DNL Marketo Measure] Date de fermeture personnalisée.
-1. Copier les données sur les recettes réelles dans [!DNL Marketo Measure] Montant d’opportunité personnalisé **et** [!DNL Marketo Measure] Montant de l’opportunité (il existe deux champs).
+1. Copiez les données Date de fermeture réelle dans [!DNL Marketo Measure] Date de fermeture personnalisée.
+1. Copiez les données Recettes réelles dans [!DNL Marketo Measure] Montant d’opportunité personnalisé **et** [!DNL Marketo Measure] Montant d’opportunité (il existe deux champs).
 1. Enregistrez le fichier.
 1. Importez le fichier. Dynamics reconnaîtra qu’il s’agit d’un fichier avec des enregistrements existants à mettre à jour.
 1. Recherchez les échecs dans le fichier d’importation.
 
 >[!NOTE]
 >
->Les workflows décrits dans ce document ne sont qu’une façon de mettre à jour les champs. [!DNL Marketo Measure] peut afficher les données correctes dans Discover. Si vous avez une autre façon d&#39;accomplir la même tâche, vous pouvez y aller. Fondamentalement, ce dont nous avons besoin de la part d&#39;eux est une sorte de workflow qui effectue les opérations suivantes :
+>Les workflows décrits dans ce document ne sont qu’une façon de mettre à jour les champs afin que [!DNL Marketo Measure] puisse afficher les données correctes dans Discover. Si vous avez une autre façon d&#39;accomplir la même tâche, vous pouvez y aller. Fondamentalement, ce dont nous avons besoin de la part d&#39;eux est une sorte de workflow qui effectue les opérations suivantes :
 >
-> * Si Opp = Ouverture, mettez à jour le champ de date de fermeture personnalisé, le champ de valeur opp personnalisée et [!DNL Marketo Measure] le champ montant de l’opp est égal à la Date de fermeture estimée et au Chiffre d’affaires estimé, respectivement.
-> * Si Opp = Permis fermé, mettez à jour le champ de date de fermeture personnalisé, le champ de montant d’opp personnalisé et [!DNL Marketo Measure] le champ montant de l’opp est égal à Date de fermeture réelle et Recettes réelles, respectivement.
+> * Si Opp = Ouverture, mettez à jour le champ Date de fermeture personnalisée, le champ Montant opp personnalisé et le champ [!DNL Marketo Measure] Montant opp afin d’obtenir respectivement la Date de fermeture estimée et le Chiffre d’affaires estimé.
+> * Si Opp = Gagnant fermé, mettez à jour le champ de date de fermeture personnalisé, le champ de montant d’opp personnalisé et le champ de montant d’opp [!DNL Marketo Measure] pour qu’ils soient égaux respectivement à Date de fermeture réelle et Recettes réelles.

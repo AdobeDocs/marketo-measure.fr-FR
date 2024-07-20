@@ -13,7 +13,7 @@ ht-degree: 8%
 
 # Configurations pour plusieurs types d’enregistrement de campagne {#configurations-for-multiple-campaign-record-types}
 
-**Valeurs de liste de sélection manquantes dans le champ &quot;Activer les points de contact d’achat&quot;**
+**Valeurs de liste de sélection manquantes du champ &quot;Activer les points de contact d’achat&quot;**
 
 Si votre organisation SFDC utilise plusieurs types d’enregistrements de campagne, les valeurs de liste de sélection pour &quot;Activer les points de contact d’achat&quot; doivent être ajoutées pour chaque type d’enregistrement. Pour ajouter les options, procédez comme suit.
 
@@ -21,11 +21,11 @@ Si votre organisation SFDC utilise plusieurs types d’enregistrements de campag
 
    ![](assets/1.jpg)
 
-1. Sélectionnez les types d’enregistrement de campagne en cliquant sur le bouton **[!UICONTROL Libellé du type d’enregistrement]**, pas le [!UICONTROL edit] bouton .
+1. Sélectionnez les types d’enregistrements Campaign en cliquant sur le bouton **[!UICONTROL Type d’enregistrement Label]**, et non sur le bouton [!UICONTROL edit] .
 
    ![](assets/2.jpg)
 
-1. Vous accédez ici à l’écran avec les listes de sélection disponibles pour ce type d’enregistrement. Sélectionner **[!UICONTROL Modifier]** en regard du champ &quot;Activer les points de contact de l’acheteur&quot;.
+1. Vous accédez ici à l’écran avec les listes de sélection disponibles pour ce type d’enregistrement. Sélectionnez **[!UICONTROL Modifier]** en regard du champ &quot;Activer les points de contact de l’acheteur&quot;.
 
    ![](assets/3.jpg)
 

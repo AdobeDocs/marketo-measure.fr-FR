@@ -15,15 +15,15 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
+>Des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; peuvent s’afficher dans la documentation, mais toujours &quot;[!DNL Bizible]&quot; dans votre gestion de la relation client. Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
 
-En plongeant dans le [!DNL Marketo Measure] Rapports dans [!DNL Salesforce], vous pouvez commencer à rechercher des enregistrements &quot;en double&quot; dans vos rapports. Vous allez probablement ressentir ce sentiment lorsque vous passerez en revue [!DNL Marketo Measure] rapports d’usine.
+Lorsque vous explorez les [!DNL Marketo Measure] rapports dans [!DNL Salesforce], vous pouvez commencer à trouver des enregistrements &quot;en double&quot; dans vos rapports. Vous allez probablement ressentir ce sentiment lorsque vous passerez en revue [!DNL Marketo Measure] rapports d&#39;usine.
 
-Lors de la création de rapports avec l’objet Points de contact de l’acheteur ou l’objet Point de contact de l’attribution de l’acheteur, il est important de comprendre que vous ne signalez plus le nombre de prospects, de contacts ou d’opportunités, mais que vous rapporterez plutôt le nombre de points de contact de l’achat ou de points de contact de l’attribution de l’acheteur associés à ces objets standard (prospects, contacts, opportunités).
+Lors de la création de rapports avec l’objet Points de contact de l’acheteur ou l’objet Buyer Attribution Touchpoint, il est important de comprendre que vous ne signalez plus le nombre de pistes, de contacts ou d’opportunités, mais que vous signalerez plutôt le nombre de points de contact de l’acheteur ou de points de contact d’attribution de l’acheteur associés à ces objets standard (pistes, contacts, opportunités).
 
 Prenons comme exemple le rapport suivant :
 
-Ceci est une **Contacts avec les points de contact de l’acheteur** rapport. Encore une fois, cela signifie que nous regardons le nombre de points de contact associés à un contact individuel.
+Il s’agit d’un rapport **Contacts avec points de contact de l’acheteur**. Encore une fois, cela signifie que nous regardons le nombre de points de contact associés à un contact individuel.
 
 ![](assets/1.gif)
 

@@ -13,17 +13,17 @@ ht-degree: 16%
 
 # Bonnes pratiques relatives aux tests {#best-practices-for-testing}
 
-Vous devez tester tous les différents types de formulaires pour vous assurer que la variable [!DNL Marketo Measure] JavaScript fonctionne correctement.
+Vous devez tester tous les différents types de formulaires dont vous avez besoin pour vous assurer que le JavaScript [!DNL Marketo Measure] fonctionne correctement.
 
 ## Processus de test recommandé {#recommended-test-process}
 
-1. Utilisez un navigateur incognito ou effacez vos cookies entre chaque test d’envoi de formulaire. _et_ utilisez une adresse email différente à chaque fois.
+1. Utilisez un navigateur incognito ou effacez vos cookies entre chaque test d’envoi de formulaire _et_ en utilisant une adresse électronique différente à chaque fois.
 
    >[!TIP]
    >
    >Une bonne pratique consiste à utiliser un faux email contenant un élément indiquant qu’il s’agit d’un test, ainsi que l’heure de la journée. Par exemple : `testing830am@test.com`.
 
-1. Lancez votre recherche dans un moteur de recherche (par exemple, `google.com`) ou accéder directement à un formulaire.
+1. Lancez votre recherche dans un moteur de recherche (par exemple, `google.com`) ou accédez directement à un formulaire.
 
 1. Envoyez le formulaire sur votre site web à l’aide d’une adresse électronique unique.
 
@@ -33,4 +33,4 @@ Vous devez tester tous les différents types de formulaires pour vous assurer qu
 
 >[!NOTE]
 >
->Vous pouvez utiliser une [!DNL Marketo Measure] rapport de stock, tel que Pistes avec [!DNL Marketo Measure] Points de contact ou examinez la mise en page de piste/contact si vous avez choisi de mettre à jour vos mises en page avec [!DNL Marketo Measure] détails. Le traitement des données peut prendre du temps.
+>Vous pouvez utiliser un rapport de stock [!DNL Marketo Measure], tel que Pistes avec points de contact [!DNL Marketo Measure], ou consulter la mise en page de piste/contact si vous avez choisi de mettre à jour vos mises en page avec les [!DNL Marketo Measure] détails. Le traitement des données peut prendre du temps.

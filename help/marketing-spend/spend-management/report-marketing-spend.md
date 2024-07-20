@@ -1,6 +1,6 @@
 ---
 unique-page-id: 27656737
-description: Signaler les dépenses marketing - [!DNL Marketo Measure]
+description: Report Marketing Spend - [!DNL Marketo Measure]
 title: Rapport sur les dépenses marketing
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
@@ -25,15 +25,15 @@ Lorsqu’un utilisateur télécharge le fichier de coûts, le fichier contient �
 
 ## Coûts des intégrations publicitaires {#costs-from-ad-integrations}
 
-When [!DNL Marketo Measure] importe le coût des plateformes connectées telles que AdWords, Bing, Facebook ou Doubleclick ; nous utilisons également la devise rapportée. La devise s’affiche à côté du canal, du sous-canal et de la campagne lorsqu’elle est affichée dans le tableau Dépenses marketing .
+Lorsque [!DNL Marketo Measure] importe le coût à partir de plateformes connectées telles que AdWords, Bing, Facebook ou Doubleclick, nous utilisons également la devise rapportée. La devise s’affiche à côté du canal, du sous-canal et de la campagne lorsqu’elle est affichée dans le tableau Dépenses marketing .
 
-Si la devise du fournisseur de publicités ne correspond pas à une devise extraite du CRM, une erreur &quot;Devises mixtes&quot; peut s’afficher dans la variable [!DNL Marketo Measure Discover]. Pour corriger ce problème, l’administrateur CRM doit ajouter une conversion pour la devise inconnue.
+Si la devise du fournisseur de publicités ne correspond pas à une devise extraite du CRM, une erreur &quot;Devises mixtes&quot; peut s’afficher dans [!DNL Marketo Measure Discover]. Pour corriger ce problème, l’administrateur CRM doit ajouter une conversion pour la devise inconnue.
 
 ## Migration vers les dépenses marketing converties {#migrate-to-converted-marketing-spend}
 
 Dans la mesure où les dépenses marketing n’ont historiquement été effectuées que dans une seule devise (USD), il reste peu de travail à faire pour remplacer toutes les dépenses signalées par la nouvelle devise. Même si plusieurs devises ne sont pas activées pour votre compte, si vous disposez d’une seule devise d’entreprise autre que le dollar américain, vous devez effectuer cette migration.
 
 1. Télécharger le fichier de dépenses actuel au format CSV
-1. La colonne de devise affiche &quot;[!UICONTROL USD]&quot; comme devise utilisée. Vous pouvez remplacer manuellement toutes les occurrences de &quot;[!UICONTROL USD]&quot; ou utilisez Rechercher+Remplacer pour modifier tous les &quot;[!UICONTROL USD]&quot; à votre propre devise d’entreprise, telle que &quot;[!UICONTROL EUR]&quot; ou &quot;[!UICONTROL GBP]&quot;.
+1. La colonne de devise affiche &quot;[!UICONTROL USD]&quot; en tant que devise utilisée. Vous pouvez remplacer manuellement toutes les occurrences de &quot;[!UICONTROL USD]&quot; ou utiliser Find+Replace pour remplacer toutes les instances &quot;[!UICONTROL USD]&quot; par votre propre devise d’entreprise, telle que &quot;[!UICONTROL EUR]&quot; ou &quot;[!UICONTROL GBP]&quot;.
 1. Enregistrez le fichier, puis rechargez-le dans [!DNL Marketo Measure].
 1. Tous les coûts signalés s’afficheront désormais comme la nouvelle devise.

@@ -1,6 +1,6 @@
 ---
-description: '[!DNL Salesforce] Consolidation des modules - [!DNL Marketo Measure]'
-title: '''[!DNL Salesforce] Consolidation des modules'
+description: "[!DNL Salesforce] Consolidation des modules - [!DNL Marketo Measure]"
+title: "[!DNL Salesforce] Consolidation des modules"
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
 source-git-commit: 518a984b0d8d640290bd9b637221fcdc0948e5b9
@@ -25,11 +25,11 @@ Le nouveau package V2 consolidé intègre toutes les fonctionnalités des packag
 Deux nouveaux champs vous permettent d’améliorer vos fonctionnalités de reporting :
 
 * form_name : désormais disponible dans les objets BT/BAT, ce champ permet aux utilisateurs et utilisatrices de créer des rapports en fonction des noms de formulaire.
-* user_touchpoint_id : ce champ permet aux utilisateurs de créer des rapports avec un nombre de points de contact utilisateur uniques (`bizible2__User_Touchpoint_V2__c` dans Salesforce).
+* user_touchpoint_id : ce champ permet aux utilisateurs de créer des rapports avec des nombres de points de contact utilisateur uniques (`bizible2__User_Touchpoint_V2__c` dans Salesforce).
 
 ## Assistance et transition {#support-and-transition}
 
-La variable [Équipe d’assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} est disponible pour répondre à toutes les questions et vous aider à assurer une transition en douceur vers le nouveau package consolidé.
+L’ [ équipe d’assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} est disponible pour répondre à toutes les questions et vous aider à garantir une transition fluide vers le nouveau package consolidé.
 
 ## Actions requises {#retired-actions}
 
@@ -51,13 +51,13 @@ La variable [Équipe d’assistance](https://nation.marketo.com/t5/support/ct-p/
 
 ## Questions fréquentes {#faq}
 
-**Le package consolidé sera-t-il en conflit avec les champs de mon package existant ?**
+**Le package consolidé va-t-il avoir des conflits avec les champs de mon package existant ?**
 
 Vous n’avez pas besoin de désinstaller votre package avant d’installer le package consolidé. Il n’y aura aucun conflit dans les champs, car ils se trouvent dans un autre espace de noms.
 
 **Comment puis-je renvoyer les données de mes packages actuels ?**
 
-Vous pouvez déposer un ticket [avec assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour renvoyer et retraiter les données BT/BAT afin de renseigner les champs Identifiant du point de contact et Identifiant du formulaire.
+Vous pouvez déposer un ticket [avec l’assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour le renvoi et le retraitement des données BT/BAT afin de remplir les champs Identifiant du point de contact et Identifiant du formulaire.
 
 **Les champs des packages V1 et V2_EXT seront-ils disponibles dans le package consolidé ?**
 

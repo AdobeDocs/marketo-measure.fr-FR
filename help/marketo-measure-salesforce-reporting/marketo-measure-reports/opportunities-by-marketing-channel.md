@@ -15,13 +15,13 @@ ht-degree: 4%
 
 Ce rapport indique le nombre d’opportunités générées par vos canaux marketing ; il comprend toutes vos opportunités. Vous pouvez toutefois filtrer ce rapport afin d’analyser des types d’opportunités spécifiques.
 
-1. Cliquez sur le bouton **[!UICONTROL Rapports]** dans Salesforce et sélectionnez **[!UICONTROL Nouveau rapport]**.
+1. Cliquez sur l’onglet **[!UICONTROL Rapports]** dans Salesforce et sélectionnez **[!UICONTROL Nouveau rapport]**.
 
-1. Dans la recherche rapide, saisissez &quot;Attribution Bizible&quot; et sélectionnez l’option **[!UICONTROL Point de contact d’attribution bizible avec opportunité]** type de rapport et sélectionnez **[!UICONTROL Créer]**.
+1. Dans la recherche rapide, saisissez &quot;Attribution Bizible&quot;, sélectionnez le type de rapport **[!UICONTROL Point de contact d’attribution Bizible avec opportunité]** et sélectionnez **[!UICONTROL Créer]**.
 
    ![](assets/1-2.jpg)
 
-1. En commençant par la partie supérieure du rapport, affichez **[!UICONTROL Tous les points de contact d’attribution Bizible]** et ajustez le champ date en fonction de la période sur laquelle vous souhaitez créer un rapport. Dans notre exemple, nous regardons &quot;All Time&quot;. De plus, modifiez le format du rapport à partir de [!UICONTROL Tabulaire] to **[!UICONTROL Résumé]**.
+1. À partir du haut du rapport, affichez **[!UICONTROL Tous les points de contact d’attribution Bizible]** et ajustez le champ de date en fonction de la période sur laquelle vous souhaitez créer un rapport. Dans notre exemple, nous regardons &quot;All Time&quot;. De plus, remplacez le format de rapport [!UICONTROL Tabulaire] par **[!UICONTROL Résumé]**.
 
    ![](assets/2-2.jpg)
 

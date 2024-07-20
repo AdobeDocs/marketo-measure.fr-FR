@@ -1,5 +1,5 @@
 ---
-description: Tableau de bord du ROI - [!DNL Marketo Measure] - Produit
+description: Tableau de bord du ROI - [!DNL Marketo Measure]  - Produit
 title: Tableau de bord Retour sur investissement
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
@@ -24,16 +24,16 @@ Le tableau de bord du ROI offre aux marketeurs une vue granulaire des retours su
 
 ### Mosaïques IPC {#kpi-tiles}
 
-* **Coût**: coûts totaux provenant des sources de données connectées et coûts téléchargés manuellement.
-* **Recettes affectées**: contribution totale aux recettes, basée sur le modèle d’attribution sélectionné, provenant d’ Opportunités avec points de contact qui se sont terminés au cours de la période filtrée.
-* **Recettes affectées réalisées**: contribution totale des recettes, basée sur le modèle d’attribution sélectionné, provenant des opportunités avec points de contact au cours de la période filtrée, quelle que soit la date à laquelle elles ont été fermées.
-* **Total des nouvelles pistes**: nombre total de nouvelles pistes générées, y compris les pistes touchées et non touchées.
-* **Coût par nouvelle piste**: coût moyen par nouveau prospect, dérivé du coût total divisé par le nombre total de nouvelles pistes.
-* **Nouvelles opportunités totales**: nombre total de nouvelles opportunités générées, y compris les opportunités touchées et non touchées.
-* **Coût par nouvelle opportunité**: coût moyen par nouvelle opportunité, dérivé du coût total divisé par le nombre total de nouvelles opportunités.
-* **Total des affaires**: nombre d’opportunités de &quot;gains fermés&quot;, y compris les opportunités sans points de contact.
-* **ROI simple**: recettes attribuées divisées par les coûts au cours de la période filtrée.
-* **ROI réalisé**: chiffre d’affaires attribué réalisé divisé par les coûts au cours de la période filtrée.
+* **Coût** : coût total provenant de sources de données connectées et coûts téléchargés manuellement.
+* **Recettes affectées** : contribution totale du chiffre d’affaires, basée sur le modèle d’attribution sélectionné, provenant d’ Opportunités avec points de contact qui se sont fermés au cours de la période filtrée.
+* **Recettes affectées réalisées** : contribution totale du chiffre d’affaires, basée sur le modèle d’attribution sélectionné, provenant d’ Opportunités avec points de contact au cours de la période filtrée, quelle que soit la date de clôture.
+* **Total des nouvelles pistes** : nombre total de nouvelles pistes générées, y compris les pistes touchées et non touchées.
+* **Coût par nouvelle piste** : coût moyen par nouvelle piste, dérivé du coût total divisé par le nombre total de nouvelles pistes.
+* **Total des nouvelles opportunités** : nombre total de nouvelles opportunités générées, y compris les opportunités touchées et non touchées.
+* **Coût par nouvelle opportunité** : coût moyen par nouvelle opportunité, dérivé du coût total divisé par le nombre total de nouvelles opportunités.
+* **Total des affaires** : nombre d’opportunités &quot;gagnantes fermées&quot;, y compris les opportunités sans points de contact.
+* **ROI simple** : chiffre d’affaires attribué divisé par les coûts au cours de la période filtrée.
+* **ROI réalisé** : chiffre d’affaires attribué réalisé divisé par les coûts au cours de la période filtrée.
 
 ![](assets/roi-dashboard-1.png)
 
@@ -44,7 +44,7 @@ Graphique à barres illustrant les coûts et les recettes, conçu pour offrir un
 * utilisez les fonctionnalités d’analyse et d’analyse pour classer les données par sous-canal et par campagne.
 * Passez la souris sur chaque barre pour afficher le ROI simple et réel.
 
-**Questions aux réponses du graphique**
+**Questions sur les réponses du graphique**
 
 * Quelles étaient les valeurs de ROI pour chaque canal, sous-canal et campagne ?
 * Existe-t-il des canaux ou des sous-canaux aberrants avec des coûts exceptionnellement élevés ou faibles par rapport à leurs recettes ?
@@ -57,7 +57,7 @@ Graphique en courbes de série temporelle présentant la comparaison entre le re
 
 * Passez la souris sur une section du graphique pour afficher le ROI simple et réel.
 
-**Questions aux réponses du graphique**
+**Questions sur les réponses du graphique**
 
 * Comment le ROI réalisé se compare-t-il au ROI simple sur des périodes spécifiques ?
 * Comment la tendance du ROI réalisé est-elle liée à des événements marketing significatifs au cours de la même période ?
@@ -71,7 +71,7 @@ Graphique à barres empilées affichant les coûts totaux, segmenté par canaux 
 * utilisez les fonctionnalités d’exploration et d’exploration pour classer les données par mois, trimestre ou année.
 * Passez la souris sur un segment de barre ou l’espace entre les barres pour afficher des informations détaillées.
 
-**Questions aux réponses du graphique**
+**Questions sur les réponses du graphique**
 
 * Comment le coût combiné de tous les canaux se compare-t-il d&#39;un trimestre/mois au suivant ?
 * Comment les coûts d’un canal spécifique ont-ils évolué au fil du temps ?
@@ -84,7 +84,7 @@ Graphique à barres affichant les dépenses marketing segmentées par canal/sous
 
 * utilisez les fonctionnalités d’analyse et d’analyse pour classer les données par canal/sous-canal/campagne.
 
-**Questions aux réponses du graphique**
+**Questions sur les réponses du graphique**
 
 * Quels sous-canaux ou campagnes d’un canal principal ont la distribution la plus élevée ?
 * Quels sont les moyens marketing (canal, sous-canal ou campagne) qui semblent sous-financés par rapport aux autres ?
@@ -141,5 +141,5 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 >[!MORELIKETHIS]
 >
 >* [Bases du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [Stratégie de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

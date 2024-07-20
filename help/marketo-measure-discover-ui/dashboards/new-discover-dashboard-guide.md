@@ -1,5 +1,5 @@
 ---
-description: Nouveau guide de tableau de bord Discover - [!DNL Marketo Measure] - Produit
+description: Nouveau guide de tableau de bord Discover - [!DNL Marketo Measure]  - Produit
 title: Nouveau guide de découverte du tableau de bord
 feature: Reporting
 exl-id: 088ccd63-dcf8-49c0-abbb-02f10ed8ae6e
@@ -26,57 +26,57 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     </tr>
     <tr>
       <td>Vue d’ensemble</td>
-      <td><ul><li><strong>Recettes</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
-          <li><strong>Présentation</strong>:<ul>              <li>Tableau de bord des recettes attribuées : recettes attribuées par canal et graphique dans le temps</li>
-            <li>Tableau de bord du retour sur investissement : graphique coût sur temps</li></ul></li><li><strong>Dépenser</strong>: tableau de bord du retour sur investissement</li>
-          <li><strong>Offres</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+      <td><ul><li><strong>Recettes</strong> : Recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+          <li><strong>Aperçu</strong> :<ul>              <li>Tableau de bord des recettes attribuées : recettes attribuées par canal et graphique dans le temps</li>
+            <li>Tableau de bord du retour sur investissement : graphique coût sur temps</li></ul></li><li><strong>Dépenser</strong> : tableau de bord du retour sur investissement</li>
+          <li><strong>Offres</strong> : recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
-            <strong>Coût par opération : </strong>Tableau de bord du retour sur investissement</li>
+            <strong>Coût par transaction : </strong>Tableau de bord du ROI</li>
           <li>
-            <strong>Synthèse des canaux/sous-canaux/campagnes :</strong>Tableau de bord du retour sur investissement</li>
+            <strong>Canal/Subchannel/Campaign Summary:</strong>Tableau de bord du ROI</li>
           <li>
-            <strong>Résumé du ROI et du ROI :</strong>Tableau de bord du retour sur investissement</li>
+            <strong>Résumé du ROI et du ROI :</strong>Tableau de bord du ROI</li>
           <li>
             <strong>Recettes du pipeline :</strong>Obsolète (voir ci-dessous)</li>
           <li>
-            <strong>Taille moyenne des transactions : </strong>Obsolète (voir ci-dessous)</li></ul>
+            <strong> Taille moyenne des transactions : </strong>Obsolète (voir ci-dessous)</li></ul>
       </td>
     </tr>
     <tr>
       <td>Croissance</td>
       <td><ul>
           <li>
-            <strong>Recettes et recettes dans le temps</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+            <strong>Recettes et recettes au fil du temps</strong> : recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
-            <strong>Offres</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+            <strong>Offres</strong> : recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
-            <strong>Pistes</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+            <strong>Pistes</strong> : recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
-            <strong>Opportunités</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+            <strong>Opportunités</strong> : Recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
-            <strong>Visites et visites au fil du temps</strong>: tableau de bord du trafic web</li>
+            <strong>Visites et visites dans le temps</strong> : tableau de bord du trafic web</li>
           <li>
-            <strong>Visites uniques et Visites uniques au fil du temps</strong>: tableau de bord du trafic web</li>
+            <strong>Visites uniques et Visites uniques au fil du temps</strong> : tableau de bord du trafic web</li>
           <li>
-            <strong>Forms du site et Forms du site dans le temps</strong>: tableau de bord du trafic web</li>
+            <strong>Forms du site et Forms du site dans le temps</strong> : tableau de bord du trafic web</li>
           <li>
             <strong>Offres dans le temps</strong>
-            <strong>: </strong>Obsolète (voir ci-dessous)</li>
+            <strong> : </strong>Obsolète (voir ci-dessous)</li>
           <li>
             <strong>Recettes du pipeline</strong>
-            <strong>: </strong>Obsolète (voir ci-dessous)</li>
+            <strong> : </strong>Obsolète (voir ci-dessous)</li>
           <li>
             <strong>Recettes du pipeline dans le temps</strong>
-            <strong>: </strong>Obsolète (voir ci-dessous)</li>
+            <strong> : </strong>Obsolète (voir ci-dessous)</li>
           <li>
             <strong>Pistes dans le temps</strong>
-            <strong>: </strong>Obsolète (voir ci-dessous)</li>
+            <strong> : </strong>Obsolète (voir ci-dessous)</li>
           <li>
             <strong>Contacts et contacts dans le temps</strong>
-            <strong>: </strong>Obsolète (voir ci-dessous)</li>
+            <strong> : </strong>Obsolète (voir ci-dessous)</li>
           <li>
             <strong>Opportunités dans le temps</strong>
-            <strong>: </strong>Obsolète (voir ci-dessous)</li>
+            <strong> : </strong>Obsolète (voir ci-dessous)</li>
         </ul>
       </td>
     </tr>
@@ -85,9 +85,9 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
       <td>
         <ul>
           <li>
-            <strong>Résumé du ROI du canal/sous-canal/campagne :</strong> Tableau de bord du retour sur investissement</li>
+            <strong>Tableau de bord du retour sur investissement sur le canal/sous-canal/campagne : </strong></li>
           <li>
-            <strong>Résumé du retour sur investissement des mots-clés et des créatifs :</strong>Obsolète (voir ci-dessous)</li>
+            <strong>Résumé du retour sur investissement des mots-clés et créatifs :</strong>obsolète (voir ci-dessous)</li>
         </ul>
       </td>
     </tr>
@@ -96,25 +96,25 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
       <td>
         <ul>
           <li>
-            <strong>Recettes</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+            <strong>Recettes</strong> : Recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
-            <strong>Pistes mises en correspondance</strong>: tableau de bord du retour sur investissement</li>
+            <strong>Pistes mises en correspondance</strong> : tableau de bord du retour sur investissement</li>
           <li>
             <strong>Nombre de points de contact :</strong>Tableau de bord du retour sur investissement</li>
           <li>
-            <strong>Comptes actifs :</strong>Tableau de bord des engagements</li>
+            <strong> Comptes actifs : </strong>Tableau de bord de l’engagement</li>
           <li>
-            <strong>Opportunités</strong>
-            <strong>:</strong>Tableau de bord des engagements</li>
+            <strong>Opportunités engagées</strong>
+            <strong> :</strong>Tableau de bord de l’engagement</li>
           <li>
-            <strong>Personnes engagées</strong>
-            <strong>:</strong>Tableau de bord des engagements</li>
+            <strong> Personnes engagées</strong>
+            <strong> :</strong>Tableau de bord de l’engagement</li>
           <li>
-            <strong>Nombre moyen de tactiles par compte : </strong>Tableau de bord des engagements</li>
+            <strong>Nombre moyen de tactiles par compte : </strong>Tableau de bord de l’engagement</li>
           <li>
-            <strong>Points de contact dans le temps :</strong>Tableau de bord des engagements</li>
+            <strong>Points de contact dans le temps :</strong>Tableau de bord de l’engagement</li>
           <li>
-            <strong>Comptes par nombre de points de contact : </strong>Tableau de bord des engagements</li>
+            <strong> Comptes par point de contact : </strong>Tableau de bord de l’engagement</li>
           <li>
             <strong>Recettes du pipeline :</strong>Obsolète (voir ci-dessous)</li>
         </ul>
@@ -125,13 +125,13 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
       <td>
         <ul>
           <li>
-            <strong>Recettes</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+            <strong>Recettes</strong> : Recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
-            <strong>Dépenser</strong>: tableau de bord du retour sur investissement</li>
+            <strong>Dépenser</strong> : tableau de bord du retour sur investissement</li>
           <li>
-            <strong>ROI : </strong>Tableau de bord du retour sur investissement</li>
+            <strong>ROI : </strong>Tableau de bord du ROI</li>
           <li>
-            <strong>Dépensé par canal/sous-canal/campagne : </strong>Tableau de bord du retour sur investissement</li>
+            <strong>Dépensé par canal/Subchannel/Campaign : </strong>Tableau de bord du retour sur investissement</li>
         </ul>
       </td>
     </tr>
@@ -140,13 +140,13 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
       <td>
         <ul>
           <li>
-            <strong>Visites uniques :</strong>Tableau de bord du trafic web</li>
+            <strong> Visites uniques : </strong>Tableau de bord du trafic web</li>
           <li>
             <strong>Visites :</strong>Tableau de bord du trafic web</li>
           <li>
-            <strong>Pages vues :</strong>Tableau de bord du trafic web</li>
+            <strong> Pages vues : </strong>Tableau de bord du trafic web</li>
           <li>
-            <strong>Forms du site :</strong>Tableau de bord du trafic web</li>
+            <strong>Site Forms :</strong>Tableau de bord du trafic web</li>
           <li>
             <strong>Aperçu :</strong>Tableau de bord du trafic web</li>
           <li>
@@ -154,9 +154,9 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
           <li>
             <strong>Résumé du référent :</strong>Tableau de bord du trafic web</li>
           <li>
-            <strong>Visites uniques par source :</strong>Tableau de bord du trafic web</li>
+            <strong> Visites uniques par Source : </strong>Tableau de bord du trafic web</li>
           <li>
-            <strong>Visites par source :</strong>Tableau de bord du trafic web</li>
+            <strong>Visites par Source :</strong>Tableau de bord du trafic web</li>
           <li>
             <strong>Pistes par URL de formulaire :</strong>Tableau de bord du trafic web</li>
           <li>
@@ -182,31 +182,31 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
       <td>
         <ul>
           <li>
-            <strong>Recettes</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+            <strong>Recettes</strong> : Recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
-            <strong>Présentation</strong>:<ul>
+            <strong>Aperçu</strong> :<ul>
               <li>Tableau de bord des recettes attribuées : recettes attribuées par canal et graphique dans le temps</li>
               <li>Tableau de bord du retour sur investissement : graphique coût sur temps</li>
             </ul>
           </li>
           <li>
-            <strong>Dépenser</strong>: tableau de bord du retour sur investissement</li>
+            <strong>Dépenser</strong> : tableau de bord du retour sur investissement</li>
           <li>
-            <strong>Offres</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+            <strong>Offres</strong> : recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
-            <strong>Coût par opération : </strong>Tableau de bord du retour sur investissement</li>
+            <strong>Coût par transaction : </strong>Tableau de bord du ROI</li>
           <li>
-            <strong>Synthèse des canaux/sous-canaux/campagnes :</strong>Tableau de bord du retour sur investissement</li>
+            <strong>Canal/Subchannel/Campaign Summary:</strong>Tableau de bord du ROI</li>
           <li>
             <strong>Recettes du pipeline :</strong>Obsolète (voir ci-dessous)</li>
           <li>
-            <strong>Taille moyenne des transactions : </strong>Obsolète (voir ci-dessous)</li>
+            <strong> Taille moyenne des transactions : </strong>Obsolète (voir ci-dessous)</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Média payé</td>
-      <td>Les utilisateurs peuvent appliquer des filtres aux canaux de médias payants dans la variable <strong>Tableau de bord du trafic web</strong>.</td>
+      <td>Les utilisateurs peuvent appliquer des filtres pour les canaux de médias payants dans le <strong>tableau de bord du trafic web</strong>.</td>
     </tr>
     <tr>
       <td>Marketing de contenu</td>
@@ -215,42 +215,42 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
           <li>
             <strong>Aperçu :</strong>Tableau de bord du trafic web</li>
           <li>
-            <strong>Forms du site :</strong>
-            <strong></strong>Tableau de bord du trafic web</li>
+            <strong>Site Forms:</strong>
+            <strong></strong> Tableau de bord du trafic web</li>
           <li>
-            <strong>Visites uniques :</strong>
-            <strong></strong>Tableau de bord du trafic web</li>
+            <strong> Visites uniques : </strong>
+            <strong></strong> Tableau de bord du trafic web</li>
           <li>
-            <strong>Pages d’entrée principales par visite unique :</strong>
-            <strong></strong>Tableau de bord du trafic web</li>
+            <strong> Principales pages d’entrée par visites uniques : </strong>
+            <strong></strong> Tableau de bord du trafic web</li>
           <li>
-            <strong>Pages d’entrée principales par visite :</strong>
-            <strong></strong>Tableau de bord du trafic web</li>
+            <strong> Principales pages d’entrée par visites : </strong>
+            <strong></strong> Tableau de bord du trafic web</li>
           <li>
             <strong>Pages d’entrée par nombre de pistes :</strong>
-            <strong></strong>Tableau de bord du trafic web</li>
+            <strong></strong> Tableau de bord du trafic web</li>
           <li>
-            <strong>Leads :</strong>
-            <strong></strong>Tableau de bord du trafic web</li>
+            <strong>Pistes :</strong>
+            <strong></strong> Tableau de bord du trafic web</li>
           <li>
-            <strong>Opportunités</strong>: Recettes affectées, présentation des recettes, tableaux de bord du retour sur investissement</li>
+            <strong>Opportunités</strong> : Recettes attribuées, présentation des recettes, tableaux de bord du retour sur investissement</li>
           <li>
             <strong>Résumé du trafic web :</strong>
-            <strong></strong>Tableau de bord du trafic web</li>
+            <strong></strong> Tableau de bord du trafic web</li>
           <li>
             <strong>URL de formulaire par canal</strong>
             <strong>:</strong>
-            <strong></strong>Tableau de bord du trafic web (filtrer la mosaïque Forms du site par canal)</li>
+            <strong></strong> Tableau de bord du trafic web (filtrer la mosaïque Forms du site par canal)</li>
           <li>
             <strong>Pages d’entrée par recettes : </strong>Obsolète (voir ci-dessous)</li>
           <li>
             <strong>Recettes du pipeline : </strong>Obsolète (voir ci-dessous)</li>
           <li>
-            <strong>Pages d’entrée par recettes de pipeline :</strong>Obsolète (voir ci-dessous)</li>
+            <strong> Pages d’entrée par chiffre d’affaires de pipeline : </strong>obsolète (voir ci-dessous)</li>
           <li>
             <strong>Pages d’entrée par nombre d’opportunités :</strong>Obsolète (voir ci-dessous)</li>
           <li>
-            <strong>Résumé du pipeline de piste : </strong>En révision</li>
+            <strong>Résumé du pipeline de pistes : </strong>En révision</li>
           <li>
             <strong>Résumé du pipeline d’opportunité : </strong>En révision</li>
         </ul>
@@ -267,36 +267,36 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
       <td>
         <ul>
           <li>
-            <strong>Velocity (jours) :</strong> Tableau de bord Velocity</li>
+            <strong>Vitesse (jours) :</strong> Tableau de bord Velocity</li>
           <li>
-            <strong>Vitesse de transaction par canal : </strong>Tableau de bord Velocity</li>
+            <strong>Traiter la vitesse par canal : </strong>Tableau de bord Velocity</li>
           <li>
             <strong>Vitesse de la piste par canal : </strong>Tableau de bord Velocity</li>
           <li>
-            <strong>Vitesse moyenne des transactions : </strong>Tableau de bord Velocity</li>
+            <strong>Vitesse moyenne de l'opération : </strong>Tableau de bord Velocity</li>
           <li>
             <strong>Vitesse moyenne de la piste : </strong>Tableau de bord Velocity</li>
           <li>
-            <strong>Vitesse des opportunités au fil du temps : </strong>Tableau de bord Velocity</li>
+            <strong>Vitesse de l’opportunité dans le temps : </strong>Tableau de bord Velocity</li>
           <li>
             <strong>Vitesse de la piste au fil du temps : </strong>Tableau de bord Velocity</li>
           <li>
-            <strong>BT/BAT au fil du temps :</strong>Tableau de bord des engagements</li>
+            <strong>BT/BAT Au fil du temps :</strong>Tableau de bord de l’engagement</li>
           <li>
             <strong>Opportunités ouvertes :</strong>
             <strong> </strong>Obsolète (voir ci-dessous)</li>
           <li>
-            <strong>Taille moyenne des transactions :</strong>
+            <strong> Taille moyenne des transactions : </strong>
             <strong></strong>Obsolète (voir ci-dessous)</li>
           <li>
-            <strong>Win Rate :</strong>
+            <strong>Taux de victoire :</strong>
             <strong> </strong>Obsolète (voir ci-dessous)</li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>Instantané</td>
-      <td>Les utilisateurs peuvent obtenir un instantané des enregistrements en filtrant une date spécifique dans la variable <strong>Tableau de bord des passeports.</strong>
+      <td>Les utilisateurs peuvent obtenir un instantané des enregistrements en filtrant pour une date spécifique dans le <strong>Tableau de bord des passeports.</strong>
       </td>
     </tr>
     <tr>
@@ -304,7 +304,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
       <td>
         <ul>
           <li>
-            <strong>Opportunités et pistes/contacts : </strong>Tableau de bord des passeports</li>
+            <strong> Opportunités &amp; pistes/contacts : </strong>Tableau de bord des passeports</li>
         </ul>
       </td>
     </tr>
@@ -319,9 +319,9 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
       <td>
         <ul>
           <li>
-            <strong>Entonnoir de cohortes :</strong>Tableau de bord des Parcours de cohortes</li>
+            <strong>Entonnoir de cohortes :</strong>Tableau de bord du Parcours de cohortes</li>
           <li>
-            <strong>Impact des cohortes et recettes :</strong>Obsolète (voir ci-dessous)</li>
+            <strong>Impact des cohortes et revenus : </strong>Obsolète (voir ci-dessous)</li>
         </ul>
       </td>
     </tr>
@@ -382,7 +382,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     <tr>
       <td>
         <p>
-          <strong>Opportunités ouvertes</strong>
+          <strong>Opportunités d’ouverture</strong>
           <strong>
             <br/>
           </strong>
@@ -392,7 +392,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     <tr>
       <td>
         <p>
-          <strong>Taux de Win</strong>
+          <strong>Taux de victoire</strong>
         </p>
       </td>
     </tr>
@@ -423,7 +423,7 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
     <tr>
       <td>
         <p>
-          <strong>Résumé du retour sur investissement des mots-clés et des créatifs</strong>
+          <strong>Résumé du retour sur investissement des mots-clés et créatifs</strong>
         </p>
       </td>
       <td>
@@ -488,15 +488,15 @@ Nous sommes ravis de vous présenter notre tableau de bord Discover redesign. No
 
 ## Fonctions mises en page {#features-weve-phased-out}
 
-**Filtrer les mises à jour**: pour simplifier votre expérience, nous avons ajusté nos sélections de filtres comme ci-dessous.
+**Mises à jour des filtres** : pour simplifier votre expérience, nous avons ajusté nos sélections de filtres comme ci-dessous.
 
-* **Type de date, Mesure, Dimension, Regrouper par**: ces paramètres sont désormais prédéfinis pour chaque tableau de bord afin d’optimiser la diffusion des informations. Les détails détaillés sont accessibles via les info-bulles et la documentation qui les accompagne.
-* **Source de campagne**
-* **ID et nom du compte**: en cours de révision.
+* **Type de date, Mesure, Dimension, Groupe par** : ces paramètres sont désormais prédéfinis pour chaque tableau de bord afin d’optimiser la diffusion des informations. Les détails détaillés sont accessibles via les info-bulles et la documentation qui les accompagne.
+* **Source Campaign**
+* **ID de compte et nom** : en cours de révision.
 
 ## Nouveaux ajouts et améliorations {#new-additions-and-improvements}
 
-Les nouvelles fonctionnalités se trouvent dans la section [Découvrir les bases d’un tableau de bord](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} article.
+De nouvelles fonctionnalités sont disponibles dans l’article [Notions de base du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"} .
 
 ## Retours {#feedback}
 
@@ -505,5 +505,5 @@ Alors que nous nous efforçons continuellement d’améliorer votre expérience,
 >[!MORELIKETHIS]
 >
 >* [Bases du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [Stratégie de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
 

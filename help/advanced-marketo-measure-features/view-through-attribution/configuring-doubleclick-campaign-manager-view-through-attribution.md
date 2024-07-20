@@ -21,13 +21,13 @@ ht-degree: 27%
 
 >[!NOTE]
 >
->Si vous utilisez la variable [!DNL Marketo Measure] et [!DNL DoubleClick Campaign Manager] intégration, une [Connexion API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) nous pouvons donc télécharger les détails des campagnes et des créatifs pour résoudre les publicités.
+>Si vous utilisez l’intégration [!DNL Marketo Measure] et [!DNL DoubleClick Campaign Manager], nous avons besoin d’une [connexion API](/help/api-connections/utilizing-marketo-measures-api-connections/integrated-ad-platforms.md#how-to-connect-ad-platforms) afin que nous puissions télécharger les détails des campagnes et des créatifs pour résoudre les publicités.
 
-Pour commencer à obtenir des informations plus granulaires à partir de la vue jusqu’au suivi avec [!DNL Doubleclick Campaign Manager], votre pixel de suivi doit être configuré.
+Pour commencer à obtenir des informations plus granulaires depuis la vue jusqu’au suivi avec [!DNL Doubleclick Campaign Manager], notre pixel de suivi doit être configuré.
 
-Pour plus d’informations sur la variable [!DNL Marketo Measure] Fonctionnalité d’attribution d’affichages publicitaires, voir [FAQ sur l’attribution d’affichages publicitaires Marketo Measure](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
+Pour plus d’informations sur la fonctionnalité [!DNL Marketo Measure] d’attribution d’affichages publicitaires, reportez-vous à la [FAQ sur l’attribution d’affichages publicitaires Marketo Measure](/help/advanced-marketo-measure-features/view-through-attribution/marketo-measure-view-through-attribution-faq.md).
 
-[!DNL Marketo Measure] est considérée comme une balise de rétrolien, car il s’agit d’un appel tiers via la balise publicitaire DCM. Les balises ping ne fonctionnent pas avec les balises d’image, mais uniquement avec les balises iframe ou javascript. Selon le support DCM, cela n&#39;a pas changé récemment et a toujours été le cas. Les balises standard ont été abandonnées le 2 octobre 2017, mais n’affectent pas la capacité de [!DNL Marketo Measure] pour suivre les impressions.
+[!DNL Marketo Measure] est considéré comme une balise piggyback, car il s’agit d’un appel tiers via la balise publicitaire DCM. Les balises ping ne fonctionnent pas avec les balises d’image, mais uniquement avec les balises iframe ou javascript. Selon le support DCM, cela n&#39;a pas changé récemment et a toujours été le cas. Les balises standard ont été abandonnées le 2 octobre 2017, mais n’affectent pas la capacité de [!DNL Marketo Measure] à suivre les impressions.
 
 Dans le cas où vous utilisez une hiérarchie Parent et Enfant dans DCM, notre balise doit être appliquée à tous les niveaux pour le suivi des impressions.
 
@@ -41,7 +41,7 @@ Ajoutez la balise dans Doubleclick sous le paramètre Advertiser et créez une b
 
 1. Une fois ajoutées, vérifiez que les délimiteurs sont mappés comme suit. Cette fonction doit être automatique une fois la balise appliquée :
 
-   v = %epuisque! [!DNL Expand] Identifiant du publicitaire\
+   v = %epuisque! [!DNL Expand] Id Annonceur\
    a = %eaid! Développer l’ID de publicité\
    c = %ecid! Développer L’Identifiant Créatif\
    s = %esid! Développer l’ID de site\
@@ -55,16 +55,16 @@ Ajoutez la balise dans Doubleclick sous le paramètre Advertiser et créez une b
 
 **Q : La balise d’image est-elle sécurisée ?**
 
-R : Oui. Il ne s’agit pas d’une balise JavaScript, mais d’une balise d’image.
+R : Oui. Il ne s’agit pas d’une balise JavaScript, mais d’une balise image.
 
 **Q : De quelles autorisations l’utilisateur connecté a-t-il besoin ?**
 
 A : trafic de données, reporting, userinfo.email
 
-**Q. : Combien de temps peut-on mettre pour importer des données de dépenses ?**
+**Q : Combien de temps faut-il pour importer des données de dépenses ?**
 
 A : Jusqu’à 6 heures
 
-**Q. : Combien de temps peut-il s’écouler avant l’importation des données publicitaires ?**
+**Q : Combien de temps faut-il pour importer des données de publicité ?**
 
 A : Jusqu’à 6 heures

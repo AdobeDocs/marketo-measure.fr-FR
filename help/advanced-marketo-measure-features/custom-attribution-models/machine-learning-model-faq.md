@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # Questions fréquentes sur le modèle de machine learning {#machine-learning-model-faq}
 
-La variable [!DNL Marketo Measure] Le modèle d’apprentissage automatique utilise vos données de point de contact pour calculer la quantité de pondération d’attribution à attribuer à chaque étape. Ceci est déterminé par l&#39;importance de chaque étape dans la conclusion des accords.
+Le modèle d’apprentissage automatique [!DNL Marketo Measure] utilise vos données de point de contact pour calculer la quantité de pondération d’attribution à attribuer à chaque étape. Ceci est déterminé par l&#39;importance de chaque étape dans la conclusion des accords.
 
 Que me disent les pourcentages d’attribution du modèle d’apprentissage automatique pour chaque étape ?
 
@@ -47,7 +47,7 @@ L’attribution d’un crédit d’attribution de 10 % aux écrans tactiles moye
 
 Quand dois-je modifier ma distribution d’attribution ?
 
-Contactez votre gestionnaire de compte pour discuter des implications de la modification des pourcentages d’attribution et des étapes à inclure dans votre modèle personnalisé. Chaque [!DNL Salesforce] et le processus de vente est unique. Nous voulons nous assurer que votre modèle personnalisé est correctement modélisé.
+Contactez votre gestionnaire de compte pour discuter des implications de la modification des pourcentages d’attribution et des étapes à inclure dans votre modèle personnalisé. Chaque [!DNL Salesforce] et processus de vente est unique et nous voulons nous assurer que votre modèle personnalisé est correctement modélisé.
 
 Cela dit, nous avons identifié certaines tendances générales chez nos clients :
 

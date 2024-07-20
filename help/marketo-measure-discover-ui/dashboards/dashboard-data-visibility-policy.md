@@ -1,11 +1,12 @@
 ---
-description: Politique de visibilité des données du tableau de bord - [!DNL Marketo Measure] - Produit
+description: Stratégie de visibilité des données du tableau de bord - [!DNL Marketo Measure]  - Produit
 title: Politique de visibilité des données du tableau de bord
 feature: Reporting
-source-git-commit: e24e01a03218252c06c9a776e0519afbddbe2b8c
+exl-id: 5f6f7173-617e-459d-992f-8a8b6c2db7cb
+source-git-commit: 2bfa2923119f8ece18ec68408f8098bfa6778ccf
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 11%
+source-wordcount: '239'
+ht-degree: 14%
 
 ---
 
@@ -30,7 +31,7 @@ Afin d’offrir une meilleure expérience dans nos tableaux de bord, nous avons 
     <td>Indéfiniment</td>
   </tr>
   <tr>
-    <td>Prospect</td>
+    <td>Lead</td>
     <td>Indéfiniment</td>
   </tr>
   <tr>
@@ -58,7 +59,7 @@ Afin d’offrir une meilleure expérience dans nos tableaux de bord, nous avons 
     <td>Indéfiniment </td>
   </tr>
   <tr>
-    <td>Membres de la campagne</td>
+    <td>Personnes membres de la campagne</td>
     <td>Les 5 dernières années, sur la base de la date de création des membres de la campagne</td>
   </tr>
   <tr>
@@ -78,7 +79,7 @@ Afin d’offrir une meilleure expérience dans nos tableaux de bord, nous avons 
     <td>5 dernières années, selon la date de l’événement</td>
   </tr>
   <tr>
-    <td>Aperçu pages</td>
+    <td>Aperçus de pages</td>
     <td>5 dernières années, selon la date de l’événement</td>
   </tr>
   <tr>

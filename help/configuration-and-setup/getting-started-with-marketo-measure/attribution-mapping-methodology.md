@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874716
-description: Méthodologie de mappage des attributs - [!DNL Marketo Measure]
+description: Méthodologie de mappage d’attribution - [!DNL Marketo Measure]
 title: Méthodologie de mappage pour les attributions
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
@@ -13,15 +13,15 @@ ht-degree: 1%
 
 # Méthodologie de mappage pour les attributions {#attribution-mapping-methodology}
 
-La méthodologie de mappage des attributs est le processus de recherche de certains objets dans votre gestion de la relation client (contacts, opportunités, comptes) pour créer des points de contact d’attribution dans l’opportunité associée. En d&#39;autres termes, c&#39;est le [!DNL Marketo Measure] une manière de comprendre les points de contact à inclure dans le modèle d’attribution en fonction des processus CRM actuels.
+La méthodologie de mappage des attributs est le processus de recherche de certains objets dans votre gestion de la relation client (contacts, opportunités, comptes) pour créer des points de contact d’attribution dans l’opportunité associée. En d’autres termes, il s’agit de la manière [!DNL Marketo Measure] de comprendre les points de contact à inclure dans le modèle d’attribution en fonction des processus de votre CRM actuel.
 
 ## Mappage des identifiants de compte {#account-id-mapping}
 
-Prêt à l’emploi, [!DNL Marketo Measure] fournit le mappage des ID de compte. Cela signifie que [!DNL Marketo Measure] examine les informations marketing du compte et de ses contacts pour créer des points de contact d’attribution associés à l’opportunité. Vous trouverez ci-dessous une représentation simple de ce processus.
+[!DNL Marketo Measure] fournit un mappage d’ID de compte prêt à l’emploi. Cela signifie que [!DNL Marketo Measure] examine les informations marketing du compte et de ses contacts pour créer des points de contact d’attribution associés à l’opportunité. Vous trouverez ci-dessous une représentation simple de ce processus.
 
 ![](assets/1-1.png)
 
-N’oubliez pas que **not all** les points de contact de vos contacts sont transférés vers l’opportunité en tant que points de contact d’attribution. La chronologie de l’opportunité (sa date de première touche - sa date de fermeture) détermine si un point de contact peut influencer l’opportunité. Par conséquent, si un point de contact sur le contact A s’est produit après la perte/la perte de l’opportunité fermée, [!DNL Marketo Measure] ne poussera pas ce point de contact vers l’opportunité. Cette procédure de chronologie est suivie dans tous les autres mappages d’objet d’attribution.
+Gardez à l’esprit que **tous les points de contact** de vos contacts ne sont pas transférés dans l’opportunité en tant que points de contact d’attribution. La chronologie de l’opportunité (sa date de première touche - sa date de fermeture) détermine si un point de contact peut influencer l’opportunité. Par conséquent, si un point de contact sur le contact A s’est produit une fois que l’opportunité a été fermée gagnée/perdue, [!DNL Marketo Measure] ne poussera pas ce point de contact vers l’opportunité. Cette procédure de chronologie est suivie dans tous les autres mappages d’objet d’attribution.
 
 Avantages : Cette méthode d’attribution est très efficace pour la plupart des entreprises. L’équipe marketing n’a pas besoin de compter sur l’équipe commerciale pour associer tous les contacts à une opportunité particulière (ce qui est souvent un problème). De plus, même si une équipe commerciale associe des rôles de contact, de nombreuses interactions de contact avec du matériel marketing peuvent être ignorées. Enfin, cette méthode aide la stratégie ABM qui s&#39;efforce d&#39;influencer la totalité d&#39;un compte, plutôt que des influenceurs spécifiques.
 
@@ -29,7 +29,7 @@ Inconvénients : S’il existe des contrats de niveau de service marketing et de
 
 ## Mappage des rôles de contact d’opportunité {#opportunity-contact-role-mapping}
 
-Bien que la plupart des clients utilisent le mappage Identifiant de compte, [!DNL Marketo Measure] Vous pouvez rechercher les rôles de contact (contacts associés à l’opportunité) dans une opportunité pour ventiler le processus d’attribution. Cela signifie que [!DNL Marketo Measure] poussera uniquement les interactions marketing associées aux rôles de contact sur l’opportunité en tant que points de contact d’attribution de l’achat. Vous trouverez ci-dessous une représentation de ce processus.
+Bien que la plupart des clients utilisent le mappage des ID de compte, [!DNL Marketo Measure] peut rechercher les rôles de contact (contacts associés à l’opportunité) dans une opportunité pour ventiler le processus d’attribution. Cela signifie que [!DNL Marketo Measure] poussera uniquement les interactions marketing associées aux rôles de contact sur l’opportunité en tant que points de contact d’attribution d’achat. Vous trouverez ci-dessous une représentation de ce processus.
 
 ![](assets/2-1.png)
 
@@ -39,7 +39,7 @@ Inconvénients : Cependant, si aucun processus de rôle de contact n’est en pl
 
 ## Mappage des rôles de contact de Principal d’opportunité {#opportunity-primary-contact-role-mapping}
 
-En plus de se contenter d&#39;examiner les rôles de contact sur l&#39;opportunité, [!DNL Marketo Measure] peut se concentrer encore plus sur les contacts de Principal sur une opportunité. Avec cette configuration à l’esprit, [!DNL Marketo Measure] attrape uniquement le point de contact marketing associé aux principaux contacts d’une opportunité et envoie ces informations dans l’histoire d’attribution de cette opportunité spécifique. Voir l’image ci-dessous.
+Au-delà de la simple consultation des rôles de contact sur l&#39;opportunité, [!DNL Marketo Measure] peut se concentrer encore plus pour ne consulter que les contacts de Principal sur une opportunité. Avec cette configuration en tête, [!DNL Marketo Measure] n’attrape que le point de contact marketing associé aux contacts principaux sur une opportunité et envoie ces informations dans l’histoire d’attribution de cette opportunité spécifique. Voir l’image ci-dessous.
 
 ![](assets/3.png)
 

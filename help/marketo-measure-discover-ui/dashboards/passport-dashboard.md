@@ -1,5 +1,5 @@
 ---
-description: Tableau de bord des passeports - [!DNL Marketo Measure] - Produit
+description: Tableau de bord des passeports - [!DNL Marketo Measure]  - Produit
 title: Tableau de bord Passeport
 feature: Reporting
 exl-id: 0fbd9714-7d9c-4330-b35f-d011e17c3bfe
@@ -14,11 +14,11 @@ ht-degree: 3%
 
 Le tableau de bord des passeports offre aux marketeurs une vue dynamique des pistes, des contacts et des opportunités lorsqu’ils passent par différentes étapes au cours d’une période donnée. En filtrant pour une date spécifique, les utilisateurs peuvent également obtenir un instantané des enregistrements pour cette journée.
 
-**Questions sur le panorama :**
+**Questions sur les réponses du panorama :**
 
 * Combien de pistes, de contacts ou d’opportunités existaient dans chaque étape non terminale un jour donné ?
 * Pendant une période donnée, combien de pistes ou de contacts distincts ont progressé au cours de chaque étape transitoire ?
-   * _Exemple_: si le prospect A était à l’étape 1 le 1/1/2023 et passait à l’étape 5 d’ici 3/31/2023, l’analyse des passeports du 1er trimestre 2023 compterait le prospect A aux étapes 1 à 5.
+   * _Exemple_ : si le prospect A était à l’étape 1 le 1/1/2023 et passait à l’étape 5 d’ici 3/31/2023, l’analyse du passeport du 1er trimestre 2023 comptabiliserait le prospect A aux étapes 1 à 5.
 * Combien d’opportunités uniques ont été transmises au cours de chaque étape transitoire au cours d’une période donnée ?
 
 ## Composants de tableau de bord {#dashboard-components}
@@ -54,4 +54,4 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 >[!MORELIKETHIS]
 >
 >* [Bases du tableau de bord Discover](/help/marketo-measure-discover-ui/dashboards/discover-dashboard-basics.md){target="_blank"}
->* [Politique de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}
+>* [Stratégie de visibilité des données du tableau de bord](/help/marketo-measure-discover-ui/dashboards/dashboard-data-visibility-policy.md){target="_blank"}

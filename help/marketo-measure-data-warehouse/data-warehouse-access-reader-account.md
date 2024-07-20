@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ## Lien d’accès Snowflake {#snowflake-access-link}
 
-Pour accéder à l’entrepôt de données de votre Snowflake, vous devez accéder à l’URL spécifique de votre compte de Snowflake. Vous pouvez trouver ce lien d’accès en vous connectant à [!DNL Marketo Measure] et suivez les étapes ci-dessous pour accéder à la page d’informations du Data Warehouse.
+Pour accéder à l’entrepôt de données de votre Snowflake, vous devez accéder à l’URL spécifique de votre compte de Snowflake. Vous pouvez trouver ce lien d’accès en vous connectant à [!DNL Marketo Measure] et en suivant les étapes ci-dessous pour accéder à la page d’informations du Data Warehouse.
 
 1. Dans [!DNL Marketo Measure], en haut de la page, cliquez sur **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]**.
 
@@ -30,9 +30,9 @@ Pour accéder à l’entrepôt de données de votre Snowflake, vous devez accéd
 
    >[!NOTE]
    >
-   >Il s’agit d’un compte en lecture seule disponible pour votre organisation, et pas seulement pour un utilisateur individuel. Tout utilisateur de votre entreprise qui a accès à [!DNL Marketo Measure] Vous pouvez utiliser ce compte pour vous connecter au compte de lecteur du Data Warehouse de Snowflake.
+   >Il s’agit d’un compte en lecture seule disponible pour votre organisation, et pas seulement pour un utilisateur individuel. Tout utilisateur de votre entreprise ayant accès à [!DNL Marketo Measure] peut utiliser ce compte pour se connecter au compte de lecteur du Data Warehouse de Snowflake.
 
-1. Cliquez sur le lien fourni dans l’URL du Snowflake. Vous accédez alors à la page de connexion du Snowflake dans laquelle vous saisissez votre nom d’utilisateur et votre mot de passe. _Si vous ne disposez pas de votre mot de passe, reportez-vous aux étapes ci-dessous pour le réinitialiser._.
+1. Cliquez sur le lien fourni dans l’URL du Snowflake. Vous accédez alors à la page de connexion du Snowflake dans laquelle vous saisissez votre nom d’utilisateur et votre mot de passe. _Si vous n&#39;avez pas votre mot de passe, reportez-vous aux étapes ci-dessous pour le réinitialiser_.
 
    ![](assets/data-warehouse-access-reader-account-4.png)
 
@@ -50,7 +50,7 @@ Pour accéder à l’entrepôt de données de votre Snowflake, vous devez accéd
 
 >[!NOTE]
 >
->* La réinitialisation du mot de passe le réinitialise pour tous. [!DNL Marketo Measure] des utilisateurs de votre entreprise, et pas seulement de l’utilisateur actuellement connecté.
+>* La réinitialisation du mot de passe le réinitialise pour tous les utilisateurs [!DNL Marketo Measure] de votre entreprise, et pas seulement pour l’utilisateur actuellement connecté.
 >* Le mot de passe temporaire s’affiche uniquement dans l’interface utilisateur. Un email ne sera pas envoyé.
 
 ![](assets/data-warehouse-access-reader-account-7.png)
@@ -69,10 +69,10 @@ Vous devez saisir quelques informations pour connecter votre entrepôt de donné
    * Il s’agit du nom de domaine du compte du Snowflake. Il est contenu dans une partie du lien de connexion du Snowflake.
 * **Nom d’utilisateur** (toujours requis)
    * Le nom d’utilisateur est répertorié sur la page d’informations du Data Warehouse dans [!DNL Marketo Measure].
-* **Password** (toujours requis)
+* **Mot de passe** (toujours requis)
    * Il s’agit du mot de passe que vous définissez la première fois que vous vous connectez à votre compte de Snowflake. Pour réinitialiser votre mot de passe, reportez-vous aux étapes décrites ci-dessus.
-* **Nom de base de données** (pas toujours requis)
-   * La base de données est ce qui stocke les données en Snowflake. Il s’agit de la ressource de stockage. Le nom de la base de données est répertorié dans la page d’informations du Data Warehouse de la section [!DNL Marketo Measure].
+* **Nom de la base de données** (pas toujours requis)
+   * La base de données est ce qui stocke les données en Snowflake. Il s’agit de la ressource de stockage. Le nom de la base de données est répertorié sur la page d’informations du Data Warehouse dans [!DNL Marketo Measure].
 * **Nom de l’entrepôt** (pas toujours requis)
    * L’entrepôt est celui qui exécute les requêtes en Snowflake. C&#39;est la ressource calculée. Le nom de l’entrepôt est répertorié sur la page d’informations du Data Warehouse dans [!DNL Marketo Measure].
 

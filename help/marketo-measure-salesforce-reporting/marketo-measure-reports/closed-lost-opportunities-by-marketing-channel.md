@@ -15,11 +15,11 @@ ht-degree: 4%
 
 Bien que ce rapport puisse dépendre de vos étapes d’opportunité, il vous indique quels canaux marketing ont contribué aux opportunités qui ne sont pas fermées ont été gagnés.
 
-1. Cliquez sur **[!UICONTROL Rapports]** dans Salesforce et sélectionnez **[!UICONTROL Nouveau rapport]**.
+1. Cliquez sur l’onglet **[!UICONTROL Rapports]** de Salesforce et sélectionnez **[!UICONTROL Nouveau rapport]**.
 
    ![](assets/1-3.jpg)
 
-1. Dans la recherche rapide, saisissez &quot;Attribution Bizible&quot; et sélectionnez l’option **[!UICONTROL Point de contact d’attribution bizible avec opportunité]** type de rapport, puis sélectionnez **[!UICONTROL Créer]**.
+1. Dans la recherche rapide, saisissez &quot;Attribution Bizible&quot; et sélectionnez le type de rapport **[!UICONTROL Point de contact d’attribution Bizible avec opportunité]** , puis sélectionnez **[!UICONTROL Créer]**.
 
    ![](assets/2-3.jpg)
 
@@ -47,4 +47,4 @@ Bien que ce rapport puisse dépendre de vos étapes d’opportunité, il vous in
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials : rapports SFDC supplémentaires](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutorials : Rapports SFDC supplémentaires](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

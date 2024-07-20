@@ -1,6 +1,6 @@
 ---
 unique-page-id: 18874720
-description: Incidence des outils de gestion des offres [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Comment les outils de gestion des offres affectent-ils [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Incidence des outils de gestion des offres sur [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
@@ -11,18 +11,18 @@ ht-degree: 1%
 
 ---
 
-# Incidence des outils de gestion des offres [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
+# Comment les outils de gestion des offres affectent [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
-Découvrez comment les plateformes de gestion des offres affectent les [!DNL Marketo Measure] la possibilité d’effectuer le suivi d’AdWords et de BingAds, ainsi que de configurer des modèles de suivi avec nos paramètres pour garantir un suivi correct de tout.
+Découvrez comment les plateformes de gestion des offres affectent la capacité [!DNL Marketo Measure] à effectuer le suivi d’AdWords et de BingAds, ainsi que comment configurer des modèles de suivi avec nos paramètres pour garantir un suivi correct de tout.
 
-Kenshoo et Marin sont de bons outils qui permettent aux marketeurs de suivre, gérer et optimiser leurs campagnes publicitaires avec différents moteurs de recherche. Pour [!DNL Marketo Measure] à ajouter à ces URL de publicité, vous devez configurer un modèle de suivi avec nos [!DNL Marketo Measure] paramètres. Il n’est pas possible de connecter vos plateformes publicitaires à vos [!DNL Marketo Measure] compte et activer le balisage automatique, car cela entraîne la création de la variable [!DNL Marketo Measure] système de balisage pour concurrencer le système de balisage de Kenshoo/Marin. Cela entraîne la modification et l’ajout incorrect de nos paramètres. Pour contourner ce problème, effectuez le suivi des modèles avec [!DNL Marketo Measure] doivent être configurés dans Kenshoo et Marin.
+Kenshoo et Marin sont de bons outils qui permettent aux marketeurs de suivre, gérer et optimiser leurs campagnes publicitaires avec différents moteurs de recherche. Pour que [!DNL Marketo Measure] paramètres soient ajoutés à ces URL de publicité, vous devez configurer un modèle de suivi avec nos paramètres [!DNL Marketo Measure]. Il n’est pas possible de connecter vos plateformes publicitaires à votre compte [!DNL Marketo Measure] et d’activer le balisage automatique, car cela entraîne la concurrence entre le système de balisage [!DNL Marketo Measure] et le système de balisage de Kenshoo/Marin. Cela entraîne la modification et l’ajout incorrect de nos paramètres. Pour contourner ce problème, les modèles de suivi avec des paramètres [!DNL Marketo Measure] doivent être configurés dans Kenshoo et Marin.
 
-## Pour [!DNL Adwords] Comptes {#for-adwords-accounts}
+## Pour les comptes [!DNL Adwords] {#for-adwords-accounts}
 
 Configurez un modèle de suivi comme suit :
 
-* Cliquez sur le bouton **[!UICONTROL Campagnes]** .
-* Cliquez sur le bouton **[!UICONTROL Bibliothèque partagée]** dans la barre de navigation latérale.
+* Cliquez sur l’onglet **[!UICONTROL Campagnes]** .
+* Cliquez sur le lien **[!UICONTROL Bibliothèque partagée]** dans la barre de navigation latérale.
 * Cliquez sur **Options d’URL**.
 * En regard de &quot;Modèle de suivi&quot;, cliquez sur **Modifier**.
 * Renseignez l’URL :
@@ -33,12 +33,12 @@ Configurez un modèle de suivi comme suit :
       * `{lpurl}?_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
 
 
-## Pour [!DNL Bing Ads] Comptes {#for-bing-ads-accounts}
+## Pour les comptes [!DNL Bing Ads] {#for-bing-ads-accounts}
 
 Configurez un modèle de suivi comme suit :
 
-* Cliquez sur le bouton **[!UICONTROL Campagnes]** .
-* Cliquez sur le bouton **[!UICONTROL Bibliothèque partagée]** dans la barre de navigation latérale.
+* Cliquez sur l’onglet **[!UICONTROL Campagnes]** .
+* Cliquez sur le lien **[!UICONTROL Bibliothèque partagée]** dans la barre de navigation latérale.
 * Cliquez sur **Options d’URL**.
 * En regard de &quot;Modèle de suivi&quot;, cliquez sur **Modifier**.
 * Renseignez l’URL :

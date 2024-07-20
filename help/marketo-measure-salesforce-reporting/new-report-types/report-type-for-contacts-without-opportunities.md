@@ -15,7 +15,7 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
+>Des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; peuvent s’afficher dans la documentation, mais toujours &quot;[!DNL Bizible]&quot; dans votre gestion de la relation client. Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
 
 Pour créer des rapports sur les contacts avec les points de contact d’acheteurs qui ne sont pas associés à une opportunité, vous devez créer un type de rapport personnalisé.
 
@@ -23,11 +23,11 @@ Pour créer des rapports sur les contacts avec les points de contact d’acheteu
 
    ![](assets/1.jpg)
 
-1. Sélectionner **[!UICONTROL Nouveau type de rapport personnalisé]**.
+1. Sélectionnez **[!UICONTROL Nouveau type de rapport personnalisé]**.
 
    ![](assets/2.jpg)
 
-1. Définissez la variable [!UICONTROL Objet Principal] as &quot;[!UICONTROL Contacts].&quot; Nommez le libellé de type de rapport &quot;Contacts avec les points de contact de l’acheteur&quot;. Utilisez le même nom pour le nom du type de rapport. Dans l’entrée de description, &quot;Contacts avec les points de contact de l’acheteur&quot;. Enregistrez le rapport dans le[!UICONTROL Autre]&quot; et définissez le rapport sur &quot;[!UICONTROL Déployé].&quot;
+1. Définissez l’ [!UICONTROL objet de Principal] sur &quot;[!UICONTROL Contacts]&quot;. Nommez le libellé de type de rapport &quot;Contacts avec les points de contact de l’acheteur&quot;. Utilisez le même nom pour le nom du type de rapport. Dans l’entrée de description, &quot;Contacts avec les points de contact de l’acheteur&quot;. Enregistrez le rapport dans &quot;[!UICONTROL Autre]&quot; et définissez le rapport sur &quot;[!UICONTROL Déployé]&quot;.
 
    ![](assets/3.jpg)
 
@@ -35,4 +35,4 @@ Pour créer des rapports sur les contacts avec les points de contact d’acheteu
 
    ![](assets/4.jpg)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** et vous avez fini !
+1. Cliquez sur **[!UICONTROL Enregistrer]** et vous avez terminé !

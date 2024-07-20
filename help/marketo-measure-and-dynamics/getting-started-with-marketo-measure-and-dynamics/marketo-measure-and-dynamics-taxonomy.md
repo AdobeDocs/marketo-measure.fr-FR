@@ -12,6 +12,6 @@ ht-degree: 12%
 
 # Taxonomie de [!DNL Marketo Measure] et de Dynamics {#marketo-measure-and-dynamics-taxonomy}
 
-Vous trouverez ci-dessous un diagramme de flux qui représente la manière dont la variable [!DNL Marketo Measure] Les objets personnalisés sont associés à des objets Dynamics Standard.<p>
+Vous trouverez ci-dessous un diagramme de flux qui représente la manière dont les [!DNL Marketo Measure] objets personnalisés sont associés aux objets Dynamics Standard.<p>
 
 ![](assets/bizible-and-dynamics-taxonomy-1.png)

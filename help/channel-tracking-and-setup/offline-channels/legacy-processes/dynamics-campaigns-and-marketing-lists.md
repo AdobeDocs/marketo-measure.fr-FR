@@ -7,7 +7,7 @@ feature: Microsoft Dynamics
 source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
 workflow-type: tm+mt
 source-wordcount: '818'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Cet article couvre un processus obsolète. Nous encourageons les utilisateurs à utiliser la variable [nouveau processus in-app amélioré](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
+>Cet article traite d’un processus obsolète. Nous encourageons les utilisateurs et les utilisatrices à utiliser le [nouveau processus in-app amélioré](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md){target="_blank"}.
 
 ## Campagnes {#campaigns}
 
@@ -29,7 +29,7 @@ Lorsque des Leads ou des contacts sont directement ajoutés à une campagne, ils
 
 ## Activation des points de contact {#enable-touchpoints}
 
-Pour inclure ces enregistrements dans le parcours du point de contact, il existe quelques options de synchronisation des types de réponses de campagne. Sur l’enregistrement Campaign, un champ personnalisé doit apparaître à partir de la solution installée, intitulé &quot;[!UICONTROL Activation des points de contact d’achat].&quot; Si vous ne voyez pas cela, le champ devra être ajouté via l’éditeur de formulaire.
+Pour inclure ces enregistrements dans le parcours du point de contact, il existe quelques options de synchronisation des types de réponses de campagne. Sur l’enregistrement de Campaign, un champ personnalisé doit apparaître dans la solution installée intitulée &quot;[!UICONTROL Activer les points de contact de l’acheteur]&quot;. Si vous ne voyez pas cela, le champ devra être ajouté via l’éditeur de formulaire.
 
 ![](assets/2.png)
 
@@ -47,11 +47,11 @@ En fonction de votre sélection, ces enregistrements sont désormais éligibles 
 
 L’une des raisons pour lesquelles une réponse de campagne n’apparaît pas est qu’une activité Première touche et/ou Contact de création de piste avait déjà été enregistrée pour le prospect/Contact et que la fonction &quot;PostLC&quot; est désactivée ou a atteint son nombre maximal de points de contact.
 
-## Date du Touchpoint {#touchpoint-date}
+## Date du point de contact {#touchpoint-date}
 
-La date du point de contact d’une campagne correspond généralement à la date à laquelle la réponse de la campagne a été ajoutée à la campagne. Il peut être remplacé si le champ personnalisé de la solution installée &quot;Date du point de contact de l’acheteur&quot; est renseigné. Si vous ne voyez pas cela, le champ devra être ajouté via l’éditeur de formulaire.
+La date du point de contact d’une campagne correspond généralement à la date à laquelle la réponse de la campagne a été ajoutée à la campagne. Il peut être remplacé si le champ personnalisé de la solution installée &quot;Buyer Touchpoint Date&quot; est renseigné. Si vous ne voyez pas cela, le champ devra être ajouté via l’éditeur de formulaire.
 
-Un exemple courant d’utilisation de ce champ concerne les événements où une liste d’analyses de badge d’un événement est ajoutée aux jours de la gestion de la relation client après que l’événement s’est produit, de sorte que l’utilisateur peut redéfinir la date du point de contact de l’acheteur sur le moment où l’événement s’est produit.
+Un exemple courant d’utilisation de ce champ concerne les événements où une liste d’analyses de badge d’un événement est ajoutée aux jours de la gestion de la relation client après que l’événement s’est produit, de sorte que l’utilisateur peut redéfinir la date Buyer Touchpoint sur le moment où l’événement s’est produit.
 
 ![](assets/5.png)
 
@@ -59,21 +59,21 @@ Un exemple courant d’utilisation de ce champ concerne les événements où une
 
 Les listes marketing sont une autre manière d’inclure des pistes ou des contacts dans un parcours marketing. Les listes marketing sont uniques pour un groupe de Leads ou de Contacts, ce qui signifie que l’utilisateur doit indiquer si sa liste est un ensemble de Leads ou un ensemble de Contacts.
 
-[!DNL Marketo Measure] ne prend en charge que les listes marketing statiques. Les listes de marketing dynamique ne sont pas prises en charge, car notre traitement requiert que nous vérifiions la date de modification d’un enregistrement. Cependant, comme une liste dynamique est fréquemment en train de changer, il n’existe aucune date de modification pour [!DNL Marketo Measure] à vérifier. Cela nécessiterait un téléchargement constant de l’ensemble de données tout au long de la journée.
+[!DNL Marketo Measure] ne prend en charge que les listes marketing statiques. Nous ne prenons pas en charge les listes de marketing dynamique, car notre traitement requiert que nous vérifiions la date de modification d’un enregistrement, mais comme une liste dynamique est fréquemment en train de changer, il n’y a pas de date de modification pour [!DNL Marketo Measure] à vérifier. Cela nécessiterait un téléchargement constant de l’ensemble de données tout au long de la journée.
 
 ![](assets/6.png)
 
-La capture d’écran ci-dessus est une liste marketing pour les pistes. Les listes marketing sont associées aux campagnes et peuvent être associées à plusieurs campagnes. , sauf si vous ne créez jamais qu&#39;une seule liste marketing pour une campagne, [!DNL Marketo Measure] ne recommande pas aux clients d’utiliser des listes marketing pour effectuer le suivi de leurs campagnes. Il est peu probable que la même liste exacte de pistes/contacts soit éligible aux points de contact pour plusieurs campagnes.
+La capture d’écran ci-dessus est une liste marketing pour les pistes. Les listes marketing sont associées aux campagnes et peuvent être associées à plusieurs campagnes. À moins que vous n’ayez jamais créé une seule liste marketing pour une campagne, [!DNL Marketo Measure] ne recommande pas aux clients d’utiliser des listes marketing pour effectuer le suivi de leurs campagnes. Il est peu probable que la même liste exacte de pistes/contacts soit éligible aux points de contact pour plusieurs campagnes.
 
 ## Activation des points de contact {#enable-touchpoints-1}
 
-Pour activer une liste marketing pour les points de contact, un paramètre distinct est appliqué à l’enregistrement Campaign intitulé &quot;&quot;.[!UICONTROL Listes marketing de synchronisation],&quot; qui est un simple commutateur &quot;oui/non&quot;. Si vous ne voyez pas cela, le champ devra être ajouté via l’éditeur de formulaire. Lors de l’enregistrement de campagne, vous pouvez voir quelles listes marketing sont liées à la campagne afin de connaître le nombre de listes que vous activez.
+Pour activer une liste marketing pour les points de contact, il existe un paramètre distinct sur l’enregistrement Campaign intitulé &quot;[!UICONTROL Synchroniser les listes marketing]&quot;, qui est un simple commutateur &quot;oui/non&quot;. Si vous ne voyez pas cela, le champ devra être ajouté via l’éditeur de formulaire. Lors de l’enregistrement de campagne, vous pouvez voir quelles listes marketing sont liées à la campagne afin de connaître le nombre de listes que vous activez.
 
 ![](assets/7.png)
 
-## Date du Touchpoint {#touchpoint-date-1}
+## Date du point de contact {#touchpoint-date-1}
 
-La date de point de contact d’une liste marketing est généralement la date de création du membre de liste, de sorte que la date à laquelle le prospect ou le contact a été ajouté à la liste marketing. Il peut être remplacé si le champ personnalisé de la solution installée &quot;Date du point de contact de l’acheteur&quot; est renseigné. Si vous ne voyez pas cela, le champ devra être ajouté via l’éditeur de formulaire.
+La date de point de contact d’une liste marketing est généralement la date de création du membre de liste, de sorte que la date à laquelle le prospect ou le contact a été ajouté à la liste marketing. Il peut être remplacé si le champ personnalisé de la solution installée &quot;Buyer Touchpoint Date&quot; est renseigné. Si vous ne voyez pas cela, le champ devra être ajouté via l’éditeur de formulaire.
 
 ![](assets/8.png)
 
@@ -81,7 +81,7 @@ La date de point de contact d’une liste marketing est généralement la date d
 
 Les campagnes Dynamics sont regroupées dans vos canaux marketing personnalisés à l’aide du champ Type de campagne . Elles peuvent être modifiées dans le menu Personnalisations de Dynamics.
 
-Les valeurs du menu Type de campagne sont extraites dans la variable [!DNL Marketo Measure] Application. **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Canaux hors ligne]**.
+Les valeurs du menu Type de campagne sont extraites dans l’application [!DNL Marketo Measure]. **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Canaux hors ligne]**.
 
 Pour chaque type de campagne, il peut être mappé à une combinaison Canal et Sous-canal afin que chaque point de contact qui dérive de la campagne ait le canal et le sous-canal mappés appropriés.
 

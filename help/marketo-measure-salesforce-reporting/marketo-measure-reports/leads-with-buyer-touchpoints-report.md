@@ -15,23 +15,23 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->Vous pouvez voir des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; dans la documentation, mais toujours voir &quot;[!DNL Bizible]&quot; dans votre CRM. Nous nous efforçons de mettre à jour cette version. Notre nouvelle identité (rebranding) sera bientôt répercutée dans votre CRM.
+>Des instructions spécifiant &quot;[!DNL Marketo Measure]&quot; peuvent s’afficher dans la documentation, mais toujours &quot;[!DNL Bizible]&quot; dans votre gestion de la relation client. Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
 
-De nombreuses fonctionnalités de reporting sont à portée de main lorsqu’il s’agit d’élaborer des rapports prêts à l’emploi. [!DNL Marketo Measure], mais il existe d’autres types de rapports que nous vous recommandons de créer. Découvrez le type de rapport Pistes avec points de contact d’achat ci-dessous.
+De nombreuses fonctionnalités de création de rapports sont à portée de main lorsqu’il s’agit de [!DNL Marketo Measure], mais nous vous recommandons de créer d’autres types de rapports. Découvrez le type de rapport Pistes avec points de contact d’achat ci-dessous.
 
-1. Accédez à l’option Configuration dans [!DNL Salesforce]. À partir de là, développez le regroupement &quot;Créer&quot; et sélectionnez **[!UICONTROL Types de rapports]**.
+1. Accédez à l’option Configuration dans [!DNL Salesforce]. À partir de là, développez le groupe &quot;Créer&quot; et sélectionnez **[!UICONTROL Types de rapports]**.
 
    ![](assets/1.jpg)
 
-1. Sélectionner **[!UICONTROL Nouveau type de rapport personnalisé]**.
+1. Sélectionnez **[!UICONTROL Nouveau type de rapport personnalisé]**.
 
    ![](assets/2.jpg)
 
-1. Définissez l’objet principal comme &quot;Pistes&quot; et dans l’entrée &quot;Étiquette de type de rapport&quot; &quot;Pistes avec points de contact d’achat - Inclus&quot;. Stockez le rapport dans la catégorie &quot;Leads&quot; et modifiez l’état du déploiement en **[!UICONTROL Déployé]**. Sélectionnez **[!UICONTROL Suivant]**.
+1. Définissez l’objet principal comme &quot;Pistes&quot; et dans l’entrée &quot;Étiquette de type de rapport&quot; &quot;Pistes avec points de contact d’achat - Inclus&quot;. Stockez le rapport dans la catégorie &quot;Leads&quot; et remplacez l’état du déploiement par **[!UICONTROL Deployed]**. Sélectionnez ensuite **[!UICONTROL Suivant]**.
 
    ![](assets/3.jpg)
 
-1. Pour les relations d’objet, sélectionnez l’événement **[!DNL Marketo Measure]Personnes** comme objet secondaire. Sélectionnez la relation A/B comme suit : &quot;Chaque enregistrement &quot;A&quot; doit comporter au moins un enregistrement &quot;B&quot; associé.&quot; A partir de là, vous associerez l’objet &quot;Point de contact de l’acheteur&quot; et sélectionnerez la même relation entre les objets B et C.
+1. Pour les relations d’objet, sélectionnez l’objet **[!DNL Marketo Measure]Personnes** comme objet secondaire. Sélectionnez la relation A/B comme suit : &quot;Chaque enregistrement &quot;A&quot; doit comporter au moins un enregistrement &quot;B&quot; associé.&quot; A partir de là, vous associerez l’objet &quot;Buyer Touchpoint&quot; et sélectionnerez la même relation entre les objets B et C.
 
    ![](assets/4.jpg)
 

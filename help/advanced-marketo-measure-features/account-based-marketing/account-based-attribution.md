@@ -13,11 +13,11 @@ ht-degree: 12%
 
 # Attribution basée sur le compte {#account-based-attribution}
 
-Avec l’émergence de Account-Based Marketing (ABM), il est important de comprendre comment [!DNL Marketo Measure] peut compléter votre stratégie ABM. [!DNL Marketo Measure] fait apparaître chaque point de contact pour chaque prospect et contact sous vos comptes.
+Avec l’augmentation de Account-Based Marketing (ABM), il est important de comprendre comment [!DNL Marketo Measure] peut compléter votre stratégie ABM. [!DNL Marketo Measure] fait apparaître chaque point de contact pour chaque prospect et contact sous vos comptes.
 
 ## Le [!UICONTROL Quoi] {#the-what}
 
-Lorsqu’il existe plusieurs opportunités sous un seul compte, les différentes opportunités partagent les deux premiers points de contact : Première touche (FT) et Création de piste (LC). Lors de la création de nouvelles opportunités, le montant de leurs recettes individuelles est affecté aux points de contact qui ont contribué à déplacer l’opportunité plus loin dans l’entonnoir. Il est important de noter que les points de contact qui sont liés à des opportunités sont considérés comme des points de contact d’attribution d’achat (BAT).
+Lorsqu’il existe plusieurs opportunités sous un seul compte, les différentes opportunités partagent les deux premiers points de contact : Première touche (FT) et Création de piste (LC). Lors de la création de nouvelles opportunités, le montant de leurs recettes individuelles est affecté aux points de contact qui ont contribué à déplacer l’opportunité plus loin dans l’entonnoir. Il est important de noter que les points de contact qui sont des opportunités liées sont considérés comme des points de contact d’attribution d’achat (BAT).
 
 Par exemple, le compte ci-dessous comporte deux opportunités. Pour la première opportunité, il n’a qu’un seul point de contact. Ce point de contact englobe les points de contact FT, LC et de création d’opportunité (Opportunity Creation, OC). La deuxième opportunité possède le même FT et LC que la première opportunité, mais le point de contact OC est différent. De plus, la deuxième opportunité comporte d’autres points de contact qui ne sont pas associés à la première opportunité, car ils surviennent après la date de clôture des premières opportunités.
 
@@ -25,6 +25,6 @@ Par exemple, le compte ci-dessous comporte deux opportunités. Pour la première
 
 ## En quoi cela peut être utile ? {#how-does-this-help}
 
-Depuis [!DNL Marketo Measure] qui s’affiche dans toutes les interactions marketing liées à vos comptes, les marketeurs ont une meilleure compréhension de ce que les comptes sont susceptibles de fermer, de la fréquence à laquelle ils ont interagi avec votre entreprise, de ces engagements, du montant des recettes de chaque engagement, etc.
+Puisque [!DNL Marketo Measure] fait la surface de toutes les interactions marketing liées à vos comptes, les marketeurs ont une meilleure compréhension de ce que les comptes sont susceptibles de fermer, de la fréquence à laquelle ils ont interagi avec votre entreprise, de ces engagements, du montant des recettes de chaque engagement, etc.
 
-Avec [!DNL Marketo Measure] Dans le cadre d’une approche ABM, les performances marketing reposent sur les recettes. Si vous envisagez de passer à une approche marketing basée sur les comptes, consultez la section [Guide du CMO pour ABM Orchestration](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf), qui vous guide tout au long des phases de planification, d’exécution et de mesure de l’orchestration ABM.
+Avec [!DNL Marketo Measure] et une approche ABM, les performances marketing reposent sur les recettes. Si vous envisagez de passer à une approche marketing basée sur les comptes, consultez le [Guide de CMO d’ABM Orchestration](https://engage.marketo.com/rs/460-TDH-945/images/BZ-CMOs-Guide-To-ABM-Orchestration-By-Bizible.pdf), qui vous guide tout au long des phases de planification, d’exécution et de mesure de l’orchestration ABM.

@@ -1,5 +1,5 @@
 ---
-description: Tableau de bord du trafic web - [!DNL Marketo Measure] - Produit
+description: Tableau de bord du trafic web - [!DNL Marketo Measure]  - Produit
 title: Tableau de bord Trafic web
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
@@ -37,7 +37,7 @@ Questions : Ce tableau de bord répond :
     <td>Nombre total de visiteurs uniques.</td>
   </tr>
   <tr>
-    <td>Aperçu pages</td>
+    <td>Aperçus de pages</td>
     <td>Nombre total d’affichages sur les pages du site web.</td>
   </tr>
   <tr>
@@ -77,7 +77,7 @@ Tableau affichant Pages vues, Visites, Visiteurs, Forms, Emails uniques provenan
 
 * Titre de la page
 * URL de la page
-* Aperçu pages
+* Aperçus de pages
 * Visites
 * Visiteurs uniques
 * Envois du formulaire
