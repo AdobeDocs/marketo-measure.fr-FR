@@ -5,9 +5,9 @@ title: Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Sal
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: 3b14e758e81f237406da4e0fe1682a02b7a841fd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1240'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,16 +33,16 @@ Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d�
 
 Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consomment davantage de crédits d’API de votre CRM. Il est conseillé de réduire la taille des lots uniquement en cas de temporisation du processeur ou d’une charge élevée de ce dernier dans votre CRM.
 
-## Autorisations des utilisateurs connectés à Salesforce {#salesforce-connected-user-permissions}
+## Autorisations des personnes connectées à Salesforce {#salesforce-connected-user-permissions}
 
-**Jeu d’autorisations d’administrateur Marketo Measure pour un utilisateur dédié** : permet à l’administrateur SFDC d’effectuer des opérations CRUD sur des objets Marketo Measure.
+**Jeu d’autorisations d’administration Marketo Measure pour une personne dédiée** : permet à l’administratation SFDC d’effectuer des opérations CRUD sur des objets Marketo Measure.
 
-**Afficher et modifier le jeu d’autorisations de pistes converties** : permet à Marketo Measure de décorer les pistes après leur conversion en contacts.
+**Afficher et modifier le jeu d’autorisations de leads convertis** : permet à Marketo Measure de décorer les leads après leur conversion en contacts.
 
-**Case à cocher des utilisateurs marketing Salesforce** : permet aux utilisateurs de créer des campagnes et d’utiliser les assistants d’importation de campagne.
-* Des autorisations supplémentaires pour Campaign &quot;Créer&quot; sont requises.
+**Case à cocher Utilisateur ou utilisatrice marketing** : permet de créer des campagnes, mais aussi d’utiliser les assistants d’import de campagne.
+* Des autorisations supplémentaires « Créer » pour Campaign sont requises.
 
-**Utilisateur Marketo Measure Standard** : permet à un utilisateur de lire les enregistrements des objets Marketo Measure.
+**Utilisateur ou utilisatrice Marketo Measure Standard** : permet de lire les enregistrements depuis les objets Marketo Measure.
 
 ## Objets standard et accès Salesforce {#salesforce-standard-objects-and-access}
 
