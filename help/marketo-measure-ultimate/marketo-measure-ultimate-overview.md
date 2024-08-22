@@ -3,10 +3,10 @@ description: « Vue d’ensemble de [!DNL Marketo Measure] Ultimate -  [!DNL Ma
 title: « Présentation de [!DNL Marketo Measure] Ultimate »
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 4787f765348da71bc149c997470ce678ba498772
+source-git-commit: 36688972c241f5a79c1730237598510cd44f032d
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 99%
 
 ---
 
@@ -111,4 +111,6 @@ Les services ML ABM [!DNL Marketo Measure] (mappage prospect>compte et score d�
 
 >[!MORELIKETHIS]
 >
->[Destination Marketo Measure Ultimate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=fr){target="_blank"}
+>* [Destination Marketo Measure Ultimate](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/adobe/marketo-measure-ultimate.html?lang=fr){target="_blank"}
+>
+>* [VIDÉO : présentation de Marketo Measure Ultimate](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/marketo-measure-ultimate/overview){target="_blank"}
