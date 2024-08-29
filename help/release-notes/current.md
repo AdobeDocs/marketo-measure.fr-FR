@@ -3,16 +3,47 @@ description: Notes de mise à jour actuelles -  [!DNL Marketo Measure]
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9f374537dd3690b5c904e2ac1933ff460dc66282
+source-git-commit: 9d1001306a3e98ca85af5839ad4ea3ff662d1886
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 67%
 
 ---
 
 # Notes de mise à jour : 2024 {#release-notes-2024}
 
 Vous trouverez ci-dessous toutes les nouvelles fonctionnalités ainsi que les fonctionnalités mises à jour pour nos versions de 2024.
+
+## Version du 4e trimestre {#q4-release}
+
+### Règles de segmentation améliorées
+
+Vous pouvez maintenant créer des segments à l’aide des champs Campaign et Campaign Member , en plus des champs Point de contact et Contact . Cette amélioration vous permet d’analyser et de disséquer vos données plus efficacement dans Discover.
+
+![Règles de segment pour les membres](assets/campaign-member.png)
+
+### Mise à jour : paramètre de gestion des erreurs pour les exportations CRM
+
+Nous avons écouté vos commentaires concernant l’approche de l’arrêt des tâches et nous proposons une nouvelle fonctionnalité dans l’interface utilisateur. À partir d’aujourd’hui, vous pouvez choisir si les tâches d’exportation doivent être suspendues en cas d’erreur. Utilisez le nouveau bouton d’activation/désactivation dans **Mon compte** > **Paramètres** → **CRM** → **Général**. Ce commutateur est activé par défaut pour améliorer l’intégrité et la visibilité des données. Cependant, si vous préférez ne pas utiliser cette fonction, vous pouvez la désactiver dans l’interface utilisateur et les tâches d’exportation reprendront. Cette mise à jour est conçue pour améliorer la fiabilité de vos processus de gestion des données tout en vous assurant un meilleur contrôle.
+
+#### Dates clés et déploiement par phases
+
+Disponibilité de basculement immédiat : le basculement est désormais actif dans l’interface utilisateur et est activé par défaut pour empêcher que les données ne soient ignorées lors des tâches d’exportation. Si vous préférez que les tâches d’exportation continuent de s’exécuter malgré des erreurs, désactivez le bouton bascule.
+
+Traitement en pause de l’activation le 1er octobre 2024 : à compter du 1er octobre 2024, si le bouton bascule est actif et qu’une erreur de niveau enregistrement est rencontrée lors d’une tâche d’exportation, la tâche s’interrompt pour s’assurer qu’aucune donnée n’est perdue. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes dans les workflows/déclencheurs. Vous recevrez des notifications concernant ce problème, et une fois corrigé, la tâche d’exportation reprendra à partir du point d’interruption. Si vous vous désabonnez de la mise en pause de la tâche, vous recevrez toujours des notifications de problèmes, et une fois qu’ils auront été corrigés, les enregistrements ignorés seront automatiquement réexportés.
+
+#### Pourquoi cela est important
+
+**Intégrité des données améliorée et futur de votre intégration :** En mettant la tâche en pause au premier signe d’un problème, nous empêchons la perte de données et assurons la précision. Cela permet une résolution rapide des erreurs, ce qui améliore la qualité de l’exportation des données et la fiabilité globale du système.
+
+**Visibilité immédiate :** Grâce aux notifications Push, vous recevrez des alertes opportunes pour les erreurs d’autorisation, ce qui vous permettra de répondre rapidement et de minimiser les impacts potentiels sur vos opérations.
+
+#### Support de votre transition
+
+Pour vous aider à vous adapter à cette modification, nous avons créé une documentation sur la nouvelle fonctionnalité et effacé les descriptions d’erreur avec des étapes de dépannage complètes.
+
+* NEW DOC : paramètre de gestion des erreurs pour les exportations CRM
+* [Notifications d’erreur](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Version du 3e trimestre {#q3-release}
 
