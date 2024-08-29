@@ -2,16 +2,22 @@
 description: Découvrez comment gérer les erreurs dans les exportations CRM
 title: Gestion des erreurs pour les exportations CRM
 feature: Salesforce
-source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
+source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # Gestion des erreurs pour les exportations CRM
 
-Le paramètre Mettre en pause lors de l’exportation des erreurs se trouve sous **Mon compte** > **Paramètres** > **CRM** > **Général**. Cette fonctionnalité n’est visible que si la fonction &quot;Exporter vers le CRM&quot; est activée. Il vous permet de contrôler si les tâches d’exportation CRM doivent être suspendues en cas d’erreur de niveau enregistrement.
+La fonction Mettre en pause lors de l’exportation des erreurs vous permet de contrôler si les tâches d’exportation CRM doivent être suspendues en cas d’erreur de niveau enregistrement.
+
+Le paramètre se trouve sous **Mon compte** > **Paramètres** > **CRM** > **Général**.
+
+>[!NOTE]
+>
+>Cette fonctionnalité n’est visible que si la fonction &quot;Exporter vers le CRM&quot; est activée.
 
 Lorsque cette fonction est activée, la tâche d’exportation cesse de progresser et reste dans l’enregistrement où l’erreur s’est produite, jusqu’à ce que le problème soit résolu. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes dans les workflows/déclencheurs. La tâche continue de s’exécuter comme prévu et tente automatiquement d’exporter l’enregistrement en échec jusqu’à ce qu’il soit réussi.
 

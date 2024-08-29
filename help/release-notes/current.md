@@ -3,7 +3,7 @@ description: Notes de mise à jour actuelles -  [!DNL Marketo Measure]
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9d1001306a3e98ca85af5839ad4ea3ff662d1886
+source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 67%
@@ -42,7 +42,7 @@ Traitement en pause de l’activation le 1er octobre 2024 : à compter du 1er oc
 
 Pour vous aider à vous adapter à cette modification, nous avons créé une documentation sur la nouvelle fonctionnalité et effacé les descriptions d’erreur avec des étapes de dépannage complètes.
 
-* NEW DOC : paramètre de gestion des erreurs pour les exportations CRM
+* Nouvelle documentation : [Paramètre de gestion des erreurs pour les exportations CRM](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [Notifications d’erreur](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
 
 ## Version du 3e trimestre {#q3-release}
