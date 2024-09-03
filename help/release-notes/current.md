@@ -6,7 +6,7 @@ feature: Release Notes
 source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 67%
+ht-degree: 99%
 
 ---
 
@@ -18,29 +18,29 @@ Vous trouverez ci-dessous toutes les nouvelles fonctionnalités ainsi que les fo
 
 ### Règles de segmentation améliorées
 
-Vous pouvez maintenant créer des segments à l’aide des champs Campaign et Campaign Member , en plus des champs Point de contact et Contact . Cette amélioration vous permet d’analyser et de disséquer vos données plus efficacement dans Discover.
+Vous pouvez maintenant créer des segments à l’aide des champs Campagne et Personne membre de la campagne, en plus des champs Point de contact et Contact. Cette amélioration vous permet d’analyser et de disséquer vos données plus efficacement dans Discover.
 
-![Règles de segment pour les membres](assets/campaign-member.png)
+![Règles de segmentation pour les membres](assets/campaign-member.png)
 
-### Mise à jour : paramètre de gestion des erreurs pour les exportations CRM
+### Mise à jour : paramètre de gestion des erreurs pour les exports CRM
 
-Nous avons écouté vos commentaires concernant l’approche de l’arrêt des tâches et nous proposons une nouvelle fonctionnalité dans l’interface utilisateur. À partir d’aujourd’hui, vous pouvez choisir si les tâches d’exportation doivent être suspendues en cas d’erreur. Utilisez le nouveau bouton d’activation/désactivation dans **Mon compte** > **Paramètres** → **CRM** → **Général**. Ce commutateur est activé par défaut pour améliorer l’intégrité et la visibilité des données. Cependant, si vous préférez ne pas utiliser cette fonction, vous pouvez la désactiver dans l’interface utilisateur et les tâches d’exportation reprendront. Cette mise à jour est conçue pour améliorer la fiabilité de vos processus de gestion des données tout en vous assurant un meilleur contrôle.
+Nous avons écouté vos commentaires concernant l’approche de l’arrêt des traitements et nous proposons une nouvelle fonctionnalité dans l’interface d’utilisation. À partir d’aujourd’hui, vous pouvez choisir si les traitements d’export doivent être suspendus en cas d’erreur. Utilisez le nouveau bouton (bascule) dans **Mon compte** > **Paramètres** → **CRM** → **Général**. Ce commutateur est activé par défaut pour améliorer l’intégrité et la visibilité des données. Cependant, si vous préférez ne pas utiliser cette fonction, vous pouvez la désactiver dans l’interface d’utilisation et les traitements d’export reprendront. Cette mise à jour est conçue pour améliorer la fiabilité de vos processus de gestion des données tout en vous assurant un meilleur contrôle.
 
 #### Dates clés et déploiement par phases
 
-Disponibilité de basculement immédiat : le basculement est désormais actif dans l’interface utilisateur et est activé par défaut pour empêcher que les données ne soient ignorées lors des tâches d’exportation. Si vous préférez que les tâches d’exportation continuent de s’exécuter malgré des erreurs, désactivez le bouton bascule.
+Disponibilité immédiate du bouton (bascule) : le bouton (bascule) est désormais actif dans l’interface d’utilisation et est activé par défaut pour empêcher que les données ne soient ignorées lors des traitements d’export. Si vous préférez que les traitements d’export continuent de s’exécuter malgré les erreurs, désactivez le bouton (bascule).
 
-Traitement en pause de l’activation le 1er octobre 2024 : à compter du 1er octobre 2024, si le bouton bascule est actif et qu’une erreur de niveau enregistrement est rencontrée lors d’une tâche d’exportation, la tâche s’interrompt pour s’assurer qu’aucune donnée n’est perdue. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes dans les workflows/déclencheurs. Vous recevrez des notifications concernant ce problème, et une fois corrigé, la tâche d’exportation reprendra à partir du point d’interruption. Si vous vous désabonnez de la mise en pause de la tâche, vous recevrez toujours des notifications de problèmes, et une fois qu’ils auront été corrigés, les enregistrements ignorés seront automatiquement réexportés.
+Activation des pauses de traitements le 1er octobre : à compter du 1er octobre 2024, si le bouton (bascule) est actif et qu’une erreur de niveau enregistrement est rencontrée lors d’un traitement d’export, le traitement s’interrompt pour assurer qu’aucune donnée n’est perdue. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes de workflows/déclencheurs. Vous recevrez des notifications concernant ce problème. Une fois corrigé, le traitement d’export reprendra à partir du point d’interruption. Si vous vous désabonnez d’une pause de traitement, vous recevrez toujours des notifications de problèmes. Une fois qu’ils auront été corrigés, les enregistrements ignorés seront automatiquement réexportés.
 
-#### Pourquoi cela est important
+#### Pourquoi c’est important.
 
-**Intégrité des données améliorée et futur de votre intégration :** En mettant la tâche en pause au premier signe d’un problème, nous empêchons la perte de données et assurons la précision. Cela permet une résolution rapide des erreurs, ce qui améliore la qualité de l’exportation des données et la fiabilité globale du système.
+**Amélioration de l’intégrité des données et anticipation des risques relatifs à votre intégration :** en arrêtant le traitement dès le premier signe de problème, nous évitons les pertes de données et garantissons leur exactitude. Cela permet une résolution rapide des erreurs, ce qui améliore la qualité de l’export des données et la fiabilité globale du système.
 
-**Visibilité immédiate :** Grâce aux notifications Push, vous recevrez des alertes opportunes pour les erreurs d’autorisation, ce qui vous permettra de répondre rapidement et de minimiser les impacts potentiels sur vos opérations.
+**Visibilité immédiate :** grâce aux notifications push, vous recevrez des alertes opportunes pour les erreurs d’autorisation, ce qui vous permettra de répondre rapidement et de minimiser les impacts potentiels sur vos opérations.
 
-#### Support de votre transition
+#### Pour vous aider à faire la transition
 
-Pour vous aider à vous adapter à cette modification, nous avons créé une documentation sur la nouvelle fonctionnalité et effacé les descriptions d’erreur avec des étapes de dépannage complètes.
+Pour vous aider à vous adapter à cette modification, nous avons créé une documentation sur la nouvelle fonctionnalité, avec des descriptions des erreurs claires et des étapes de résolution de problèmes exhaustives.
 
 * Nouvelle documentation : [Paramètre de gestion des erreurs pour les exportations CRM](/help/configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
 * [Notifications d’erreur](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md)
