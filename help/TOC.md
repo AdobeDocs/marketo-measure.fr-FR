@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: « Guide [!DNL Marketo Measure] »
 user-guide-description: « [!DNL Marketo Measure] permet aux professionnels du marketing de déterminer les efforts marketing les plus efficaces pour générer des recettes pour leur société. »
 source-git-commit: 8fa33a363b9e853dd074848032e1810b72fe169c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 99%
       + [Connexion de [!DNL Marketo Measure] avec Salesforce](configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
       + [Bonnes pratiques pour les packages CRM de [!DNL Marketo Measure] ](configuration-and-setup/marketo-measure-and-salesforce/best-practices-for-marketo-measure-crm-package.md)
       + [Objets Salesforce de [!DNL Marketo Measure]](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-objects.md)
-      + [Gestion des erreurs pour les exportations CRM](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
+      + [Gestion des erreurs pour les exports CRM](configuration-and-setup/marketo-measure-and-salesforce/crm-error-handling.md)
       + [Explication des interactions entre [!DNL Marketo Measure] et [!DNL Salesforce] ](configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md)
       + [Taxonomie des objets et des champs [!DNL Marketo Measure]](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-object-and-field-taxonomy.md)
       + [Champs [!DNL Marketo Measure] sur les objets [!DNL Salesforce] standard](configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-fields-on-standard-salesforce-objects.md)
