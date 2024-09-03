@@ -1,27 +1,31 @@
 ---
 description: Découvrez comment gérer les erreurs dans les exportations CRM
-title: Gestion des erreurs pour les exportations CRM
+title: Gestion des erreurs pour les exports CRM
 feature: Salesforce
-source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
+source-git-commit: ce5170330fb1d9f944762f401d29be4da5c0bd43
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 0%
+source-wordcount: '331'
+ht-degree: 8%
 
 ---
 
-# Gestion des erreurs pour les exportations CRM
+# Gestion des erreurs pour les exports CRM
 
 La fonction Mettre en pause lors de l’exportation des erreurs vous permet de contrôler si les tâches d’exportation CRM doivent être suspendues en cas d’erreur de niveau enregistrement.
 
 Le paramètre se trouve sous **Mon compte** > **Paramètres** > **CRM** > **Général**.
 
+![Suspendre les erreurs d’exportation](assets/stop-progress.png)
+
 >[!NOTE]
 >
 >Cette fonctionnalité n’est visible que si la fonction &quot;Exporter vers le CRM&quot; est activée.
 
-Lorsque cette fonction est activée, la tâche d’exportation cesse de progresser et reste dans l’enregistrement où l’erreur s’est produite, jusqu’à ce que le problème soit résolu. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes dans les workflows/déclencheurs. La tâche continue de s’exécuter comme prévu et tente automatiquement d’exporter l’enregistrement en échec jusqu’à ce qu’il soit réussi.
+Lorsque cette fonction est activée, la tâche d’exportation cesse de progresser et reste dans l’enregistrement où l’erreur s’est produite, jusqu’à ce que le problème soit résolu. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes de workflows/déclencheurs. La tâche continue de s’exécuter comme prévu et tente automatiquement d’exporter l’enregistrement en échec jusqu’à ce qu’il soit réussi.
 
 Si vous choisissez de désactiver cette fonction, une fenêtre contextuelle d’avertissement s’affiche, vous informant que cela peut entraîner des incohérences entre les données. Il vous appartiendra de résoudre tous les problèmes qui peuvent provenir de ces incohérences.
+
+![Avertissement d’incohérence de données](assets/data-inconsistency.png)
 
 Dans les deux cas, que la fonctionnalité soit activée ou désactivée, toutes les erreurs de niveau enregistrement rencontrées sont consignées dans la table `ExportErrors` et la tâche `CRMExport_ExportError` tentera automatiquement de réexporter ces enregistrements tous les jours. Cela évite d’avoir besoin d’une demande d’assistance pour lancer une réexportation, car cela se produit automatiquement sans intervention du développeur.
 
