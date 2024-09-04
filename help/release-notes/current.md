@@ -3,10 +3,10 @@ description: Notes de mise à jour actuelles -  [!DNL Marketo Measure]
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 24cb14c0f5db13c791966d21b4a1145b655ecc1b
+source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
 workflow-type: tm+mt
 source-wordcount: '1183'
-ht-degree: 99%
+ht-degree: 94%
 
 ---
 
@@ -28,15 +28,15 @@ Nous avons écouté vos commentaires concernant l’approche de l’arrêt des t
 
 #### Dates clés et déploiement par phases
 
-Disponibilité immédiate du bouton (bascule) : le bouton (bascule) est désormais actif dans l’interface d’utilisation et est activé par défaut pour empêcher que les données ne soient ignorées lors des traitements d’export. Si vous préférez que les traitements d’export continuent de s’exécuter malgré les erreurs, désactivez le bouton (bascule).
+1. **Disponibilité du basculement immédiat :** Le basculement est désormais actif dans l’interface utilisateur et est activé par défaut pour empêcher que les données ne soient ignorées lors des tâches d’exportation. Si vous préférez que les traitements d’export continuent de s’exécuter malgré les erreurs, désactivez le bouton (bascule).
 
-Activation des pauses de traitements le 1er octobre : à compter du 1er octobre 2024, si le bouton (bascule) est actif et qu’une erreur de niveau enregistrement est rencontrée lors d’un traitement d’export, le traitement s’interrompt pour assurer qu’aucune donnée n’est perdue. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes de workflows/déclencheurs. Vous recevrez des notifications concernant ce problème. Une fois corrigé, le traitement d’export reprendra à partir du point d’interruption. Si vous vous désabonnez d’une pause de traitement, vous recevrez toujours des notifications de problèmes. Une fois qu’ils auront été corrigés, les enregistrements ignorés seront automatiquement réexportés.
+1. **Traitement en pause de l’activation le 1er octobre :** À compter du 1er octobre 2024, si le bouton bascule est actif et qu’une erreur de niveau enregistrement est rencontrée lors d’une tâche d’exportation, la tâche s’interrompt pour s’assurer qu’aucune donnée n’est perdue. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes de workflows/déclencheurs. Vous recevrez des notifications concernant ce problème. Une fois corrigé, le traitement d’export reprendra à partir du point d’interruption. Si vous vous désabonnez d’une pause de traitement, vous recevrez toujours des notifications de problèmes. Une fois qu’ils auront été corrigés, les enregistrements ignorés seront automatiquement réexportés.
 
 #### Pourquoi c’est important.
 
-**Amélioration de l’intégrité des données et anticipation des risques relatifs à votre intégration :** en arrêtant le traitement dès le premier signe de problème, nous évitons les pertes de données et garantissons leur exactitude. Cela permet une résolution rapide des erreurs, ce qui améliore la qualité de l’export des données et la fiabilité globale du système.
+* **Amélioration de l’intégrité des données et anticipation des risques relatifs à votre intégration :** en arrêtant le traitement dès le premier signe de problème, nous évitons les pertes de données et garantissons leur exactitude. Cela permet une résolution rapide des erreurs, ce qui améliore la qualité de l’export des données et la fiabilité globale du système.
 
-**Visibilité immédiate :** grâce aux notifications push, vous recevrez des alertes opportunes pour les erreurs d’autorisation, ce qui vous permettra de répondre rapidement et de minimiser les impacts potentiels sur vos opérations.
+* **Visibilité immédiate :** grâce aux notifications push, vous recevrez des alertes opportunes pour les erreurs d’autorisation, ce qui vous permettra de répondre rapidement et de minimiser les impacts potentiels sur vos opérations.
 
 #### Pour vous aider à faire la transition
 
