@@ -4,9 +4,9 @@ title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
 source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1183'
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Nous avons écouté vos commentaires concernant l’approche de l’arrêt des t
 
 #### Dates clés et déploiement par phases
 
-1. **Disponibilité du basculement immédiat :** Le basculement est désormais actif dans l’interface utilisateur et est activé par défaut pour empêcher que les données ne soient ignorées lors des tâches d’exportation. Si vous préférez que les traitements d’export continuent de s’exécuter malgré les erreurs, désactivez le bouton (bascule).
+1. **Disponibilité immédiate du bouton (bascule) :** le bouton (bascule) est désormais actif dans l’IU et est activé par défaut pour empêcher que les données ne soient ignorées lors des traitements d’export. Si vous préférez que les traitements d’export continuent de s’exécuter malgré les erreurs, désactivez le bouton (bascule).
 
-1. **Traitement en pause de l’activation le 1er octobre :** À compter du 1er octobre 2024, si le bouton bascule est actif et qu’une erreur de niveau enregistrement est rencontrée lors d’une tâche d’exportation, la tâche s’interrompt pour s’assurer qu’aucune donnée n’est perdue. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes de workflows/déclencheurs. Vous recevrez des notifications concernant ce problème. Une fois corrigé, le traitement d’export reprendra à partir du point d’interruption. Si vous vous désabonnez d’une pause de traitement, vous recevrez toujours des notifications de problèmes. Une fois qu’ils auront été corrigés, les enregistrements ignorés seront automatiquement réexportés.
+1. **Activation des pauses de traitements le 1er octobre :** à compter du 1er octobre 2024, si le bouton (bascule) est actif et qu’une erreur de niveau enregistrement est rencontrée lors d’un traitement d’export, le traitement s’interrompt pour garantir qu’aucune donnée n’est perdue. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes de workflows/déclencheurs. Vous recevrez des notifications concernant ce problème. Une fois corrigé, le traitement d’export reprendra à partir du point d’interruption. Si vous vous désabonnez d’une pause de traitement, vous recevrez toujours des notifications de problèmes. Une fois qu’ils auront été corrigés, les enregistrements ignorés seront automatiquement réexportés.
 
 #### Pourquoi c’est important.
 
