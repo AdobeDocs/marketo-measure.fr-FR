@@ -1,19 +1,17 @@
 ---
 description: Découvrez le processus de migration lorsque vous passez de l’abonnement  [!DNL Marketo Measure]  à l’abonnement  [!DNL Marketo Measure] Ultimate.
-hide: true
-hidefromtoc: true
 title: Migration de Niveau vers  [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
-source-git-commit: 0c94276bec390bb67dafe5dd679c1a0378a05c85
+source-git-commit: 9c3c3c75a9a505bb078da18e13f210add8699c24
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '281'
 ht-degree: 1%
 
 ---
 
 # Migration de Niveau 1-2 vers [!DNL Marketo Measure] Ultimate {#migration-from-tier-to-marketo-measure-ultimate}
 
-Cet article décrit le processus de migration pour les utilisateurs qui passent de l’abonnement de niveau 1 ou 2 à Marketo Measure Ultimate.
+Cet article décrit le processus de migration pour les utilisateurs qui passent de l’abonnement de niveau 1 ou 2 à [!DNL Marketo Measure] Ultimate.
 
 >[!IMPORTANT]
 >
