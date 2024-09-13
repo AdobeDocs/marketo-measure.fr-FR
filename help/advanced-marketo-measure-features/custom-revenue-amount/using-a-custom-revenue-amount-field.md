@@ -4,9 +4,9 @@ description: Utilisation d’un champ Montant des recettes personnalisées - [!D
 title: Utilisation d’un champ de montant de recettes personnalisé
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: 3794aaa8460fe3e4d366b833c933d10beda7da96
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Par défaut, les points de contact d’attribution de l’acheteur extraient le montant de l’opportunité de l’un des deux champs suivants :
 
-* Montant (par défaut SFDC)
+* Montant (SFDC par défaut)
 * [!DNL Marketo Measure] Montant de l’opportunité (personnalisé)
 
 Si vous utilisez un champ Montant personnalisé pour vos opportunités, nous devrons configurer un workflow pour calculer les recettes Buyer Touchpoint. Cette opération nécessite des connaissances plus avancées de [!DNL Salesforce]. Elle peut donc nécessiter l’aide de votre administrateur SFDC.
@@ -28,7 +28,7 @@ A partir de là, nous allons commencer à créer le workflow.
 
 ## Création du workflow dans Salesforce Lightning {#create-the-workflow-in-salesforce-lightning}
 
-Les étapes suivantes sont destinées aux utilisateurs de Salesforce Lightning. Si vous utilisez encore Salesforce Classic, ces étapes [ sont répertoriées ci-dessous](#create-the-workflow-in-salesforce-classic).
+Les étapes suivantes sont destinées aux utilisateurs de Salesforce Lightning. Si vous utilisez toujours Salesforce Classic, ces étapes [ sont répertoriées ci-dessous](#create-the-workflow-in-salesforce-classic).
 
 1. Dans Configuration, saisissez &quot;Flux&quot; dans la zone de recherche rapide, puis sélectionnez **[!UICONTROL Flux]** pour lancer le créateur de flux. Dans le panneau de droite, cliquez sur le bouton **[!UICONTROL Nouveau flux]** .
 
@@ -62,7 +62,7 @@ Les étapes suivantes sont destinées aux utilisateurs de Salesforce Lightning. 
    * Saisissez un libellé. Le nom de l’API sera généré automatiquement.
    * Sous &quot;Comment trouver des enregistrements à mettre à jour et définir leurs valeurs&quot;, sélectionnez **[!UICONTROL Utiliser l’enregistrement d’opportunité qui a déclenché le flux]**.
    * Dans la section &quot;[!UICONTROL Définir les conditions de filtrage]&quot;, sélectionnez **[!UICONTROL Toujours mettre à jour l’enregistrement]** comme condition requise pour mettre à jour l’enregistrement.
-   * Dans &quot;[!UICONTROL Définir les valeurs de champ pour l’enregistrement de campagne]&quot;, dans le champ , sélectionnez le montant de l’opportunité Marketo Measure et la valeur . Sélectionnez ensuite le champ Montant personnalisé.
+   * Dans le champ &quot;[!UICONTROL Définir les valeurs de champ pour l’enregistrement de campagne]&quot;, sélectionnez le montant d’opportunité Marketo Measure (**bizible2__Bizible_Opportunity_Amount__c**) et la valeur. Sélectionnez ensuite le champ Montant personnalisé.
    * Cliquez sur **[!UICONTROL Terminé]**.
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
@@ -77,7 +77,7 @@ Les étapes suivantes sont destinées aux utilisateurs de Salesforce Lightning. 
 
 ## Création du workflow dans Salesforce Classic {#create-the-workflow-in-salesforce-classic}
 
-Les étapes suivantes sont destinées aux utilisateurs de Salesforce Classic. Si vous avez basculé vers Salesforce Lightning, ces étapes [ se trouvent au-dessus de ](#create-the-workflow-in-salesforce-lightning).
+Les étapes suivantes sont destinées aux utilisateurs de Salesforce Classic. Si vous avez basculé vers Salesforce Lightning, ces étapes [se trouvent au-dessus de](#create-the-workflow-in-salesforce-lightning).
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Créer]** > **[!UICONTROL Workflow et approbations]** > **[!UICONTROL Règles de workflow]**.
 
