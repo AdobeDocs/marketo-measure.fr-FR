@@ -4,9 +4,9 @@ description: Champs de point de contact - [!DNL Marketo Measure]
 title: Champs de point de contact
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 1a274c83814f4d729053bb36548ee544b973dff5
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ Historiquement, lorsque les clients sont embarqués avec [!DNL Marketo Measure] 
 
 >[!AVAILABILITY]
 >
->Disponible désormais avec la segmentation complète dans les niveaux 2 et 3.
+>Disponible avec la segmentation complète dans les abonnements de niveau 2.
 
 >[!NOTE]
 >

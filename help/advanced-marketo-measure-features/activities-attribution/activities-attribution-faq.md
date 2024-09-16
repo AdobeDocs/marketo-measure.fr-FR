@@ -4,9 +4,9 @@ description: FAQ sur l’attribution des activités - [!DNL Marketo Measure]
 title: Questions fréquentes sur l’attribution des activités
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
@@ -14,6 +14,10 @@ ht-degree: 2%
 # Questions fréquentes sur l’attribution des activités {#activities-attribution-faq}
 
 [!DNL Marketo Measure] Les activités importent tous vos enregistrements d’activité et génèrent des points de contact pour eux, ce qui permet à ces activités de recevoir un crédit d’attribution. Le cas d’utilisation le plus courant consiste à effectuer le suivi des activités de l’équipe de vente, dans la mesure où elles créent généralement un enregistrement des appels téléphoniques ou des emails envoyés aux prospects. Les interactions de contenu, telles que les téléchargements de ressources ou les affichages de vidéos, peuvent également faire l’objet d’un suivi unique.
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est activée uniquement pour les clients de niveau 2. Pour demander un niveau de compte supérieur, contactez l’équipe Compte d’Adobe (votre gestionnaire de compte).
 
 **En quoi cela diffère-t-il des campagnes hors ligne ?**
 

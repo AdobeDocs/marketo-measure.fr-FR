@@ -4,9 +4,9 @@ description: Configuration des étapes Boomerang - [!DNL Marketo Measure]
 title: Configuration d’étapes de boomerang
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: ea113b02b910fbc894311200aff83286636d4b32
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 >[!AVAILABILITY]
 >
->La fonction Boomerang n’est activée que pour les clients des niveaux 2 et 3. Pour demander un niveau de compte supérieur, contactez l’équipe Compte d’Adobe (votre gestionnaire de compte).
+>La fonction Boomerang n’est activée que pour les clients de niveau 2. Pour demander un niveau de compte supérieur, contactez l’équipe Compte d’Adobe (votre gestionnaire de compte).
 
 Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez être un administrateur de compte. Ou, il peut être activé en contactant le [support Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Une fois la fonction activée, suivez ces instructions pour la configurer.
 

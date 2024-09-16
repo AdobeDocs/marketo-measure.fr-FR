@@ -4,18 +4,22 @@ description: Attribution des activités Salesforce - [!DNL Marketo Measure]
 title: Attribution des activités Salesforce
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '617'
 ht-degree: 1%
 
 ---
 
 # Attribution des activités Salesforce {#salesforce-activities-attribution}
 
-L’intégration [!DNL Marketo Measure] des activités Salesforce ajoute des enregistrements de tâches et d’événements spécifiques à votre modèle d’attribution. Commencez à effectuer le suivi d’éléments tels que les e-mails de vente ou les appels téléphoniques de vente qui n’étaient pas crédités. Pour configurer la règle de vos activités, accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. À partir de là, accédez à l’onglet **[!UICONTROL Paramètres]** et cliquez sur l’onglet **[!UICONTROL Activités]**.
+L’intégration des activités Salesforce [!DNL Marketo Measure] intègre des enregistrements de tâches et d’événements spécifiques à votre modèle d’attribution. Commencez à effectuer le suivi d’éléments tels que les e-mails de vente ou les appels téléphoniques de vente qui n’étaient pas crédités. Pour configurer la règle de vos activités, accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. À partir de là, accédez à l’onglet **[!UICONTROL Paramètres]** et cliquez sur l’onglet **[!UICONTROL Activités]**.
 
 ![](assets/1.png)
+
+>[!AVAILABILITY]
+>
+>Cette fonctionnalité est activée uniquement pour les clients de niveau 2. Pour demander un niveau de compte supérieur, contactez l’équipe Compte d’Adobe (votre gestionnaire de compte).
 
 Pour commencer, nous introduisons un nouveau concept appelé campagne [!DNL Marketo Measure]. Pour chaque règle que vous définissez, vous allez regrouper les enregistrements dans une campagne [!DNL Marketo Measure] que vous pouvez nommer. Ajoutez plusieurs campagnes selon vos besoins. Imaginez mesurer l’efficacité d’une campagne de ventes sortantes à côté d’une campagne de médias payants !
 
@@ -74,10 +78,10 @@ se termine par ( &#42;Sortant )
 >
 Aucun caractère générique ne signifie en fait &quot;est égal à&quot;. Veillez donc à les utiliser selon vos besoins.
 
-| **Opérateur** | **Cas d’utilisation** |
+| **Opérateur** | **Exemple d’utilisation** |
 |---|---|
 | Est égal à | Valeur unique : correspondance exacte |
-| contient | Valeur unique : contient la valeur |
+| Contient | Valeur unique : contient la valeur |
 | Correspond à n’importe quel | Plusieurs valeurs - Correspondance exacte |
 | Correspond à n’importe quel (contient) | Plusieurs valeurs - &#42;value&#42;, &#42;value, &#42;value&#42; |
 
