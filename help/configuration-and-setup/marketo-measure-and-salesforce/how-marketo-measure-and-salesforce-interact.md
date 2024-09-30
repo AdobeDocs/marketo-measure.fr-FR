@@ -5,9 +5,9 @@ title: Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Sal
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
 source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -41,9 +41,9 @@ Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lot
 
 **Case à cocher Utilisateur ou utilisatrice marketing** : permet de créer des campagnes, mais aussi d’utiliser les assistants d’import de campagne.
 
-* Nous avons besoin d&#39;autorisations supplémentaires pour Campaign &quot;Créer&quot; et &quot;Mettre à jour&quot; dans vos CRM.
+* Nous avons besoin d’autorisations supplémentaires pour « Créer » et « Mettre à jour » pour Campaign dans vos CRM.
 
-* Lorsqu’un point de contact est créé à partir d’une activité web, nous devons le lier à une campagne. Comme les activités web n&#39;ont pas de campagnes CRM correspondantes, nous devons en créer une pour établir ce lien. Cela s’applique aux points de contact de prospect et d’opportunité. L’autorisation de mise à jour est requise, car l’appel que nous utilisons est &quot;upsert&quot;. Si l’enregistrement existe, nous le mettons à jour. Dans le cas contraire, nous le créons. Cela s’applique uniquement aux campagnes que nous créons.
+* Lorsqu’un point de contact est créé à partir d’une activité web, nous devons le lier à une campagne. Comme les activités Web n’ont pas de campagnes CRM correspondantes, nous devons en créer une pour établir ce lien. Cela s’applique aux points de contact de lead et d’opportunité. L’autorisation de mise à jour est requise, car l’appel que nous utilisons est « upsert ». Si l’enregistrement existe, nous le mettons à jour. Dans le cas contraire, nous le créons. Cela s’applique uniquement aux campagnes que nous créons.
 
 **Utilisateur ou utilisatrice Marketo Measure Standard** : permet de lire les enregistrements depuis les objets Marketo Measure.
 
