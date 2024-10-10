@@ -4,9 +4,9 @@ description: Champs de point de contact - [!DNL Marketo Measure]
 title: Champs de point de contact
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: e5931d783d8aad9ab0b32b4e30bbbfdfd46230dd
+source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1960'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Dans le menu [!DNL Marketo Measure] Paramètres, accédez à la page Champs de p
 
 Pour créer un champ calculé, n’oubliez pas que l’utilisateur peut effectuer trois actions différentes : extraire, mapper et concaténer. Ils sont également appelés opérateurs pour définir un champ calculé.
 
-Extractions
+### Extractions {#extracts}
 
-L’opérateur [!UICONTROL  extrait la valeur d’un champ d’un autre emplacement, tel que : un champ de campagne, un champ de piste ou, dans un cas d’utilisation plus avancé, [ extrait des paramètres personnalisés de la page d’entrée ](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"}. ] Il le place ensuite sur un champ de point de contact (voir [Mappages vers l’exemple](https://docs.google.com/document/d/1NRViyCsXvPKbCTfGW32Yi2vWBjMDRF7bzkzKj9s2DDA/edit?ts=5e20b482#heading=h.xxwtissvw4){target="_blank"} #2).
+L’opérateur [!UICONTROL extrait] extrait la valeur d’un champ à partir d’un autre emplacement, tel que : un champ Campagne, un champ de piste ou, dans un cas d’utilisation plus avancé, extraire des paramètres personnalisés de la page d’entrée. Il le place ensuite sur un champ de point de contact.
 
 **Exemple #1**
 
@@ -121,7 +121,7 @@ Essayons un exemple similaire où nous extrayons un code de suivi tel que : `htt
 
 ![](assets/five.png)
 
-**Maps to**
+### Mappages sur {#maps-to}
 
 L’opérateur [!UICONTROL mappe vers] crée un tableau des valeurs qui doivent être traduites ou regroupées dans une autre valeur. En règle générale, cela prend la forme d’une valeur clé où un code représente un nom convivial et doit être associé à ce nom convivial.
 
@@ -169,7 +169,7 @@ Maintenant que nous avons appris à extraire et à mapper les champs, combinons 
 
 ![](assets/seven.png)
 
-**Concatenates**
+### Concaténes {#concatenates}
 
 L’opérateur [!UICONTROL concatenates] combine en un seul champ les valeurs de plusieurs champs. Cela s’avère utile pour créer une valeur personnalisée qui extrait des données dans différents champs afin de
 
