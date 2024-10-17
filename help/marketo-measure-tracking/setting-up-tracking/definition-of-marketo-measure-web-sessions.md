@@ -4,10 +4,10 @@ description: Définition des sessions web  [!DNL Marketo Measure]  -  [!DNL Mark
 title: Définition des sessions web  [!DNL Marketo Measure]
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 100%
+source-wordcount: '811'
+ht-degree: 65%
 
 ---
 
@@ -30,13 +30,29 @@ Il existe plusieurs éléments qui déterminent le moment où une session se ter
 
 ## Expiration basée sur le temps {#time-based-expiration}
 
+### Comportement hérité {#legacy-behavior}
+
 **Combien de temps dure une session ?**
 
-Les sessions [!DNL Marketo Measure] se terminent après 30 minutes d’inactivité sur le site Web. Par exemple :
+Les sessions [!UICONTROL Marketo Measure] se termineront après 30 minutes d’inactivité sur le site web. Par exemple :
 
-Lorsque Haley visite adobe.com/fr, une session commence. Elle explore le site pendant quelques minutes puis s’éloigne de son ordinateur, mais laisse le site ouvert. Après 30 minutes d’inactivité, la session se termine.
+Lorsque Haley visite adobe.com/fr, une session commence. Elle explore le site pendant quelques minutes puis s’éloigne de son ordinateur, mais laisse le site ouvert. Après 30 minutes d’inactivité, la session se termine.
 
-Actuellement, [!DNL Marketo Measure] considère comme « activité » uniquement la navigation au sein des pages et les envois de formulaire. Le fait de faire défiler la page web ou de survoler un élément n’est pas considéré comme une activité. Ainsi, si Haley se rend sur adobe.com/fr pour lire un article de blog et qu’il lui faut une heure pour le lire, sa session web se terminera malgré tout après 30 minutes, même si elle fait défiler le contenu de la page.
+Actuellement, [!UICONTROL Marketo Measure] considère uniquement la navigation sur les pages et les envois de formulaire comme une activité. Le fait de faire défiler la page web ou de survoler un élément n’est pas considéré comme une activité. Ainsi, si Haley se rend sur adobe.com/fr pour lire un article de blog et qu’il lui faut une heure pour le lire, sa session web se terminera malgré tout après 30 minutes, même si elle fait défiler le contenu de la page.
+
+### Nouveau comportement {#new-behavior}
+
+Pour les nouveaux utilisateurs, il s’agit du comportement par défaut.
+
+Les utilisateurs existants peuvent adopter le nouveau comportement en activant le bouton d’activation sous **Paramètres** > **Attribution tactile** > **Canal de session**. Une fois activé, ce paramètre ne peut pas être inversé.
+
+Lorsqu’une nouvelle session est créée après 30 minutes d’inactivité, le canal de la session précédente est transféré si la nouvelle session commence dans les sept jours. Ce basculement s’applique uniquement aux visites directes (aucun référent ou référent interne). Si l’inactivité dépasse sept jours, le canal de la nouvelle session est Direct/Autre par défaut. Par exemple, si Haley visite landingpage.com depuis Google, est inactif pendant plus de 30 minutes et revient dans les sept jours, la nouvelle session conserve le canal Google. Cependant, si le même utilisateur consulte à nouveau la page via un autre canal, le canal non direct ne sera pas remplacé par le canal Google précédent.
+
+Seul le canal sera rechargé, à l’exclusion des détails de campagne ou de référent. En effet, la classification des canaux est gérée par Marketo Measure, tandis que d’autres points de données sont collectés séparément.
+
+**Connexion à Social**
+
+Lorsqu’un visiteur utilise la connexion sociale via Google, Microsoft ou Apple, la session est fusionnée en une session continue. Par exemple, si un visiteur arrive sur une page à partir de LinkedIn, qu’il se connecte à un réseau social Google et qu’il atteint une page de remerciement, tous ces événements sont considérés comme une session unique. Si le basculement du canal de session n’est pas activé, la connexion sociale crée des sessions distinctes en raison du référent externe.
 
 ## Expiration basée sur les canaux {#channel-based-expiration}
 

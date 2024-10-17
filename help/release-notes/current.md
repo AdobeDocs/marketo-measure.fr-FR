@@ -3,10 +3,10 @@ description: Notes de mise à jour actuelles -  [!DNL Marketo Measure]
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: c576d2b125ac1699486e60240729a7f4d8908272
-workflow-type: ht
-source-wordcount: '1183'
-ht-degree: 100%
+source-git-commit: 9a5e267b4b268d067fbbe89a00a4da96752a44db
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 86%
 
 ---
 
@@ -15,6 +15,22 @@ ht-degree: 100%
 Vous trouverez ci-dessous toutes les nouvelles fonctionnalités ainsi que les fonctionnalités mises à jour pour nos versions de 2024.
 
 ## Version du 4e trimestre {#q4-release}
+
+### Nouveau comportement de basculement de canal de session
+
+Le canal de la session précédente est désormais reconduit si une nouvelle session commence dans les sept jours suivant 30 minutes d’inactivité, en s’appliquant uniquement aux visites directes (aucun référent ou référent interne). Après sept jours d’inactivité, la session est définie par défaut sur Direct/Autre. Les canaux non directs ne seront pas remplacés par les données de session précédentes.
+
+En outre, les sessions qui utilisent la connexion sociale (Google, Microsoft ou Apple) sont désormais fusionnées en une session continue, ce qui garantit une expérience plus fluide. Sans ce bouton de basculement, les connexions sociales peuvent créer des sessions distinctes en raison de différences de référents externes.
+
+Pour les nouveaux clients, le basculement du canal de session est désormais le comportement par défaut. Les clients existants peuvent activer cette fonction en activant le bouton bascule Canal de session sous Paramètres → Attribution tactile. Une fois activé, ce paramètre ne peut pas être annulé.
+
+Documentation : [Définition des sessions web Marketo Measure](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-tracking/setting-up-tracking/definition-of-marketo-measure-web-sessions){target="_blank"}
+
+### Tableau de bord Retour sur investissement du mot-clé
+
+Le nouveau tableau de bord ROI des mots-clés offre des informations détaillées sur les performances des campagnes de recherche payante, en fournissant une vue d’ensemble des coûts au niveau des mots-clés, des recettes attribuées et des pistes et opportunités générées. Ce tableau de bord vous aide à évaluer le retour sur investissement de chaque mot-clé dans les mots-clés Google Ad, LinkedIn, Bing Ads, etc.
+
+Documentation : [Tableau de bord du ROI des mots-clés](https://experienceleague.adobe.com/en/docs/marketo-measure/using/marketo-measure-discover-ui/dashboards/keyword-roi-dashboard){target="_blank"}
 
 ### Règles de segmentation améliorées
 
