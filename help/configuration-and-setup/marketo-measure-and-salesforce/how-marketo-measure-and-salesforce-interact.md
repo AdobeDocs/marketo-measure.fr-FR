@@ -4,9 +4,9 @@ description: Explication des interactions entre  [!DNL Marketo Measure]  et  [!D
 title: Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: dec80278958e51c1f0449173d45fe74425fb047e
-workflow-type: ht
-source-wordcount: '1317'
+source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+workflow-type: tm+mt
+source-wordcount: '1284'
 ht-degree: 100%
 
 ---
@@ -188,49 +188,6 @@ Cette section répertorie les objets standard [!DNL Salesforce] avec lesquels [!
    <td>x</td> 
    <td> </td> 
   </tr>
- </tbody> 
-</table>
-
-**Dossier**
-
-<table> 
- <tbody> 
-  <tr> 
-   <th>Champs</th> 
-   <th>Standard/Personnalisé</th> 
-   <th>Lecture</th> 
-   <th>Écriture</th> 
-  </tr> 
-  <tr> 
-   <td>ID</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CreatedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>SuppliedEmail</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td>
-  </tr> 
  </tbody> 
 </table>
 
@@ -466,30 +423,6 @@ Cette section répertorie les objets standard [!DNL Salesforce] avec lesquels [!
   </tr> 
   <tr> 
    <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedContactId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedOpportunityId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsConverted</td> 
    <td>Standard</td> 
    <td>x</td> 
    <td> </td> 
