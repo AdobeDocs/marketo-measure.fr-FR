@@ -1,17 +1,18 @@
 ---
-description: "[!DNL Marketo Measure] et taxonomie Dynamics - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] et taxonomie Dynamics"
+description: '[!DNL Marketo Measure] et taxonomie Dynamics - [!DNL Marketo Measure]'
+title: Taxonomie de [!DNL Marketo Measure] et de Dynamics
 exl-id: 5d211710-3937-4d86-a570-8115e62b934f
 feature: Microsoft Dynamics
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: d9a99935776bdcd53de7eda06d10fd5a7436968d
 workflow-type: tm+mt
 source-wordcount: '25'
-ht-degree: 12%
+ht-degree: 24%
 
 ---
 
 # Taxonomie de [!DNL Marketo Measure] et de Dynamics {#marketo-measure-and-dynamics-taxonomy}
 
-Vous trouverez ci-dessous un diagramme de flux qui représente la manière dont les [!DNL Marketo Measure] objets personnalisés sont associés aux objets Dynamics Standard.<p>
+Vous trouverez ci-dessous un diagramme de flux qui représente la manière dont les [!DNL Marketo Measure] objets personnalisés sont associés aux objets Dynamics Standard.
+ 
 
-![](assets/bizible-and-dynamics-taxonomy-1.png)
+![](assets/marketo-measure-and-dynamics-taxonomy-1.png){width="800" zoomable="yes"}
