@@ -1,23 +1,23 @@
 ---
 unique-page-id: 42762762
-description: Configurer la connexion Marketo - [!DNL Marketo Measure]
-title: Configuration de la connexion Marketo
+description: Configurer La Connexion Marketo - [!DNL Marketo Measure]
+title: Configurer la connexion Marketo
 exl-id: 11660539-1cc5-4768-8f22-d6f7cd0b94f3
 feature: Integration
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: de366de2d1df3d4dc9fc33e5fd0dab225b6af081
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 1%
 
 ---
 
-# Configuration de la connexion Marketo {#set-up-marketo-connection}
+# Configurer la connexion Marketo {#set-up-marketo-connection}
 
 Voici comment configurer votre connexion à Marketo.
 
 >[!PREREQUISITES]
 >
->[Créez un rôle d’utilisateur API uniquement](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html) pour la connexion [!DNL Marketo Measure]/Marketo Engage.
+>[Créez un rôle Utilisateur API uniquement](https://experienceleague.adobe.com/docs/marketo/using/product-docs/administration/users-and-roles/create-an-api-only-user.html){target="_blank"} pour la connexion [!DNL Marketo Measure]/Marketo Engage.
 
 1. Dans [!DNL Marketo Measure], cliquez sur la liste déroulante **[!UICONTROL Mon compte]** et sélectionnez **[!UICONTROL Paramètres]**.
 
@@ -31,11 +31,11 @@ Voici comment configurer votre connexion à Marketo.
 
    ![](assets/set-up-marketo-connection-3.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Se connecter]** en regard de Marketo.
+1. Cliquez sur le bouton **[!UICONTROL Connexion]** en regard de Marketo.
 
    ![](assets/set-up-marketo-connection-4.png)
 
-1. Dans un nouvel onglet, connectez-vous à votre compte de Marketo Engage. Allez à **Admin** > **Services web**. Faites défiler l’écran jusqu’à l’API REST. Mettez en surbrillance et enregistrez le point de terminaison et l’URL du service d’identité. Vous en avez besoin dans les étapes suivantes.
+1. Dans un nouvel onglet, connectez-vous à votre compte de Marketo Engage. Accédez à **Admin** > **Services web**. Faites défiler jusqu’à API REST. Mettez en surbrillance et enregistrez le point d’entrée et l’URL du service d’identités. Vous en avez besoin pour les étapes suivantes.
 
    ![](assets/set-up-marketo-connection-5.png)
 
@@ -47,7 +47,7 @@ Voici comment configurer votre connexion à Marketo.
 
    ![](assets/set-up-marketo-connection-7.png)
 
-1. De retour dans [!DNL Marketo Measure], renseignez les champs avec les données que vous avez collectées.
+1. De retour en [!DNL Marketo Measure], renseignez les champs avec les données que vous avez collectées.
 
    ![](assets/set-up-marketo-connection-8.png)
 
@@ -57,4 +57,4 @@ Voici comment configurer votre connexion à Marketo.
 
    >[!NOTE]
    >
-   >[!DNL Marketo Measure] appelle l’API Marketo en votre nom sans utiliser aucune de vos limites d’API Marketo. Il n’est donc pas nécessaire de vous soucier des limites et de l’attribution de crédit avec d’autres intégrations.
+   >[!DNL Marketo Measure] effectue des appels à l’API Marketo en votre nom sans utiliser aucune de vos limites d’API Marketo. Vous n’avez donc pas à vous soucier des limites et de l’affectation de crédit avec d’autres intégrations.
