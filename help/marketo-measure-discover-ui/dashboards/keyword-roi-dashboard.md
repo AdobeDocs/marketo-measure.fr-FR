@@ -1,77 +1,78 @@
 ---
-description: Tableau de bord du retour sur investissement des mots-clés - [!DNL Marketo Measure]  - Produit
+description: Tableau de bord du RSI par mot-clé - [!DNL Marketo Measure] - Produit
 title: Tableau de bord Retour sur investissement du mot-clé
 feature: Reporting
-source-git-commit: 3424f8a63da40f8762defae1e6ae22ebe60530d0
+exl-id: 9c85a3ad-1806-4e30-b0fb-686760aea587
+source-git-commit: f1adf53a9bf3adbc77d52c12dbafb09a28e51178
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '403'
 ht-degree: 3%
 
 ---
 
 # Tableau de bord Retour sur investissement du mot-clé {#keyword-roi-dashboard}
 
-Le tableau de bord ROI des mots-clés fournit des informations détaillées sur les performances des campagnes de recherche payante. Il offre une analyse complète des coûts au niveau des mots-clés, des recettes attribuées et des nouvelles pistes et opportunités générées, afin de garantir une compréhension claire du retour sur investissement des mots-clés.
+Le tableau de bord du retour sur investissement par mot-clé fournit des informations détaillées sur les performances des campagnes de référencement payant. Il fournit une analyse complète des coûts au niveau des mots-clés, des revenus attribués, ainsi que des nouveaux prospects et opportunités générés, assurant une compréhension claire du retour sur investissement des mots-clés.
 
-Le tableau de bord pose les questions suivantes :
+Questions auxquelles le tableau de bord répond :
 
-* Quel est le retour sur investissement de chaque mot-clé dans les mots-clés Google, Linkedin et Bing Ads ?
-* Comment les coûts et les recettes attribuées sont-ils ventilés par mots-clés individuels ?
-* Combien de pistes et d’opportunités ont été créées à partir de chaque mot-clé ?
+* Quel est le retour sur investissement pour chaque mot-clé dans Google Adwords, Linkedin, et Bing Ads ?
+* Comment les coûts et les revenus attribués sont-ils ventilés par mots-clés individuels ?
+* Combien de prospects et d’opportunités ont été créés à partir de chaque mot-clé ?
 
 ## Composants de tableau de bord {#dashboard-components}
 
-### Tableau récapitulatif du ROI des mots-clés {#keyword-roi-summary-table}
+### Tableau récapitulatif du RSI des mots-clés {#keyword-roi-summary-table}
 
-Tableau présentant les recettes attribuées, les coûts et le ROI segmentés par mots-clés individuels pour une ventilation détaillée.
+Tableau présentant le chiffre d’affaires, les coûts et le retour sur investissement attribués segmentés par mots-clés individuels pour une répartition détaillée.
 
-Explorez des mots-clés spécifiques pour afficher les opportunités influencées par chacun.
+Accédez à des mots-clés spécifiques pour afficher les opportunités influencées par chacun d’eux.
 
-**Colonnes :**
-
-* **Mot-clé**
-* **Campagne**
-* **Identifiant du compte publicitaire** (bientôt disponible)
-* **Nom du compte publicitaire** (bientôt disponible)
-* **Identifiant du groupe publicitaire** (bientôt disponible)
-* **Nom du groupe publicitaire** (bientôt disponible)
-* **Coût** : coût total provenant de sources de données connectées.
-* **Recettes affectées** : contribution totale des recettes, basée sur le modèle d’attribution sélectionné, provenant d’ Opportunités avec points de contact qui se sont fermés au cours de la période filtrée.
-* **Recettes affectées réalisées** : contribution totale du chiffre d’affaires, basée sur le modèle d’attribution sélectionné, provenant d’ Opportunités avec points de contact au cours de la période filtrée, quelle que soit la date de clôture.
-* **Recettes de pipeline non réalisées** : recettes de pipeline liées aux points de contact (opportunités ouvertes) créés au cours de la période filtrée.
-* **ROI simple** : chiffre d’affaires attribué divisé par les coûts au cours de la période filtrée.
-* **ROI réalisé** : chiffre d’affaires attribué réalisé divisé par les coûts au cours de la période filtrée.
-
-### Tableau Prospects et opportunités par mot-clé {#leads-and-opportunities-by-keyword-table}
-
-Tableau présentant les nouvelles pistes, les opportunités et les coûts associés segmentés par mots-clés individuels pour une ventilation détaillée.
-
-Explorez des mots-clés spécifiques pour afficher les opportunités influencées par chacun.
-
-**Colonnes :**
+**Colonnes:**
 
 * **Mot-clé**
 * **Campagne**
-* **Identifiant du compte publicitaire** (bientôt disponible)
-* **Nom du compte publicitaire** (bientôt disponible)
-* **Identifiant du groupe publicitaire** (bientôt disponible)
-* **Nom du groupe publicitaire** (bientôt disponible)
-* **Cost**
+* **ID de compte publicitaire**
+* **Nom du compte publicitaire**
+* **ID de groupe publicitaire**
+* **Nom du groupe publicitaire**
+* **Coût** : coûts totaux des sources de données connectées.
+* **Chiffre d’affaires attribué** : contribution totale du chiffre d’affaires, en fonction du modèle d’attribution choisi, à partir des opportunités avec des points de contact qui se sont terminés au cours de la période filtrée
+* **Chiffre d’affaires attribué réalisé** : contribution totale au chiffre d’affaires, en fonction du modèle d’attribution choisi, à partir des opportunités avec des points de contact au cours de la période filtrée, quelle que soit la date à laquelle elles ont été fermées.
+* **Chiffre d’affaires de pipeline attribué non réalisé** : chiffre d’affaires de pipeline lié aux points de contact (opportunités ouvertes) créés pendant la période filtrée.
+* **RSI simple** : chiffre d’affaires attribué divisé par les coûts au cours de la période filtrée.
+* **Retour sur investissement réalisé** : revenu attribué réalisé divisé par les coûts au cours de la période filtrée.
+
+### Leads et opportunités par tableau de mots-clés {#leads-and-opportunities-by-keyword-table}
+
+Tableau présentant les nouveaux prospects, les opportunités et les coûts associés, segmentés par mots-clés individuels pour une répartition détaillée.
+
+Accédez à des mots-clés spécifiques pour afficher les opportunités influencées par chacun d’eux.
+
+**Colonnes:**
+
+* **Mot-clé**
+* **Campagne**
+* **ID de compte publicitaire**
+* **Nom du compte publicitaire**
+* **ID de groupe publicitaire**
+* **Nom du groupe publicitaire**
+* **Coût**
 * **Nouvelles pistes** : nombre total de nouvelles pistes générées, y compris les pistes touchées et non touchées.
-* **Coût par nouvelle piste** : coût moyen par nouvelle piste, dérivé du coût total divisé par le nombre total de nouvelles pistes.
+* **Coût par nouveau lead** : coût moyen par nouveau lead, dérivé du coût total divisé par le nombre total de nouveaux leads.
 * **Nouvelles opportunités** : nombre total de nouvelles opportunités générées, y compris les opportunités touchées et non touchées.
 * **Coût par nouvelle opportunité** : coût moyen par nouvelle opportunité, dérivé du coût total divisé par le nombre total de nouvelles opportunités.
 
-## Volet Filtrer {#filter-pane}
+## Volet de filtrage {#filter-pane}
 
 Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 * Date
    * Basé sur :
-      * Date de création : Pistes d’actualités, nouvelles opportunités
-      * Date de prise en charge : coût
-      * Date de clôture : recettes attribuées (ROI simple), offres
-      * Date du point de contact : points de contact des recettes attribuées réalisées (retour sur investissement réalisé)
+      * Date de création : nouveaux prospects et nouvelles opportunités
+      * Date du coût engagé : coût
+      * Date de clôture : revenus attribués (retour sur investissement simple), offres
+      * Date du point de contact : points de contact du chiffre d’affaires attribué réalisé (RSI réalisé)
 * Modèle d’attribution
 * Mot-clé
 * Campagne
