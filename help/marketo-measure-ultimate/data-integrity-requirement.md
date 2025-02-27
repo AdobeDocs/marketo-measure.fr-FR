@@ -1,9 +1,9 @@
 ---
-description: '[!DNL Marketo Measure] Exigence ultime d’intégrité des données - [!DNL Marketo Measure]'
-title: « Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate »
+description: '[!DNL Marketo Measure] Exigence d’intégrité des données d’Ultimate - [!DNL Marketo Measure]'
+title: Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 54695bd795fe9bdb58d97b6b0762b9e9fe8f17cf
+source-git-commit: 4f504bd940e2d28603af65b75151d8143cdcbea8
 workflow-type: tm+mt
 source-wordcount: '1611'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 
 # Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
-[!DNL Marketo Measure] valide les jeux de données AEP entrants pour s’assurer que les données sont suffisantes et cohérentes pour l’attribution. Si vous ne remplissez pas les exigences d’intégrité des données, le jeu de données est rejeté par le système [!DNL Marketo Measure]. Cet article décrit les exigences en matière d’intégrité des données, fournit des exemples de requête pour l’inspection des données et recommande une solution pour les champs obligatoires avec une valeur nulle.
+[!DNL Marketo Measure] valide les jeux de données AEP entrants pour s’assurer que les données sont suffisantes et cohérentes pour l’attribution. Si l’exigence d’intégrité des données n’est pas respectée, le jeu de données est rejeté par le système [!DNL Marketo Measure]. Cet article détaille les exigences en matière d’intégrité des données, fournit des exemples de requête pour l’inspection des données et recommande une solution pour les champs obligatoires avec une valeur nulle.
 
 ## Objet d’entité {#entity-object}
 
@@ -37,7 +37,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 123@999-abc-888.Marketo</td>
+      <td>Par exemple - 123@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -365,7 +365,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 333@999-abc-888.Marketo</td>
+      <td>Par exemple - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -373,7 +373,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td>ID</td>
       <td>Oui</td>
-      <td>Par exemple : 333, selon la table de la source de données, il s’agit de l’ID de piste ou de contact.</td>
+      <td>Par exemple - 333, selon la table de source de données, il s’agit de l’ID de lead ou de l’ID de contact</td>
     </tr>
     <tr>
       <td></td>
@@ -887,14 +887,14 @@ ht-degree: 86%
   </tbody>
 </table>
 
-## Exigences de données de conversion de devise {#currency-conversion-data-requirements}
+## Exigences en matière de données de conversion de devise {#currency-conversion-data-requirements}
 
-**Devise par défaut** : dans Marketo Measure, toutes les recettes et tous les coûts sont convertis en devise par défaut au moment de la création du rapport. Il doit y avoir un enregistrement avec la même couverture de date pour la devise cible elle-même (par exemple, USD vers USD) avec un taux de conversion de 1.
+**Devise par défaut** : dans Marketo Measure, tous les revenus et coûts sont convertis en devise par défaut au moment de la création de rapports. Il doit y avoir un enregistrement avec la même couverture de date pour la devise cible elle-même (par exemple, USD vers USD) avec un taux de conversion de 1.
 
-**Taux de conversion** : chaque paire (devise source, devise cible) peut avoir plusieurs taux de conversion pour différentes périodes. Les taux doivent couvrir toute la durée de 0001-01-01 à 9999-12-31, selon l’objet Salesforce DatedConversionRate .
+**Taux de conversion** : chaque paire (devise source, devise cible) peut avoir plusieurs taux de conversion pour différentes périodes. Les taux doivent couvrir toute la période allant de 0001-01-01 à 9999-12-31, conformément à l’objet Salesforce DatedConversionRate.
 
-**Plage de dates** :
-* Aucune période ne chevauche un jeu de taux (devise source, devise cible) (par exemple, 2023-01-01 à 2023-02-01 et 2023-01-01 à 2024-01-01).
+**Période** :
+* Aucune période ne se chevauchant dans un ensemble de taux (devise source, devise cible) (p. ex., 2023-01-01 à 2023-02-01 et 2023-01-01 à 2024-01-01).
 * Aucun intervalle entre les périodes. La date de début est incluse et la date de fin est exclusive.
 
 <p>
@@ -1117,7 +1117,7 @@ ht-degree: 86%
   </tbody>
 </table>
 
-Utilisez le type d’événement « Moment intéressant » pour les types d’événement non pris en charge dans le tableau ci-dessus. Ajoutez un champ personnalisé pour indiquer le sous-type &quot;Moment intéressant&quot;.
+Utilisez le type d’événement « Moment intéressant » pour les types d’événement non pris en charge dans le tableau ci-dessus. Ajoutez un champ personnalisé pour indiquer le sous-type « Moment intéressant ».
 
 ## Exemples de requêtes pour l’examen des données {#query-examples-for-data-inspection}
 
@@ -1322,13 +1322,13 @@ select 'addToCampaign campaign instance id', count(*) from marketo_activity wher
 union all
 select 'addToCampaign campaign key', count(*) from marketo_activity where eventType = 'leadOperation.addToCampaign' and leadOperation.addToCampaign.campaignKey.sourceKey is null
 union all
-select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceId is null
+select 'statusInCampaignProgressionChanged campaign id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceType is null
+select 'statusInCampaignProgressionChanged campaign type', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceType is null
 union all
-select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
+select 'statusInCampaignProgressionChanged campaign instance id', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceInstanceId is null
 union all
-select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.campaignProgression.campaignKey.sourceKey' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
+select 'statusInCampaignProgressionChanged campaign key', count(*) from marketo_activity where eventType = 'leadOperation.statusInCampaignProgressionChanged' and leadOperation.campaignProgression.campaignKey.sourceKey is null;
 ```
 
 ```
