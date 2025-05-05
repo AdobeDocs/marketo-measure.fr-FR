@@ -50,9 +50,9 @@ Voici plusieurs liens vers des articles/vidéos pertinents pour vous aider à d�
 Voici quelques vidéos.    vous aider à vous mettre à niveau :
 
 * [[!DNL Marketo Measure] Intro Training](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 minutes)
-* [[!DNL Marketo Measure] Reporting dans SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minutes)
+* [[!DNL Marketo Measure] Reporting dans SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr) (30-45 minutes)
 
-**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 minutes)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr) (~30 minutes)**
 
 Cette série de cours est conçue comme une présentation générale des concepts de base que vous devez connaître pour maîtriser [!DNL Marketo Measure]. Il présente le concept d’attribution, ce que [!DNL Marketo Measure] fait en tant qu’outil et le cadre général sur lequel [!DNL Marketo Measure] fonctionne.
 
@@ -64,7 +64,7 @@ Sujets abordés :
 * Points de contact
 * Modèles d’attribution
 
-**[[!DNL Marketo Measure] Reporting dans SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45 minutes)**
+**[[!DNL Marketo Measure] Reporting dans SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr) (30-45 minutes)**
 
 Cette série de cours est conçue comme une introduction aux rapports de stock [!DNL Marketo Measure] qui ont été installés dans Salesforce. Ces rapports constituent la base de la plupart des rapports que vous créez avec les données [!DNL Marketo Measure].
 
@@ -77,7 +77,7 @@ Sujets abordés :
 * Opportunités par rapport aux identifiants
 * Rapport des opportunités par canal
 
-**[Gestion des canaux](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
+**[Gestion des canaux](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr)**
 
 Ce cours aborde diverses façons de personnaliser [!DNL Marketo Measure] en termes de suivi en ligne et hors ligne. Ce cours est plus avancé et peut ne pas être pertinent pour tous les utilisateurs.
 
@@ -89,4 +89,4 @@ Sujets abordés :
 * Champs de campagne et de membre de campagne
 * Gestion des canaux hors ligne
 
-Voici toutes les [vidéos d&#39;apprentissage en ligne pour débutants](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).
+Voici toutes les [vidéos d&#39;apprentissage en ligne pour débutants](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr).

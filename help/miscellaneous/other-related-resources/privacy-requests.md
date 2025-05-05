@@ -16,10 +16,10 @@ Ce document présente la gestion des demandes de confidentialité des données i
 
 Vous pouvez envoyer des requêtes individuelles pour accéder et supprimer des données de consommateur de [!DNL Marketo Measure] de deux manières :
 
-* Par le biais de l’ [[!DNL Privacy Service] interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* Par le biais de l’ **[!DNL Privacy Service]API**. Consultez la documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} et la référence API [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Par le biais de l’ [[!DNL Privacy Service] interface utilisateur](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=fr){target="_blank"}.
+* Par le biais de l’ **[!DNL Privacy Service]API**. Consultez la documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr){target="_blank"} et la référence API [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-Le [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target="_blank"} prend en charge deux types de requêtes : l’accès aux données et la suppression des données.
+Le [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"} prend en charge deux types de requêtes : l’accès aux données et la suppression des données.
 
 Découvrez comment créer des demandes d’accès et de suppression.
 

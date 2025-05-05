@@ -35,4 +35,4 @@ Si vous souhaitez comprendre le &quot;nombre de contacts&quot;, vous pouvez alor
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials : Stock SFDC Reports](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutorials : Stock SFDC Reports](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

@@ -42,4 +42,4 @@ Exemple dans la capture d’écran ci-dessous
 
 * Il est probable que plusieurs modèles de page d’entrée soient utilisés. Veillez à ajouter le code à tous les modèles qui contiennent des formulaires.
 
-* Parfois, lorsque vous éditez le modèle des landing pages, vous devez réapprouver les pages utilisées par la landing page. Cet article explique [comment approuver en masse](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.
+* Parfois, lorsque vous éditez le modèle des landing pages, vous devez réapprouver les pages utilisées par la landing page. Cet article explique [comment approuver en masse](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=fr){target="_blank"}.

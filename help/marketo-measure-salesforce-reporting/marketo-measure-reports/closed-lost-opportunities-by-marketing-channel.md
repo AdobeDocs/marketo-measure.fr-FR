@@ -47,4 +47,4 @@ Bien que ce rapport puisse dépendre de vos étapes d’opportunité, il vous in
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutorials : Rapports SFDC supplémentaires](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutorials : Rapports SFDC supplémentaires](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
