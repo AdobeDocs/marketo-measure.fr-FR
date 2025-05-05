@@ -37,7 +37,7 @@ Ce workflow s’exécute à chaque fois que des opportunités sont ouvertes. Le 
 
 Indiquez à votre point de contact [!DNL Marketo Measure] le nom du champ de montant d’opportunité personnalisé. Ils mettent à jour les paramètres d’opportunité de l’application [!DNL Marketo Measure] afin d’inclure le nom du champ de montant d’opportunité personnalisé. Cela indique à Discover le champ à utiliser dans les rapports.
 
-**WORKFLOW #2{1: Opportunity - Update [!DNL Marketo Measure] Opportunity Amount Field &amp; Custom Field = Revenus réels**
+**WORKFLOW #2&lbrace;1: Opportunity - Update [!DNL Marketo Measure] Opportunity Amount Field &amp; Custom Field = Revenus réels**
 
 Ce workflow se déclenche lorsqu’un utilisateur ferme une opportunité et met à jour le champ [!DNL Marketo Measure] Montant de l’opportunité et votre champ personnalisé avec les Recettes réelles ajoutées au formulaire Fermeture de l’opportunité avant que l’opportunité ne se bloque comme fermée.
 

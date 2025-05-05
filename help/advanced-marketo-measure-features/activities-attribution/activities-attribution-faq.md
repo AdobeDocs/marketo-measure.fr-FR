@@ -67,7 +67,7 @@ Vous trouverez des instructions sur la configuration des activités dans l’app
 * contient : le texte se trouve au milieu (alias : &#42;social&#42;)
 * commence par : la valeur commence par le texte (alias : social&#42;)
 * se termine par : la valeur se termine par le texte (alias : &#42;social)
-* correspond à n’importe quel : plusieurs valeurs peuvent être ajoutées séparées par des virgules. Si [!UICONTROL commence par], [!UICONTROL  se termine par] ou si des opérateurs doivent être appliqués, utilisez le caractère générique (&#42;)
+* correspond à n’importe quel : plusieurs valeurs peuvent être ajoutées séparées par des virgules. Si [!UICONTROL commence par], [!UICONTROL &#x200B; se termine par] ou si des opérateurs doivent être appliqués, utilisez le caractère générique (&#42;)
 * supérieur à : utilisé pour les champs numériques ou les champs de date/heure
 * inférieur à : utilisé pour les champs numériques ou les champs de date/heure
 

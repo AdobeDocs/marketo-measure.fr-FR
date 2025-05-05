@@ -123,7 +123,7 @@ Le MQL-01 (dernier) du prospect 2 est le premier MQL sur l’opportunité. Le MQ
 
 Le SQL-01 (dernier) du prospect 2 devient SQL-01 sur l&#39;opportunité. Le code SQL-01 sur le prospect 1 n’apparaîtra pas comme point de contact sur l’opportunité, car SQL-01 sur le prospect 2 s’est produit en premier.
 
-Notez que les boomerangs Lead 1 entre MQL et SQL plusieurs fois avant d’atteindre enfin l’étape SAL. SQL-01, MQL-02, SQL-02, MQL-03, SQL-0}ne sera pas _inclus comme points de contact sur l’opportunité, car ces transitions intermédiaires ne contribuent pas à faire avancer l’opportunité dans le parcours._
+Notez que les boomerangs Lead 1 entre MQL et SQL plusieurs fois avant d’atteindre enfin l’étape SAL. SQL-01, MQL-02, SQL-02, MQL-03, SQL-0&rbrace;ne sera pas _inclus comme points de contact sur l’opportunité, car ces transitions intermédiaires ne contribuent pas à faire avancer l’opportunité dans le parcours._
 
 Le point de contact SAL-01 (dernier) de la piste 1 est le prochain point de contact à inclure dans l’Opp. La piste 1 se convertit ensuite en contact avec une opportunité, créant ainsi le point de contact OC.
 
@@ -133,7 +133,7 @@ Le point de contact SQL-01 (dernier) de la piste 2 ne sera pas inclus comme poin
 
 ## Scénarios d’opportunité {#opportunity-scenarios}
 
-**Scénario 1 - Contacts avec suivi des opportunités et du boomerang{1**
+**Scénario 1 - Contacts avec suivi des opportunités et du boomerang&lbrace;1**
 
 Dans ce scénario, un client a choisi de suivre les **transitions de l&#39;étape de démonstration et de négociation** sur le **contact**. Chaque étape de boomerang peut recevoir jusqu’à deux points de contact. La différence entre les transitions d’étape sur un contact et les transitions d’étape sur un prospect est que les transitions d’étape Contact peuvent apparaître sous forme de points de contact Boomerang sur l’ _opportunité suivant_ le point de contact OC. Ce n’est pas le cas pour les transitions d’étape qui se produisent sur l’piste, car elles apparaissent comme un point de contact de formulaire.
 

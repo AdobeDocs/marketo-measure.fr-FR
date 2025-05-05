@@ -46,7 +46,7 @@ Pour accéder à l’entrepôt de données de votre Snowflake, vous devez accéd
 
 ## Réinitialiser votre mot de passe {#reset-your-password}
 
-[!DNL Marketo Measure] n’a pas accès à votre mot de passe de connexion de Snowflake. Si vous devez réinitialiser votre mot de Data Warehouse, cliquez sur le bouton [!UICONTROL  Réinitialiser le mot de passe ] sur la page d’informations du mot de passe, puis suivez les instructions. Un mot de passe temporaire s’affiche immédiatement dans l’interface utilisateur. Vous serez invité à créer votre propre mot de passe lors de votre prochaine connexion à l’entrepôt de données.
+[!DNL Marketo Measure] n’a pas accès à votre mot de passe de connexion de Snowflake. Si vous devez réinitialiser votre mot de Data Warehouse, cliquez sur le bouton [!UICONTROL &#x200B; Réinitialiser le mot de passe &#x200B;] sur la page d’informations du mot de passe, puis suivez les instructions. Un mot de passe temporaire s’affiche immédiatement dans l’interface utilisateur. Vous serez invité à créer votre propre mot de passe lors de votre prochaine connexion à l’entrepôt de données.
 
 >[!NOTE]
 >

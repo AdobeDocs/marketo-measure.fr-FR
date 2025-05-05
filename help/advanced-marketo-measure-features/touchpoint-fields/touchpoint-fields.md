@@ -157,12 +157,12 @@ Maintenant que nous avons appris à extraire et à mapper les champs, combinons 
 * Ensuite, nous allons mapper toutes les valeurs possibles pour les premiers chiffres à ses noms conviviaux.
 * Créez un champ calculé et étiquetez-le &quot;Nom_région&quot;.
 * Définissez la règle en commençant par la recherche de votre champ extrait. Dans ce cas, [!DNL Touchpoint.Region]
-* Utilisez l’opérateur &quot;[!UICONTROL mappe sur ]&quot; puisque nous voulons créer un mappage pour chaque nombre sur sa valeur.
+* Utilisez l’opérateur &quot;[!UICONTROL mappe sur &#x200B;]&quot; puisque nous voulons créer un mappage pour chaque nombre sur sa valeur.
 * Un tableau vous est présenté pour répertorier chaque mappage. Au final, il ressemblera à ceci :
 * En fonction du mappage et de l’URL ci-dessus, la &quot;Region_Value&quot; d’un point de contact avec cette page d’entrée serait &quot;EMEA&quot;.
 * Répétez l’extraction et le mappage pour les 4 jeux de chiffres restants.
 
-   * Pour extraire le 01, vous devez définir la valeur comme &quot;BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\2\}-\d{2}&quot;
+   * Pour extraire le 01, vous devez définir la valeur comme &quot;BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\2\&rbrace;-\d{2}&quot;
    * Pour extraire la valeur 09, vous devez définir la valeur comme &quot;BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2}{2}&quot;
    * Pour extraire la valeur 03, vous devez définir la valeur comme &quot;BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2}&quot;
    * Pour extraire la valeur 10, vous devez définir la valeur comme &quot;BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})**&quot;

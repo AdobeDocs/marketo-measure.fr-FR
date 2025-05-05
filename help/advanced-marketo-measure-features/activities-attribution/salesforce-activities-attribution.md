@@ -72,11 +72,11 @@ Vous voudrez probablement placer ces nouveaux points de contact dans le [canal m
 >
 >commence par ( sortant&#42; )
 >
-contient ( &#42;Sortant&#42; )
+>contient ( &#42;Sortant&#42; )
 >
-se termine par ( &#42;Sortant )
+>se termine par ( &#42;Sortant )
 >
-Aucun caractère générique ne signifie en fait &quot;est égal à&quot;. Veillez donc à les utiliser selon vos besoins.
+>Aucun caractère générique ne signifie en fait &quot;est égal à&quot;. Veillez donc à les utiliser selon vos besoins.
 
 | **Opérateur** | **Exemple d’utilisation** |
 |---|---|
@@ -93,4 +93,4 @@ Enfin et surtout, vous avez la possibilité de saisir les coûts de vos nouveaux
 
 >[!MORELIKETHIS]
 >
-[FAQ sur l’attribution d’activités](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)
+>[FAQ sur l’attribution d’activités](/help/advanced-marketo-measure-features/activities-attribution/activities-attribution-faq.md)

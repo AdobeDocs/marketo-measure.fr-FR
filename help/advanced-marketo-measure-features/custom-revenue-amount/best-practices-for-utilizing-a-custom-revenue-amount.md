@@ -38,7 +38,7 @@ L’examen annuel de la configuration du montant des recettes vous permet de vou
 Si vous utilisez un montant de recettes personnalisé, vérifiez votre configuration de recettes comme suit.
 
 * Dans votre compte [!DNL Marketo Measure], accédez à la section &#39;[!UICONTROL Opportunités]&#39; sous CRM
-* Identifiez le champ [!UICONTROL Montant d’opportunité personnalisé], où votre champ [!UICONTROL  API de montant de recettes personnalisé] doit être répertorié.
+* Identifiez le champ [!UICONTROL Montant d’opportunité personnalisé], où votre champ [!UICONTROL &#x200B; API de montant de recettes personnalisé] doit être répertorié.
 * Confirmez qu’il s’agit toujours du bon champ.
 * Demandez également à votre administrateur [!DNL Salesforce] de confirmer que le workflow Montant des recettes personnalisées dans [!DNL Salesforce] est toujours en cours d’exécution.
 

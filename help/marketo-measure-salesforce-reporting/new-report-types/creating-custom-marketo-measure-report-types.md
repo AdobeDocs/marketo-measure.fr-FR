@@ -50,7 +50,7 @@ Découvrez comment créer des types de rapports [!DNL Marketo Measure] [!DNL Sal
 
 1. Définissez le Type de rapport personnalisé.
 
-   * [!UICONTROL  Type de rapport Focus] > [!UICONTROL Objet Principal] : [!DNL Marketo Measure] Personnes
+   * [!UICONTROL &#x200B; Type de rapport Focus] > [!UICONTROL Objet Principal] : [!DNL Marketo Measure] Personnes
    * [!UICONTROL Identification] > [!UICONTROL Étiquette de type de rapport] : [!DNL Marketo Measure] Personne avec points de contact d’achat (personnalisé)
    * [!UICONTROL Stocker dans la catégorie] : autres rapports
    * [!UICONTROL Déploiement] > [!UICONTROL État de déploiement] : déployé

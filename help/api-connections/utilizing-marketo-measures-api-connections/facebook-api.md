@@ -44,7 +44,7 @@ Pour ce qui est de la configuration, sept étapes doivent être effectuées dans
 
 >[!NOTE]
 >
->Si vous activez le balisage automatique, l’historique de conversion et le BAT social de toutes les publicités que nous marquons seront réinitialisés. Nous vous recommandons vivement d’exporter ces données au format CSV](https://www.facebook.com/business/help/205067636197240) avant d’activer le balisage automatique.[
+>Si vous activez le balisage automatique, l’historique de conversion et le BAT social de toutes les publicités que nous marquons seront réinitialisés. Nous vous recommandons vivement d’exporter ces données au format CSV[&#128279;](https://www.facebook.com/business/help/205067636197240) avant d’activer le balisage automatique.
 
 ![](assets/2-2.png)
 

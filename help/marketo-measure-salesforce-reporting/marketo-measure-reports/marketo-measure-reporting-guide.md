@@ -448,7 +448,7 @@ Ce rapport serait identique à un rapport basé sur le &quot;contenu&quot; au ni
 >
 >Vous pouvez utiliser ce rapport pour mieux comprendre l’engagement total d’une dimension marketing à partir de l’objet Buyer Touchpoint, et pas seulement les téléchargements de contenu comme présenté dans l’exemple. Le rapport peut plutôt être groupé ou filtré selon des dimensions telles que &quot;Canal marketing&quot; ou &quot;Nom de la campagne publicitaire&quot; afin de mieux comprendre l’engagement total des Leads et des contacts dans votre base de données. Remplacez les filtres ou les groupements dans le rapport par zéro dans les autres dimensions représentées par d’autres champs de l’objet de point de contact.
 
-**3.2 [!DNL Marketo Measure] Personnes qui se sont enregistrées pour un événement (CRM uniquement){2**
+**3.2 [!DNL Marketo Measure] Personnes qui se sont enregistrées pour un événement (CRM uniquement)&lbrace;2**
 
 _Ce rapport ne s&#39;applique que si les formulaires d&#39;enregistrement sont hébergés sur votre ou vos sites web dont le suivi numérique est possible sur [!DNL Marketo Measure]._
 
@@ -677,7 +677,7 @@ Ce rapport serait essentiellement le même que le premier exemple Buyer Attribut
   <tr>
    <td>Filtres</td> 
    <td>
-   <li>Étape d’opportunité (<i>seules les opportunités gagnantes fermées doivent être dans le rapport{1) OU,</i></li>
+   <li>Étape d’opportunité (<i>seules les opportunités gagnantes fermées doivent être dans le rapport&lbrace;1) OU,</i></li>
    <li>Opportunité gagnée = Vrai</li>
    <li>Type d’opportunité (il est courant de filtrer en fonction de certaines opportunités, c’est-à-dire "Nouvelle entreprise" par opposition à toutes les opportunités)<br>
    </td> 
