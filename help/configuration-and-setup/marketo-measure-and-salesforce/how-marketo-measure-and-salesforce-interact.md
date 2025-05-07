@@ -1,12 +1,12 @@
 ---
 unique-page-id: 18874672
 description: Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce]  – Marketo Measure – Documentation du produit
-title: Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce]
+title: 'Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce] '
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 9ef6d16a73ef25846b90902eb22a544432c33931
+source-git-commit: ec5172286951f482905f97268f33f063d1860694
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1290'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Regardons de plus près la relation entre [!DNL Marketo Measure] et Salesforce.
 
-## Salesforce et [!DNL Marketo Measure] {#salesforce-and-marketo-measure}
+## Salesforce et [!DNL Marketo Measure]  {#salesforce-and-marketo-measure}
 
 Une fois que le compte [!DNL Marketo Measure] est créé et que [!DNL Salesforce] est connecté, [!DNL Marketo Measure] commence à transférer les données marketing dans l’instance CRM, dans la mesure où le package géré [!DNL Marketo Measure] est installé et que l’utilisateur ou l’utilisatrice [!DNL Marketo Measure] Salesforce dispose de droits de modification.
 
@@ -449,7 +449,19 @@ Cette section répertorie les objets standard [!DNL Salesforce] avec lesquels [!
    <td>Type</td> 
    <td>Standard</td> 
    <td>x</td> 
-   <td><br></td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>StartDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
+  </tr>
+  <tr> 
+   <td>EndDate</td> 
+   <td>Standard</td> 
+   <td>x</td> 
+   <td> </td> 
   </tr>
   <tr> 
    <td>Nom</td> 
@@ -583,7 +595,7 @@ Cette section répertorie les objets standard [!DNL Salesforce] avec lesquels [!
 >* Tâche
 
 
-## Objets personnalisés [!DNL Marketo Measure] dans [!DNL Salesforce] {#marketo-measure-custom-objects-in-salesforce}
+## Objets personnalisés [!DNL Marketo Measure] dans [!DNL Salesforce]  {#marketo-measure-custom-objects-in-salesforce}
 
 Outre la création de champs personnalisés sur les objets standard SFDC, une fois que le package [!DNL Marketo Measure] est installé, quelques objets personnalisés sont créés. Vous trouverez ci-dessous une liste de ces objets personnalisés, ainsi qu’un tableau indiquant les champs dans lesquels [!DNL Marketo Measure] écrit.
 
