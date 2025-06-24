@@ -1,13 +1,13 @@
 ---
 unique-page-id: 18874590
-description: « Cookies [!DNL Marketo Measure] -  [!DNL Marketo Measure] »
-title: « Cookies [!DNL Marketo Measure] »
+description: Cookies [!DNL Marketo Measure] - [!DNL Marketo Measure]
+title: Cookies [!DNL Marketo Measure]
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -106,7 +106,7 @@ En savoir plus sur les différents cookies [!DNL Marketo Measure] chargés sur v
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Tiers, domaine=.<a href="http://bizibly.com/">bizibly.com</a></td>
+    <td>Tiers, domaine=.<a href="https://bizibly.com/">bizibly.com</a></td>
     <td>Mappage entre l’ID de cookie Marketo Measure sur le domaine du client ou de la cliente et son ID de cookie d’impression Doubleclick.</td>
     <td>1 an</td>
     <td>Oui</td>
