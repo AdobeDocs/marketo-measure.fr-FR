@@ -4,9 +4,9 @@ description: Scénarios d’étape de boomerang - [!DNL Marketo Measure]
 title: Scénarios d’étape de boomerang
 exl-id: 150db070-eef5-4741-845c-775ab4034ead
 feature: Boomerang
-source-git-commit: ce54eb497c55c4ab8da55e9b2803dc59a87c7267
+source-git-commit: 855ae5abe6f8782ed1883f85be545c11bf86e7ce
 workflow-type: tm+mt
-source-wordcount: '1503'
+source-wordcount: '1504'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Le MQL-01 (dernier) du lead 2 deviendra le premier MQL de l’opportunité. Le M
 
 L’étape SQL est suivie avec des étapes personnalisées, et non des étapes de boomerang. Même s’il existe trois occurrences de l’étape SQL entre le lead 1 et le lead 2, seule la dernière occurrence SQL sera incluse comme point de contact sur l’opportunité.
 
-Le point de contact SAL-01 (dernier) du lead 1 est conservé comme point de contact sur l’opportunité. Le lead 1 est ensuite converti en contact avec une opportunité, ce qui est considéré comme le contact OC. Le point de contact SAL-01 (dernier) du lead 2 sera créé comme point de contact, car cette transition d’étape s’est produite _après_ le contact OC.
+Le point de contact SAL-01 (dernier) du lead 1 est conservé comme point de contact sur l’opportunité. Le lead 1 est ensuite converti en contact avec une opportunité, ce qui est considéré comme le contact OC. Le point de contact SAL-01 (dernier) du lead 2 ne sera pas créé comme point de contact, car cette transition d’étape s’est produite _après_ le contact OC.
 
 Les points de contact FT, LC et MQL, SQL et SAL du lead 3 (orange) se sont tous produits après le point de contact OC sur l’opportunité. Ces points de contact sont inclus dans l’opportunité, mais sont considérés comme des « contacts intermédiaires ».
 
