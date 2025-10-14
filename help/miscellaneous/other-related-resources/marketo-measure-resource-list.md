@@ -37,7 +37,7 @@ Voici plusieurs liens vers des articles/vidéos pertinents pour vous aider à d�
 
 **Reporting**
 
-* [ Création de types de rapports personnalisés avec  [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (si vous devez créer un rapport sur les champs de piste/contact/opportunité personnalisés)
+* [&#x200B; Création de types de rapports personnalisés avec  [!DNL Marketo Measure]](/help/marketo-measure-salesforce-reporting/new-report-types/creating-custom-marketo-measure-report-types.md) (si vous devez créer un rapport sur les champs de piste/contact/opportunité personnalisés)
 * [Glossaire des  [!DNL Marketo Measure] champs](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md)
 
 **Dépannage**

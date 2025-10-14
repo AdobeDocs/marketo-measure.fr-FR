@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Lors de la fusion de Leads dans [!DNL Salesforce], il est toujours préférable d’être prudent pour s’assurer qu’aucune donnée n’est perdue.
 
-À titre de référence, voici la ventilation de [How to Merge Leads](https://help.salesforce.com/s/articleView?id=leads_merge.htm&amp;language=en_US&amp;type=5) à partir de l’assistance [!DNL Salesforce].
+À titre de référence, voici la ventilation de [How to Merge Leads](https://help.salesforce.com/s/articleView?id=leads_merge.htm&language=en_US&type=5) à partir de l’assistance [!DNL Salesforce].
 
 [!DNL Marketo Measure] apparaît lorsqu’il est temps de sélectionner les champs qui se trouvent sur l’enregistrement fusionné. Lors de la sélection de l’enregistrement de Principal, vérifiez que les champs [!DNL Marketo Measure] sont sélectionnés pour être transférés vers le nouvel enregistrement.
 

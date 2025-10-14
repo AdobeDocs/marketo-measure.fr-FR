@@ -29,7 +29,7 @@ Deux nouveaux champs vous permettent d’améliorer vos fonctionnalités de repo
 
 ## Assistance et transition {#support-and-transition}
 
-L’ [ équipe d’assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} est disponible pour répondre à toutes les questions et vous aider à garantir une transition fluide vers le nouveau package consolidé.
+L’ [&#x200B; équipe d’assistance](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} est disponible pour répondre à toutes les questions et vous aider à garantir une transition fluide vers le nouveau package consolidé.
 
 ## Actions requises {#retired-actions}
 

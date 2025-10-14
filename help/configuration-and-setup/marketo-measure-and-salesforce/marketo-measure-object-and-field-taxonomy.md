@@ -19,7 +19,7 @@ Vous trouverez ci-dessous un diagramme de flux qui représente la façon dont [!
 
 Pour l&#39;image en taille réelle, [cliquez ici](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
-Les définitions des champs [!DNL Marketo Measure] qui vivent dans chaque objet [ se trouvent ici](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+Les définitions des champs [!DNL Marketo Measure] qui vivent dans chaque objet [&#x200B; se trouvent ici](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
 
 ## Questions fréquentes {#faq}
 

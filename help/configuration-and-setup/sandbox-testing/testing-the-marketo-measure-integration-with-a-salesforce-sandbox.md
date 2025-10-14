@@ -19,7 +19,7 @@ ht-degree: 10%
 
 L’une des fonctionnalités principales de [!DNL Marketo Measure] est sa capacité à suivre vos efforts de marketing numérique par le biais d’actions sur votre site web, puis à transmettre ces données à votre production [!DNL Salesforce org] par le biais de pistes et de contacts. Cependant, il n’existe généralement pas de pistes entrantes créées à partir de votre site web dans une intégration Sandbox. Par conséquent, l’accent mis sur les données sera uniquement mis hors ligne.
 
-Voici les deux sources référencées pour les deux phases du test. [Étapes 1-4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&amp;language=en_US&amp;type=5) et [Étapes 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Il est recommandé d’examiner ces documents, car ils fournissent davantage de détails dans certains domaines.
+Voici les deux sources référencées pour les deux phases du test. [Étapes 1-4](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5) et [Étapes 5-6](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md). Il est recommandé d’examiner ces documents, car ils fournissent davantage de détails dans certains domaines.
 
 1. Vous devez créer des pistes dans un fichier CSV afin de pouvoir les télécharger dans une campagne. Pour ce faire, exportez des pistes par le biais d’un rapport dans votre Salesforce de production. Dans le cas contraire, vous pouvez créer manuellement des pistes dans un fichier Excel, puis les enregistrer au format CSV pour importation. Vous n&#39;avez besoin que d&#39;environ 20 enregistrements. Le fichier doit contenir les colonnes suivantes :
 

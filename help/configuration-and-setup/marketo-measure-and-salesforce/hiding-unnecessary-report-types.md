@@ -29,4 +29,4 @@ Une fois votre installation terminée et que vous commencerez à utiliser les ra
 
 >[!MORELIKETHIS]
 >
->[Salesforce - Masquer les types de rapports inutilisés](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&amp;type=5&amp;language=en_us)
+>[Salesforce - Masquer les types de rapports inutilisés](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

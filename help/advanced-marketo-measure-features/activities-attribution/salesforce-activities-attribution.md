@@ -64,7 +64,7 @@ N’oubliez pas de définir des règles différentes pour les tâches ou les év
 
 ![](assets/5.png)
 
-Vous voudrez probablement placer ces nouveaux points de contact dans le [canal marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"} approprié. Pour ce faire, définissez le canal avec son nouveau mapping Campaign qui vient d&#39;être créé.
+Vous voudrez probablement placer ces nouveaux points de contact dans le [canal marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Channels.Online%20Channels){target="_blank"} approprié. Pour ce faire, définissez le canal avec son nouveau mapping Campaign qui vient d&#39;être créé.
 
 >[!TIP]
 >
@@ -87,7 +87,7 @@ Vous voudrez probablement placer ces nouveaux points de contact dans le [canal m
 
 ![](assets/6.png)
 
-Enfin et surtout, vous avez la possibilité de saisir les coûts de vos nouveaux canaux. Le [téléchargement de dépenses marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&amp;id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} vous permet de saisir vos dépenses au niveau du canal, du sous-canal ou de la campagne. Avec vos nouvelles campagnes [!DNL Marketo Measure], vous pouvez ajouter ces coûts associés par mois, puis voir le retour sur investissement de chaque campagne !
+Enfin et surtout, vous avez la possibilité de saisir les coûts de vos nouveaux canaux. Le [téléchargement de dépenses marketing](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} vous permet de saisir vos dépenses au niveau du canal, du sous-canal ou de la campagne. Avec vos nouvelles campagnes [!DNL Marketo Measure], vous pouvez ajouter ces coûts associés par mois, puis voir le retour sur investissement de chaque campagne !
 
 ![](assets/7.png)
 

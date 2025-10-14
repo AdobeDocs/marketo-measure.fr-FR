@@ -101,7 +101,7 @@ Google URL Builder est un outil standard permettant de créer des URL correcteme
 
 **Feuille de calcul Google générée par EpikOne**
 
-Cette feuille de calcul comporte une formule qui génère automatiquement des URL de destination balisées. Il s’agit d’un outil idéal à utiliser si un grand nombre de liens doivent être balisés. Accédez à la feuille de calcul [ici](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&amp;hl=en){target="_blank"}.
+Cette feuille de calcul comporte une formule qui génère automatiquement des URL de destination balisées. Il s’agit d’un outil idéal à utiliser si un grand nombre de liens doivent être balisés. Accédez à la feuille de calcul [ici](https://spreadsheets.google.com/ccc?key=p7c_HKcmspSUfEYSO0gskKw&hl=en){target="_blank"}.
 
 **Outil de balisage de lien Rafflecopter**
 

@@ -27,7 +27,7 @@ Ce jeu d’autorisations géré permet à un administrateur SFDC de créer, lire
 
 * Afficher et modifier le jeu d’autorisations de pistes converties
 
-Ces autorisations permettent à [!DNL Marketo Measure] de décorer les prospects après leur conversion en contacts. Si ce jeu d’autorisations n’est pas activé, il peut y avoir d’importants écarts de suivi des données. Vous trouverez plus d&#39;informations dans [[!DNL Salesforce Trailblazer] community](https://help.salesforce.com/s/articleView?language=en_US&amp;id=leads_view_edit_converted.htm&amp;type=5).
+Ces autorisations permettent à [!DNL Marketo Measure] de décorer les prospects après leur conversion en contacts. Si ce jeu d’autorisations n’est pas activé, il peut y avoir d’importants écarts de suivi des données. Vous trouverez plus d&#39;informations dans [[!DNL Salesforce Trailblazer] community](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
 
 * [!DNL Salesforce] Case à cocher des utilisateurs marketing
 

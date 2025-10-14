@@ -58,7 +58,7 @@ Cependant, si vous utilisez des domaines distincts ou internationaux, veillez à
 
 Si vous utilisez des pages tierces, discutez de votre cas d’utilisation avec votre consultant [!DNL Marketo Measure]. En général, vous devez savoir si vous pouvez ajouter une version personnalisée de [!DNL Marketo Measure] JavaScript pour effectuer le suivi de ces pages, le cas échéant. Si cela n&#39;est pas possible, le suivi via les points de contact de Campaign CRM sera exploré avec votre consultant [!DNL Marketo Measure].
 
-Avez-vous des formulaires qui ne doivent PAS être suivis par [!DNL Marketo Measure] car ils n’ont pas nécessairement de sens pour l’attribution (par exemple, les formulaires de désabonnement, les connexions client, etc.) ? Si c&#39;est le cas, vous souhaiterez ajouter le code d&#39;exclusion [ de cet article ](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} à chaque formulaire.
+Avez-vous des formulaires qui ne doivent PAS être suivis par [!DNL Marketo Measure] car ils n’ont pas nécessairement de sens pour l’attribution (par exemple, les formulaires de désabonnement, les connexions client, etc.) ? Si c&#39;est le cas, vous souhaiterez ajouter le code d&#39;exclusion [&#x200B; de cet article &#x200B;](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md){target="_blank"} à chaque formulaire.
 
 Avez-vous des pages non sécurisées ? Vous devez les sécuriser, car la navigation entre une page sécurisée/non sécurisée rompt la session de suivi.
 

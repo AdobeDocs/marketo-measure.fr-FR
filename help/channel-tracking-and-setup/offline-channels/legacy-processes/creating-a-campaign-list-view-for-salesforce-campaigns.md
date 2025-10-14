@@ -44,4 +44,4 @@ La vue Liste des campagnes qui peut être créée vous permet de disposer d’un
 
 >[!MORELIKETHIS]
 >
->[Résolution des problèmes courants liés à l’édition en mode Liste](http://help.salesforce.com/articleView?id=000003911&amp;language=en_US&amp;type=1){target="_blank"}
+>[Résolution des problèmes courants liés à l’édition en mode Liste](http://help.salesforce.com/articleView?id=000003911&language=en_US&type=1){target="_blank"}

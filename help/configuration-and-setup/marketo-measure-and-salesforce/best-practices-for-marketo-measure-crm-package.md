@@ -50,11 +50,11 @@ D’autres raisons peuvent déclencher une révision...
 
 >[!NOTE]
 >
->Lorsque vous désactivez Marketo Measure pour exporter des données vers Salesforce, aucune donnée existante n’est supprimée. Pour le supprimer, suivez les étapes de [cet article d’aide Salesforce](https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.c360_a_delete_data_stream_records.htm&amp;type=5){target="_blank"}.
+>Lorsque vous désactivez Marketo Measure pour exporter des données vers Salesforce, aucune donnée existante n’est supprimée. Pour le supprimer, suivez les étapes de [cet article d’aide Salesforce](https://help.salesforce.com/s/articleView?language=en_US&id=sf.c360_a_delete_data_stream_records.htm&type=5){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
 >* [Mettre à jour le package Buyer Touchpoint](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-salesforce-package-installation-and-set-up.md)
 >* [[!DNL Marketo Measure] Jeux d’autorisations](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
->* [Partage de dossiers Rapports et tableaux de bord](https://help.salesforce.com/s/articleView?language=en_US&amp;id=analytics_share_folder.htm&amp;type=0)
+>* [Partage de dossiers Rapports et tableaux de bord](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 >* [Connecter Marketo Measure à Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)
