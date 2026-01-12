@@ -65,7 +65,7 @@ Cependant, cette erreur est due au fait que si une session a été supprimée, m
 
 Quelques transformations ont été appliquées aux données dans [!DNL Tableau] depuis son état d’origine dans Snowflake. La plupart de ces transformations sont appliquées dans les requêtes SQL personnalisées qui génèrent les tableaux dans le modèle [!DNL Tableau]. Pour afficher la requête SQL personnalisée utilisée pour générer un tableau, cliquez avec le bouton droit sur le nom du tableau et sélectionnez « Modifier la requête SQL personnalisée ». Certaines des transformations spécifiques sont décrites ci-dessous.
 
-![Menu contextuel affichant l’option Modifier la requête SQL personnalisée ](assets/marketo-measure-report-template-tableau-4.png)
+![Menu contextuel affichant l’option Modifier la requête SQL personnalisée &#x200B;](assets/marketo-measure-report-template-tableau-4.png)
 
 ![Boîte de dialogue Éditeur de requêtes SQL personnalisé dans Tableau](assets/marketo-measure-report-template-tableau-5.png)
 

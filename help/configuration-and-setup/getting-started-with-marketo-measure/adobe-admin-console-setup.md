@@ -57,4 +57,4 @@ Lors de l’ajout d’un utilisateur ou d’une utilisatrice à son groupe respe
 
 Une fois qu’un utilisateur a été ajouté à un profil de produit, il peut accéder à ses instances [!DNL Marketo Measure] en sélectionnant l’option **Se connecter avec Adobe ID** à l’adresse [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
-Écran de connexion à ![Marketo Measure avec l’option Se connecter avec Adobe ID ](assets/adobe-admin-console-setup-3.png)
+Écran de connexion à ![Marketo Measure avec l’option Se connecter avec Adobe ID &#x200B;](assets/adobe-admin-console-setup-3.png)

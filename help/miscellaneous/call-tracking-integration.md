@@ -39,7 +39,7 @@ Le [!DNL BizibleId] est un champ qui est installé avec la version 6.7 ou ultér
 
 Vous trouverez ci-dessous un exemple d’enregistrement de tâche avec le [!DNL BizibleId] renseigné.
 
-![Exemple d’enregistrement de tâche Salesforce affichant le champ BizibleId renseigné avec la valeur ](assets/3.png)
+![Exemple d’enregistrement de tâche Salesforce affichant le champ BizibleId renseigné avec la valeur &#x200B;](assets/3.png)
 
 Lorsque [!DNL Marketo Measure] trouve un enregistrement de tâche avec une valeur de [!DNL BizibleId] connue renseigné, [!DNL Marketo Measure] pouvez mapper cet utilisateur à une session web avec le même [!DNL BizibleId] et attribuer cette session à un appel téléphonique plutôt qu’à une visite web.
 

@@ -152,7 +152,7 @@ Pour que [!DNL Marketo Measure] puisse suivre vos activités sur le web, plusieu
 
 1. Cliquez sur le menu déroulant **[!UICONTROL Mon compte]** et sélectionnez **[!UICONTROL Configuration du compte]**.
 
-   ![Liste déroulante Mon compte avec l’option Configuration du compte ](assets/microsoft-dynamics-crm-installation-guide-23.png)
+   ![Liste déroulante Mon compte avec l’option Configuration du compte &#x200B;](assets/microsoft-dynamics-crm-installation-guide-23.png)
 
 1. Saisissez votre numéro de téléphone. Pour Site web, entrez votre domaine racine principal qui est utilisé pour le suivi de [!DNL Marketo Measure] sur votre site web. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé.
 

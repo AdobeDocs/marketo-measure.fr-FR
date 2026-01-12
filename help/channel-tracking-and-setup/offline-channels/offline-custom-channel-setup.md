@@ -21,7 +21,7 @@ La feuille de calcul comporte trois colonnes :
 
 ![Modèle de feuille de calcul affichant trois colonnes pour le type de campagne Salesforce, le canal et le sous-canal](assets/1-2.png)
 
-**[!UICONTROL Salesforce ] type de campagne** - ajoutez les types de campagne identifiés dans [!DNL Salesforce] ici
+**[!UICONTROL Salesforce &#x200B;] type de campagne** - ajoutez les types de campagne identifiés dans [!DNL Salesforce] ici
 
 * Il peut s’agir, par exemple, d’un e-mail, d’un webinaire, d’une conférence ou de toute autre valeur que vous avez créée pour ce champ auquel vous souhaitez attribuer des points de contact.
 
@@ -35,7 +35,7 @@ La feuille de calcul comporte trois colonnes :
 
 Les types de campagne SFDC apparaissent dans l’onglet Canal hors ligne , répertoriés sous Type de campagne [!DNL Salesforce]. Notez que [!DNL Marketo Measure] ne peut importer des types de campagne SFDC que pour les campagnes auxquelles des points de contact Acheteur sont associés.
 
-![ Onglet Canaux hors ligne affichant la liste Type de campagne Salesforce ](assets/2-2.png)
+![&#x200B; Onglet Canaux hors ligne affichant la liste Type de campagne Salesforce &#x200B;](assets/2-2.png)
 
 C’est là que vous pouvez créer le mappage Canal/Sous-canal dans l’application [!DNL Marketo Measure]. Cela impliquera probablement la création de nouveaux canaux et sous-canaux dans l’application [!DNL Marketo Measure], ce qui est fait dans la section Créer des canaux de l’application, comme illustré dans l’image ci-dessous. De nouveaux canaux et sous-canaux doivent être créés pour que les [!DNL Marketo Measure] puissent comprendre où transmettre les points de contact. Vous pouvez décider de la manière dont vous souhaitez mapper les types de campagne.
 
@@ -76,7 +76,7 @@ Une fois que vous avez modifié et mis à jour la feuille de calcul avec vos rè
 ![Interface des canaux hors ligne avec des zones de liste de sélection pour saisir les règles de mappage des canaux](assets/7-2.png)
 
 >[!TIP]
->Vous souhaitez déterminer _quand_ un type de campagne [!DNL Salesforce] est extrait dans [!DNL Marketo Measure] mappage de canal ? Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir quelles valeurs se trouvent dans la liste de sélection et lesquelles sont inactives. Les canaux inactifs ne s’affichent pas en tant que type sélectionnable dans notre section « [!UICONTROL  Canaux hors ligne ] ». Notez que ce processus peut prendre de quelques minutes à 48 heures.
+>Vous souhaitez déterminer _quand_ un type de campagne [!DNL Salesforce] est extrait dans [!DNL Marketo Measure] mappage de canal ? Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir quelles valeurs se trouvent dans la liste de sélection et lesquelles sont inactives. Les canaux inactifs ne s’affichent pas en tant que type sélectionnable dans notre section « [!UICONTROL &#x200B; Canaux hors ligne &#x200B;] ». Notez que ce processus peut prendre de quelques minutes à 48 heures.
 
 Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé. [!DNL Marketo Measure] chargerez les modifications et retraiterez les données.
 

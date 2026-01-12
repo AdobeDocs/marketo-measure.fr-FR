@@ -73,7 +73,7 @@ Il existe deux modèles de tracking que [!DNL Marketo Measure] recommande d’ut
 
 1. Cliquez sur **[!UICONTROL Toutes les campagnes]** puis sur **[!UICONTROL Campagnes]** dans la fenêtre en expansion.
 
-   Navigation dans ![Google AdWords affichant le menu Toutes les campagnes avec l’option Campagnes ](assets/3.png)
+   Navigation dans ![Google AdWords affichant le menu Toutes les campagnes avec l’option Campagnes &#x200B;](assets/3.png)
 
 1. Sélectionnez toutes les campagnes applicables ou **[!UICONTROL Tout sélectionner]**, cliquez sur **[!UICONTROL Modifier]**, puis sur **[!UICONTROL Modifier les modèles de suivi]**.
 

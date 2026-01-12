@@ -17,16 +17,16 @@ Découvrez comment activer l’autorisation de modification des enregistrements 
 
 1. Accédez à [!UICONTROL Configuration] et développez le regroupement [!UICONTROL Gérer les utilisateurs] pour sélectionner Profils.
 
-   ![ 2](assets/1-2.png)
+   ![&#x200B; 2](assets/1-2.png)
 
 1. Sélectionnez le profil de l’utilisateur avec lequel nous sommes connectés.
 
 1. Recherchez l’autorisation d’afficher et de modifier les prospects convertis.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. Cochez la case pour autoriser l’affichage et la modification des prospects convertis.
 
-   ![ 1](assets/3-1.png)
+   ![&#x200B; 1](assets/3-1.png)
 
 Et c&#39;est fini !

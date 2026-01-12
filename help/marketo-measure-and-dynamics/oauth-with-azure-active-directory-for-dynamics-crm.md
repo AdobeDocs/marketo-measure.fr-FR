@@ -69,7 +69,7 @@ Cette configuration est destinée aux nouveaux clients [!DNL Marketo Measure] qu
 
 1. Dans l’onglet Autorisations , cliquez sur **[!UICONTROL Accorder le consentement administrateur pour (nom de l’instance)]**.
 
-   ![ Onglet Autorisations avec le bouton Accorder le consentement administrateur ](assets/setup-13a.png)
+   ![&#x200B; Onglet Autorisations avec le bouton Accorder le consentement administrateur &#x200B;](assets/setup-13a.png)
 
 1. Cliquez sur **[!UICONTROL Accepter]**.
 

@@ -61,7 +61,7 @@ Vous pouvez accéder à cette limite dans Marketo Measure via : **Mon compte** >
 
 1. Saisissez une limite souhaitée égale ou supérieure à 100 000. Cliquez sur **Enregistrer** lorsque vous avez terminé.
 
-   ![ Champ d’entrée de limite quotidienne de l’API CRM avec valeur saisie et bouton Enregistrer ](assets/connect-marketo-measure-to-salesforce-6.png)
+   ![&#x200B; Champ d’entrée de limite quotidienne de l’API CRM avec valeur saisie et bouton Enregistrer &#x200B;](assets/connect-marketo-measure-to-salesforce-6.png)
 
 >[!NOTE]
 >Pour augmenter les crédits d’API Salesforce disponibles pour votre solution connectée, contactez votre administrateur Salesforce et référencez [ce document Salesforce](https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm){target="_blank"}.

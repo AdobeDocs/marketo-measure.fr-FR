@@ -33,7 +33,7 @@ En ce qui concerne la configuration, l’application [!DNL Marketo Measure] comp
    >La personne qui connecte le compte [!DNL Facebook Ads] doit être un administrateur au sein du compte [!DNL Facebook Ads].
 
 1. Une fois [!DNL Marketo Measure] connecté à votre compte Facebook, cliquez sur l’icône en forme de crayon en regard du compte.
-1. Dans cette vue, déplacez le « Balisage automatique ? » Basculez sur « Oui ». Cochez ensuite la case située dans la section [!UICONTROL  En savoir plus ] pour accepter les conditions générales. Assurez-vous que le bouton (bascule) [!UICONTROL Balisage automatique] est toujours défini sur « [!UICONTROL Oui] ».
+1. Dans cette vue, déplacez le « Balisage automatique ? » Basculez sur « Oui ». Cochez ensuite la case située dans la section [!UICONTROL &#x200B; En savoir plus &#x200B;] pour accepter les conditions générales. Assurez-vous que le bouton (bascule) [!UICONTROL Balisage automatique] est toujours défini sur « [!UICONTROL Oui] ».
 
 ## Connexion au compte {#connecting-the-account}
 
@@ -44,7 +44,7 @@ En ce qui concerne la configuration, l’application [!DNL Marketo Measure] comp
 >[!NOTE]
 >Si vous activez le balisage automatique, nous réinitialiserons l’historique des conversions et le BAT des réseaux sociaux de toutes les publicités que nous balisons. Nous vous recommandons vivement d’[exporter ces données au format CSV](https://www.facebook.com/business/help/205067636197240) avant d’activer le balisage automatique.
 
-![ 2](assets/2-2.png)
+![&#x200B; 2](assets/2-2.png)
 
 Une fois que vous avez activé l’intégration, [!DNL Marketo Measure] commencerez à télécharger le coût au niveau des annonces dans le tableau de bord [!DNL Marketo Measure Marketing ROI].
 

@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Vous trouverez ci-dessous un organigramme qui représente [!DNL Marketo Measure] relation entre les objets personnalisés et les objets standard [!DNL Salesforce].
 
-![ 2](assets/1-2.png)
+![&#x200B; 2](assets/1-2.png)
 
 Pour l’image en taille réelle, [cliquez ici](assets/bizible-object-and-field-taxonomy-graph-full.png).
 

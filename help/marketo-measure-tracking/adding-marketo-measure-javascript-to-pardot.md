@@ -25,11 +25,11 @@ Une fois la connexion à votre compte [!DNL Pardot] effectuée, procédez comme 
 
 1. Sélectionnez **[!UICONTROL Modèle de mise en page]**.
 
-   ![ 3](assets/1-3.png)
+   ![&#x200B; 3](assets/1-3.png)
 
 1. Déterminez le modèle de mise en page approprié et cliquez sur **[!UICONTROL Modifier]** à droite.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
 1. Copiez et collez le code JavaScript [!DNL Marketo Measure] juste avant la balise d’en-tête close sur votre page HTML.
 

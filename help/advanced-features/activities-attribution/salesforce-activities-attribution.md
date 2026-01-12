@@ -78,7 +78,7 @@ Vous souhaiterez probablement placer ces nouveaux points de contact dans leur [c
 
 ![Page de configuration du canal marketing présentant le mappage de la campagne avec les options d’opérateur de caractères génériques](assets/6.png)
 
-Enfin et surtout, vous avez la possibilité de saisir les coûts de vos nouveaux canaux. Le [ Chargement des dépenses marketing ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} vous permet de saisir vos dépenses au niveau du canal, du sous-canal ou de la campagne. Avec vos nouvelles campagnes [!DNL Marketo Measure], vous pouvez ajouter ces coûts associés par mois, puis afficher le retour sur investissement de chaque campagne.
+Enfin et surtout, vous avez la possibilité de saisir les coûts de vos nouveaux canaux. Le [&#x200B; Chargement des dépenses marketing &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} vous permet de saisir vos dépenses au niveau du canal, du sous-canal ou de la campagne. Avec vos nouvelles campagnes [!DNL Marketo Measure], vous pouvez ajouter ces coûts associés par mois, puis afficher le retour sur investissement de chaque campagne.
 
 ![Interface de chargement des dépenses marketing pour saisir les coûts de canal par mois avec le suivi du retour sur investissement](assets/7.png)
 

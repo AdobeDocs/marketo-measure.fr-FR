@@ -19,4 +19,4 @@ Ajoutez les sections de tests A/B [!DNL Marketo Measure] sur les pages Prospect
 1. Ajoutez la liste associée « [!DNL Marketo Measure] ABTests » à vos mises en page, puis cliquez sur le bouton **Paramètres** (clé à molette).
 1. Supprimer le champ « Id » du stock de la liste des champs sélectionnés. Ajoutez les champs [!UICONTROL Expérience], [!UICONTROL Variation] et [!UICONTROL DateReported] et remplacez « Trier par » par « Date de rapport ». Cliquez sur le bouton **[!UICONTROL Descendant]**.
 1. Sous « [!UICONTROL Boutons] », décochez **[!UICONTROL Nouveau]**.
-1. Contactez votre représentant de compte ou l’assistance Marketo [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour activer la fonctionnalité.
+1. Contactez votre représentant de compte ou l’assistance Marketo [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour activer la fonctionnalité.

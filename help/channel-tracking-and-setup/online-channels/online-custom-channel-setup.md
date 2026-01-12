@@ -32,7 +32,7 @@ Points à retenir :
 
 La première étape consiste à télécharger la feuille de calcul de canal personnalisé dans l’application [!DNL Marketo Measure]. Accédez aux **Paramètres** sous l’onglet **Mon compte**, puis sélectionnez **En ligne**. Vous pouvez **télécharger le modèle d’origine** ou **télécharger les règles actuelles**.
 
-![Page des paramètres présentant la configuration du canal en ligne avec les options Télécharger le modèle d’origine et Télécharger les règles actuelles ](assets/1.png)
+![Page des paramètres présentant la configuration du canal en ligne avec les options Télécharger le modèle d’origine et Télécharger les règles actuelles &#x200B;](assets/1.png)
 
 La feuille de calcul comporte sept colonnes :
 

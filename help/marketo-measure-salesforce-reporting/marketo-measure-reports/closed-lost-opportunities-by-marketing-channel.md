@@ -39,7 +39,7 @@ Bien que ce rapport puisse dépendre de vos étapes d’opportunité, il dévoil
 
 1. De là, vous sélectionnerez la loupe pour choisir la ou les étapes que vous utilisez pour les opportunités « Fermées et perdues ». Dans notre cas, nous utiliserons le nom standard « Fermé et perdu ».
 
-   ![Sélecteur de filtre d’étape affichant l’option de sélection d’étape Fermée et perdue ](assets/7.jpg)
+   ![Sélecteur de filtre d’étape affichant l’option de sélection d’étape Fermée et perdue &#x200B;](assets/7.jpg)
 
 1. Maintenant, allez-y et exécutez le rapport !
 

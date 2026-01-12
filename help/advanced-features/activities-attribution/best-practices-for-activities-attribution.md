@@ -52,4 +52,4 @@ Autres raisons de déclencher une révision de vos règles d’activité :
 
 >[!MORELIKETHIS]
 > [Attribution des activités](/help/advanced-features/activities-attribution/salesforce-activities-attribution.md)
-> [FAQ sur l’attribution des activités de vente ](/help/advanced-features/activities-attribution/activities-attribution-faq.md)
+> [FAQ sur l’attribution des activités de vente &#x200B;](/help/advanced-features/activities-attribution/activities-attribution-faq.md)

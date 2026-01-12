@@ -25,7 +25,7 @@ Une fois l’installation terminée et que vous commencez à utiliser les rappor
 
 1. Cliquez sur les rapports marqués d’un X orange pour que votre liste de rapports ressemble à l’image ci-dessous.
 
-   ![ 4](assets/1-4.png)
+   ![&#x200B; 4](assets/1-4.png)
 
 >[!MORELIKETHIS]
 >[Salesforce - Masquer Les Types De Rapports Inutilisés](https://help.salesforce.com/articleView?id=release-notes.rn_analytics_hide_report_types.htm&type=5&language=en_us)

@@ -36,7 +36,7 @@ Les étapes suivantes s’adressent aux utilisateurs de Salesforce Lightning. Si
 
 1. Sélectionnez **[!UICONTROL Flux déclenché par l’enregistrement]** et cliquez sur **[!UICONTROL Créer]** en bas à droite.
 
-   ![Sélection du type de flux avec l’option Flux déclenché par l’enregistrement ](assets/using-a-custom-revenue-amount-field-2.png)
+   ![Sélection du type de flux avec l’option Flux déclenché par l’enregistrement &#x200B;](assets/using-a-custom-revenue-amount-field-2.png)
 
 1. Dans la fenêtre Configurer le démarrage , sélectionnez l’objet Opportunité . Dans la section [!UICONTROL Configurer le déclencheur], sélectionnez **[!UICONTROL Un enregistrement est créé ou mis à jour]**.
 
@@ -55,7 +55,7 @@ Les étapes suivantes s’adressent aux utilisateurs de Salesforce Lightning. Si
 
 1. Pour ajouter l’élément, cliquez sur l’icône plus (+) et sélectionnez **[!UICONTROL Mettre à jour l’enregistrement de déclenchement]**.
 
-   ![Menu d’élément de flux avec l’option Mettre à jour le déclenchement de l’enregistrement ](assets/using-a-custom-revenue-amount-field-6.png)
+   ![Menu d’élément de flux avec l’option Mettre à jour le déclenchement de l’enregistrement &#x200B;](assets/using-a-custom-revenue-amount-field-6.png)
 
 1. Dans la fenêtre Nouvelle mise à jour des enregistrements , saisissez les informations suivantes :
 
@@ -69,7 +69,7 @@ Les étapes suivantes s’adressent aux utilisateurs de Salesforce Lightning. Si
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Un pop-up s’affiche. Saisissez « Libellé de flux » dans la fenêtre Enregistrer le flux (le nom de l’API de flux sera généré automatiquement). Cliquez de nouveau sur **[!UICONTROL Enregistrer]**.
 
-   ![ Enregistrer la boîte de dialogue Flux avec le champ de libellé ](assets/using-a-custom-revenue-amount-field-8.png)
+   ![&#x200B; Enregistrer la boîte de dialogue Flux avec le champ de libellé &#x200B;](assets/using-a-custom-revenue-amount-field-8.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Activer]** pour activer le flux.
 

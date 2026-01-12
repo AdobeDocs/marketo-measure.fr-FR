@@ -34,7 +34,7 @@ Commencez par ajouter une règle et par sélectionner le champ qui définira vos
 
 Faites votre choix dans une liste d’opérateurs qui se rapportent au prochain ensemble de valeurs, que vous ajouterez dans la colonne suivante.
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 >[!TIP]
 >Pour ajouter plusieurs valeurs dans un champ, utilisez l’opérateur « correspond à n’importe quelle » avec des virgules séparant chaque valeur.
@@ -62,7 +62,7 @@ Si vous faites une erreur, ne vous inquiétez pas. Vous pouvez également suppri
 
 ![Configuration des règles de suppression des points de contact d’attribution de l’acheteur](assets/5.png)
 
-Pour terminer, [!UICONTROL  Enregistrer et traiter ] vos règles. Si vous apportez de nombreuses modifications, veillez à les enregistrer au fur et à mesure. [!DNL Marketo Measure] ne commencera pas réellement à supprimer vos points de contact avant que vous ne cliquiez
+Pour terminer, [!UICONTROL &#x200B; Enregistrer et traiter &#x200B;] vos règles. Si vous apportez de nombreuses modifications, veillez à les enregistrer au fur et à mesure. [!DNL Marketo Measure] ne commencera pas réellement à supprimer vos points de contact avant que vous ne cliquiez
 [!UICONTROL **Enregistrer et traiter**].
 
 | Opérateur | Exemple d’utilisation |

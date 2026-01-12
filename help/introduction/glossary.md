@@ -305,7 +305,7 @@ Ce champ vous présente le groupe général d’activités marketing ou le canal
 
 Ce champ affiche le canal marketing et le sous-canal auquel appartient un point de contact. Dans l’exemple ci-dessous, la valeur est Social.Linkedin, où le canal marketing est Social, et le sous-canal est LinkedIn.
 
-![ 3](assets/1-3.png)
+![&#x200B; 3](assets/1-3.png)
 
 **Support** | Point de contact acheteur, point de contact d’attribution acheteur
 

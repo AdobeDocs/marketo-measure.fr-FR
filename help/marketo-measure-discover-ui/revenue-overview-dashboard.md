@@ -61,4 +61,4 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 >[!MORELIKETHIS]
 > [Bases du tableau de bord Discover](/help/marketo-measure-discover-ui/discover-dashboard-basics.md){target="_blank"}
-> [Politique de visibilité des données du tableau de bord ](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}
+> [Politique de visibilité des données du tableau de bord &#x200B;](/help/marketo-measure-discover-ui/dashboard-data-visibility-policy.md){target="_blank"}

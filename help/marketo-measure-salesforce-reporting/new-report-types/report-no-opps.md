@@ -20,7 +20,7 @@ Pour générer des rapports sur les contacts avec des points de contact acheteur
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Créer]** > **[!UICONTROL Types de rapports]**.
 
-   ![Page Types de rapports dans la configuration de Salesforce ](assets/1.jpg)
+   ![Page Types de rapports dans la configuration de Salesforce &#x200B;](assets/1.jpg)
 
 1. Sélectionnez **[!UICONTROL Nouveau type de rapport personnalisé]**.
 

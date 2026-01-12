@@ -20,11 +20,11 @@ Créez un nouveau type de rapport pour inclure toutes les opportunités avec ou 
 
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Créer]** > **[!UICONTROL Types de rapports]**.
 
-   ![ 1](assets/1-1.jpg)
+   ![&#x200B; 1](assets/1-1.jpg)
 
 1. Sélectionnez **[!UICONTROL Nouveau type de rapport personnalisé]**.
 
-   ![ 1](assets/2-1.jpg)
+   ![&#x200B; 1](assets/2-1.jpg)
 
 1. Définissez l’objet de Principal en tant qu’« [!UICONTROL Opportunités] ».
 
@@ -32,11 +32,11 @@ Créez un nouveau type de rapport pour inclure toutes les opportunités avec ou 
    * Utilisez le même nom pour le nom du type de rapport. Dans l’entrée de description, « Opportunités avec ou sans points de contact d’attribution de l’acheteur ».
    * Enregistrez le rapport dans la « [!UICONTROL Autre] » et définissez-le sur « [!UICONTROL Déployé] ».
 
-   ![ 1](assets/3-1.jpg)
+   ![&#x200B; 1](assets/3-1.jpg)
 
 1. De là, vous lierez l’objet Opportunités à l’objet Points de contact d’attribution de l’acheteur. Assurez-vous de choisir le bouton « Les enregistrements &#39;A&#39; peuvent avoir ou non des enregistrements &#39;B&#39; associés. » Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé.
 
-   ![ 1](assets/4-1.jpg)
+   ![&#x200B; 1](assets/4-1.jpg)
 
 >[!MORELIKETHIS]
 >[[!DNL Marketo Measure] Tutoriels : rapports SFDC supplémentaires](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

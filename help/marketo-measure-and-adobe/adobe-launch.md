@@ -21,7 +21,7 @@ Une fois installée et configurée dans Adobe Launch, l’extension [!DNL Market
 
 >[!PREREQUISITES]
 >Consultez les liens suivants pour en savoir plus sur Adobe Launch et ses extensions :
-> [[!DNL Marketo Measure] Extension ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
+> [[!DNL Marketo Measure] Extension &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
 > [Présentation d’Adobe Launch](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=fr){target="_blank"}
 > [Présentation de l’extension Adobe Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
@@ -41,7 +41,7 @@ Une fois installée et configurée dans Adobe Launch, l’extension [!DNL Market
 
 1. Dans le volet [!UICONTROL Analyses Bizible], cliquez sur **[!UICONTROL Installer]**.
 
-   ![ Mosaïque d’extension Bizible Analytics avec bouton Installer ](assets/marketo-measure-integrations-4.png)
+   ![&#x200B; Mosaïque d’extension Bizible Analytics avec bouton Installer &#x200B;](assets/marketo-measure-integrations-4.png)
 
 1. Dans le champ ID de compte Bizible, saisissez l’URL de votre site Web (par exemple, `adobe.com`).
 
@@ -61,7 +61,7 @@ Une fois installée et configurée dans Adobe Launch, l’extension [!DNL Market
 
 1. Dans la liste déroulante Extension , sélectionnez **[!UICONTROL Core]**. Ensuite, dans le menu déroulant Type d’événement , sélectionnez **[!UICONTROL Bibliothèque chargée (haut de page)]**. Si vous ne donnez pas de nom à votre événement, un nom par défaut est appliqué. Cliquez sur **[!UICONTROL Conserver les modifications]** lorsque vous avez terminé.
 
-   ![ Boîte de dialogue de configuration d’événement avec l’extension Core et le type d’événement Library Loaded (Bibliothèque chargée)](assets/marketo-measure-integrations-9.png)
+   ![&#x200B; Boîte de dialogue de configuration d’événement avec l’extension Core et le type d’événement Library Loaded (Bibliothèque chargée)](assets/marketo-measure-integrations-9.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]** sous Actions.
 

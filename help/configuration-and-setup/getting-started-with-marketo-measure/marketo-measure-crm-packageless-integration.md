@@ -35,7 +35,7 @@ Dans les guides ci-dessous, ignorez les étapes pour installer le package [!DNL 
 
 [!DNL Microsoft Dynamics] clients cliquent [ici](/help/marketo-measure-and-dynamics/microsoft-dynamics-crm-installation-guide.md).
 
-Une fois ces étapes terminées, l’intégration doit être opérationnelle. Si vous rencontrez des problèmes, contactez votre représentant [!DNL Marketo Measure] ou l’assistance Marketo [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Une fois ces étapes terminées, l’intégration doit être opérationnelle. Si vous rencontrez des problèmes, contactez votre représentant [!DNL Marketo Measure] ou l’assistance Marketo [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!NOTE]
 >Si vous commencez avec l’intégration sans package [!DNL Marketo Measure] CRM, vous pourrez installer le package Salesforce ou la solution gérée Microsoft Dynamics ultérieurement.

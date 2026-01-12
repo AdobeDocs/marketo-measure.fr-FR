@@ -46,7 +46,7 @@ Recherchez des articles d’assistance, envoyez des tickets, donnez votre avis, 
 
 Les personnes ayant accès à plusieurs produits Adobe peuvent facilement basculer entre eux.
 
-![ Sélecteur d’applications affichant les produits Adobe disponibles](assets/unified-shell-overview-7.png)
+![&#x200B; Sélecteur d’applications affichant les produits Adobe disponibles](assets/unified-shell-overview-7.png)
 
 **Notifications et annonces**
 

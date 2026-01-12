@@ -68,6 +68,6 @@ D’autres raisons qui peuvent déclencher une révision de votre modèle person
 * Affichage des positions de point de contact renseignées qui ne sont plus pertinentes pour votre organisation funnel
 
 >[!MORELIKETHIS]
-> [ Modèle et configuration d’attribution personnalisés ](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+> [&#x200B; Modèle et configuration d’attribution personnalisés &#x200B;](/help/advanced-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 > [Activez Le Suivi De L’Historique Des Champs Pour Le Modèle Personnalisé](/help/advanced-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
-> [Modèle de machine learning ](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)
+> [Modèle de machine learning &#x200B;](/help/advanced-features/custom-attribution-models/machine-learning-model-faq.md)

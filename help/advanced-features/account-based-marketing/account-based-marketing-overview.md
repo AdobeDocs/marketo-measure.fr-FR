@@ -76,7 +76,7 @@ Pour commencer à utiliser le SEP, vous devez ajouter le champ SEP et la liste a
 1. Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Personnaliser]** > **[!UICONTROL Comptes]** > **[!UICONTROL Disposition de page]**. Sélectionnez ensuite la disposition de page que vous souhaitez modifier.
 1. Accédez à [!UICONTROL Champs] et déplacez le champ « Score d’engagement prédictif » dans la section Informations du compte.
 
-   ![ Mise en page Compte affichant le champ Score prédictif de l’engagement ](assets/1.png)
+   ![&#x200B; Mise en page Compte affichant le champ Score prédictif de l’engagement &#x200B;](assets/1.png)
 
 1. Enfin, accédez à [!UICONTROL Listes associées] et déplacez la liste associée « Prospects » dans votre mise en page.
 
@@ -85,7 +85,7 @@ Pour commencer à utiliser le SEP, vous devez ajouter le champ SEP et la liste a
 1. Ensuite, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Personnaliser]** > **[!UICONTROL Prospect]** > **[!UICONTROL Mise de page]** et sélectionnez les mises en page appropriées que vous souhaitez modifier.
 1. Cliquez sur **[!UICONTROL Champs]** et ajoutez le champ [!UICONTROL Compte] à l’endroit qui vous convient sur la page.
 
-   ![Disposition Page de prospect avec ajout d’un champ Compte ](assets/3.png)
+   ![Disposition Page de prospect avec ajout d’un champ Compte &#x200B;](assets/3.png)
 
 Tout est prêt !
 

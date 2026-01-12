@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Si vous utilisez actuellement [!DNL Uberflip] pour gérer votre contenu, il est important de prendre les mesures nécessaires pour vous assurer que [!DNL Marketo Measure] effectue le suivi de ces envois de formulaire. Votre Responsable Succès chez [!DNL Uberflip] devrait également pouvoir vous aider à cet égard.
 
-1. Ajoutez ce script à la section [!DNL Uberflip]Custom Code>HTML[!UICONTROL  de ].
+1. Ajoutez ce script à la section [!DNL Uberflip]Custom Code>HTML[!UICONTROL &#x200B; de &#x200B;].
 
    `<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>`
 

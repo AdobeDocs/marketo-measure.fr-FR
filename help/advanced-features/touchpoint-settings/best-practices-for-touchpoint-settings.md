@@ -57,6 +57,6 @@ Les raisons pour lesquelles vérifier vos paramètres [!UICONTROL Point de conta
 
 >[!MORELIKETHIS]
 > [Présentation de la suppression des points de contact](/help/advanced-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
-> [Pourquoi les points de contact ne doivent jamais être supprimés ](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+> [Pourquoi les points de contact ne doivent jamais être supprimés &#x200B;](/help/advanced-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
 > [Points de contact de l’acheteur (BT) par rapport aux points de contact d’attribution de l’acheteur (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/touchpoint-differences.md)
 

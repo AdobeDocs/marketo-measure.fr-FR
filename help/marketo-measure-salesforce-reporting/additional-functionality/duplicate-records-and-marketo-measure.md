@@ -22,7 +22,7 @@ ht-degree: 12%
 
 _Exemple de rapport : [!DNL Marketo Measure] de personnes avec des points de contact d’acheteur._
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 Vous pouvez voir pour l’ID de personne [!DNL Marketo Measure] de kelsey@adobe.com qu’il existe à la fois un prospect et un contact avec cette adresse e-mail. Dans ce rapport, deux premiers contacts ont été signalés, deux contacts de création de leads et deux interactions PostLC ont été signalées. Ces enregistrements en double partagent des informations de date et de point de contact qui pourraient conduire à la conclusion qu’il s’agit de deux personnes différentes bien qu’elles soient la même personne.
 

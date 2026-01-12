@@ -27,7 +27,7 @@ Pour accéder aux jeux d’autorisations et les attribuer dans Salesforce :
 1. Cliquez sur **[!UICONTROL Gérer les affectations]**, puis sur **[!UICONTROL Ajouter des affectations]**.
 1. Sélectionnez les utilisateurs pour le jeu d’autorisations et cliquez sur **[!UICONTROL Attribuer]**.
 
-   ![ 5](assets/1-5.png)
+   ![&#x200B; 5](assets/1-5.png)
 
 ## Explication des jeux d’autorisations [!DNL Marketo Measure] {#marketo-measure-permission-sets-explained}
 
@@ -35,7 +35,7 @@ Pour accéder aux jeux d’autorisations et les attribuer dans Salesforce :
  <tbody>
   <tr>
    <td><span><strong>[!DNL Marketo Measure] Administrateur</strong></span></td>
-   <td><span>Permet à un administrateur SFDC de créer, lire, écrire et supprimer des enregistrements des objets [!DNL Marketo Measure]. Ce jeu d’autorisations doit être activé pour la licence sous laquelle [!DNL Marketo Measure] transmet des données à SFDC. En outre, il est recommandé que cette licence ait la possibilité de modifier les prospects convertis dans les scénarios où le prospect est converti avant d’appliquer [!DNL Marketo Measure] données à l’enregistrement. Cela garantit la précision des rapports entre Salesforce et [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">En savoir plus ici</a>.</span></td>
+   <td><span>Permet à un administrateur SFDC de créer, lire, écrire et supprimer des enregistrements des objets [!DNL Marketo Measure]. Ce jeu d’autorisations doit être activé pour la licence sous laquelle [!DNL Marketo Measure] transmet des données à SFDC. En outre, il est recommandé que cette licence ait la possibilité de modifier les prospects convertis dans les scénarios où le prospect est converti avant d’appliquer [!DNL Marketo Measure] données à l’enregistrement. Cela garantit la précision des rapports entre Salesforce et [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&type=5&release=206&language=en_us">En savoir plus ici</a>.</span></td>
   </tr>
   <tr>
    <td><span><strong>[!DNL Marketo Measure] Utilisateur marketing</strong></span></td>

@@ -42,7 +42,7 @@ Pour installer le package de base [!DNL Marketo Measure Salesforce], suivez les 
 
    ![Page des détails du package Marketo Measure installé dans Salesforce](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-Une fois l’installation terminée, vous pouvez mettre à jour vos dispositions de page [[!DNL Salesforce] ](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} avec les champs [!DNL Marketo Measure], si vous le souhaitez.
+Une fois l’installation terminée, vous pouvez mettre à jour vos dispositions de page [[!DNL Salesforce] &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} avec les champs [!DNL Marketo Measure], si vous le souhaitez.
 
 >[!NOTE]
 >Apprenez-en plus sur les jeux d’autorisations [!DNL Marketo Measure] créés et [la façon dont ils sont utilisés](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md){target="_blank"}.

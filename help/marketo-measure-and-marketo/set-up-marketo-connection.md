@@ -21,7 +21,7 @@ Voici comment configurer votre connexion à Marketo.
 
 1. Dans [!DNL Marketo Measure], cliquez sur la liste déroulante **[!UICONTROL Mon compte]** et sélectionnez **[!UICONTROL Paramètres]**.
 
-   ![Menu déroulant Mon compte de Marketo Measure avec l’option Paramètres ](assets/set-up-marketo-connection-1.png)
+   ![Menu déroulant Mon compte de Marketo Measure avec l’option Paramètres &#x200B;](assets/set-up-marketo-connection-1.png)
 
 1. Sous [!UICONTROL Intégrations], cliquez sur **[!UICONTROL Connexions]**.
 

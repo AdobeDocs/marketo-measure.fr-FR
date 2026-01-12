@@ -81,7 +81,7 @@ Accédez au menu **[!UICONTROL Mon compte]**, cliquez sur **[!UICONTROL Paramèt
 
 **Étape 2 : télécharger le fichier CSV des coûts actuels**
 
-Accédez à la droite de l’écran et cliquez sur **[!UICONTROL Télécharger les coûts actuels ].** Cette option permet de télécharger une feuille de calcul au format CSV.
+Accédez à la droite de l’écran et cliquez sur **[!UICONTROL Télécharger les coûts actuels &#x200B;].** Cette option permet de télécharger une feuille de calcul au format CSV.
 
 ![Option Télécharger les coûts actuels sur la page Dépenses marketing](assets/2.png)
 

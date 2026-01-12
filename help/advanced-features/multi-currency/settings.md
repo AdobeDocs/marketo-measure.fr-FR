@@ -21,4 +21,4 @@ Deux bits de fonctionnalité distincts sont liés à cette fonctionnalité et se
 
 Sous votre [!UICONTROL Paramètres utilisateur] dans l&#39;application [!DNL Marketo Measure], nous afficherons la devise de l&#39;entreprise et toutes les devises prises en charge extraites du CRM. Comme ces valeurs sont toutes extraites du CRM, ces champs sont en lecture seule et ne peuvent pas être modifiés. La devise du tableau de bord est votre devise par défaut pour chaque chargement de tableau de bord. Vous pouvez revenir et modifier la devise selon vos besoins.
 
-![ Devises ](assets/one-1.png)
+![&#x200B; Devises &#x200B;](assets/one-1.png)

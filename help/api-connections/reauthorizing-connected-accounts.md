@@ -19,12 +19,12 @@ Si votre plateforme publicitaire est déconnectée, [!DNL Marketo Measure] ne po
 
 Si votre plateforme CRM est déconnectée, [!DNL Marketo Measure] ne pourrez pas mettre à jour [!DNL Marketo Measure] données ni transmettre de nouveaux points de contact à votre organisation. Une fois la connexion CRM rétablie, [!DNL Marketo Measure] transmet toutes les données qui ont été manquantes lors de la déconnexion du compte.
 
-![ 1](assets/1-1.png)
+![&#x200B; 1](assets/1-1.png)
 
 ## Réautorisation des comptes déconnectés {#re-authorizing-disconnected-accounts}
 
 1. Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
-1. Sélectionnez **[!UICONTROL Paramètres]** sous l’onglet [!UICONTROL  Mon compte] dans le coin supérieur gauche.
+1. Sélectionnez **[!UICONTROL Paramètres]** sous l’onglet [!UICONTROL &#x200B; Mon compte] dans le coin supérieur gauche.
 1. Recherchez la section Intégrations sur la gauche et cliquez sur **[!UICONTROL Connexions]**.
 1. Sélectionnez le symbole de la clé rouge en regard du compte qui doit être reconnecté.
 1. Une fenêtre pop-up s’affiche, vous invitant à fournir les informations de connexion au compte.

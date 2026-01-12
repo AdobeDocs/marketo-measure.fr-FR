@@ -53,6 +53,6 @@ D&#39;autres raisons pourraient déclencher un examen...
 
 >[!MORELIKETHIS]
 > [Mettre à jour le package Buyer Touchpoint](/help/configuration-and-setup/marketo-measure-and-salesforce/install-set-up.md)
-> [[!DNL Marketo Measure] Jeux d’autorisations ](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
-> [Partage du dossier Rapports et tableaux de bord ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
+> [[!DNL Marketo Measure] Jeux d’autorisations &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
+> [Partage du dossier Rapports et tableaux de bord &#x200B;](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0)
 > [Connectez Marketo Measure à Salesforce](/help/configuration-and-setup/marketo-measure-and-salesforce/connect-marketo-measure-to-salesforce.md)

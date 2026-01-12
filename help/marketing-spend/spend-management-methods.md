@@ -23,9 +23,9 @@ Les dépenses de tout compte publicitaire que vous avez connecté à [!DNL Marke
 
 Synchronisation des coûts de la campagne CRM **2**
 
-Chaque compte [!DNL Marketo Measure] a accès à une fonctionnalité appelée [ Synchroniser les coûts de campagne CRM ](/help/marketing-spend/crm-campaign-costs.md#availability). Par défaut, ce bit caractéristique est défini sur « Non », mais peut être activé à tout moment.
+Chaque compte [!DNL Marketo Measure] a accès à une fonctionnalité appelée [&#x200B; Synchroniser les coûts de campagne CRM &#x200B;](/help/marketing-spend/crm-campaign-costs.md#availability). Par défaut, ce bit caractéristique est défini sur « Non », mais peut être activé à tout moment.
 
-![Page des paramètres de connexions affichant le bouton (bascule) Synchronisation des coûts de la campagne CRM ](assets/spend-management-methods-1.png)
+![Page des paramètres de connexions affichant le bouton (bascule) Synchronisation des coûts de la campagne CRM &#x200B;](assets/spend-management-methods-1.png)
 
 Lorsqu’elle est activée, cette fonctionnalité extrait automatiquement les dépenses de toute campagne/programme CRM qui répond aux critères suivants :
 

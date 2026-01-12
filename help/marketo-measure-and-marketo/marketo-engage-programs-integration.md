@@ -43,7 +43,7 @@ Tous les niveaux.
 
 1. Ajoutez une autre instruction dans la même zone pour configurer un critère « et » dans la règle ou cliquez sur l’icône + en dehors de la zone pour configurer une instruction « ou ».
 
-   ![Créateur de règles présentant plusieurs conditions avec des options logiques et/ou ](assets/four.png)
+   ![Créateur de règles présentant plusieurs conditions avec des options logiques et/ou &#x200B;](assets/four.png)
 
 1. Choisissez le champ de date ou de date/heure à utiliser pour mapper à la date du point de contact. Pour afficher la liste des valeurs disponibles à partir de Marketo, saisissez un crochet `{` et les champs disponibles s’affichent.
 

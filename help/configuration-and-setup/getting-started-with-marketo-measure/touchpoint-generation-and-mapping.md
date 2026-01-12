@@ -44,7 +44,7 @@ Le processus de mappage des points de contact répond à la question : « Une 
 | Activité de vente | Synchronisation de l’activité CRM | Sur la page [!UICONTROL Canaux en ligne] dans [!DNL Marketo Measure], en référençant le nom de la campagne attribué sur la page [!UICONTROL Activités] |
 
 >[!MORELIKETHIS]
-> [Mappage des points de contact en ligne à des canaux/sous-canaux  [!DNL Marketo Measure] ](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+> [Mappage des points de contact en ligne à des canaux/sous-canaux  [!DNL Marketo Measure] &#x200B;](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 > [Synchronisation des campagnes CRM depuis SFDC](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md)
 > [Synchronisation des campagnes CRM depuis  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md)
 > [Mappage des campagnes CRM aux  [!DNL Marketo Measure] /sous-canaux](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)

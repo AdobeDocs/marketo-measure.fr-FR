@@ -60,7 +60,7 @@ Dans le cadre de l’intégration globale des [!DNL Marketo Measure] et des [!DN
 
 1. Enfin, choisissez les éléments à utiliser comme date de point de contact. Tous les champs de date ou date/heure disponibles apparaissent ici à partir de Marketo. À moins que vous ne disposiez de champs de date personnalisés, vous verrez « [!UICONTROL Date de l’activité] ».
 
-   ![ Sélecteur de champ de date de point de contact affichant l’option Date de l’activité ](assets/eight-1.png)
+   ![&#x200B; Sélecteur de champ de date de point de contact affichant l’option Date de l’activité &#x200B;](assets/eight-1.png)
 
 1. Veillez à cliquer sur **[!UICONTROL Enregistrer comme brouillon]** tout au long du processus pour ne pas perdre vos modifications.
 

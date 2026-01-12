@@ -32,7 +32,7 @@ Le modèle d’attribution personnalisé [!DNL Marketo Measure] permet aux utili
    >[!NOTE]
    >Vous êtes autorisé à effectuer jusqu’à six étapes personnalisées (sans inclure les valeurs par défaut : FT, LC, OC, Fermé).
 
-   ![ 1](assets/1-1.png)
+   ![&#x200B; 1](assets/1-1.png)
 
    >[!NOTE]
    >_Tous_ les leads/contacts et les étapes d’opportunité apparaîtront ici, même si l’étape est inactive ou plus utilisée dans [!DNL Salesforce]. Si vous souhaitez supprimer ces étapes, vous devez les supprimer définitivement dans [!DNL Salesforce].
@@ -43,7 +43,7 @@ Le modèle d’attribution personnalisé [!DNL Marketo Measure] permet aux utili
 
    Dans l’exemple ci-dessous, une étape « MQL » personnalisée est définie à l’aide d’un champ de date. La règle indique simplement que si le champ Date MQL n’est pas vide, il doit être considéré comme un MQL et doit être inclus dans le modèle personnalisé. Il est également important de trier les étapes personnalisées une fois qu’elles ont été créées afin qu’elles suivent la progression de votre cycle de vente.
 
-   ![ 1](assets/2-1.png)
+   ![&#x200B; 1](assets/2-1.png)
 
    >[!CAUTION]
    >N’oubliez pas d’activer le suivi de l’historique pour les champs personnalisés.
