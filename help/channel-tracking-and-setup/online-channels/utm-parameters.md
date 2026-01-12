@@ -1,21 +1,21 @@
 ---
-unique-page-id: 18874606
 description: Paramètres UTM -  [!DNL Marketo Measure]
 title: Paramètres UTM
 exl-id: 2b20f3c4-1f39-4ac5-bad1-cb1d630d60e9
 feature: UTM Parameters
-source-git-commit: 741ab20845de2f3bcde589291d7446a5b4f877d8
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 100%
+source-wordcount: '928'
+ht-degree: 92%
 
 ---
+
 
 # Paramètres UTM {#utm-parameters}
 
 Le balisage des URL est un moyen simple et efficace de capturer des données sur vos efforts de marketing digital. Ce processus consiste en un ajout de paramètres à la fin des URL dans le but de collecter et d’enregistrer des données. Les paramètres les plus couramment utilisés sont les modules de suivi d’URL (UTM pour « Urchin Tracking Modules »), qui sont pris en charge par Google. Il y a cinq paramètres UTM principaux : Support, Source, Campagne, Contenu et Terme. Ces points sont abordés plus en détail dans la section suivante.
 
-Les paramètres UTM peuvent être ajoutés manuellement aux URL ou ajoutés par balisage automatique avec certaines plateformes, comme AdWords. Dans ce dernier cas, l’ajout de paramètres aux URL est automatisé. Vous pouvez également utiliser des [créateurs d’URL](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} pour accélérer le balisage manuel des URL. Avec ces outils, vous spécifiez simplement les valeurs à utiliser pour chaque paramètre et l’URL est formatée pour vous.
+Les paramètres UTM peuvent être ajoutés manuellement aux URL ou ajoutés par balisage automatique avec certaines plateformes, comme AdWords. Dans ce dernier cas, l’ajout de paramètres aux URL est automatisé. Il existe également une option [créateurs d’URL](https://ga-dev-tools.web.app/campaign-url-builder/){target="_blank"} pour accélérer le balisage manuel des URL. Avec ces outils, vous spécifiez simplement les valeurs à utiliser pour chaque paramètre et l’URL est formatée pour vous.
 
 ## Fonctionnement des paramètres UTM {#what-are-utm-parameters}
 
@@ -38,7 +38,7 @@ Découvrez les [bonnes pratiques relatives à la configuration des paramètres U
 * En d’autres termes, il indique le canal de niveau supérieur.
 * Les réseaux sociaux, les e-mails, le référencement naturel et le référencement payant sont des exemples de valeurs potentielles.
 * Ce paramètre mappe les données au champ « Support » dans [!DNL Marketo Measure].
-* Bonne pratique _[!DNL Marketo Measure] :_ n’utilisez pas ce champ pour appeler un sous-canal. Vous risquez d’avoir des difficultés à générer des rapports sur le canal réel. Utilisez-le pour identifier votre support ou canal marketing. Par exemple, si vous souhaitez utiliser des e-mails pour faire connaître votre produit, il s’agit de votre support marketing.
+* _[!DNL Marketo Measure] Bonne pratique :_n’utilisez pas ce champ pour appeler un sous-canal, sinon vous risquez de rencontrer des difficultés pour générer des rapports sur le canal réel. Utilisez-le pour identifier votre support ou canal marketing. Par exemple, si vous souhaitez utiliser des e-mails pour faire connaître votre produit, il s’agit de votre support marketing.
 
 **utm_source**
 
@@ -48,7 +48,7 @@ Découvrez les [bonnes pratiques relatives à la configuration des paramètres U
    * Dans cet exemple, [!DNL Facebook] est la valeur de la source, mais il pourrait également s’agir de Twitter ou d’Instagram. Si le support UTM est [!DNL Paid Search], en revanche, la source peut être AdWords ou Bing Ads.
 
 * Dans SFDC, ce paramètre mappe les données au champ [!DNL Marketo Measure] « Source du point de contact ».
-* Bonne pratique _[!DNL Marketo Measure] :_ ce paramètre identifie uniquement la source de votre trafic. Il ne peut donc pas indiquer le type d’annonce, par exemple un reciblage, un parrainage, etc. Il est préférable de l’utiliser pour effectuer le suivi du sous-canal de niveau supérieur. Rappelez-vous, la question posée est « D’où vient mon trafic ? ». Votre objectif est d’identifier le référent. Dans cet exemple, la source UTM est l’endroit où se trouve votre publicité (et non la page web proprement dite, car elle est automatiquement suivie en dehors des balises). Si vous effectuez le suivi d’une campagne par e-mail progressive, alors il s’agit de votre source.
+* _[!DNL Marketo Measure] Bonne pratique :_ce paramètre effectue le suivi de la source de votre trafic. Il n’est donc pas approprié de l’utiliser pour indiquer le type d’annonce, par exemple, reciblage, sponsorisé, etc. Il est préférable de l’utiliser pour effectuer le suivi du sous-canal de niveau supérieur. Rappelez-vous, la question posée est « D’où vient mon trafic ? ». Votre objectif est d’identifier le référent. Dans cet exemple, la source UTM est l’endroit où se trouve votre publicité (et non la page web proprement dite, car elle est automatiquement suivie en dehors des balises). Si vous effectuez le suivi d’une campagne par e-mail progressive, alors il s’agit de votre source.
 
 **utm_campaign**
 
@@ -74,7 +74,7 @@ Chaque paramètre collecte des informations relatives à la valeur affectée. La
 
 Voici un tableau des paramètres UTM analysés par [!DNL Marketo Measure] avec le champ de point de contact correspondant :
 
-| **Paramètre UTM** | **Champ [!DNL Marketo Measure] correspondant** |
+| Paramètre UTM | Champ [!DNL Marketo Measure] correspondant |
 |---|---|
 | utm_medium | Support |
 | utm_source | Source du point de contact |

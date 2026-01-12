@@ -1,20 +1,19 @@
 ---
-unique-page-id: 18874672
-description: Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce]  – Marketo Measure – Documentation du produit
+description: 'Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce] '
 title: 'Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce] '
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: ec5172286951f482905f97268f33f063d1860694
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 99%
 
 ---
+
 
 # Explication des interactions entre [!DNL Marketo Measure] et [!DNL Salesforce] {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
->
 >Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans la documentation. Toutefois, votre gestion de la relation client (CRM) mentionne encore « Bizible ». Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
 
 Regardons de plus près la relation entre [!DNL Marketo Measure] et Salesforce.
@@ -25,11 +24,11 @@ Une fois que le compte [!DNL Marketo Measure] est créé et que [!DNL Salesforce
 
 Si vous n’avez pas installé le package [!DNL Marketo Measure] Salesforce, [!DNL Marketo Measure] n’écrit aucune donnée sur votre instance Salesforce.
 
-![](assets/1-3.png)
+![ 3](assets/1-3.png)
 
 Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d’API chaque fois qu’une tâche envoie des données à votre CRM. Pour la majeure partie de la clientèle, cela permet d’obtenir un équilibre optimal entre les crédits d’API consommés par [!DNL Marketo Measure] et les exigences en matière de ressources du processeur sur le CRM. Toutefois, pour la clientèle disposant de configurations CRM complexes, comme les workflows et les triggers, une taille de lot réduite peut se révéler utile pour améliorer les performances CRM. À cette fin, [!DNL Marketo Measure] permet à la clientèle de configurer la taille du lot d’export CRM. Ce paramètre est disponible à la page [!UICONTROL Paramètres] > [!UICONTROL CRM] > [!UICONTROL Général] de l’application web [!DNL Marketo Measure]. Il est ainsi possible de choisir entre des tailles de lot de 200 (par défaut), 100, 50 ou 25.
 
-![](assets/how-bizible-and-salesforce-interact-2.png)
+![Paramètre de taille de lot d’exportation CRM Marketo Measure dans l’application web](assets/how-bizible-and-salesforce-interact-2.png)
 
 Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consomment davantage de crédits d’API de votre CRM. Il est conseillé de réduire la taille des lots uniquement en cas de temporisation du processeur ou d’une charge élevée de ce dernier dans votre CRM.
 
@@ -53,93 +52,93 @@ Cette section répertorie les objets standard [!DNL Salesforce] avec lesquels [!
 
 **Lead**
 
-<table> 
- <tbody> 
-  <tr> 
-   <th>Champs</th> 
-   <th>Standard/Personnalisé</th> 
-   <th>Lecture</th> 
-   <th>Écriture</th> 
-  </tr> 
-  <tr> 
-   <td>ID</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>E-mail</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>Statut</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CreatedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedContactId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ConvertedOpportunityId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsConverted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>Site web</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>Société</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Account__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
+<table>
+ <tbody>
+  <tr>
+   <th>Champs</th>
+   <th>Standard/Personnalisé</th>
+   <th>Lecture</th>
+   <th>Écriture</th>
   </tr>
- </tbody> 
+  <tr>
+   <td>ID</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>E-mail</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>Statut</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>CreatedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>LastModifiedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>ConvertedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>ConvertedContactId</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>ConvertedOpportunityId</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>IsConverted</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>IsDeleted</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>Site web</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>Société</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>bizible2__Account__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+ </tbody>
 </table>
 
 **Contact**
@@ -193,192 +192,192 @@ Cette section répertorie les objets standard [!DNL Salesforce] avec lesquels [!
 
 **Compte**
 
-<table> 
- <tbody> 
-  <tr> 
-   <th>Champs</th> 
-   <th>Standard/Personnalisé</th> 
-   <th>Lecture</th> 
-   <th>Écriture</th> 
-  </tr> 
-  <tr> 
-   <td>ID</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>Site web</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Engagement_Score__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <th>Champs</th>
+   <th>Standard/Personnalisé</th>
+   <th>Lecture</th>
+   <th>Écriture</th>
+  </tr>
+  <tr>
+   <td>ID</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>Site web</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>LastModifiedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>IsDeleted</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>bizible2__Engagement_Score__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x </td>
+  </tr>
+ </tbody>
 </table>
 
 **Opportunité**
 
-<table> 
- <tbody> 
-  <tr> 
-   <th>Champs</th> 
-   <th>Standard/Personnalisé</th> 
-   <th>Lecture</th> 
-   <th>Écriture</th> 
-  </tr> 
-  <tr> 
-   <td>Nom</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td><br></td> 
+<table>
+ <tbody>
+  <tr>
+   <th>Champs</th>
+   <th>Standard/Personnalisé</th>
+   <th>Lecture</th>
+   <th>Écriture</th>
   </tr>
-  <tr> 
-   <td>Compte</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td><br></td> 
+  <tr>
+   <td>Nom</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td><br></td>
   </tr>
-  <tr> 
-   <td>ID</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CreatedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsWon</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsClosed</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CloseDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>StageName</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>Montant</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Bizible_Opportunity_Amount__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
- </tbody> 
+  <tr>
+   <td>Compte</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td><br></td>
+  </tr>
+  <tr>
+   <td>ID</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>CreatedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>LastModifiedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>IsWon</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>IsClosed</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>IsDeleted</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>CloseDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>StageName</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>Montant</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>bizible2__Bizible_Opportunity_Amount__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x </td>
+  </tr>
+ </tbody>
 </table>
 
 **Rôle du contact d’opportunité**
 
-<table> 
- <tbody> 
-  <tr> 
-   <th>Champs</th> 
-   <th>Standard/Personnalisé</th> 
-   <th>Lecture</th> 
-   <th>Écriture</th> 
-  </tr> 
-  <tr> 
-   <td>ID</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CreatedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
+<table>
+ <tbody>
+  <tr>
+   <th>Champs</th>
+   <th>Standard/Personnalisé</th>
+   <th>Lecture</th>
+   <th>Écriture</th>
   </tr>
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>OpportunityId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ContactId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
+  <tr>
+   <td>ID</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>CreatedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>IsDeleted</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>LastModifiedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>OpportunityId</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>ContactId</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
   </tr>
 
-<tr> 
-   <td>IsPrimary</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>Rôle</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
- </tbody> 
+<tr>
+   <td>IsPrimary</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>Rôle</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+ </tbody>
 </table>
 
 **Campagne**
@@ -463,137 +462,134 @@ Cette section répertorie les objets standard [!DNL Salesforce] avec lesquels [!
    <td>x</td> 
    <td> </td> 
   </tr>
-  <tr> 
-   <td>Nom</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td>x</td> 
+  <tr>
+   <td>Nom</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td>x</td>
   </tr>
-  <tr> 
-   <td>bizible2__UniqueId__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
- </tbody> 
+  <tr>
+   <td>bizible2__UniqueId__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+ </tbody>
 </table>
 
 **Personne membre de la campagne**
 
-<table> 
- <tbody> 
-  <tr> 
-   <th>Champs</th> 
-   <th>Standard/Personnalisé</th> 
-   <th>Lecture</th> 
-   <th>Écriture</th> 
-  </tr> 
-  <tr> 
-   <td>ID</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CreatedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LastModifiedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsDeleted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>FirstRespondedDate</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>HasResponded</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>ContactId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>LeadId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>IsConverted</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>CampaignId</td> 
-   <td>Standard</td> 
-   <td>x</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Bizible_Touchpoint_Date__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Status_Date__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Status_Contact__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Status_Leade__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Status_Opportunity__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <th>Champs</th>
+   <th>Standard/Personnalisé</th>
+   <th>Lecture</th>
+   <th>Écriture</th>
+  </tr>
+  <tr>
+   <td>ID</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>CreatedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>LastModifiedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>IsDeleted</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>FirstRespondedDate</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>HasResponded</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>ContactId</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>LeadId</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>IsConverted</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>CampaignId</td>
+   <td>Standard</td>
+   <td>x</td>
+   <td> </td>
+  </tr>
+  <tr>
+   <td>bizible2__Bizible_Touchpoint_Date__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Status_Date__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Status_Contact__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Status_Leade__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Status_Opportunity__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x </td>
+  </tr>
+ </tbody>
 </table>
 
 >[!NOTE]
->
 >Pour garantir la précision des événements de suppression capturés par Marketo Measure dans votre compte Salesforce, des autorisations de réplication pour les objets ci-dessous sont requises. Les autorisations de réplication sont fournies de manière standard avec les objets suivants :
->
->* Compte
->* Campagne
->* Personne membre de la campagne
->* Contact
->* Événement
->* Prospect
->* Opportunité
->* Tâche
-
+> Compte
+> Campagne
+> Personne membre de la campagne
+> Contact
+> Événement
+> Prospect
+> Opportunité
+> Tâche
 
 ## Objets personnalisés [!DNL Marketo Measure] dans [!DNL Salesforce]  {#marketo-measure-custom-objects-in-salesforce}
 
@@ -603,306 +599,306 @@ Outre la création de champs personnalisés sur les objets standard SFDC, une f
 
 Buyer Touchpoint est un objet personnalisé [!DNL Marketo Measure] permettant d’encapsuler les interactions marketing pour les contacts, les leads et les dossiers.
 
-<table> 
- <tbody> 
-  <tr> 
-   <th>Champs</th> 
-   <th>Standard/Personnalisé</th> 
-   <th>Lecture</th> 
-   <th>Écriture</th> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Bizible_Person__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__SF_Campaign__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__UniqueId__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_Path__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Type__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Content__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Group_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Group_Name__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Placement_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Placement_Name__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Site_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Site_Name__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Form_URL__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Form_URL_Raw__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Platform__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Browser__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Geo_City__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Geo_Country__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Geo_Region__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Keyword_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Keyword_MatchType__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Position__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Keyword_Text__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_Raw__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Medium__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Referrer_Page__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Referrer_Page_Raw__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Search_Expression__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Segment__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Count_First_Touch__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Count_Lead_Creation_Touch__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Count_U_Shaped__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Destination_URL__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Case__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Contact__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <th>Champs</th>
+   <th>Standard/Personnalisé</th>
+   <th>Lecture</th>
+   <th>Écriture</th>
+  </tr>
+  <tr>
+   <td>bizible2__Bizible_Person__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__SF_Campaign__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__UniqueId__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Marketing_Channel__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Marketing_Channel_Path__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Type__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Content__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Group_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Group_Name__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Campaign_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Campaign_Name__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Placement_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Placement_Name__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Site_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Site_Name__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Form_URL__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Form_URL_Raw__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Platform__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Browser__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Geo_City__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Geo_Country__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Geo_Region__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Keyword_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Keyword_MatchType__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Position__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Keyword_Text__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Landing_Page__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Landing_Page_Raw__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Medium__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Referrer_Page__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Referrer_Page_Raw__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Search_Expression__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Date__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Source__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Segment__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Count_First_Touch__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Count_Lead_Creation_Touch__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Count_U_Shaped__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Destination_URL__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Case__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Contact__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+ </tbody>
 </table>
 
 Personne **[!DNL Marketo Measure]**
 
 La personne [!DNL Marketo Measure] est un objet personnalisé [!DNL Marketo Measure] relatif aux objets des leads, de contacts et de dossiers.
 
-<table> 
- <tbody> 
-  <tr> 
-   <th>Champs</th> 
-   <th>Standard/Personnalisé</th> 
-   <th>Lecture</th> 
-   <th>Écriture</th> 
-  </tr> 
-  <tr> 
-   <td>bizible2__UniqueId__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Lead__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Case__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Contact__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x </td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <th>Champs</th>
+   <th>Standard/Personnalisé</th>
+   <th>Lecture</th>
+   <th>Écriture</th>
+  </tr>
+  <tr>
+   <td>bizible2__UniqueId__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Lead__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Case__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Contact__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x </td>
+  </tr>
+ </tbody>
 </table>
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
@@ -911,359 +907,358 @@ Buyer Attribution Touchpoint est un objet personnalisé [!DNL Marketo Measure] p
 
 **Buyer Attribution Touchpoint**
 
-<table> 
- <tbody> 
-  <tr> 
-   <th>Champs</th> 
-   <th>Standard/Personnalisé</th> 
-   <th>Lecture</th> 
-   <th>Écriture</th> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Account__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__SF_Campaign__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Contact__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Opportunity__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__UniqueId__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Marketing_Channel_Path__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Type__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Content__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Group_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Group_Name__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Campaign_Name__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Placement_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Placement_Name__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Site_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Site_Name__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Form_URL__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Form_URL_Raw__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Platform__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Browser__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Geo_City__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Geo_Country__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Geo_Region__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Keyword_Id__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Keyword_MatchType__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Position__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Keyword_Text__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Landing_Page_Raw__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Medium__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Referrer_Page__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Referrer_Page_Raw__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Search_Expression__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Date__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Touchpoint_Source__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Segment__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Attribution_First_Touch__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Attribution_Lead_Conversion_Touch__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Attribution_U_Shaped__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Attribution_W_Shaped__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Attribution_Custom_Model__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Attribution_Custom_Model_2__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Count_First_Touch__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Count_Lead_Creation_Touch__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Count_U_Shaped__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Count_W_Shaped__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Count_Custom_Model__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Count_Custom_Model_2__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Ad_Destination_URL__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Revenue_First_Touch__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Revenue_Lead_Creation_Touch__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Revenue_U_Shaped__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Revenue_W_Shaped__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Revenue_Custom_Model__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
-  <tr> 
-   <td>bizible2__Revenue_Custom_Model_2__c</td> 
-   <td>Personnalisé</td> 
-   <td>x</td> 
-   <td>x</td> 
-  </tr> 
- </tbody> 
+<table>
+ <tbody>
+  <tr>
+   <th>Champs</th>
+   <th>Standard/Personnalisé</th>
+   <th>Lecture</th>
+   <th>Écriture</th>
+  </tr>
+  <tr>
+   <td>bizible2__Account__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__SF_Campaign__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Contact__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Opportunity__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__UniqueId__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Marketing_Channel__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Marketing_Channel_Path__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Type__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Content__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Group_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Group_Name__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Campaign_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Campaign_Name__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Placement_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Placement_Name__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Site_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Site_Name__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Form_URL__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Form_URL_Raw__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Platform__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Browser__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Geo_City__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Geo_Country__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Geo_Region__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Keyword_Id__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Keyword_MatchType__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Position__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Keyword_Text__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Landing_Page__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Landing_Page_Raw__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Medium__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Referrer_Page__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Referrer_Page_Raw__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Search_Expression__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Date__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Touchpoint_Source__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Segment__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Attribution_First_Touch__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Attribution_Lead_Conversion_Touch__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Attribution_U_Shaped__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Attribution_W_Shaped__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Attribution_Custom_Model__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Attribution_Custom_Model_2__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Count_First_Touch__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Count_Lead_Creation_Touch__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Count_U_Shaped__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Count_W_Shaped__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Count_Custom_Model__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Count_Custom_Model_2__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Ad_Destination_URL__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Revenue_First_Touch__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Revenue_Lead_Creation_Touch__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Revenue_U_Shaped__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Revenue_W_Shaped__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Revenue_Custom_Model__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+  <tr>
+   <td>bizible2__Revenue_Custom_Model_2__c</td>
+   <td>Personnalisé</td>
+   <td>x</td>
+   <td>x</td>
+  </tr>
+ </tbody>
 </table>
 
 >[!MORELIKETHIS]
->
->[Vue d’ensemble des autorisations d’intégration](/help/api-connections/utilizing-marketo-measures-api-connections/integration-permissions-overview.md){target="_blank"}
+>[Vue d’ensemble des autorisations d’intégration](/help/api-connections/integration-permissions-overview.md){target="_blank"}

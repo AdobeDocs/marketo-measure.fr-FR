@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874596
 description: Configuration de canal personnalisé en ligne -  [!DNL Marketo Measure]
 title: Configuration de canal personnalisé en ligne
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 93%
 
 ---
+
 
 # Configuration de canal personnalisé en ligne {#online-custom-channel-setup}
 
@@ -32,11 +32,11 @@ Points à retenir :
 
 La première étape consiste à télécharger la feuille de calcul de canal personnalisé dans l’application [!DNL Marketo Measure]. Accédez aux **Paramètres** sous l’onglet **Mon compte**, puis sélectionnez **En ligne**. Vous pouvez **télécharger le modèle d’origine** ou **télécharger les règles actuelles**.
 
-![](assets/1.png)
+![Page des paramètres présentant la configuration du canal en ligne avec les options Télécharger le modèle d’origine et Télécharger les règles actuelles ](assets/1.png)
 
 La feuille de calcul comporte sept colonnes :
 
-![](assets/2.png)
+![Feuille de calcul de canal personnalisé comportant sept colonnes : canal, sous-canal, campagne, Medium, Source, page de destination et site web de renvoi](assets/2.png)
 
 * **Canal :** c’est ici que vous ajoutez les différents canaux marketing.
 * **Sous-canal :** c’est ici que vous ajoutez les sous-canaux correspondants.
@@ -44,17 +44,17 @@ La feuille de calcul comporte sept colonnes :
 * **Support :** cette colonne reprend la valeur du paramètre utm_medium.
 * **Source :** cette colonne reprend la valeur du paramètre utm_source.
 * **Page de destination :** ajoutez ici la page de destination.
-* **Site web de renvoi :** il s’agit des URL des sites web qui renvoient du trafic vers vos pages ou vers la logique [!DNL Marketo Measure] (indiquée par crochets).
+* **Site web de renvoi :** il s’agit des URL des sites web qui renvoient du trafic vers vos pages ou vers la logique [!DNL Marketo Measure] intégrée (indiquée par crochets).
 
 La huitième colonne indique les règles que vous ne pouvez pas supprimer de la feuille de calcul avec l’indication « Ne pas supprimer ». Le haut de la feuille de calcul comporte des règles de canal par défaut. [!DNL Marketo Measure] recommande de ne pas les modifier ni les supprimer, même si vous ne les utilisez pas. [!DNL Marketo Measure] dispose d’intégrations performantes avec ces plateformes, elles sont donc incluses par défaut.
 
 Les lignes représentent les règles et l’ordre dans lequel [!DNL Marketo Measure] donne la priorité aux données. La première ligne est prioritaire par rapport à la seconde, la deuxième ligne l’est par rapport à la troisième, etc. Lorsque vous déterminez le canal marketing et le sous-canal dans lequel regrouper les points de contact, [!DNL Marketo Measure] lance une lecture de haut en bas, de gauche à droite, jusqu’à ce qu’elle trouve une ligne qui répond aux critères du point de contact. (Si un point de contact possède `utm_source=Facebook`, le point de contact est placé dans le canal Social.Facebook en raison de la règle 15 de la copie d’écran.)
 
-![](assets/3.png)
+![Feuille de calcul des règles de canal montrant l’ordre de priorité descendant avec l’exemple de règle Social.Facebook mis en surbrillance](assets/3.png)
 
 [!DNL Marketo Measure] est fourni avec 12 canaux par défaut, liés à des plateformes avec lesquelles [!DNL Marketo Measure] dispose d’intégrations complètes. Que vous les utilisiez ou non, ne les supprimez pas. Si vous utilisez l’une de ces plateformes, par exemple Bing Ads, mais que vous préférez utiliser une convention de nommage différente pour le canal ou le sous-canal, vous pouvez mettre à jour le nom. L’image ci-dessous présente un exemple.
 
-![](assets/4.png)
+![Règles de canal par défaut présentant 12 plateformes intégrées avec des noms de canal et de sous-canal personnalisables](assets/4.png)
 
 La structure des règles est également importante. Des règles peuvent sembler se répéter et vous pouvez avoir l’impression que des données sont manquantes, mais cette structure est intentionnelle. Pour trier les données de façon précise, il est nécessaire de mapper séparément chaque source au canal approprié, y compris pour les sources partageant des sous-canaux et des canaux. Plus les règles sont détaillées et granulaires, plus les résultats sont pertinents. Il est donc vivement recommandé d’écrire une règle détaillée pour chaque effort marketing dont vous souhaitez effectuer le suivi.
 
@@ -62,13 +62,13 @@ Imaginez la situation suivante : vous avez d’autres publicités dont vous ne 
 
 Chaque paramètre ou composant de la règle est mappé séparément au canal. Par exemple, lorsque [!DNL Marketo Measure] dispose de données [!DNL Facebook] à trier, il recherche des règles liées à [!DNL Facebook]. Il scanne alors la feuille de haut en bas. Dans l’exemple illustré ci-dessous, [!DNL Marketo Measure] comprendrait que pour le premier sous-canal [!DNL Facebook], il lui suffit de lire le paramètre de source et de déposer les données dans le compartiment de cette règle.
 
-![](assets/5.png)
+![Exemple de règles de canal Facebook affichant plusieurs lignes avec différents paramètres mappés à des sous-canaux](assets/5.png)
 
 La règle suivante ne demande que le paramètre qui correspond au support. Par conséquent, toutes les données comportant ce paramètre sont regroupées dans ce canal. Enfin, pour [!DNL Facebook], toutes les données provenant de l’adresse URL de Facebook sont placées dans le dernier compartiment correspondant.
 
 Le canal par défaut « Autre » permet de capturer des données qui ne répondent aux critères d’aucune règle. Notez que certains des compartiments du canal Autre contiennent des astérisques (&#42;), qui représentent des caractères génériques et qui agissent donc comme un fourre-tout.
 
-![](assets/6.png)
+![Autres règles de canal présentant des astérisques génériques comme compartiments fourre-tout pour les données non correspondantes](assets/6.png)
 
 Étant donné que la logique de [!DNL Marketo Measure] fonctionne de haut en bas, la règle de caractère générique, indiquée par un astérisque (&#42;), doit être placée à la fin de votre feuille de règles. Toutes les données qui ne sont pas capturées ou triées par les autres règles sont ajoutées à ce compartiment de caractère générique.
 

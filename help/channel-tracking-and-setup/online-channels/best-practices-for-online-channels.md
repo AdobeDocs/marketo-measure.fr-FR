@@ -3,12 +3,13 @@ description: Bonnes pratiques relatives aux canaux en ligne -  [!DNL Marketo Mea
 title: Bonnes pratiques pour les canaux en ligne
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 9e672d0c568ee0b889461bb8ba6fc6333edf31ce
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
+
 
 # Bonnes pratiques pour les canaux en ligne {#best-practices-for-online-channels}
 
@@ -54,8 +55,7 @@ Voici d’autres éléments qui pourraient inciter votre équipe à effectuer la
 Si votre équipe a récemment été confrontée à l’une des situations ci-dessus, [!DNL Marketo Measure] vous recommande d’examiner les règles de vos canaux en ligne et d’apporter les modifications appropriées.
 
 >[!MORELIKETHIS]
->
->* [Configuration des canaux en ligne](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
->* [Paramètres UTM](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
->* [Canal et sous-canal marketing](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
->* [Bonnes pratiques UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
+> [Configuration des canaux en ligne](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
+> [Paramètres UTM](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
+> [Canal et sous-canal marketing](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
+> [Bonnes pratiques UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)

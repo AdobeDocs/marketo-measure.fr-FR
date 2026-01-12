@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874716
 description: Méthodologie de mappage d’attribution - [!DNL Marketo Measure]
 title: Méthodologie de mappage pour les attributions
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 90d0d6481e5b338d08a56f555ca3addea8bdd304
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
+
 
 # Méthodologie de mappage pour les attributions {#attribution-mapping-methodology}
 
@@ -19,7 +19,7 @@ La méthodologie de mappage d’attribution est le processus de recherche de cer
 
 Par défaut, [!DNL Marketo Measure] fournit le mappage des identifiants de compte. Cela signifie que [!DNL Marketo Measure] examine le compte et ses informations marketing Contacts pour créer des points de contact d’attribution associés à l’opportunité. Vous trouverez ci-dessous une simple représentation de ce processus.
 
-![](assets/1-1.png)
+![ 1](assets/1-1.png)
 
 Gardez à l’esprit que **tous** points de contact de vos contacts ne sont pas intégrés dans l’opportunité en tant que points de contact d’attribution. La chronologie de l’opportunité (sa date de premier contact - date de fermeture) détermine si un point de contact compte comme influenceur sur l’opportunité. Par conséquent, si un point de contact sur le contact A s’est produit après la fermeture de l’opportunité (confirmée/perdue), [!DNL Marketo Measure] ne poussera pas ce point de contact vers l’opportunité. Cette procédure de chronologie est suivie pour tous les autres mappages d’objet d’attribution.
 
@@ -35,7 +35,7 @@ Inconvénients : s’il existe des contrats de niveau de service marketing et ve
 
 Bien que la plupart des clients utilisent le mappage des identifiants de compte, [!DNL Marketo Measure] pouvez rechercher des rôles de contact (contacts associés à l’opportunité) dans une opportunité pour ventiler le processus d’attribution. Cela signifie que [!DNL Marketo Measure] intégrerez uniquement les interactions marketing associées aux rôles de contact sur l’opportunité en tant que points de contact d’attribution de l’acheteur. Vous trouverez ci-dessous une représentation de ce processus.
 
-![](assets/2-1.png)
+![ 1](assets/2-1.png)
 
 Avantages : si votre équipe dispose d’un processus de rôles de contact bien défini, ce type de mappage d’attribution peut être idéal pour vous. Cela permet d’aligner un peu plus les ventes et le marketing, car tout le monde comprend parfaitement comment l’attribution est décomposée. Ce processus s’avère également utile lorsque les organisations ciblent plusieurs unités opérationnelles au sein d’une grande entreprise et lorsqu’elles vendent différents produits en même temps.
 
@@ -45,7 +45,7 @@ Inconvénients : Cependant, si aucun processus de rôle de contact n’est en pl
 
 Au-delà du simple examen des rôles de contact sur l’opportunité, [!DNL Marketo Measure] pouvez vous concentrer encore plus pour n’examiner que les contacts de Principal sur une opportunité. Avec cette configuration à l’esprit, [!DNL Marketo Measure] ne récupère que le point de contact marketing associé aux contacts principaux sur une opportunité et transmet ces informations dans l’histoire d’attribution de cette opportunité spécifique. Voir l’image ci-dessous.
 
-![](assets/3.png)
+![Diagramme de mappage d’attribution utilisant uniquement les rôles du contact principal](assets/3.png)
 
 Avantages : si votre équipe souhaite uniquement comprendre l’influence marketing sur les contacts définis comme « principaux » pour l’opportunité, ce type de mappage convient le mieux à l’équipe.
 

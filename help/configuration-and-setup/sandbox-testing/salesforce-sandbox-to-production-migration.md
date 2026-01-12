@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874694
 description: Migration de l’instance sandbox de Salesforce vers la production -  [!DNL Marketo Measure]
 title: Migration de l’instance sandbox de Salesforce vers la production
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 95%
 
 ---
+
 
 # Migration de l’instance sandbox de Salesforce vers la production {#salesforce-sandbox-to-production-migration}
 
@@ -29,9 +29,9 @@ Si vous choisissez de tester [!DNL Marketo Measure] dans un environnement sandbo
 * Connectez-vous à l’application [!DNL Marketo Measure] à l’adresse experience.adobe.com/marketo-measure.
 * Accédez à Mon compte > [!UICONTROL Paramètres] > [!UICONTROL Connexions].
 * Cliquez sur l’icône de la corbeille en regard de la connexion SFDC à supprimer.
-* Vous recevez une invitation à confirmer la suppression. Veillez à lire attentivement l’invite et à comprendre les conséquences de la suppression.
+* Vous recevez une invitation à confirmer la suppression. Veillez à lire attentivement le prompt et à comprendre les conséquences de la suppression.
 
-  ![](assets/salesforce-sandbox-to-production-migration-1.png)
+  ![page de connexions Marketo Measure confirmant la suppression d’un sandbox Salesforce](assets/salesforce-sandbox-to-production-migration-1.png)
 
    * Saisissez le nom de l’entreprise, comme indiqué dans le modèle de confirmation, puis cliquez sur « Je comprends les conséquences, supprimer cette connexion ».
 * Le processus de suppression est déclenché et son exécution prend un certain temps.
@@ -51,8 +51,8 @@ Si vous choisissez de tester [!DNL Marketo Measure] dans un environnement sandbo
 
 [Jeux d’autorisations](/help/configuration-and-setup/marketo-measure-and-salesforce/marketo-measure-permission-sets.md)
 
-[Partager des rapports](https://help.salesforce.com/s/articleView?language=en_US&amp;id=analytics_share_folder.htm&amp;type=0){target="_blank"}
+[Partage de rapports ](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
 
 [Masquer les types de rapports superflus](/help/configuration-and-setup/marketo-measure-and-salesforce/hiding-unnecessary-report-types.md)
 
-[Workflow personnalisé, le cas échéant](/help/advanced-marketo-measure-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)
+[Workflow personnalisé, le cas échéant](/help/advanced-features/custom-revenue-amount/using-a-custom-revenue-amount-field.md)

@@ -1,40 +1,40 @@
 ---
-unique-page-id: 18874584
-description: "[!DNL Marketo Measure] Taxonomie des objets et des champs - [!DNL Marketo Measure]"
-title: "[!DNL Marketo Measure] Objet et taxonomie des champs"
+description: Taxonomie des champs et des objets [!DNL Marketo Measure] - [!DNL Marketo Measure]
+title: Taxonomie des objets et des champs [!DNL Marketo Measure]
 exl-id: 67f1cac8-e2b4-45cc-b1c9-58bf4e1a760d
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 3%
+source-wordcount: '163'
+ht-degree: 5%
 
 ---
 
+
 # Taxonomie des objets et des champs [!DNL Marketo Measure] {#marketo-measure-object-and-field-taxonomy}
 
-Vous trouverez ci-dessous un diagramme de flux qui représente la façon dont [!DNL Marketo Measure] objets personnalisés sont associés à [!DNL Salesforce] objets standard.
+Vous trouverez ci-dessous un organigramme qui représente [!DNL Marketo Measure] relation entre les objets personnalisés et les objets standard [!DNL Salesforce].
 
-![](assets/1-2.png)
+![ 2](assets/1-2.png)
 
-Pour l&#39;image en taille réelle, [cliquez ici](assets/bizible-object-and-field-taxonomy-graph-full.png).
+Pour l’image en taille réelle, [cliquez ici](assets/bizible-object-and-field-taxonomy-graph-full.png).
 
-Les définitions des champs [!DNL Marketo Measure] qui vivent dans chaque objet [&#x200B; se trouvent ici](/help/introduction-to-marketo-measure/overview-resources/glossary-of-marketo-measure-fields.md).
+Les définitions des champs [!DNL Marketo Measure] qui se trouvent dans chaque objet [sont disponibles ici](/help/glossary.md).
 
 ## Questions fréquentes {#faq}
 
-**Quelle est la logique dans les flèches ?**
+**Quelle est la logique des flèches ?**
 
-Chaque flèche décrit la relation entre un objet et l’autre. Par exemple, vous pouvez constater que la personne [!DNL Marketo Measure] remplit les champs sur l’objet de piste standard [!DNL Salesforce]. Si elle pointe vers elle, alors cela signifie qu&#39;elle remplit l&#39;extrémité de réception de la flèche.
+Chaque flèche décrit la relation entre un objet et l’autre. Par exemple, vous constatez que la personne [!DNL Marketo Measure] remplit les champs de l’objet de prospect [!DNL Salesforce] standard. S’il pointe vers lui, alors il signifie qu’il renseigne l’extrémité réceptrice de la flèche.
 
-**Qu&#39;est-ce que la [!DNL Marketo Measure] personne ?**
+**Qu’est-ce que la personne [!DNL Marketo Measure] ?**
 
-Il s’agit d’un objet [!DNL Marketo Measure] personnalisé dans [!DNL Salesforce] qui lie les points de contact de l’acheteur aux pistes et aux contacts.
+Il s’agit d’un objet de [!DNL Marketo Measure] personnalisé dans [!DNL Salesforce] qui lie les points de contact des acheteurs aux leads et aux contacts.
 
-**Qu’est-ce que [!DNL Bizible].JS ?**
+**Qu’est-ce que le fichier [!DNL Bizible].JS ?**
 
-C’est notre JavaScript personnalisé que nous utilisons pour effectuer le suivi des informations web qu’une personne possède sur un site spécifique.
+Il s’agit de notre JavaScript personnalisé que nous utilisons pour suivre les informations web qu’une personne possède sur un site spécifique.
 
-**Qu’est-ce que le tableau de bord du ROI marketing ?**
+**Qu’est-ce que le tableau de bord du retour sur investissement marketing ?**
 
-Il s’agit d’un tableau de bord personnalisé de canaux marketing qui réside dans l’application [!DNL Marketo Measure]. Vous pouvez y accéder en vous rendant dans l’onglet [!DNL Marketo Measure] de [!DNL Salesforce].
+Il s’agit d’un tableau de bord des canaux marketing personnalisé qui réside dans l’application [!DNL Marketo Measure]. Il est accessible en accédant à l’onglet [!DNL Marketo Measure] dans [!DNL Salesforce].

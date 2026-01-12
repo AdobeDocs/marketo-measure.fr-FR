@@ -1,20 +1,19 @@
 ---
-unique-page-id: 18874574
-description: « Champs [!DNL Marketo Measure] sur les objets  [!DNL Salesforce]  standard -  [!DNL Marketo Measure] »
-title: « Champs [!DNL Marketo Measure] sur les objets  [!DNL Salesforce]  standard »
+description: '[!DNL Marketo Measure] des champs dans Standard [!DNL Salesforce] Objects - [!DNL Marketo Measure]'
+title: Champs [!DNL Marketo Measure] sur les objets [!DNL Salesforce] standard
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-source-git-commit: 05ba9e487d492ba4352a7f0577c7221f6ec9567e
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '670'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
+
 
 # « Champs [!DNL Marketo Measure] sur les objets [!DNL Salesforce] standard » {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
->
 >Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans la documentation tandis que votre CRM peut mentionner « Bizible ». Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
 
 Découvrez les différents champs [!DNL Marketo Measure] ajoutés aux objets standards [!DNL Salesforce].

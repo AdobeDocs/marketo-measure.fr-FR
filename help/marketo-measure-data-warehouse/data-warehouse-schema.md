@@ -1,27 +1,25 @@
 ---
-unique-page-id: 35586140
-description: Schéma de Data Warehouse - Marketo Measure - Documentation du produit
+description: Schéma de Data Warehouse
 title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: e9861f8032475d3e60a3bb3ebf67dfee520bbb75
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: '21106'
 ht-degree: 99%
 
 ---
+
 
 # Schéma de Data Warehouse {#data-warehouse-schema}
 
 Data Warehouse vous permet d’effectuer le suivi de toutes les données de votre choix, de créer des rapports sur vos données d’attribution où vous le souhaitez et d’établir des connexions avec d’autres jeux de données.
 
 >[!IMPORTANT]
->
->* Les lignes contenant une valeur pour _DELETED_DATE sont conservées pendant 7 jours, puis supprimées de Snowflake.
->* Les fuseaux horaires utilisés dans Snowflake respectent le temps universel coordonné (UTC).
+> Les lignes contenant une valeur pour _DELETED_DATE sont conservées pendant 7 jours, puis supprimées de Snowflake.
+> Les fuseaux horaires utilisés dans Snowflake respectent le temps universel coordonné (UTC).
 
 >[!NOTE]
->
 >[Cliquez ici](#sample-queries) pour afficher des exemples de requêtes en bas de cet article.
 
 ## Diagrammes de relation d’entité {#entity-relationship-diagrams}
@@ -40,9 +38,9 @@ _Cliquez sur une image pour sa version agrandie_
   </tr> 
   <tr> 
    <td><a href="assets/data-warehouse-data-model.pdf"><img src="assets/data-warehouse-data-model-thumb.png"></a></td>
-   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td> 
-  </tr> 
- </tbody> 
+   <td><a href="assets/ads-dimensional-data-model.pdf"><img src="assets/ads-dimensional-data-model-thumb.png"></a></td>
+  </tr>
+ </tbody>
 </table>
 
 ## Vues {#views}
@@ -57,7 +55,7 @@ Comptes importés à partir du système source.
       <th><strong>Colonne</strong></th>
       <th><strong>Type de données</strong></th>
       <th><strong>Description</strong></th>
-      <th><strong>Exemple de données</strong></th>
+      <th><strong>Données d’exemple</strong></th>
     </tr>
     <tr>
       <td>ID</td>
@@ -165,7 +163,7 @@ Table de mappage entre les adresses e-mail des prospects (adresses e-mail de con
     <th><strong>Colonne</strong></th>
       <th><strong>Type de données</strong></th>
       <th><strong>Description</strong></th>
-      <th><strong>Exemple de données</strong></th>
+      <th><strong>Données d’exemple</strong></th>
     </tr>
     <tr>
       <td>ID</td>
@@ -234,7 +232,7 @@ Activités importées depuis un système source ou un compte publicitaire connec
     <th><strong>Colonne</strong></th>
     <th><strong>Type de données</strong></th>
     <th><strong>Description</strong></th>
-    <th><strong>Exemple de données</strong></th>
+    <th><strong>Données d’exemple</strong></th>
     </tr>
     <tr>
       <td>ID</td>
@@ -350,7 +348,7 @@ Publicités importées depuis n’importe quel compte publicitaire connecté.
       <th><strong>Colonne</strong></th>
       <th><strong>Type de données</strong></th>
       <th><strong>Description</strong></th>
-      <th><strong>Exemple de données</strong></th>
+      <th><strong>Données d’exemple</strong></th>
     </tr>
     <tr>
       <td>ID</td>
@@ -537,7 +535,7 @@ Annonceurs importés depuis n’importe quel compte publicitaire connecté.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -692,7 +690,7 @@ Comptes publicitaires importés depuis n’importe quel compte publicitaire conn
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -1076,7 +1074,7 @@ Campagnes importées à partir des comptes publicitaires connectés, des systèm
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -1398,7 +1396,7 @@ Formulaires publicitaires importés depuis n’importe quel compte publicitaire 
       <p>Description</p>
     </th>
     <th>
-      <p>Exemple de données</p>
+      <p>Données d’exemple</p>
     </th>
   </tr>
   <tbody>
@@ -1599,7 +1597,7 @@ Groupes publicitaires importés depuis n’importe quel compte publicitaire conn
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -1919,7 +1917,7 @@ Groupes publicitaires importés depuis n’importe quel compte publicitaire conn
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -1987,7 +1985,7 @@ Groupes publicitaires importés depuis n’importe quel compte publicitaire conn
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -2307,7 +2305,7 @@ Groupes publicitaires importés depuis n’importe quel compte publicitaire conn
         <p>Au cours de la session, première page de destination qui a généré un point de contact. Une page de destination brute contiendra tous les paramètres de requête dans l’URL. Dans le CRM, cette valeur est appelée « Page de destination brute ».</p>
       </td>
       <td>
-        <p>http://www.adobe.com/blog/uncover-truth-behind-cost-per-lead?utm_content=27322869&utm_medium=social&utm_source=linkedin</p>
+        <p>http://www.adobe.com/blog/uncover-truth-behind-cost-per-lead?utm_content=27322869&amp;utm_medium=social&amp;utm_source=linkedin</p>
       </td>
     </tr>
     <tr>
@@ -3043,7 +3041,7 @@ Données générées à partir de l’intégration Attribution AI. Ces champs s
     <th>Colonne</th>
     <th>Type de données</th>
     <th>Description</th>
-    <th>Exemple de données</th>
+    <th>Données d’exemple</th>
   </tr>
 </thead>
 <tbody>
@@ -3068,8 +3066,8 @@ Données générées à partir de l’intégration Attribution AI. Ces champs s
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>Identifiant d’événement MM d’origine pour l’événement de conversion
-<br>mappé à un point de contact de l’utilisateur ou l’utilisatrice ou à une transition d’étape</td>
+    <td>ID d’événement MM d’origine pour l’événement de conversion
+    <br>mappe vers un point de contact utilisateur ou une transition d’étape.</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3200,7 +3198,7 @@ Membres de la campagne importés à partir du système source. Cette table sera 
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -3455,7 +3453,7 @@ Canaux marketing, tels que créés dans l’application [!DNL Marketo Measure].
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -3524,7 +3522,7 @@ Contacts importés à partir du système source.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -3722,7 +3720,7 @@ Taux de conversion des devises importés à partir du système source.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -3751,7 +3749,7 @@ Taux de conversion des devises importés à partir du système source.
     <tr>
       <td>END_DATE</td>
       <td>timestamp_ntz</td>
-      <td>Date suivante de début du taux de conversion. (La date de fin du taux de conversion correspond à la valeur end_date moins 1 jour.)</td>
+      <td>Date de début suivante du taux de conversion. (La date de fin du taux de conversion correspond à la valeur end_date moins 1 jour.)</td>
       <td>2018-09-01 00:00:00.000</td>
     </tr>
     <tr>
@@ -3815,7 +3813,7 @@ Données de coût importées à partir des comptes publicitaires connectés, ou 
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -4340,7 +4338,7 @@ Contenus créatifs importés depuis n’importe quel compte publicitaire connect
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -4767,7 +4765,7 @@ Contenus créatifs importés depuis n’importe quel compte publicitaire connect
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -4942,7 +4940,7 @@ Tâches importées à partir du système source. Cette table se remplit si la sy
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -5105,7 +5103,7 @@ Table contenant toutes les devises ISO.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -5206,7 +5204,7 @@ Tests AB enregistrés. Cette table sera vide si les tests AB ne sont pas activ
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
       <td>
@@ -5345,7 +5343,7 @@ Tests AB enregistrés. Cette table sera vide si les tests AB ne sont pas activ
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
       <td>
@@ -5456,7 +5454,7 @@ Pages de destination téléchargées à partir de n’importe quel compte public
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -5691,7 +5689,7 @@ Table de correspondance entre les adresses e-mail et les identifiants visiteur.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -5791,8 +5789,7 @@ Table de correspondance entre les adresses e-mail et les identifiants visiteur.
 Regroupe les données de type Impressions, Pages vues, Visites, Envois de formulaire, Points de contact utilisateur, Point de contact (BT), Points de contact d’attribution (BAT) et Coût. Ce champ est utilisé par le système pour la création de rapports [!DNL Marketo Measure].
 
 >[!IMPORTANT]
->
->Marketo Measure abandonnera ce tableau à la mi-2024. Si vous souhaitez procéder à la création de votre côté, exécutez [cette requête SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure abandonnera ce tableau à la mi-2024. Si vous souhaitez procéder à la création de votre côté, exécutez [cette requête SQL](/help/data-warehouse/assets/BIZ_FACTS.sql).
 
 <table>
   <tbody>
@@ -5800,7 +5797,7 @@ Regroupe les données de type Impressions, Pages vues, Visites, Envois de formul
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
       <td>COST_KEY</td>
@@ -6573,7 +6570,7 @@ Envois de formulaire capturés.
       </th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -6664,7 +6661,7 @@ Envois de formulaire capturés.
         <p>URL à partir de laquelle le formulaire a été envoyé, avec les paramètres de requête.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6840,7 +6837,7 @@ Impressions déclenchées et enregistrées. Cette table nécessite une connexion
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -6918,7 +6915,7 @@ Impressions déclenchées et enregistrées. Cette table nécessite une connexion
       <td>
         <p>URL à partir de laquelle l’impression a été générée, avec les paramètres de requête.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -7481,7 +7478,7 @@ Mots-clés importés depuis n’importe quel compte publicitaire connecté.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -7846,7 +7843,7 @@ Pages de destination importées depuis n’importe quel compte publicitaire conn
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -8065,7 +8062,7 @@ Prospects importés à partir du système source.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -8358,7 +8355,7 @@ Transitions d’étape pour les prospects ou les contacts.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -8599,7 +8596,7 @@ Opportunités importées à partir du système source.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -8889,7 +8886,7 @@ Transitions d’étape pour les opportunités.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -9140,7 +9137,7 @@ Pages vues collectées lors de visites web. Plusieurs pages vues peuvent corresp
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -9333,7 +9330,7 @@ Pages vues collectées lors de visites web. Plusieurs pages vues peuvent corresp
         <p>URL d’où provient la page vue, avec les paramètres de requête.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9421,7 +9418,7 @@ Cette table stocke tous les emplacements téléchargés à partir de n’importe
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -9657,7 +9654,7 @@ Valeurs des segments, telles que définies dans l’application [!DNL Marketo Me
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -9726,7 +9723,7 @@ Mappe le nom du segment personnalisé avec la valeur de sa catégorie. (Mappe le
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
       <td>
@@ -9805,7 +9802,7 @@ Sessions traitées à partir des pages vues. Plusieurs pages vues peuvent consti
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -9912,7 +9909,7 @@ Sessions traitées à partir des pages vues. Plusieurs pages vues peuvent consti
         <p>URL de la première page vue au cours de la session, avec les paramètres de requête.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -10564,7 +10561,7 @@ Sites importés depuis n’importe quel compte publicitaire connecté.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -10806,7 +10803,7 @@ Liens de sites provenant de n’importe quel compte publicitaire connecté.
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -11095,7 +11092,7 @@ Liste des étapes, telles qu’importées ou définies dans l’application [!DN
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -11278,7 +11275,7 @@ Points de contact acheteur, tous les points de contact associés à un prospect 
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -11613,7 +11610,7 @@ Points de contact acheteur, tous les points de contact associés à un prospect 
         <p>Au cours de la session, première page de destination qui a généré un point de contact. Une page de destination brute contiendra tous les paramètres de requête dans l’URL. Dans le CRM, cette valeur est appelée « Page de destination brute ».</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -12338,7 +12335,7 @@ Agrégation des URL correspondant aux pages de destination, aux pages du référ
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
       <td>ID</td>
@@ -12413,7 +12410,7 @@ Tous les points de contact créés à partir de n’importe quel événement li�
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -12628,7 +12625,7 @@ Tous les points de contact créés à partir de n’importe quel événement li�
         <p>Au cours de la session, première page de destination qui a généré un point de contact. Une page de destination brute contiendra tous les paramètres de requête dans l’URL. Dans le CRM, cette valeur est appelée « Page de destination brute ».</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12676,7 +12673,7 @@ Tous les points de contact créés à partir de n’importe quel événement li�
         <p>Au cours d’une session, premier formulaire enregistré qui a généré un point de contact. Les envois de formulaire suivants ne s’afficheront pas dans la table Attribution_Touchpoints, mais plutôt dans Form_Submits. Une page de formulaire brute contient parfois tous les paramètres de requête dans l’URL. Dans le CRM, cette valeur est appelée « URL brute du formulaire ».</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -13198,7 +13195,7 @@ Table de mappage permettant de faire correspondre l’ID de session [!DNL Market
       <th>Colonne</th>
       <th>Type de données</th>
       <th>Description</th>
-      <th>Exemple de données</th>
+      <th>Données d’exemple</th>
     </tr>
     <tr>
        <td>ID</td>
@@ -13265,7 +13262,7 @@ Table de mappage permettant de faire correspondre l’ID de session [!DNL Market
       <td>varchar</td>
       <td>URL de la page vue, avec les paramètres de requête.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>
@@ -13361,7 +13358,7 @@ Table de mappage permettant de faire correspondre l’ID de session [!DNL Market
 
 ```
 --Note: This query can quickly be modified to show Buyer Attribution Touchpoint (BAT) counts by switching the biz_touchpoints table to the biz_attribution_touchpoints table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,trim(split(ch.name,'.')[1])  as subchannel
       ,count(bt.id)                 as buyer_touchpoint_count
@@ -13383,7 +13380,7 @@ group by 1,2
 
 ```
 --Note: This query does not perform any currency conversion.  If your data contains multiple currencies, you will need to add in logic to perform the conversion to the desired currency using the biz_conversion_rates table.
- 
+
 select trim(split(ch.name,'.')[0])  as channel
       ,sum(opp.amount*(bat.full_path_percentage/100))   as attributed_revenue
   from biz_user_touchpoints         ut
@@ -13450,7 +13447,6 @@ order by 1
 **Afficher tous les points de contact d’attribution acheteur et leurs recettes attribuées pour une opportunité unique.**
 
 >[!NOTE]
->
 >Cette requête renvoie les revenus attribués pour le modèle de forme w. Modifiez le modèle en mettant à jour le champ dans le calcul des revenus attribués.
 
 ```

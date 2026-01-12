@@ -1,17 +1,17 @@
 ---
-unique-page-id: 18874576
-description: "[!DNL Salesforce] Tailles de stockage d’enregistrement - [!DNL Marketo Measure]"
-title: "[!DNL Salesforce] Tailles de stockage d’enregistrement"
+description: '[!DNL Salesforce] Tailles De Stockage Des Enregistrements - [!DNL Marketo Measure]'
+title: Tailles de stockage des enregistrements [!DNL Salesforce]
 exl-id: d72499a9-3678-4db0-9993-98c3af33b5a3
 feature: Salesforce
-source-git-commit: 915e9c5a968ffd9de713b4308cadb91768613fc5
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
-# [!DNL Salesforce] Tailles de stockage d’enregistrement {#salesforce-record-storage-sizes}
+
+# Tailles de stockage des enregistrements [!DNL Salesforce] {#salesforce-record-storage-sizes}
 
 [!DNL Marketo Measure] crée des enregistrements dans votre instance [!DNL Salesforce]. Il est donc utile de comprendre la taille de stockage de ces enregistrements.
 
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 **Enregistrements permanents**
 
-* Buyer Touchpoint = 1 Ko
-* Buyer Attribution Touchpoint = 2 Ko
+* BUYER TOUCHPOINT = 1 KO
+* BUYER ATTRIBUTION TOUCHPOINT = 2 KO
 * [!DNL Marketo Measure] Personne = 2 Ko
 * Test A/B = 2 Ko
 
 **Enregistrements temporaires**
 
 * Événements = 2 Ko
-* [!DNL Marketo Measure] Historique = 2 Ko
+* Historique des [!DNL Marketo Measure] = 2 Ko

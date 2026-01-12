@@ -3,12 +3,13 @@ description: Notes de mise à jour actuelles -  [!DNL Marketo Measure]
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 9ea72d0e1cf0f754cc8fe844944b93705fb2b12f
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 91%
+source-wordcount: '1376'
+ht-degree: 88%
 
 ---
+
 
 # Notes de mise à jour : 2024 {#release-notes-2024}
 
@@ -50,7 +51,7 @@ Nous avons écouté vos commentaires concernant l’approche de l’arrêt des t
 
 #### Pourquoi c’est important.
 
-* **Amélioration de l’intégrité des données et anticipation des risques relatifs à votre intégration :** en arrêtant le traitement dès le premier signe de problème, nous évitons les pertes de données et garantissons leur exactitude. Cela permet une résolution rapide des erreurs, ce qui améliore la qualité de l’export des données et la fiabilité globale du système.
+* **Renforcement de l’intégrité des données et pérennité de votre intégration** : en arrêtant le traitement dès le premier signe de problème, nous évitons les pertes de données et garantissons leur exactitude. Cela permet une résolution rapide des erreurs, ce qui améliore la qualité de l’export des données et la fiabilité globale du système.
 
 * **Visibilité immédiate :** grâce aux notifications push, vous recevrez des alertes opportunes pour les erreurs d’autorisation, ce qui vous permettra de répondre rapidement et de minimiser les impacts potentiels sur vos opérations.
 
@@ -63,8 +64,6 @@ Pour vous aider à vous adapter à cette modification, nous avons créé une doc
 
 ## Version du 3e trimestre {#q3-release}
 
-<p>
-
 ### Rappel : obsolescence des champs de Salesforce - 14 juin
 
 Comme annoncé l’année dernière, nous allons [supprimer progressivement nos tâches d’exportation vers des objets de lead/contact](https://nation.marketo.com/t5/employee-blogs/marketo-measure-salesforce-lead-and-contact-field-deprecation-06/ba-p/350179){target="_blank"} afin de simplifier notre intégration et d’éliminer la nécessité d’exporter vers des objets Salesforce standard. Vous pouvez obtenir les mêmes données de vos objets de point de contact en suivant les étapes [documentées ici](/help/release-notes/previous-releases/2023.md#deprecations){target="_blank"}. Nous partagerons également la documentation sur la création de workflows pour ajouter ces données à l’objet Lead/Contact. L’obsolescence prendra effet le 14 juin 2024.
@@ -76,7 +75,7 @@ Ce changement aura les deux avantages clés suivants :
 
 ### Tableau de bord Opportunité attribuées
 
-Nous avons le plaisir de vous présenter le nouveau [Tableau de bord Opportunités attribuées](/help/marketo-measure-discover-ui/dashboards/attributed-opportunity-dashboard.md){target="_blank"}, conçu pour vous donner une vue d’ensemble exhaustive de la manière dont vos efforts marketing contribuent aux opportunités de pipeline naissantes et matures. Ce tableau de bord vous permet de vous plonger dans les détails de chaque opportunité ouverte et fermée pouvant être attribuée à vos stratégies, avec la possibilité de filtrer par étape d’opportunité. Il fournit des informations sur les canaux, sous-canaux ou campagnes qui se classent le plus haut en termes de montant des opportunités attribuées. Il affiche le montant total des opportunités attribuées, ainsi que le nombre d’opportunités ouvertes et fermées attribuées.
+Nous sommes ravis de vous présenter le nouveau [tableau de bord des opportunités attribuées](/help/marketo-measure-discover-ui/attributed-opportunity-dashboard.md){target="_blank"}, conçu pour vous donner une vue d’ensemble de la manière dont vos efforts marketing contribuent aux opportunités de pipeline naissantes et matures. Ce tableau de bord vous permet de vous plonger dans les détails de chaque opportunité ouverte et fermée pouvant être attribuée à vos stratégies, avec la possibilité de filtrer par étape d’opportunité. Il fournit des informations sur les canaux, sous-canaux ou campagnes qui se classent le plus haut en termes de montant des opportunités attribuées. Il affiche le montant total des opportunités attribuées, ainsi que le nombre d’opportunités ouvertes et fermées attribuées.
 
 ### Synchronisation des cookies Marketo Engage pour Marketo Measure Ultimate
 
@@ -89,22 +88,18 @@ La synchronisation des cookies de Marketo Engage est désormais disponible pour
 
 Auparavant réservée à la clientèle de niveau 3, la fonction Étapes Boomerang est également disponible pour la clientèle de niveau 2 à compter du 13 juin 2024. Pour plus d’informations sur cette fonctionnalité, consultez la documentation ci-dessous.
 
-* [Étapes et points de contact Boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
-* [Configurer des étapes Boomerang](/help/advanced-marketo-measure-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
-* [Scénarios d’étape Boomerang](/help/advanced-marketo-measure-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
-
-<p>
+* [Étapes et points de contact Boomerang](/help/advanced-features/boomerang/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Configurer des étapes Boomerang](/help/advanced-features/boomerang/setting-up-boomerang-stages.md){target="_blank"}
+* [Scénarios d’étape Boomerang](/help/advanced-features/boomerang/boomerang-stage-scenarios.md){target="_blank"}
 
 ## Version du 2e trimestre {#q2-release}
 
-<p>
-
 ### Obsolescence des fonctionnalités de Marketo Measure en réponse à l’élimination progressive des cookies tiers
 
-En réponse aux préoccupations croissantes concernant la confidentialité, les cookies tiers sont progressivement supprimés et la date limite du troisième trimestre 2024 établie par Google Chrome indique la fin de leur existence. Marketo Measure abandonnera certaines fonctionnalités qui dépendent de cookies tiers, en particulier le suivi inter-domaines et l’attribution après affichage (View-through), qui dépendent du cookie d’impression Google/DoubleClick. Cette modification n’aura aucune incidence sur les autres fonctionnalités de Marketo Measure ni sur l’utilisation de cookies propriétaires. D’après le calendrier de Google, ces fonctionnalités doivent être abandonnées d’ici le 1er juin, mais les clientes et les clients pourront toujours accéder aux données collectées avant cette date.
+En réponse aux préoccupations croissantes concernant la confidentialité, les cookies tiers sont progressivement supprimés et la date limite du troisième trimestre 2024 établie par Google Chrome indique la fin de leur existence. Marketo Measure abandonnera certaines fonctionnalités qui dépendent de cookies tiers, en particulier le suivi inter-domaines et l’attribution après affichage (View-through), qui dépendent du cookie d’impression Google/DoubleClick. Cette modification n’aura aucune incidence sur les autres fonctionnalités de Marketo Measure ni sur l’utilisation de cookies propriétaires. D’après la chronologie de Google, ces fonctionnalités doivent être abandonnées d’ici le 1er juin, mais les clientes et les clients pourront toujours accéder aux données collectées avant cette date.
 
 * [Adaptation à l’obsolescence des cookies tiers dans Marketo Measure](https://nation.marketo.com/t5/employee-blogs/adapting-to-third-party-cookie-deprecation-in-marketo-measure/ba-p/345110){target="_blank"}
-* [Cookies Marketo Measure](/help/marketo-measure-tracking/setting-up-tracking/marketo-measure-cookies.md){target="_blank"}
+* [Cookies Marketo Measure](/help/marketo-measure-tracking/marketo-measure-cookies.md){target="_blank"}
 
 ### Déploiement échelonné de notre gestion améliorée des erreurs
 
@@ -115,15 +110,13 @@ Nous mettons en place un déploiement progressif de la gestion améliorée des e
 
 _Pourquoi c’est important_
 
-Amélioration de l’intégrité des données et anticipation des risques relatifs à votre intégration : nous arrêtons le traitement dès le premier signe de problème afin d’éviter les pertes de données et de garantir son exactitude. Cela permet de résoudre rapidement les problèmes, d’améliorer la qualité de l’export des données et la fiabilité du système.
+Renforcement de l’intégrité des données et pérennité de votre intégration : nous arrêtons le traitement dès le premier signe de problème afin d’éviter les pertes de données et de garantir son exactitude. Cela permet de résoudre rapidement les problèmes, d’améliorer la qualité de l’export des données et la fiabilité du système.
 
 Visibilité immédiate : la mise en place de notifications lumineuses permet de réagir rapidement aux erreurs d’autorisation, en évitant des impacts potentiels sur les opérations.
 
 _Pour vous aider à faire la transition_
 
 Pour vous aider à vous adapter à cette modification, [nous avons créé une documentation](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"} avec des descriptions des erreurs claires et des étapes de résolution de problèmes exhaustives.
-
-<br>
 
 ### Action requise pour l’intégration LinkedIn
 

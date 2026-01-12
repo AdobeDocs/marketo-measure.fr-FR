@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874682
 description: Canaux et sous-canaux marketing -  [!DNL Marketo Measure]
 title: Canaux et sous-canaux marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 0ba036e7ebba77d870931704a59b19011e84271e
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 97%
 
 ---
+
 
 # Canaux et sous-canaux marketing {#marketing-channels-and-subchannels}
 
@@ -49,7 +49,7 @@ Le diagramme ci-dessous illustre un exemple de canal marketing, de sous-canal et
 
 Dans ce cas, le contenu auquel l’utilisateur ou l’utilisatrice tente d’accéder est le Guide d’introduction à l’attribution marketing B2B. [!DNL Marketo Measure] analyse l’URL qui mène à ce contenu à l’aide des règles de canal configurées dans cette organisation et les utilise pour « regrouper » ce prospect dans le canal marketing « Référencement social payant » et le sous-canal « LinkedIn ».
 
-![](assets/1.jpg)
+![Diagramme liant le canal marketing, le sous-canal et le contenu à partir d’une URL balisée](assets/1.jpg)
 
 Autres exemples...
 

@@ -1,15 +1,15 @@
 ---
-unique-page-id: 18874646
 description: Différence entre les Buyer Touchpoints et les Buyer Attribution Touchpoints -  [!DNL Marketo Measure]
 title: Différence entre les points de contact acheteur et les points de contact d’attribution acheteur
 exl-id: 19109271-7b59-44c0-b1ff-e3b0bba9f5ce
 feature: Touchpoints
-source-git-commit: bdc32fdfe24d57fd7770654f1238896c7b59acf6
+source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
 
 ---
+
 
 # Différence entre les points de contact acheteur et les points de contact d’attribution acheteur {#difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints}
 
@@ -21,31 +21,31 @@ Alors que les objets Buyer Attribution Touchpoint sont liés aux objets Contac
 
 Différence entre BT et BAT :
 
-<table> 
- <colgroup> 
-  <col> 
-  <col> 
- </colgroup> 
- <tbody> 
-  <tr> 
-   <td>Point de contact acheteur (BT)</td> 
-   <td>Point de contact d’attribution acheteur (BAT)</td> 
-  </tr> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Fait référence à des objets Prospect, Contact et Dossier.</li> 
-     <li>Ne peut pas être lié à des objets Opportunité.</li> 
-     <li>Les recettes ne sont pas associées à un point de contact acheteur.</li> 
-    </ul></td> 
-   <td> 
-    <ul> 
-     <li>Fait référence à des objets Contact, Compte et Opportunité.</li> 
-     <li>Ne peut pas être lié à des objets Prospect.</li> 
-     <li>Étant donné qu’un point de contact d’attribution acheteur est associé à une opportunité, tous les BAT sont associés à des recettes.</li> 
-    </ul></td> 
-  </tr> 
- </tbody> 
+<table>
+ <colgroup>
+  <col>
+  <col>
+ </colgroup>
+ <tbody>
+  <tr>
+   <td>Point de contact acheteur (BT)</td>
+   <td>Point de contact d’attribution acheteur (BAT)</td>
+  </tr>
+  <tr>
+   <td>
+    <ul>
+     <li>Fait référence à des objets Prospect, Contact et Dossier.</li>
+     <li>Ne peut pas être lié à des objets Opportunité.</li>
+     <li>Les recettes ne sont pas associées à un point de contact acheteur.</li>
+    </ul></td>
+   <td>
+    <ul>
+     <li>Fait référence à des objets Contact, Compte et Opportunité.</li>
+     <li>Ne peut pas être lié à des objets Prospect.</li>
+     <li>Étant donné qu’un point de contact d’attribution acheteur est associé à une opportunité, tous les BAT sont associés à des recettes.</li>
+    </ul></td>
+  </tr>
+ </tbody>
 </table>
 
 ## Questions fréquentes {#faq}
