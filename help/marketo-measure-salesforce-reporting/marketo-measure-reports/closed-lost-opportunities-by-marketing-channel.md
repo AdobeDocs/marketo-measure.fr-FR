@@ -46,4 +46,4 @@ Bien que ce rapport puisse dépendre de vos étapes d’opportunité, il dévoil
    Il s’agit d’un rapport d’opportunités résumé par la mesure Canal marketing des opportunités closes et perdues sur vos canaux. Ce rapport vous permet de comprendre les canaux qui peuvent être peu performants. N’hésitez pas à ajouter des filtres ou des champs sur lesquels vous souhaitez créer des rapports.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Tutoriels : rapports SFDC supplémentaires](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutoriels : rapports SFDC supplémentaires](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

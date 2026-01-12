@@ -17,8 +17,8 @@ Ce document présente la gestion des demandes individuelles d’accès à des in
 
 Vous pouvez soumettre des requêtes individuelles pour accéder aux données des clients et les supprimer de [!DNL Marketo Measure] de deux manières :
 
-* Via l’[[!DNL Privacy Service] IU](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
-* Via l’API **[!DNL Privacy Service]**. Consultez la documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} et la référence de l’API [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Via l’[[!DNL Privacy Service] IU](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=fr){target="_blank"}.
+* Via l’API **[!DNL Privacy Service]**. Consultez la documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr){target="_blank"} et la référence de l’API [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
 [Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"} prend en charge deux types de demandes : l&#39;accès aux données et la suppression des données.
 

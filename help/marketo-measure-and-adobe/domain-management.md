@@ -21,7 +21,7 @@ Les utilisateurs IMS ayant accès au Adobe Admin Console peuvent ajouter et vali
 
 ![Liste de domaines Adobe Admin Console affichant le statut de validation](assets/domain-management-1.png)
 
-Vous trouverez des instructions pour l’ajout de domaines dans la documentation d’[Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Une fois qu&#39;un domaine est ajouté, il doit être [lié à un répertoire](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
+Vous trouverez des instructions pour l’ajout de domaines dans la documentation d’[Admin Console](https://helpx.adobe.com/fr/enterprise/using/add-domains-directories.html). Une fois qu&#39;un domaine est ajouté, il doit être [lié à un répertoire](https://helpx.adobe.com/fr/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 
 ## Gestion des domaines dans [!DNL Marketo Measure] {#managing-domains-in-marketo-measure}
 

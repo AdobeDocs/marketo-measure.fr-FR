@@ -96,7 +96,7 @@ En savoir plus sur les différents cookies [!DNL Marketo Measure] chargés sur v
   </tr>
   <tr>
     <td>_BUID</td>
-    <td>Tiers, domaine=.<a href="https://business.adobe.com/products/marketo/bizible.html">bizible.com</a></td>
+    <td>Tiers, domaine=.<a href="https://business.adobe.com/fr/products/marketo/bizible.html">bizible.com</a></td>
     <td>Identifiant d’utilisateur ou d’utilisatrice universel permettant d’identifier une personne sur plusieurs domaines.</td>
     <td>1 an</td>
     <td>Oui</td>

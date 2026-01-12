@@ -34,4 +34,4 @@ Ce rapport fait apparaître le nombre d’opportunités générées par vos cana
    Il s’agit d’un rapport d’opportunités résumé par canal marketing. Ce rapport se concentre sur toutes les opportunités, mais n’hésitez pas à le filtrer en fonction de l’étape/du type d’opportunité. N’hésitez pas non plus à ajouter des champs dans les champs sur lesquels vous souhaitez créer des rapports.
 
 >[!MORELIKETHIS]
->[[!DNL Marketo Measure] Tutoriels : rapports Stock SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutoriels : rapports Stock SFDC](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
