@@ -20,7 +20,7 @@ Prête à l’emploi, vous disposez de nombreuses fonctionnalités de création 
 
 1. Accédez à l’option Configuration dans [!DNL Salesforce]. À partir de là, développez le regroupement « Créer » et sélectionnez **[!UICONTROL Types de rapports]**.
 
-   ![1. Accédez à l’option Configuration dans Salesforce. À partir de là, développez ](assets/bizible-guide-1.png)
+   ![1. Accédez à l’option Configuration dans Salesforce. À partir de là, développez &#x200B;](assets/bizible-guide-1.png)
 
 1. Sélectionnez **[!UICONTROL Nouveau type de rapport personnalisé]**.
 
@@ -28,10 +28,10 @@ Prête à l’emploi, vous disposez de nombreuses fonctionnalités de création 
 
 1. Définissez l’objet principal en tant que « Leads » et dans l’entrée « Libellé du type de rapport » « Leads avec points de contact de l’acheteur - Inclusif ». Stockez le rapport dans la catégorie « Leads » et modifiez le statut du déploiement en **[!UICONTROL Déployé]**. Sélectionnez ensuite **[!UICONTROL Suivant]**.
 
-   ![1. Définissez l’objet principal en tant que « Leads » et dans le « Type de rapport ](assets/marketo-reports-18.jpg)
+   ![1. Définissez l’objet principal en tant que « Leads » et dans le « Type de rapport &#x200B;](assets/marketo-reports-18.jpg)
 
 1. Pour les relations d’objet, sélectionnez l’objet **[!DNL Marketo Measure]Personnes** comme objet secondaire. Sélectionnez la relation A à B comme suit : « Chaque enregistrement « A » doit avoir au moins un enregistrement « B » associé. » À partir de là, vous allez mettre en relation l’objet « Buyer Touchpoint » et sélectionner la même relation entre les objets B et C.
 
-   ![1. Pour les relations d’objet, sélectionnez l’objet Personnes Marketo Measure ](assets/bizible-guide-2.png)
+   ![1. Pour les relations d’objet, sélectionnez l’objet Personnes Marketo Measure &#x200B;](assets/bizible-guide-2.png)
 
 1. Enregistrez et commencez à créer des rapports.

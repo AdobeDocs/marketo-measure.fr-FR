@@ -41,7 +41,7 @@ Ce graphique à barres de séries chronologiques côte à côte met en contraste
 * Quel pourcentage de notre chiffre d’affaires d’août 2022 peut être attribué à nos initiatives marketing ?
 * Comment se compare le chiffre d’affaires attribué au T3 de l’année dernière par rapport au T4 ?
 
-![À quoi correspond le chiffre d’affaires attribué au T3 de l’année dernière ](assets/revenue-dashboard-1.png)
+![À quoi correspond le chiffre d’affaires attribué au T3 de l’année dernière &#x200B;](assets/revenue-dashboard-1.png)
 
 ### Graphique de couverture de l’attribution {#attribution-coverage-chart}
 
@@ -51,7 +51,7 @@ Ce graphique en secteurs permet de visualiser distinctement votre couverture d�
 
 * Quel a été le pourcentage de la couverture du chiffre d’affaires attribué à nos efforts de marketing l’année dernière ?
 
-![Quel a été le pourcentage de la couverture du chiffre d’affaires attribué à nos efforts marketing ](assets/revenue-dashboard-2.png)
+![Quel a été le pourcentage de la couverture du chiffre d’affaires attribué à nos efforts marketing &#x200B;](assets/revenue-dashboard-2.png)
 
 ## Volet de filtrage {#filter-pane}
 

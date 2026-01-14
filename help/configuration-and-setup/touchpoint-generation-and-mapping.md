@@ -45,10 +45,10 @@ Le processus de mappage des points de contact répond à la question : « Une 
 
 >[!MORELIKETHIS]
 >
->* [Mappage des points de contact en ligne à des canaux/sous-canaux  [!DNL Marketo Measure] ](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
+>* [Mappage des points de contact en ligne à des canaux/sous-canaux  [!DNL Marketo Measure] &#x200B;](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
 >* [Synchronisation des campagnes CRM à partir de SFDC](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)
 >* [Synchronisation des campagnes CRM à partir de  [!DNL Marketo Measure]](/help/channel-tracking-and-setup/custom-campaign-sync.md)
->* [Mappage des campagnes CRM à des canaux/sous-canaux  [!DNL Marketo Measure] ](/help/channel-tracking-and-setup/offline-custom-channel-setup.md)
+>* [Mappage des campagnes CRM à des canaux/sous-canaux  [!DNL Marketo Measure] &#x200B;](/help/channel-tracking-and-setup/offline-custom-channel-setup.md)
 >* [Création de points de contact à partir des activités de vente](/help/channel-tracking-and-setup/salesforce-activities-attribution.md)
 >* [Questions fréquentes sur les activités et mappage des points de contact des activités à des canaux/sous-canaux](/help/channel-tracking-and-setup/activities-attribution-faq.md)
 

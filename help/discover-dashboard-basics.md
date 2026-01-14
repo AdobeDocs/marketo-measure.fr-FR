@@ -21,16 +21,16 @@ Chaque tableau de bord comporte une plage de filtres, accompagnés des commandes
 
 | Nom | Description |
 | --- | --- |
-| Bouton Bascule Filtre | Activez/désactivez l’ouverture ou la fermeture du volet de filtrage. ![| — | — |](assets/discover-basics-9.png) |
-| Barre de recherche | Utilisez la recherche en haut du volet de filtrage pour rechercher un filtre spécifique. Chaque filtre possède également sa propre barre de recherche. ![| — | — |](assets/discover-basics-10.png) |
-| Bouton Effacer le filtre | Pour effacer un filtre, cliquez sur l’icône Gomme située dans le coin supérieur droit de chaque filtre. ![| — | — |](assets/discover-basics-11.png) |
-| Bouton Appliquer | Cliquez sur pour confirmer et implémenter vos modifications de filtre sur le tableau de bord. ![| — | — |](assets/discover-3a-1.png) |
+| Bouton Bascule Filtre | Activez/désactivez l’ouverture ou la fermeture du volet de filtrage. |||||||||||||||||||||||||![ — | — |] (apng) |
+| Barre de recherche | Utilisez la recherche en haut du volet de filtrage pour rechercher un filtre spécifique. Chaque filtre possède également sa propre barre de recherche. ||||||||||||||||||||||||||![ — | — |] (apng) |
+| Bouton Effacer le filtre | Pour effacer un filtre, cliquez sur l’icône Gomme située dans le coin supérieur droit de chaque filtre. ||||||||||||||||||||||||||![ — | — |] (apng) |
+| Bouton Appliquer | Cliquez sur pour confirmer et implémenter vos modifications de filtre sur le tableau de bord. |||||||||||||||||||||![ — | — |] (apng) |
 
 ## Filtres visuels {#filters-on-visual}
 
 Pointez sur le coin supérieur droit d’un élément visuel pour afficher une liste en lecture seule des filtres appliqués.
 
-![Pointez sur le coin supérieur droit d’un visuel pour afficher une liste en lecture seule de ](assets/discover-3b-1.png)
+![Pointez sur le coin supérieur droit d’un visuel pour afficher une liste en lecture seule de &#x200B;](assets/discover-3b-1.png)
 
 ## Fonctionnalités de rapport {#report-capabilities}
 
@@ -38,7 +38,7 @@ Pointez sur le coin supérieur droit d’un élément visuel pour afficher une l
 
 * Passez la souris sur un élément visuel pour déterminer s’il possède une hiérarchie. C’est ce qu’indique la présence d’options de contrôle de hiérarchisation dans la barre d’actions.
 
-![Pointez sur un élément visuel pour déterminer s’il possède une hiérarchie ; le ](assets/discover-basics-7.png)
+![Pointez sur un élément visuel pour déterminer s’il possède une hiérarchie ; le &#x200B;](assets/discover-basics-7.png)
 
 * Activez l’analyse en cliquant sur la seule flèche vers le bas, mise en surbrillance par un arrière-plan gris. Pour revenir en arrière, utilisez l’icône d’exploration.
 
@@ -54,13 +54,13 @@ Utilisez l’icône d’analyse à double flèche pour passer au niveau hiérarc
 
 Utilisez l&#39;icône en forme de branchement pour ajouter un niveau de hiérarchie supplémentaire à votre affichage actuel.
 
-![Utilisez l’icône en forme de branchement pour ajouter un niveau de hiérarchie supplémentaire à votre ](assets/discover-basics-12.gif)
+![Utilisez l’icône en forme de branchement pour ajouter un niveau de hiérarchie supplémentaire à votre &#x200B;](assets/discover-basics-12.gif)
 
 ### Analyser en amont {#drill-through}
 
 Pour explorer les données derrière le visuel, cliquez avec le bouton droit sur l’élément visuel et sélectionnez l’option « exploration ».
 
-![Pour explorer les données derrière le visuel, cliquez avec le bouton droit sur l’élément visuel et ](assets/discover-basics-13.gif)
+![Pour explorer les données derrière le visuel, cliquez avec le bouton droit sur l’élément visuel et &#x200B;](assets/discover-basics-13.gif)
 
 ### Exporter des données {#export-data}
 
@@ -71,7 +71,7 @@ Pour exporter les données sous-jacentes d’un élément visuel, pointez sur so
 
 Pour effectuer un zoom avant sur un élément visuel ou une mosaïque spécifique, pointez sur le coin supérieur droit et sélectionnez le bouton « sélection ».
 
-![Pour effectuer un zoom avant sur un élément visuel ou une mosaïque spécifique, pointez sur ](assets/discover-basics-5.gif)
+![Pour effectuer un zoom avant sur un élément visuel ou une mosaïque spécifique, pointez sur &#x200B;](assets/discover-basics-5.gif)
 
 ### Filtrage croisé {#cross-filtering}
 

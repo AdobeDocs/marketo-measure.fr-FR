@@ -46,7 +46,7 @@ Questions auxquelles le graphique répond :
 * Comment les tendances du nombre total de visites se comparent-elles aux visiteurs uniques et aux envois de formulaire au cours de la période affichée ?
 * Au cours de quelle période le site web a-t-il enregistré le plus grand nombre de visiteurs uniques par rapport au nombre total de visites et d’envois de formulaires ?
 
-![Période au cours de laquelle le site web a-t-il affiché le plus grand nombre d’uniques ](assets/web-dashboard-1.png)
+![Période au cours de laquelle le site web a-t-il affiché le plus grand nombre d’uniques &#x200B;](assets/web-dashboard-1.png)
 
 ## Tableau récapitulatif du trafic Web {#web-traffic-summary-table}
 
@@ -89,7 +89,7 @@ Questions auxquelles le graphique répond :
 * Quel canal/sous-canal/campagne attire le plus grand nombre de visites ou de visiteurs uniques ?
 * Comment le nombre de visiteurs uniques se compare-t-il au nombre total de visites dans un canal/sous-canal/campagne spécifique ?
 
-![Comment le nombre de visiteurs uniques se compare-t-il au nombre total de visites dans ](assets/web-dashboard-4.png)
+![Comment le nombre de visiteurs uniques se compare-t-il au nombre total de visites dans &#x200B;](assets/web-dashboard-4.png)
 
 ## Volet de filtrage {#filter-pane}
 

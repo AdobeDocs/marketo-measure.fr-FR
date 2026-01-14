@@ -32,7 +32,7 @@ Questions auxquelles le graphique répond :
 * Quelle étape de vente a généralement la plus longue durée pour les leads/contacts ?
 * Comment le temps passé à l’étape « Première touche » se compare-t-il à celui passé à l’étape « MQL » ?
 
-![À quoi le temps passé à l’étape « Première touche » se compare-t-il ](assets/lead-dashboard-1.png)
+![À quoi le temps passé à l’étape « Première touche » se compare-t-il &#x200B;](assets/lead-dashboard-1.png)
 
 ### Vitesse Des Leads/Contacts Au Fil Du Temps {#lead-contact-velocity-over-time}
 
@@ -46,7 +46,7 @@ Questions auxquelles le graphique répond :
 * Quelles sont les tendances du temps passé à chaque étape pour les leads/contacts tout au long des mois observés ?
 * Au cours de quel mois les leads/contacts ont-ils connu la progression la plus rapide à travers les étapes de vente ?
 
-![En quel mois les leads/contacts ont-ils connu la progression la plus rapide des ventes ](assets/lead-dashboard-2.png)
+![En quel mois les leads/contacts ont-ils connu la progression la plus rapide des ventes &#x200B;](assets/lead-dashboard-2.png)
 
 ### Vitesse des leads/contacts par canal {#lead-contact-velocity-by-channel}
 
@@ -59,7 +59,7 @@ Questions auxquelles le graphique répond :
 * Quel canal affiche la progression de prospect la plus rapide via les étapes funnel ?
 * Comment la vitesse du prospect dans l’étape « MQL » varie-t-elle selon les différents canaux ?
 
-![Comment la vitesse du prospect dans l’étape « MQL » varie-t-elle selon les différents ](assets/lead-dashboard-3.png)
+![Comment la vitesse du prospect dans l’étape « MQL » varie-t-elle selon les différents &#x200B;](assets/lead-dashboard-3.png)
 
 ## Volet de filtrage {#filter-pane}
 

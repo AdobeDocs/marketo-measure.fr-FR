@@ -22,7 +22,7 @@ Cet article présente un aperçu de la connexion de votre compte [!DNL Salesforc
 
 1. Dans la colonne des options de configuration sur la gauche, cliquez sur **[!UICONTROL Connexions]** dans la section [!UICONTROL Intégrations].
 
-   ![1. Dans la colonne des options de paramétrage sur la gauche, cliquez sur ](assets/bizible-full-1.png)
+   ![1. Dans la colonne des options de paramétrage sur la gauche, cliquez sur &#x200B;](assets/bizible-full-1.png)
 
 1. Sous la section CRM dans Connexions, cliquez sur **[!UICONTROL Configurer une nouvelle connexion CRM]**.
 
@@ -30,7 +30,7 @@ Cet article présente un aperçu de la connexion de votre compte [!DNL Salesforc
 
 1. Une fenêtre pop-up s’affiche vous demandant de Sélectionner la connexion CRM . Cliquez sur **[!UICONTROL Connexion]** en regard du logo [!DNL Salesforce].
 
-   ![1. Une fenêtre pop-up s’affiche vous demandant de Sélectionner la connexion CRM . Cliquez sur ](assets/connect-salesforce-1.png)
+   ![1. Une fenêtre pop-up s’affiche vous demandant de Sélectionner la connexion CRM . Cliquez sur &#x200B;](assets/connect-salesforce-1.png)
 
 1. Une dernière fenêtre pop-up s’affiche, vous demandant vos informations d’identification [!DNL Salesforce], votre sandbox ou votre environnement de production. Saisissez vos informations et cliquez sur **[!UICONTROL Autoriser]** pour connecter le compte à [!DNL Marketo Measure].
 
@@ -62,7 +62,7 @@ Vous pouvez accéder à cette limite dans Marketo Measure via : **Mon compte** >
 
 1. Saisissez une limite souhaitée égale ou supérieure à 100 000. Cliquez sur **Enregistrer** lorsque vous avez terminé.
 
-   ![1. Saisissez une limite souhaitée égale ou supérieure à 100 000. Cliquez sur ](assets/connect-salesforce-1.png)
+   ![1. Saisissez une limite souhaitée égale ou supérieure à 100 000. Cliquez sur &#x200B;](assets/connect-salesforce-1.png)
 
 >[!NOTE]
 >

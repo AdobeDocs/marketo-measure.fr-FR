@@ -25,7 +25,7 @@ Ajoutez les sections de tests A/B [!DNL Marketo Measure] sur les pages Prospect
 
 1. Cliquez sur le bouton [!UICONTROL Clé à molette]. Supprimer le champ « Id » du stock de la liste des champs sélectionnés. Ajoutez les champs **[!UICONTROL Expérience]**, **[!UICONTROL Variation]** et **[!UICONTROL DateReported]**. Remplacez « [!UICONTROL Trier par] » par **[!UICONTROL Date du rapport]**, et sélectionnez **[!UICONTROL Descendant]** dans la liste déroulante.
 
-   ![1. Cliquez sur le bouton Clé à molette . Supprimez le champ « Id » de stock de ](assets/advanced-features-3.png)
+   ![1. Cliquez sur le bouton Clé à molette . Supprimez le champ « Id » de stock de &#x200B;](assets/advanced-features-3.png)
 
 1. Sous [!UICONTROL Boutons], décochez **[!UICONTROL Nouveau]**.
 

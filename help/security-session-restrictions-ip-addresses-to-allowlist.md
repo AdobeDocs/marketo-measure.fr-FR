@@ -20,4 +20,4 @@ Si des [paramètres de sécurité de session](https://help.salesforce.com/articl
 
 Pour ajouter des adresses IP [!DNL Marketo Measure] aux plages d’adresses IP de confiance dans Salesforce, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Configuration de l’administration]** > **[!UICONTROL Contrôles de sécurité]** > **[!UICONTROL Accès réseau]** > **[!UICONTROL Nouveau]**.
 
-![Pour ajouter des adresses IP Marketo Measure aux plages d’adresses IP de confiance dans ](assets/compliance-resources-1.png)
+![Pour ajouter des adresses IP Marketo Measure aux plages d’adresses IP de confiance dans &#x200B;](assets/compliance-resources-1.png)

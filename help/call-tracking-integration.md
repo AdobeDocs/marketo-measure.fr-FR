@@ -18,7 +18,7 @@ Notre intégration à [!DNL CallTrackingMetrics] est destinée à fusionner une 
 
 Le « suivi d’appels » au sens général est un produit de sociétés telles que [!DNL CallTrackingMetrics], [!DNL DiaglogTech], [!DNL Invoca] ou [!DNL CallRail], pour n’en citer que quelques-unes. Les numéros de téléphone uniques sont affichés aux utilisateurs en fonction des différents canaux ou campagnes marketing d’où ils proviennent. Cela permet aux spécialistes du marketing de voir les performances de ces canaux ou campagnes.
 
-![&#39;expression « suivi des appels » au sens général est un produit de sociétés telles que ](assets/other-resources-6.png)
+![&#39;expression « suivi des appels » au sens général est un produit de sociétés telles que &#x200B;](assets/other-resources-6.png)
 
 ## Avant et Après {#before-and-after}
 
@@ -26,7 +26,7 @@ Examinez le diagramme de flux ci-dessous pour voir comment [!DNL Marketo Measure
 
 Avec l’intégration, vous pouvez voir que la session web a été liée à un appel téléphonique. Le remplissage du formulaire suivant finit par être un contact PostLC et est toujours suivi dans le cadre du parcours.
 
-![Avec l’intégration, vous pouvez voir que la session web était en fait ](assets/other-resources-4.png)
+![Avec l’intégration, vous pouvez voir que la session web était en fait &#x200B;](assets/other-resources-4.png)
 
 ## Fonctionnement {#how-it-works}
 
@@ -48,13 +48,13 @@ Lorsque [!DNL Marketo Measure] pouvons importer ou télécharger la tâche, nous
 
 Le type [!UICONTROL Appel de point de contact] est extrait de la tâche, à partir de la capture d’écran ci-dessus, qui est également renseignée par CallTrackingMetrics lorsque la tâche est créée.
 
-![Le type de point de contact « Appel » est extrait de la tâche, à partir du ](assets/marketo-engage-activities-01.png)
+![Le type de point de contact « Appel » est extrait de la tâche, à partir du &#x200B;](assets/marketo-engage-activities-01.png)
 
 ## Rapports {#reporting}
 
 Les valeurs de type de point de contact que [!DNL Marketo Measure] envoie généralement sont Visite web, Formulaire web ou Conversation web, mais dans le cas des points de contact CallTrackingMetrics, le type de point de contact est Appel téléphonique. Cela permet aux professionnels du marketing de voir quels canaux attirent le plus d’appels téléphoniques et génèrent des revenus pour leur organisation.
 
-![Les valeurs de type de point de contact généralement transmises par Marketo Measure sont les suivantes : Visite web ](assets/other-resources-1.png)
+![Les valeurs de type de point de contact généralement transmises par Marketo Measure sont les suivantes : Visite web &#x200B;](assets/other-resources-1.png)
 
 ## Questions fréquentes {#faq}
 

@@ -24,7 +24,7 @@ Prenons l’exemple du rapport suivant :
 
 Il s&#39;agit d&#39;un rapport **Contacts avec les points de contact des acheteurs**. Encore une fois, cela signifie que nous examinons le nombre de points de contact associés à un contact individuel.
 
-![Il s&#39;agit d&#39;un rapport Contacts avec les points de contact des acheteurs. Encore une fois, cela signifie que ](assets/marketo-reports-1.gif)
+![Il s&#39;agit d&#39;un rapport Contacts avec les points de contact des acheteurs. Encore une fois, cela signifie que &#x200B;](assets/marketo-reports-1.gif)
 
 Comme vous pouvez le voir, il semble qu&#39;il y ait trois contacts James Williams dans le rapport, et donc vous pourriez penser, « doublons ! »
 

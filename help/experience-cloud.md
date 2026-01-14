@@ -40,7 +40,7 @@ Outre la mise à jour de l’aspect, notez les fonctionnalités suivantes :
 
 Recherchez des articles d’assistance, envoyez des tickets, donnez votre avis, le tout depuis l’application [!DNL Marketo Measure].
 
-![Rechercher des articles d’assistance, envoyer des tickets, fournir des commentaires, le tout depuis ](assets/unified-overview-5.png)
+![Rechercher des articles d’assistance, envoyer des tickets, fournir des commentaires, le tout depuis &#x200B;](assets/unified-overview-5.png)
 
 **Sélecteur d’application**
 
@@ -72,6 +72,6 @@ Les signets sont redirigés. Par exemple, si vous deviez accéder à https://app
 
 Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une page comme celle-ci, le problème peut se situer du côté [!DNL Marketo Measure] :
 
-![Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une ](assets/unified-overview-7.png)
+![Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une &#x200B;](assets/unified-overview-7.png)
 
 Si vous recevez l’erreur ci-dessus, [contactez l’assistance](https://nation.marketo.com/t5/support/ct-p/Support) pour obtenir de l’aide.

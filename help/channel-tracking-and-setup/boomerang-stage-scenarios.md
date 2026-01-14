@@ -48,7 +48,7 @@ Le lead 1 est ensuite converti en contact avec une opportunité, ce qui est cons
 
 Ce scénario utilise les mêmes critères que le scénario 2. Un client a choisi de ne suivre que l’étape SQL avec les points de contact de boomerang. MQL et SAL font toujours l’objet d’un suivi, mais avec la fonctionnalité d’évaluation personnalisée [!DNL Marketo Measure].
 
-![Ce scénario utilise les mêmes critères que le scénario 2. Un client a ](assets/boomerang-stages-20.png)
+![Ce scénario utilise les mêmes critères que le scénario 2. Un client a &#x200B;](assets/boomerang-stages-20.png)
 
 Dans ce scénario, le prospect ne passe jamais réellement à l’étape de l’accord commercial. Il se transforme en contact avant d’atteindre l’étape SAL, en « ignorant » essentiellement l’étape SAL. Dans ce cas, [!DNL Marketo Measure] suppose que le SAL se produit avec le point de contact OC, et les positions SAL et OC apparaîtront toutes deux sur le même point de contact.
 
@@ -64,7 +64,7 @@ La ligne supérieure (intitulée Lead 1, en bleu) représente le parcours de cha
 
 Dans ce scénario, un client a choisi de suivre les étapes **MQL** et **SAL** avec des points de contact de boomerang. L’étape SQL est suivie par les étapes personnalisées standard.
 
-![Dans ce scénario, un client a choisi d’effectuer le suivi de MQL et ](assets/boomerang-stages-21.png)
+![Dans ce scénario, un client a choisi d’effectuer le suivi de MQL et &#x200B;](assets/boomerang-stages-21.png)
 
 Les points de contact FT et LC sur l’opportunité proviennent du lead 1 (bleu), car ils se sont produits avant le FT et le LC du lead 2 (rose). Le point de contact LC pour le lead 2 s’affichera comme point de contact de « formulaire » sur l’opportunité.
 
@@ -84,7 +84,7 @@ Dans ce scénario, un client a choisi de suivre les étapes **MQL**, **SQL** et 
 
 Tous les points de contact du lead 1 sont inclus dans l’opportunité, de FT à SAL-01 (dernier). Le point de contact LC du lead 2 sera inclus comme point de contact de formulaire entre les points de contact LC et MQL-01 sur l’opportunité.
 
-![Tous les points de contact du lead 1 sont inclus dans l’opportunité, à partir de ](assets/boomerang-stages-22.png)
+![Tous les points de contact du lead 1 sont inclus dans l’opportunité, à partir de &#x200B;](assets/boomerang-stages-22.png)
 
 Le MQL-01 (dernier) du lead 2 finit par être le point de contact MQL-04 (dernier) sur l’opportunité. Comme ce scénario s’intéresse à plusieurs parcours de leads dans une opportunité, le positionnement et la numérotation des points de contact des leads peuvent changer lorsqu’ils sont traduits en tant que points de contact sur l’opportunité. De même, le code SQL-01 (Last) du lead 2 devient le code SQL-04 (Last) de l’opportunité. Le SAL-01 (dernier) du lead 2 devient également le SAL-02 (dernier) de l’opportunité.
 
@@ -98,7 +98,7 @@ Les contacts MQL, SQL et SAL du lead 3 se produisent tous en même temps, après
 
 Dans ce scénario, un client a choisi de suivre les étapes **MQL**, **SQL** et **SAL** avec des points de contact de boomerang. Ce scénario est presque identique à celui ci-dessus, à quelques exceptions près.
 
-![Dans ce scénario, un client a choisi d’effectuer le suivi de MQL, SQL ](assets/boomerang-stages-23.png)
+![Dans ce scénario, un client a choisi d’effectuer le suivi de MQL, SQL &#x200B;](assets/boomerang-stages-23.png)
 
 Tous les points de contact du lead 1 seront inclus dans l’opportunité, de FT à SAL-01 (dernier). Le point de contact LC du lead 2 sera inclus comme point de contact de formulaire entre les points de contact LC et MQL-01 sur l’opportunité.
 
@@ -114,7 +114,7 @@ Les contacts MQL, SQL et SAL du lead 3 sont inclus comme point de contact, car i
 
 Dans ce scénario, un client a choisi de suivre les étapes **MQL**, **SQL** et **SAL** avec des points de contact de boomerang.
 
-![Dans ce scénario, un client a choisi d’effectuer le suivi de MQL, SQL ](assets/boomerang-stages-25.png)
+![Dans ce scénario, un client a choisi d’effectuer le suivi de MQL, SQL &#x200B;](assets/boomerang-stages-25.png)
 
 Les points de contact FT et LC sur l’opportunité proviennent du lead 1 (bleu), car ils se sont produits avant le FT et le LC du lead 2 (rose). Le point de contact LC pour le lead 2 apparaît comme point de contact de « formulaire » sur l’opportunité.
 
@@ -136,7 +136,7 @@ Le point de contact SQL-01 (dernier) du lead 2 ne sera pas inclus comme point de
 
 Dans ce scénario, un client a choisi de suivre les transitions d’étape **Démonstration et Négociation** sur le **Contact**. Chaque étape de boomerang peut recevoir jusqu’à deux points de contact. La différence entre les transitions d’étape sur un contact et les transitions d’étape sur un prospect est que les transitions d’étape de contact peuvent apparaître comme des points de contact Boomerang sur l’opportunité _après_ le point de contact OC. Ce n’est pas le cas pour les transitions d’étape qui se produisent sur le prospect, car elles apparaissent comme un point de contact de formulaire.
 
-![Dans ce scénario, un client a choisi d’effectuer le suivi de la démonstration et ](assets/boomerang-stages-25.png)
+![Dans ce scénario, un client a choisi d’effectuer le suivi de la démonstration et &#x200B;](assets/boomerang-stages-25.png)
 
 Dans cet exemple, les transitions de l’étape de démonstration et de négociation du contact 1 sont incluses en tant que points de contact Demo-01 et Négociation-01 sur l’opportunité. La transition d’étape de démonstration du contact 2 se produit _après_ celle du contact 1 et apparaît comme le point de contact de démonstration 02 (dernier) sur l’opportunité.
 

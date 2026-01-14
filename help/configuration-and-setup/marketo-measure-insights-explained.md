@@ -30,7 +30,7 @@ Les icônes qui ressemblent à du papier indiquent qu’une page vue s’est pro
 
 L’icône qui ressemble à un bécher indique qu’une expérience de test A/B s’est produite. Nous intégrons à ce stade Optimizely et VWO. Avec cette intégration, nous sommes en mesure de pousser l’expérience et la variation que l’utilisateur a vues sur sa session spécifique.
 
-![L’icône qui ressemble à un bécher signale qu’un test A/B ](assets/marketo-app-3.png)
+![L’icône qui ressemble à un bécher signale qu’un test A/B &#x200B;](assets/marketo-app-3.png)
 
 Si vous cliquez sur une session spécifique (vous pouvez le faire en cliquant sur la date réelle de la session ou dans la partie centrale supérieure des sessions groupées), vous pourrez voir les détails de la session. Au cours de chaque session, vous pouvez voir toutes les pages spécifiques que l’utilisateur a vues, classées par date et heure.
 

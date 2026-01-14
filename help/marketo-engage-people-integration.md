@@ -31,9 +31,9 @@ Lorsque [!DNL Marketo Measure] parvenez à mapper la personne Marketo à une ses
 
 Pour que nous puissions détecter ces doublons, assurez-vous que votre [!DNL Marketo-Salesforce] ou [!DNL Marketo-Dynamics] synchronisation renseigne les ID de lead et de contact sur la personne Marketo. Si l’ID se synchronise correctement, vous devriez être en mesure de voir l’ID CRM sur l’enregistrement de personne, comme suit :
 
-![Pour que nous puissions détecter ces doublons, assurez-vous que vos ](assets/marketo-engage-programs-06.png)
+![Pour que nous puissions détecter ces doublons, assurez-vous que vos &#x200B;](assets/marketo-engage-programs-06.png)
 
-![Pour que nous puissions détecter ces doublons, assurez-vous que vos ](assets/marketo-engage-programs-07.png)
+![Pour que nous puissions détecter ces doublons, assurez-vous que vos &#x200B;](assets/marketo-engage-programs-07.png)
 
 Les clients ont la possibilité de signaler l’ensemble des personnes Marketo et des personnes CRM dans [!DNL Marketo Measure] Discover. Si vous souhaitez créer des rapports uniquement pour les personnes qui utilisent CRM, nous vous recommandons de créer un segment pour les filtrer.
 
@@ -41,9 +41,9 @@ Les clients ont la possibilité de signaler l’ensemble des personnes Marketo e
 
 Lors de la création de rapports sur les prospects (personnes) dans [!DNL Marketo Measure Discover], vous verrez le total de vos prospects Marketo et CRM. Pour générer des rapports portant uniquement sur des personnes Marketo ou uniquement sur des prospects CRM, vous devez créer une catégorie de segments pour votre source, puis créer des règles de segments pour Marketo et CRM à l’aide du champ « Système Source » pour définir la règle. Une fois vos segments créés, la catégorie Source est disponible pour être filtrée dans vos tableaux de bord [!DNL Marketo Measure Discover].
 
-![Lors de la création de rapports sur des prospects (personnes) dans Marketo Measure Discover, vous ](assets/bizible-discover-1.png)
+![Lors de la création de rapports sur des prospects (personnes) dans Marketo Measure Discover, vous &#x200B;](assets/bizible-discover-1.png)
 
-![Lors de la création de rapports sur des prospects (personnes) dans Marketo Measure Discover, vous ](assets/bizible-discover-2.png)
+![Lors de la création de rapports sur des prospects (personnes) dans Marketo Measure Discover, vous &#x200B;](assets/bizible-discover-2.png)
 
 ## Appariement des champs {#field-mappings}
 

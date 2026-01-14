@@ -56,7 +56,7 @@ La vue tabulaire offre des informations claires et organisées sur la répartiti
 
 Cliquez sur l’icône **+** en regard de chaque canal pour afficher la répartition par sous-canal et par campagne.
 
-![Cliquez sur l’icône + en regard de chaque canal pour afficher la répartition par ](assets/attributed-dashboard-1.png)
+![Cliquez sur l’icône + en regard de chaque canal pour afficher la répartition par &#x200B;](assets/attributed-dashboard-1.png)
 
 #### Arborescence {#tree-view}
 

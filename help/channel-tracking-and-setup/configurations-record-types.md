@@ -26,10 +26,10 @@ Si votre organisation SFDC utilise plusieurs types d’enregistrements de campag
 
 1. Ici, vous êtes affiché à l’écran avec les listes de sélection disponibles pour ce type d’enregistrement. Sélectionnez **[!UICONTROL Modifier]** en regard du champ « Activer les points de contact de l’acheteur ».
 
-   ![1. Ici, vous êtes dirigé vers l’écran avec les listes de sélection disponibles pour ](assets/offline-channels-18.jpg)
+   ![1. Ici, vous êtes dirigé vers l’écran avec les listes de sélection disponibles pour &#x200B;](assets/offline-channels-18.jpg)
 
 1. Ajoutez les trois valeurs du groupe « Valeurs disponibles » au groupe « Valeurs sélectionnées ».
 
-   ![1. Ajoutez les trois valeurs du regroupement « Valeurs disponibles » au ](assets/offline-channels-10.jpg)
+   ![1. Ajoutez les trois valeurs du regroupement « Valeurs disponibles » au &#x200B;](assets/offline-channels-10.jpg)
 
 1. Définissez la valeur par défaut sur « Aucun » et cliquez sur **[!UICONTROL Enregistrer]**. Répétez l’opération pour tout type d’enregistrement de campagne supplémentaire.

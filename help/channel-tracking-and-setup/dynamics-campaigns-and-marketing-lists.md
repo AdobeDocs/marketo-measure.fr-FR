@@ -28,9 +28,9 @@ Lorsque des leads ou des contacts sont directement ajoutés à une campagne, ils
 
 ## Activer les points de contact {#enable-touchpoints}
 
-Pour inclure ces enregistrements dans le parcours de point de contact, il existe quelques options pour les types de réponses de campagne à synchroniser. Dans l’enregistrement Campaign, il doit y avoir un champ personnalisé de la solution installée intitulé « [!UICONTROL  Activer les points de contact de l’acheteur ] ». Si vous ne le voyez pas, le champ doit être ajouté via l’éditeur de formulaire.
+Pour inclure ces enregistrements dans le parcours de point de contact, il existe quelques options pour les types de réponses de campagne à synchroniser. Dans l’enregistrement Campaign, il doit y avoir un champ personnalisé de la solution installée intitulé « [!UICONTROL &#x200B; Activer les points de contact de l’acheteur &#x200B;] ». Si vous ne le voyez pas, le champ doit être ajouté via l’éditeur de formulaire.
 
-![Pour inclure ces enregistrements dans le parcours de point de contact, quelques-uns ](assets/dynamics-lists-10.png)
+![Pour inclure ces enregistrements dans le parcours de point de contact, quelques-uns &#x200B;](assets/dynamics-lists-10.png)
 
 Vous pouvez choisir d&#39;inclure tous les enregistrements qui ont une réponse de campagne dans la campagne, ou uniquement ceux qui ont une réponse « Intéressants », ou par défaut, vous ne pouvez pas inclure les réponses de la campagne du tout. Vous pouvez soit laisser le champ vide, soit choisir explicitement de l’exclure.
 
@@ -52,7 +52,7 @@ La date de point de contact d’une campagne correspond généralement à la dat
 
 Un exemple d’utilisation courant de ce champ concerne les événements pour lesquels une liste d’analyses de badges d’un événement est ajoutée au CRM jours après l’événement. L’utilisateur peut donc redéfinir la Date Buyer Touchpoint sur la date à laquelle l’événement s’est produit.
 
-![Un exemple courant d’utilisation de ce champ concerne les événements pour lesquels une liste ](assets/dynamics-lists-4.png)
+![Un exemple courant d’utilisation de ce champ concerne les événements pour lesquels une liste &#x200B;](assets/dynamics-lists-4.png)
 
 ## Listes marketing {#marketing-lists}
 
@@ -84,9 +84,9 @@ Les valeurs du menu Type de campagne sont extraites dans l’application [!DNL M
 
 Pour chaque type de campagne, il peut être mappé à une combinaison de canal et de sous-canal afin que chaque point de contact dérivé de la campagne ait le canal et le sous-canal mappés appropriés.
 
-![Pour chaque type de campagne, il peut être mappé à un canal et ](assets/dynamics-lists-7.png)
+![Pour chaque type de campagne, il peut être mappé à un canal et &#x200B;](assets/dynamics-lists-7.png)
 
-![Pour chaque type de campagne, il peut être mappé à un canal et ](assets/dynamics-lists-8.png)
+![Pour chaque type de campagne, il peut être mappé à un canal et &#x200B;](assets/dynamics-lists-8.png)
 
 ## Date de synchronisation de la campagne {#campaign-sync-date}
 

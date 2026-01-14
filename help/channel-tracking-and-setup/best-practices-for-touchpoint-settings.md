@@ -57,6 +57,6 @@ Les raisons pour lesquelles vérifier vos paramètres [!UICONTROL Point de conta
 >[!MORELIKETHIS]
 >
 >* [Présentation de la suppression des points de contact](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md)
->* [Pourquoi les points de contact ne doivent jamais être supprimés ](/help/channel-tracking-and-setup/why-you-should-never-delete-touchpoints.md)
+>* [Pourquoi les points de contact ne doivent jamais être supprimés &#x200B;](/help/channel-tracking-and-setup/why-you-should-never-delete-touchpoints.md)
 >* [Points de contact de l’acheteur (BT) et points de contact d’attribution de l’acheteur (BAT)](/help/configuration-and-setup/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

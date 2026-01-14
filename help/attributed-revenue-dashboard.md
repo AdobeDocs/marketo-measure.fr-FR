@@ -59,7 +59,7 @@ Chiffre d’affaires attribué total segmenté par canal, sous-canal et campagne
 * La vue tabulaire offre des informations claires et organisées sur la répartition des recettes attribuées. Les utilisateurs peuvent rapidement discerner les modèles de performance et identifier les stratégies marketing à fort impact en catégorisant les données en canaux, sous-canaux et campagnes.
 * Cliquez sur l’icône « + » en regard de chaque canal pour afficher la répartition par sous-canal et par campagne.
 
-![Cliquez sur l’icône « + » en regard de chaque canal pour afficher la répartition par ](assets/attributed-dashboard-5.png)
+![Cliquez sur l’icône « + » en regard de chaque canal pour afficher la répartition par &#x200B;](assets/attributed-dashboard-5.png)
 
 **Arborescence**
 

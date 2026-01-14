@@ -15,7 +15,7 @@ SAML (Security Assertion Markup Language) pour SSO (Single Sign-On, authentifica
 
 >[!CAUTION]
 >
->Cet article présente l’authentification unique (SSO) et la gestion de la relation client (CRM) avancée User Management. Si votre compte a été créé **après le 10/09/2020**, ne tenez pas compte de cet article, car la SSO et Identity Management seront configurés dans [Adobe Admin Console de votre intégration [!DNL Marketo Measure] ](/help/implementation-guide.md).
+>Cet article présente l’authentification unique (SSO) et la gestion de la relation client (CRM) avancée User Management. Si votre compte a été créé **après le 10/09/2020**, ne tenez pas compte de cet article, car la SSO et Identity Management seront configurés dans [Adobe Admin Console de votre intégration [!DNL Marketo Measure] &#x200B;](/help/implementation-guide.md).
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Configurez et mappez vos paramètres de rôle d’utilisateur et d’utilisatric
     
     c. Si plusieurs rôles ou groupes doivent être mappés à un rôle, saisissez chaque valeur en la séparant par une virgule.
 
-![c. Si plusieurs rôles ou groupes doivent être mappés à un rôle ](assets/discover-control-2.png)
+![c. Si plusieurs rôles ou groupes doivent être mappés à un rôle &#x200B;](assets/discover-control-2.png)
 
 Tester la configuration de l’authentification unique
 
@@ -94,7 +94,7 @@ Tester la configuration de l’authentification unique
     
     b. Si vous voyez une erreur « failure » (échec), suivez le message et réessayez.
 
-![b. Si une erreur d’échec s’affiche, suivez le message et tentez ](assets/discover-control-3.png)
+![b. Si une erreur d’échec s’affiche, suivez le message et tentez &#x200B;](assets/discover-control-3.png)
 
 Enregistrez vos paramètres et demandez à vos collègues d’utiliser l’[!UICONTROL Authentification unique] avec votre nouvelle URL de connexion personnalisée.
 
@@ -110,7 +110,7 @@ Essayez donc.
     
     c. Félicitations. Vous avez configuré avec succès l’authentification unique dans l’application  [!DNL Marketo Measure]  pour votre compte.
 
-![c. Félicitations ! Vous avez correctement configuré l&#39;authentification SSO dans ](assets/discover-control-3.png)
+![c. Félicitations ! Vous avez correctement configuré l&#39;authentification SSO dans &#x200B;](assets/discover-control-3.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Pour les rôles [!DNL Dynamics], utilisez le nom de chaque rôle de sécurité. 
 
 Une fois la SSO personnalisée configurée, la page [!UICONTROL Utilisateurs et utilisatrices] est mise à jour pour n’afficher que les utilisateurs et utilisatrices externes qui ont été ajoutés avec des identifiants Google. Étant donné que tous les utilisateurs et utilisatrices disposant d’un accès sont définis par la configuration SSO, d’autres utilisateurs et utilisatrices externes sont répertoriés ici.
 
-![Une fois la connexion unique personnalisée configurée, la page Utilisateurs est la suivante ](assets/discover-control-3.png)
+![Une fois la connexion unique personnalisée configurée, la page Utilisateurs est la suivante &#x200B;](assets/discover-control-3.png)
 
 Seuls des comptes [!DNL Google] valides peuvent être ajoutés et doivent avoir un rôle d’utilisateur ou d’utilisatrice défini.
 

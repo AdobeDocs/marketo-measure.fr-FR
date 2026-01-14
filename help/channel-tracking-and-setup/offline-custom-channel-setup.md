@@ -21,7 +21,7 @@ La feuille de calcul comporte trois colonnes :
 
 ![La feuille de calcul comporte trois colonnes :](assets/offline-channels-1.png)
 
-**[!UICONTROL Salesforce ] type de campagne** - ajoutez les types de campagne identifiés dans [!DNL Salesforce] ici
+**[!UICONTROL Salesforce &#x200B;] type de campagne** - ajoutez les types de campagne identifiés dans [!DNL Salesforce] ici
 
 * Il peut s’agir, par exemple, d’un e-mail, d’un webinaire, d’une conférence ou de toute autre valeur que vous avez créée pour ce champ auquel vous souhaitez attribuer des points de contact.
 
@@ -39,7 +39,7 @@ Les types de campagne SFDC apparaissent dans l’onglet Canal hors ligne , répe
 
 C’est là que vous pouvez créer le mappage Canal/Sous-canal dans l’application [!DNL Marketo Measure]. Cela impliquera probablement la création de nouveaux canaux et sous-canaux dans l’application [!DNL Marketo Measure], ce qui est fait dans la section Créer des canaux de l’application, comme illustré dans l’image ci-dessous. De nouveaux canaux et sous-canaux doivent être créés pour que les [!DNL Marketo Measure] puissent comprendre où transmettre les points de contact. Vous pouvez décider de la manière dont vous souhaitez mapper les types de campagne.
 
-![C’est là que vous pouvez créer le mappage Canal/Sous-canal dans le ](assets/offline-channels-11.png)
+![C’est là que vous pouvez créer le mappage Canal/Sous-canal dans le &#x200B;](assets/offline-channels-11.png)
 
 ## Exemple de mappage de canal {#channel-mapping-example}
 
@@ -67,7 +67,7 @@ Il est courant que les équipes marketing créent des campagnes [!DNL Salesforce
 
 Une autre astuce pour gérer les campagnes pour les activités en ligne consiste à mapper le type de campagne [!DNL Salesforce] sur NULL. Pour ce faire, créez d’abord un canal dans l’application [!DNL Marketo Measure] intitulé NULL, comme illustré dans l’image ci-dessous. Elle se trouve dans l’application [!DNL Marketo Measure] sous la section **Créer des canaux**. Cela s’avère utile en cas de synchronisation accidentelle d’une campagne qui ne doit pas être synchronisée. Il est facile de trouver la campagne et de corriger le statut de synchronisation en examinant tout ce qui est regroupé sous NULL.
 
-![Une autre astuce pour gérer les campagnes pour les activités en ligne consiste à mapper les ](assets/offline-channels-14.png)
+![Une autre astuce pour gérer les campagnes pour les activités en ligne consiste à mapper les &#x200B;](assets/offline-channels-14.png)
 
 ## Saisie de vos règles de canal hors ligne dans l’application {#entering-your-offline-channel-rules-to-the-app}
 
@@ -77,7 +77,7 @@ Une fois que vous avez modifié et mis à jour la feuille de calcul avec vos rè
 
 >[!TIP]
 >
->Vous souhaitez déterminer _quand_ un type de campagne [!DNL Salesforce] est extrait dans [!DNL Marketo Measure] mappage de canal ? Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir quelles valeurs se trouvent dans la liste de sélection et lesquelles sont inactives. Les canaux inactifs ne s’affichent pas en tant que type sélectionnable dans notre section « [!UICONTROL  Canaux hors ligne ] ». Notez que ce processus peut prendre de quelques minutes à 48 heures.
+>Vous souhaitez déterminer _quand_ un type de campagne [!DNL Salesforce] est extrait dans [!DNL Marketo Measure] mappage de canal ? Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir quelles valeurs se trouvent dans la liste de sélection et lesquelles sont inactives. Les canaux inactifs ne s’affichent pas en tant que type sélectionnable dans notre section « [!UICONTROL &#x200B; Canaux hors ligne &#x200B;] ». Notez que ce processus peut prendre de quelques minutes à 48 heures.
 
 Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé. [!DNL Marketo Measure] chargerez les modifications et retraiterez les données.
 

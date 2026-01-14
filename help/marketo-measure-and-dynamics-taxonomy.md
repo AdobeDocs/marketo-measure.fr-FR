@@ -14,4 +14,4 @@ ht-degree: 13%
 
 Vous trouverez ci-dessous un organigramme qui représente la manière dont les objets personnalisés [!DNL Marketo Measure] sont liés aux objets Dynamics Standard.<p>
 
-![Vous trouverez ci-dessous un organigramme qui représente la façon dont le Marketo Measure ](assets/bizible-taxonomy-1.png)
+![Vous trouverez ci-dessous un organigramme qui représente la façon dont le Marketo Measure &#x200B;](assets/bizible-taxonomy-1.png)

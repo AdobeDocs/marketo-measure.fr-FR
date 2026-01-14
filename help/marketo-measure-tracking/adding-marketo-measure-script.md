@@ -66,7 +66,7 @@ Assurez-vous d’avoir une conversation avec votre équipe web pour qu’elle sa
 
 Si un avertissement [!DNL Web Application Firewall (WAF)] est déclenché lors de la configuration de JavaScript, les utilisateurs peuvent soit désactiver cette règle WAF placer sur la liste autorisée, soit supprimer les cookies, comme dans l’exemple ci-dessous :
 
-![Si un avertissement de pare-feu d’application web (WAF) est déclenché pendant le ](assets/adding-script-1.png)
+![Si un avertissement de pare-feu d’application web (WAF) est déclenché pendant le &#x200B;](assets/adding-script-1.png)
 
 ## Formulaires auxquels prêter une attention particulière {#forms-to-pay-extra-attention-to}
 

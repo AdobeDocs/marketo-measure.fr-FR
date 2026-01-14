@@ -69,6 +69,6 @@ D’autres raisons qui peuvent déclencher une révision de votre modèle person
 
 >[!MORELIKETHIS]
 >
->* [ Modèle et configuration d’attribution personnalisés ](/help/channel-tracking-and-setup/custom-attribution-model-and-setup.md)
+>* [&#x200B; Modèle et configuration d’attribution personnalisés &#x200B;](/help/channel-tracking-and-setup/custom-attribution-model-and-setup.md)
 >* [Activer Le Suivi De L’Historique Des Champs Pour Le Modèle Personnalisé](/help/channel-tracking-and-setup/custom-model-setup-enable-field-history-tracking.md)
->* [ Modèle de machine learning ](/help/channel-tracking-and-setup/machine-learning-model-faq.md)
+>* [&#x200B; Modèle de machine learning &#x200B;](/help/channel-tracking-and-setup/machine-learning-model-faq.md)

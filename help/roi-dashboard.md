@@ -50,7 +50,7 @@ Graphique à barres illustrant les coûts et les recettes, conçu pour offrir un
 * Quelles étaient les valeurs de retour sur investissement pour chaque canal, sous-canal et campagne ?
 * Existe-t-il des canaux ou sous-canaux aberrants dont les coûts sont inhabituellement élevés ou faibles par rapport à leur chiffre d’affaires ?
 
-![Existe-t-il des canaux ou sous-canaux aberrants avec des valeurs anormalement élevées ou faibles ](assets/roi-dashboard-8.png)
+![Existe-t-il des canaux ou sous-canaux aberrants avec des valeurs anormalement élevées ou faibles &#x200B;](assets/roi-dashboard-8.png)
 
 ### Retour sur investissement simple ou réalisé au fil du temps {#realized-vs-simple-roi-over-time}
 
@@ -63,7 +63,7 @@ Graphique en courbes des séries temporelles présentant la comparaison entre le
 * Comment le retour sur investissement réalisé se compare-t-il au retour sur investissement simple sur des périodes spécifiques ?
 * Comment la tendance du retour sur investissement réalisé se rapporte-t-elle à des événements marketing significatifs au cours de la même période ?
 
-![En quoi la tendance du retour sur investissement réalisé se rapporte-t-elle à un marketing significatif ](assets/roi-dashboard-7.png)
+![En quoi la tendance du retour sur investissement réalisé se rapporte-t-elle à un marketing significatif &#x200B;](assets/roi-dashboard-7.png)
 
 ### Graphique Coût par période {#cost-over-time-graph}
 
@@ -77,7 +77,7 @@ Graphique à barres empilées affichant les coûts totaux, segmentés par canaux
 * Comment le coût combiné de tous les canaux se compare-t-il d&#39;un trimestre/mois à l&#39;autre ?
 * Comment les coûts d’un canal spécifique ont-ils évolué au fil du temps ?
 
-![Comment les coûts d’un canal spécifique ont-ils évolué au fil du temps ? ](assets/roi-dashboard-6.png)
+![Comment les coûts d’un canal spécifique ont-ils évolué au fil du temps ? &#x200B;](assets/roi-dashboard-6.png)
 
 ### Graphique Coût par canal {#cost-by-channel-graph}
 

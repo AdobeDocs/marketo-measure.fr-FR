@@ -42,7 +42,7 @@ Il est recommandé d’ajouter les champs [!DNL Marketo Measure] à votre campag
 
 1. Faites glisser le bouton **[!UICONTROL Mettre à jour en bloc la date du point de contact]** dans votre section de boutons personnalisés.
 
-   ![1. Faites glisser le bouton Date de point de contact de mise à jour en bloc vers votre ](assets/bizible-taxonomy-1.png) personnalisé
+   ![1. Faites glisser le bouton Date de point de contact de mise à jour en bloc vers votre &#x200B;](assets/bizible-taxonomy-1.png) personnalisé
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -64,7 +64,7 @@ Il est recommandé d’ajouter les champs [!DNL Marketo Measure] à votre campag
 
 1. Faites glisser la page VisualForce **[!UICONTROL Liste connexe Prospect Marketo Measure]** dans votre section de disposition de page.
 
-   ![1. Faites glisser la page Marketo Measure Lead Related List VisualForce dans ](assets/connect-salesforce-1.png)
+   ![1. Faites glisser la page Marketo Measure Lead Related List VisualForce dans &#x200B;](assets/connect-salesforce-1.png)
 
 1. Cliquez sur la clé à molette dans la page [!DNL VisualForce], définissez la hauteur sur 100 et activez les barres de défilement.
 
@@ -103,7 +103,7 @@ Si vous utilisez la fonctionnalité ABM [!DNL Marketo Measure], [cliquez ici pou
 
 1. Développez l’option Boutons et désélectionnez **[!UICONTROL Nouveau]**.
 
-   ![1. Développez l’option Boutons et désélectionnez Nouveau ](assets/marketo-salesforce-12.png).
+   ![1. Développez l’option Boutons et désélectionnez Nouveau &#x200B;](assets/marketo-salesforce-12.png).
 
 1. Revenez à l’option [!UICONTROL Liste connexe] dans le menu et ajoutez maintenant la liste connexe **[!UICONTROL Buyer Attribution Touchpoint]**.
 

@@ -19,7 +19,7 @@ Pour les clients compatibles IMS qui exécutent [!DNL Marketo Measure] dans l’
 
 Les utilisateurs IMS ayant accès au Adobe Admin Console peuvent ajouter et valider des domaines qu’ils détiennent. La validation de domaine implique l’ajout d’un enregistrement DNS pour chaque domaine, puis l’autorisation de la vérification de cet enregistrement par Admin Console.
 
-![Les utilisateurs IMS ayant accès au Adobe Admin Console peuvent ajouter et ](assets/domain-management-4.png)
+![Les utilisateurs IMS ayant accès au Adobe Admin Console peuvent ajouter et &#x200B;](assets/domain-management-4.png)
 
 Vous trouverez des instructions pour l’ajout de domaines dans la documentation d’[Admin Console](https://helpx.adobe.com/enterprise/using/add-domains-directories.html). Une fois qu&#39;un domaine est ajouté, il doit être [lié à un répertoire](https://helpx.adobe.com/enterprise/using/add-domains-directories.html#link-domains-to-directoies).
 

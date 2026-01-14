@@ -76,7 +76,7 @@ Il existe deux modèles de tracking que [!DNL Marketo Measure] recommande d’ut
 
 1. Sélectionnez toutes les campagnes applicables ou **[!UICONTROL Tout sélectionner]**, cliquez sur **[!UICONTROL Modifier]**, puis sur **[!UICONTROL Modifier les modèles de suivi]**.
 
-   ![1. Sélectionnez toutes les campagnes applicables ou sélectionnez tout, cliquez sur Modifier ](../assets/marketo-engage-activities-05.png)
+   ![1. Sélectionnez toutes les campagnes applicables ou sélectionnez tout, cliquez sur Modifier &#x200B;](../assets/marketo-engage-activities-05.png)
 
 1. Saisissez le modèle de suivi [!DNL Marketo Measure] et cliquez sur **[!UICONTROL Appliquer]**.
 

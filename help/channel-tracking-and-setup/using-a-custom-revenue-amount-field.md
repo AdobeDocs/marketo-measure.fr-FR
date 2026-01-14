@@ -31,7 +31,7 @@ Les étapes suivantes s’adressent aux utilisateurs de Salesforce Lightning. Si
 
 1. Dans Configuration, saisissez « Flux » dans la zone Recherche rapide, puis sélectionnez **[!UICONTROL Flux]** pour démarrer le créateur de flux. Dans le panneau de droite, cliquez sur le bouton **[!UICONTROL Nouveau flux]**.
 
-   ![1. Dans Configuration, saisissez « Flux » dans la zone Recherche rapide, puis sélectionnez ](assets/custom-amount-1.png)
+   ![1. Dans Configuration, saisissez « Flux » dans la zone Recherche rapide, puis sélectionnez &#x200B;](assets/custom-amount-1.png)
 
 1. Sélectionnez **[!UICONTROL Flux déclenché par l’enregistrement]** et cliquez sur **[!UICONTROL Créer]** en bas à droite.
 
@@ -39,7 +39,7 @@ Les étapes suivantes s’adressent aux utilisateurs de Salesforce Lightning. Si
 
 1. Dans la fenêtre Configurer le démarrage , sélectionnez l’objet Opportunité . Dans la section [!UICONTROL Configurer le déclencheur], sélectionnez **[!UICONTROL Un enregistrement est créé ou mis à jour]**.
 
-   ![1. Dans la fenêtre Configurer le démarrage , sélectionnez l’objet Opportunité . À partir du ](assets/custom-amount-11.png)
+   ![1. Dans la fenêtre Configurer le démarrage , sélectionnez l’objet Opportunité . À partir du &#x200B;](assets/custom-amount-11.png)
 
 1. Dans la section Définir des conditions de saisie, sous [!UICONTROL Conditions requises], sélectionnez **[!UICONTROL La logique de condition personnalisée est remplie]**.
    * Dans le champ de recherche, sélectionnez votre champ Montant personnalisé.
@@ -50,11 +50,11 @@ Les étapes suivantes s’adressent aux utilisateurs de Salesforce Lightning. Si
 
 1. Dans la section « Optimiser le flux pour », sélectionnez **[!UICONTROL Mises à jour rapides des champs]**. Cliquez sur **[!UICONTROL Terminé]** en bas à droite.
 
-   ![1. Sous la section « Optimiser le flux pour », sélectionnez Champ rapide ](assets/custom-amount-13.png)
+   ![1. Sous la section « Optimiser le flux pour », sélectionnez Champ rapide &#x200B;](assets/custom-amount-13.png)
 
 1. Pour ajouter l’élément, cliquez sur l’icône plus (+) et sélectionnez **[!UICONTROL Mettre à jour l’enregistrement de déclenchement]**.
 
-   ![1. Pour ajouter l’élément, cliquez sur l’icône plus (+) et sélectionnez ](assets/custom-amount-14.png)
+   ![1. Pour ajouter l’élément, cliquez sur l’icône plus (+) et sélectionnez &#x200B;](assets/custom-amount-14.png)
 
 1. Dans la fenêtre Nouvelle mise à jour des enregistrements , saisissez les informations suivantes :
 
@@ -68,7 +68,7 @@ Les étapes suivantes s’adressent aux utilisateurs de Salesforce Lightning. Si
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**. Un pop-up s’affiche. Saisissez « Libellé de flux » dans la fenêtre Enregistrer le flux (le nom de l’API de flux sera généré automatiquement). Cliquez de nouveau sur **[!UICONTROL Enregistrer]**.
 
-   ![1. Cliquez sur Enregistrer. Un pop-up s’affiche. Saisissez « Libellé de flux » dans ](assets/custom-amount-2.png)
+   ![1. Cliquez sur Enregistrer. Un pop-up s’affiche. Saisissez « Libellé de flux » dans &#x200B;](assets/custom-amount-2.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Activer]** pour activer le flux.
 
@@ -84,20 +84,20 @@ Les étapes suivantes s’adressent aux utilisateurs de Salesforce Classic. Si v
 
 1. Sélectionnez **[!UICONTROL Nouvelle règle]**, définissez l’objet comme « Opportunité » et cliquez sur **[!UICONTROL Suivant]**.
 
-   ![1. Sélectionnez Nouvelle règle, définissez l’objet comme « Opportunité » et cliquez sur ](assets/custom-amount-5.png)
+   ![1. Sélectionnez Nouvelle règle, définissez l’objet comme « Opportunité » et cliquez sur &#x200B;](assets/custom-amount-5.png)
 
-   ![1. Sélectionnez Nouvelle règle, définissez l’objet comme « Opportunité » et cliquez sur ](assets/custom-amount-6.png)
+   ![1. Sélectionnez Nouvelle règle, définissez l’objet comme « Opportunité » et cliquez sur &#x200B;](assets/custom-amount-6.png)
 
 1. Configurez le workflow. Définissez le nom de la règle sur « Mettre à jour [!DNL Marketo Measure] montant de l’opportunité ». Définissez les critères d’évaluation sur « Créé », puis chaque fois qu’ils sont modifiés. Pour les Critères de la règle, sélectionnez votre champ Montant personnalisé, sélectionnez l’opérateur [!UICONTROL Différent de »] et laissez le champ « Valeur » vide.
 
-   ![1. Configurez le workflow. Définissez le nom de la règle sur « Mettre à jour Marketo ](assets/custom-amount-7.png)
+   ![1. Configurez le workflow. Définissez le nom de la règle sur « Mettre à jour Marketo &#x200B;](assets/custom-amount-7.png)
 
 1. Ajoutez une action de workflow. Définissez cette liste de sélection sur « [!UICONTROL Nouvelle mise à jour de champ] ».
-   ![1. Ajoutez une action de workflow. Définir cette liste de sélection sur « Nouveau champ ](assets/custom-amount-8.png)
+   ![1. Ajoutez une action de workflow. Définir cette liste de sélection sur « Nouveau champ &#x200B;](assets/custom-amount-8.png)
 
 1. Ici, vous allez remplir les informations de champ. Dans le champ « Nom », nous vous recommandons d’utiliser le nom suivant : « Montant de l’opportunité [!DNL Marketo Measure] ». Le « Nom unique » est automatiquement renseigné en fonction du champ « Nom ». Dans la liste de sélection « Champ à mettre à jour », sélectionnez « [!DNL Marketo Measure] le montant de l’opportunité ». Après avoir sélectionné le champ, sélectionnez la case « Réévaluer les règles de workflow après la modification du champ ». Dans la section « Spécifier une nouvelle valeur de champ », sélectionnez « Utiliser une formule pour définir la nouvelle valeur ». Dans la zone vide, déposez le nom d’API de votre champ Montant personnalisé. Cliquez sur **[!UICONTROL Enregistrer]**
 
-   ![1. Ici, vous allez remplir les informations de champ. Dans le champ « Nom » ](assets/custom-amount-9.png)
+   ![1. Ici, vous allez remplir les informations de champ. Dans le champ « Nom » &#x200B;](assets/custom-amount-9.png)
 
 1. Vous revenez alors à une page de cumul pour votre workflow. Assurez-vous d’avoir « Activé » et tout sera fin prêt. Pour activer, cliquez sur **[!UICONTROL Modifier]** en regard de votre nouveau workflow, puis cliquez sur **[!UICONTROL Activer]**.
 

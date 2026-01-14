@@ -14,7 +14,7 @@ ht-degree: 1%
 
 L’intégration des activités [!DNL Marketo Measure] Salesforce intègre des enregistrements de tâches et d’événements spécifiques à votre modèle d’attribution. Commencez à suivre des éléments tels que les e-mails de vente ou les appels téléphoniques de vente qui ne recevaient pas le crédit dû. Pour configurer votre règle d’activités, accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. De là, accédez à l’onglet **[!UICONTROL Paramètres]** et cliquez sur l’onglet **[!UICONTROL Activités]**.
 
-![ L’intégration des activités Marketo Measure Salesforce inclut des tâches et des ](assets/activities-attribution-10.png) spécifiques.
+![&#x200B; L’intégration des activités Marketo Measure Salesforce inclut des tâches et des &#x200B;](assets/activities-attribution-10.png) spécifiques.
 
 Pour commencer, nous introduisons un nouveau concept appelé Campagne [!DNL Marketo Measure]. Pour chaque règle que vous définissez, vous allez regrouper les enregistrements dans une campagne [!DNL Marketo Measure] que vous pouvez nommer. Ajoutez plusieurs campagnes selon les besoins. Imaginez mesurer l’efficacité d’une campagne de ventes sortantes à côté d’une campagne de médias payants !
 
@@ -80,9 +80,9 @@ Vous souhaiterez probablement placer ces nouveaux points de contact dans leur [c
 | Correspond à l’un des | Valeurs multiples - Correspondance exacte |
 | Correspond À N’Importe Quel (Contient) | Valeurs multiples : &#42;value&#42;, &#42;value, &#42;value&#42; |
 
-![| Correspond À N’Importe Quel (Contient) | Valeurs multiples - &amp;42;value&amp;42;, &amp;42;value, &amp;42;value&amp;42; |](assets/activities-attribution-8.png)
+![| Correspond À N’Importe Quel (Contient) | Valeurs multiples - &42;value&42;, &42;value, &42;value&42; |](assets/activities-attribution-8.png)
 
-Enfin et surtout, vous avez la possibilité de saisir les coûts de vos nouveaux canaux. Le [ Chargement des dépenses marketing ](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} vous permet de saisir vos dépenses au niveau du canal, du sous-canal ou de la campagne. Avec vos nouvelles campagnes [!DNL Marketo Measure], vous pouvez ajouter ces coûts associés par mois, puis afficher le retour sur investissement de chaque campagne.
+Enfin et surtout, vous avez la possibilité de saisir les coûts de vos nouveaux canaux. Le [&#x200B; Chargement des dépenses marketing &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} vous permet de saisir vos dépenses au niveau du canal, du sous-canal ou de la campagne. Avec vos nouvelles campagnes [!DNL Marketo Measure], vous pouvez ajouter ces coûts associés par mois, puis afficher le retour sur investissement de chaque campagne.
 
 ![Enfin et surtout, vous avez la possibilité de saisir les coûts](assets/activities-attribution-9.png)
 

@@ -44,7 +44,7 @@ Le modèle d’attribution personnalisé [!DNL Marketo Measure] permet aux utili
 
    Dans l’exemple ci-dessous, une étape « MQL » personnalisée est définie à l’aide d’un champ de date. La règle indique simplement que si le champ Date MQL n’est pas vide, il doit être considéré comme un MQL et doit être inclus dans le modèle personnalisé. Il est également important de trier les étapes personnalisées une fois qu’elles ont été créées afin qu’elles suivent la progression de votre cycle de vente.
 
-   ![Dans l’exemple ci-dessous, une étape « MQL » personnalisée est définie à l’aide d’un ](assets/custom-models-10.png)
+   ![Dans l’exemple ci-dessous, une étape « MQL » personnalisée est définie à l’aide d’un &#x200B;](assets/custom-models-10.png)
 
    >[!CAUTION]
    >
@@ -66,7 +66,7 @@ Si un champ personnalisé est utilisé dans votre modèle personnalisé, le suiv
 
 Une fois les pourcentages d’attribution enregistrés et traités, les points de contact sont mis à jour et reçoivent leurs nouvelles étapes et positions. Le point de contact qui s’est produit le plus récemment, avant une transition d’étape, sera crédité pour cette étape (comme illustré ci-dessous). La pondération et le chiffre d’affaires personnalisés sont également redistribués.
 
-![Une fois les pourcentages d’attribution enregistrés et traités, les points de contact sont ](assets/custom-models-3.png)
+![Une fois les pourcentages d’attribution enregistrés et traités, les points de contact sont &#x200B;](assets/custom-models-3.png)
 
 ## La différence entre les étapes Funnel et les étapes de modèle personnalisé {#the-difference-between-funnel-stages-and-custom-model-stages}
 

@@ -20,7 +20,7 @@ Voici comment configurer votre connexion à Marketo.
 
 1. Dans [!DNL Marketo Measure], cliquez sur la liste déroulante **[!UICONTROL Mon compte]** et sélectionnez **[!UICONTROL Paramètres]**.
 
-   ![1. Dans Marketo Measure, cliquez sur le menu déroulant Mon compte et ](assets/set-connection-7.png)
+   ![1. Dans Marketo Measure, cliquez sur le menu déroulant Mon compte et &#x200B;](assets/set-connection-7.png)
 
 1. Sous [!UICONTROL Intégrations], cliquez sur **[!UICONTROL Connexions]**.
 
@@ -40,7 +40,7 @@ Voici comment configurer votre connexion à Marketo.
 
 1. Toujours dans Marketo Engage, sélectionnez **LaunchPoint** dans l’arborescence de gauche. Recherchez le service personnalisé que vous souhaitez connecter à Marketo Measure et cliquez sur **Afficher les détails**.
 
-   ![1. Toujours en Marketo Engage, sélectionnez LaunchPoint dans l’arborescence de la ](assets/set-connection-4.png)
+   ![1. Toujours en Marketo Engage, sélectionnez LaunchPoint dans l’arborescence de la &#x200B;](assets/set-connection-4.png)
 
 1. Mettez en surbrillance et enregistrez l’ID client et le secret client. Cliquez sur **Fermer**.
 
@@ -48,11 +48,11 @@ Voici comment configurer votre connexion à Marketo.
 
 1. De retour en [!DNL Marketo Measure], renseignez les champs avec les données que vous avez collectées.
 
-   ![1. De retour dans Marketo Measure, renseignez les champs avec les données ](assets/set-connection-1.png)
+   ![1. De retour dans Marketo Measure, renseignez les champs avec les données &#x200B;](assets/set-connection-1.png)
 
 1. Après avoir saisi les valeurs, cliquez sur **[!UICONTROL Authentifier]**. Votre compte Marketo Engage est connecté à [!DNL Marketo Measure].
 
-   ![1. Après avoir saisi les valeurs, cliquez sur Authentifier. Votre Marketo Engage ](assets/set-connection-2.png)
+   ![1. Après avoir saisi les valeurs, cliquez sur Authentifier. Votre Marketo Engage &#x200B;](assets/set-connection-2.png)
 
    >[!NOTE]
    >

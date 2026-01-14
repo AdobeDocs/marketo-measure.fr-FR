@@ -29,7 +29,7 @@ Ces modèles n’ont pas tous la même complexité. Les modèles Premier contact
 * Création d’opportunité (OC pour « Opportunity Creation »)
 * Vente conclue et réussie (CW pour « Closed-Won deal »)
 
-![Opération close-won (CW) ](assets/overview-resources-8.png)
+![Opération close-won (CW) &#x200B;](assets/overview-resources-8.png)
 
 Dans les **modèles simples**, le crédit d’attribution est attribué à un unique point de contact.
 Dans les **modèles complexes**, la plupart du crédit d’attribution est attribué à deux points de contact ou plus. Le crédit restant est attribué aux points de contact intermédiaires, situés entre les principaux jalons.
@@ -52,7 +52,7 @@ Le modèle « création de prospects » attribue 100 % du crédit au point de
 
 Dans la suite de l’exemple précédent, après la première visite de Kate sur `www.adobe.com` via AdWords, Austin se rend à son tour sur le site Web via un article sur LinkedIn. Il remplit un formulaire et devient un prospect. Dans ce modèle, LinkedIn recevra 100 % du crédit d’attribution.
 
-![En reprenant l’exemple précédent, après la première visite de Kate sur www.adobe.com via ](assets/overview-resources-10.png)
+![En reprenant l’exemple précédent, après la première visite de Kate sur www.adobe.com via &#x200B;](assets/overview-resources-10.png)
 
 ## Modèles complexes {#multi-touch-models}
 

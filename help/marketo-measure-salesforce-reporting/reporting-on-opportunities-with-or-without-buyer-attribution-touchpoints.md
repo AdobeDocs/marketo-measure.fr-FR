@@ -32,7 +32,7 @@ Créez un nouveau type de rapport pour inclure toutes les opportunités avec ou 
    * Utilisez le même nom pour le nom du type de rapport. Dans l’entrée de description, « Opportunités avec ou sans points de contact d’attribution de l’acheteur ».
    * Enregistrez le rapport dans la « [!UICONTROL Autre] » et définissez-le sur « [!UICONTROL Déployé] ».
 
-   ![Enregistrez le rapport dans l’« Autre » et définissez le rapport sur ](assets/bizible-guide-3.png)
+   ![Enregistrez le rapport dans l’« Autre » et définissez le rapport sur &#x200B;](assets/bizible-guide-3.png)
 
 1. De là, vous lierez l’objet Opportunités à l’objet Points de contact d’attribution de l’acheteur. Assurez-vous de choisir le bouton « Les enregistrements &#39;A&#39; peuvent avoir ou non des enregistrements &#39;B&#39; associés. » Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé.
 

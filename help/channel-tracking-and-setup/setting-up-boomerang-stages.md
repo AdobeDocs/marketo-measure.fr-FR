@@ -20,7 +20,7 @@ Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez ê
 
 ## Configuration de l’étape de boomerang {#boomerang-stage-setup}
 
-1. Accédez à [!UICONTROL  Mappage d’étape ]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
+1. Accédez à [!UICONTROL &#x200B; Mappage d’étape &#x200B;]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
 
    ![1. Accédez à Mappage d’étape. Sous la colonne intitulée « Boomerang, »](assets/boomerang-stages-18.png)
 
@@ -36,17 +36,17 @@ Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez ê
 
 ## Configuration de l’étape de boomerang avec attribution de modèle personnalisé {#boomerang-stage-setup-with-custom-model-attribution}
 
-1. Accédez à [!UICONTROL  Mappage d’étape ]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
+1. Accédez à [!UICONTROL &#x200B; Mappage d’étape &#x200B;]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
 
    ![1. Accédez à Mappage d’étape. Sous la colonne intitulée « Boomerang, »](assets/boomerang-stages-20.png)
 
 1. Si vous souhaitez également que ces étapes de boomerang soient incluses dans votre modèle personnalisé et reçoivent un crédit d’attribution, veillez également à sélectionner la case sous la colonne « [!UICONTROL Modèle personnalisé] ».
 
-   ![1. Si vous souhaitez également que ces étapes de boomerang soient incluses ](assets/boomerang-stages-21.png)
+   ![1. Si vous souhaitez également que ces étapes de boomerang soient incluses &#x200B;](assets/boomerang-stages-21.png)
 
 1. Accédez à l’onglet [!UICONTROL Paramètres d’attribution]. Déterminez la manière dont vous souhaitez pondérer l’attribution pour vos étapes de boomerang. Les options consistent à pondérer l’attribution sur la première occurrence, la dernière occurrence, ou à la répartir uniformément sur toutes les occurrences.
 
-   ![1. Accédez à l’onglet Paramètres d’attribution . Déterminez comment vous souhaitez procéder ](assets/boomerang-stages-22.png)
+   ![1. Accédez à l’onglet Paramètres d’attribution . Déterminez comment vous souhaitez procéder &#x200B;](assets/boomerang-stages-22.png)
 
 1. Saisissez le nombre d’occurrences de chaque étape que vous souhaitez voir. On peut en permettre 10 maximum. La valeur par défaut est définie sur 1.
 
@@ -54,7 +54,7 @@ Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez ê
 
 1. Définissez le pourcentage d’attribution que vous souhaitez allouer aux étapes de boomerang que vous avez incluses dans le modèle personnalisé. Assurez-vous que l’attribution totale pour toutes les étapes atteint 100 %. Cliquez sur **[!UICONTROL Enregistrer et traiter]**.
 
-   ![1. Définissez le pourcentage d’attribution que vous souhaitez affecter au ](assets/boomerang-stages-24.png)
+   ![1. Définissez le pourcentage d’attribution que vous souhaitez affecter au &#x200B;](assets/boomerang-stages-24.png)
 
    >[!NOTE]
    >

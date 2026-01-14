@@ -51,7 +51,7 @@ Objectif : utilisez la valeur d’un champ personnalisé et placez-le sur l’ob
    * **)** marque la fin de l’extraction
    * **.&#42;** nous indique que nous extrayons la chaîne complète
 
-![.&amp;42; nous indique que nous extrayons la chaîne complète](assets/touchpoint-fields-10.png)
+![.&42; nous indique que nous extrayons la chaîne complète](assets/touchpoint-fields-10.png)
 
 **Exemple de #2**
 
@@ -184,7 +184,7 @@ Maintenant que les valeurs de votre URL ont été analysées et existent sur le 
 
 Cette version de produit offre la possibilité de créer des segments à l’aide de champs de point de contact. Les segments n’ont pas pu être créés avec les champs de point de contact précédents.
 
-![La possibilité de créer des segments à l’aide des champs de point de contact est offerte avec ](assets/touchpoint-fields-5.png)
+![La possibilité de créer des segments à l’aide des champs de point de contact est offerte avec &#x200B;](assets/touchpoint-fields-5.png)
 
 Pour faciliter la création de segments, il est désormais possible de créer des segments dynamiques à partir des champs de point de contact qui ont été créés. Par exemple, si vous avez créé un champ de point de contact qui analyse une région géographique, plutôt que de créer un segment pour chaque région possible, vous pouvez configurer un segment et nous créerons des segments pour chaque instance où une nouvelle valeur s’affiche. Cela s’avère extrêmement utile si un attribut tel qu’un code postal doit être analysé et utilisé comme segment.
 
@@ -194,7 +194,7 @@ La configuration ressemblerait à la capture d’écran ci-dessous. Le nom du se
 
 La règle fait référence au même champ de point de contact et recherche les valeurs « différentes de null ».
 
-![La règle fait référence au même champ de point de contact et recherche les valeurs qui ](assets/touchpoint-fields-7.png)
+![La règle fait référence au même champ de point de contact et recherche les valeurs qui &#x200B;](assets/touchpoint-fields-7.png)
 
 ## Questions fréquentes {#faq}
 

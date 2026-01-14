@@ -64,7 +64,7 @@ Si vous faites une erreur, ne vous inquiétez pas. Vous pouvez également suppri
 
 ![4) Configurez des règles pour les points de contact d’attribution de l’acheteur si vous le souhaitez](assets/touchpoint-settings-8.png)
 
-Pour terminer, [!UICONTROL  Enregistrer et traiter ] vos règles. Si vous apportez de nombreuses modifications, veillez à les enregistrer au fur et à mesure. [!DNL Marketo Measure] ne commencera pas réellement à supprimer vos points de contact avant que vous ne cliquiez
+Pour terminer, [!UICONTROL &#x200B; Enregistrer et traiter &#x200B;] vos règles. Si vous apportez de nombreuses modifications, veillez à les enregistrer au fur et à mesure. [!DNL Marketo Measure] ne commencera pas réellement à supprimer vos points de contact avant que vous ne cliquiez
 [!UICONTROL **Enregistrer et traiter**].
 
 | **Opérateur** | **Exemple d’utilisation** |

@@ -74,7 +74,7 @@ Si votre équipe a récemment rencontré l’un des problèmes ci-dessus, [!DNL 
 > [Synchronisation de campagne personnalisée - Synchronisation de l’application](/help/channel-tracking-and-setup/custom-campaign-sync.md)
 > [Synchronisation des campagnes hors ligne - Synchronisation CRM](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)
 > [Campagne hors ligne et membres de campagne - Synchronisation CRM](/help/channel-tracking-and-setup/campaigns-and-campaign-members.md)
-> [Dates de synchronisation de la campagne - Synchronisation CRM ](/help/channel-tracking-and-setup/campaign-sync-dates.md)
+> [Dates de synchronisation de la campagne - Synchronisation CRM &#x200B;](/help/channel-tracking-and-setup/campaign-sync-dates.md)
 > [Configurations pour plusieurs types d’enregistrements Campaign](/help/channel-tracking-and-setup/configurations-record-types.md)
 > [Création d&#39;une vue Liste de campagnes](/help/channel-tracking-and-setup/creating-a-campaign-list-view-for-salesforce-campaigns.md)
 > [Synchronisation des données historiques](/help/channel-tracking-and-setup/syncing-historical-data.md)

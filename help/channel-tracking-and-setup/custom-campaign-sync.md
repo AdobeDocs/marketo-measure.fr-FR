@@ -44,13 +44,13 @@ Aujourd’hui, avec le package [!DNL Marketo Measure] installé, vous pouvez ind
 
 1. Cliquez sur la coche, puis ajoutez des règles supplémentaires pour d’autres campagnes, si nécessaire.
 
-   ![1. Cliquez sur la coche, puis ajoutez des règles supplémentaires pour d’autres campagnes comme ](assets/offline-channels-12.png)
+   ![1. Cliquez sur la coche, puis ajoutez des règles supplémentaires pour d’autres campagnes comme &#x200B;](assets/offline-channels-12.png)
 
    >[!NOTE]
    >
    >Maintenant que les règles sont définies avec la synchronisation CRM, les règles qui sont énoncées vont naturellement commencer à entrer en conflit. Si vous choisissez de continuer à utiliser à la fois la synchronisation de campagne personnalisée _et_ le type de synchronisation CRM, il est essentiel de créer des règles afin que vos types de synchronisation CRM ne soient pas ignorés.
 
-   ![Maintenant que les règles sont définies avec la synchronisation CRM, les règles qui ](assets/offline-channels-13.png)
+   ![Maintenant que les règles sont définies avec la synchronisation CRM, les règles qui &#x200B;](assets/offline-channels-13.png)
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Vous pouvez facilement vérifier les enregistrements Points de contact de l’ac
 
 1. La fonction de synchronisation de la campagne est fournie avec une fonction de test afin que vous puissiez vérifier si les règles que vous avez créées répondent réellement aux critères de Campaign. Commencez par cliquer sur le bouton [!UICONTROL Tester]. Les règles doivent d’abord être enregistrées avant de pouvoir commencer le test.
 
-   ![1. La fonctionnalité de synchronisation de la campagne est fournie avec une fonctionnalité de test afin que ](assets/offline-channels-15.jpg)
+   ![1. La fonctionnalité de synchronisation de la campagne est fournie avec une fonctionnalité de test afin que &#x200B;](assets/offline-channels-15.jpg)
 
    Un pop-up s’affiche et vous pouvez saisir un identifiant de campagne (15 ou 18 caractères du CRM) à tester. Il s’agit de saisir l’identifiant de campagne du CRM que vous tentez de synchroniser pour vous assurer qu’il correspond à la règle que vous avez créée.
 

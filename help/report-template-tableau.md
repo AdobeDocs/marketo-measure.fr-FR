@@ -30,7 +30,7 @@ Vous devez configurer une connexion des données à votre instance Snowflake. Po
 
 Vous devez également saisir une commande SQL initiale. Les requêtes personnalisées sont prises en charge dans ce modèle de données. La commande à saisir est « Utiliser le schéma `<your schema name>` ». Le nom de votre schéma figure sur la page [!UICONTROL connexions à l’entrepôt de données] (voir la documentation référencée ci-dessus).
 
-![Vous devez également saisir une commande SQL initiale. Cela prend en charge ](assets/marketo-tableau-6.png)
+![Vous devez également saisir une commande SQL initiale. Cela prend en charge &#x200B;](assets/marketo-tableau-6.png)
 
 ### Requêtes SQL personnalisées {#custom-sql-queries}
 
@@ -84,11 +84,11 @@ Les tableaux et les colonnes ont été renommés afin de les rendre plus convivi
 
 Pour ajouter des fonctionnalités de conversion de devises aux calculs dans le modèle, nous avons ajouté un taux de conversion d’entreprise et une colonne de taux de conversion cible aux tableaux Opportunité et Coût. La valeur de ces colonnes est ajoutée au niveau de la ligne et évaluée en se joignant au tableau Taux de conversion à la date et à l’ID de devise. Comme Tableau ne permet pas aux tableaux de faits de partager plusieurs tableaux de dimensions, les taux de conversion ont été ajoutés directement aux tableaux qui les utilisent. Pour plus d’informations sur le fonctionnement de la conversion de devises dans ce modèle, consultez la section [Conversion de devises](#currency-conversion) dans cette documentation.
 
-![Pour ajouter des fonctionnalités de conversion de devise aux calculs du modèle, nous avons ](assets/marketo-tableau-4.png)
+![Pour ajouter des fonctionnalités de conversion de devise aux calculs du modèle, nous avons &#x200B;](assets/marketo-tableau-4.png)
 
 Il y a quelques endroits où deux tableaux de [!DNL Snowflake] ont été combinés avec une union pour créer un tableau dans le modèle de données [!DNL Tableau]. Dans ces cas, une colonne « Type » a été ajoutée pour indiquer de quel tableau [!DNL Snowflake] elle provient et désigner l’entité que la ligne représente. Pour plus d’informations sur les tableaux qui ont été combinés, consultez la section Relation et flux de données de cette documentation.
 
-![Il y a quelques endroits où deux tables de Snowflake ont ](assets/marketo-tableau-3.png)
+![Il y a quelques endroits où deux tables de Snowflake ont &#x200B;](assets/marketo-tableau-3.png)
 
 ### Noms de segments {#segment-names}
 
@@ -100,11 +100,11 @@ La colonne [!UICONTROL CATÉGORIE] répertorie le numéro de catégorie et la co
 
 Les noms peuvent être mis à jour de deux manières. La première option consiste à mettre à jour le code SQL personnalisé. Dans cet exemple, les catégories 1 à 6 ont été renommées en fonction du mappage issu du tableau Noms de segments.
 
-![Les noms peuvent être mis à jour de deux façons. La première option consiste à ](assets/marketo-tableau-14.png)
+![Les noms peuvent être mis à jour de deux façons. La première option consiste à &#x200B;](assets/marketo-tableau-14.png)
 
 L’autre option consiste à renommer les colonnes directement dans le tableau [!DNL Tableau].
 
-![L’autre option consiste à renommer les colonnes directement dans le ](assets/marketo-tableau-9.png)
+![L’autre option consiste à renommer les colonnes directement dans le &#x200B;](assets/marketo-tableau-9.png)
 
 ## Modèle de données {#data-model}
 
@@ -122,7 +122,7 @@ Les transitions d’étape d’opportunité et les transitions d’étape de pro
 
 Les données Coût et Point de contact partagent les dimensions Canal et Campagne. Cependant, Tableau est limité dans sa capacité à modéliser des dimensions partagées entre des tableaux de faits. Puisque la limite est définie à un seul tableau de dimension partagé, les données Canal et Campagne ont été combinées en un seul tableau. Elles sont combinées à l’aide d’une jointure croisée des deux dimensions en un tableau dans Tableau : Canal et Campaign. L’ID unique est créé en concaténant les ID de canal et de campagne. Cette même valeur d’ID est ajoutée aux tableaux Point de contact et Coût pour créer une relation avec ce tableau de dimension combiné.
 
-![Les données de coût et de point de contact partagent des dimensions de canal et de campagne. Cependant, Tableau ](assets/marketo-tableau-10.png)
+![Les données de coût et de point de contact partagent des dimensions de canal et de campagne. Cependant, Tableau &#x200B;](assets/marketo-tableau-10.png)
 
 Dans ce modèle, les dimensions Campagne et Canal sont liées au point de contact. Par conséquent, tous les rapports sur ces dimensions sont générés par ce lien, ce qui signifie que les rapports dimensionnels sur les données d’événement peuvent être incomplets. En effet, de nombreux événements ne comportent de liens vers ces dimensions qu’après leur traitement dans les points de contact.
 

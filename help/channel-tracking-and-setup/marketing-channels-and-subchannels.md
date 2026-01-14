@@ -45,11 +45,11 @@ Les sous-canaux constituent la deuxième pièce du puzzle lors du regroupement d
 
 Le diagramme ci-dessous illustre un exemple de canal marketing, de sous-canal et de contenu basé sur une page web avec l’URL suivante :
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
 Dans ce cas, le contenu auquel l’utilisateur ou l’utilisatrice tente d’accéder est le Guide d’introduction à l’attribution marketing B2B. [!DNL Marketo Measure] analyse l’URL qui mène à ce contenu à l’aide des règles de canal configurées dans cette organisation et les utilise pour « regrouper » ce prospect dans le canal marketing « Référencement social payant » et le sous-canal « LinkedIn ».
 
-![Dans ce cas, le contenu auquel l’utilisateur tente d’accéder est ](assets/online-channels-1.png)
+![Dans ce cas, le contenu auquel l’utilisateur tente d’accéder est &#x200B;](assets/online-channels-1.png)
 
 Autres exemples...
 

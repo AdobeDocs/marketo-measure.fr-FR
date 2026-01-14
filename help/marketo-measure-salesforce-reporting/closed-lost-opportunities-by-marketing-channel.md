@@ -20,21 +20,21 @@ Bien que ce rapport puisse dépendre de vos étapes d’opportunité, il dévoil
 
 1. Dans le type de recherche rapide dans « Attribution Bizible » et sélectionnez le type de rapport **[!UICONTROL Point de contact d’attribution Bizible avec opportunité]**, puis sélectionnez **[!UICONTROL Créer]**.
 
-   ![1. Dans la recherche rapide, saisissez « Attribution Bizible » et sélectionnez le ](assets/bizible-guide-2.png)
+   ![1. Dans la recherche rapide, saisissez « Attribution Bizible » et sélectionnez le &#x200B;](assets/bizible-guide-2.png)
 
 1. En commençant par la partie supérieure du rapport, affichez « [!UICONTROL Tous les points de contact d’attribution Bizible] » et ajustez le champ de date en fonction de la période sur laquelle vous souhaitez créer votre rapport. Dans notre exemple, nous prenons All Time. De plus, remplacez le format de rapport Tabulaire par Résumé.
 
-   ![1. En commençant par la partie supérieure du rapport, afficher « Tous les Bizible ](assets/marketo-reports-8.jpg)
+   ![1. En commençant par la partie supérieure du rapport, afficher « Tous les Bizible &#x200B;](assets/marketo-reports-8.jpg)
 
-   ![1. En commençant par la partie supérieure du rapport, afficher « Tous les Bizible ](assets/bizible-guide-3.png)
+   ![1. En commençant par la partie supérieure du rapport, afficher « Tous les Bizible &#x200B;](assets/bizible-guide-3.png)
 
 1. À présent, nous allons ajouter des champs au rapport. Dans la recherche rapide sur la gauche, saisissez « Canal marketing » et ajoutez-le au regroupement Résumé dans le rapport.
 
-   ![1. À présent, nous allons ajouter des champs au rapport. Dans le ](assets/bizible-guide-4.png)
+   ![1. À présent, nous allons ajouter des champs au rapport. Dans le &#x200B;](assets/bizible-guide-4.png)
 
 1. Ensuite, nous allons ajouter un filtre pour ne regarder que les opportunités perdues closes. Dans la recherche rapide sur la gauche, recherchez le champ « Phase » et faites-le glisser dans la zone de filtrage.
 
-   ![1. Ensuite, nous allons ajouter un filtre pour ne regarder que ](assets/marketo-reports-16.jpg)
+   ![1. Ensuite, nous allons ajouter un filtre pour ne regarder que &#x200B;](assets/marketo-reports-16.jpg)
 
 1. De là, vous sélectionnerez la loupe pour choisir la ou les étapes que vous utilisez pour les opportunités « Fermées et perdues ». Dans notre cas, nous utiliserons le nom standard « Fermé et perdu ».
 
