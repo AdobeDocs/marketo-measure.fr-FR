@@ -1,15 +1,14 @@
 ---
-description: Formulaires IFrame et  [!DNL Marketo Measure]  -  [!DNL Marketo Measure]
+description: IFrame Forms et  [!DNL Marketo Measure]  pour les utilisateurs de Marketo Measure
 title: Formulaires IFrame et  [!DNL Marketo Measure]
 exl-id: fe8d7403-27be-4702-a1b6-d574e1243c0a
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 85%
+source-wordcount: '202'
+ht-degree: 77%
 
 ---
-
 
 # Formulaires IFrame et [!DNL Marketo Measure] {#iframe-forms-and-marketo-measure}
 
@@ -21,6 +20,6 @@ Dans de nombreux cas, l’IFrame est géré via un fournisseur d’automatisatio
 
 Il est recommandé de placer le code JavaScript dans l’en-tête de l’IFrame et de là, nous le joignons automatiquement aux formulaires dans ce cadre.
 
-![Code HTML](assets/1-1.png)
+![Il est recommandé de placer le JavaScript dans l’en-tête du ](assets/adding-pages-1.png)
 
 Si vous avez des questions sur l’ajout de notre JavaScript aux formulaires IFrame, contactez l’équipe du compte Adobe (votre gestionnaire de compte) ou l’assistance de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

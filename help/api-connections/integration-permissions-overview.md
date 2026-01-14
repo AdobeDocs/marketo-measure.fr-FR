@@ -1,11 +1,11 @@
 ---
-description: Présentation des autorisations d’intégration - [!DNL Marketo Measure]
+description: Conseils de présentation des autorisations d’intégration pour les utilisateurs de Marketo Measure
 title: Vue d’ensemble des autorisations d’intégration
 feature: APIs, Integration
 exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1291'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Ce guide décrit les autorisations nécessaires à une intégration transparente
 <tbody>
   <tr>
     <td>Salesforce</td>
-    <td>Données du système B2B  
+    <td>Données du système B2B
 </td>
     <td>Marketo Measure effectue le suivi de :
     <p>
@@ -61,7 +61,7 @@ Les points de contact créés et d’autres données sont écrits dans des champ
     <p>
     <b>Autorisations des champs standard de Salesforce</b>
     <br>
-    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Objets et accès standard de Salesforce</a>
+    <a href="/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md">Objets et accès standard de Salesforce</a>
     <p>
     <b>Autorisations des champs personnalisés Salesforce</b>
     <br>
@@ -108,7 +108,7 @@ Pour les entités personnalisées de Marketo Measure, nous aurons besoin d’aut
 <p>
 <b>Autorisations des champs standard de Dynamics</b>
 <br>
-<a href="/help/marketo-measure-and-dynamics/marketo-measure-dynamics-schema.md">Schéma Marketo Measure Dynamics</a>
+<a href="/help/marketo-measure-dynamics-schema.md">Schéma Marketo Measure Dynamics</a>
 <p>
 <b>Autorisations des champs personnalisés Dynamics</b>
 <br>
@@ -211,16 +211,16 @@ Marketo Measure effectue le suivi des campagnes, des groupes publicitaires, des 
   <tr>
     <td>Marketo Engage</td>
     <td>Données du système B2B</td>
-    <td>L’intégration de Marketo permet à Marketo Measure de collecter les activités, les personnes, les programmes et les appartenances aux programmes Marketo. En outre, Marketo Measure effectue le suivi des cookies Marketo (identifiants Munchkin) à des fins de liaison des activités web Marketo aux points de contact du prospect Marketo Measure, <a href="/help/marketo-measure-and-marketo/marketo-engage-programs-integration.md#cookie-mapping">comme décrit ici</a> :
+    <td>L’intégration de Marketo permet à Marketo Measure de collecter les activités, les personnes, les programmes et les appartenances aux programmes Marketo. En outre, Marketo Measure effectue le suivi des cookies Marketo (identifiants Munchkin) à des fins de liaison des activités web Marketo aux points de contact du prospect Marketo Measure, <a href="/help/marketo-engage-programs-integration.md#cookie-mapping">comme décrit ici</a> :
     <p>
     <i>Suite à l’intégration de Marketo Measure à Marketo, l’ID de cookie Marketo Measure est désormais également mappé et synchronisé avec l’ID de Munchkin Marketo. Cela permet de combler l’écart afin d’attribuer le premier contact anonyme à une session web plutôt que d’attribuer les contacts FT et LC à une activité Marketo.</i>
     </td>
-    <td>Le client doit créer un utilisateur d’API Marketo Engage dédié et fournir les informations d’identification à Marketo Measure. Aucune configuration d’autorisation supplémentaire n’est requise. <a href="/help/marketo-measure-and-marketo/set-up-marketo-connection.md#configuring-the-integration">En savoir plus</a>.</td>
+    <td>Le client doit créer un utilisateur d’API Marketo Engage dédié et fournir les informations d’identification à Marketo Measure. Aucune configuration d’autorisation supplémentaire n’est requise. <a href="/help/set-up-marketo-connection.md#configuring-the-integration">En savoir plus</a>.</td>
   </tr>
   <tr>
     <td>Adobe Analytics</td>
     <td>Données du système B2B</td>
-    <td>L’intégration des attributs du client B2B permet aux utilisateurs mutuels de Marketo Measure et d’Adobe Analytics d’enrichir leurs profils utilisateur Adobe Analytics avec des métadonnées précieuses dérivées du moteur d’attribution de Marketo Measure et grâce à sa fonctionnalité de synchronisation avec les systèmes de gestion de la relation client (Microsoft Dynamics et Salesforce). <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">En savoir plus</a>.</td>
+    <td>L’intégration des attributs du client B2B permet aux utilisateurs mutuels de Marketo Measure et d’Adobe Analytics d’enrichir leurs profils utilisateur Adobe Analytics avec des métadonnées précieuses dérivées du moteur d’attribution de Marketo Measure et grâce à sa fonctionnalité de synchronisation avec les systèmes de gestion de la relation client (Microsoft Dynamics et Salesforce). <a href="/help/adobe-analytics.md">En savoir plus</a>.</td>
     <td>Le client doit fournir à Marketo Measure un ID d’alias et des informations d’identification de serveur FTP à un emplacement où les données seront chargées vers son instance Analytics.
     <p>
     Notez les informations suivantes, car vous en aurez besoin pour certaines des étapes suivantes du processus :
@@ -228,7 +228,7 @@ Marketo Measure effectue le suivi des campagnes, des groupes publicitaires, des 
     <li>L’ID d’alias, qui peut être n’importe quelle valeur que vous souhaitez. Nous vous recommandons d’utiliser « marketomeasure_id »</li>
     <li>Nom d’hôte et informations d’identification du serveur FTP (nom d’utilisateur et mot de passe)</li>
     <p>
-    <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md#configuring-the-integration">En savoir plus</a></td>
+    <a href="/help/adobe-analytics.md#configuring-the-integration">En savoir plus</a></td>
   </tr>
   <tr>
     <td>Javascript Bizible</td>
@@ -240,4 +240,4 @@ Marketo Measure effectue le suivi des campagnes, des groupes publicitaires, des 
 </table>
 
 >[!MORELIKETHIS]
->[Notifications d’erreur](/help/configuration-and-setup/getting-started-with-marketo-measure/error-notifications.md){target="_blank"}
+>[Notifications d’erreur](/help/configuration-and-setup/error-notifications.md){target="_blank"}

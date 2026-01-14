@@ -1,15 +1,14 @@
 ---
-description: Ajout  [!DNL Marketo Measure]  script à Lightbox Forms - [!DNL Marketo Measure]
+description: Ajout  [!DNL Marketo Measure]  script aux conseils Lightbox Forms pour les utilisateurs de Marketo Measure
 title: Ajout d’un script  [!DNL Marketo Measure]  à des formulaires Lightbox
 exl-id: fa9ce480-fc4f-4abd-8555-dbb74849747e
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '214'
 ht-degree: 2%
 
 ---
-
 
 # Ajout d’un script [!DNL Marketo Measure] à Lightbox Forms {#adding-marketo-measure-script-to-lightbox-forms}
 
@@ -21,11 +20,11 @@ Un lightbox ouvre un formulaire devant votre contenu lorsque le visiteur effectu
 
 Tout d’abord, localisez l’iFrame dans lequel réside le formulaire [!UICONTROL lightbox].
 
-![Recherche de l’iFrame du formulaire Lightbox dans la source de la page](assets/1.png)
+![Tout d’abord, localisez l’iFrame dans lequel réside le formulaire Lightbox.](assets/adding-providers-8.png)
 
 Placez ensuite le [!DNL Marketo Measure] JavaScript dans l’iFrame.
 
-![Script Marketo Measure placé dans l’iFrame de lightbox](assets/2.png)
+![Placez ensuite le JavaScript Marketo Measure dans l’iFrame.](assets/adding-providers-5.png)
 
 Enfin, lorsque le JavaScript est ajouté, validez le suivi des envois de formulaires en suivant ces instructions :
 

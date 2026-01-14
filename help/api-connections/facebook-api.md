@@ -3,13 +3,13 @@ description: API [!DNL Facebook] - [!DNL Marketo Measure]
 title: '[!DNL Facebook] API'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '507'
 ht-degree: 3%
 
 ---
-
 
 # [!DNL Facebook] API {#facebook-api}
 
@@ -30,27 +30,29 @@ En ce qui concerne la configuration, l’application [!DNL Marketo Measure] comp
 1. Sélectionnez **[!UICONTROL Configurer une nouvelle connexion publicitaire]** et un pop-up s’affiche. Sélectionnez **[!UICONTROL Facebook]** et connectez-vous à l’aide de vos identifiants Facebook.
 
    >[!NOTE]
+   >
    >La personne qui connecte le compte [!DNL Facebook Ads] doit être un administrateur au sein du compte [!DNL Facebook Ads].
 
 1. Une fois [!DNL Marketo Measure] connecté à votre compte Facebook, cliquez sur l’icône en forme de crayon en regard du compte.
-1. Dans cette vue, déplacez le « Balisage automatique ? » Basculez sur « Oui ». Cochez ensuite la case située dans la section [!UICONTROL &#x200B; En savoir plus &#x200B;] pour accepter les conditions générales. Assurez-vous que le bouton (bascule) [!UICONTROL Balisage automatique] est toujours défini sur « [!UICONTROL Oui] ».
+1. Dans cette vue, déplacez le « Balisage automatique ? » Basculez sur « Oui ». Cochez ensuite la case située dans la section [!UICONTROL  En savoir plus ] pour accepter les conditions générales. Assurez-vous que le bouton (bascule) [!UICONTROL Balisage automatique] est toujours défini sur « [!UICONTROL Oui] ».
 
 ## Connexion au compte {#connecting-the-account}
 
-![Configuration d’une nouvelle connexion aux publicités Facebook dans Marketo Measure](assets/1.gif)
+![Connexion au compte {connecting-the-account}](assets/utilizing-connections-2.gif)
 
 ## Activation du balisage automatique {#enabling-autotagging}
 
 >[!NOTE]
+>
 >Si vous activez le balisage automatique, nous réinitialiserons l’historique des conversions et le BAT des réseaux sociaux de toutes les publicités que nous balisons. Nous vous recommandons vivement d’[exporter ces données au format CSV](https://www.facebook.com/business/help/205067636197240) avant d’activer le balisage automatique.
 
-![&#x200B; 2](assets/2-2.png)
+![Si vous activez le balisage automatique, nous réinitialiserons l’historique de conversion et l’épreuve de réseau social](assets/bizible-guide-1.png)
 
 Une fois que vous avez activé l’intégration, [!DNL Marketo Measure] commencerez à télécharger le coût au niveau des annonces dans le tableau de bord [!DNL Marketo Measure Marketing ROI].
 
 Pour que l’intégration fonctionne correctement, vous devez activer le balisage automatique sur votre compte [!DNL Facebook]. Cela permettra à notre système d’ajouter un paramètre _bf à tous les liens publicitaires. Ce processus ajoute le nouveau paramètre en plus de tous les autres paramètres de suivi que vous avez déjà ajoutés à vos publicités [!DNL Facebook].
 
-![Activation du balisage automatique dans les paramètres de connexion Facebook](assets/3.gif)
+![Pour que l’intégration fonctionne correctement, vous devez activer le balisage automatique sur votre ](../assets/marketo-engage-activities-05.png)
 
 ## Appariement des champs {#field-mapping}
 

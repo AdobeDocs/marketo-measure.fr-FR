@@ -1,22 +1,23 @@
 ---
-description: Ajout  [!DNL Marketo Measure]  Script - [!DNL Marketo Measure]
+description: Ajout  [!DNL Marketo Measure]  conseils de script pour les utilisateurs de Marketo Measure
 title: 'Ajout d’un script  [!DNL Marketo Measure] '
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+hidefromtoc: true
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1298'
 ht-degree: 57%
 
 ---
-
 
 # Ajout d’un script [!DNL Marketo Measure] {#adding-marketo-measure-script}
 
 Le code JavaScript [!DNL Marketo Measure] que vous souhaitez suivre grâce à [!DNL Marketo Measure] doit être ajouté à toutes les propriétés web dès que possible. Une fois le JavaScript déployé, [!DNL Marketo Measure] commence à collecter vos données numériques. Cet article décrit les méthodes de déploiement d’[!DNL Marketo Measure] JavaScript et ajoute d’autres considérations.
 
 >[!NOTE]
->Assurez-vous que vous avez [revendiqué tous les domaines appropriés dans  [!DNL Adobe Admin Console]](/help/marketo-measure-and-adobe/domain-management.md){target="_blank"} en plus du déploiement du code JavaScript [!DNL Marketo Measure].
+>
+>Assurez-vous que vous avez [revendiqué tous les domaines appropriés dans  [!DNL Adobe Admin Console]](/help/domain-management.md){target="_blank"} en plus du déploiement du code JavaScript [!DNL Marketo Measure].
 
 Lors de la prise en main de [!DNL Marketo Measure], vous pouvez ajouter le code JavaScript [!DNL Marketo Measure] sur votre site web de deux manières :
 
@@ -32,7 +33,8 @@ Une bonne pratique consiste à coder en dur le code JavaScript [!DNL Marketo Mea
 Le codage en dur du JavaScript dans la `<head>` de vos pages garantit que le script [!DNL Marketo Measure] se charge en premier et que les informations de référence ne sont pas manquantes. Le code JavaScript [!DNL Marketo Measure] se charge de manière asynchrone. En cas de codage en dur, le code JavaScript doit être ajouté manuellement à l’automatisation du marketing.
 
 >[!TIP]
->Découvrez comment vous assurer que votre script est [conforme au RGPD](/help/security/ensuring-consent-for-gdpr-in-marketo-measure-js.md){target="_blank"}.
+>
+>Découvrez comment vous assurer que votre script est conforme au RGPD.
 
 ## Systèmes de gestion des balises {#tag-management-systems}
 
@@ -64,7 +66,7 @@ Assurez-vous d’avoir une conversation avec votre équipe web pour qu’elle sa
 
 Si un avertissement [!DNL Web Application Firewall (WAF)] est déclenché lors de la configuration de JavaScript, les utilisateurs peuvent soit désactiver cette règle WAF placer sur la liste autorisée, soit supprimer les cookies, comme dans l’exemple ci-dessous :
 
-![Exemple d’invite d’avertissement WAF pour le script Marketo Measure](assets/adding-marketo-measure-script-1.png)
+![Si un avertissement de pare-feu d’application web (WAF) est déclenché pendant le ](assets/adding-script-1.png)
 
 ## Formulaires auxquels prêter une attention particulière {#forms-to-pay-extra-attention-to}
 
@@ -79,6 +81,7 @@ Si un avertissement [!DNL Web Application Firewall (WAF)] est déclenché lors d
 * Solution : ajoutez le code d’exclusion au formulaire de connexion du compte/client/partenaire.
 
 >[!NOTE]
+>
 >Il est recommandé de créer un point de contact pour la création d’un compte ou d’un essai.
 
 **Téléchargement de la ressource**

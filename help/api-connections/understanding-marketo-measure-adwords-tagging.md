@@ -1,15 +1,14 @@
 ---
-description: Présentation  [!DNL Marketo Measure]  balisage AdWords - [!DNL Marketo Measure]
+description: Consignes  [!DNL Marketo Measure]  balisage AdWords pour les utilisateurs de Marketo Measure
 title: 'Comprendre le balisage AdWords dans [!DNL Marketo Measure] '
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: fcd8e276c85669ddf12bd7404fb12d3e99b2642a
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 5%
+source-wordcount: '657'
+ht-degree: 6%
 
 ---
-
 
 # Comprendre [!DNL Marketo Measure] balisage AdWords {#understanding-marketo-measure-adwords-tagging}
 
@@ -61,11 +60,11 @@ Il existe deux modèles de tracking que [!DNL Marketo Measure] recommande d’ut
 
 1. Cliquez sur **[!UICONTROL Toutes les campagnes]** puis sur **[!UICONTROL Paramètres]** dans la fenêtre qui s’étend.
 
-   Navigation dans ![Google AdWords affichant le menu Toutes les campagnes avec l’option Paramètres](assets/1.png)
+   ![1. Cliquez sur Toutes les campagnes , puis sur Paramètres dans l’extension](assets/utilizing-connections-13.png)
 
 1. Cliquez sur **[!UICONTROL Paramètres du compte]** dans la partie supérieure, puis sur **[!UICONTROL Modèle de suivi]**. Saisissez le modèle de suivi [!DNL Marketo Measure].
 
-   ![Page Paramètres du compte avec le champ Modèle de tracking pour la saisie des paramètres de Marketo Measure](assets/2-1.png)
+   ![1. Cliquez sur Paramètres du compte en haut, puis sur Suivi](assets/bizible-guide-1.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
@@ -73,11 +72,11 @@ Il existe deux modèles de tracking que [!DNL Marketo Measure] recommande d’ut
 
 1. Cliquez sur **[!UICONTROL Toutes les campagnes]** puis sur **[!UICONTROL Campagnes]** dans la fenêtre en expansion.
 
-   Navigation dans ![Google AdWords affichant le menu Toutes les campagnes avec l’option Campagnes &#x200B;](assets/3.png)
+   ![1. Cliquez sur Toutes les campagnes , puis sur Campagnes dans l’extension](assets/utilizing-connections-12.png)
 
 1. Sélectionnez toutes les campagnes applicables ou **[!UICONTROL Tout sélectionner]**, cliquez sur **[!UICONTROL Modifier]**, puis sur **[!UICONTROL Modifier les modèles de suivi]**.
 
-   ![Page de sélection de la campagne avec le menu Modifier affichant l’option Modèles de suivi des modifications](assets/4-1.png)
+   ![1. Sélectionnez toutes les campagnes applicables ou sélectionnez tout, cliquez sur Modifier ](../assets/marketo-engage-activities-05.png)
 
 1. Saisissez le modèle de suivi [!DNL Marketo Measure] et cliquez sur **[!UICONTROL Appliquer]**.
 
@@ -85,13 +84,13 @@ Il existe deux modèles de tracking que [!DNL Marketo Measure] recommande d’ut
 
 1. Cliquez sur **[!UICONTROL Toutes les campagnes]** puis sur **[!UICONTROL Groupes publicitaires]** dans la fenêtre qui s’étend.
 
-   Navigation dans ![Google AdWords affichant le menu Toutes les campagnes avec l’option Groupes publicitaires](assets/5-1.png)
+   ![1. Cliquez sur Toutes les campagnes , puis sur Groupes publicitaires dans l’](assets/api-connections-01.png)
 
 1. Sélectionnez tous les groupes publicitaires applicables ou sélectionnez tout, cliquez sur **[!UICONTROL Modifier]** puis sur **[!UICONTROL Modifier les modèles de suivi]**.
 
 1. Saisissez le modèle de suivi [!DNL Marketo Measure] et cliquez sur **[!UICONTROL Appliquer]**.
 
-   ![Page de sélection de groupe publicitaire avec le menu Modifier affichant l’option Modèles de suivi des modifications et le bouton Appliquer](assets/6-1.png)
+   ![1. Saisissez le modèle de suivi Marketo Measure, puis cliquez sur Appliquer](../assets/marketo-engage-activities-01.png).
 
 ## Questions fréquentes {#faq}
 
@@ -112,6 +111,7 @@ A : 4 heures
 R : Nous ne pouvons pas récupérer les détails créatifs individuels pour les annonces de recherche dynamique, mais si le balisage automatique est activé, nous pouvons toujours obtenir l’identifiant créatif et le chiffre d’affaires des attributs.
 
 >[!NOTE]
+>
 >Une fois les modifications apportées, vous avez terminé. N’hésitez pas à contacter l’assistance technique de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour toute question lors de la configuration.
 
 [Cliquez ici](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} pour obtenir des instructions de Google sur la création de modèles de suivi au niveau du compte.
