@@ -1,15 +1,14 @@
 ---
-description: Impact Des Outils De Gestion Des Offres  [!DNL Marketo Measure] - [!DNL Marketo Measure]
+description: Impact des outils de gestion des enchères sur les conseils  [!DNL Marketo Measure]  utilisateurs de Marketo Measure
 title: Incidence des outils de gestion des offres sur [!DNL Marketo Measure]
 exl-id: 67c00ad9-8b12-4238-8a1f-2d2f5ed04423
 feature: APIs, Integration, UTM Parameters
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
-
 
 # Comment les outils de gestion des enchères affectent-ils [!DNL Marketo Measure] {#how-bid-management-tools-affect-marketo-measure}
 
@@ -31,6 +30,7 @@ Paramétrez un modèle de tracking comme suit :
       * `{lpurl}&_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
    * Si AUCUNE de vos URL d’annonces publicitaires ne comporte de « ? » dans ces pages, utilisez cette URL :
       * `{lpurl}?_bk={keyword}&_bt={creative}&_bm={matchtype}&_bn={network}&_bg={adgroupid}`
+
 
 ## Pour les comptes [!DNL Bing Ads] {#for-bing-ads-accounts}
 

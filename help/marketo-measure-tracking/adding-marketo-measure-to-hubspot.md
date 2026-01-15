@@ -1,15 +1,14 @@
 ---
-description: Ajout [!DNL Marketo Measure] à [!DNL Hubspot] - [!DNL Marketo Measure]
+description: Ajout  [!DNL Marketo Measure]  conseils destinés  [!DNL Hubspot]  utilisateurs de Marketo Measure
 title: Ajout  [!DNL Marketo Measure]  à  [!DNL Hubspot]
 exl-id: 633e7ef7-7959-461e-881f-dcc543595b66
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '184'
 ht-degree: 1%
 
 ---
-
 
 # Ajout de [!DNL Marketo Measure] aux [!DNL Hubspot] {#adding-marketo-measure-to-hubspot}
 
@@ -18,6 +17,7 @@ Découvrez comment ajouter le [!DNL Marketo Measure] JavaScript pour effectuer l
 Hubspot est un peu différent des autres systèmes d&#39;automatisation marketing dans la mesure où il peut héberger vos landing pages / formulaires ET votre site web. Il est important de noter que les instructions ci-dessous permettent d’effectuer le suivi [!DNL Marketo Measure] de l’activité sur les pages hébergées par [!DNL Hubspot]. Si vous alimentez votre site web avec un CMS autre que [!DNL Hubspot] (par exemple, Wordpress), vous devez également ajouter le JavaScript [!DNL Marketo Measure] à ce CMS.
 
 >[!NOTE]
+>
 >Si vous déployez JavaScript par l’intermédiaire d’un fournisseur de gestion des balises tel que [!DNL Google Tag Manager], il n’est pas nécessaire de coder manuellement le JavaScript [!DNL Marketo Measure] en dur sur votre site web.
 
 ## Prise en main {#getting-started}
@@ -36,11 +36,13 @@ Une fois la connexion à votre compte [!DNL Hubspot] effectuée, procédez comme
 
    Il doit ressembler à ceci :
 
-```text
+```html
 <!-- Marketo Measure Javascript -->
 <script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async="">
 ```
 
 >[!TIP]
+>
 >Il se peut qu’il existe déjà d’autres fragments de code de suivi dans cette zone, tels qu’un code Google Analytics. Veillez à les séparer par un point-virgule `;` un seul espace, comme suit :
+>
 >`<script type="text/javascript" src="https://cdn.bizible.com/scripts/bizible.js" async=""></script>; <script async="true" type="someothercode" src="someotherfile.js" ></script>`

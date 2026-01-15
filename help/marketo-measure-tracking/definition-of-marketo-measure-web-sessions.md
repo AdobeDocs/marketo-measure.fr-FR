@@ -1,15 +1,14 @@
 ---
-description: Définition des sessions web  [!DNL Marketo Measure]  -  [!DNL Marketo Measure]
+description: Définition des conseils  [!DNL Marketo Measure]  sessions web pour les utilisateurs de Marketo Measure
 title: 'Définition des sessions web  [!DNL Marketo Measure] '
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 98%
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
-
 
 # Définition des sessions web [!DNL Marketo Measure] {#definition-of-marketo-measure-web-sessions}
 
@@ -30,29 +29,13 @@ Il existe plusieurs éléments qui déterminent le moment où une session se ter
 
 ## Expiration basée sur le temps {#time-based-expiration}
 
-### Comportement hérité {#legacy-behavior}
-
 **Combien de temps dure une session ?**
 
-Les sessions [!UICONTROL Marketo Measure] se terminent après 30 minutes d’inactivité sur le site web. Par exemple :
+Les sessions [!DNL Marketo Measure] se terminent après 30 minutes d’inactivité sur le site Web. Par exemple :
 
 Lorsque Haley visite adobe.com/fr, une session commence. Elle explore le site pendant quelques minutes puis s’éloigne de son ordinateur, mais laisse le site ouvert. Après 30 minutes d’inactivité, la session se termine.
 
-Actuellement, [!UICONTROL Marketo Measure] considère comme « activité » uniquement la navigation au sein des pages et les envois de formulaire. Le fait de faire défiler la page web ou de survoler un élément n’est pas considéré comme une activité. Ainsi, si Haley se rend sur adobe.com/fr pour lire un article de blog et qu’il lui faut une heure pour le lire, sa session web se terminera malgré tout après 30 minutes, même si elle fait défiler le contenu de la page.
-
-### Nouveau comportement {#new-behavior}
-
-Il s’agit du comportement par défaut pour les nouveaux utilisateurs et les nouvelles utilisatrices.
-
-Les clientes et clients actuels peuvent adopter le nouveau comportement en cliquant sur le bouton de basculement dans **Paramètres** > **Everytouch Attribution** > **Conservation du canal de session**. Une fois activé, ce paramètre ne peut pas être inversé.
-
-Le canal de la session précédente est désormais conservé si une nouvelle session démarre dans un délai de sept jours après 30 minutes d’inactivité. Cette conservation s’applique uniquement aux visites directes (aucun référent ou référent interne). Au-delà de sept jours d’inactivité, le canal de la nouvelle session est défini par défaut sur Direct/Autre. Par exemple, si Haley se rend sur landingpage.com depuis Google, et qu’elle reste inactive pendant plus de 30 minutes, mais y revient dans les sept jours, la nouvelle session conserve le canal Google. Cependant, si le même utilisateur ou la même utilisatrice consulte à nouveau la page via un autre canal, le canal non direct n’est pas remplacé par le canal Google précédent.
-
-Seul le canal est conservé, à l’exclusion des détails de campagne ou de référent. En effet, la classification des canaux est gérée par Marketo Measure, tandis que les autres points de données sont collectés séparément.
-
-**Connexion via les réseaux sociaux**
-
-Lorsqu’un visiteur ou une visiteuse utilise la connexion via les réseaux sociaux de Google, Microsoft ou Apple, la session est fusionnée en une seule session continue. Par exemple, si un visiteur ou une visiteuse accède à une page de LinkedIn, complète une connexion via le réseau social de Google et atteint une page de remerciement, tout cela est comptabilisé comme une seule session. Si le bouton de basculement pour la conservation du canal de session n’est pas activé, la connexion via un réseau social crée des sessions distinctes en raison du référent externe.
+Actuellement, [!DNL Marketo Measure] considère comme « activité » uniquement la navigation au sein des pages et les envois de formulaire. Le fait de faire défiler la page web ou de survoler un élément n’est pas considéré comme une activité. Ainsi, si Haley se rend sur adobe.com/fr pour lire un article de blog et qu’il lui faut une heure pour le lire, sa session web se terminera malgré tout après 30 minutes, même si elle fait défiler le contenu de la page.
 
 ## Expiration basée sur les canaux {#channel-based-expiration}
 

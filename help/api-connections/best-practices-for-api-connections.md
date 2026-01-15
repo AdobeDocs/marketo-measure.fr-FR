@@ -1,15 +1,14 @@
 ---
-description: Bonnes pratiques relatives aux connexions API -  [!DNL Marketo Measure]
+description: Conseils sur les bonnes pratiques pour les connexions API pour les utilisateurs de Marketo Measure
 title: Bonnes pratiques relatives aux connexions API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 0299ef68139df574bd1571a749baf1380a84319b
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 96%
 
 ---
-
 
 # Bonnes pratiques relatives aux connexions API {#best-practices-for-api-connections}
 
@@ -40,6 +39,7 @@ En suivant notre recommandation de bonne pratique, l’API [!DNL Facebook] de [!
 * télécharger les informations de coût des publicités de toutes les publicités [!DNL Facebook] actives.
 
 >[!NOTE]
+>
 >Il n’existe aucun modèle de suivi pour [!DNL Facebook], l’API utilise le paramètre de balisage automatique (_bf) pour rassembler les détails des publicités.
 
 **AdWords** : implémentation d’un modèle de suivi au niveau du compte et activation du balisage automatique
@@ -56,7 +56,6 @@ En suivant notre recommandation de bonne pratique, l’API AdWords [!DNL Marketo
 Il n’y a aucun risque de perte de l’historique des publicités lors de la configuration de votre connexion API [!DNL Bing], contrairement à certaines de nos autres connexions API.
 
 En suivant notre recommandation de bonne pratique, l’API Bing [!DNL Marketo Measure] est capable de :
-
 * baliser automatiquement toutes les publicités Bing avec les paramètres suivants de `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}` ;
 * télécharger les informations de coût des publicités de toutes les publicités Bing actives.
 
@@ -70,6 +69,7 @@ En suivant notre recommandation de bonne pratique, l’API LinkedIn [!DNL Market
 * télécharger des informations de coût des publicités de toutes les publicités [!DNL LinkedIn] actives et prises en charge.
 
 >[!NOTE]
+>
 >Il n’existe aucun modèle de suivi pour [!DNL LinkedIn], l’API utilise le paramètre de balisage automatique (_bl) pour collecter toutes les informations possibles des publicités.
 
 ## Bonne pratique de maintenance {#best-practice-for-maintenance}
@@ -87,10 +87,11 @@ Les raisons d’une déconnexion et d’une réautorisation incluent les éléme
 Si votre équipe a fait l’expérience de l’un des scénarios ci-dessus, vérifiez vos connexions API dans l’application [!DNL Marketo Measure] pour vous assurer qu’elles n’ont pas besoin d’être réautorisées.
 
 >[!MORELIKETHIS]
-> [Plateformes publicitaires intégrées (API)](/help/api-connections/integrated-ad-platforms.md)
-> [Incidence des outils de gestion des offres sur [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
-> [[!DNL Marketo Measure] Présentation des paramètres d’API](/help/api-connections/marketo-measure-parameters.md)
-> [Présentation de l’API Facebook &#x200B;](/help/api-connections/facebook-api.md)
-> [[!DNL LinkedIn] Présentation de l’intégration &#x200B;](/help/api-connections/linkedin-integration.md)
-> [Présentation de l’intégration AdWords](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
-> [Autorisation renouvelée des comptes API connectés](/help/api-connections/reauthorizing-connected-accounts.md)
+>
+>* [Plateformes publicitaires intégrées (API)](/help/api-connections/integrated-ad-platforms.md)
+>* [Incidence des outils de gestion des offres [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md)
+>* [[!DNL Marketo Measure] Explication des paramètres d’API](/help/api-connections/marketo-measure-parameters.md)
+>* [Vue d’ensemble de l’API Facebook](/help/api-connections/facebook-api.md)
+>* [[!DNL LinkedIn] Vue d’ensemble de l’intégration](/help/api-connections/linkedin-integration.md)
+>* [Vue d’ensemble de l’intégration AdWords](/help/api-connections/understanding-marketo-measure-adwords-tagging.md)
+>* [Réautoriser des comptes d’API connectés](/help/api-connections/reauthorizing-connected-accounts.md)
