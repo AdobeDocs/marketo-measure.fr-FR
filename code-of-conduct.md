@@ -1,5 +1,5 @@
 ---
-source-git-commit: c6090ce0c3ac60cd68b1057c369ce0b3b20aeeee
+source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -8,6 +8,7 @@ ht-degree: 100%
 # Code de conduite Adobe
 
 ## Notre engagement
+
 
 Afin de favoriser un environnement ouvert et accueillant, nous nous engageons, en tant que responsables et en tant que personnes contribuant à ce projet, à faire de la participation une expérience exempte de harcèlement pour tout le monde, quel que soit le niveau d’expérience, le sexe, l’identité ou l’expression de genre, l’identité ou l’orientation sexuelle, le handicap, l’apparence personnelle, la taille physique, l’origine ethnique, l’âge, la religion ou la nationalité.
 
