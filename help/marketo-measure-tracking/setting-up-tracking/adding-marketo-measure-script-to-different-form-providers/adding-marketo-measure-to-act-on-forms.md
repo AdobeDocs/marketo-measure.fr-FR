@@ -16,7 +16,7 @@ ht-degree: 6%
 ## Itinéraire {#directions}
 
 1. Dans le formulaire que vous modifiez, sélectionnez l’option **[!UICONTROL Paramètres]** dans le coin droit.
-1. Recherchez une zone intitulée [!UICONTROL  « Web Analytics externe ».] C’est à cet endroit que vous allez déposer le fragment de code de suivi [!DNL Marketo Measure].
+1. Recherchez une zone intitulée [!UICONTROL &#x200B; « Web Analytics externe ».] C’est à cet endroit que vous allez déposer le fragment de code de suivi [!DNL Marketo Measure].
 
 ## Code JavaScript [!DNL Marketo Measure] {#marketo-measure-javascript}
 

@@ -23,7 +23,7 @@ ht-degree: 2%
    * Champ Personnalisé du montant de l’opportunité (champ de chiffre d’affaires préféré)
    * Champ [!DNL Marketo Measure] le montant de l’opportunité
 
-1. Copiez et collez les valeurs de votre champ de chiffre d’affaires préféré dans le champ [!UICONTROL [!DNL Marketo Measure] le montant de l’opportunité ] . Mettez ensuite à jour ces opportunités à l’aide du fichier .csv.
+1. Copiez et collez les valeurs de votre champ de chiffre d’affaires préféré dans le champ [!UICONTROL [!DNL Marketo Measure] le montant de l’opportunité &#x200B;] . Mettez ensuite à jour ces opportunités à l’aide du fichier .csv.
 
 **_Vous pouvez également accéder à Salesforce et utiliser une vue de liste personnalisée pour modifier en masse toutes les opportunités..._**
 

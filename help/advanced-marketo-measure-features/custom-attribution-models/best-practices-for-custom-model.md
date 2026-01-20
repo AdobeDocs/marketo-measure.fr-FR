@@ -69,6 +69,6 @@ D’autres raisons qui peuvent déclencher une révision de votre modèle person
 
 >[!MORELIKETHIS]
 >
->* [ Modèle et configuration d’attribution personnalisés ](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [&#x200B; Modèle et configuration d’attribution personnalisés &#x200B;](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Activer Le Suivi De L’Historique Des Champs Pour Le Modèle Personnalisé](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
->* [ Modèle de machine learning ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
+>* [&#x200B; Modèle de machine learning &#x200B;](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)

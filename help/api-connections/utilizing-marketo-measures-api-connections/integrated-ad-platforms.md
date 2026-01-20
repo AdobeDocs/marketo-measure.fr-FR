@@ -23,7 +23,7 @@ Comme illustré dans l’image ci-dessous, un bouton s’affiche pour configurer
 
 ![](assets/2.png)
 
-Après avoir cliqué sur le bouton [!UICONTROL Configurer une nouvelle connexion publicitaire], une fenêtre (illustrée ci-dessous) s’affiche avec quatre types d’[!UICONTROL  publicitairesconnect]ion. Cliquez sur Connexion et une autre fenêtre s’affiche pour demander les informations d’identification. Saisissez les informations d’identification et cliquez sur [!UICONTROL autoriser] pour connecter le compte à [!DNL Marketo Measure].
+Après avoir cliqué sur le bouton [!UICONTROL Configurer une nouvelle connexion publicitaire], une fenêtre (illustrée ci-dessous) s’affiche avec quatre types d’[!UICONTROL &#x200B; publicitairesconnect]ion. Cliquez sur Connexion et une autre fenêtre s’affiche pour demander les informations d’identification. Saisissez les informations d’identification et cliquez sur [!UICONTROL autoriser] pour connecter le compte à [!DNL Marketo Measure].
 
 ![](assets/select-account-type.png)
 
@@ -38,13 +38,13 @@ Le modèle de suivi est un outil fourni par Google pour ajouter ce qu’il appel
 [!DNL Marketo Measure] recherche des modèles de suivi dans votre compte [!DNL AdWords] :
 
 * *Option A* : modèle de tracking trouvé. [!DNL Marketo Measure] ajoute ses paramètres au modèle.
-* *Option B* : redirection tierce trouvée. Si une redirection tierce est trouvée dans le modèle de suivi, [!DNL Marketo Measure] ne pouvez effectuer aucune action. Vous devrez ajouter manuellement les balises [!DNL Marketo Measure] au système tiers. Un exemple de redirection tierce serait un outil de gestion des soumissions comme Kenshoo ou Marin. En savoir plus sur l&#39;impact des [ outils de gestion des enchères  [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
+* *Option B* : redirection tierce trouvée. Si une redirection tierce est trouvée dans le modèle de suivi, [!DNL Marketo Measure] ne pouvez effectuer aucune action. Vous devrez ajouter manuellement les balises [!DNL Marketo Measure] au système tiers. Un exemple de redirection tierce serait un outil de gestion des soumissions comme Kenshoo ou Marin. En savoir plus sur l&#39;impact des [&#x200B; outils de gestion des enchères  [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Option C* : aucun modèle de suivi n&#39;a été trouvé. [!DNL Marketo Measure] analysera toutes vos URL de destination publicitaire pour les paramètres [!DNL Marketo Measure]. Selon l’analyse, si :
    * Paramètres trouvés : la configuration est terminée.
    * Paramètres introuvables : [!DNL Marketo Measure] ajoutera ses paramètres à la fin des URL de destination publicitaire. [!DNL Marketo Measure] ajoute de nouvelles annonces dans les deux heures suivant leur création. Gardez à l’esprit que les paramètres ne seront pas ajoutés à un modèle.
 
-En savoir plus sur notre [[!DNL AdWords]  fonctionnalité de balisage automatique ](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
+En savoir plus sur notre [[!DNL AdWords]  fonctionnalité de balisage automatique &#x200B;](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## Activation du balisage automatique [!DNL Marketo Measure] pour Adwords {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -71,10 +71,10 @@ Une fois que vous avez mis en place un modèle de suivi, suivez les instructions
 Gardez à l’esprit que vous devez ajouter des modèles de suivi au niveau [!UICONTROL Compte], [!UICONTROL Campagne] ou Groupe publicitaire dans AdWords. Si vous ajoutez des modèles de suivi au niveau Mot-clé, Lien de site ou Annonce, votre annonce devra passer par le processus de révision et d’approbation et vous risquez de redémarrer l’historique des performances de vos annonces. En savoir plus sur la [création de modèles de tracking](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Connectez-vous à votre compte [!DNL Google AdWords].
-1. Accédez à la vue [!UICONTROL  Campagnes ] à partir de la barre de navigation de gauche
-1. Accédez à « [!UICONTROL  Paramètres ] », également dans la barre de navigation de gauche
+1. Accédez à la vue [!UICONTROL &#x200B; Campagnes &#x200B;] à partir de la barre de navigation de gauche
+1. Accédez à « [!UICONTROL &#x200B; Paramètres &#x200B;] », également dans la barre de navigation de gauche
 1. Activez la vue « [!UICONTROL Paramètres du compte] » en haut
-1. Développez la section « [!UICONTROL  Tracking ]
+1. Développez la section « [!UICONTROL &#x200B; Tracking &#x200B;]
 1. Collez l’une des chaînes de texte suivantes dans le modèle de suivi pour définir la valeur du modèle :
 
    * Si TOUTES vos URL comportent des points d’interrogation, utilisez le texte d’URL suivant :
@@ -97,7 +97,7 @@ Les balises UTM peuvent sembler difficiles à créer au début, mais il existe d
 
 **[!DNL Google URL]Builder**
 
-Le créateur d’URL de Google est un outil standard permettant de créer des URL correctement formatées à l’aide de balises UTM. Saisissez l’URL et la valeur souhaitée de chaque paramètre, puis cliquez sur « [!UICONTROL  Générer l’URL ] ». Il s’agit d’un outil idéal à utiliser si vous ne disposez que d’une poignée d’URL à baliser. Accédez à l’outil [ici](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"}.
+Le créateur d’URL de Google est un outil standard permettant de créer des URL correctement formatées à l’aide de balises UTM. Saisissez l’URL et la valeur souhaitée de chaque paramètre, puis cliquez sur « [!UICONTROL &#x200B; Générer l’URL &#x200B;] ». Il s’agit d’un outil idéal à utiliser si vous ne disposez que d’une poignée d’URL à baliser. Accédez à l’outil [ici](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"}.
 
 **Feuille de calcul Google générée par EpikOne**
 

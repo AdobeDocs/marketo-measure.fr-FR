@@ -24,7 +24,7 @@ Si votre plateforme CRM est déconnectée, [!DNL Marketo Measure] ne pourrez pas
 ## Réautorisation des comptes déconnectés {#re-authorizing-disconnected-accounts}
 
 1. Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
-1. Sélectionnez **[!UICONTROL Paramètres]** sous l’onglet [!UICONTROL  Mon compte] dans le coin supérieur gauche.
+1. Sélectionnez **[!UICONTROL Paramètres]** sous l’onglet [!UICONTROL &#x200B; Mon compte] dans le coin supérieur gauche.
 1. Recherchez la section Intégrations sur la gauche et cliquez sur **[!UICONTROL Connexions]**.
 1. Sélectionnez le symbole de la clé rouge en regard du compte qui doit être reconnecté.
 1. Une fenêtre pop-up s’affiche, vous invitant à fournir les informations de connexion au compte.

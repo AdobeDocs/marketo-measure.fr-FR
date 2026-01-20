@@ -21,7 +21,7 @@ Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez ê
 
 ## Configuration de l’étape de boomerang {#boomerang-stage-setup}
 
-1. Accédez à [!UICONTROL  Mappage d’étape ]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
+1. Accédez à [!UICONTROL &#x200B; Mappage d’étape &#x200B;]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
 
    ![](assets/1-2.png)
 
@@ -37,7 +37,7 @@ Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez ê
 
 ## Configuration de l’étape de boomerang avec attribution de modèle personnalisé {#boomerang-stage-setup-with-custom-model-attribution}
 
-1. Accédez à [!UICONTROL  Mappage d’étape ]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
+1. Accédez à [!UICONTROL &#x200B; Mappage d’étape &#x200B;]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
 
    ![](assets/3-1.png)
 

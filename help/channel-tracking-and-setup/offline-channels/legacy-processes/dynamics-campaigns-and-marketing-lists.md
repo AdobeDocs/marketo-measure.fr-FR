@@ -29,7 +29,7 @@ Lorsque des leads ou des contacts sont directement ajoutés à une campagne, ils
 
 ## Activer les points de contact {#enable-touchpoints}
 
-Pour inclure ces enregistrements dans le parcours de point de contact, il existe quelques options pour les types de réponses de campagne à synchroniser. Dans l’enregistrement Campaign, il doit y avoir un champ personnalisé de la solution installée intitulé « [!UICONTROL  Activer les points de contact de l’acheteur ] ». Si vous ne le voyez pas, le champ doit être ajouté via l’éditeur de formulaire.
+Pour inclure ces enregistrements dans le parcours de point de contact, il existe quelques options pour les types de réponses de campagne à synchroniser. Dans l’enregistrement Campaign, il doit y avoir un champ personnalisé de la solution installée intitulé « [!UICONTROL &#x200B; Activer les points de contact de l’acheteur &#x200B;] ». Si vous ne le voyez pas, le champ doit être ajouté via l’éditeur de formulaire.
 
 ![](assets/2.png)
 

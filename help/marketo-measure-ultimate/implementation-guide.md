@@ -56,7 +56,7 @@ Nous vous recommandons d’utiliser un utilitaire de génération automatique po
 
 * Les étapes de téléchargement et de configuration de l’utilitaire [se trouvent ici](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=fr#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Pour les personnes qui disposent d’un _**Droit CDP**_ : créez des schémas en accédant à la page Sources.
+Pour les personnes qui disposent d’un _&#x200B;**Droit CDP**&#x200B;_ : créez des schémas en accédant à la page Sources.
 
 * Depuis une source, sélectionnez Ajouter des données > Utiliser des modèles.
 

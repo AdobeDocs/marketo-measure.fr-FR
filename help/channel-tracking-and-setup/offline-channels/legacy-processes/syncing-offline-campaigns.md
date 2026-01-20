@@ -39,11 +39,11 @@ Votre date de chargement serait trois semaines plus tard que la date de la conf�
 
 ![](assets/1-3.png)
 
-Dans ce cas, la date de chargement est renvoyée de trois semaines. Cette étape doit être effectuée avant de définir le champ « [!UICONTROL  Activer les points de contact de l’acheteur ] ».
+Dans ce cas, la date de chargement est renvoyée de trois semaines. Cette étape doit être effectuée avant de définir le champ « [!UICONTROL &#x200B; Activer les points de contact de l’acheteur &#x200B;] ».
 
 En résumé, si vous utilisez le bouton [!UICONTROL Mettre à jour en bloc la date de point de contact] et modifiez la date de point de contact en fonction de la date de l’événement, [!DNL Marketo Measure] générerez des points de contact pour la date réelle de l’événement, et non pour la date du chargement.
 
-Vous pouvez également mettre à jour les dates de tous les membres d’une campagne existante. Lorsque vous procédez de la sorte, assurez-vous que la date du point de contact correspond à la date de l’interaction du membre. Cliquez sur le bouton Mettre à jour la date Buyer Touchpoint en bloc, filtrez la liste des membres de la campagne selon vos besoins et, dans l’option « [!UICONTROL  Sélectionner la date ] » au-dessus de la liste des membres de la campagne, ajoutez la même date que la date à laquelle l’événement a eu lieu.
+Vous pouvez également mettre à jour les dates de tous les membres d’une campagne existante. Lorsque vous procédez de la sorte, assurez-vous que la date du point de contact correspond à la date de l’interaction du membre. Cliquez sur le bouton Mettre à jour la date Buyer Touchpoint en bloc, filtrez la liste des membres de la campagne selon vos besoins et, dans l’option « [!UICONTROL &#x200B; Sélectionner la date &#x200B;] » au-dessus de la liste des membres de la campagne, ajoutez la même date que la date à laquelle l’événement a eu lieu.
 
 >[!CAUTION]
 >
@@ -57,7 +57,7 @@ Pour créer une campagne dans [!DNL Salesforce], accédez à l’onglet [!UICONT
 
 ![](assets/3-3.png)
 
-Lorsque vous créez cette campagne, cliquez sur le champ « [!UICONTROL  Activer les points de contact de l’acheteur ] » et sélectionnez l’une des options suivantes dans la liste de sélection :
+Lorsque vous créez cette campagne, cliquez sur le champ « [!UICONTROL &#x200B; Activer les points de contact de l’acheteur &#x200B;] » et sélectionnez l’une des options suivantes dans la liste de sélection :
 
 ![](assets/4-3.png)
 
