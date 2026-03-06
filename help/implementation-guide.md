@@ -48,7 +48,7 @@ En savoir plus sur [Marketo Measure Ultimate](/help/migration-from-tier-to-mar
 
 ![&42; Un schéma comprend une classe et zéro ou plusieurs champs de schéma](assets/marketo-guide-1.png)
 
-[Présentation des jeux de données](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"} : toutes les données correctement ingérées par AEP sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour une collecte de données, généralement sous la forme de tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
+[Présentation des jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview#){target="_blank"} : toutes les données correctement ingérées par AEP sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour une collecte de données, généralement sous la forme de tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
 
 ## Créer un schéma {#creating-a-schema}
 

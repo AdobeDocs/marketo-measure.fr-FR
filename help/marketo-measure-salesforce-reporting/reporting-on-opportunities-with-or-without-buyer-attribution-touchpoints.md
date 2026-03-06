@@ -40,4 +40,4 @@ Créez un nouveau type de rapport pour inclure toutes les opportunités avec ou 
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutoriels : rapports SFDC supplémentaires](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutoriels : rapports SFDC supplémentaires](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

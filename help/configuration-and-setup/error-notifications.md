@@ -156,7 +156,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
             <a href="/help/adobe-analytics.md">Intégrations de Marketo Measure à Adobe Analytics</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html">Création d’une source d’attributs du client et chargement du fichier de données</a>
+            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=fr">Création d’une source d’attributs du client et chargement du fichier de données</a>
           </li>
         </ul>
       </td>
