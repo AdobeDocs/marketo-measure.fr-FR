@@ -29,7 +29,7 @@ Pour activer le suivi de l’historique des champs, suivez les instructions ci-d
 
 1. Accédez à l’objet dans lequel se trouve le champ personnalisé et cliquez sur le bouton **[!UICONTROL Définir le suivi de l’historique]**.
 
-   ![1. Accédez à l’objet où réside le champ personnalisé, puis cliquez sur ](assets/custom-models-1.png)
+   ![1. Accédez à l’objet où réside le champ personnalisé, puis cliquez sur &#x200B;](assets/custom-models-1.png)
 
 1. Sélectionnez les champs sur lesquels vous souhaitez effectuer le suivi des modifications.
 

@@ -22,7 +22,7 @@ Cet article présente un aperçu de la connexion de votre compte [!DNL Salesforc
 
 1. Dans la colonne des options de configuration sur la gauche, cliquez sur **[!UICONTROL Connexions]** dans la section [!UICONTROL Intégrations].
 
-   ![1. Dans la colonne des options de paramétrage sur la gauche, cliquez sur ](assets/bizible-full-1.png)
+   ![1. Dans la colonne des options de paramétrage sur la gauche, cliquez sur &#x200B;](assets/bizible-full-1.png)
 
 1. Sous la section CRM dans Connexions, cliquez sur **[!UICONTROL Configurer une nouvelle connexion CRM]**.
 

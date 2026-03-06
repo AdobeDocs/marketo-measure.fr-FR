@@ -38,7 +38,7 @@ Questions auxquelles le graphique répond :
 >
 >Les étapes précédant la « création d’opportunité » utiliseront la date de point de contact la plus récente comme date de « transition entrante ».
 
-![Les étapes précédant la « création d’opportunité » utiliseront la date de point de contact la plus récente comme suit ](assets/lead-dashboard-1.png)
+![Les étapes précédant la « création d’opportunité » utiliseront la date de point de contact la plus récente comme suit &#x200B;](assets/lead-dashboard-1.png)
 
 ### Vitesse des opportunités au fil du temps {#opportunity-velocity-over-time}
 
@@ -52,7 +52,7 @@ Questions auxquelles le graphique répond :
 * Quelles sont les tendances du temps passé à chaque étape pour les opportunités au cours des mois observés ?
 * Au cours de quel mois les opportunités ont-elles connu la progression la plus rapide au cours des étapes de vente ?
 
-![En quel mois les opportunités ont-elles connu la progression la plus rapide des ventes ](assets/lead-dashboard-2.png)
+![En quel mois les opportunités ont-elles connu la progression la plus rapide des ventes &#x200B;](assets/lead-dashboard-2.png)
 
 ### Vitesse des opportunités par canal {#opportunity-velocity-by-channel}
 
@@ -65,7 +65,7 @@ Questions auxquelles le graphique répond :
 * Quel canal affiche la progression la plus rapide à travers les étapes de funnel ?
 * Comment la vitesse des opportunités dans l’étape « Prospect » varie-t-elle selon les différents canaux ?
 
-![Comment la vitesse des opportunités dans l’étape « Prospect » varie-t-elle selon les différents ](assets/lead-dashboard-3.png)
+![Comment la vitesse des opportunités dans l’étape « Prospect » varie-t-elle selon les différents &#x200B;](assets/lead-dashboard-3.png)
 
 ## Volet de filtrage {#filter-pane}
 

@@ -43,7 +43,7 @@ Pour installer le package de base [!DNL Marketo Measure Salesforce], suivez les 
 
    ![1. Une fois l’installation terminée, vous pouvez l’afficher.](assets/bizible-taxonomy-1.png)
 
-Une fois l’installation terminée, vous pouvez mettre à jour vos dispositions de page [[!DNL Salesforce] ](/help/configuration-and-setup/page-layout-instructions.md){target="_blank"} avec les champs [!DNL Marketo Measure], si vous le souhaitez.
+Une fois l’installation terminée, vous pouvez mettre à jour vos dispositions de page [[!DNL Salesforce] &#x200B;](/help/configuration-and-setup/page-layout-instructions.md){target="_blank"} avec les champs [!DNL Marketo Measure], si vous le souhaitez.
 
 >[!NOTE]
 >

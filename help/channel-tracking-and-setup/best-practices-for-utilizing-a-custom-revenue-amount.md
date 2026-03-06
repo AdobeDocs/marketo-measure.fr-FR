@@ -37,7 +37,7 @@ En examinant chaque année la configuration du montant du chiffre d’affaires, 
 
 Si vous utilisez un montant de revenu personnalisé, vérifiez la configuration de votre revenu comme suit.
 
-* Dans votre compte [!DNL Marketo Measure], accédez à la section « [!UICONTROL  Opportunités ] sous CRM
+* Dans votre compte [!DNL Marketo Measure], accédez à la section « [!UICONTROL &#x200B; Opportunités &#x200B;] sous CRM
 * Identifiez le champ [!UICONTROL Montant de l’opportunité personnalisé] où votre champ [!UICONTROL API de montant du chiffre d’affaires personnalisé] doit être répertorié
 * Vérifiez que ce champ est toujours correct
 * Demandez également à votre administrateur [!DNL Salesforce] de confirmer que le workflow du montant du chiffre d’affaires personnalisé dans [!DNL Salesforce] est toujours en cours d’exécution

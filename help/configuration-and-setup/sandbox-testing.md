@@ -18,7 +18,7 @@ ht-degree: 9%
 
 L’une des [!DNL Marketo Measure] fonctionnalités principales est sa capacité à suivre vos efforts de marketing numérique par le biais d’actions sur votre site web, puis à transmettre ces données à votre [!DNL Salesforce org] de production par le biais de prospects et de contacts. Cependant, en règle générale, aucun prospect entrant n’est créé à partir de votre site web dans une intégration Sandbox. Par conséquent, l’accent est mis sur les données d’un point de vue purement hors ligne.
 
-Voici les deux sources référencées pour les deux phases du test. [Étapes 1 à 4 ](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5) et [étapes 5 à 6](/help/channel-tracking-and-setup/syncing-offline-campaigns.md). Il est recommandé d’examiner ces documents car ils fournissent plus de détails dans certains domaines.
+Voici les deux sources référencées pour les deux phases du test. [Étapes 1 à 4 &#x200B;](https://help.salesforce.com/s/articleView?id=lead_import_wizard.htm&language=en_US&type=5) et [étapes 5 à 6](/help/channel-tracking-and-setup/syncing-offline-campaigns.md). Il est recommandé d’examiner ces documents car ils fournissent plus de détails dans certains domaines.
 
 1. Vous devez créer des prospects dans un fichier CSV afin de pouvoir les charger dans une campagne. Pour ce faire, vous pouvez exporter des prospects par le biais d’un rapport dans votre Salesforce de production. Sinon, vous pouvez créer manuellement des prospects dans un fichier Excel, puis les enregistrer au format CSV en vue de les importer. Il suffit d&#39;une vingtaine d&#39;enregistrements. Le fichier doit avoir les colonnes suivantes :
 

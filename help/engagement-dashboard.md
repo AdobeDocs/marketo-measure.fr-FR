@@ -67,7 +67,7 @@ Questions auxquelles le graphique répond :
 * Quel canal/sous-canal/campagne a suscité le plus d’engagement ?
 * Comment le nombre de points de contact se compare-t-il aux personnes touchées dans un canal/sous-canal/campagne spécifique ?
 
-![Comment le nombre de points de contact se compare-t-il aux personnes touchées au cours d’une ](assets/engagement-dashboard-2.png)
+![Comment le nombre de points de contact se compare-t-il aux personnes touchées au cours d’une &#x200B;](assets/engagement-dashboard-2.png)
 
 ## Volet de filtrage {#filter-pane}
 

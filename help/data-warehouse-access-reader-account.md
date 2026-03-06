@@ -18,7 +18,7 @@ Pour accéder à votre entrepôt de données Snowflake, vous devez accéder à l
 
 1. Dans [!DNL Marketo Measure], en haut de la page, cliquez sur **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]**.
 
-   ![1. Dans Marketo Measure, en haut de la page, cliquez sur ](assets/data-account-7.png)
+   ![1. Dans Marketo Measure, en haut de la page, cliquez sur &#x200B;](assets/data-account-7.png)
 
 1. Dans le menu de gauche, sous Sécurité, cliquez sur **[!UICONTROL Data Warehouse]**.
 
@@ -26,7 +26,7 @@ Pour accéder à votre entrepôt de données Snowflake, vous devez accéder à l
 
 1. Cette page contient le lien vers votre entrepôt de données Snowflake et votre nom d’utilisateur.
 
-   ![1. Cette page contient le lien vers votre entrepôt de données Snowflake et ](assets/data-account-9.png)
+   ![1. Cette page contient le lien vers votre entrepôt de données Snowflake et &#x200B;](assets/data-account-9.png)
 
    >[!NOTE]
    >
@@ -34,7 +34,7 @@ Pour accéder à votre entrepôt de données Snowflake, vous devez accéder à l
 
 1. Cliquez sur le lien fourni dans l’URL de Snowflake pour accéder à la page de connexion de Snowflake, où vous saisissez votre nom d’utilisateur et votre mot de passe. _Si vous ne disposez pas de votre mot de passe, suivez les étapes ci-dessous pour le réinitialiser_.
 
-   ![1. Cliquez sur le lien fourni dans l’URL de Snowflake pour accéder à ](assets/data-account-5.png)
+   ![1. Cliquez sur le lien fourni dans l’URL de Snowflake pour accéder à &#x200B;](assets/data-account-5.png)
 
 1. Une fois connecté, cliquez sur **[!UICONTROL Feuilles de calcul]** en haut de la page.
 
@@ -42,7 +42,7 @@ Pour accéder à votre entrepôt de données Snowflake, vous devez accéder à l
 
 1. Les objets de base de données BIZIBLE_ROI_V3 se trouvent sur le côté gauche de l’écran. Saisissez l’entrepôt de données, la base de données et le schéma dans les options de liste déroulante en haut de la fenêtre de requête. Il ne doit y avoir qu’une seule option pour chacune. Vous êtes maintenant prêt à exécuter des requêtes dans l’éditeur de requêtes de Snowflake.
 
-   ![1. Les objets de base de données BIZIBLEROIV3 se trouvent sur le côté gauche de la ](assets/data-account-4.png)
+   ![1. Les objets de base de données BIZIBLEROIV3 se trouvent sur le côté gauche de la &#x200B;](assets/data-account-4.png)
 
 ## Réinitialiser votre mot de passe {#reset-your-password}
 
@@ -53,9 +53,9 @@ Pour accéder à votre entrepôt de données Snowflake, vous devez accéder à l
 >* La réinitialisation du mot de passe le réinitialise pour tous les utilisateurs [!DNL Marketo Measure] de votre entreprise, et pas seulement pour l’utilisateur actuellement connecté.
 >* Nous n’affichons que le mot de passe temporaire dans l’interface utilisateur. Aucun e-mail ne sera envoyé.
 
-![Nous n’affichons que le mot de passe temporaire dans l’interface utilisateur. Un e-mail ](assets/data-account-3.png)
+![Nous n’affichons que le mot de passe temporaire dans l’interface utilisateur. Un e-mail &#x200B;](assets/data-account-3.png)
 
-![Nous n’affichons que le mot de passe temporaire dans l’interface utilisateur. Un e-mail ](assets/data-account-1.png)
+![Nous n’affichons que le mot de passe temporaire dans l’interface utilisateur. Un e-mail &#x200B;](assets/data-account-1.png)
 
 ## Connexion à Snowflake via des outils tiers {#connecting-to-snowflake-via-third-party-tools}
 

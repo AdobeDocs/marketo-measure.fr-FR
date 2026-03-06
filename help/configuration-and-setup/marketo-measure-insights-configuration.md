@@ -20,10 +20,10 @@ L’application Zone de travail [!DNL Marketo Measure] Insights doit être ajout
 
 1. Dans la section [!UICONTROL Politiques OAuth] , définissez le paramètre Utilisateurs autorisés sur « Les utilisateurs approuvés par l’administrateur sont préautorisés ». Un pop-up s’affiche, cliquez sur **[!UICONTROL OK]** puis **[!UICONTROL Enregistrer]**.
 
-   ![1. Sous la section Politiques OAuth , modifiez le paramètre Utilisateurs autorisés ](assets/marketo-app-1.png)
+   ![1. Sous la section Politiques OAuth , modifiez le paramètre Utilisateurs autorisés &#x200B;](assets/marketo-app-1.png)
 
 1. Une fois la page enregistrée, vous pouvez cliquer sur le bouton **[!UICONTROL Gérer les profils]**.
 
-   ![1. Une fois la page enregistrée, vous pouvez cliquer sur l’icône ](assets/marketo-app-2.png)
+   ![1. Une fois la page enregistrée, vous pouvez cliquer sur l’icône &#x200B;](assets/marketo-app-2.png)
 
 1. Sélectionnez tous les profils qui doivent avoir accès à [!DNL Marketo Measure] Insights et cliquez sur **[!UICONTROL Enregistrer]**.

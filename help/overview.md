@@ -41,13 +41,13 @@ Niveaux 1 à 3 **[!DNL Marketo Measure]**
 
 Les personnes spécialisées dans le marketing sont censées importer leurs données B2B (par exemple, Compte, Opportunité, Contact, Prospect, Campagne, Personne membre de campagne, Activité) via AEP. Les connexions directes au CRM et à Marketo Engage ne sont plus disponibles pour Ultimate. Les personnes spécialisées dans le marketing continueront d’importer les données de la plateforme publicitaire par le biais de connexions directes et d’effectuer le suivi des activités web par le biais du code JavaScript [!DNL Marketo Measure].
 
-![Les spécialistes marketing doivent apporter leurs données B2B (par exemple, compte, opportunité, ](assets/marketo-overview-2.png)
+![Les spécialistes marketing doivent apporter leurs données B2B (par exemple, compte, opportunité, &#x200B;](assets/marketo-overview-2.png)
 
 **Paramètre de devise par défaut**
 
 [!DNL Marketo Measure Ultimate] définit la devise par défaut sur USD jusqu’à ce que l’utilisateur ou l’utilisatrice la modifie. Si vous définissez une nouvelle devise par défaut, les données sont mises à jour sans nouveau traitement. Tant que la devise sélectionnée est présente en tant que code ISO cible, il n’est pas nécessaire d’envoyer des taux de conversion.
 
-![Marketo Measure Ultimate définit la devise par défaut sur USD jusqu&#39;au ](assets/marketo-overview-7.png)
+![Marketo Measure Ultimate définit la devise par défaut sur USD jusqu&#39;au &#x200B;](assets/marketo-overview-7.png)
 
 Sandbox **[!DNL Marketo Measure Ultimate]**
 
@@ -92,7 +92,7 @@ Les conditions de règle sont spécifiques à un jeu de données. Les règles de
 
 Aucune sélection pour les modèles en entonnoir, en boomerang ou personnalisé. Toutes les étapes sont sélectionnées pour les modèles en entonnoir, en boomerang et personnalisé. Le nombre d’étapes que nous prenons en charge est limité : 15 étapes personnalisées plus 6 étapes intégrées.
 
-![Aucune sélection pour funnel par rapport au boomerang par rapport au modèle personnalisé. Toutes les étapes sont ](assets/marketo-overview-4.png)
+![Aucune sélection pour funnel par rapport au boomerang par rapport au modèle personnalisé. Toutes les étapes sont &#x200B;](assets/marketo-overview-4.png)
 
 Les règles de points de contact des membres de campagne et les règles de points de contact d’activité sont spécifiques à un jeu de données.
 

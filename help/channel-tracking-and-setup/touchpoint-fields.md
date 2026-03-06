@@ -51,7 +51,7 @@ Objectif : utilisez la valeur d’un champ personnalisé et placez-le sur l’ob
    * **)** marque la fin de l’extraction
    * **.&#42;** nous indique que nous extrayons la chaîne complète
 
-![.&amp;42; nous indique que nous extrayons la chaîne complète](assets/touchpoint-fields-10.png)
+![.&42; nous indique que nous extrayons la chaîne complète](assets/touchpoint-fields-10.png)
 
 **Exemple de #2**
 
@@ -106,7 +106,7 @@ Essayons un exemple similaire dans lequel nous extrayons un code de suivi tel qu
    * **(** marque le début de l’extraction)
    * **)** marque la fin de l’extraction
    * **\w** nous indique que nous extrayons un « mot »
-   * ****** est le nombre de caractères extraits
+   * **&#x200B;**&#x200B;** est le nombre de caractères extraits
 
 * Créez un champ calculé et libellez-le « Identifiant de campagne personnalisé »
 * Définissez la règle en commençant par rechercher le champ Touchpoint.Session.LandingPage .
@@ -148,7 +148,7 @@ Maintenant que nous avons appris à extraire et à mapper aux champs, combinons 
 
       * Notez que puisque nous extrayons uniquement les 4, seuls les premiers chiffres ont la parenthèse fermée
    * **\d** nous indique que nous extrayons un « chiffre »
-   * ****** est le nombre de caractères extraits
+   * **&#x200B;**&#x200B;** est le nombre de caractères extraits
 
 
 
@@ -161,12 +161,12 @@ Maintenant que nous avons appris à extraire et à mapper aux champs, combinons 
 * En fonction du mappage et de l’URL ci-dessus, la valeur « Region_Value » pour un point de contact avec cette page de destination est « EMEA »
 * Répétez l’extraction et le mappage pour les 4 ensembles de chiffres restants
 
-   * Pour extraire le 01, définissez la valeur comme « BZ=\d **-**(\d**)**-\d**-\d**-\d** »
+   * Pour extraire le 01, définissez la valeur comme « BZ=\d **-**(\d&#x200B;**)**-\d&#x200B;**-\d**-\d** »
    * Pour extraire le 09, définissez la valeur comme « BZ=\d **-\d**-**(\d**)**-\d**-\d** »
-   * Pour extraire le 03, définissez la valeur comme « BZ=\d **-\d**-\d**-**(\d**)**-\d** »
-   * Pour extraire le 10, définissez la valeur comme « BZ=\d **-\d**-\d**-\d**-**(\d**)** »
+   * Pour extraire le 03, définissez la valeur comme « BZ=\d **-\d**-\d&#x200B;**-**(\d&#x200B;**)**-\d** »
+   * Pour extraire le 10, définissez la valeur comme « BZ=\d **-\d**-\d&#x200B;**-\d**-**(\d**)** »
 
-![Pour extraire le 10, vous devez définir la valeur sur « BZ=\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-\d](assets/touchpoint-fields-3.png)-(\d](assets/touchpoint-fields-3.png)) »](assets/touchpoint-fields-3.png)
+![Pour extraire le 10, vous devez définir la valeur sur « BZ=\d](assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-\d&rbrack;(assets/touchpoint-fields-3.png)-(\d&rbrack;(assets/touchpoint-fields-3.png)) »&rbrack;(assets/touchpoint-fields-3.png)
 
 **Concatène**
 
@@ -184,7 +184,7 @@ Maintenant que les valeurs de votre URL ont été analysées et existent sur le 
 
 Cette version de produit offre la possibilité de créer des segments à l’aide de champs de point de contact. Les segments n’ont pas pu être créés avec les champs de point de contact précédents.
 
-![La possibilité de créer des segments à l’aide des champs de point de contact est offerte avec ](assets/touchpoint-fields-5.png)
+![La possibilité de créer des segments à l’aide des champs de point de contact est offerte avec &#x200B;](assets/touchpoint-fields-5.png)
 
 Pour faciliter la création de segments, il est désormais possible de créer des segments dynamiques à partir des champs de point de contact qui ont été créés. Par exemple, si vous avez créé un champ de point de contact qui analyse une région géographique, plutôt que de créer un segment pour chaque région possible, vous pouvez configurer un segment et nous créerons des segments pour chaque instance où une nouvelle valeur s’affiche. Cela s’avère extrêmement utile si un attribut tel qu’un code postal doit être analysé et utilisé comme segment.
 
@@ -194,7 +194,7 @@ La configuration ressemblerait à la capture d’écran ci-dessous. Le nom du se
 
 La règle fait référence au même champ de point de contact et recherche les valeurs « différentes de null ».
 
-![La règle fait référence au même champ de point de contact et recherche les valeurs qui ](assets/touchpoint-fields-7.png)
+![La règle fait référence au même champ de point de contact et recherche les valeurs qui &#x200B;](assets/touchpoint-fields-7.png)
 
 ## Questions fréquentes {#faq}
 

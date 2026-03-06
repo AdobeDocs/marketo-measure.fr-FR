@@ -18,7 +18,7 @@ Ce rapport fait apparaître le nombre d’opportunités générées par vos cana
 
 1. Dans le type de recherche rapide dans « Attribution Bizible » et sélectionnez le type de rapport **[!UICONTROL Point de contact d’attribution Bizible avec opportunité]** et sélectionnez **[!UICONTROL Créer]**.
 
-   ![1. Dans la recherche rapide, saisissez « Attribution Bizible » et sélectionnez le ](assets/bizible-guide-1.png)
+   ![1. Dans la recherche rapide, saisissez « Attribution Bizible » et sélectionnez le &#x200B;](assets/bizible-guide-1.png)
 
 1. En commençant par la partie supérieure du rapport, affichez **[!UICONTROL Tous les points de contact d’attribution Bizible]** et ajustez le champ de date en fonction de la période sur laquelle vous souhaitez créer votre rapport. Dans notre exemple, nous prenons All Time. De plus, modifiez le format du rapport de [!UICONTROL Tabulaire] en **[!UICONTROL Résumé]**.
 
@@ -26,7 +26,7 @@ Ce rapport fait apparaître le nombre d’opportunités générées par vos cana
 
 1. À présent, nous allons ajouter des champs au rapport. Dans la recherche rapide sur la gauche, saisissez « Canal marketing » et ajoutez-le au regroupement Résumé dans le rapport.
 
-   ![1. À présent, nous allons ajouter des champs au rapport. Dans le ](assets/marketo-reports-10.jpg)
+   ![1. À présent, nous allons ajouter des champs au rapport. Dans le &#x200B;](assets/marketo-reports-10.jpg)
 
 1. Maintenant, exécutez le rapport et analysez !
 

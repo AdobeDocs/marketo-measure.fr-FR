@@ -20,7 +20,7 @@ Lorsqu’il existe plusieurs opportunités sous un même compte, les différente
 
 Par exemple, le compte ci-dessous comporte deux opportunités. Pour la première opportunité, il n’a qu’un seul point de contact. Ce point de contact englobe les points de contact FT, LC et de création d’opportunité (Opportunity Creation, OC). La deuxième opportunité a le même FT et LC que la première opportunité, mais le point de contact OC est différent. En outre, la deuxième opportunité comporte des points de contact supplémentaires qui ne sont pas associés à la première opportunité, car ils se produisent après la date de clôture des premières opportunités.
 
-![Par exemple, le compte ci-dessous comporte deux opportunités. Pour la première opportunité ](assets/account-marketing-4.jpg)
+![Par exemple, le compte ci-dessous comporte deux opportunités. Pour la première opportunité &#x200B;](assets/account-marketing-4.jpg)
 
 ## En quoi cela peut être utile ? {#how-does-this-help}
 

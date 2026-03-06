@@ -20,6 +20,6 @@ Dans de nombreux cas, l’IFrame est géré via un fournisseur d’automatisatio
 
 Il est recommandé de placer le code JavaScript dans l’en-tête de l’IFrame et de là, nous le joignons automatiquement aux formulaires dans ce cadre.
 
-![Il est recommandé de placer le JavaScript dans l’en-tête du ](assets/adding-pages-1.png)
+![Il est recommandé de placer le JavaScript dans l’en-tête du &#x200B;](assets/adding-pages-1.png)
 
 Si vous avez des questions sur l’ajout de notre JavaScript aux formulaires IFrame, contactez l’équipe du compte Adobe (votre gestionnaire de compte) ou l’assistance de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

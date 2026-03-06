@@ -35,7 +35,7 @@ Avant d’utiliser cette fonctionnalité, déterminez les informations de point 
 Étape 2 : connectez-vous et localisez la fonctionnalité [!UICONTROL Segments].
 
 * Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous
-* Sous l’onglet [!UICONTROL  Mon compte ], sélectionnez [!UICONTROL Paramètres]
+* Sous l’onglet [!UICONTROL &#x200B; Mon compte &#x200B;], sélectionnez [!UICONTROL Paramètres]
 * Sélectionnez [!UICONTROL Segments] dans les options de la barre latérale à gauche, sous la section [!UICONTROL Rapports]
 
 Étape 3 - Comprendre les composants.
@@ -46,15 +46,15 @@ Avant d’utiliser cette fonctionnalité, déterminez les informations de point 
 
 Étape 4 - Ajouter Des Règles De Filtrage.
 
-* Tout d’abord, saisissez le nom de la catégorie. [!UICONTROL Type d’entreprise ] est un exemple. Cliquez sur la coche lorsque vous avez terminé. Vous devez saisir un nom de catégorie avant de pouvoir ajouter des segments
+* Tout d’abord, saisissez le nom de la catégorie. [!UICONTROL Type d’entreprise &#x200B;] est un exemple. Cliquez sur la coche lorsque vous avez terminé. Vous devez saisir un nom de catégorie avant de pouvoir ajouter des segments
 * Cliquez sur le signe plus pour ajouter un segment
 * Saisissez un nom de segment. Par exemple, vous pouvez avoir un segment pour Nouvelle entreprise, Partenaires, Renouvellement ou Vente incitative
 
-![Saisissez un nom de segment. Par exemple, vous pouvez avoir un segment pour ](assets/custom-segmentation-2.png)
+![Saisissez un nom de segment. Par exemple, vous pouvez avoir un segment pour &#x200B;](assets/custom-segmentation-2.png)
 
 * Cliquez sur l’icône plus pour afficher les champs de saisie de règle. Les options de la liste de sélection des champs extraient directement les champs de votre CRM
 
-![Cliquez sur l’icône plus pour afficher les champs de saisie de la règle. Les options ](assets/custom-segmentation-3.png)
+![Cliquez sur l’icône plus pour afficher les champs de saisie de la règle. Les options &#x200B;](assets/custom-segmentation-3.png)
 
 >[!NOTE]
 >

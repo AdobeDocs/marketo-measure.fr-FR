@@ -46,7 +46,7 @@ En savoir plus sur [Marketo Measure Ultimate](/help/migration-from-tier-to-mar
 
 &#42; _Un schéma comprend une classe et zéro ou plus de zéro groupes de champs de schéma. Cela signifie que vous pouvez composer un schéma de jeu de données sans utiliser de groupes de champs._
 
-![&amp;42; Un schéma comprend une classe et zéro ou plusieurs champs de schéma](assets/marketo-guide-1.png)
+![&42; Un schéma comprend une classe et zéro ou plusieurs champs de schéma](assets/marketo-guide-1.png)
 
 [Présentation des jeux de données](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/overview#){target="_blank"} : toutes les données correctement ingérées par AEP sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour une collecte de données, généralement sous la forme de tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
 
@@ -56,7 +56,7 @@ Nous vous recommandons d’utiliser un utilitaire de génération automatique po
 
 * Les étapes de téléchargement et de configuration de l’utilitaire [se trouvent ici](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/marketo/marketo-namespaces.html?lang=fr#set-up-b2b-namespaces-and-schema-auto-generation-utility){target="_blank"}.
 
-Pour les personnes qui disposent d’un _**Droit CDP**_ : créez des schémas en accédant à la page Sources.
+Pour les personnes qui disposent d’un _&#x200B;**Droit CDP**&#x200B;_ : créez des schémas en accédant à la page Sources.
 
 * Depuis une source, sélectionnez Ajouter des données > Utiliser des modèles.
 

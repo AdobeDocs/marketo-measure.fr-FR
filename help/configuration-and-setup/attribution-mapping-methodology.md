@@ -18,7 +18,7 @@ La méthodologie de mappage d’attribution est le processus de recherche de cer
 
 Par défaut, [!DNL Marketo Measure] fournit le mappage des identifiants de compte. Cela signifie que [!DNL Marketo Measure] examine le compte et ses informations marketing Contacts pour créer des points de contact d’attribution associés à l’opportunité. Vous trouverez ci-dessous une simple représentation de ce processus.
 
-![Marketo Measure fournit par défaut un mappage d’ID de compte. Ceci ](assets/adobe-setup-1.png)
+![Marketo Measure fournit par défaut un mappage d’ID de compte. Ceci &#x200B;](assets/adobe-setup-1.png)
 
 Gardez à l’esprit que **tous** points de contact de vos contacts ne sont pas intégrés dans l’opportunité en tant que points de contact d’attribution. La chronologie de l’opportunité (sa date de premier contact - date de fermeture) détermine si un point de contact compte comme influenceur sur l’opportunité. Par conséquent, si un point de contact sur le contact A s’est produit après la fermeture de l’opportunité (confirmée/perdue), [!DNL Marketo Measure] ne poussera pas ce point de contact vers l’opportunité. Cette procédure de chronologie est suivie pour tous les autres mappages d’objet d’attribution.
 
@@ -30,7 +30,7 @@ Inconvénients : s’il existe des contrats de niveau de service marketing et ve
 
 Bien que la plupart des clients utilisent le mappage des identifiants de compte, [!DNL Marketo Measure] pouvez rechercher des rôles de contact (contacts associés à l’opportunité) dans une opportunité pour ventiler le processus d’attribution. Cela signifie que [!DNL Marketo Measure] intégrerez uniquement les interactions marketing associées aux rôles de contact sur l’opportunité en tant que points de contact d’attribution de l’acheteur. Vous trouverez ci-dessous une représentation de ce processus.
 
-![Bien que la plupart des clients utilisent le mappage d’ID de compte, Marketo Measure peut ](assets/adobe-setup-2.png)
+![Bien que la plupart des clients utilisent le mappage d’ID de compte, Marketo Measure peut &#x200B;](assets/adobe-setup-2.png)
 
 Avantages : si votre équipe dispose d’un processus de rôles de contact bien défini, ce type de mappage d’attribution peut être idéal pour vous. Cela permet d’aligner un peu plus les ventes et le marketing, car tout le monde comprend parfaitement comment l’attribution est décomposée. Ce processus s’avère également utile lorsque les organisations ciblent plusieurs unités opérationnelles au sein d’une grande entreprise et lorsqu’elles vendent différents produits en même temps.
 

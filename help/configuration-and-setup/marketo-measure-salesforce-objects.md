@@ -28,7 +28,7 @@ Les points de contact capturés par les éléments que vous souhaitez suivre éc
 
 Les objets [!DNL Marketo Measure] se rapportent à des objets [!DNL Salesforce] standard spécifiques. Vous pouvez ainsi créer des rapports sur des objets [!DNL Marketo Measure] et [!DNL Salesforce]. Le tableau ci-dessous indique à quel objet [!DNL Salesforce] l’objet [!DNL Marketo Measure] se rapporte.
 
-![Les objets Marketo Measure se rapportent à des objets Salesforce standard spécifiques. Ceci ](assets/bizible-full-1.png)
+![Les objets Marketo Measure se rapportent à des objets Salesforce standard spécifiques. Ceci &#x200B;](assets/bizible-full-1.png)
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
@@ -36,7 +36,7 @@ L’objet [!UICONTROL Buyer Touchpoint] (BT) raconte l’histoire marketing d’
 
 L’objet BT est visible sur les pages Leads et Contacts sous la forme d’une **Liste associée** (voir l’image ci-dessous).
 
-![L’objet BT est visible sur les pages Leads et Contacts sous la forme d’un ](assets/bizible-taxonomy-1.png)
+![L’objet BT est visible sur les pages Leads et Contacts sous la forme d’un &#x200B;](assets/bizible-taxonomy-1.png)
 
 La liste liée à BT affiche tous les points de contact appartenant au lead ou au contact. La liste contient des champs de [!DNL Marketo Measure] personnalisés qui fournissent des détails supplémentaires sur chaque point de contact. Cliquez sur le numéro de Buyer Touchpoint ID pour accéder à la page Détails du Buyer Touchpoint , qui fournit encore plus d’informations sur le point de contact, comme la première page web visitée par le prospect/contact au cours de cette session web (**page de destination**).
 
@@ -56,7 +56,7 @@ L’objet BAT est visible sur les objets [!UICONTROL Opportunité], [!UICONTROL 
 
 L’objet de personne [!DNL Marketo Measure] met en relation les objets de lead et de contact. Par défaut, Salesforce ne fournit pas la possibilité de créer des rapports à l’aide de l’objet Lead et Contact dans le même rapport. En établissant un rapport avec l’objet de lead et de contact, la personne [!DNL Marketo Measure] vous permet de créer un rapport sur les deux objets dans le même rapport. Cela s’avère particulièrement utile lorsqu’un prospect a été converti en contact. Sur un enregistrement de personne [!DNL Marketo Measure], vous verrez une recherche sur l’enregistrement de lead et/ou de contact correspondant, une liste connexe des points de contact liés à la personne et l’ID de personne (qui est toujours l’adresse e-mail du lead/contact). Puisque la personne [!DNL Marketo Measure] est liée à l’objet de lead et de contact, aucun enregistrement de personne [!DNL Marketo Measure] lié à un Buyer Attribution Touchpoint ne sera jamais créé. Vous trouverez ci-dessous un exemple d’enregistrement [!DNL Marketo Measure] Personne dans Salesforce :
 
-![ L’objet Personne de Marketo Measure met en relation les objets Lead et Contact](assets/connect-salesforce-2.png)
+![&#x200B; L’objet Personne de Marketo Measure met en relation les objets Lead et Contact](assets/connect-salesforce-2.png)
 
 ## Test A/B [!DNL Marketo Measure] {#marketo-measure-a-b-test}
 

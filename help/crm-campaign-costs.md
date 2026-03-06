@@ -30,7 +30,7 @@ Si une valeur est manquante dans l’un des 3 champs, [!DNL Marketo Measure] n�
 
 Pour [!DNL Marketo Measure] de déterminer la répartition d’une campagne sur plusieurs mois, les dates de début et de fin de la campagne sont utilisées pour répartir uniformément le montant par jour.
 
-![Pour que Marketo Measure détermine la répartition d’une campagne sur ](assets/spend-management-3.jpg)
+![Pour que Marketo Measure détermine la répartition d’une campagne sur &#x200B;](assets/spend-management-3.jpg)
 
 Dans cet exemple, une campagne dure 109 jours, donc avec un coût total de 18 000 $, les dépenses quotidiennes s’élèvent à environ 165,14 $.
 
