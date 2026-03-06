@@ -1,12 +1,12 @@
 ---
-unique-page-id: 18874594
-description: Plateformes publicitaires intégrées - [!DNL Marketo Measure]
+description: Conseils sur les plateformes de publicité intégrées pour les utilisateurs de Marketo Measure
 title: Plateformes publicitaires intégrées
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
+hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1853'
 ht-degree: 1%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Le nombre maximal de connexions à Ad Platform est de 300.
+>Le nombre maximal de connexions à Ad Platform que vous pouvez connecter est de 300.
 
 Avant d’entrer dans les détails de chaque plateforme, nous allons passer en revue la connexion de l’un de ces comptes à [!DNL Marketo Measure]. Connectez-vous d’abord à [!DNL Marketo Measure] et accédez à l’option **[!UICONTROL Paramètres]** sous l’onglet **[!UICONTROL Mon compte]** en haut à gauche de l’écran. Sélectionnez ensuite **[!UICONTROL Connexions]** sous la section **[!UICONTROL Intégrations]** sur la gauche.
 
 Comme illustré dans l’image ci-dessous, un bouton s’affiche pour configurer de nouvelles connexions publicitaires.
 
-![](assets/2.png)
+![Comme illustré dans l’image ci-dessous, un bouton vous permet de ](assets/bizible-guide-1.png)
 
 Après avoir cliqué sur le bouton [!UICONTROL Configurer une nouvelle connexion publicitaire], une fenêtre (illustrée ci-dessous) s’affiche avec quatre types d’[!UICONTROL  publicitairesconnect]ion. Cliquez sur Connexion et une autre fenêtre s’affiche pour demander les informations d’identification. Saisissez les informations d’identification et cliquez sur [!UICONTROL autoriser] pour connecter le compte à [!DNL Marketo Measure].
 
-![](assets/select-account-type.png)
+![Après avoir cliqué sur le bouton Configurer une nouvelle connexion publicitaire, une](../assets/marketo-engage-activities-05.png)
 
 ## Google AdWords {#google-adwords}
 
@@ -42,13 +42,13 @@ Le modèle de suivi est un outil fourni par Google pour ajouter ce qu’il appel
 [!DNL Marketo Measure] recherche des modèles de suivi dans votre compte [!DNL AdWords] :
 
 * *Option A* : modèle de tracking trouvé. [!DNL Marketo Measure] ajoute ses paramètres au modèle.
-* *Option B* : redirection tierce trouvée. Si une redirection tierce est trouvée dans le modèle de suivi, [!DNL Marketo Measure] ne pouvez effectuer aucune action. Vous devrez ajouter manuellement les balises [!DNL Marketo Measure] au système tiers. Un exemple de redirection tierce serait un outil de gestion des soumissions comme Kenshoo ou Marin. En savoir plus sur l&#39;impact des [ outils de gestion des enchères  [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
+* *Option B* : redirection tierce trouvée. Si une redirection tierce est trouvée dans le modèle de suivi, [!DNL Marketo Measure] ne pouvez effectuer aucune action. Vous devrez ajouter manuellement les balises [!DNL Marketo Measure] au système tiers. Un exemple de redirection tierce serait un outil de gestion des soumissions comme Kenshoo ou Marin. En savoir plus sur l&#39;impact des [ outils de gestion des enchères  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Option C* : aucun modèle de suivi n&#39;a été trouvé. [!DNL Marketo Measure] analysera toutes vos URL de destination publicitaire pour rechercher les paramètres [!DNL Marketo Measure]. Selon l’analyse, si :
    * Paramètres trouvés : la configuration est terminée.
    * Paramètres introuvables : [!DNL Marketo Measure] ajoutera ses paramètres à la fin des URL de destination publicitaire. [!DNL Marketo Measure] ajoute de nouvelles annonces dans les deux heures suivant leur création. Gardez à l’esprit que les paramètres ne seront pas ajoutés à un modèle.
 
-En savoir plus sur notre [[!DNL AdWords]  fonctionnalité de balisage automatique ](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
+En savoir plus sur notre [[!DNL AdWords]  fonctionnalité de balisage automatique ](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## Activation du balisage automatique [!DNL Marketo Measure] pour Adwords {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -60,15 +60,15 @@ Une fois que vous avez mis en place un modèle de suivi, suivez les instructions
 
 1. Accédez à [!UICONTROL Mon compte] > [!UICONTROL Paramètres] > [!UICONTROL Intégrations] > [!UICONTROL Connexions].
 
-   ![](assets/4.png)
+   ![1. Accédez à Paramètres de mon compte Intégrations Connexions.](assets/utilizing-connections-8.png)
 
 1. Cliquez sur l’icône en forme de crayon en regard du compte Adwords pour lequel [!DNL Marketo Measure] balisage automatique sera activé.
 
-   ![](assets/5.png)
+   ![1. Cliquez sur l’icône en forme de crayon en regard du compte Adwords qui ](assets/utilizing-connections-9.png)
 
 1. Dans le coin supérieur droit, basculez le bouton (bascule) du **[!UICONTROL Balisage automatique]** sur **[!UICONTROL Oui]**. Au bas de la page, cliquez sur **[!UICONTROL En savoir plus]** pour développer la zone de texte, puis cliquez sur **[!UICONTROL Enregistrer]**. La configuration du balisage automatique est terminée.
 
-   ![](assets/6.png)
+   ![1. Dans le coin supérieur droit, basculez le bouton Balisage automatique sur ](assets/utilizing-connections-10.png)
 
 ## Comment configurer un modèle de suivi dans AdWords avec des paramètres [!DNL Marketo Measure] {#how-to-set-up-a-tracking-template-in-adwords-with-marketo-measure-parameters}
 
