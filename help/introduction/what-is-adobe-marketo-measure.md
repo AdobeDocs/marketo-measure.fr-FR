@@ -3,7 +3,7 @@ description: Qu’est-ce que Adobe Marketo Measure ?
 title: Qu’est-ce que Adobe Marketo Measure ?
 hide: true
 hidefromtoc: true
-source-git-commit: 7c3f586e308ba885d10f3f9b8925af93277ad2e0
+source-git-commit: 3f04c21a6990f61000418642713217a490d10f86
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 0%
@@ -26,10 +26,10 @@ Parlons un peu plus de la façon dont cela fonctionne
 Fonctionnement de Marketo Measure
 Marketo Measure s’intègre à de nombreux outils de votre tech stack. Il s’intègre également directement aux plateformes publicitaires répertoriées ci-dessous.
 
-●    Google Ads
-●    Bing Ads
-●    Facebook/Meta
-●    LinkedIn
+● Google Ads
+● Bing Ads
+● Facebook/Meta
+● LinkedIn
 
 Ces intégrations permettent de résoudre le trafic des campagnes multimédias payantes en campagne publicitaire exacte à partir de ces plateformes, lorsque le balisage automatique est activé.
 
@@ -46,10 +46,10 @@ Avec toutes ces données, vous créez maintenant des points de contact à partir
 
 Un poste est également attribué aux points de contact. Cette position est basée sur l’endroit où se trouve le point de contact dans le processus d’achat et le parcours. Il existe quatre postes standard, et vous avez la possibilité de créer des postes personnalisés. Les positions standard sont les suivantes...
 
-●    Premier contact (FT) - Premier point de contact (peut être anonyme)
-●    Création de piste (LC) : premier point de contact où nous capturons une adresse e-mail
-●    Création d’une opportunité (OC) - Dernière touche avant la création d’une opportunité
-●    Fermé - Dernier contact avant la fermeture (fermé, gagné ou fermé, perdu) d’une opportunité
+● premier contact (FT) - Premier point de contact (peut être anonyme)
+Création d’un lead ● (LC) - Premier point de contact où nous capturons une adresse électronique
+Création d’une opportunité ● (OC) - Dernière touche avant la création d’une opportunité
+● clôturé - Dernier contact avant la clôture (clôturée, gagnée ou clôturée, perdue) d’une opportunité
 
 Les positions déterminent ensuite le poids en fonction des différents modèles d’attribution.
 
