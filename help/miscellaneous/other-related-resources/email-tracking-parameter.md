@@ -4,9 +4,9 @@ description: Paramètre de suivi des e-mails - [!DNL Marketo Measure]
 title: Paramètre de suivi des e-mails
 exl-id: e2cfd59e-ce4a-4cbb-b64a-828d1db7410f
 feature: Tracking
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+source-git-commit: 39e5397e8423c81551e12bc3ec82d7b9312c17aa
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '463'
 ht-degree: 4%
 
 ---
