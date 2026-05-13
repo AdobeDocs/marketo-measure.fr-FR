@@ -5,8 +5,10 @@ title: '[!DNL Marketo Measure] des workflows de chiffre d’affaires pour Dynami
 exl-id: 0e64201a-bc65-4a6d-9192-09c14c810c4a
 feature: Microsoft Dynamics
 TQID: https://experienceleague.adobe.com/JuO-Wg0yApkF8GK--qS4tHkBweWLDbkg6Bd-qNXGUDE
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 791
@@ -34,13 +36,13 @@ ht-degree: 0%
 
 Instructions de workflow de montant :
 
-#1 DE WORKFLOW **: Opportunité - Mettre à jour [!DNL Marketo Measure] champ Montant de l’opportunité et champ personnalisé = Revenu estimé**
+&#x200B;#1 DE WORKFLOW **: Opportunité - Mettre à jour [!DNL Marketo Measure] champ Montant de l’opportunité et champ personnalisé = Revenu estimé**
 
 Ce workflow s’exécute sur les opportunités ouvertes chaque fois que le revenu estimé change et met à jour le champ [!DNL Marketo Measure] le montant de l’opportunité et votre champ personnalisé pour qu’ils soient égaux au champ Revenu estimé . Le workflow doit être défini pour s’exécuter en « temps réel », mais il peut également être exécuté « à la demande » pour mettre à jour les opportunités ouvertes.
 
 Indiquez à votre point de contact [!DNL Marketo Measure] le nom du champ du montant de l’opportunité personnalisé. Ils mettent à jour les paramètres d’opportunité de l’application [!DNL Marketo Measure] pour inclure le nom du champ du montant de l’opportunité personnalisé. Cette option indique à Découvrir le champ à utiliser dans le compte rendu des performances.
 
-#2 WORKFLOW **: Opportunité - Mettre à jour [!DNL Marketo Measure] champ Montant de l’opportunité et champ personnalisé = Revenu réel**
+&#x200B;#2 WORKFLOW **: Opportunité - Mettre à jour [!DNL Marketo Measure] champ Montant de l’opportunité et champ personnalisé = Revenu réel**
 
 Ce workflow se déclenche lorsqu’un utilisateur ferme une opportunité et met à jour le champ [!DNL Marketo Measure] du montant de l’opportunité ainsi que votre champ personnalisé avec le revenu réel ajouté au formulaire de fermeture de l’opportunité avant que celle-ci ne se verrouille comme fermée.
 

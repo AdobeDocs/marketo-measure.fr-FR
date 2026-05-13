@@ -4,8 +4,11 @@ title: Bonnes pratiques relatives aux paramètres des points de contact
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
 TQID: https://experienceleague.adobe.com/57Y-eSngdDje7RcPmmKobrzk2-QWrRyxN2rIVtdrOLQ
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 658
@@ -30,9 +33,9 @@ Dans votre application [!DNL Marketo Measure], la section [!UICONTROL Paramètre
 * Supprimer les Buyer Touchpoints du CRM
    * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **les données** (les points de contact associés à l’individu, et non l’opportunité) de votre **CRM** et **Discover**
 * Supprimer Buyer Attribution Touchpoint du CRM
-   * Utilisez cette section pour créer une règle qui supprimera les données **** (les points de contact associés à l’opportunité et au chiffre d’affaires) de votre **CRM**
+   * Utilisez cette section pour créer une règle qui supprimera les données **&#x200B;**&#x200B;(les points de contact associés à l’opportunité et au chiffre d’affaires) de votre **CRM**
 * Supprimer le Buyer Attribution Touchpoint du CRM
-   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera les données **** (les points de contact associés à l’opportunité et au chiffre d’affaires) de vos **CRM** et **Discover**
+   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera les données **&#x200B;**&#x200B;(les points de contact associés à l’opportunité et au chiffre d’affaires) de vos **CRM** et **Discover**
 
 ## Bonne pratique {#best-practice}
 
@@ -59,6 +62,6 @@ Les raisons pour lesquelles vérifier vos paramètres [!UICONTROL Point de conta
 >[!MORELIKETHIS]
 >
 >* [Présentation de la suppression des points de contact](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md)
->* [Pourquoi les points de contact ne doivent jamais être supprimés ](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
+>* [Pourquoi les points de contact ne doivent jamais être supprimés &#x200B;](/help/advanced-marketo-measure-features/touchpoint-settings/why-you-should-never-delete-touchpoints.md)
 >* [Points de contact de l’acheteur (BT) et points de contact d’attribution de l’acheteur (BAT)](/help/configuration-and-setup/getting-started-with-marketo-measure/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

@@ -5,8 +5,10 @@ title: Suppression et retrait des points de contact
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
 TQID: https://experienceleague.adobe.com/DgzPRjvGigZ3swx1fTw0x7r-XbURxwRMNGHH4JdXLfQ
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 648
@@ -68,7 +70,7 @@ Si vous faites une erreur, ne vous inquiétez pas. Vous pouvez également suppri
 
 ![](assets/5.png)
 
-Pour terminer, [!UICONTROL  Enregistrer et traiter ] vos règles. Si vous apportez de nombreuses modifications, veillez à les enregistrer au fur et à mesure. [!DNL Marketo Measure] ne commencera pas réellement à supprimer vos points de contact avant que vous ne cliquiez
+Pour terminer, [!UICONTROL &#x200B; Enregistrer et traiter &#x200B;] vos règles. Si vous apportez de nombreuses modifications, veillez à les enregistrer au fur et à mesure. [!DNL Marketo Measure] ne commencera pas réellement à supprimer vos points de contact avant que vous ne cliquiez
 [!UICONTROL **Enregistrer et traiter**].
 
 | **Opérateur** | **Exemple d’utilisation** |

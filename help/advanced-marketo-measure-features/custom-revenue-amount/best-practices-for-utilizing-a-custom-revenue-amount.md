@@ -4,8 +4,11 @@ title: Bonnes pratiques relatives à l’utilisation d’un montant de recettes 
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
 TQID: https://experienceleague.adobe.com/r0HE7od6BWa4ntQMPyrVqQWwebruGyxM3lhOOu6-RWc
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 433
@@ -40,7 +43,7 @@ En examinant chaque année la configuration du montant du chiffre d’affaires, 
 
 Si vous utilisez un montant de revenu personnalisé, vérifiez la configuration de votre revenu comme suit.
 
-* Dans votre compte [!DNL Marketo Measure], accédez à la section « [!UICONTROL  Opportunités ] sous CRM
+* Dans votre compte [!DNL Marketo Measure], accédez à la section « [!UICONTROL &#x200B; Opportunités &#x200B;] sous CRM
 * Identifiez le champ [!UICONTROL Montant de l’opportunité personnalisé] où votre champ [!UICONTROL API de montant du chiffre d’affaires personnalisé] doit être répertorié
 * Vérifiez que ce champ est toujours correct
 * Demandez également à votre administrateur [!DNL Salesforce] de confirmer que le workflow du montant du chiffre d’affaires personnalisé dans [!DNL Salesforce] est toujours en cours d’exécution

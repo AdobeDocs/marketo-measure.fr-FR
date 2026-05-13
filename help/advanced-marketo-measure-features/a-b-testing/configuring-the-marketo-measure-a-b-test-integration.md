@@ -5,8 +5,10 @@ title: 'Configuration d’une intégration de test A/B dans [!DNL Marketo Measu
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
 TQID: https://experienceleague.adobe.com/BmZ2KnbTIkhPX1kGTNHMMMfmw7zs3Z1-YLwLIVOhVuk
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 128
@@ -22,4 +24,4 @@ Ajoutez les sections de test A/B [!DNL Marketo Measure] sur le lead, le contact,
 1. Ajoutez la liste associée « [!DNL Marketo Measure] ABTests » à vos mises en page, puis cliquez sur le bouton **Paramètres** (clé à molette).
 1. Supprimer le champ « Id » du stock de la liste des champs sélectionnés. Ajoutez les champs [!UICONTROL Expérience], [!UICONTROL Variation] et [!UICONTROL DateReported] et remplacez « Trier par » par « Date de rapport ». Cliquez sur le bouton **[!UICONTROL Descendant]**.
 1. Sous « [!UICONTROL Boutons] », décochez **[!UICONTROL Nouveau]**.
-1. Contactez votre représentant de compte ou l’assistance Marketo [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour activer la fonctionnalité.
+1. Contactez votre représentant de compte ou l’assistance Marketo [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour activer la fonctionnalité.
