@@ -3,10 +3,13 @@ description: Accès à Data Warehouse - Partage direct - Documentation du produi
 title: Accès à Data Warehouse - Partage direct
 exl-id: 940c3316-5f94-4aa2-a656-aec5eb7b7450
 feature: Data Warehouse
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/TT2LYCV4Zv1jdx-ZgzlnThNGVdUAJDwLlely6WgNfXY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 4%
+source-wordcount: 308
+ht-degree: 3%
 
 ---
 
@@ -17,12 +20,12 @@ ht-degree: 4%
 Pour [!DNL Marketo Measure] configurer un partage direct vers l’entrepôt de données, vous devez répondre aux exigences suivantes.
 
 * Vous disposez de votre propre instance Snowflake.
-* Votre instance Snowflake se trouve dans la région Azure East US 2 Snowflake.
+* Votre instance Snowflake se trouve dans la région Snowflake Azure East US 2.
 * Vous [!DNL Marketo Measure] fournissez l’identifiant de votre compte Snowflake.
 
 ## Limites {#limitations}
 
-[!DNL Marketo Measure] ne pourra configurer les partages directs Snowflake qu’avec des comptes situés dans Azure East US 2 (il s’agit d’une limitation dans Marketo Measure, et non avec Snowflake). Si vous avez besoin que vos données soient disponibles dans d’autres régions de Snowflake, nous vous recommandons de les copier dans un compte Snowflake situé dans Azure East US 2 et d’utiliser la fonction [Réplication de base de données Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} pour copier vos données dans la région/le compte Snowflake de votre choix.
+[!DNL Marketo Measure] ne pourra configurer les partages directs Snowflake qu’avec des comptes situés dans Azure East US 2 (il s’agit d’une limitation dans Marketo Measure, et non avec Snowflake). Si vous avez besoin que vos données soient disponibles dans d’autres régions de Snowflake, nous vous recommandons de les copier dans un compte Snowflake situé dans Azure East US 2 et d’utiliser la fonction [Réplication de la base de données Snowflake](https://docs.snowflake.com/en/user-guide/database-replication-intro.html){target="_blank"} pour copier vos données dans la région ou le compte Snowflake de votre choix.
 
 ## Saisir l’ID de compte Snowflake {#enter-snowflake-account-id}
 

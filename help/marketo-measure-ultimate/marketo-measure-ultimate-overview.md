@@ -3,9 +3,18 @@ description: Présentation d’[!DNL Marketo Measure] Ultimate - [!DNL Marketo M
 title: Vue d’ensemble de [!DNL Marketo Measure] Ultimate
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 726
 ht-degree: 97%
 
 ---
@@ -57,7 +66,7 @@ L’instance [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de
 >
 >Une instance de production [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de production AEP, une instance de développement [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de développement AEP.
 
-Une fois la sélection du mappage de sandbox enregistrée, vous ne pouvez plus la modifier dans l’application. Pour le modifier, contactez l’assistance technique de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Une fois la sélection du mappage de sandbox enregistrée, vous ne pouvez plus la modifier dans l’application. Pour le modifier, contactez l’assistance technique de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Les données d’une entité donnée (un compte, par exemple) provenant d’une source de données particulière ne peuvent entrer que dans un seul jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
 

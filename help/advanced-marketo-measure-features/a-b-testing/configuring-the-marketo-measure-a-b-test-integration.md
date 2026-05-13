@@ -4,16 +4,21 @@ description: Configuration de l’intégration  [!DNL Marketo Measure]  test A/B
 title: 'Configuration d’une intégration de test A/B dans [!DNL Marketo Measure] '
 exl-id: 25fc25eb-9a72-4824-9a98-cc286e5c1e4a
 feature: A/B Testing, Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/BmZ2KnbTIkhPX1kGTNHMMMfmw7zs3Z1-YLwLIVOhVuk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 27%
+source-wordcount: 128
+ht-degree: 25%
 
 ---
 
 # Configuration de l’intégration du test A/B [!DNL Marketo Measure] {#configuring-the-marketo-measure-a-b-test-integration}
 
-Ajoutez les sections de tests A/B [!DNL Marketo Measure] sur les pages Prospect, Contact, Dossier et Opportunité. [!DNL Marketo Measure]’intégration du test A/B vous permet de suivre l’impact sur le chiffre d’affaires de vos expériences de site [Optimizely](https://www.optimizely.com/){target="_blank"} et [VWO](https://vwo.com/){target="_blank"}.
+Ajoutez les sections de test A/B [!DNL Marketo Measure] sur le lead, le contact, le cas et l’opportunité. [!DNL Marketo Measure] L’intégration du test A/B vous permet de suivre l’impact sur le chiffre d’affaires de vos expériences de site [Optimizely](https://www.optimizely.com/){target="_blank"} et [VWO](https://vwo.com/){target="_blank"}.
 
 1. Vérifiez que vous utilisez le package [[!DNL Marketo Measure] v3.9 ou une version ultérieure](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}.
 1. Ajoutez la liste associée « [!DNL Marketo Measure] ABTests » à vos mises en page, puis cliquez sur le bouton **Paramètres** (clé à molette).

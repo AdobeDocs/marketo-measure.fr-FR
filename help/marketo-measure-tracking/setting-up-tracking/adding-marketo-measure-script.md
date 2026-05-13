@@ -4,10 +4,16 @@ description: Ajout  [!DNL Marketo Measure]  Script - [!DNL Marketo Measure]
 title: 'Ajout d’un script  [!DNL Marketo Measure] '
 exl-id: f8773037-04d7-4308-ba04-440e9b990d92
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/N88BiNzKTpyS1gl0OyNXwnRk1QrZ1k6UykMd8VWf7dw
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 57%
+source-wordcount: 1292
+ht-degree: 53%
 
 ---
 
@@ -64,7 +70,7 @@ Avez-vous des pages non sécurisées ? Vous devez les sécuriser, car la naviga
 
 Assurez-vous d’avoir une conversation avec votre équipe web pour qu’elle sache que le code JavaScript [!DNL Marketo Measure] doit toujours se trouver sur les propriétés web appropriées. Si de nouvelles pages/formulaires/sites sont introduits, assurez-vous que le déploiement du code JavaScript [!DNL Marketo Measure] fait partie du protocole.
 
-Si un avertissement [!DNL Web Application Firewall (WAF)] est déclenché lors de la configuration de JavaScript, les utilisateurs peuvent soit désactiver cette règle WAF placer sur la liste autorisée, soit supprimer les cookies, comme dans l’exemple ci-dessous :
+Si un avertissement [!DNL Web Application Firewall (WAF)] est déclenché lors de la configuration de JavaScript, les utilisateurs peuvent soit désactiver cette règle WAF, soit supprimer les cookies, comme dans l’exemple ci-dessous :
 
 ![](assets/adding-marketo-measure-script-1.png)
 
@@ -129,12 +135,12 @@ Pour tester un formulaire vous-même, procédez comme suit :
 
 1. Utilisez toujours un navigateur incognito ou effacez le cache entre chaque test d’envoi de formulaire ET utilisez une adresse e-mail différente à chaque fois.
 
-   a. Une bonne pratique consiste à utiliser une fausse adresse e-mail contenant un élément indiquant qu’il s’agit d’un test ainsi que l’heure. Par exemple : testing830am@test.com.
+   a. Une bonne pratique consiste à utiliser un faux e-mail contenant un élément indiquant qu’il s’agit d’un test et l’heure de la journée. Par exemple : testing830am@test.com.
 
 1. Enregistrez l’URL de la page à laquelle vous soumettez le formulaire et l’e-mail utilisé.
 
 1. Recherchez l’enregistrement créé dans votre CRM (prospect ou contact) pour cet envoi de formulaire et vérifiez qu’un point de contact a été créé.
 
-   a. Vous pouvez utiliser un rapport d’inventaire [!DNL Marketo Measure], tel que Prospects avec Buyer Touchpoints, ou examiner la disposition de la page de prospect/contact si vous avez choisi de mettre à jour vos dispositions de pages avec les détails [!DNL Marketo Measure].
+   a. Vous pouvez utiliser un rapport de stock [!DNL Marketo Measure] tel que Leads avec points de contact de l’acheteur ou consulter la mise en page du lead/contact si vous avez choisi de mettre à jour vos mises en page avec des détails [!DNL Marketo Measure].
 
    b. Le traitement des données peut prendre un certain temps.

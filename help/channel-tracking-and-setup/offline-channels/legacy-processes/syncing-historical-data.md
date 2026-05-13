@@ -4,9 +4,15 @@ description: Synchronisation des données historiques - [!DNL Marketo Measure]
 title: Synchronisation des données historiques
 exl-id: 5a3c1a71-463a-4d75-98b9-fc225839512a
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/RODJgjoLhJW0g3ra0H-mn8bOeBicfOuVlLSvU--Gaeo
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: 1516
 ht-degree: 3%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 3%
 
 **Les données sont-elles déjà organisées en campagnes ?**
 
-a. Les données doivent être organisées en campagnes à synchroniser avec [!DNL Marketo Measure] pour que les points de contact soient générés. Si elle n’est pas actuellement organisée en campagnes, vous voudrez évaluer si le temps et les ressources nécessaires pour segmenter les données dans les campagnes appropriées sont suffisants.
+a. Les données doivent être organisées en campagnes pour être synchronisées avec [!DNL Marketo Measure] afin que des points de contact soient générés. Si elle n’est pas actuellement organisée en campagnes, vous voudrez évaluer si le temps et les ressources nécessaires pour segmenter les données dans les campagnes appropriées sont suffisants.
 
 b. La date à laquelle le membre a été ajouté à la campagne ou marqué comme ayant répondu sera utilisée pour la date du point de contact. Cette information doit donc également être exacte. [!DNL Marketo Measure] offre des solutions de contournement dans SFDC et MSD pour mettre à jour les dates, mais cela peut prendre du temps en fonction du volume.
 

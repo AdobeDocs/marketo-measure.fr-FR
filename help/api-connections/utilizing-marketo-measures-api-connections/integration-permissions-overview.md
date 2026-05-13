@@ -3,10 +3,20 @@ description: Présentation des autorisations d’intégration - [!DNL Marketo Me
 title: Vue d’ensemble des autorisations d’intégration
 feature: APIs, Integration
 exl-id: c45598fe-0c33-459a-9fde-de7f6906bd0c
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/e0BkGPzfpf6LjR0eIUfOTLku8d-Dgm6Kh6Jlfs3cLBA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 3%
+source-wordcount: 1406
+ht-degree: 2%
 
 ---
 
@@ -58,17 +68,17 @@ Les points de contact créés et d’autres données sont écrits dans des champ
     <br>
     <b>Utilisateur Marketo Measure Standard :</b> permet à un utilisateur de lire des enregistrements à partir d’objets Marketo Measure.
     <p>
-    <b>Autorisations des champs standard de Salesforce</b>
+    <b>Autorisations des champs standard de </b>
     <br>
-    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Objets et accès standard de Salesforce</a>
+    <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Objets et accès standard de </a>
     <p>
-    <b>Autorisations des champs personnalisés Salesforce</b>
+    <b>Autorisations des champs personnalisés </b>
     <br>
     Nous fournissons des paramètres de fonctionnalité pour contenir les champs SalesForce personnalisés que les clients peuvent utiliser. Si ces paramètres de fonctionnalité sont définis, nous avons besoin d’un accès en lecture à chacun des champs Salesforce enregistrés dans le paramètre de fonctionnalité (par exemple, si la valeur du paramètre CustomLeadSourceField est égale à « LeadSource__c », nous avons besoin d’un accès en lecture à ce champ).
     </td>
   </tr>
   <tr>
-    <td>Dynamics </td>
+    <td>Dynamics</td>
     <td>Données du système B2B</td>
     <td>Marketo Measure effectue le suivi de :
     <p>
@@ -93,7 +103,7 @@ Les points de contact créés et d’autres données sont écrits dans des champ
 <li>bizible2_bizible_touchpoint
 <p>
 Les points de contact créés et d’autres données sont écrits dans des champs Bizible personnalisés sur Compte, Campagne, Réponse de campagne, Contact, Lead, Liste, Opportunité et Appel téléphonique</td>
-    <td><b>Autorisations utilisateur Marketo Measure</b>
+    <td><b>Autorisations utilisateur </b>
 <br>
 Nous vous recommandons de créer un utilisateur Marketo Measure dédié dans Dynamics pour que nous puissions exporter et importer des données par le biais de afin d’éviter tout problème avec d’autres utilisateurs dans votre CRM. Notez le nom d’utilisateur et le mot de passe, ainsi que l’URL du point d’entrée, car ils seront utilisés lors de la création du compte Marketo Measure.
 <p>
@@ -175,11 +185,11 @@ Marketo Measure effectue le suivi des comptes, des campagnes, des groupes public
 <p>
     <b>Portées</b>
     <br>
-    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a> : consultez l’adresse e-mail principale de votre compte Google.
+    <a href="https://www.googleapis.com/auth/userinfo.email"></a> : consultez l’adresse e-mail principale de votre compte Google.
     <p>
-     <a href="https://www.googleapis.com/auth/dfareporting">https://www.googleapis.com/auth/dfareporting</a> : Afficher et gérer les rapports DoubleClick for Advertisers
+     <a href="https://www.googleapis.com/auth/dfareporting"></a> : Afficher et gérer les rapports DoubleClick for Advertisers
     <p>
-     <a href="https://www.googleapis.com/auth/dfatrafficking">https://www.googleapis.com/auth/dfatrafficking</a> : affichez et gérez vos campagnes publicitaires Display DoubleClick Campaign Manager (DCM)</td>
+     <a href="https://www.googleapis.com/auth/dfatrafficking"></a> : affichez et gérez vos campagnes publicitaires Display DoubleClick Campaign Manager (DCM)</td>
   </tr>
   <tr>
     <td>AdWords</td>
@@ -195,7 +205,7 @@ Marketo Measure effectue le suivi des campagnes, des groupes publicitaires, des 
 <p>
     <b>Portées</b>
     <br>
-    <a href="https://www.googleapis.com/auth/userinfo.email">https://www.googleapis.com/auth/userinfo.email</a> : consultez l’adresse e-mail principale de votre compte Google.</td>
+    <a href="https://www.googleapis.com/auth/userinfo.email"></a> : consultez l’adresse e-mail principale de votre compte Google.</td>
   </tr>
   <tr>
     <td>Bing</td>
@@ -205,7 +215,7 @@ Marketo Measure effectue le suivi des campagnes, des groupes publicitaires, des 
 <p>
     <b>Portées</b>
     <br>
-    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access">https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access</a> : conservez l’accès aux données pour lesquelles vous avez autorisé l’accès.</td>
+    <a href="https://learn.microsoft.com/en-us/deployoffice/overview-extended-offline-access"></a> : conservez l’accès aux données pour lesquelles vous avez autorisé l’accès.</td>
   </tr>
   <tr>
     <td>Marketo Engage</td>

@@ -4,9 +4,16 @@ description: Schéma de Data Warehouse - Marketo Measure - Documentation du prod
 title: Schéma de Data Warehouse
 exl-id: f1895eb1-a32d-4c43-93fb-0aa838527946
 feature: Data Warehouse
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/s-38GwD0VQzRyhmmPfQGEOvKQMqvDd3ASMNK5lLayCY
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '21110'
+source-wordcount: 21775
 ht-degree: 99%
 
 ---
@@ -3068,8 +3075,8 @@ Données générées à partir de l’intégration Attribution AI. Ces champs s
   <tr>
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
-    <td>Identifiant d’événement MM d’origine pour l’événement de conversion
-<br>mappé à un point de contact de l’utilisateur ou l’utilisatrice ou à une transition d’étape</td>
+    <td>ID d’événement MM d’origine pour l’événement de conversion 
+    <br>mappe vers un point de contact utilisateur ou une transition d’étape.</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3093,8 +3100,8 @@ Données générées à partir de l’intégration Attribution AI. Ces champs s
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
-    <td>Identifiant de contact MM d’origine de l’événement de conversion
-<br>susceptible d’être nul la plupart du temps</td>
+    <td>ID de contact MM d’origine pour l’événement de conversion
+    <br>probablement nul la plupart du temps</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>

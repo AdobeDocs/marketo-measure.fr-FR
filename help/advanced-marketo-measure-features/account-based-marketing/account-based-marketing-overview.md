@@ -4,10 +4,15 @@ description: Découvrez Account-Based Marketing (ABM) et comment Adobe Marketo
 title: Vue d’ensemble du marketing basé sur les comptes
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/iYWfa6eSeqICk5K3p2mVPRf2xt3UybpRFIJxSYzRmAA
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 98%
+source-wordcount: 837
+ht-degree: 95%
 
 ---
 
@@ -70,7 +75,7 @@ De nombreux composants entrent dans l’algorithme qui calcule le SEP. La récen
 >Vous remarquerez peut-être la mention « S/O » ou « - » (symbole du tiret) dans votre score d’engagement prédictif pour certains comptes.
 
 _La mention « S/O » signifie simplement qu’il n’y a pas de données suffisantes sur ce compte pour que le modèle génère un score réel. Lorsqu’il dispose de données supplémentaires, il lui attribue un score._
-_Un tiret « - » signifie que ce compte n’a pas encore été traité par le processus ABM, en raison de contraintes de temps, de processus parfois manqués, etc. Si vous pensez qu’un compte doit avoir un score, basé sur d’autres comptes ou périodes similaires, contactez et informez [!DNL Marketo Measure]._
+_Un grade de « - » (symbole tiret) signifie que ce compte doit encore être traité par le processus ABM, en raison de contraintes de temps, de processus parfois manqués, etc. Si vous pensez qu’un compte doit avoir un score, basé sur d’autres comptes ou périodes similaires, contactez et informez [!DNL Marketo Measure]._
 
 ## Configurer de la disposition de page ABM dans [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
 

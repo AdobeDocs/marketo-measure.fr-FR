@@ -3,10 +3,17 @@ description: Guide de création de rapports [!DNL Marketo Measure] - [!DNL Marke
 title: Guide de création de rapports [!DNL Marketo Measure]
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/qdhOT569T3OyHBOuwBGbxAV-kYaCJnfP6qJ8Mb-A4Wk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '5602'
-ht-degree: 2%
+source-wordcount: 5685
+ht-degree: 3%
 
 ---
 
@@ -77,7 +84,7 @@ Les [modèles d’attribution](/help/introduction-to-marketo-measure/overview-re
  <tbody>
   <tr>
    <td><img src="assets/bizible-reporting-guide-1.png"></td> 
-   <td>Le modèle en U est conçu pour reconnaître les points de contact de l’acheteur qui résument la façon dont un prospect est devenu un prospect. Bien qu’il soit possible de signaler les points de contact suivants de ces prospects pour expliquer un engagement supplémentaire (post LC), ils ne font pas partie du <strong>parcours de création de leads</strong> ils n’obtiennent donc aucun crédit d’attribution dans les modèles FT, LC ou en forme de U.<p>
+   <td>Le modèle en U est conçu pour reconnaître les points de contact de l’acheteur qui résument la façon dont un prospect est devenu un prospect. Bien qu’il soit possible de signaler les points de contact suivants de ces prospects pour expliquer un engagement supplémentaire (post LC), ils ne font pas partie du parcours de création de leads</strong> ils n’obtiennent donc aucun crédit d’attribution dans les modèles FT, LC ou en forme de U.<strong><p>
 
 &#42;Le plus souvent, l’attribution en U reflète une répartition égale de 50/50 entre FT et LC. Si le prospect effectue une conversion dans la même session que le premier contact, un seul point de contact représenterait les positions des points de contact FT et LC. Par conséquent, 100 % de l’attribution serait attribuée à un seul point de contact.</td>
 </tr>
@@ -90,7 +97,7 @@ Ces modèles mettent fortement l’accent sur les interactions à un stade préc
 
 1. **LEADS avec points de contact ACHETEUR**
 
-**1,1 | Nouveaux leads par canal marketing**
+**1.1 | Nouvelles pistes par canal marketing**
 
 La synthèse des données Buyer Touchpoint de votre prospect par le champ « Canal marketing » est la vue de plus haut niveau qui représente les canaux/tactiques qui influencent les nouveaux prospects dans la création. La structuration de ce rapport autour d’un « Type de date » = « Date de création » garantit l’établissement d’une cohorte de « nouveaux prospects nets » (lorsque le prospect a été créé dans votre CRM) dans le rapport.
 
@@ -127,9 +134,9 @@ La synthèse des données Buyer Touchpoint de votre prospect par le champ « Can
 
 >[!TIP]
 >
->Pour tout type de rapport « Leads avec points de contact d’acheteur », commencez par personnaliser le rapport préconfiguré intitulé « [!DNL Marketo Measure] 101 » | Leads par canal ». Ce rapport prêt à l’emploi est un excellent sandbox préconfiguré, comme décrit dans le tableau ci-dessus, et peut rapidement être personnalisé pour des besoins de création de rapports plus spécifiques.
+>Pour tout type de rapport « Leads avec points de contact de l’acheteur », commencez par personnaliser le rapport préconfiguré intitulé « [!DNL Marketo Measure] 101 | Leads par canal ». Ce rapport prêt à l’emploi est un excellent sandbox préconfiguré, comme décrit dans le tableau ci-dessus, et peut rapidement être personnalisé pour des besoins de création de rapports plus spécifiques.
 
-1,2 **| Nouveaux leads par campagne (ou informations plus granulaires)**
+**1.2 | Nouveaux prospects par campagne (ou informations plus granulaires)**
 
 Pour une insight plus granulaire dans les données résumées dans le rapport « Nouveaux leads par canal marketing » (1.1), ajoutez un résumé supplémentaire au niveau de la campagne. Cela vous permettra non seulement de comprendre quels « canaux marketing » poussent de nouveaux prospects à la création, mais plus spécifiquement, quelles campagnes de ces canaux ont les meilleures performances :
 
@@ -219,7 +226,7 @@ Cependant, les responsables d’événements peuvent être plus intéressés par
 * Filtrer les enregistrements internes des tests, généralement par adresse e-mail
 * Filtrage basé sur certains « types d’enregistrements » qui peuvent être spécifiques à votre unité opérationnelle
 
-1,3 **| Nouveaux leads par contenu (rapports CRM uniquement)**
+**1.3 | Nouveaux leads par contenu (rapports CRM uniquement)**
 
 <table> 
  <tbody>
@@ -270,7 +277,7 @@ Les rapports basés sur le « contenu » offrent une grande valeur lors de la cr
 
 Les rapports basés sur le « contenu » sont très utiles pour attirer insight sur ce qui motive les prospects plus spécifiquement dans le canal marketing de niveau supérieur, dans ce cas « Recherche organique ».
 
-1,4 **| Engagement total du prospect dans une période donnée**
+**1.4 | Engagement total du prospect dans une période donnée**
 
 <table> 
  <tbody>
@@ -308,7 +315,7 @@ Les rapports basés sur le « contenu » sont très utiles pour attirer insight 
 
 L’un des rapports les plus courants ne porte pas uniquement sur les nouveaux prospects ou l’engagement au niveau du prospect, mais plus spécifiquement sur les « prospects qualifiés pour le marketing » (MQL). Il existe plusieurs approches différentes lorsqu’il s’agit de créer des rapports sur les MQL en fonction des fonctionnalités [!DNL Marketo Measure] auxquelles vous avez accès.
 
-**2.1 | Leads qualifiés par marketing par canal (multipoint)**
+**2.1 | Leads qualifiés pour le marketing par canal (multipoint)**
 
 Cette approche de la mesure de l’impact du marketing sur l’influence des MQL est essentiellement la suite du rapport « Nouvelles pistes par canal marketing » (1.1), mais avec les critères supplémentaires selon lesquels les pistes mesurées sont plus spécifiquement des MQL. Le modèle d’attribution en U est toujours recommandé ici pour identifier les canaux marketing et le contenu qui génèrent des prospects _susceptibles_ de devenir un MQL :
 
@@ -348,7 +355,7 @@ Cette approche de la mesure de l’impact du marketing sur l’influence des MQL
  </tbody>
 </table>
 
-2,2 **| Leads qualifiés marketing par canal (touche unique, CRM uniquement)**
+**2.2 | Leads qualifiés marketing par canal (touche unique, CRM uniquement)**
 
 Cette approche de la mesure de l’impact du marketing sur l’influence de MQL est davantage axée sur l’identification du _point de contact unique_ qui était le dernier contact avant que le prospect n’atteigne MQL.
 
@@ -394,7 +401,7 @@ Cette approche de la mesure de l’impact du marketing sur l’influence de MQL 
 >
 >Explorez d’autres regroupements ou dimensions pour obtenir des insight supplémentaires dans les MQL. Comme mentionné dans les autres rapports « Leads avec points de contact d’acheteur », le Buyer Touchpoint offre beaucoup plus de granularité que le seul canal marketing. Un rapport basé sur « Contenu » peut également être combiné avec l’un des rapports MQL ci-dessus pour mieux comprendre quel contenu influence le mieux les MQL.
 
-**3. [!DNL MARKETO MEASURE] DES PERSONNES AVEC LES POINTS DE CONTACT DE L’ACHETEUR**
+**3. [!DNL MARKETO MEASURE] PERSONNES AVEC POINTS DE CONTACT D’ACHETEUR**
 
 Il existe un troisième objet [!DNL Marketo Measure] personnalisé dans Salesforce qui peut s’avérer très utile lors de la création de rapports sur des mesures liées aux personnes : **la personne [!DNL Marketo Measure] (BP)**. Le BP résout le vieux problème de la représentation des informations des Leads et Contacts dans le même rapport. Il regroupe tous les BT liés à une « personne » (l’ID d’une personne [!DNL Marketo Measure] est son adresse e-mail). Qu’il existe en tant que lead ou contact, le BP fait office d’objet de liaison afin d’aider les rapports à couvrir les leads et les contacts. Il est très utile pour produire des rapports plus sophistiqués sur les personnes.
 
@@ -442,7 +449,7 @@ Ce rapport est identique à un rapport basé sur le contenu au niveau du prospec
 
 >[!TIP]
 >
->Pour tout type de rapport « Leads avec [!DNL Marketo Measure] personnes », commencez par personnaliser le rapport préconfiguré intitulé « **[!DNL Marketo Measure]101 » | Leads/contacts par canal** ». Ce rapport est prêt à l’emploi et constitue un excellent sandbox basé sur les personnes [!DNL Marketo Measure]. Il est préconfiguré et peut être rapidement personnalisé pour des besoins de création de rapports plus spécifiques.
+>Pour tout type de rapport « Leads avec [!DNL Marketo Measure] personnes », commencez par personnaliser le rapport préconfiguré intitulé « **[!DNL Marketo Measure]101 | Leads/contacts par canal** ». Ce rapport est prêt à l’emploi et constitue un excellent sandbox basé sur les personnes [!DNL Marketo Measure]. Il est préconfiguré et peut être rapidement personnalisé pour des besoins de création de rapports plus spécifiques.
 
 >[!TIP]
 >
@@ -478,7 +485,7 @@ _Ce rapport ne s’applique que si les formulaires d’enregistrement sont hébe
   </tr>
   <tr>
    <td>Groupe / Dimension</td> 
-   <td>URL du formulaire <br>
+   <td>URL du formulaire<br>
    Canal marketing</td> 
   </tr>
   <tr>
@@ -501,11 +508,11 @@ La principale leçon à tirer de ce rapport est que les données Buyer Touchpoin
 * [Configuration de canal personnalisé en ligne](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md){target="_blank"}
 * [Configuration de canal personnalisé hors ligne](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md){target="_blank"}
 
-Pour l’essentiel, les données de point de contact refléteront ce qui a été suivi par [!DNL Marketo Measure] et peuvent être contrôlées pour vous assurer que votre configuration correspond aux entrées en fonction d’éléments tels que : les valeurs de paramètre UTM, les pages de référence ou les types de campagne. Si les données de point de contact ne correspondent pas à votre configuration, un élément doit probablement être ajusté. Au-delà de la configuration « Canal marketing », vous pouvez examiner les données de point de contact pour déterminer les points de contact qui doivent être [supprimés](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) ou [segmentés](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md){target="_blank"}. Il est recommandé d’auditer vos données de point de contact dans un rapport « Points de contact des personnes et des acheteurs [!DNL Marketo Measure] » à la fin de chaque mois ou trimestre, si possible. Cela permet de s’assurer que votre attribution est aussi précise que possible. Le &#39;[!DNL Marketo Measure] 101 | Le rapport Leads/Contacts par canal prêt à l’emploi est un bon point de départ. Insérez les champs suivants s’ils ne sont pas déjà inclus pour passer en revue certains des éléments de configuration les plus importants :
+Pour l’essentiel, les données de point de contact refléteront ce qui a été suivi par [!DNL Marketo Measure] et peuvent être contrôlées pour vous assurer que votre configuration correspond aux entrées en fonction d’éléments tels que : les valeurs de paramètre UTM, les pages de référence ou les types de campagne. Si les données de point de contact ne correspondent pas à votre configuration, un élément doit probablement être ajusté. Au-delà de la configuration « Canal marketing », vous pouvez examiner les données de point de contact pour déterminer les points de contact qui doivent être [supprimés](/help/advanced-marketo-measure-features/touchpoint-settings/touchpoint-removal-and-touchpoint-suppression.md) ou [segmentés](/help/advanced-marketo-measure-features/segmentation/custom-segmentation.md){target="_blank"}. Il est recommandé d’auditer vos données de point de contact dans un rapport « Points de contact des personnes et des acheteurs [!DNL Marketo Measure] » à la fin de chaque mois ou trimestre, si possible. Cela permet de s’assurer que votre attribution est aussi précise que possible. Le rapport « [!DNL Marketo Measure] 101 | Leads/contacts par canal » disponible et prêt à l’emploi est un excellent point de départ. Insérez les champs suivants s’ils ne sont pas déjà inclus pour passer en revue certains des éléments de configuration les plus importants :
 
 * **Canal marketing** - Chemin = Canal marketing.Sous-canal (valeurs définies dans [!DNL Marketo Measure])
 * **Touchpoint Source** = utm_source
-* **Medium** = utm_medium (points de contact en ligne) OU type de campagne CRM (points de contact hors ligne)
+* **&#x200B;**&#x200B;= utm_medium (points de contact en ligne) OU type de campagne CRM (points de contact hors ligne)
 * **Page du référent** (utilise la configuration &#39;Canaux en ligne&#39;)
 * **Page de destination - Brute** (utilisée dans la configuration « Canaux en ligne ») est également une entrée courante pour la suppression des points de contact dans l’onglet « Paramètres des points de contact » de vos paramètres
 * **URL du formulaire** (entrée courante pour la suppression du point de contact dans l’onglet « Paramètres de point de contact » de vos paramètres)
@@ -564,7 +571,7 @@ En règle générale, les professionnels du marketing doivent savoir d’où vie
 
 ## RAPPORTS RECOMMANDÉS À L’AIDE DE BUYER ATTRIBUTION TOUCHPOINT (BAT) {#recommended-reports-using-the-buyer-attribution-touchpoint}
 
-4,1 **| Nouvelles opportunités par canal marketing**
+**4.1 | Nouvelles opportunités par canal marketing**
 
 La synthèse des données Buyer Attribution Touchpoint de vos opportunités par le champ « Canal marketing » est la vue de plus haut niveau qui représente les canaux/tactiques qui influencent les nouvelles opportunités dans la création. Structurer ce rapport autour d’un « Type de date » = « Date de création de l’opportunité » garantit que nous résumons également le rapport en fonction de la date de création réelle de l’opportunité dans votre CRM. Les points de contact peuvent avoir été créés à un moment antérieur, mais ils resteront liés aux opportunités créées au cours de la période définie et recevront donc un crédit d’attribution, car ils sont reconnus comme ayant une influence sur l’opportunité.
 
@@ -659,7 +666,7 @@ La synthèse des données Buyer Attribution Touchpoint de vos opportunités par 
  </tbody>
 </table>
 
-4,2 **| Offres par canal marketing**
+**4.2 | Offres par canal marketing**
 
 Ce rapport serait essentiellement le même que le premier exemple Buyer Attribution Touchpoint (4.1), sauf que la mesure a été modifiée, passant d’Opportunités ouvertes à Offres conclues. La mesure doit toujours indiquer le modèle d’attribution à utiliser. Étant donné que nous examinons actuellement les transactions conclues et leurs MTD associées, nous devons utiliser un modèle qui représente l’ensemble du parcours de l’acheteur (transaction). Cela garantit que toute piste tactile marketing pendant le parcours de l’acheteur reçoit un crédit d’attribution :
 

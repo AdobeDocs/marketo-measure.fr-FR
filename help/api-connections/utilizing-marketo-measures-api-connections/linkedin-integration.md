@@ -4,10 +4,22 @@ description: Intégration LinkedIn - [!DNL Marketo Measure]
 title: Intégration LinkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/q-asa3ypcHJV5cuXj7IeZfsDoDqy6lQsl9agSLVj-lc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '2653'
-ht-degree: 1%
+source-wordcount: 2729
+ht-degree: 2%
 
 ---
 
@@ -96,7 +108,7 @@ Dès qu’un partage est partagé entre plusieurs contenus publicitaires, [!DNL 
 
 La raison de cette étape supplémentaire est que LinkedIn permet aux URL de destination d’être une URL raccourcie (bit.ly, goog.le, etc.), ce qui signifie que [!DNL Marketo Measure] ne voit pas l’URL longue résolue et que [!DNL Marketo Measure] doit ajouter des paramètres de suivi à une URL résolue. Pour contourner ce problème, [!DNL Marketo Measure] recherche des URL raccourcies avant de recréer une publicité, développe l’URL, puis crée la nouvelle publicité avec l’URL résolue et tous ses paramètres, ce qui [!DNL Marketo Measure] permet d’ajouter des balises. La création d’une nouvelle publicité effacera l’historique des publicités (impressions, clics, partages), d’où la nécessité d’obtenir des autorisations pour baliser les URL raccourcies.
 
-L’utilisation intensive d’URL raccourcies peut avoir de graves répercussions sur vos contenus publicitaires. Nous vous recommandons de ne plus utiliser d’URL raccourcies afin que [!DNL Marketo Measure] puissiez baliser les pages de destination sans avoir à créer de nouvelles annonces et à effacer l’historique des annonces.
+Utiliser énormément d’URL abrégées peut avoir des conséquences sur vos contenus publicitaires. Nous vous recommandons de ne plus utiliser d’URL raccourcies afin que [!DNL Marketo Measure] puissiez baliser les pages de destination sans avoir à créer de nouvelles annonces et à effacer l’historique des annonces.
 
 **Le processus**
 
@@ -145,7 +157,7 @@ Quel que soit le statut de Campaign ou de Creative, toutes les réponses de form
 >
 >Les coûts LinkedIn sont toujours téléchargés dans le cadre des campagnes de contenu sponsorisées.
 
-**Forms de génération de leads de suivi dans CRM ou Marketo**
+Forms de génération de leads de suivi dans CRM ou Marketo **&#x200B;**
 
 Avant l’intégration de Forms de génération de leads [!DNL Marketo Measure] et LinkedIn, il était courant pour les clients de pousser leurs envois de formulaires vers un programme Marketo et/ou une campagne CRM pour suivre les formulaires et recevoir l’attribution sur ces activités. Une fois que le paramètre Forms de génération de leads est activé, nous voulons nous assurer que ces envois de formulaires ne sont pas comptabilisés deux fois. Vérifiez les points suivants :
 

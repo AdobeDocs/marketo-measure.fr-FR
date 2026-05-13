@@ -4,9 +4,16 @@ description: Octroi [!DNL Salesforce] accès à [!DNL Marketo Measure] l’assis
 title: Octroi  [!DNL Salesforce]  l’accès à l’assistance Marketo Measure
 exl-id: 97383cca-3c3b-42d3-83bc-5886d8005ac3
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/tdDicEb3UhCWF4-EUIbkc-zLK4z7ho8iccmiSgaVfzk
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '187'
+source-wordcount: 187
 ht-degree: 2%
 
 ---
@@ -29,12 +36,12 @@ Selon votre organisation, le bouton [!UICONTROL Configuration] se trouve à côt
 
    * Cliquez sur `<your name>` > **[!UICONTROL Mes paramètres]** > **[!UICONTROL Personnel]** > **[!UICONTROL Accorder l’accès au compte]**.
 
-1. Définissez la date d’expiration de l’accès pour la prise en charge de [!UICONTROL Marketo Measure]. Pour le dépannage technique, nous vous recommandons d’accorder un accès à l’assistance [!DNL Marketo Measure] pendant au moins une semaine.
+1. Définissez la date d’expiration de l’accès pour la prise en charge de . Pour le dépannage technique, nous vous recommandons d’accorder un accès à l’assistance [!DNL Marketo Measure] pendant au moins une semaine.
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
 ## Octroi de l’accès de connexion dans [!DNL Salesforce] Lightning {#granting-login-access-in-salesforce-lightning}
 
 1. Cliquez sur votre avatar en haut à droite de l’écran et sélectionnez **[!UICONTROL Paramètres]**.
 1. Cliquez sur **[!UICONTROL Accorder l’accès au compte]**.
-1. Définissez la date d’expiration de l’accès pour « [!UICONTROL Prise en charge de Marketo Measure] ». Pour le dépannage technique, nous vous recommandons d’accorder un accès à l’assistance [!DNL Marketo Measure] pendant au moins une semaine.
+1. Définissez la date d’expiration de l’accès pour « [!UICONTROL Prise en charge de &#x200B;] ». Pour le dépannage technique, nous vous recommandons d’accorder un accès à l’assistance [!DNL Marketo Measure] pendant au moins une semaine.
 1. Cliquez sur **[!UICONTROL Enregistrer]**

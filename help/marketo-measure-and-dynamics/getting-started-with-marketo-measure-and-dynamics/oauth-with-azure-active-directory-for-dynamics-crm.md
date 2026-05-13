@@ -4,9 +4,15 @@ description: OAuth avec [!DNL Azure Active Directory] pour Dynamics CRM - [!DNL 
 title: OAuth avec [!DNL Azure Active Directory] pour Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/fwFE85VMaQdXhF-w28PofUHxOLR39lb60zLMzEo2GnM
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: 806
 ht-degree: 0%
 
 ---
@@ -23,9 +29,9 @@ Cette configuration est destinée aux nouveaux clients [!DNL Marketo Measure] qu
 
 ## Configurer une nouvelle application {#set-up-new-application}
 
-1. Connectez-vous à votre [Portail Azure](https://portal.azure.com/#home).
+1. Connectez-vous à [Azure Portal](https://portal.azure.com/#home).
 
-1. Sélectionnez le client Azure AD en cliquant sur votre compte dans le coin supérieur droit de la page, puis cliquez sur la navigation Switch Directory et sélectionnez le client approprié. Ignorez cette étape si vous n’avez qu’un seul client Azure AD sous votre compte ou si vous avez déjà sélectionné le client Azure AD approprié.
+1. Sélectionnez le client Azure AD en cliquant sur votre compte dans le coin supérieur droit de la page, puis cliquez sur la navigation Switch Directory et sélectionnez le client approprié. Ignorez cette étape si votre compte ne comporte qu’un seul client Azure AD ou si vous avez déjà sélectionné le client Azure AD approprié.
 
    ![](assets/setup-2.png)
 
@@ -43,12 +49,12 @@ Cette configuration est destinée aux nouveaux clients [!DNL Marketo Measure] qu
 
 1. Suivez les invites et créez une application. Qu’il s’agisse d’une application web ou d’une application cliente publique (mobile et de bureau), peu importe. Si vous souhaitez des exemples spécifiques pour les applications web ou les applications clientes publiques, consultez les [démarrages rapides](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-overview).\
    a. Nom est le nom de l’application et décrit votre application aux utilisateurs finaux.\
-   b. Sous Types de compte pris en charge, sélectionnez Comptes dans n’importe quel annuaire organisationnel et comptes Microsoft personnels.\
-   c. Fournissez l’URI de redirection. Pour les applications web, il s’agit de l’URL de base de votre application à laquelle les utilisateurs peuvent se connecter. Par exemple : `http://localhost:12345`. Pour les clients publics (mobiles et de bureau), Azure AD l’utilise pour renvoyer les réponses de jeton. Saisissez une valeur spécifique à votre application. Par exemple : `http://MyFirstAADApp`.
+   b. Sous Types de compte pris en charge, sélectionnez Comptes dans n’importe quel répertoire de l’entreprise et comptes Microsoft personnels.\
+   c. Fournissez l’URI de redirection. Pour les applications web, il s’agit de l’URL de base de votre application à laquelle les utilisateurs peuvent se connecter. Par exemple : `http://localhost:12345`. Pour les clients publics (mobiles et de bureau), Azure AD l’utilise pour renvoyer les réponses par jeton. Saisissez une valeur spécifique à votre application. Par exemple : `http://MyFirstAADApp`.
 
 1. Une fois l’enregistrement terminé, Azure AD attribue à votre application un identifiant client unique (l’identifiant de l’application). Cette valeur est nécessaire dans la section suivante. Copiez-la donc depuis la page de l&#39;application.
 
-1. Pour trouver votre application sur le portail Azure, cliquez sur **[!UICONTROL Enregistrements des applications]**, puis sur **[!UICONTROL Toutes les applications]**. Ouvrez l’application nouvellement créée
+1. Pour rechercher votre application sur le portail Azure, cliquez sur **[!UICONTROL Enregistrements des applications]**, puis sur **[!UICONTROL Toutes les applications]**. Ouvrez l’application nouvellement créée
 
 1. Cliquez sur **[!UICONTROL Authentification]** dans le menu de gauche.
 
@@ -116,7 +122,7 @@ b. Le secret client est le secret d’application créé sur le portail Azure po
 
 ![](assets/creating-2e.png)
 
-c. L’URI d’ID de l’application est l’URL de l’API web cible (ressource sécurisée). Pour trouver l’URL de l’ID d’application, dans le portail Azure, cliquez sur [!DNL Azure Active Directory], sur Enregistrements des applications, ouvrez la page Paramètres de l’application, puis cliquez sur Propriétés. Il peut également s’agir d’une ressource externe comme `https://graph.microsoft.com`. Il s’agit normalement de l’URL de l’instance Dynamics.
+c. L’URI d’ID de l’application est l’URL de l’API web cible (ressource sécurisée). Pour trouver l’URL d’ID d’application, dans le portail Azure, cliquez sur [!DNL Azure Active Directory], sur Enregistrement des applications, puis sur la page Paramètres de l’application, et enfin sur Propriétés. Il peut également s’agir d’une ressource externe comme `https://graph.microsoft.com`. Il s’agit normalement de l’URL de l’instance Dynamics.
 
 1. Après avoir cliqué sur **[!UICONTROL Envoyer]**, vous serez invité à vous connecter avec [!DNL Azure Active Directory]. Une fois l’authentification réussie, votre compte Dynamics est connecté en tant que fournisseur de données dans [!DNL Marketo Measure].
 

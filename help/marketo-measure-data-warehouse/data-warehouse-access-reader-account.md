@@ -3,9 +3,15 @@ description: Accès à Data Warehouse - Compte Reader - Documentation du produit
 title: Accès à Data Warehouse - Compte en lecture seule
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/3ZD-17UlkoJpMExA-ZdV-coGFa0DSeZMW0gjFZodlMM
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 490
 ht-degree: 2%
 
 ---
@@ -20,7 +26,7 @@ Pour accéder à votre entrepôt de données Snowflake, vous devez accéder à l
 
    ![](assets/data-warehouse-access-reader-account-1.png)
 
-1. Dans le menu de gauche, sous Sécurité, cliquez sur **[!UICONTROL Data Warehouse]**.
+1. Dans le menu de gauche, sous Sécurité, cliquez sur **&#x200B;**.
 
    ![](assets/data-warehouse-access-reader-account-2.png)
 

@@ -4,9 +4,14 @@ description: Instructions de disposition de page -  [!DNL Marketo Measure]
 title: Instructions de disposition de page
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/KNYz3Z-pabPi2n-QEfpp-tUynRaO22WmEdY27r-amu8
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: 840
 ht-degree: 100%
 
 ---
@@ -45,7 +50,7 @@ Il est recommandé d’ajouter les champs [!DNL Marketo Measure] à votre campag
 
    ![](assets/4-1.jpg)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**
 
    >[!NOTE]
    >

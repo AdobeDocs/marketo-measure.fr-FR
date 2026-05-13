@@ -3,10 +3,21 @@ description: Notifications d’erreur - [!DNL Marketo Measure]
 title: Notifications d’erreur
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/SDJqtYTppmKWPpLQrhI9EkK-mYQ3f3Xh2BLoWzqIGx4
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+subfeature_v2:
+  - id: ec526b86-7a6d-4fae-87bd-f61c37b9b506
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 30%
+source-wordcount: 1915
+ht-degree: 27%
 
 ---
 
@@ -46,7 +57,7 @@ Pour afficher l’intégralité du message de notification dans [!DNL Marketo Me
           <p>Vous pouvez également ajuster les crédits CRM utilisés par Marketo Measure en procédant comme suit :</p>
           <ul>
             <li>Accédez à <b>Paramètres</b> &gt; <b>CRM</b> &gt; <b>Général</b>.</li>
-            <li>Mettez à jour la limite quotidienne de l’API CRM<br/>.
+            <li>Mettre à jour la limite quotidienne de l’API CRM<br/>
               <ul>
                 <li><b>Remarque : la valeur par défaut est de 100 000.</b></li>
               </ul>
@@ -85,7 +96,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
           </li>
         </ul>
         <p>
-        Fournissez toutes les autorisations nécessaires à l’utilisateur <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md">Marketo Measure</a>.
+        Fournissez toutes les autorisations nécessaires à l’utilisateur <a href="/help/configuration-and-setup/marketo-measure-and-salesforce/how-marketo-measure-and-salesforce-interact.md"></a>.
       </td>
     </tr>
     <tr>
@@ -124,7 +135,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
-      <td>Une erreur s'est produite lors de l'exportation CRM : FIELD_INTEGRITY_EXCEPTION : Type d'entité 'Lead' : Code d'erreur CRM : FIELD_INTEGRITY_EXCEPTION, Champ(s) : Pays, Message d'erreur CRM : Ce pays rencontre un problème, même s'il semble correct. Veuillez sélectionner un pays/territoire dans la liste des pays valides.: Country, RecordId : 0123456</td>
+      <td>Une erreur s'est produite lors de l'exportation CRM : FIELD_INTEGRITY_EXCEPTION : Type d'entité 'Lead' : Code d'erreur CRM : FIELD_INTEGRITY_EXCEPTION, Champ(s) : Pays, Message d'erreur CRM : Ce pays rencontre un problème, même s'il semble correct. Veuillez sélectionner un pays/territoire dans la liste des pays valides. : Country, RecordId : 0123456</td>
       <td>Le type attendu de l’enregistrement ne correspond pas.</td>
       <td>Le cas le plus courant est celui qui ne suit pas les normes de dénomination des états/pays définies dans l’organisation Salesforce, car les champs des états/pays ont été normalisés pour n’accepter que certaines valeurs de la liste de sélection. Pour résoudre ce problème, vous pouvez :
         <ul>
@@ -179,12 +190,12 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Une erreur s’est produite lors de l’export CRM : MISSING_CONVERTED_LEAD_PERMISSION.</td>
       <td>Marketo Measure ne dispose pas de l’autorisation Afficher/Modifier les prospects convertis.</td>
-      <td>Consultez le document Experience League suivant pour obtenir de l’aide sur l’activation de cette autorisation dans votre CRM.<br/>
-          <a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md">Activation de l’autorisation pour modifier les prospects convertis</a></td>
+      <td>Consultez le document Experience League suivant pour obtenir de l’aide sur l’activation de cette autorisation dans votre CRM<br/>
+          <a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md">Activation de l’autorisation de modification des prospects convertis</a></td>
     </tr>
     <tr>
       <td>MISSING_FIELD_READ_PERMISSION</td>
-      <td>Une erreur s’est produite lors de l’import CRM : MISSING_FIELD_READ_PERMISSION. Type d’entité « Evénement » : INVALID_FIELD:<br/>
+      <td>Une erreur s'est produite lors de l'import CRM : MISSING_FIELD_READ_PERMISSION : Type d'entité 'Événement' : INVALID_FIELD :<br/>
     SystemModstamp,IsDeleted,WhoId,bizible2__Bizible_Touchpoint_Date__c</td>
       <td>Marketo Measure ne dispose pas des autorisations de lecture pour un champ obligatoire.</td>
       <td>Reportez-vous aux articles d’aide suivants pour plus d’informations sur les autorisations requises par Marketo Measure :

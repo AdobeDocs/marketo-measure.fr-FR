@@ -3,10 +3,16 @@ description: Modèle de rapport [!DNL Marketo Measure] - Tableau - [!DNL Marketo
 title: Modèle de rapport [!DNL Marketo Measure] - Tableau
 exl-id: 18963be9-5c6e-4454-8244-b50460e2bed5
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/yeKdQAe2ZyoFluQuk8CbqA-yWw3XeSdtGYvAFf2WROM
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '2302'
-ht-degree: 99%
+source-wordcount: 2314
+ht-degree: 98%
 
 ---
 
@@ -34,7 +40,7 @@ Vous devez également saisir une commande SQL initiale. Les requêtes personnali
 
 ### Requêtes SQL personnalisées {#custom-sql-queries}
 
-Parce que [!DNL Tableau] applique des filtres de source de données à la requête globale, et non au tableau individuel sur laquelle le filtre est défini, nous avons choisi d’utiliser des requêtes SQL personnalisées pour chaque tableau du modèle. Cela permet au modèle de filtrer les lignes supprimées et dupliquées au niveau du tableau. Par exemple, lorsqu’appliqué en tant que filtre de source de données, session.La valeur _delete_date est null sera ajoutée à la clause where de la requête, ce qui entraîne la requête suivante.
+Parce que [!DNL Tableau] applique des filtres de source de données à la requête globale, et non au tableau individuel sur laquelle le filtre est défini, nous avons choisi d’utiliser des requêtes SQL personnalisées pour chaque tableau du modèle. Cela permet au modèle de filtrer les lignes supprimées et dupliquées au niveau du tableau. Par exemple, lorsqu’il est appliqué en tant que filtre de source de données, session_deleted_date est null et est ajouté à la clause where de la requête, ce qui entraîne la requête suivante.
 
 **Filtres ajoutés à la source de données**
 
