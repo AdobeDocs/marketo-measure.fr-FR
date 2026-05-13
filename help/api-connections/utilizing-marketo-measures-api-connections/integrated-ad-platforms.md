@@ -4,16 +4,20 @@ description: Plateformes publicitaires intégrées - [!DNL Marketo Measure]
 title: Plateformes publicitaires intégrées
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+TQID: https://experienceleague.adobe.com/R4zYLoHltPjhCEYZ800GO9AZ7noyOmXYXu0VAlVzY-0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2: id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: 1793
 ht-degree: 1%
 
 ---
 
 # Plateformes publicitaires intégrées {#integrated-ad-platforms}
 
-[!DNL Marketo Measure] dispose de connexions d’API avec Google AdWords, Microsoft BingAds, [!DNL Facebook] Ads et DoubleClick Campaign Manager. Grâce à ces connexions d’API, [!DNL Marketo Measure] peut facilement extraire des données et les transmettre à votre CRM avec l’application cliente externe. Aucun chargement manuel des coûts ou des données n’est nécessaire. Vos comptes doivent simplement être connectés et autorisés à l’application [!DNL Marketo Measure]. [!DNL Marketo Measure] téléchargera alors automatiquement vos coûts de marketing à partir des plateformes et les chargera dans l&#39;application [!DNL Marketo Measure]. Si vous choisissez d’activer le balisage automatique pour les publicités AdWords, BingAds ou [!DNL Facebook], [!DNL Marketo Measure] ajoutez automatiquement ses paramètres aux URL de vos publicités.
+[!DNL Marketo Measure] dispose de connexions d’API avec Google AdWords, Microsoft BingAds, [!DNL Facebook] Ads et DoubleClick Campaign Manager. Grâce à ces connexions d’API, [!DNL Marketo Measure] peut facilement extraire des données et les transmettre à votre CRM avec l’application cliente externe. Aucun chargement manuel des coûts ou des données n’est nécessaire. Vos comptes doivent simplement être connectés et autorisés à l’application [!DNL Marketo Measure]. [!DNL Marketo Measure] téléchargera alors automatiquement vos coûts de marketing sur les plateformes et les chargera dans l&#39;application [!DNL Marketo Measure]. Si vous choisissez d’activer le balisage automatique pour les publicités AdWords, BingAds ou [!DNL Facebook], [!DNL Marketo Measure] ajoutez automatiquement ses paramètres aux URL de vos publicités.
 
 ## Comment connecter des plateformes publicitaires {#how-to-connect-ad-platforms}
 
@@ -27,7 +31,7 @@ Comme illustré dans l’image ci-dessous, un bouton s’affiche pour configurer
 
 ![](assets/2.png)
 
-Après avoir cliqué sur le bouton [!UICONTROL Configurer une nouvelle connexion publicitaire], une fenêtre (illustrée ci-dessous) s’affiche avec quatre types d’[!UICONTROL &#x200B; publicitairesconnect]ion. Cliquez sur Connexion et une autre fenêtre s’affiche pour demander les informations d’identification. Saisissez les informations d’identification et cliquez sur [!UICONTROL autoriser] pour connecter le compte à [!DNL Marketo Measure].
+Après avoir cliqué sur le bouton [!UICONTROL Configurer une nouvelle connexion publicitaire], une fenêtre (illustrée ci-dessous) s’affiche avec quatre types d’[!UICONTROL  publicitairesconnect]ion. Cliquez sur Connexion et une autre fenêtre s’affiche pour demander les informations d’identification. Saisissez les informations d’identification et cliquez sur [!UICONTROL autoriser] pour connecter le compte à [!DNL Marketo Measure].
 
 ![](assets/select-account-type.png)
 
@@ -42,13 +46,13 @@ Le modèle de suivi est un outil fourni par Google pour ajouter ce qu’il appel
 [!DNL Marketo Measure] recherche des modèles de suivi dans votre compte [!DNL AdWords] :
 
 * *Option A* : modèle de tracking trouvé. [!DNL Marketo Measure] ajoute ses paramètres au modèle.
-* *Option B* : redirection tierce trouvée. Si une redirection tierce est trouvée dans le modèle de suivi, [!DNL Marketo Measure] ne pouvez effectuer aucune action. Vous devrez ajouter manuellement les balises [!DNL Marketo Measure] au système tiers. Un exemple de redirection tierce serait un outil de gestion des soumissions comme Kenshoo ou Marin. En savoir plus sur l&#39;impact des [&#x200B; outils de gestion des enchères  [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
+* *Option B* : redirection tierce trouvée. Si une redirection tierce est trouvée dans le modèle de suivi, [!DNL Marketo Measure] ne pouvez effectuer aucune action. Vous devrez ajouter manuellement les balises [!DNL Marketo Measure] au système tiers. Un exemple de redirection tierce serait un outil de gestion des soumissions comme Kenshoo ou Marin. En savoir plus sur l&#39;impact des [ outils de gestion des enchères  [!DNL Marketo Measure]](/help/api-connections/utilizing-marketo-measures-api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
-* *Option C* : aucun modèle de suivi n&#39;a été trouvé. [!DNL Marketo Measure] analysera toutes vos URL de destination publicitaire pour rechercher les paramètres [!DNL Marketo Measure]. Selon l’analyse, si :
+* *Option C* : aucun modèle de suivi n&#39;a été trouvé. [!DNL Marketo Measure] analysera toutes vos URL de destination publicitaire pour les paramètres [!DNL Marketo Measure]. Selon l’analyse, si :
    * Paramètres trouvés : la configuration est terminée.
    * Paramètres introuvables : [!DNL Marketo Measure] ajoutera ses paramètres à la fin des URL de destination publicitaire. [!DNL Marketo Measure] ajoute de nouvelles annonces dans les deux heures suivant leur création. Gardez à l’esprit que les paramètres ne seront pas ajoutés à un modèle.
 
-En savoir plus sur notre [[!DNL AdWords]  fonctionnalité de balisage automatique &#x200B;](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
+En savoir plus sur notre [[!DNL AdWords]  fonctionnalité de balisage automatique ](/help/api-connections/utilizing-marketo-measures-api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 
 ## Activation du balisage automatique [!DNL Marketo Measure] pour Adwords {#how-to-enable-marketo-measure-auto-tagging-for-adwords}
 
@@ -75,10 +79,10 @@ Une fois que vous avez mis en place un modèle de suivi, suivez les instructions
 Gardez à l’esprit que vous devez ajouter des modèles de suivi au niveau [!UICONTROL Compte], [!UICONTROL Campagne] ou Groupe publicitaire dans AdWords. Si vous ajoutez des modèles de suivi au niveau Mot-clé, Lien de site ou Annonce, votre annonce devra passer par le processus de révision et d’approbation et vous risquez de redémarrer l’historique des performances de vos annonces. En savoir plus sur la [création de modèles de tracking](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"}.
 
 1. Connectez-vous à votre compte [!DNL Google AdWords].
-1. Accédez à la vue [!UICONTROL &#x200B; Campagnes &#x200B;] à partir de la barre de navigation de gauche
-1. Accédez à « [!UICONTROL &#x200B; Paramètres &#x200B;] », également dans la barre de navigation de gauche
+1. Accédez à la vue [!UICONTROL  Campagnes ] à partir de la barre de navigation de gauche
+1. Accédez à « [!UICONTROL  Paramètres ] », également dans la barre de navigation de gauche
 1. Activez la vue « [!UICONTROL Paramètres du compte] » en haut
-1. Développez la section « [!UICONTROL &#x200B; Tracking &#x200B;]
+1. Développez la section « [!UICONTROL  Tracking ]
 1. Collez l’une des chaînes de texte suivantes dans le modèle de suivi pour définir la valeur du modèle :
 
    * Si TOUTES vos URL comportent des points d’interrogation, utilisez le texte d’URL suivant :
@@ -101,7 +105,7 @@ Les balises UTM peuvent sembler difficiles à créer au début, mais il existe d
 
 **[!DNL Google URL]Builder**
 
-Le créateur d’URL de Google est un outil standard permettant de créer des URL correctement formatées à l’aide de balises UTM. Saisissez l’URL et la valeur souhaitée de chaque paramètre, puis cliquez sur « [!UICONTROL &#x200B; Générer l’URL &#x200B;] ». Il s’agit d’un outil idéal à utiliser si vous ne disposez que d’une poignée d’URL à baliser. Accédez à l’outil [ici](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"}.
+Le créateur d’URL de Google est un outil standard permettant de créer des URL correctement formatées à l’aide de balises UTM. Saisissez l’URL et la valeur souhaitée de chaque paramètre, puis cliquez sur « [!UICONTROL  Générer l’URL ] ». Il s’agit d’un outil idéal à utiliser si vous ne disposez que d’une poignée d’URL à baliser. Accédez à l’outil [ici](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"}.
 
 **Feuille de calcul Google générée par EpikOne**
 
@@ -152,7 +156,7 @@ Consultez le site web [[!DNL Bing Ads]](https://advertise.bingads.microsoft.com/
 
 ## Publicités Facebook {#facebook-ads}
 
-L’intégration d’[!DNL Marketo Measure] à [!DNL Facebook] lui permet de télécharger automatiquement les informations de l’annonce publicitaire et de baliser l’URL avec ses paramètres. [!DNL Marketo Measure] extrait les informations sur la campagne et la visionneuse d’annonces par le biais de notre balisage automatique. La visionneuse d’annonces renseigne le champ Nom du groupe publicitaire . Pour plus d’informations sur la configuration des balises d’URL sur la plateforme [!DNL Facebook], consultez la page [!DNL Facebook] [entreprise](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"}.
+L’intégration d’[!DNL Marketo Measure] à [!DNL Facebook] lui permet de télécharger automatiquement les informations de l’annonce publicitaire et de baliser l’URL avec ses paramètres. [!DNL Marketo Measure] extraira les informations sur la campagne et la visionneuse d’annonces par le biais de notre balisage automatique. La visionneuse d’annonces renseigne le champ Nom du groupe publicitaire . Pour plus d’informations sur la configuration des balises d’URL sur la plateforme [!DNL Facebook], consultez la page [!DNL Facebook] [entreprise](https://www.facebook.com/business/help/1016122818401732/?ref=u2u){target="_blank"}.
 
 Avant d’activer le balisage automatique avec [!DNL Facebook Ads], il est important d’exporter l’historique des performances précédent au format CSV. À ce stade, lorsque [!DNL Marketo Measure] balises [!DNL Facebook Ads] avec son paramètre _bf, [!DNL Facebook] lit les annonces comme étant toutes nouvelles et efface l’historique des performances. Par conséquent, il est important d’exporter un enregistrement des performances précédentes si cela présente une valeur pour vous et votre organisation.
 
@@ -166,7 +170,7 @@ L’intégration LinkedIn [!DNL Marketo Measure] permet de baliser les URL de de
 
 Comme les partages [!DNL LinkedIn] peuvent être utilisés dans plusieurs campagnes et contenus publicitaires, nous vous demandons de ne pas copier/cloner/dupliquer des contenus publicitaires existants afin qu’ils restent uniques. Si des partages sont détectés et ne sont utilisés que sur un seul Creative, [!DNL Marketo Measure] pouvez les baliser tels quels sans avoir à recréer de contenu publicitaire ou de partages et l’historique de toutes les publicités (impressions, clics, partages) restera.
 
-Dès qu’un partage est partagé entre plusieurs contenus publicitaires, [!DNL Marketo Measure] devez effectuer un processus de mise en pause, de copie et de rebalisage pour créer un ensemble unique. [!DNL Marketo Measure] met en pause et archive les contenus publicitaires en direct, ce qui signifie que les contenus publicitaires contenant les impressions, les clics et les partages sur les réseaux sociaux sont également archivés.
+Dès qu’un partage est partagé entre plusieurs contenus publicitaires, [!DNL Marketo Measure] devez effectuer un processus de mise en pause, de copie et de rebalisage pour créer un ensemble unique. [!DNL Marketo Measure] interrompra et archivera les contenus publicitaires en direct, ce qui signifie que les contenus publicitaires contenant les impressions, les clics et les partages sur les réseaux sociaux seront également archivés.
 
 ## Plateformes non intégrées {#non-integrated-platforms}
 

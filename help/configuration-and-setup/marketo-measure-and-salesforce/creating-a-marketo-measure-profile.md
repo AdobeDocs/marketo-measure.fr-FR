@@ -4,10 +4,13 @@ description: Création d'un  [!DNL Marketo Measure]  - [!DNL Marketo Measure]
 title: 'Création d’un profil [!DNL Marketo Measure] '
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/7LvGF-KnE-FAkp1eLwawZUbFqac4cWAH9YmPKXaqKsM
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 3%
+source-wordcount: 190
+ht-degree: 7%
 
 ---
 
@@ -32,7 +35,7 @@ Découvrez comment créer un profil de [!DNL Marketo Measure]. La création d’
 1. Exclure ce profil de tous les déclencheurs, workflows et processus.
 1. Connectez-vous à votre compte [!DNL Marketo Measure] et réautorisez la connexion [!DNL Salesforce] avec le nouvel utilisateur :
 
-   * Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous avec les nouvelles informations d’identification Salesforce de production de l’utilisateur
+   * Accédez à [](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous avec les nouvelles informations d’identification Salesforce de production de l’utilisateur
    * Sélectionnez « [!UICONTROL Settings] » dans le menu déroulant « [!UICONTROL My Account] » (Mon compte).
    * Sélectionnez « [!UICONTROL Connexions] » dans le groupe « [!UICONTROL Intégrations] »
    * Cliquez sur l’icône Clé à droite de la connexion [!DNL Salesforce] actuelle connectée et sélectionnez Réautoriser avec la production . Connectez-vous ensuite à nouveau avec les nouvelles informations d’identification de l’utilisateur si cela vous est demandé

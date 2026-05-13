@@ -3,10 +3,13 @@ description: Modèle de rapport [!DNL Marketo Measure] - Power BI - [!DNL Market
 title: Modèle de rapport [!DNL Marketo Measure] - Power BI
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/xoNrfpeiDzwSGh1Ii3Anl1O78vaRrvmHlzYTrPG7k5I
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '2540'
-ht-degree: 99%
+source-wordcount: 2565
+ht-degree: 97%
 
 ---
 
@@ -105,9 +108,9 @@ Les noms de segments pouvant être personnalisés, ils comportent des noms de co
 
 ### Conversion d’ID sensible à la casse {#case-sensitive-id-conversion}
 
-Les données [!DNL Marketo Measure] comportent deux tableaux où les valeurs (ID) de clé primaire sont sensibles à la casse, à savoir Point de contact et Campagne. Le moteur de données qui génère la couche de modélisation de Power BI n’est pas sensible à la casse, ce qui entraîne des valeurs d’ID « en double ». Pour préserver la sensibilité à la casse de ces valeurs clés, nous avons mis en œuvre des étapes de transformation qui associent des caractères invisibles aux caractères en minuscules, tout en préservant l’unicité de l’ID lors de l’évaluation dans la couche du moteur de données. Vous trouverez plus de détails sur le problème et les étapes détaillées sur la méthode que nous avons utilisée [ici] (https://blog.crossjoin.co.uk/2019
-/10/06/power-bi-and-case-sensitivity/){target="_blank"}. Ces valeurs d’ID sensibles à la casse sont étiquetées « ID d’abonnement » et utilisées comme clés d’abonnement dans la couche de relation. Nous avons masqué les ID de jointure dans la couche de création de rapports, en conservant les valeurs d’ID d’origine visibles pour une utilisation dans la création de rapports, puisque les caractères invisibles peuvent interférer avec les fonctions de couper
-/coller et le filtrage.
+Les données [!DNL Marketo Measure] comportent deux tableaux où les valeurs (ID) de clé primaire sont sensibles à la casse, à savoir Point de contact et Campagne. Le moteur de données qui génère la couche de modélisation de Power BI n’est pas sensible à la casse, ce qui entraîne des valeurs d’ID « en double ». Pour préserver la sensibilité à la casse de ces valeurs clés, nous avons mis en œuvre des étapes de transformation qui associent des caractères invisibles aux caractères en minuscules, tout en préservant l’unicité de l’ID lors de l’évaluation dans la couche du moteur de données. Vous trouverez plus de détails sur le problème et les étapes détaillées de la méthode que nous avons employée [ici] (https://blog.crossjoin.co.uk/2019)
+/10/06/power-bi-and-case-sensitive/){target="_blank"}. Ces valeurs d’ID sensibles à la casse sont étiquetées « ID d’abonnement » et utilisées comme clés d’abonnement dans la couche de relation. Nous avons masqué les ID de jointure de la couche de reporting, en gardant les valeurs d’ID d’origine visibles pour une utilisation dans le reporting, car les caractères invisibles peuvent interférer avec la coupure
+Fonctions /paste et filtrage.
 
 ![](assets/marketo-measure-report-template-power-bi-8.png)
 

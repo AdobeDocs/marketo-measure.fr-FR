@@ -4,9 +4,11 @@ description: Ajout  [!DNL Marketo Measure]  Forms d'action - [!DNL Marketo Measu
 title: Ajout de  [!DNL Marketo Measure]  à des formulaires Act-On
 exl-id: 3d246e6a-ad3b-4683-b2b7-ab3f0f4c5ab2
 feature: Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/BUdHiCxfaG7a8Tays-Oqg9ZJQjSZJMM4-ChPHuF0RCg
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: 77
 ht-degree: 6%
 
 ---
@@ -16,7 +18,7 @@ ht-degree: 6%
 ## Itinéraire {#directions}
 
 1. Dans le formulaire que vous modifiez, sélectionnez l’option **[!UICONTROL Paramètres]** dans le coin droit.
-1. Recherchez une zone intitulée [!UICONTROL &#x200B; « Web Analytics externe ».] C’est à cet endroit que vous allez déposer le fragment de code de suivi [!DNL Marketo Measure].
+1. Recherchez une zone intitulée [!UICONTROL  « Web Analytics externe »] C’est à cet endroit que vous allez déposer le fragment de code de suivi [!DNL Marketo Measure].
 
 ## Code JavaScript [!DNL Marketo Measure] {#marketo-measure-javascript}
 

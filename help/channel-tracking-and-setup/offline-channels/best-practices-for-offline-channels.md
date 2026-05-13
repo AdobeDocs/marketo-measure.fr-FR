@@ -3,9 +3,12 @@ description: Bonnes pratiques relatives aux canaux hors ligne - [!DNL Marketo Me
 title: Bonnes pratiques pour les canaux hors ligne
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/p-xffnDY4cbrbz4dH1Z4MgWCOwuoP-IjDHU4YdTww8o
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: 1060
 ht-degree: 4%
 
 ---
@@ -43,7 +46,7 @@ Que vous mappiez vos canaux hors ligne pour la première fois ou que vous les ex
 * Seuls les « types » de campagne CRM HORS LIGNE doivent être mappés aux canaux hors ligne, car seules les campagnes hors ligne doivent être synchronisées avec [!DNL Marketo Measure] pour créer des points de contact :
    * Les « types » de campagne CRM EN LIGNE doivent être mappés à un [!UICONTROL canal marketing] = « NULL ». Cette valeur est recommandée, car elle agit comme un « indicateur rouge » qui indique que vos canaux hors ligne ont été examinés et qu’un « Type » de campagne CRM mappé à « NULL » est un « Type » ONLINE et ne doit pas être synchronisé avec [!DNL Marketo Measure]. Les points de contact liés aux « types » de campagnes CRM en ligne seraient déjà suivis via [!DNL Marketo Measure] fonctionnalité et les canaux en ligne. La synchronisation de ces campagnes risque de générer des points de contact « dupliqués » ou un double comptage
 
-## Bonne pratique | Synchronisation de la campagne hors ligne {#best-practice-offline-campaign-sync}
+## Bonne pratique | Synchronisation de campagne hors ligne {#best-practice-offline-campaign-sync}
 
 * Vérifiez que le champ &#39;Type&#39; est correct sur chaque campagne CRM
    * « Type » détermine le canal et le sous-canal marketing pour tous les points de contact provenant de la campagne une fois synchronisés

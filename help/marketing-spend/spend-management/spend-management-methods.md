@@ -3,9 +3,13 @@ description: Méthodes de gestion des dépenses - [!DNL Marketo Measure]
 title: Méthodes de gestion des dépenses
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/HdGBr6tPbjbLrO71Zr1MWN6i19TuDIaqvEhgWcNNxAY
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: 423
 ht-degree: 1%
 
 ---
@@ -22,13 +26,13 @@ Les dépenses de tout compte publicitaire que vous avez connecté à [!DNL Marke
 
 Synchronisation des coûts de la campagne CRM **2**
 
-Chaque compte [!DNL Marketo Measure] a accès à une fonctionnalité appelée [&#x200B; Synchroniser les coûts de campagne CRM &#x200B;](/help/marketing-spend/spend-management/crm-campaign-costs.md#availability). Par défaut, ce bit caractéristique est défini sur « Non », mais peut être activé à tout moment.
+Chaque compte [!DNL Marketo Measure] a accès à une fonctionnalité appelée [ Synchroniser les coûts de campagne CRM ](/help/marketing-spend/spend-management/crm-campaign-costs.md#availability). Par défaut, ce bit caractéristique est défini sur « Non », mais peut être activé à tout moment.
 
 ![](assets/spend-management-methods-1.png)
 
 Lorsqu’elle est activée, cette fonctionnalité extrait automatiquement les dépenses de toute campagne/programme CRM qui répond aux critères suivants :
 
-i. [!DNL Marketo Measure] commence par vérifier si la campagne/le programme crée des points de contact, à partir d’une [règle de synchronisation de la campagne](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) correspondante qui a été créée ou d’une [règle de synchronisation du programme](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) correspondante qui a été créée ou si la valeur [Activer les points de contact de l’acheteur](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) est « Inclure tous les membres de la campagne » ou « Inclure les membres de la campagne « Répondus ».
+i. [!DNL Marketo Measure] d’abord vérifie si la campagne/le programme crée des points de contact, à partir d’une [règle de synchronisation de la campagne](/help/channel-tracking-and-setup/offline-channels/custom-campaign-sync.md) correspondante créée ou d’une [règle de synchronisation du programme](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md) correspondante créée ou de la [valeur Activer les points de contact de l’acheteur](/help/channel-tracking-and-setup/offline-channels/legacy-processes/syncing-offline-campaigns.md#how-to-create-a-campaign-and-sync-buyer-touchpoints) qui est « Inclure tous les membres de la campagne » ou « Inclure les membres de la campagne « Répondus ».
 
 ii. Une date de début doit être renseignée sur la campagne/le programme
 

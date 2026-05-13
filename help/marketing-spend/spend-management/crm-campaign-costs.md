@@ -4,9 +4,12 @@ description: Coûts de campagne CRM - [!DNL Marketo Measure]
 title: Coûts de campagne CRM
 exl-id: d967cabe-b9f1-4ea1-a81b-e4484c703ecf
 feature: Spend Management
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/RxCP7bZJ9DND0BSpQ2PY5mOsSe-Kr45d24UKXWDmX6M
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: 1193
 ht-degree: 1%
 
 ---
@@ -23,9 +26,9 @@ Cette fonctionnalité est disponible pour tous les clients [!DNL Salesforce] et 
 
 [!DNL Marketo Measure] commence par rechercher les campagnes qui ont été « activées » pour les points de contact. Une règle de synchronisation de campagne correspondante a donc été créée ou la valeur Activer les points de contact de l’acheteur est « Inclure tous les membres de la campagne » ou « Inclure les membres de la campagne ayant répondu ». En outre, [!DNL Marketo Measure] devez importer les valeurs correctes et savoir comment répartir les coûts. Par conséquent, les champs suivants doivent contenir une valeur :
 
-**[!DNL Salesforce]** : `ActualCost`, `StartDate`, `EndDate`
+**[!DNL Salesforce]**: `ActualCost`, `StartDate`, `EndDate`
 
-**[!DNL Microsoft Dynamics]** : `totalactualcost`, `actualstart`, `actualend`
+**[!DNL Microsoft Dynamics]**: `totalactualcost`, `actualstart`, `actualend`
 
 Si une valeur est manquante dans l’un des 3 champs, [!DNL Marketo Measure] n’importera pas les coûts. Vous pouvez corriger ce problème en mettant à jour l’enregistrement de la campagne dans le CRM. Les coûts ne sont pas importés s&#39;ils sont définis sur 0 $, car [!DNL Salesforce] traite les valeurs vides et 0 $ de la même manière.
 
@@ -75,7 +78,7 @@ Toute modification du coût ou de la distribution doit être effectuée dans le 
 
 **La date de début, la date de fin et le coût sont renseignés, mais pourquoi mes coûts ne sont-ils toujours pas affichés dans [!DNL Marketo Measure] ?**
 
-Vérifiez que la valeur « Activer Buyer Touchpoint » est définie sur « Inclure tous les membres de la campagne » ou au moins sur « Inclure les membres de la campagne « Répondus » », ou que vous avez créé une règle de synchronisation de campagne personnalisée qui inclut cette campagne. Si vous l’avez confirmé et que vous ne voyez toujours pas la campagne, contactez l’assistance technique de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} afin que nous puissions vérifier que vos campagnes sont correctement importées.
+Vérifiez que la valeur « Activer Buyer Touchpoint » est définie sur « Inclure tous les membres de la campagne » ou au moins sur « Inclure les membres de la campagne « Répondus » », ou que vous avez créé une règle de synchronisation de campagne personnalisée qui inclut cette campagne. Si vous l’avez confirmé et que vous ne voyez toujours pas la campagne, contactez l’assistance technique de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} afin que nous puissions vérifier que vos campagnes sont correctement importées.
 
 **Je dois modifier la répartition de ma campagne afin de pouvoir la pondérer plus lourdement certains mois. Comment est-ce que je fais ça ?**
 

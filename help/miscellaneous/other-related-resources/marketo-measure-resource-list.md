@@ -4,10 +4,13 @@ description: Liste des ressources [!DNL Marketo Measure] - [!DNL Marketo Measure
 title: Liste des ressources [!DNL Marketo Measure]
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/oY2h-o6vE-X-TcsklCmmKitANBYszLt7SSBWbAmy1lU
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 5%
+source-wordcount: 341
+ht-degree: 6%
 
 ---
 
@@ -47,12 +50,12 @@ Voici différents liens vers des articles/vidéos pertinents pour vous aider à 
 
 ## Vidéos {#videos}
 
-Voici quelques vidéos    vous aider à vous mettre à jour rapidement :
+Voici quelques vidéos qui vous aideront à vous mettre à jour rapidement :
 
-* [[!DNL Marketo Measure] Formation préliminaire](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4?) (22 min)
-* [[!DNL Marketo Measure] Reporting dans SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr) (30-45mins)
+* [[!DNL Marketo Measure] Formation préliminaire](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4 ?) (22 min)
+* [[!DNL Marketo Measure] Reporting dans SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30-45mins)
 
-**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr) (~30 minutes)**
+**[[!DNL Marketo Measure] 101](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (~30 minutes)**
 
 Cette série de cours est conçue comme une introduction générale aux concepts de base que vous devez connaître pour maîtriser [!DNL Marketo Measure]. Il présente le concept d’attribution, ce que [!DNL Marketo Measure] fait en tant qu’outil et le cadre général sur lequel [!DNL Marketo Measure] fonctionne.
 
@@ -64,7 +67,7 @@ Rubriques abordées :
 * Points de contact
 * Modèles d’attribution
 
-**[[!DNL Marketo Measure] Création de rapports dans SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr) (30 à 45 minutes)**
+**[[!DNL Marketo Measure] Création de rapports dans SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html) (30 à 45 minutes)**
 
 Cette série de cours est conçue comme une introduction aux rapports de stock [!DNL Marketo Measure] qui ont été installés dans Salesforce. Ces rapports servent de base à la plupart des rapports que vous créez avec des données [!DNL Marketo Measure].
 
@@ -77,7 +80,7 @@ Rubriques abordées :
 * Rapport Opportunités par ID
 * Rapport Opportunités par canal
 
-**[Gestion des canaux](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr)**
+**[Gestion des canaux](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html)**
 
 Ce cours aborde différentes manières de personnaliser les [!DNL Marketo Measure] en termes de suivi en ligne et hors ligne. Ce cours est plus avancé et peut ne pas être pertinent pour tous les utilisateurs.
 
@@ -89,4 +92,4 @@ Rubriques abordées :
 * Champs Campagne et Membre de la campagne
 * Gestion des canaux hors ligne
 
-Voici toutes les [vidéos d’apprentissage en ligne pour débutants](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr).
+Voici toutes les [vidéos d’apprentissage en ligne pour débutants](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html).

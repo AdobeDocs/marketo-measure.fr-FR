@@ -3,9 +3,12 @@ description: Installation et configuration du package [!DNL Marketo Measure] Sal
 title: '[!DNL Marketo Measure] [!DNL Salesforce] Installation et configuration du package'
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: 512
 ht-degree: 95%
 
 ---
@@ -42,7 +45,7 @@ Pour installer le package de base [!DNL Marketo Measure Salesforce], suivez les 
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
-Une fois l’installation terminée, vous pouvez mettre à jour vos dispositions de page [[!DNL Salesforce] &#x200B;](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} avec les champs [!DNL Marketo Measure], si vous le souhaitez.
+Une fois l’installation terminée, vous pouvez mettre à jour vos dispositions de page [[!DNL Salesforce] ](/help/configuration-and-setup/marketo-measure-and-salesforce/page-layout-instructions.md){target="_blank"} avec les champs [!DNL Marketo Measure], si vous le souhaitez.
 
 >[!NOTE]
 >

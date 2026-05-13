@@ -3,10 +3,13 @@ description: '[!DNL Marketo Measure] Exigence d’intégrité des données d’U
 title: Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 86%
+source-wordcount: 1703
+ht-degree: 78%
 
 ---
 
@@ -45,7 +48,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td>ID</td>
       <td>Oui</td>
-      <td>Par exemple : 123</td>
+      <td>E.g. - 123</td>
     </tr>
     <tr>
       <td></td>
@@ -53,7 +56,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -61,7 +64,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -98,7 +101,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -106,7 +109,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td>ID</td>
       <td>Oui</td>
-      <td>Par exemple : 55555</td>
+      <td>E.g. - 55555</td>
     </tr>
     <tr>
       <td></td>
@@ -114,7 +117,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -122,7 +125,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -210,7 +213,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 987654321@999-abc-888.Marketo</td>
+      <td>E.g. - 987654321@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -218,7 +221,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td>ID</td>
       <td>Oui</td>
-      <td>Par exemple : 987654321</td>
+      <td>E.g. - 987654321</td>
     </tr>
     <tr>
       <td></td>
@@ -226,7 +229,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -234,7 +237,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -258,7 +261,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 333@999-abc-888.Marketo</td>
+      <td>E.g. - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -267,7 +270,7 @@ ht-degree: 86%
       <td>ID de lead ou de contact</td>
       <td>Oui</td>
       <td>
-        <p>Par exemple : 333 (selon la table de la source de données, il s’agit de l’ID de lead ou de contact).</p>
+        <p>E.g. - 333, selon la table de source de données, il s’agit de l’ID de lead ou de l’ID de contact.</p>
         <p>Clé étrangère du lead ou du contact</p>
       </td>
     </tr>
@@ -277,7 +280,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -285,7 +288,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -293,7 +296,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -302,7 +305,7 @@ ht-degree: 86%
       <td>ID de la campagne</td>
       <td>Oui</td>
       <td>
-        <p>Par exemple : 55555.</p>
+        <p>E.g. - 55555.</p>
         <p>Clé étrangère de la campagne</p>
       </td>
     </tr>
@@ -312,7 +315,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -320,7 +323,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -381,7 +384,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -389,7 +392,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -458,7 +461,7 @@ ht-degree: 86%
       <td></td>
       <td>Non</td>
       <td>
-        <p>Par exemple : 123@999-abc-888.Marketo.</p>
+        <p>E.g. - 123@999-abc-888.Marketo.</p>
         <p>Les champs sourceAccountKey ne sont « obligatoires » que pour les véritables enregistrements de contacts, définis comme des enregistrements de personnes liés au compte. S’ils ne sont pas renseignés, le jeu de données n’est pas rejeté, mais les résultats de l’attribution seront incorrects.</p>
         <p>personComponents est un tableau, mais Marketo Measure utilise uniquement le premier élément personComponents[0]</p>
       </td>
@@ -470,7 +473,7 @@ ht-degree: 86%
       <td>Identifiant de compte</td>
       <td>Non</td>
       <td>
-        <p>Par exemple : 123.</p>
+        <p>E.g. - 123.</p>
         <p>Clé étrangère du compte</p>
       </td>
     </tr>
@@ -488,7 +491,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Non</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td colspan="7"><strong>Opportunité</strong> (opportunité pour Salesforce, opportunités pour Marketo)</td>
@@ -508,7 +511,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td>ID</td>
       <td>Oui</td>
-      <td>Par exemple : 77777</td>
+      <td>E.g. - 77777</td>
     </tr>
     <tr>
       <td></td>
@@ -516,7 +519,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -524,7 +527,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -557,7 +560,7 @@ ht-degree: 86%
       <td>Identifiant de compte</td>
       <td>Oui</td>
       <td>
-        <p>Par exemple : 123.</p>
+        <p>E.g. - 123.</p>
         <p>Clé étrangère du compte</p>
       </td>
     </tr>
@@ -567,7 +570,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -575,7 +578,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -674,7 +677,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -682,7 +685,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -717,7 +720,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -725,7 +728,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -749,7 +752,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -757,7 +760,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -809,7 +812,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 0x012345</td>
+      <td>E.g. - 0x012345</td>
     </tr>
     <tr>
       <td></td>
@@ -817,7 +820,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Salesforce</td>
+      <td>E.g. - SALESFORCE</td>
     </tr>
     <tr>
       <td></td>
@@ -874,7 +877,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td>ISOCode</td>
       <td>Oui</td>
-      <td>Par exemple : EUR</td>
+      <td>E.g. EUR</td>
     </tr>
     <tr>
       <td></td>
@@ -947,7 +950,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 333@999-abc-888.Marketo</td>
+      <td>E.g. - 333@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -957,7 +960,7 @@ ht-degree: 86%
       <td>ID de lead ou de contact</td>
       <td>Oui</td>
       <td>
-        <p>Par exemple : 333 (selon la table de la source de données, il s’agit de l’ID de lead ou de contact).</p>
+        <p>E.g. - 333, selon la table de source de données, il s’agit de l’ID de lead ou de l’ID de contact.</p>
         <p>Clé étrangère du lead ou du contact</p>
       </td>
     </tr>
@@ -968,7 +971,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -977,7 +980,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -986,7 +989,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui pour le type leadOperation.addToCampaign uniquement</td>
-      <td>Par exemple : 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -996,7 +999,7 @@ ht-degree: 86%
       <td>ID de la campagne</td>
       <td>Oui pour le type leadOperation.addToCampaign uniquement</td>
       <td>
-        <p>Par exemple : 55555.</p>
+        <p>E.g. - 55555.</p>
         <p>Clé étrangère de la campagne</p>
       </td>
     </tr>
@@ -1007,7 +1010,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui pour le type leadOperation.addToCampaign uniquement</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -1016,7 +1019,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui pour le type leadOperation.addToCampaign uniquement</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
     <tr>
       <td></td>
@@ -1025,7 +1028,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui pour le type leadOperation.campaignProgression uniquement</td>
-      <td>Par exemple : 55555@999-abc-888.Marketo</td>
+      <td>E.g. - 55555@999-abc-888.Marketo</td>
     </tr>
     <tr>
       <td></td>
@@ -1035,7 +1038,7 @@ ht-degree: 86%
       <td>ID de la campagne</td>
       <td>Oui pour le type leadOperation.campaignProgression uniquement</td>
       <td>
-        <p>Par exemple : 55555.</p>
+        <p>E.g. - 55555.</p>
         <p>Clé étrangère de la campagne</p>
       </td>
     </tr>
@@ -1046,7 +1049,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui pour le type leadOperation.campaignProgression uniquement</td>
-      <td>Par exemple : 999-abc-888</td>
+      <td>E.g. - 999-abc-888</td>
     </tr>
     <tr>
       <td></td>
@@ -1055,7 +1058,7 @@ ht-degree: 86%
       <td>Chaîne</td>
       <td></td>
       <td>Oui pour le type leadOperation.campaignProgression uniquement</td>
-      <td>Par exemple : Marketo</td>
+      <td>E.g. - MARKETO</td>
     </tr>
   </tbody>
 </table>

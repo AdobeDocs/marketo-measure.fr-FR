@@ -4,9 +4,11 @@ description: Utilisation du chargeur de données pour mettre à jour  [!DNL Mark
 title: Utilisation du chargeur de données pour mettre à jour le champ du montant personnalisé Marketo Measure
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/5guAGWeWMxJPm-vj8DYyHz2onjh3ERfzKtLcXNr0MM0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: 197
 ht-degree: 2%
 
 ---
@@ -23,7 +25,7 @@ ht-degree: 2%
    * Champ Personnalisé du montant de l’opportunité (champ de chiffre d’affaires préféré)
    * Champ [!DNL Marketo Measure] le montant de l’opportunité
 
-1. Copiez et collez les valeurs de votre champ de chiffre d’affaires préféré dans le champ [!UICONTROL [!DNL Marketo Measure] le montant de l’opportunité &#x200B;] . Mettez ensuite à jour ces opportunités à l’aide du fichier .csv.
+1. Copiez et collez les valeurs de votre champ de chiffre d’affaires préféré dans le champ [!UICONTROL [!DNL Marketo Measure] le montant de l’opportunité ] . Mettez ensuite à jour ces opportunités à l’aide du fichier .csv.
 
 **_Vous pouvez également accéder à Salesforce et utiliser une vue de liste personnalisée pour modifier en masse toutes les opportunités..._**
 

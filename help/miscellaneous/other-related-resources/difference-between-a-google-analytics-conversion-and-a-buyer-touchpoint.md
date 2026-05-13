@@ -4,9 +4,11 @@ description: Différence entre une conversion Google Analytics et un Buyer Touch
 title: Différence entre une conversion de Google Analytics et un point de contact acheteur
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/lgrksIiybtRf6YujoQci-RffEe5-wiEdX2BI71RaBYg
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: 496
 ht-degree: 5%
 
 ---
@@ -17,7 +19,7 @@ Découvrez ce qu’est un objectif [!DNL Google Analytics (GA)] et en quoi il se
 
 **Quelles sont les conversions de Google Analytics ?**
 
-Les conversions [!UICONTROL Google Analytics] sont déterminées par la manière dont un spécialiste marketing ou un développeur web code l’achèvement de l’« objectif » sur un site web particulier. Selon Google, les objectifs peuvent être considérés comme « effectuer un achat (pour un site d’e-commerce), remplir un niveau de jeu (pour une application de jeu mobile) ou envoyer un formulaire de coordonnées (pour un site de marketing ou de génération de pistes) ». La plupart du temps, les professionnels du marketing perçoivent les objectifs/conversions comme quelqu’un qui remplit un formulaire d’information.
+Les conversions  sont déterminées par la manière dont un spécialiste marketing ou un développeur web code l’achèvement de l’« objectif » sur un site web particulier. Selon Google, les objectifs peuvent être considérés comme « effectuer un achat (pour un site d’e-commerce), remplir un niveau de jeu (pour une application de jeu mobile) ou envoyer un formulaire de coordonnées (pour un site de marketing ou de génération de pistes) ». La plupart du temps, les professionnels du marketing perçoivent les objectifs/conversions comme quelqu’un qui remplit un formulaire d’information.
 
 Cependant, les objectifs ne peuvent pas être codés pour gérer un comportement spécifique. Il existe plutôt des types d’objectifs qu’un développeur web peut configurer. Voici quelques-uns de ces exemples :
 
@@ -36,7 +38,7 @@ Cependant, les objectifs ne peuvent pas être codés pour gérer un comportement
   <tr> 
    <td><p>Destination</p></td> 
    <td>Un emplacement spécifique se charge</td> 
-   <td><em> Merci de vous être inscrit !</em> page web ou écran de l’application</td> 
+   <td><em>Merci de vous être inscrit !</em> page web ou écran de l’application</td> 
   </tr> 
   <tr> 
    <td>Durée</td> 

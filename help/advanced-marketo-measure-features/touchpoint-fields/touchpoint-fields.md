@@ -4,9 +4,12 @@ description: Champs de point de contact - [!DNL Marketo Measure]
 title: Champs de point de contact
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: 1965
 ht-degree: 0%
 
 ---
@@ -44,7 +47,7 @@ Il existe un champ personnalisé sur le contact, campaign_source__c, que le clie
 Objectif : utilisez la valeur d’un champ personnalisé et placez-le sur l’objet Touchpoint pour faciliter la création de rapports.
 
 * Créez un champ calculé et libellez-le « Source de campagne »
-* Définissez la règle en commençant par rechercher le champ Contact.Campaign_Source__c
+* Définissez la règle en commençant par rechercher le champ Contact.Campaign___c
 * Utilisez l’opérateur « extracts », car nous devons extraire la valeur du paramètre .
 * Pour extraire la chaîne complète du champ , nous utiliserons l’expression « (.&#42;) »
 
@@ -88,7 +91,7 @@ Essayons un exemple similaire dans lequel nous extrayons un code de suivi tel qu
    * **(** marque le début de l’extraction)
    * **)** marque la fin de l’extraction
    * **\d** nous indique que nous extrayons un « chiffre »
-   * **{6}** correspond au nombre de caractères extraits
+   * **{6}** est le nombre de caractères extraits
 
 ![](assets/four.png)
 
@@ -107,7 +110,7 @@ Essayons un exemple similaire dans lequel nous extrayons un code de suivi tel qu
    * **(** marque le début de l’extraction)
    * **)** marque la fin de l’extraction
    * **\w** nous indique que nous extrayons un « mot »
-   * **{2}** correspond au nombre de caractères extraits
+   * **{2}** est le nombre de caractères extraits
 
 * Créez un champ calculé et libellez-le « Identifiant de campagne personnalisé »
 * Définissez la règle en commençant par rechercher le champ Touchpoint.Session.LandingPage .
@@ -117,7 +120,7 @@ Essayons un exemple similaire dans lequel nous extrayons un code de suivi tel qu
    * **(** marque le début de l’extraction)
    * **)** marque la fin de l’extraction
    * **\d** nous indique que nous extrayons un « chiffre »
-   * **{6}** correspond au nombre de caractères extraits
+   * **{6}** est le nombre de caractères extraits
 
 ![](assets/five.png)
 
@@ -140,7 +143,7 @@ Maintenant que nous avons appris à extraire et à mapper aux champs, combinons 
 * Créez un champ calculé et libellez-le « Région »
 * Définissez la règle en commençant par rechercher le champ Touchpoint.Session.LandingPage .
 * Utilisez l’opérateur « [!UICONTROL extracts] », car nous devons extraire la valeur du paramètre .
-* Pour extraire la valeur « 04 », nous définirons la valeur comme « BZ=(\d{2})-\d{2}-\d{2}-\d{2}-\d{2}-\d{2} »
+* Pour extraire la valeur « 04 », nous définirons la valeur comme « BZ=(\d{2})-\d{2}-\d{2}-\d{2}-\d{2} »
 
    * **(** marque le début de l’extraction)
 
@@ -149,7 +152,7 @@ Maintenant que nous avons appris à extraire et à mapper aux champs, combinons 
 
       * Notez que puisque nous extrayons uniquement les 4, seuls les premiers chiffres ont la parenthèse fermée
    * **\d** nous indique que nous extrayons un « chiffre »
-   * **{2}** correspond au nombre de caractères extraits
+   * **{2}** est le nombre de caractères extraits
 
 
 
@@ -162,10 +165,10 @@ Maintenant que nous avons appris à extraire et à mapper aux champs, combinons 
 * En fonction du mappage et de l’URL ci-dessus, la valeur « Region_Value » pour un point de contact avec cette page de destination est « EMEA »
 * Répétez l’extraction et le mappage pour les 4 ensembles de chiffres restants
 
-   * Pour extraire la valeur 01, définissez la valeur comme « BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\d{2} »
+   * Pour extraire le 01, définissez la valeur comme « BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\d{2} »
    * Pour extraire le 09, définissez la valeur comme « BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2} »
    * Pour extraire le 03, définissez la valeur comme « BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2} »
-   * Pour extraire le 10, vous devez définir la valeur comme « BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})** »
+   * Pour extraire le 10, définissez la valeur comme « BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})** »
 
 ![](assets/seven.png)
 

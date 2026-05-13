@@ -3,9 +3,12 @@ description: Bonnes pratiques relatives au modèle personnalisé  [!DNL Marketo 
 title: Bonnes pratiques relatives aux modèles personnalisés
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/p-O-xH6MR0SrtGh8Wa57g1stQHMNCgftQ-2BVnSi01I
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eb30f47f-d87a-400f-8f78-63ce7979ff56
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: 851
 ht-degree: 2%
 
 ---
@@ -69,6 +72,6 @@ D’autres raisons qui peuvent déclencher une révision de votre modèle person
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Modèle et configuration d’attribution personnalisés &#x200B;](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
+>* [ Modèle et configuration d’attribution personnalisés ](/help/advanced-marketo-measure-features/custom-attribution-models/custom-attribution-model-and-setup.md)
 >* [Activer Le Suivi De L’Historique Des Champs Pour Le Modèle Personnalisé](/help/advanced-marketo-measure-features/custom-attribution-models/custom-model-setup-enable-field-history-tracking.md)
->* [&#x200B; Modèle de machine learning &#x200B;](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)
+>* [ Modèle de machine learning ](/help/advanced-marketo-measure-features/custom-attribution-models/machine-learning-model-faq.md)

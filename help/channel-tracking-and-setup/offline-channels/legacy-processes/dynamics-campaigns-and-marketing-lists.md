@@ -4,9 +4,11 @@ description: Campagnes Dynamics et listes marketing - [!DNL Marketo Measure]
 title: Campagnes Dynamics et listes marketing
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/zIWhbgftyAxhDcIuaf-E4gUzeYO-L2tHJ-RVTifWZFM
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: 820
 ht-degree: 4%
 
 ---
@@ -29,7 +31,7 @@ Lorsque des leads ou des contacts sont directement ajoutés à une campagne, ils
 
 ## Activer les points de contact {#enable-touchpoints}
 
-Pour inclure ces enregistrements dans le parcours de point de contact, il existe quelques options pour les types de réponses de campagne à synchroniser. Dans l’enregistrement Campaign, il doit y avoir un champ personnalisé de la solution installée intitulé « [!UICONTROL &#x200B; Activer les points de contact de l’acheteur &#x200B;] ». Si vous ne le voyez pas, le champ doit être ajouté via l’éditeur de formulaire.
+Pour inclure ces enregistrements dans le parcours de point de contact, il existe quelques options pour les types de réponses de campagne à synchroniser. Dans l’enregistrement Campaign, il doit y avoir un champ personnalisé de la solution installée intitulé « [!UICONTROL  Activer les points de contact de l’acheteur ] ». Si vous ne le voyez pas, le champ doit être ajouté via l’éditeur de formulaire.
 
 ![](assets/2.png)
 

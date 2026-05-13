@@ -4,10 +4,12 @@ description: Bonnes pratiques pour la configuration des paramètres UTM -  [!DNL
 title: Bonnes pratiques pour la configuration des paramètres UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/DtL-NA5HSr40pOEJ0iCge--9Aa-reP1PRyJIw3qfAqM
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 86%
+source-wordcount: 459
+ht-degree: 83%
 
 ---
 
@@ -15,7 +17,7 @@ ht-degree: 86%
 
 Les paramètres UTM sont un excellent moyen de découper vos données marketing. [!DNL Marketo Measure] utilise et capture tous les paramètres UTM pour renseigner les champs dans Salesforce et dans l’application [!DNL Marketo Measure]. Grâce à ces informations, vous êtes en mesure de comprendre en détail l’origine de vos prospects, opportunités et offres fermées/gagnées.
 
-Vous pouvez utiliser le [Créateur d’URL Google](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"} pour configurer vos paramètres UTM et les ajouter à vos liens dans le cadre de vos efforts marketing. Utilisez cette feuille de calcul [Google](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si vous souhaitez un moyen plus facile de suivre tous vos liens UTM.
+Vous pouvez utiliser le [Créateur d’URL ](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"} pour configurer vos paramètres UTM et les ajouter à vos liens dans le cadre de vos efforts marketing. Utilisez cette feuille de calcul [](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si vous souhaitez un moyen plus facile de suivre tous vos liens UTM.
 
 ## Valeurs de haut niveau pour chaque paramètre {#high-level-values-for-each-parameter}
 
@@ -33,7 +35,7 @@ Restez simple. N’utilisez pas ce paramètre pour indiquer le type d’annonce 
 
 **utm_campaign** : ce champ est mappé sur le nom de la campagne publicitaire. Utilisez utm_campaign pour indiquer le titre de la campagne tel qu’il existe dans la plateforme publicitaire ou tel qu’il est référencé en interne.
 
-Il s’agit également d’un bon paramètre pour indiquer la géolocalisation, le type de réseau publicitaire (affichage vs recherche), etc.
+Il s’agit également d’un bon paramètre pour indiquer Géolocalisation, type de réseau publicitaire (display v. recherche), etc.
 
 Il est recommandé d’utiliser des traits de soulignement plutôt que des espaces et d’éviter d’utiliser la ponctuation. Cela réduit les risques d’erreurs de codage par les navigateurs lors de la lecture de vos paramètres.
 

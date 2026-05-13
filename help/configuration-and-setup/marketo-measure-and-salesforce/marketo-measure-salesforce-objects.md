@@ -4,9 +4,12 @@ description: '[!DNL Marketo Measure] des objets Salesforce - [!DNL Marketo Measu
 title: Objets Salesforce de [!DNL Marketo Measure]
 exl-id: d5d6f334-6531-40fa-b043-75b49d8f43d5
 feature: Salesforce
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/JCaHo-8eaHFN-8-nE0mXfgxpxaWP2-cmp-9DwdyW0xk
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: 941
 ht-degree: 5%
 
 ---
@@ -33,7 +36,7 @@ Les objets [!DNL Marketo Measure] se rapportent à des objets [!DNL Salesforce] 
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
-L’objet [!UICONTROL Buyer Touchpoint] (BT) raconte l’histoire marketing d’un individu. Il héberge toutes les données relatives aux points de contact marketing générés par les leads et les contacts. Le BT vous montre des informations telles que le canal marketing d’où provient le point de contact ou la campagne publicitaire qui a amené ce prospect/contact spécifique sur votre site web.
+L’objet  (BT) raconte l’histoire marketing d’un individu. Il héberge toutes les données relatives aux points de contact marketing générés par les leads et les contacts. Le BT vous montre des informations telles que le canal marketing d’où provient le point de contact ou la campagne publicitaire qui a amené ce prospect/contact spécifique sur votre site web.
 
 L’objet BT est visible sur les pages Leads et Contacts sous la forme d’une **Liste associée** (voir l’image ci-dessous).
 
@@ -43,7 +46,7 @@ La liste liée à BT affiche tous les points de contact appartenant au lead ou a
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-L’objet [!UICONTROL Buyer Attribution Touchpoint] raconte l’histoire des interactions marketing de vos contacts liées à une opportunité. Il affiche les données *attribution* liées aux points de contact marketing. Cet objet vous permet de voir le montant du crédit de revenu attribué à chaque point de contact marketing. Le type de modèle d’attribution que vous utilisez détermine le pourcentage de chiffre d’affaires attribué aux points de contact.
+L’objet  raconte l’histoire des interactions marketing de vos contacts liées à une opportunité. Il affiche les données *attribution* liées aux points de contact marketing. Cet objet vous permet de voir le montant du crédit de revenu attribué à chaque point de contact marketing. Le type de modèle d’attribution que vous utilisez détermine le pourcentage de chiffre d’affaires attribué aux points de contact.
 
 Les points de contact d’attribution de l’acheteur (BAT) ne sont créés qu’une fois qu’une opportunité est créée, laquelle concerne les contacts qui possèdent des données Buyer Touchpoint (BT). Les BAT ne seront pas créées sans une opportunité. Une fois l’opportunité créée, l’objet BAT utilise le champ [!DNL Salesforce] *Montant* de l’opportunité pour déterminer le montant du chiffre d’affaires à attribuer aux points de contact.
 

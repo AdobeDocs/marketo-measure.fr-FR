@@ -3,10 +3,14 @@ description: Demandes d'accès à des informations personnelles - [!DNL Marketo 
 title: Demandes d’accès à des informations personnelles
 exl-id: 883e475f-9868-412a-b505-230556f38484
 feature: APIs, Tracking
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/y6cWoJaRD7Tf1o4-aCY9MJdcLGt4RVF-ATuiFpAxyWI
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 25%
+source-wordcount: 284
+ht-degree: 26%
 
 ---
 
@@ -16,10 +20,10 @@ Ce document présente la gestion des demandes individuelles d’accès à des in
 
 Vous pouvez soumettre des requêtes individuelles pour accéder aux données des clients et les supprimer de [!DNL Marketo Measure] de deux manières :
 
-* Via l’[[!DNL Privacy Service] IU](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=fr){target="_blank"}.
-* Via l’API **[!DNL Privacy Service]**. Consultez la documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=fr){target="_blank"} et la référence de l’API [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
+* Via l’[[!DNL Privacy Service] IU](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target="_blank"}.
+* Via l’API **.**[!DNL Privacy Service] Consultez la documentation [ici](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target="_blank"} et la référence de l’API [ici](https://developer.adobe.com/experience-platform-apis/references/privacy-service/){target="_blank"}.
 
-[Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"} prend en charge deux types de demandes : l&#39;accès aux données et la suppression des données.
+[](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr){target="_blank"} prend en charge deux types de demandes : l&#39;accès aux données et la suppression des données.
 
 Voyons comment créer des demandes d’accès et de suppression.
 
@@ -29,7 +33,7 @@ Pour envoyer des demandes d’accès et de suppression de données pour [!DNL Ma
 
 1. Identifier les éléments suivants :
 
-   a. ID d’organisation IMS
+   a. Identifiant de l’organisation IMS
 
    b. Adresse e-mail de la personne sur laquelle vous souhaitez agir
 

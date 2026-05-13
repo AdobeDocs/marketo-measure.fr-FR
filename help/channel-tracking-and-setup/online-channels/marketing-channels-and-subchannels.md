@@ -4,10 +4,13 @@ description: Canaux et sous-canaux marketing -  [!DNL Marketo Measure]
 title: Canaux et sous-canaux marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 100%
+source-wordcount: 453
+ht-degree: 93%
 
 ---
 
@@ -39,7 +42,7 @@ Le canal marketing est le niveau de classification le plus large et peut englobe
 
 **Sous-canal**
 
-Les sous-canaux constituent la deuxième pièce du puzzle lors du regroupement de vos prospects entrants. Les sous-canaux indiquent exactement _quelle_ itération de votre canal marketing a été utilisée. Par exemple, dans le canal marketing de référencement social payant, vous pouvez disposer de sous-canaux pour **AdWords**, **BingAds**, **Facebook**, etc. Le sous-canal correspond généralement à la valeur du paramètre utm_source qui se trouve dans votre URL.
+Les sous-canaux constituent la deuxième pièce du puzzle lors du regroupement de vos prospects entrants. Les sous-canaux indiquent exactement _quelle_ itération de votre canal marketing a été utilisée. Par exemple, dans le canal marketing des médias sociaux payants, vous pouvez avoir des sous-canaux pour **AdWords**, **BingAds**, **Facebook**, etc. Le sous-canal correspond généralement à la valeur du paramètre utm_source qui se trouve dans votre URL.
 
 ## Exemple de cas d’utilisation {#use-case-example}
 

@@ -4,10 +4,14 @@ description: Création  [!DNL Marketo Measure]  Types De Rapports Personnalisés
 title: 'Création de types de rapports personnalisés dans [!DNL Marketo Measure] '
 exl-id: 1d72a04f-6a2d-4607-ad09-3b025125156a
 feature: Reporting
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/9EUfRTrISEMdz70ZgJE5MjP1bworxRqnFZVnjYEmSio
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 5%
+source-wordcount: 370
+ht-degree: 6%
 
 ---
 
@@ -17,7 +21,7 @@ ht-degree: 5%
 >
 >Vous pouvez voir des instructions spécifiant « [!DNL Marketo Measure] » dans la documentation, mais toujours voir « [!DNL Bizible] » dans votre CRM. Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
 
-Découvrez comment créer des types de rapports [!DNL Marketo Measure] [!DNL Salesforce] personnalisés. Nous recommandons de créer trois types de rapports différents : Leads avec points de contact d’acheteur (personnalisés), Personne [!DNL Marketo Measure] avec points de contact d’acheteur (personnalisés), Opportunités avec Buyer Attribution Touchpoint (personnalisées).
+Découvrez comment créer des types de rapports [!DNL Salesforce] [!DNL Marketo Measure] personnalisés. Nous recommandons de créer trois types de rapports différents : Leads avec points de contact d’acheteur (personnalisés), Personne [!DNL Marketo Measure] avec points de contact d’acheteur (personnalisés), Opportunités avec Buyer Attribution Touchpoint (personnalisées).
 
 ## Leads avec points de contact d’acheteur (personnalisés) {#leads-with-buyer-touchpoints-custom}
 
@@ -27,7 +31,7 @@ Découvrez comment créer des types de rapports [!DNL Marketo Measure] [!DNL Sal
 
 1. Définissez le type de rapport personnalisé.
 
-   * [!UICONTROL Focus sur le type de rapport] > [!UICONTROL [!UICONTROL Objet de Principal &#x200B;]] : lead
+   * [!UICONTROL Focus sur le type de rapport] > [!UICONTROL [!UICONTROL Objet de Principal ]] : lead
    * Identification > [!UICONTROL Libellé de type de rapport] : leads avec des points de contact d’acheteur (personnalisés)
    * [!UICONTROL Stocker dans la catégorie] : autres rapports
    * [!UICONTROL Déploiement] > [!UICONTROL Statut du déploiement] : déployé
@@ -37,8 +41,8 @@ Découvrez comment créer des types de rapports [!DNL Marketo Measure] [!DNL Sal
 1. Définissez les relations de l’objet.
 
    * Mettre en relation l’objet de lead (A) avec l’objet de personne [!DNL Marketo Measure] (B), puis avec l’objet de Buyer Touchpoint (C)
-   * Assurez-vous que « [!UICONTROL &#x200B; Chaque enregistrement A/B doit avoir au moins un enregistrement B/C &#x200B;] » est sélectionné
-   * [!UICONTROL Enregistrer &#x200B;]
+   * Assurez-vous que « [!UICONTROL  Chaque enregistrement A/B doit avoir au moins un enregistrement B/C ] » est sélectionné
+   * [!UICONTROL Enregistrer]
 
    ![](assets/3.png)
 
@@ -50,7 +54,7 @@ Découvrez comment créer des types de rapports [!DNL Marketo Measure] [!DNL Sal
 
 1. Définissez le type de rapport personnalisé.
 
-   * [!UICONTROL Focus du type de rapport] > [!UICONTROL Objet de Principal &#x200B;] : [!DNL Marketo Measure] personnes
+   * [!UICONTROL Focus du type de rapport] > [!UICONTROL Objet de Principal ] : [!DNL Marketo Measure] personnes
    * [!UICONTROL Identification] > [!UICONTROL Étiquette de type de rapport] : [!DNL Marketo Measure] personne avec des points de contact d’acheteur (personnalisé)
    * [!UICONTROL Stocker dans la catégorie] : autres rapports
    * [!UICONTROL Déploiement] > [!UICONTROL Statut du déploiement] : déployé
@@ -61,7 +65,7 @@ Découvrez comment créer des types de rapports [!DNL Marketo Measure] [!DNL Sal
 
    * Associez l’objet Personne [!DNL Marketo Measure] (A) à l’objet Buyer Touchpoint (B)
    * Assurez-vous que « [!UICONTROL Chaque enregistrement A doit avoir au moins un enregistrement B] » est sélectionné
-   * [!UICONTROL Enregistrer &#x200B;]
+   * [!UICONTROL Enregistrer]
 
    ![](assets/6.png)
 
@@ -73,7 +77,7 @@ Découvrez comment créer des types de rapports [!DNL Marketo Measure] [!DNL Sal
 
 1. Définissez le type de rapport personnalisé.
 
-   * [!UICONTROL Focus sur le type de rapport] > [!UICONTROL Objet de Principal &#x200B;] : Opportunités
+   * [!UICONTROL Focus sur le type de rapport] > [!UICONTROL Objet de Principal ] : Opportunités
    * [!UICONTROL Identification] > [!UICONTROL Libellé de type de rapport] : opportunités avec Buyer Attribution Touchpoint (personnalisé)
    * [!UICONTROL Stocker dans la catégorie] : autres rapports
    * [!UICONTROL Déploiement] > [!UICONTROL Statut du déploiement] : déployé
@@ -84,7 +88,7 @@ Découvrez comment créer des types de rapports [!DNL Marketo Measure] [!DNL Sal
 
    * Mettre en relation l’objet Opportunités (A) avec l’objet Buyer Attribution Touchpoint (B)
    * Assurez-vous que « [!UICONTROL Chaque enregistrement A doit avoir au moins un enregistrement B] » est sélectionné
-   * [!UICONTROL Enregistrer &#x200B;]
+   * [!UICONTROL Enregistrer]
 
    ![](assets/9.png)
 
@@ -94,6 +98,6 @@ Découvrez comment créer des types de rapports [!DNL Marketo Measure] [!DNL Sal
 
    ![](assets/10.png)
 
-1. Assurez-vous que les champs personnalisés que vous souhaitez ajouter au rapport apparaissent dans la section Propriétés de la disposition du champ . Si vous souhaitez ajouter d’autres champs, utilisez l’option « [!UICONTROL &#x200B; Ajouter des champs liés par le biais de la recherche »].
+1. Assurez-vous que les champs personnalisés que vous souhaitez ajouter au rapport apparaissent dans la section Propriétés de la disposition du champ . Si vous souhaitez ajouter d’autres champs, utilisez l’option « [!UICONTROL  Ajouter des champs liés par le biais de la recherche »].
 
    ![](assets/11.png)

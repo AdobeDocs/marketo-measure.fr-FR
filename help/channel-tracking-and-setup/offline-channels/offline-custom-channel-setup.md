@@ -4,10 +4,14 @@ description: Configuration de canal personnalisé hors ligne - [!DNL Marketo Mea
 title: Configuration de canal personnalisé hors ligne
 exl-id: c5697714-1a79-40bd-8b7c-e10768f4ef67
 feature: Channels
-source-git-commit: 666812e8bf095170d611cd694b5d0ac5151d8fdd
+TQID: https://experienceleague.adobe.com/L-mkNzo9yTir-EzNiX-a9ylKKZoKAs0nIXdu39YnLT4
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 1%
+source-wordcount: 900
+ht-degree: 2%
 
 ---
 
@@ -21,7 +25,7 @@ La feuille de calcul comporte trois colonnes :
 
 ![](assets/1-2.png)
 
-**[!UICONTROL Salesforce &#x200B;] type de campagne** - ajoutez les types de campagne identifiés dans [!DNL Salesforce] ici
+**[!UICONTROL Salesforce ] type de campagne** - ajoutez les types de campagne identifiés dans [!DNL Salesforce] ici
 
 * Il peut s’agir, par exemple, d’un e-mail, d’un webinaire, d’une conférence ou de toute autre valeur que vous avez créée pour ce champ auquel vous souhaitez attribuer des points de contact.
 
@@ -77,7 +81,7 @@ Une fois que vous avez modifié et mis à jour la feuille de calcul avec vos rè
 
 >[!TIP]
 >
->Vous souhaitez déterminer _quand_ un type de campagne [!DNL Salesforce] est extrait dans [!DNL Marketo Measure] mappage de canal ? Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir quelles valeurs se trouvent dans la liste de sélection et lesquelles sont inactives. Les canaux inactifs ne s’affichent pas en tant que type sélectionnable dans notre section « [!UICONTROL &#x200B; Canaux hors ligne &#x200B;] ». Notez que ce processus peut prendre de quelques minutes à 48 heures.
+>Vous souhaitez déterminer _quand_ un type de campagne [!DNL Salesforce] est extrait dans [!DNL Marketo Measure] mappage de canal ? Accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Campagnes]** > **[!UICONTROL Champs]** > **[!UICONTROL Type]**. Vous pouvez ensuite voir quelles valeurs se trouvent dans la liste de sélection et lesquelles sont inactives. Les canaux inactifs ne s’affichent pas en tant que type sélectionnable dans notre section « [!UICONTROL  Canaux hors ligne ] ». Notez que ce processus peut prendre de quelques minutes à 48 heures.
 
 Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé. [!DNL Marketo Measure] chargerez les modifications et retraiterez les données.
 
@@ -85,6 +89,6 @@ Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé. [!DNL Marke
 >
 >* [[!DNL Marketo Measure] Tutoriels : Mappage de canaux hors ligne](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/mapping-offline-channels){target="_blank"}
 >
->* [[!DNL Marketo Measure] Tutoriels : Synchroniser des campagnes hors ligne](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
+>* [[!DNL Marketo Measure] Tutoriels : Synchroniser des campagnes hors ligne](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
->* [Intégration des programmes Marketo Engage](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
+>* [Intégration des programmes ](/help/marketo-measure-and-marketo/marketo-measure-integrations-with-marketo/marketo-engage-programs-integration.md#channel-mapping){target="_blank"}
