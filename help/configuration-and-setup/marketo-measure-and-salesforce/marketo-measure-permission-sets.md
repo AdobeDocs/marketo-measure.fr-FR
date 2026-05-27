@@ -5,10 +5,8 @@ title: Jeux d’autorisations [!DNL Marketo Measure]
 exl-id: 84b7aa24-3934-4584-af05-02e804d00a98
 feature: Salesforce
 TQID: https://experienceleague.adobe.com/Taoe3f0JfNQ6R-zdMVPJsbdswgNuii-XAyzEsb4MdCk
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 271
@@ -40,7 +38,7 @@ Pour accéder aux jeux d’autorisations et les attribuer dans Salesforce :
  <tbody> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Administrateur</strong></span></td> 
-   <td><span>Permet à un administrateur SFDC de créer, lire, écrire et supprimer des enregistrements des objets [!DNL Marketo Measure]. Ce jeu d’autorisations doit être activé pour la licence sous laquelle [!DNL Marketo Measure] transmet des données à SFDC. En outre, il est recommandé que cette licence ait la possibilité de modifier les prospects convertis dans les scénarios où le prospect est converti avant d’appliquer [!DNL Marketo Measure] données à l’enregistrement. Cela garantit la précision des rapports entre Salesforce et [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&type=5&release=206&language=en_us">En savoir plus ici</a>.</span></td> 
+   <td><span>Permet à un administrateur SFDC de créer, lire, écrire et supprimer des enregistrements des objets [!DNL Marketo Measure]. Ce jeu d’autorisations doit être activé pour la licence sous laquelle [!DNL Marketo Measure] transmet des données à SFDC. En outre, il est recommandé que cette licence ait la possibilité de modifier les prospects convertis dans les scénarios où le prospect est converti avant d’appliquer [!DNL Marketo Measure] données à l’enregistrement. Cela garantit la précision des rapports entre Salesforce et [!DNL Marketo Measure]. <a href="https://help.salesforce.com/articleView?id=release-notes.rn_sales_leads_view_converted.htm&amp;type=5&amp;release=206&amp;language=en_us">En savoir plus ici</a>.</span></td> 
   </tr> 
   <tr> 
    <td><span><strong>[!DNL Marketo Measure] Utilisateur marketing</strong></span></td> 
