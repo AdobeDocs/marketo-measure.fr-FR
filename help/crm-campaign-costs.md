@@ -30,7 +30,7 @@ Si une valeur est manquante dans l’un des 3 champs, [!DNL Marketo Measure] n�
 
 Pour [!DNL Marketo Measure] de déterminer la répartition d’une campagne sur plusieurs mois, les dates de début et de fin de la campagne sont utilisées pour répartir uniformément le montant par jour.
 
-![Pour que Marketo Measure détermine la répartition d’une campagne sur &#x200B;](assets/spend-management-3.jpg)
+![Pour que Marketo Measure détermine la répartition d’une campagne sur ](assets/spend-management-3.jpg)
 
 Dans cet exemple, une campagne dure 109 jours, donc avec un coût total de 18 000 $, les dépenses quotidiennes s’élèvent à environ 165,14 $.
 
@@ -74,7 +74,7 @@ Toute modification du coût ou de la distribution doit être effectuée dans le 
 
 **La date de début, la date de fin et le coût sont renseignés, mais pourquoi mes coûts ne sont-ils toujours pas affichés dans [!DNL Marketo Measure] ?**
 
-Vérifiez que la valeur « Activer Buyer Touchpoint » est définie sur « Inclure tous les membres de la campagne » ou au moins sur « Inclure les membres de la campagne « Répondus » », ou que vous avez créé une règle de synchronisation de campagne personnalisée qui inclut cette campagne. Si vous l’avez confirmé et que vous ne voyez toujours pas la campagne, contactez l’assistance technique de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} afin que nous puissions vérifier que vos campagnes sont correctement importées.
+Vérifiez que la valeur « Activer Buyer Touchpoint » est définie sur « Inclure tous les membres de la campagne » ou au moins sur « Inclure les membres de la campagne « Répondus » », ou que vous avez créé une règle de synchronisation de campagne personnalisée qui inclut cette campagne. Si vous l’avez confirmé et que vous ne voyez toujours pas la campagne, contactez l’assistance technique de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} afin que nous puissions vérifier que vos campagnes sont correctement importées.
 
 **Je dois modifier la répartition de ma campagne afin de pouvoir la pondérer plus lourdement certains mois. Comment est-ce que je fais ça ?**
 

@@ -28,5 +28,5 @@ Vous pouvez voir pour l’ID de personne [!DNL Marketo Measure] de kelsey@adobe.
 
 **Recommandation**
 
-* Pour optimiser le retour sur investissement de vos rapports , nous vous recommandons d’utiliser un outil de déduplication dans votre CRM afin de vous assurer que vous ne créez que de nouveaux enregistrements uniques. Vous pouvez le faire avec votre outil d&#39;automatisation du marketing ou un logiciel distinct installé dans votre CRM. [!DNL Marketo Measure] ne déduplique pas automatiquement les enregistrements et n&#39;offre pas ce service via notre logiciel.
+* Pour optimiser le retour sur investissement de vos rapports , nous vous recommandons d’utiliser un outil de déduplication dans votre CRM afin de vous assurer que vous ne créez que de nouveaux enregistrements uniques. Pour ce faire, utilisez votre outil d’automatisation du marketing ou un logiciel distinct installé dans votre CRM. [!DNL Marketo Measure] ne déduplique pas automatiquement les enregistrements et n&#39;offre pas ce service via notre logiciel.
 * Une autre option consiste à fusionner manuellement les enregistrements au fur et à mesure que vous identifiez les doublons. Ce processus peut être long et fastidieux, mais le résultat d’un compte rendu des performances précis vaut la peine d’être investi en temps.

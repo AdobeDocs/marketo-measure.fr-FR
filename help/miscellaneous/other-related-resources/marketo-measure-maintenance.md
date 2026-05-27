@@ -5,12 +5,8 @@ title: Maintenance de [!DNL Marketo Measure]
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
 TQID: https://experienceleague.adobe.com/VEBJQ-MEYJv0wmkGV9kcLO42qQ25ibwinCGYOP5Kk-k
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: beb7a3c1-66ab-4786-b879-7621375b3c40id: eb30f47f-d87a-400f-8f78-63ce7979ff56
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 636
@@ -34,7 +30,7 @@ Pour un rappel sur la façon de charger des informations sur les coûts, lisez [
 
 **Mettre à jour la liste des domaines à suivre (1 fois par mois)**
 
-Marketo Measure suit toutes les pages et tous les sous-domaines dans lesquels notre code Javascript est actif, mais seulement pour les domaines que nous connaissons. Si vous avez récemment débogué un nouveau domaine, étendu à l&#39;international ou modifié votre domaine principal, contactez l&#39;assistance de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour vous assurer que nous mettons à jour votre compte en conséquence.
+Marketo Measure suit toutes les pages et tous les sous-domaines dans lesquels notre code Javascript est actif, mais seulement pour les domaines que nous connaissons. Si vous avez récemment débogué un nouveau domaine, étendu à l&#39;international ou modifié votre domaine principal, contactez l&#39;assistance de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour vous assurer que nous mettons à jour votre compte en conséquence.
 
 **Vérifier l’exactitude du mappage des canaux personnalisés (1 fois par mois)**
 

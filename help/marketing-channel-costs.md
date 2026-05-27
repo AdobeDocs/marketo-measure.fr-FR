@@ -77,11 +77,11 @@ Une fois les canaux et les règles marketing configurés ou mis à jour, les co�
 
 Accédez au menu **[!UICONTROL Mon compte]**, cliquez sur **[!UICONTROL Paramètres]**, puis accédez à l’option **[!UICONTROL Dépenses marketing]** dans la barre latérale gauche sous la section **[!UICONTROL Reporting]**.
 
-![Accédez au menu Mon compte, cliquez sur Paramètres, puis sur &#x200B;](assets/spend-management-4.png)
+![Accédez au menu Mon compte, cliquez sur Paramètres, puis sur ](assets/spend-management-4.png)
 
 **Étape 2 : télécharger le fichier CSV des coûts actuels**
 
-Accédez à la droite de l’écran et cliquez sur **[!UICONTROL Télécharger les coûts actuels &#x200B;].** Cette option permet de télécharger une feuille de calcul au format CSV.
+Accédez à la droite de l’écran et cliquez sur **[!UICONTROL Télécharger les coûts actuels ].** Cette option permet de télécharger une feuille de calcul au format CSV.
 
 ![Accédez à la droite de l’écran, puis cliquez sur Télécharger la version actuelle](assets/spend-management-1.png)
 
@@ -95,7 +95,7 @@ Vérifiez les règles logiques dans votre feuille. Chaque ligne doit contenir un
 
 Par exemple, pour indiquer Facebook comme sous-canal et social comme canal, la règle doit être écrite comme suit : « Social.Facebook ». De même, pour effectuer le suivi d’un événement hors ligne, la syntaxe du canal doit être : « Events.Big Conference » (Événements.Grande conférence). Des exemples sont présentés dans l’image ci-dessous :
 
-![Par exemple, pour indiquer Facebook comme sous-canal et social comme &#x200B;](assets/spend-management-2.png)
+![Par exemple, pour indiquer Facebook comme sous-canal et social comme ](assets/spend-management-2.png)
 
 _Remarques supplémentaires_ :
 

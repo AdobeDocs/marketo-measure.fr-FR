@@ -5,12 +5,9 @@ title: Intégration des personnes [!DNL Marketo Engage]
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
 TQID: https://experienceleague.adobe.com/h5Fe8tfw6VkKLRgKVdgKDRrhK91iVtkGSkrwU-W5SKw
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2:
-  - id: c8f57308-7e33-4e41-a385-b55041c78939
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 878
@@ -27,7 +24,7 @@ L’intégration des personnes de Marketo [!DNL Marketo Measure] permet de comme
 * Instance de Marketo de production
 * [!DNL Salesforce] de production ou instance de [!DNL Microsoft Dynamics]
 * Tout abonnement [!DNL Marketo Measure] payant
-* SOLR activé (contactez l’assistance technique de [&#128279;](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"} pour que cela soit activé)
+* SOLR activé (contactez l’assistance technique de [](https://nation.marketo.com/t5/Support/ct-p/Support){target="_blank"} pour que cela soit activé)
 
 ## Fonctionnement {#how-it-works}
 
@@ -91,7 +88,7 @@ Lors de la création de rapports sur les prospects (personnes) dans [!DNL Market
   </tr> 
   <tr> 
    <td><p>IS_CONVERTED</p></td> 
-   <td><p>s/o</p></td> 
+   <td><p>S.O.</p></td> 
   </tr> 
   <tr> 
    <td><p>ACCOUNT_ID</p></td> 
