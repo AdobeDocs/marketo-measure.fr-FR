@@ -27,7 +27,7 @@ Pour un rappel sur la façon de charger des informations sur les coûts, lisez [
 
 **Mettre à jour la liste des domaines à suivre (1 fois par mois)**
 
-Marketo Measure suit toutes les pages et tous les sous-domaines dans lesquels notre code Javascript est actif, mais seulement pour les domaines que nous connaissons. Si vous avez récemment débogué un nouveau domaine, étendu à l&#39;international ou modifié votre domaine principal, contactez l&#39;assistance de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour vous assurer que nous mettons à jour votre compte en conséquence.
+Marketo Measure suit toutes les pages et tous les sous-domaines dans lesquels notre code Javascript est actif, mais seulement pour les domaines que nous connaissons. Si vous avez récemment débogué un nouveau domaine, étendu à l&#39;international ou modifié votre domaine principal, contactez l&#39;assistance de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour vous assurer que nous mettons à jour votre compte en conséquence.
 
 **Vérifier l’exactitude du mappage des canaux personnalisés (1 fois par mois)**
 

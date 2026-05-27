@@ -24,7 +24,7 @@ Une fois que le compte [!DNL Marketo Measure] est créé et que [!DNL Salesforce
 
 Si vous n’avez pas installé le package [!DNL Marketo Measure] Salesforce, [!DNL Marketo Measure] n’écrit aucune donnée sur votre instance Salesforce.
 
-![Si vous n’avez pas installé le package Marketo Measure Salesforce, ](assets/bizible-full-1.png)
+![Si vous n’avez pas installé le package Marketo Measure Salesforce, &#x200B;](assets/bizible-full-1.png)
 
 Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d’API chaque fois qu’une tâche envoie des données à votre CRM. Pour la majeure partie de la clientèle, cela permet d’obtenir un équilibre optimal entre les crédits d’API consommés par [!DNL Marketo Measure] et les exigences en matière de ressources du processeur sur le CRM. Toutefois, pour la clientèle disposant de configurations CRM complexes, comme les workflows et les triggers, une taille de lot réduite peut se révéler utile pour améliorer les performances CRM. À cette fin, [!DNL Marketo Measure] permet à la clientèle de configurer la taille du lot d’export CRM. Ce paramètre est disponible à la page [!UICONTROL Paramètres] > [!UICONTROL CRM] > [!UICONTROL Général] de l’application web [!DNL Marketo Measure]. Il est ainsi possible de choisir entre des tailles de lot de 200 (par défaut), 100, 50 ou 25.
 

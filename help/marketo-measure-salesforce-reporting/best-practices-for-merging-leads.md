@@ -24,4 +24,4 @@ S’il existe plusieurs enregistrements avec des données [!DNL Marketo Measure]
 
 Pour toute question, n’hésitez pas à contacter l’équipe du compte Adobe (votre gestionnaire de compte) ou l’assistance de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
-![Si vous avez des questions, n&#39;hésitez pas à contacter le ](assets/additional-functionality-8.jpg)
+![Si vous avez des questions, n&#39;hésitez pas à contacter le &#x200B;](assets/additional-functionality-8.jpg)

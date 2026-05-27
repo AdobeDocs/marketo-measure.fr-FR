@@ -87,7 +87,7 @@ Pour commencer à utiliser le SEP, vous devez ajouter le champ SEP et la liste a
 1. Ensuite, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Personnaliser]** > **[!UICONTROL Prospect]** > **[!UICONTROL Mise de page]** et sélectionnez les mises en page appropriées que vous souhaitez modifier.
 1. Cliquez sur **[!UICONTROL Champs]** et ajoutez le champ [!UICONTROL Compte] à l’endroit qui vous convient sur la page.
 
-   ![1. Cliquez sur Champs et ajoutez le champ Compte où vous ](assets/account-marketing-5.png)
+   ![1. Cliquez sur Champs et ajoutez le champ Compte où vous &#x200B;](assets/account-marketing-5.png)
 
 Tout est prêt !
 
