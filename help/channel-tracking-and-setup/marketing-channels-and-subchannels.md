@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 62%
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ Pour définir ce que sont un canal et un sous-canal dans [!DNL Marketo Measure],
 
 ## Vue d’ensemble {#overview}
 
-Les canaux marketing sont utilisés pour classer (ou « regrouper ») vos activités marketing afin de faciliter la création de rapports, à la fois dans le tableau de bord de retour sur investissement [!DNL Marketo Measure] et dans votre CRM. [!DNL Marketo Measure] est fourni avec 12 canaux prêts à l’emploi (que vous pouvez personnaliser/renommer en fonction des conventions de votre entreprise), ainsi que la possibilité de créer des canaux personnalisés pour un filtrage encore plus granulaire.
+Les canaux marketing permettent de classer (ou de « regrouper ») vos activités marketing afin de faciliter la création de rapports, aussi bien dans le tableau de bord Retour sur investissement de [!DNL Marketo Measure] que dans votre CRM. [!DNL Marketo Measure] s’accompagne de 12 canaux prêts à l’emploi (que vous pouvez personnaliser/renommer pour les adapter aux conventions de votre entreprise), ainsi que de la possibilité de créer d’autres canaux personnalisés pour un filtrage encore plus précis.
 
 Chaque fois que vous recevez une visite sur l’une des pages de contenu de votre site (qu’il s’agisse d’une page web, d’un téléchargement de livre blanc, d’une URL de page, etc.), ce prospect est « regroupé » dans un canal/sous-canal en fonction de plusieurs paramètres UTM trouvés dans l’URL :
 
@@ -45,11 +45,11 @@ Les sous-canaux constituent la deuxième pièce du puzzle lors du regroupement d
 
 Le diagramme ci-dessous illustre un exemple de canal marketing, de sous-canal et de contenu basé sur une page web avec l’URL suivante :
 
-* [http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+* [](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
-Dans ce cas, le contenu auquel l’utilisateur tente d’accéder est le Guide d’introduction à l’attribution marketing B2B. [!DNL Marketo Measure] analysera l’URL menant à ce contenu à l’aide des règles de canal configurées dans cette organisation et les utilisera pour « regrouper » ce prospect dans le canal marketing « Paid Social » et le sous-canal « LinkedIn ».
+Dans ce cas, le contenu auquel l’utilisateur ou l’utilisatrice tente d’accéder est le Guide d’introduction à l’attribution marketing B2B. [!DNL Marketo Measure] analyse l’URL qui mène à ce contenu à l’aide des règles de canal configurées dans cette organisation et les utilise pour « regrouper » ce prospect dans le canal marketing « Référencement social payant » et le sous-canal « LinkedIn ».
 
-![Dans ce cas, le contenu auquel l’utilisateur tente d’accéder est &#x200B;](assets/online-channels-1.png)
+![Dans ce cas, le contenu auquel l’utilisateur tente d’accéder est ](assets/online-channels-1.png)
 
 Autres exemples...
 

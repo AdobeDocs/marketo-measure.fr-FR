@@ -6,19 +6,19 @@ feature: Account-based Marketing
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 83%
+ht-degree: 92%
 
 ---
 
 # Vue d’ensemble du marketing basé sur les comptes {#account-based-marketing-overview}
 
-Les sections suivantes fournissent une brève vue d’ensemble d’ABM, des composants de la fonctionnalité ABM de [!DNL Marketo Measure] et de la manière de l’ajouter à votre disposition de page [!DNL Salesforce]. Pour en savoir plus sur ABM, consultez le [blog ABM](https://business.adobe.com/fr/blog/basics/account-based-marketing){target="_blank"} d’Adobe.
+Les sections suivantes fournissent une brève vue d’ensemble d’ABM, des composants de la fonctionnalité ABM de [!DNL Marketo Measure] et de la manière de l’ajouter à votre disposition de page [!DNL Salesforce]. Pour en savoir plus sur ABM, consultez le [blog ABM](https://business.adobe.com/blog/basics/account-based-marketing){target="_blank"} d’Adobe.
 
 Pour obtenir des instructions détaillées sur la configuration d’ABM dans votre instance [!DNL Salesforce], consultez [Configuration de la disposition de page d’ABM dans Salesforce](/help/channel-tracking-and-setup/account-based-marketing-overview.md){target="_blank"}.
 
 ## Présentation d’ABM {#what-is-abm}
 
-Le marketing basé sur les comptes, ou ABM, est une stratégie de marketing dans laquelle vous ciblez et vendez aux entreprises et aux comptes dans leur ensemble, et pas seulement en tant qu&#39;individus. [!DNL Marketo Measure] aide les équipes marketing et commerciales à exécuter des stratégies ABM réussies avec sa fonctionnalité de mappage des prospects et de compte et son score d’engagement prédictif.
+Le marketing basé sur les comptes, ou ABM, est une stratégie marketing dans laquelle vous ciblez et vendez à des entreprises et des comptes dans leur ensemble, pas seulement en tant que particuliers. [!DNL Marketo Measure] aide les équipes de marketing et de vente à exécuter des stratégies d’ABM réussies grâce à sa fonctionnalité de mappage prospect>compte et son score d’engagement prédictif.
 
 Pour que notre modèle Account-Based Marketing commence à s’afficher dans votre CRM, [!DNL Marketo Measure] nécessite que les critères suivants soient remplis :
 
@@ -68,7 +68,7 @@ De nombreux composants entrent dans l’algorithme qui calcule le SEP. La récen
 >
 >Vous remarquerez peut-être la mention « S/O » ou « - » (symbole du tiret) dans votre score d’engagement prédictif pour certains comptes.
 
-_Une note de « S/O » signifie simplement qu&#39;il n&#39;y a pas suffisamment de données sur ce compte pour que le modèle génère une vraie note - avec plus de données, une note est donnée finalement._
+_La mention « S/O » signifie simplement qu’il n’y a pas de données suffisantes sur ce compte pour que le modèle génère un score réel. Lorsqu’il dispose de données supplémentaires, il lui attribue un score._
 _Un grade de « - » (symbole tiret) signifie que ce compte doit encore être traité par le processus ABM, en raison de contraintes de temps, de processus parfois manqués, etc. Si vous pensez qu’un compte doit avoir un score, basé sur d’autres comptes ou périodes similaires, contactez et informez [!DNL Marketo Measure]._
 
 ## Configurer de la disposition de page ABM dans [!DNL Salesforce] {#setting-up-abm-page-layout-in-salesforce}
@@ -87,7 +87,7 @@ Pour commencer à utiliser le SEP, vous devez ajouter le champ SEP et la liste a
 1. Ensuite, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Personnaliser]** > **[!UICONTROL Prospect]** > **[!UICONTROL Mise de page]** et sélectionnez les mises en page appropriées que vous souhaitez modifier.
 1. Cliquez sur **[!UICONTROL Champs]** et ajoutez le champ [!UICONTROL Compte] à l’endroit qui vous convient sur la page.
 
-   ![1. Cliquez sur Champs et ajoutez le champ Compte où vous &#x200B;](assets/account-marketing-5.png)
+   ![1. Cliquez sur Champs et ajoutez le champ Compte où vous ](assets/account-marketing-5.png)
 
 Tout est prêt !
 

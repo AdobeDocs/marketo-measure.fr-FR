@@ -6,7 +6,7 @@ feature: Tracking
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ Pour un rappel sur la façon de charger des informations sur les coûts, lisez [
 
 **Mettre à jour la liste des domaines à suivre (1 fois par mois)**
 
-Marketo Measure suit toutes les pages et tous les sous-domaines dans lesquels notre code Javascript est actif, mais seulement pour les domaines que nous connaissons. Si vous avez récemment débogué un nouveau domaine, étendu à l&#39;international ou modifié votre domaine principal, contactez l&#39;assistance de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour vous assurer que nous mettons à jour votre compte en conséquence.
+Marketo Measure suit toutes les pages et tous les sous-domaines dans lesquels notre code Javascript est actif, mais seulement pour les domaines que nous connaissons. Si vous avez récemment débogué un nouveau domaine, étendu à l&#39;international ou modifié votre domaine principal, contactez l&#39;assistance de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour vous assurer que nous mettons à jour votre compte en conséquence.
 
 **Vérifier l’exactitude du mappage des canaux personnalisés (1 fois par mois)**
 
@@ -42,7 +42,7 @@ Consultez [cet article](/help/channel-tracking-and-setup/online-custom-channel-s
 
 **Évaluer les paramètres de suppression des points de contact (1 fois par trimestre)**
 
-S’il existe de nombreux points de contact dont vous préféreriez qu’ils ne soient pas pris en compte dans votre story d’attribution (à partir d’un [!DNL Login] ou de [!DNL Unsubscribe forms], d’une page Carrières ou d’une application interne, par exemple), il peut être conseillé d’évaluer vos paramètres de suppression des points de contact existants. Une fois par trimestre, repérez tous les groupes de points de contact qui créent un bruit inutile et mettez à jour votre logique de suppression de manière appropriée. [Voici un article utile](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) avec la procédure à suivre.
+S’il existe de nombreux points de contact dont vous préféreriez qu’ils ne soient pas pris en compte dans votre story d’attribution (à partir d’un [!DNL Login] ou de [!DNL Unsubscribe forms], d’une page Carrières ou d’une application interne, par exemple), il peut être conseillé d’évaluer vos paramètres de suppression des points de contact existants. Une fois par trimestre, identifiez les groupes de points de contact qui créent un bruit inutile et mettez à jour votre logique de suppression en conséquence. [Voici un article utile](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md) qui explique comment procéder.
 
 **Vérifier l’exactitude du mappage des étapes personnalisées (1 fois par trimestre) (le cas échéant)**
 

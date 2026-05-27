@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -26,13 +26,13 @@ Points à retenir :
 * Chaque collection (ou compartiment) de données doit disposer de sa propre règle (ligne dans la feuille de calcul) pour spécifier la manière dont les données seront organisées. Soyez aussi précis que possible.
 * La logique [!DNL Marketo Measure] donne la priorité aux données dans l’ordre décroissant, en commençant par la ligne supérieure de la feuille de calcul et en descendant. Chaque compartiment, ou cellule, est lu ligne par ligne à la recherche de la première correspondance. Les données sont ensuite triées en fonction des valeurs contenues dans ces compartiments. Plus d’informations à ce sujet ci-dessous.
 * Ne triez pas votre feuille par ordre alphabétique, car cela interfère avec les règles de logique.
-* Une fois le fichier chargé, vous ne pouvez plus modifier aucune des règles pendant sept jours. [!DNL Marketo Measure] utilise ce temps pour traiter et mettre à jour les points de contact.
+* Une fois le fichier chargé, vous ne pouvez plus modifier les règles pendant sept jours. Pendant cette période, [!DNL Marketo Measure] traite et met à jour les points de contact.
 
 ## Logique et priorités dans [!DNL Marketo Measure] {#marketo-measure-logic-and-priorities}
 
 La première étape consiste à télécharger la feuille de calcul de canal personnalisé dans l’application [!DNL Marketo Measure]. Accédez aux **Paramètres** sous l’onglet **Mon compte**, puis sélectionnez **En ligne**. Vous pouvez **télécharger le modèle d’origine** ou **télécharger les règles actuelles**.
 
-![La première étape consiste à télécharger la feuille de calcul du canal personnalisé à partir du &#x200B;](assets/online-channels-1.png)
+![La première étape consiste à télécharger la feuille de calcul du canal personnalisé à partir du ](assets/online-channels-1.png)
 
 La feuille de calcul comporte sept colonnes :
 
@@ -46,15 +46,15 @@ La feuille de calcul comporte sept colonnes :
 * **Page de destination :** ajoutez ici la page de destination.
 * **Site web de renvoi :** il s’agit des URL des sites web qui renvoient du trafic vers vos pages ou vers la logique [!DNL Marketo Measure] intégrée (indiquée par crochets).
 
-La huitième colonne indique les règles que vous ne pouvez pas supprimer de la feuille de calcul avec l’indication « Ne pas supprimer ». La partie supérieure de la feuille de calcul comporte des règles de canal par défaut que [!DNL Marketo Measure] vous recommande de ne pas modifier ni supprimer même si vous n’utilisez pas ces canaux. [!DNL Marketo Measure] dispose d’intégrations profondes à ces plateformes, elles sont donc incluses par défaut.
+La huitième colonne indique les règles que vous ne pouvez pas supprimer de la feuille de calcul avec l’indication « Ne pas supprimer ». Le haut de la feuille de calcul comporte des règles de canal par défaut. [!DNL Marketo Measure] recommande de ne pas les modifier ni les supprimer, même si vous ne les utilisez pas. [!DNL Marketo Measure] dispose d’intégrations performantes avec ces plateformes, elles sont donc incluses par défaut.
 
 Les lignes représentent les règles et l’ordre dans lequel [!DNL Marketo Measure] donne la priorité aux données. La première ligne est prioritaire par rapport à la seconde, la deuxième ligne l’est par rapport à la troisième, etc. Lorsque vous déterminez le canal marketing et le sous-canal dans lequel regrouper les points de contact, [!DNL Marketo Measure] lance une lecture de haut en bas, de gauche à droite, jusqu’à ce qu’elle trouve une ligne qui répond aux critères du point de contact. (Si un point de contact possède `utm_source=Facebook`, le point de contact est placé dans le canal Social.Facebook en raison de la règle 15 de la copie d’écran.)
 
-![Les lignes représentent les règles et l’ordre dans lequel Marketo Measure &#x200B;](assets/online-channels-3.png)
+![Les lignes représentent les règles et l’ordre dans lequel Marketo Measure ](assets/online-channels-3.png)
 
 [!DNL Marketo Measure] est fourni avec 12 canaux par défaut, liés à des plateformes avec lesquelles [!DNL Marketo Measure] dispose d’intégrations complètes. Que vous les utilisiez ou non, ne les supprimez pas. Si vous utilisez l’une de ces plateformes, par exemple Bing Ads, mais que vous préférez utiliser une convention de nommage différente pour le canal ou le sous-canal, vous pouvez mettre à jour le nom. L’image ci-dessous présente un exemple.
 
-![Marketo Measure est fourni avec 12 canaux par défaut. Celles-ci &#x200B;](assets/online-channels-4.png)
+![Marketo Measure est fourni avec 12 canaux par défaut. Celles-ci ](assets/online-channels-4.png)
 
 La structure des règles est également importante. Des règles peuvent sembler se répéter et vous pouvez avoir l’impression que des données sont manquantes, mais cette structure est intentionnelle. Pour trier les données de façon précise, il est nécessaire de mapper séparément chaque source au canal approprié, y compris pour les sources partageant des sous-canaux et des canaux. Plus les règles sont détaillées et granulaires, plus les résultats sont pertinents. Il est donc vivement recommandé d’écrire une règle détaillée pour chaque effort marketing dont vous souhaitez effectuer le suivi.
 
@@ -62,7 +62,7 @@ Imaginez la situation suivante : vous avez d’autres publicités dont vous ne 
 
 Chaque paramètre ou composant de la règle est mappé séparément au canal. Par exemple, lorsque [!DNL Marketo Measure] dispose de données [!DNL Facebook] à trier, il recherche des règles liées à [!DNL Facebook]. Il scanne alors la feuille de haut en bas. Dans l’exemple illustré ci-dessous, [!DNL Marketo Measure] comprendrait que pour le premier sous-canal [!DNL Facebook], il lui suffit de lire le paramètre de source et de déposer les données dans le compartiment de cette règle.
 
-![Chaque paramètre ou composant de la règle est mappé séparément au &#x200B;](assets/online-channels-5.png)
+![Chaque paramètre ou composant de la règle est mappé séparément au ](assets/online-channels-5.png)
 
 La règle suivante ne demande que le paramètre qui correspond au support. Par conséquent, toutes les données comportant ce paramètre sont regroupées dans ce canal. Enfin, pour [!DNL Facebook], toutes les données provenant de l’adresse URL de Facebook sont placées dans le dernier compartiment correspondant.
 

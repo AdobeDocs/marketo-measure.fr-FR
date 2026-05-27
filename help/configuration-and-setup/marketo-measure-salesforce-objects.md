@@ -28,25 +28,25 @@ Les points de contact capturés par les éléments que vous souhaitez suivre éc
 
 Les objets [!DNL Marketo Measure] se rapportent à des objets [!DNL Salesforce] standard spécifiques. Vous pouvez ainsi créer des rapports sur des objets [!DNL Marketo Measure] et [!DNL Salesforce]. Le tableau ci-dessous indique à quel objet [!DNL Salesforce] l’objet [!DNL Marketo Measure] se rapporte.
 
-![Les objets Marketo Measure se rapportent à des objets Salesforce standard spécifiques. Ceci &#x200B;](assets/bizible-full-1.png)
+![Les objets Marketo Measure se rapportent à des objets Salesforce standard spécifiques. Ceci ](assets/bizible-full-1.png)
 
 ## Buyer Touchpoint {#buyer-touchpoint}
 
-L’objet [!UICONTROL Buyer Touchpoint] (BT) raconte l’histoire marketing d’un individu. Il héberge toutes les données relatives aux points de contact marketing générés par les leads et les contacts. Le BT vous montre des informations telles que le canal marketing d’où provient le point de contact ou la campagne publicitaire qui a amené ce prospect/contact spécifique sur votre site web.
+L’objet  (BT) raconte l’histoire marketing d’un individu. Il héberge toutes les données relatives aux points de contact marketing générés par les leads et les contacts. Le BT vous montre des informations telles que le canal marketing d’où provient le point de contact ou la campagne publicitaire qui a amené ce prospect/contact spécifique sur votre site web.
 
 L’objet BT est visible sur les pages Leads et Contacts sous la forme d’une **Liste associée** (voir l’image ci-dessous).
 
-![L’objet BT est visible sur les pages Leads et Contacts sous la forme d’un &#x200B;](assets/bizible-taxonomy-1.png)
+![L’objet BT est visible sur les pages Leads et Contacts sous la forme d’un ](assets/bizible-taxonomy-1.png)
 
 La liste liée à BT affiche tous les points de contact appartenant au lead ou au contact. La liste contient des champs de [!DNL Marketo Measure] personnalisés qui fournissent des détails supplémentaires sur chaque point de contact. Cliquez sur le numéro de Buyer Touchpoint ID pour accéder à la page Détails du Buyer Touchpoint , qui fournit encore plus d’informations sur le point de contact, comme la première page web visitée par le prospect/contact au cours de cette session web (**page de destination**).
 
 ## Buyer Attribution Touchpoint {#buyer-attribution-touchpoint}
 
-L’objet [!UICONTROL Buyer Attribution Touchpoint] raconte l’histoire des interactions marketing de vos contacts liées à une opportunité. Il affiche les données *attribution* liées aux points de contact marketing. Cet objet vous permet de voir le montant du crédit de revenu attribué à chaque point de contact marketing. Le type de modèle d’attribution que vous utilisez détermine le pourcentage de chiffre d’affaires attribué aux points de contact.
+L’objet  raconte l’histoire des interactions marketing de vos contacts liées à une opportunité. Il affiche les données *attribution* liées aux points de contact marketing. Cet objet vous permet de voir le montant du crédit de revenu attribué à chaque point de contact marketing. Le type de modèle d’attribution que vous utilisez détermine le pourcentage de chiffre d’affaires attribué aux points de contact.
 
 Les points de contact d’attribution de l’acheteur (BAT) ne sont créés qu’une fois qu’une opportunité est créée, laquelle concerne les contacts qui possèdent des données Buyer Touchpoint (BT). Les BAT ne seront pas créées sans une opportunité. Une fois l’opportunité créée, l’objet BAT utilise le champ [!DNL Salesforce] *Montant* de l’opportunité pour déterminer le montant du chiffre d’affaires à attribuer aux points de contact.
 
-Un **workflow** doit être créé si vous utilisez un [champ de montant personnalisé](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md) pour afficher le chiffre d’affaires sur l’objet d’opportunité. [!DNL Marketo Measure] ne peut pas lire les informations affichées dans les champs de montant personnalisés et ne peut donc pas remplir les données d’attribution de chiffre d’affaires sur les points de contact. Ce workflow utilisera le champ **[!DNL Marketo Measure]du montant de l’opportunité** l’un des [!DNL Marketo Measure] champs personnalisés, pour mapper la valeur du chiffre d’affaires du champ personnalisé du montant au champ du montant de l’opportunité.
+Un **workflow** doit être créé si vous utilisez un [champ de montant personnalisé](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md) pour afficher le chiffre d’affaires sur l’objet d’opportunité. [!DNL Marketo Measure] ne peut pas lire les informations affichées dans les champs de montant personnalisés et ne peut donc pas renseigner les données d’attribution de chiffre d’affaires sur les points de contact. Ce workflow utilisera le champ **[!DNL Marketo Measure]du montant de l’opportunité** l’un des [!DNL Marketo Measure] champs personnalisés, pour mapper la valeur du chiffre d’affaires du champ personnalisé du montant au champ du montant de l’opportunité.
 
 ![Un workflow doit être créé si vous utilisez un champ Montant personnalisé](assets/connect-salesforce-1.png)
 
@@ -56,7 +56,7 @@ L’objet BAT est visible sur les objets [!UICONTROL Opportunité], [!UICONTROL 
 
 L’objet de personne [!DNL Marketo Measure] met en relation les objets de lead et de contact. Par défaut, Salesforce ne fournit pas la possibilité de créer des rapports à l’aide de l’objet Lead et Contact dans le même rapport. En établissant un rapport avec l’objet de lead et de contact, la personne [!DNL Marketo Measure] vous permet de créer un rapport sur les deux objets dans le même rapport. Cela s’avère particulièrement utile lorsqu’un prospect a été converti en contact. Sur un enregistrement de personne [!DNL Marketo Measure], vous verrez une recherche sur l’enregistrement de lead et/ou de contact correspondant, une liste connexe des points de contact liés à la personne et l’ID de personne (qui est toujours l’adresse e-mail du lead/contact). Puisque la personne [!DNL Marketo Measure] est liée à l’objet de lead et de contact, aucun enregistrement de personne [!DNL Marketo Measure] lié à un Buyer Attribution Touchpoint ne sera jamais créé. Vous trouverez ci-dessous un exemple d’enregistrement [!DNL Marketo Measure] Personne dans Salesforce :
 
-![&#x200B; L’objet Personne de Marketo Measure met en relation les objets Lead et Contact](assets/connect-salesforce-2.png)
+![ L’objet Personne de Marketo Measure met en relation les objets Lead et Contact](assets/connect-salesforce-2.png)
 
 ## Test A/B [!DNL Marketo Measure] {#marketo-measure-a-b-test}
 
