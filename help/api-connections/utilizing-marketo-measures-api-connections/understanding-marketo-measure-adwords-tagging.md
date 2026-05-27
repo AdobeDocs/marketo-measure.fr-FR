@@ -5,10 +5,8 @@ title: 'Comprendre le balisage AdWords dans [!DNL Marketo Measure] '
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
 TQID: https://experienceleague.adobe.com/k-rj5kIrgNp4ZebSopI3pwMVMn4lepWsLlpI8-nkoMk
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2:
-  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2: id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 616
@@ -118,6 +116,6 @@ R : Nous ne pouvons pas récupérer les détails créatifs individuels pour les 
 
 >[!NOTE]
 >
->Une fois les modifications apportées, vous avez terminé. N’hésitez pas à contacter l’assistance technique de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour toute question lors de la configuration.
+>Une fois les modifications apportées, vous avez terminé. N’hésitez pas à contacter l’assistance technique de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour toute question lors de la configuration.
 
 [Cliquez ici](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} pour obtenir des instructions de Google sur la création de modèles de suivi au niveau du compte.

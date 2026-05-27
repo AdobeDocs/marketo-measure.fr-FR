@@ -76,7 +76,7 @@ Il existe deux modèles de tracking que [!DNL Marketo Measure] recommande d’ut
 
 1. Sélectionnez toutes les campagnes applicables ou **[!UICONTROL Tout sélectionner]**, cliquez sur **[!UICONTROL Modifier]**, puis sur **[!UICONTROL Modifier les modèles de suivi]**.
 
-   ![1. Sélectionnez toutes les campagnes applicables ou sélectionnez tout, cliquez sur Modifier &#x200B;](../assets/marketo-engage-activities-05.png)
+   ![1. Sélectionnez toutes les campagnes applicables ou sélectionnez tout, cliquez sur Modifier ](../assets/marketo-engage-activities-05.png)
 
 1. Saisissez le modèle de suivi [!DNL Marketo Measure] et cliquez sur **[!UICONTROL Appliquer]**.
 
@@ -112,6 +112,6 @@ R : Nous ne pouvons pas récupérer les détails créatifs individuels pour les 
 
 >[!NOTE]
 >
->Une fois les modifications apportées, vous avez terminé. N’hésitez pas à contacter l’assistance technique de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour toute question lors de la configuration.
+>Une fois les modifications apportées, vous avez terminé. N’hésitez pas à contacter l’assistance technique de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour toute question lors de la configuration.
 
 [Cliquez ici](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} pour obtenir des instructions de Google sur la création de modèles de suivi au niveau du compte.

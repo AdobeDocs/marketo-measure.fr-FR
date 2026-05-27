@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -23,11 +23,11 @@ Les campagnes [!DNL Salesforce] sont destinées à suivre les listes de prospect
 
 Le package [!DNL Marketo Measure] [!DNL Salesforce] comprendra un champ intitulé « Activer Buyer Touchpoints » sur l’objet de campagne. Une fois le champ ajouté à la disposition de page, il apparaît comme suit :
 
-![Le package Marketo Measure Salesforce comprend un champ intitulé &#x200B;](assets/dynamics-lists-1.png)
+![Le package Marketo Measure Salesforce comprend un champ intitulé ](assets/dynamics-lists-1.png)
 
 Les options disponibles dans la liste de sélection sont les suivantes :
 
-![Les options disponibles dans la liste de sélection sont les suivantes : &#x200B;](assets/dynamics-lists-10.png)
+![Les options disponibles dans la liste de sélection sont les suivantes : ](assets/dynamics-lists-10.png)
 
 * Inclure toutes les personnes membres de la campagne : chaque prospect ou contact ajouté à la campagne recevra un point de contact associé à cette campagne.
 * Inclure uniquement les personnes membres de la campagne qui ont répondu : seuls les prospects ou les contacts dont le statut de personne membre de la campagne est « A répondu » recevront un point de contact associé à cette campagne.
@@ -59,7 +59,7 @@ Les personnes membres de la campagne sont imbriquées dans des [!UICONTROL campa
 
 S’il est activé, [!DNL Marketo Measure] transmettra une valeur de statut sur la personne membre de la campagne dans 4 champs différents inclus dans le package installé : Statut du point de contact (Prospect), Statut du point de contact (Contact), Statut du point de contact (Opportunité) et Date de statut du point de contact. Cela permet aux clientes et clients de vérifier si un point de contact a été créé en tant que Buyer Touchpoint ou Buyer Attribution Touchpoint, en fonction de l’objet auquel il est lié. La date de statut du point de contact correspond simplement à la dernière date de mise à jour du statut sur la personne membre de la campagne.
 
-![Si cette option est activée, Marketo Measure transmet une valeur de statut au &#x200B;](assets/dynamics-lists-3.png)
+![Si cette option est activée, Marketo Measure transmet une valeur de statut au ](assets/dynamics-lists-3.png)
 
 ## Date de Buyer Touchpoint {#buyer-touchpoint-date}
 
@@ -67,7 +67,7 @@ Avec l’installation du package, [!DNL Marketo Measure] inclut également un ch
 
 Cela pourrait s’avérer nécessaire si une liste était chargée des jours/semaines/mois après qu’un événement s’est réellement produit. Des moyens permettent de mettre à jour tous les enregistrements simultanément, comme expliqué ci-dessous.
 
-![Cela peut être nécessaire si une liste a été chargée jours/semaines/mois après un(e) &#x200B;](assets/dynamics-lists-4.png)
+![Cela peut être nécessaire si une liste a été chargée jours/semaines/mois après un(e) ](assets/dynamics-lists-4.png)
 
 Pour savoir si vous devez utiliser la date de Buyer Touchpoint ou non, voici comment les dates sont déterminées par [!DNL Marketo Measure] en fonction du [!UICONTROL type de synchronisation] sélectionné pour la campagne.
 
@@ -100,7 +100,7 @@ Commencez par rechercher les enregistrements et filtrer ceux pour lesquels vous 
 >
 >Une recherche ne fonctionne pas, comme le montre l’exemple ci-dessous. L’interface utilisateur ne permet pas de rechercher des dates de Buyer Touchpoint nulles (la recherche ci-dessous ne fonctionnerait pas) :
 
-![Une recherche ne fonctionne pas et s’affiche dans &#x200B;](assets/legacy-processes-10.png)
+![Une recherche ne fonctionne pas et s’affiche dans ](assets/legacy-processes-10.png)
 
 Si vous n’avez pas besoin d’utiliser la recherche et que vous appliquez simplement les dates à chaque enregistrement de personne membre de la campagne, utilisez la case à cocher « [!UICONTROL Inclure tous les enregistrements] » (voir la copie d’écran ci-dessous). Tous les enregistrements sur toutes les pages seront alors cochés.
 
@@ -118,11 +118,11 @@ Pour en savoir plus sur les coûts de campagne, [consultez cet article](/help/cr
 
 La façon dont [!DNL Marketo Measure] suit les enregistrements supprimés dans Salesforce, qu’il s’agisse de prospects, de comptes ou d’opportunités, consiste à afficher ces enregistrements dans l’API et à suivre les entrées marquées comme « IsDeleted ». Malheureusement, avec les personnes membres de la campagne, Salesforce a introduit une manière différente de supprimer ces personnes membres d’une campagne et elles sont en réalité marquées comme « retirées » plutôt que « supprimées ». Le problème est donc que des points de contact liés à des personnes membres de la campagne supprimées subsistaient dans Salesforce.
 
-Pour contourner ce problème, [!DNL Marketo Measure] avez créé un objet Historique des [!DNL Marketo Measure] et un déclencheur à suivre chaque fois que des membres de la campagne sont supprimés, puis supprimez le point de contact correspondant. **Vous aurez besoin [!DNL Marketo Measure] package Marketing Analytics V6.15 ou d’une version ultérieure** pour utiliser cette fonctionnalité.
+Pour contourner ce problème, [!DNL Marketo Measure] a créé un objet d’historique [!DNL Marketo Measure] et un déclencheur pour suivre chaque fois que des personnes membres de la campagne sont supprimées, puis pour supprimer le point de contact correspondant. **Vous aurez besoin du package [!DNL Marketo Measure] Marketing Analytics V6.15 ou supérieure** pour utiliser cette fonctionnalité.
 
 >[!CAUTION]
 >
->Gardez à l’esprit que ce déclencheur ne suit pas les personnes membres de la campagne qui ont été supprimées par le passé. Il ne fonctionne donc que pour l’avenir. Si vous devez supprimer un grand nombre de points de contact d’anciens membres de la campagne, contactez l’assistance de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+>Gardez à l’esprit que ce déclencheur ne suit pas les personnes membres de la campagne qui ont été supprimées par le passé. Il ne fonctionne donc que pour l’avenir. Si vous devez supprimer un grand nombre de points de contact d’anciens membres de la campagne, contactez l’assistance de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
