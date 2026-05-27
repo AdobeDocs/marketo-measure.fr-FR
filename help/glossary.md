@@ -219,7 +219,7 @@ Description de l’événement (par exemple, la consultation de la page d’accu
 
 Ce champ affiche le nom de l’expérience (par exemple, un bouton de période d’évaluation).
 
-**ID de l’expérience** | Test AB Marketo Measure
+**ID d’expérience** | Test AB Marketo Measure
 
 Code d’identification unique de chaque expérience.
 
