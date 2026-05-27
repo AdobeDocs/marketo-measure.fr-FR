@@ -20,7 +20,7 @@ Pour accéder à votre entrepôt de données Snowflake, vous devez accéder à l
 
    ![1. Dans Marketo Measure, en haut de la page, cliquez sur &#x200B;](assets/data-account-7.png)
 
-1. Dans le menu de gauche, sous Sécurité, cliquez sur **[!UICONTROL Data Warehouse]**.
+1. Dans le menu de gauche, sous Sécurité, cliquez sur **&#x200B;**.
 
    ![1. Dans le menu de gauche, sous Sécurité, cliquez sur Data Warehouse.](assets/data-account-8.png)
 

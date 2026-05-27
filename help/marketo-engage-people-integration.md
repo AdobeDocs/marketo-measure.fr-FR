@@ -19,7 +19,7 @@ L’intégration des personnes de Marketo [!DNL Marketo Measure] permet de comme
 * Instance de Marketo de production
 * [!DNL Salesforce] de production ou instance de [!DNL Microsoft Dynamics]
 * Tout abonnement [!DNL Marketo Measure] payant
-* SOLR activé (contactez l’assistance technique de [Marketo](https://nation.marketo.com/t5/Support/ct-p/Support) pour que cela soit activé)
+* SOLR activé (contactez l’assistance technique de [&#128279;](https://nation.marketo.com/t5/Support/ct-p/Support) pour que cela soit activé)
 
 ## Fonctionnement {#how-it-works}
 
@@ -83,7 +83,7 @@ Lors de la création de rapports sur les prospects (personnes) dans [!DNL Market
   </tr>
   <tr>
    <td><p>IS_CONVERTED</p></td>
-   <td><p>s/o</p></td>
+   <td><p>S.O.</p></td>
   </tr>
   <tr>
    <td><p>ACCOUNT_ID</p></td>

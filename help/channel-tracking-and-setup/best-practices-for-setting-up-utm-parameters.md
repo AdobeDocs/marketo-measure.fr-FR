@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '455'
-ht-degree: 71%
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 71%
 
 Les paramètres UTM sont un excellent moyen de découper vos données marketing. [!DNL Marketo Measure] utilise et capture tous les paramètres UTM pour renseigner les champs dans Salesforce et dans l’application [!DNL Marketo Measure]. Grâce à ces informations, vous êtes en mesure de comprendre en détail l’origine de vos prospects, opportunités et offres fermées/gagnées.
 
-Vous pouvez utiliser le [Créateur d’URL Google](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"} pour configurer vos paramètres UTM et les ajouter à vos liens dans le cadre de vos efforts marketing. Utilisez cette feuille de calcul [Google](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si vous souhaitez un moyen plus facile de suivre tous vos liens UTM.
+Vous pouvez utiliser le [Créateur d’URL &#x200B;](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"} pour configurer vos paramètres UTM et les ajouter à vos liens dans le cadre de vos efforts marketing. Utilisez cette feuille de calcul [&#128279;](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si vous souhaitez un moyen plus facile de suivre tous vos liens UTM.
 
 ## Valeurs de haut niveau pour chaque paramètre {#high-level-values-for-each-parameter}
 
@@ -29,7 +29,7 @@ N’utilisez pas ce champ pour appeler le sous-canal.
 
 Par exemple, Facebook, Twitter, Linkedin, Drip_email, Email_blast, newsletter.
 
-Restez simple. N’utilisez pas ce paramètre pour indiquer le type d’annonce publicitaire, comme le reciblage ou le parrainage. N’ajoutez pas utm_source = homepage, webdirect, website. [!DNL Marketo Measure] renseigne automatiquement ces informations pour vous.
+Restez simple. N’utilisez pas ce paramètre pour indiquer le type d’annonce publicitaire, comme le reciblage ou le parrainage. N’ajoutez pas d’utm_source = homepage, webdirect, website. [!DNL Marketo Measure] renseigne automatiquement ces informations.
 
 **utm_campaign** : ce champ est mappé sur le nom de la campagne publicitaire. Utilisez utm_campaign pour indiquer le titre de la campagne tel qu’il existe dans la plateforme publicitaire ou tel qu’il est référencé en interne.
 

@@ -24,7 +24,7 @@ Tout comme nos intégrations AdWords et [!DNL Bing Ads], notre intégration [!DN
 
 En ce qui concerne la configuration, l’application [!DNL Marketo Measure] comporte sept étapes.
 
-1. Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
+1. Accédez à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
 1. Sous Mon compte, sélectionnez **[!UICONTROL Paramètres]**.
 1. Sous Intégrations, sélectionnez **[!UICONTROL Connexions]**.
 1. Sélectionnez **[!UICONTROL Configurer une nouvelle connexion publicitaire]** et un pop-up s’affiche. Sélectionnez **[!UICONTROL Facebook]** et connectez-vous à l’aide de vos identifiants Facebook.
@@ -84,7 +84,7 @@ Pour que l’intégration fonctionne correctement, vous devez activer le balisag
   </tr>
   <tr>
    <td><p>Source du point de contact</p></td>
-   <td><p> »[!DNL Facebook] » ou [utm_source] si fourni</p></td>
+   <td><p>« [!DNL Facebook] » ou [utm_source] si fourni</p></td>
   </tr>
   <tr>
    <td><p>Moyen</p></td>

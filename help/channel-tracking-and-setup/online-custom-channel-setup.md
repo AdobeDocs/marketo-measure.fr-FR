@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -26,7 +26,7 @@ Points à retenir :
 * Chaque collection (ou compartiment) de données doit disposer de sa propre règle (ligne dans la feuille de calcul) pour spécifier la manière dont les données seront organisées. Soyez aussi précis que possible.
 * La logique [!DNL Marketo Measure] donne la priorité aux données dans l’ordre décroissant, en commençant par la ligne supérieure de la feuille de calcul et en descendant. Chaque compartiment, ou cellule, est lu ligne par ligne à la recherche de la première correspondance. Les données sont ensuite triées en fonction des valeurs contenues dans ces compartiments. Plus d’informations à ce sujet ci-dessous.
 * Ne triez pas votre feuille par ordre alphabétique, car cela interfère avec les règles de logique.
-* Une fois le fichier chargé, vous ne pouvez plus modifier aucune des règles pendant sept jours. [!DNL Marketo Measure] utilise ce temps pour traiter et mettre à jour les points de contact.
+* Une fois le fichier chargé, vous ne pouvez plus modifier les règles pendant sept jours. Pendant cette période, [!DNL Marketo Measure] traite et met à jour les points de contact.
 
 ## Logique et priorités dans [!DNL Marketo Measure] {#marketo-measure-logic-and-priorities}
 
@@ -46,7 +46,7 @@ La feuille de calcul comporte sept colonnes :
 * **Page de destination :** ajoutez ici la page de destination.
 * **Site web de renvoi :** il s’agit des URL des sites web qui renvoient du trafic vers vos pages ou vers la logique [!DNL Marketo Measure] intégrée (indiquée par crochets).
 
-La huitième colonne indique les règles que vous ne pouvez pas supprimer de la feuille de calcul avec l’indication « Ne pas supprimer ». La partie supérieure de la feuille de calcul comporte des règles de canal par défaut que [!DNL Marketo Measure] vous recommande de ne pas modifier ni supprimer même si vous n’utilisez pas ces canaux. [!DNL Marketo Measure] dispose d’intégrations profondes à ces plateformes, elles sont donc incluses par défaut.
+La huitième colonne indique les règles que vous ne pouvez pas supprimer de la feuille de calcul avec l’indication « Ne pas supprimer ». Le haut de la feuille de calcul comporte des règles de canal par défaut. [!DNL Marketo Measure] recommande de ne pas les modifier ni les supprimer, même si vous ne les utilisez pas. [!DNL Marketo Measure] dispose d’intégrations performantes avec ces plateformes, elles sont donc incluses par défaut.
 
 Les lignes représentent les règles et l’ordre dans lequel [!DNL Marketo Measure] donne la priorité aux données. La première ligne est prioritaire par rapport à la seconde, la deuxième ligne l’est par rapport à la troisième, etc. Lorsque vous déterminez le canal marketing et le sous-canal dans lequel regrouper les points de contact, [!DNL Marketo Measure] lance une lecture de haut en bas, de gauche à droite, jusqu’à ce qu’elle trouve une ligne qui répond aux critères du point de contact. (Si un point de contact possède `utm_source=Facebook`, le point de contact est placé dans le canal Social.Facebook en raison de la règle 15 de la copie d’écran.)
 

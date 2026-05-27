@@ -12,7 +12,7 @@ ht-degree: 8%
 
 # Synchronisation des campagnes hors ligne {#syncing-offline-campaigns}
 
-Il peut être difficile d’effectuer un suivi précis des campagnes hors ligne et de comprendre comment elles se comparent à vos efforts de marketing numérique. [!DNL Marketo Measure] vous permet de suivre et d’attribuer des points de contact à vos campagnes hors ligne dans [!DNL Salesforce], même dans les cas où une campagne [!DNL Salesforce] n’est pas créée avant quelques semaines après l’événement.
+Il peut être difficile d’effectuer un suivi précis des campagnes hors ligne et de comprendre comment elles se comparent à vos efforts de marketing numérique. [!DNL Marketo Measure] vous permet de suivre et d’attribuer des points de contact à vos campagnes hors ligne dans [!DNL Salesforce], même dans les cas où une campagne [!DNL Salesforce] n’est créée que quelques semaines après l’événement.
 
 >[!NOTE]
 >
