@@ -59,7 +59,7 @@ Nous sommes ravis de vous présenter notre nouvelle conception du tableau de bor
           <li>
             <strong>Visites uniques et visites uniques au fil du temps</strong> : tableau de bord de trafic web</li>
           <li>
-            <strong>Forms de site et Forms de site au fil du temps</strong> : tableau de bord de trafic web</li>
+            Forms de site et Forms de site au fil du temps</strong> : tableau de bord de trafic web<strong></li>
           <li>
             <strong>Affaires au fil du temps</strong>
             <strong> : </strong> obsolète (voir ci-dessous)</li>

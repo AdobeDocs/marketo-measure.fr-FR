@@ -6,7 +6,7 @@ feature: Reporting
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '2485'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -92,7 +92,7 @@ Il y a quelques endroits où deux tableaux de [!DNL Snowflake] ont été combin�
 
 ### Noms de segments {#segment-names}
 
-Comme les noms de segment sont personnalisables, ils possèdent des noms de colonne génériques dans l’entrepôt de données Snowflake. [!DNL BIZ_SEGMENT_NAMES] est un tableau de mappage qui répertorie le nom de segment générique avec le nom de segment personnalisé auquel il est mappé, comme défini dans la section segment de l’interface utilisateur de [!DNL Marketo Measure]. Si vous utilisez des noms de segment personnalisés et souhaitez mettre à jour votre modèle [!DNL Tableau] pour les incorporer, utilisez ce tableau et renommez manuellement les colonnes du modèle Tableau. Les colonnes de segments se trouvent dans le tableau Point de contact de prospect et d’attribution. Elles ne doivent être renommées qu’une seule fois.
+Les noms de segments pouvant être personnalisés, ils comportent des noms de colonne génériques dans l’entrepôt de données Snowflake. [!DNL BIZ_SEGMENT_NAMES] est un tableau de mappage qui répertorie le nom du segment générique avec le nom du segment personnalisé auquel il est mappé, tel que défini dans la section du segment dans l’interface utilisateur [!DNL Marketo Measure]. Si vous utilisez des noms de segment personnalisés et souhaitez mettre à jour votre modèle [!DNL Tableau] pour les incorporer, utilisez ce tableau et renommez manuellement les colonnes du modèle Tableau. Les colonnes de segments se trouvent dans le tableau Point de contact de prospect et d’attribution. Elles ne doivent être renommées qu’une seule fois.
 
 La colonne [!UICONTROL CATÉGORIE] répertorie le numéro de catégorie et la colonne SEGMENT_NAME possède le nom de segment personnalisé auquel elle est mappée.
 

@@ -114,7 +114,7 @@ a. L’ID client est l’ID de l’étape #7 dans la section ci-dessus. Si vous 
 
 b. Le secret client est le secret d’application créé sur le portail Azure pour votre application sous Certificats et secrets.
 
-![b. Le secret client est le secret de l’application créé dans le portail Azure](assets/microsoft-guide-11.png)
+![b. Le secret client est le secret de l’application créé dans le portail &#x200B;](assets/microsoft-guide-11.png)
 
 c. L’URI d’ID de l’application est l’URL de l’API web cible (ressource sécurisée). Pour trouver l’URL d’ID d’application, dans le portail Azure, cliquez sur [!DNL Azure Active Directory], sur Enregistrement des applications, puis sur la page Paramètres de l’application, et enfin sur Propriétés. Il peut également s’agir d’une ressource externe comme `https://graph.microsoft.com`. Il s’agit normalement de l’URL de l’instance Dynamics.
 
