@@ -74,7 +74,7 @@ Toute modification du coût ou de la distribution doit être effectuée dans le 
 
 **La date de début, la date de fin et le coût sont renseignés, mais pourquoi mes coûts ne sont-ils toujours pas affichés dans [!DNL Marketo Measure] ?**
 
-Vérifiez que la valeur « Activer Buyer Touchpoint » est définie sur « Inclure tous les membres de la campagne » ou au moins sur « Inclure les membres de la campagne « Répondus » », ou que vous avez créé une règle de synchronisation de campagne personnalisée qui inclut cette campagne. Si vous l’avez confirmé et que vous ne voyez toujours pas la campagne, contactez l’assistance technique de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} afin que nous puissions vérifier que vos campagnes sont correctement importées.
+Vérifiez que la valeur « Activer Buyer Touchpoint » est définie sur « Inclure tous les membres de la campagne » ou au moins sur « Inclure les membres de la campagne « Répondus » », ou que vous avez créé une règle de synchronisation de campagne personnalisée qui inclut cette campagne. Si vous l’avez confirmé et que vous ne voyez toujours pas la campagne, contactez l’assistance technique de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} afin que nous puissions vérifier que vos campagnes sont correctement importées.
 
 **Je dois modifier la répartition de ma campagne afin de pouvoir la pondérer plus lourdement certains mois. Comment est-ce que je fais ça ?**
 

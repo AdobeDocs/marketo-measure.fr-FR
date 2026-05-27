@@ -91,7 +91,7 @@ Lors de la création de rapports sur les prospects (personnes) dans [!DNL Market
   </tr> 
   <tr> 
    <td><p>IS_CONVERTED</p></td> 
-   <td><p>s/o</p></td> 
+   <td><p>S.O.</p></td> 
   </tr> 
   <tr> 
    <td><p>ACCOUNT_ID</p></td> 

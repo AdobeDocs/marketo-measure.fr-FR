@@ -63,13 +63,13 @@ Marketo Measure accepte les valeurs suivantes : adresse e-mail, ID de lead Sales
   <tr> 
    <td><p>Point De Raccordement</p></td> 
    <td><p>(inséré via l’éditeur)</p></td> 
-   <td><p>s/o</p></td> 
+   <td><p>S.O.</p></td> 
    <td><p>https://knowledge.hubspot.com/website-pages/personalize-your-content</p></td> 
   </tr> 
   <tr> 
    <td><p>Action</p></td> 
    <td><p>(inséré via le compositeur de messages)</p></td> 
-   <td><p>s/o</p></td> 
+   <td><p>S.O.</p></td> 
    <td><p>https://connect.act-on.com/hc/en-us/articles/360033436074-How-to-Personalize-Email-Content-with-CRM-Data</p></td> 
   </tr> 
  </tbody> 
