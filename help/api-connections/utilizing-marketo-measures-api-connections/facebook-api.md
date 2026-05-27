@@ -5,9 +5,13 @@ title: '[!DNL Facebook] API'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
 TQID: https://experienceleague.adobe.com/yW6j0Ha8-O0-AQo2ledBBpzji3hy7UHxFPa5L-9WNEg
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-feature_v2: id: c8f57308-7e33-4e41-a385-b55041c78939id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
-subfeature_v2: id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+subfeature_v2:
+  - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 498
@@ -28,7 +32,7 @@ Tout comme nos intégrations AdWords et [!DNL Bing Ads], notre intégration [!DN
 
 En ce qui concerne la configuration, l’application [!DNL Marketo Measure] comporte sept étapes.
 
-1. Accédez à [](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
+1. Accédez à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
 1. Sous Mon compte, sélectionnez **[!UICONTROL Paramètres]**.
 1. Sous Intégrations, sélectionnez **[!UICONTROL Connexions]**.
 1. Sélectionnez **[!UICONTROL Configurer une nouvelle connexion publicitaire]** et un pop-up s’affiche. Sélectionnez **[!UICONTROL Facebook]** et connectez-vous à l’aide de vos identifiants Facebook.
@@ -38,7 +42,7 @@ En ce qui concerne la configuration, l’application [!DNL Marketo Measure] comp
    >La personne qui connecte le compte [!DNL Facebook Ads] doit être un administrateur au sein du compte [!DNL Facebook Ads].
 
 1. Une fois [!DNL Marketo Measure] connecté à votre compte Facebook, cliquez sur l’icône en forme de crayon en regard du compte.
-1. Dans cette vue, déplacez le bouton bascule « Balisage automatique ? » sur « Oui ». Cochez ensuite la case située dans la section [!UICONTROL  En savoir plus ] pour accepter les conditions générales. Assurez-vous que le bouton (bascule) [!UICONTROL Balisage automatique] est toujours défini sur « [!UICONTROL Oui] ».
+1. Dans cette vue, déplacez le bouton bascule « Balisage automatique ? » sur « Oui ». Cochez ensuite la case située dans la section [!UICONTROL &#x200B; En savoir plus &#x200B;] pour accepter les conditions générales. Assurez-vous que le bouton (bascule) [!UICONTROL Balisage automatique] est toujours défini sur « [!UICONTROL Oui] ».
 
 ## Connexion au compte {#connecting-the-account}
 
