@@ -112,6 +112,6 @@ R : Nous ne pouvons pas récupérer les détails créatifs individuels pour les 
 
 >[!NOTE]
 >
->Une fois les modifications apportées, vous avez terminé. N’hésitez pas à contacter l’assistance technique de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour toute question lors de la configuration.
+>Une fois les modifications apportées, vous avez terminé. N’hésitez pas à contacter l’assistance technique de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour toute question lors de la configuration.
 
 [Cliquez ici](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} pour obtenir des instructions de Google sur la création de modèles de suivi au niveau du compte.

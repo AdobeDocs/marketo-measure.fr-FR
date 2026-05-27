@@ -6,7 +6,7 @@ exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '1942'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -46,14 +46,14 @@ Pour afficher l’intégralité du message de notification dans [!DNL Marketo Me
           <p>Vous pouvez également ajuster les crédits CRM utilisés par Marketo Measure en procédant comme suit :</p>
           <ul>
             <li>Accédez à <b>Paramètres</b> &gt; <b>CRM</b> &gt; <b>Général</b>.</li>
-            <li>Mettez à jour la limite quotidienne de l’API CRM<br/>.
+            <li>Mettre à jour la limite quotidienne de l’API CRM<br/>
               <ul>
                 <li><b>Remarque : la valeur par défaut est de 100 000.</b></li>
               </ul>
             </li>
           </ul>
           <p>
-          &lt;img alt=« error notifications 3 » src= »assets/error-notifications-3.png »
+          &lt;img alt=« error notifications 3 » src=« assets/error-notifications-3.png »
           </p>
       </td>
     </tr>
@@ -85,7 +85,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
           </li>
         </ul>
         <p>
-        Fournissez toutes les autorisations nécessaires à l’utilisateur <a href="/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md">Marketo Measure</a>.
+        Fournissez toutes les autorisations nécessaires à l’utilisateur <a href="/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md"></a>.
       </td>
     </tr>
     <tr>
@@ -179,12 +179,12 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Une erreur s’est produite lors de l’export CRM : MISSING_CONVERTED_LEAD_PERMISSION.</td>
       <td>Marketo Measure ne dispose pas de l’autorisation Afficher/Modifier les prospects convertis.</td>
-      <td>Consultez le document Experience League suivant pour obtenir de l’aide sur l’activation de cette autorisation dans votre CRM.<br/>
-          <a href="/help/marketo-measure-salesforce-reporting/enabling-the-permission-to-edit-converted-leads.md">Activation de l’autorisation pour modifier les prospects convertis</a></td>
+      <td>Consultez le document Experience League suivant pour obtenir de l’aide sur l’activation de cette autorisation dans votre CRM<br/>
+          <a href="/help/marketo-measure-salesforce-reporting/enabling-the-permission-to-edit-converted-leads.md">Activation de l’autorisation de modification des prospects convertis</a></td>
     </tr>
     <tr>
       <td>MISSING_FIELD_READ_PERMISSION</td>
-      <td>Une erreur s’est produite lors de l’import CRM : MISSING_FIELD_READ_PERMISSION. Type d’entité « Evénement » : INVALID_FIELD:<br/>
+      <td>Une erreur s'est produite lors de l'import CRM : MISSING_FIELD_READ_PERMISSION : Type d'entité 'Événement' : INVALID_FIELD :<br/>
     SystemModstamp,IsDeleted,WhoId,bizible2__Bizible_Touchpoint_Date__c</td>
       <td>Marketo Measure ne dispose pas des autorisations de lecture pour un champ obligatoire.</td>
       <td>Reportez-vous aux articles d’aide suivants pour plus d’informations sur les autorisations requises par Marketo Measure :

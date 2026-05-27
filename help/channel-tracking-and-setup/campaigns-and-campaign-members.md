@@ -7,7 +7,7 @@ hidefromtoc: true
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
 source-wordcount: '1292'
-ht-degree: 85%
+ht-degree: 88%
 
 ---
 
@@ -118,11 +118,11 @@ Pour en savoir plus sur les coûts de campagne, [consultez cet article](/help/cr
 
 La façon dont [!DNL Marketo Measure] suit les enregistrements supprimés dans Salesforce, qu’il s’agisse de prospects, de comptes ou d’opportunités, consiste à afficher ces enregistrements dans l’API et à suivre les entrées marquées comme « IsDeleted ». Malheureusement, avec les personnes membres de la campagne, Salesforce a introduit une manière différente de supprimer ces personnes membres d’une campagne et elles sont en réalité marquées comme « retirées » plutôt que « supprimées ». Le problème est donc que des points de contact liés à des personnes membres de la campagne supprimées subsistaient dans Salesforce.
 
-Pour contourner ce problème, [!DNL Marketo Measure] avez créé un objet Historique des [!DNL Marketo Measure] et un déclencheur à suivre chaque fois que des membres de la campagne sont supprimés, puis supprimez le point de contact correspondant. **Vous aurez besoin [!DNL Marketo Measure] package Marketing Analytics V6.15 ou d’une version ultérieure** pour utiliser cette fonctionnalité.
+Pour contourner ce problème, [!DNL Marketo Measure] a créé un objet d’historique [!DNL Marketo Measure] et un déclencheur pour suivre chaque fois que des personnes membres de la campagne sont supprimées, puis pour supprimer le point de contact correspondant. **Vous aurez besoin du package [!DNL Marketo Measure] Marketing Analytics V6.15 ou supérieure** pour utiliser cette fonctionnalité.
 
 >[!CAUTION]
 >
->Gardez à l’esprit que ce déclencheur ne suit pas les personnes membres de la campagne qui ont été supprimées par le passé. Il ne fonctionne donc que pour l’avenir. Si vous devez supprimer un grand nombre de points de contact d’anciens membres de la campagne, contactez l’assistance de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+>Gardez à l’esprit que ce déclencheur ne suit pas les personnes membres de la campagne qui ont été supprimées par le passé. Il ne fonctionne donc que pour l’avenir. Si vous devez supprimer un grand nombre de points de contact d’anciens membres de la campagne, contactez l’assistance de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

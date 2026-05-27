@@ -87,4 +87,4 @@ Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé. [!DNL Marke
 >
 >* [[!DNL Marketo Measure] Tutoriels : Synchroniser des campagnes hors ligne](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-salesforce/syncing-offline-campaigns){target="_blank"}
 >
->* [Intégration des programmes Marketo Engage](/help/marketo-engage-programs-integration.md){target="_blank"}
+>* [Intégration des programmes &#x200B;](/help/marketo-engage-programs-integration.md){target="_blank"}

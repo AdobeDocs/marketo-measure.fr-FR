@@ -38,8 +38,8 @@ _Cliquez sur une image pour sa version agrandie_
    <th>Modèle de données dimensionnel pour les publicités</th>
   </tr>
   <tr>
-   <td><a href="assets/data-warehouse-data-model.pdf">&lt;img alt=« data thumb 1 » src= »assets/data-thumb-1.png »</a></td>
-   <td><a href="assets/ads-dimensional-data-model.pdf">&lt;img alt=« ads thumb 1 » src= »assets/ads-thumb-1.png »</a></td>
+   <td><a href="assets/data-warehouse-data-model.pdf">&lt;img alt=« data thumb 1 » src=« assets/data-thumb-1.png »</a></td>
+   <td><a href="assets/ads-dimensional-data-model.pdf">&lt;img alt=« ads thumb 1 » src=« assets/ads-thumb-1.png »</a></td>
   </tr>
  </tbody>
 </table>
@@ -3092,8 +3092,8 @@ Données générées à partir de l’intégration Attribution AI. Ces champs s
   <tr>
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
-    <td>Identifiant de contact MM d’origine de l’événement de conversion
-<br>susceptible d’être nul la plupart du temps</td>
+    <td>ID de contact MM d’origine pour l’événement de conversion
+    <br>probablement nul la plupart du temps</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
@@ -6675,7 +6675,7 @@ Envois de formulaire capturés.
         <p>Adresse IP enregistrée au moment où le formulaire a été envoyé.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174 127 184 158</p>
       </td>
     </tr>
     <tr>
@@ -9242,7 +9242,7 @@ Pages vues collectées lors de visites web. Plusieurs pages vues peuvent corresp
         <p>Adresse IP enregistrée au moment où le formulaire a été envoyé.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174 127 184 158</p>
       </td>
     </tr>
     <tr>
@@ -10435,7 +10435,7 @@ Sessions traitées à partir des pages vues. Plusieurs pages vues peuvent consti
         <p>Adresse IP enregistrée au cours de la session.</p>
       </td>
       <td>
-        <p>174.127.184.158</p>
+        <p>174 127 184 158</p>
       </td>
     </tr>
     <tr>

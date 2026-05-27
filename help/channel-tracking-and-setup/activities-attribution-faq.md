@@ -54,7 +54,7 @@ Non, pas du tout. « Noms de campagnes dynamiques » vous permet de renseigner u
 
 **Comment configurer des activités dans l’application [!DNL Marketo Measure] ?**
 
-Vous trouverez des instructions sur la configuration des activités dans l’application de mesure [!UICONTROL Marketo] dans l’article Prise en charge des activités [!DNL Marketo Measure] .
+Vous trouverez des instructions sur la configuration des activités dans l’application de mesure  dans l’article Prise en charge des activités [!DNL Marketo Measure] .
 
 **Que signifient les différents opérateurs ?**
 
@@ -68,6 +68,6 @@ Vous trouverez des instructions sur la configuration des activités dans l’app
 
 **Sous quel canal ces activités se déroulent-elles ?**
 
-Lorsque la règle Activité et son nom de campagne [!DNL Marketo Measure] correspondant sont créés, utilisez les définitions des canaux en ligne pour placer ces campagnes sous le canal marketing correct. [!DNL Marketo Measure] Vous pouvez définir des canaux à l’aide non seulement du support et de la source, mais également de campaign.
+Lorsque la règle Activité et son nom de campagne [!DNL Marketo Measure] correspondant sont créés, utilisez les définitions des canaux en ligne pour placer ces campagnes sous le canal marketing correct. [!DNL Marketo Measure] pouvez définir des canaux à l’aide non seulement du support et de la source, mais également de campaign.
 
 Dans l’exemple ci-dessus, pour affecter la campagne « {Assigned To} d’appel sortant » au canal BDR, insérez une ligne dans le fichier CSV de vos canaux en ligne pour le canal BDR avec une définition de campagne « Appel sortant &#42; » : l’astérisque indique une valeur générique, de sorte que toutes les campagnes commençant par « Appel sortant » seront incluses dans le canal BDR, plutôt que de devoir créer une ligne distincte pour chaque nom de campagne.

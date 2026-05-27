@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Attribution des activités Salesforce {#salesforce-activities-attribution}
 
-L’intégration des activités [!DNL Marketo Measure] Salesforce intègre des enregistrements de tâches et d’événements spécifiques à votre modèle d’attribution. Commencez à suivre des éléments tels que les e-mails de vente ou les appels téléphoniques de vente qui ne recevaient pas le crédit dû. Pour configurer votre règle d’activités, accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. De là, accédez à l’onglet **[!UICONTROL Paramètres]** et cliquez sur l’onglet **[!UICONTROL Activités]**.
+L’intégration des activités [!DNL Marketo Measure] Salesforce intègre des enregistrements de tâches et d’événements spécifiques à votre modèle d’attribution. Commencez à suivre des éléments tels que les e-mails de vente ou les appels téléphoniques de vente qui ne recevaient pas le crédit dû. Pour configurer votre règle d’activités, accédez à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"}. De là, accédez à l’onglet **[!UICONTROL Paramètres]** et cliquez sur l’onglet **[!UICONTROL Activités]**.
 
 ![&#x200B; L’intégration des activités Marketo Measure Salesforce inclut des tâches et des &#x200B;](assets/activities-attribution-10.png) spécifiques.
 
@@ -45,7 +45,7 @@ Les règles agissent comme un filtre pour nous indiquer les enregistrements éli
 >
 >Les champs de formule ne peuvent pas être utilisés dans vos règles et n&#39;apparaîtront pas dans la liste de sélection. Étant donné que les formules calculent en arrière-plan et ne modifient pas un enregistrement, [!DNL Marketo Measure] ne pouvez pas détecter si un enregistrement correspond ou non à une règle.
 >
->Veillez à utiliser des valeurs correctes pour les champs d’ID tels que CrmEvent.CreatedById. [!DNL Salesforce IDs] Ils font 18 caractères ( 0054H000007WmrfQAC).
+>Veillez à utiliser des valeurs correctes pour les champs d’ID tels que CrmEvent.CreatedById. [!DNL Salesforce IDs] 18 caractères ( 0054H000007WmrfQAC).
 
 Enfin, choisissez l’un de vos champs de date ou de date/heure à utiliser comme date Buyer Touchpoint. Les champs standard et personnalisés peuvent être sélectionnés.
 
@@ -80,7 +80,7 @@ Vous souhaiterez probablement placer ces nouveaux points de contact dans leur [c
 | Correspond à l’un des | Valeurs multiples - Correspondance exacte |
 | Correspond À N’Importe Quel (Contient) | Valeurs multiples : &#42;value&#42;, &#42;value, &#42;value&#42; |
 
-![| Correspond À N’Importe Quel (Contient) | Valeurs multiples - &42;value&42;, &42;value, &42;value&42; |](assets/activities-attribution-8.png)
+![| Correspond à N’importe lequel (Contient) | Valeurs multiples - &42;value&42;, &42;value, &42;value&42; |](assets/activities-attribution-8.png)
 
 Enfin et surtout, vous avez la possibilité de saisir les coûts de vos nouveaux canaux. Le [&#x200B; Chargement des dépenses marketing &#x200B;](https://experience.adobe.com/#/marketo-measure/MyAccount/Business?busView=false&id=10#/!/MyAccount/Business/Account.Settings.SettingsHome?tab=Reporting.Marketing%20Spend){target="_blank"} vous permet de saisir vos dépenses au niveau du canal, du sous-canal ou de la campagne. Avec vos nouvelles campagnes [!DNL Marketo Measure], vous pouvez ajouter ces coûts associés par mois, puis afficher le retour sur investissement de chaque campagne.
 

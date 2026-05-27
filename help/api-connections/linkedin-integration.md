@@ -87,7 +87,7 @@ Les types de formats d’annonces de contenu sponsorisé pris en charge par [!DN
 
 Avec cette intégration [!DNL Marketo Measure/LinkedIn], nous demandons aux clients de ne pas copier/cloner/dupliquer les contenus publicitaires existants. Si des partages sont détectés et ne sont utilisés que sur un seul Creative, [!DNL Marketo Measure] pouvez les baliser tels quels sans avoir à recréer de contenu publicitaire ou de partages et l’historique de toutes les publicités (impressions, clics, partages) restera.
 
-Dès qu’un partage est partagé entre plusieurs contenus publicitaires, [!DNL Marketo Measure] devez effectuer un processus de mise en pause, de copie et de rebalisage pour créer un ensemble unique. [!DNL Marketo Measure] mettra en pause et archivera les contenus publicitaires en direct et effacera donc l’historique des publicités, y compris les impressions, les clics et les partages sur les réseaux sociaux, afin de tout baliser automatiquement correctement.
+Dès qu’un partage est partagé entre plusieurs contenus publicitaires, [!DNL Marketo Measure] devez effectuer un processus de mise en pause, de copie et de rebalisage pour créer un ensemble unique. [!DNL Marketo Measure] va suspendre et archiver les contenus publicitaires en direct et par conséquent supprimer l’historique des publicités, y compris les impressions, les clics et les partages sur les réseaux sociaux, afin de tout baliser automatiquement correctement.
 
 À l’avenir, [!DNL Marketo Measure] vous recommande de ne pas dupliquer de partages [!DNL LinkedIn] et de garder tous les contenus publicitaires et partages aussi uniques que possible, afin que nous puissions simplement ajouter notre suivi sans avoir à effacer l’historique de publicités.
 
@@ -108,7 +108,7 @@ Creative D : Partager 234
 
 ![Creative D : Partager 234](../assets/marketo-engage-activities-05.png)
 
-`1)` [!DNL Marketo Measure] va d’abord parcourir toutes les campagnes, les contenus publicitaires et les partages ayant un statut « Actif ». [!DNL Marketo Measure] ne balisera pas les publicités en pause, archivées ou annulées. Si une publicité a été mise en pause, puis définie sur [!UICONTROL active], nous la marquerons une fois qu’elle sera à nouveau active. Si nous trouvons un Partage unique, ce qui signifie qu’il n’est pas utilisé dans plusieurs contenus publicitaires ou campagnes (par exemple, Creative A : Partager 123), [!DNL Marketo Measure] ajouterons notre `>> ?_bl={creativeId}` de paramètre personnalisé à l’URL de partage.
+`1)` [!DNL Marketo Measure] va d’abord parcourir toutes les campagnes, les contenus publicitaires et les partages ayant un statut « Actif ». [!DNL Marketo Measure] publicités ne seront pas marquées comme suspendues, archivées ou annulées. Si une publicité a été mise en pause, puis définie sur [!UICONTROL active], nous la marquerons une fois qu’elle sera à nouveau active. Si nous trouvons un Partage unique, ce qui signifie qu’il n’est pas utilisé dans plusieurs contenus publicitaires ou campagnes (par exemple, Creative A : Partager 123), [!DNL Marketo Measure] ajouterons notre `>> ?_bl={creativeId}` de paramètre personnalisé à l’URL de partage.
 
 `2)` Maintenant, si le partage a été partagé et a perdu son unicité (par exemple, Creative B : partage 234 et Creative C : partage 234 et Creative D : partage 234), [!DNL Marketo Measure] va suspendre et archiver tous les contenus publicitaires similaires (qui seraient Creative B, Creative C et Creative D).
 
@@ -134,7 +134,7 @@ Grâce à [!DNL LinkedIn's]’API de formulaire publicitaire et à l’API de r�
 
 Les formulaires LinkedIn peuvent contenir plusieurs adresses e-mail. Lorsque nous téléchargeons des réponses de formulaire, nous recherchons des adresses e-mail avec la priorité suivante : E-mail professionnel, Adresse e-mail (champ de formulaire principal) ou champs personnalisés avec une valeur d’e-mail valide.
 
-Quel que soit le statut de Campaign ou de Creative, toutes les réponses de formulaire génèrent un point de contact. [!DNL Marketo Measure] comporte une restriction de recherche en amont de 90 jours. Par conséquent, [!DNL Marketo Measure] ne peut pas accéder aux réponses de formulaire datant de plus de 90 jours, mais plus l’intégration [!DNL Marketo Measure] et [!DNL LinkedIn] est activée, plus les points de contact du formulaire de génération de leads seront visibles via [!DNL Marketo Measure].
+Quel que soit le statut de Campaign ou de Creative, toutes les réponses de formulaire génèrent un point de contact. [!DNL Marketo Measure] dispose d’une restriction de recherche en amont de 90 jours. [!DNL Marketo Measure] ne peut donc pas accéder aux réponses de formulaire datant de plus de 90 jours, mais plus l’intégration [!DNL Marketo Measure] et [!DNL LinkedIn] est activée, plus les points de contact du formulaire de génération de leads seront visibles via [!DNL Marketo Measure].
 
 >[!NOTE]
 >
@@ -304,7 +304,7 @@ Nous avons observé que certains professionnels du marketing placent un lien d�
 
 **Oh non, quelqu&#39;un de mon équipe a accidentellement cloné un partage. Puis-je le mettre en pause ?**
 
-Pas de soucis. [!DNL Marketo Measure] vérifie par programmation les partages qui ne sont plus uniques, ce qui signifie qu’il a depuis été copié dans un autre Creative. Une fois cette copie détectée, [!DNL Marketo Measure] suit le flux habituel pour marquer et créer de nouvelles annonces.
+Pas de soucis. [!DNL Marketo Measure] vérifie par programmation les partages qui ne sont plus uniques, ce qui signifie qu’ils ont depuis été copiés dans un autre Creative. Une fois cette copie détectée, [!DNL Marketo Measure] suit le flux habituel pour marquer et créer de nouvelles annonces.
 
 **Mon annonce était en attente de révision auparavant. Pourquoi cet élément est-il en attente d’examen une fois qu’[!DNL Marketo Measure] l’a balisé ?**
 
