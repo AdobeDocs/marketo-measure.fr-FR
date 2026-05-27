@@ -64,9 +64,9 @@ Avez-vous des pages non sécurisées ? Vous devez les sécuriser, car la naviga
 
 Assurez-vous d’avoir une conversation avec votre équipe web pour qu’elle sache que le code JavaScript [!DNL Marketo Measure] doit toujours se trouver sur les propriétés web appropriées. Si de nouvelles pages/formulaires/sites sont introduits, assurez-vous que le déploiement du code JavaScript [!DNL Marketo Measure] fait partie du protocole.
 
-Si un avertissement [!DNL Web Application Firewall (WAF)] est déclenché lors de la configuration de JavaScript, les utilisateurs peuvent soit désactiver cette règle WAF placer sur la liste autorisée, soit supprimer les cookies, comme dans l’exemple ci-dessous :
+Si un avertissement [!DNL Web Application Firewall (WAF)] est déclenché lors de la configuration de JavaScript, les utilisateurs peuvent soit désactiver cette règle WAF, soit supprimer les cookies, comme dans l’exemple ci-dessous :
 
-![Si un avertissement de pare-feu d’application web (WAF) est déclenché pendant le &#x200B;](assets/adding-script-1.png)
+![Si un avertissement de pare-feu d’application web (WAF) est déclenché pendant le ](assets/adding-script-1.png)
 
 ## Formulaires auxquels prêter une attention particulière {#forms-to-pay-extra-attention-to}
 
