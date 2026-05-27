@@ -5,8 +5,10 @@ title: Segmentation personnalisée
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
 TQID: https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM
-product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 754
@@ -38,8 +40,8 @@ Avant d’utiliser cette fonctionnalité, déterminez les informations de point 
 
 Étape 2 : connectez-vous et localisez la fonctionnalité [!UICONTROL Segments].
 
-* Accédez à [](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous
-* Sous l’onglet [!UICONTROL  Mon compte ], sélectionnez [!UICONTROL Paramètres]
+* Accédez à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous
+* Sous l’onglet [!UICONTROL &#x200B; Mon compte &#x200B;], sélectionnez [!UICONTROL Paramètres]
 * Sélectionnez [!UICONTROL Segments] dans les options de la barre latérale à gauche, sous la section [!UICONTROL Rapports]
 
 Étape 3 - Comprendre les composants.
