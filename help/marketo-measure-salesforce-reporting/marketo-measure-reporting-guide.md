@@ -503,7 +503,7 @@ Pour l’essentiel, les données de point de contact refléteront ce qui a été
 
 * **Canal marketing** - Chemin = Canal marketing.Sous-canal (valeurs définies dans [!DNL Marketo Measure])
 * **Touchpoint Source** = utm_source
-* **** = utm_medium (points de contact en ligne) OU type de campagne CRM (points de contact hors ligne)
+* **&#x200B;**&#x200B;= utm_medium (points de contact en ligne) OU type de campagne CRM (points de contact hors ligne)
 * **Page du référent** (utilise la configuration &#39;Canaux en ligne&#39;)
 * **Page de destination - Brute** (utilisée dans la configuration « Canaux en ligne ») est également une entrée courante pour la suppression des points de contact dans l’onglet « Paramètres des points de contact » de vos paramètres)
 * **URL du formulaire** (entrée courante pour la suppression du point de contact dans l’onglet « Paramètres de point de contact » de vos paramètres)
@@ -726,7 +726,7 @@ Les filtres mis en évidence ci-dessous sont essentiels pour un rapport axé sur
 
 **5.1 | Retour sur investissement dans le tableau de présentation**
 
-![5.1 | Retour sur investissement dans le tableau de présentation ](assets/bizible-guide-1.png)
+![5.1 | Retour sur investissement dans le tableau de présentation &#x200B;](assets/bizible-guide-1.png)
 
 La plage « Date » définit non seulement la cohorte de points de contact (par date de point de contact) auxquels l’attribution est attribuée, mais elle définit également la plage que la mosaïque ou les colonnes « Dépenses » représentent.
 [!DNL Marketo Measure] examine simplement la plage « Date » pour déterminer combien a été dépensé au total, ou au niveau du canal marketing, du sous-canal ou de la campagne. Voir ci-dessous :
@@ -735,7 +735,7 @@ La plage « Date » définit non seulement la cohorte de points de contact (par 
 
 La capture d’écran ci-dessus montre les données des dépenses marketing au cours des 3 derniers mois complets. Dans cet exemple, 12 970 $ ont été dépensés sur tous les canaux. Ce nombre comprend les données sur les dépenses marketing [!DNL Marketo Measure] proviennent des intégrations à l’un de vos comptes publicitaires connectés (Google AdWords, Bing Ads, Facebook Ads, LinkedIn, DoubleClick) et toutes les dépenses marketing supplémentaires qui ont été chargées dans votre compte ou extraites automatiquement des enregistrements Campaign dans votre CRM. L’exemple montre également combien de « chiffre d’affaires » fermé peut également être attribué aux points de contact qui se sont produits au cours de la même période (cases vertes). Voici comment le retour sur investissement est calculé : chiffre d’affaires attribué aux points de contact provenant d’un investissement dans la même période :
 
-![La capture d’écran ci-dessus montre les données des dépenses marketing au cours des 3 dernières ](assets/bizible-guide-3.png)
+![La capture d’écran ci-dessus montre les données des dépenses marketing au cours des 3 dernières &#x200B;](assets/bizible-guide-3.png)
 
 **RAPPEL** : [!DNL Marketo Measure] définit le « chiffre d’affaires » comme étant le chiffre d’affaires ou les réservations confirmés et définit le « chiffre d’affaires de pipeline » comme _le chiffre d’affaires ouvert/potentiel des opportunités ouvertes_.
 
