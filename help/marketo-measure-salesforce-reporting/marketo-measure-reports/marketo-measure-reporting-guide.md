@@ -43,7 +43,7 @@ Au niveau le plus élevé, il existe deux catégories de création de rapports b
 
    * Généralement utilisé pour les mesures et les rapports « top of the funnel » (TOFU) liés aux _individus_ (prospects, contacts [!DNL Marketo Measure] personnes)
    * Les BT sont utilisés pour comprendre toutes les interactions marketing liées aux **personnes**, car ils contiennent l’historique complet des points de contact pour chaque personne. Pour rappel, ces points de contact sont créés dans CRM pour le premier contact anonyme, le contact de création de lead, ainsi que pour tout envoi de formulaire ou point de contact ultérieur que vous choisissez de synchroniser
-une campagne ou une activité hors ligne.
+     une campagne ou une activité hors ligne.
 
 1. **Points de contact d’attribution de l’acheteur** (BAT) / Opportunité / Niveau de compte / Chiffre d’affaires
 
@@ -531,7 +531,7 @@ Le Buyer Attribution Touchpoint nous permet de mesurer l’impact du marketing p
 
 Les [modèles d’attribution](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"} qui fournissent les meilleures mesures insight basées sur les opportunités sont les suivants :
 
-**En W** - « _Modèle De Pipeline_ » Trois points de contact jalonnés sont inclus dans le modèle en W. les points de contact FT, LC et OC se voient attribuer chacun 30 % du crédit d’attribution. Les 10 % restants sont attribués de manière égale à tous les points de contact intermédiaires qui se produisent entre les trois points de contact jalonnés.
+**En W** - « _Modèle De Pipeline_ » Trois points de contact jalonnés sont inclus dans le modèle en W. Dans ce modèle, les points de contact FT, LC et OC se voient attribuer chacun 30 % du crédit d’attribution. Les 10 % restants sont attribués de manière égale à tous les points de contact intermédiaires qui se produisent entre les trois points de contact jalonnés.
 
 <table> 
  <tbody>

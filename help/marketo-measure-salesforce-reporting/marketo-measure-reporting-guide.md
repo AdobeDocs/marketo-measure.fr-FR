@@ -5,7 +5,7 @@ exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
 source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
 workflow-type: tm+mt
-source-wordcount: '6597'
+source-wordcount: '6600'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Au niveau le plus élevé, il existe deux catégories de création de rapports b
 
    * Généralement utilisé pour les mesures et les rapports « top of the funnel » (TOFU) liés aux _individus_ (prospects, contacts [!DNL Marketo Measure] personnes)
    * Les BT sont utilisés pour comprendre toutes les interactions marketing liées aux **personnes**, car ils contiennent l’historique complet des points de contact pour chaque personne. Pour rappel, ces points de contact sont créés dans CRM pour le premier contact anonyme, le contact de création de lead, ainsi que pour tout envoi de formulaire ou point de contact ultérieur que vous choisissez de synchroniser
-une campagne ou une activité hors ligne.
+     une campagne ou une activité hors ligne.
 
 1. **Points de contact d’attribution de l’acheteur** (BAT) / Opportunité / Niveau de compte / Chiffre d’affaires
 
@@ -256,13 +256,13 @@ Cependant, les responsables d’événements peuvent être plus intéressés par
 Placez insight dans un « contenu » spécifique avec des filtres supplémentaires.
 
 * Filtrer par : &#39;Landing Page&#39; CONTAINS (par exemple) :
-   * /blog
-   * /ebook
-   * /webinar
+  * /blog
+  * /ebook
+  * /webinar
 
 * OU : « URL du formulaire » CONTIENT (par exemple)
-   * /contact
-   * /demo
+  * /contact
+  * /demo
 
 Les rapports basés sur le « contenu » offrent une grande valeur lors de la création de rapports sur n’importe quelle partie de funnel. Cependant, ils sont le plus souvent utilisés en haut du funnel pour fournir des insight supplémentaires dans un engagement initial de Leads. Étant donné que la « recherche organique » tend à être le canal le plus puissant pour stimuler l’engagement initial (FT), il n’y a pas autant de données au niveau de la « campagne ».
 
@@ -522,7 +522,7 @@ Le Buyer Attribution Touchpoint nous permet de mesurer l’impact du marketing p
 
 Les [modèles d’attribution](/help/attribution-models.md) qui fournissent les meilleures mesures insight basées sur les opportunités sont les suivants :
 
-**En W** - « _Modèle De Pipeline_ » Trois points de contact jalonnés sont inclus dans le modèle en W. les points de contact FT, LC et OC se voient attribuer chacun 30 % du crédit d’attribution. Les 10 % restants sont attribués de manière égale à tous les points de contact intermédiaires qui se produisent entre les trois points de contact jalonnés.
+**En W** - « _Modèle De Pipeline_ » Trois points de contact jalonnés sont inclus dans le modèle en W. Dans ce modèle, les points de contact FT, LC et OC se voient attribuer chacun 30 % du crédit d’attribution. Les 10 % restants sont attribués de manière égale à tous les points de contact intermédiaires qui se produisent entre les trois points de contact jalonnés.
 
 <table>
  <tbody>
@@ -739,7 +739,7 @@ La capture d’écran ci-dessus montre les données des dépenses marketing au c
 
 **RAPPEL** : [!DNL Marketo Measure] définit le « chiffre d’affaires » comme étant le chiffre d’affaires ou les réservations confirmés et définit le « chiffre d’affaires de pipeline » comme _le chiffre d’affaires ouvert/potentiel des opportunités ouvertes_.
 
-Un autre point important à retenir du rapport de RSI ci-dessus est le « chiffre d’affaires de pipeline » représenté dans la zone rouge. Cela signifie que sur les 12 970 $ US investis au cours des 3 derniers mois complets, nous attribuons actuellement 705 199 $ de « revenu gagné » fermé, mais nous attribuons également 6 905 532 $ de revenu potentiel ouvert (« revenu du pipeline ») aux points de contact créés à partir du même investissement ! Nous nous attendons à ce qu&#39;une partie des « revenus du pipeline » soit fermée au fil du temps, alimentant ainsi le chiffre des « revenus », et donc à ce que le nombre de RSI augmente au fil du temps. Le nombre « Dépenses » est corrigé, car nous ne pouvons pas revenir en arrière pour dépenser plus au cours des 3 derniers mois complets. C’est l’importance d’utiliser un « Type de date » de « Date de point de contact » dans tout rapport de RSI : cela définit le montant (**I**) investi et garantit que le montant du chiffre d’affaires (**R**) attribué est attribué aux mêmes points de contact qui ont été obtenus à partir de l’investissement (pour chaque dollar dépensé, combien a été gagné ?).
+Un autre point important à retenir du rapport de RSI ci-dessus est le « chiffre d’affaires de pipeline » représenté dans la zone rouge. Cela signifie que sur les 12 970 $ investis par USD au cours des 3 derniers mois complets, nous attribuons actuellement 705 199 $ de « chiffre d’affaires » gagné terminé, mais nous attribuons également 6 905 532 $ de chiffre d’affaires potentiel ouvert (« chiffre d’affaires de pipeline ») aux points de contact créés à partir du même investissement ! Nous nous attendons à ce qu&#39;une partie des « revenus du pipeline » soit fermée au fil du temps, alimentant ainsi le chiffre des « revenus », et donc à ce que le nombre de RSI augmente au fil du temps. Le nombre « Dépenses » est corrigé, car nous ne pouvons pas revenir en arrière pour dépenser plus au cours des 3 derniers mois complets. C’est l’importance d’utiliser un « Type de date » de « Date de point de contact » dans tout rapport de RSI : cela définit le montant (**I**) investi et garantit que le montant du chiffre d’affaires (**R**) attribué est attribué aux mêmes points de contact qui ont été obtenus à partir de l’investissement (pour chaque dollar dépensé, combien a été gagné ?).
 
 >[!TIP]
 >
