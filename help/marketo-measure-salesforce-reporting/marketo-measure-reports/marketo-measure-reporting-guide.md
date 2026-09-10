@@ -4,12 +4,8 @@ title: Guide de création de rapports [!DNL Marketo Measure]
 exl-id: 9b991f9e-c187-4b43-b0a8-8ed3e9a6056b
 feature: Reporting
 TQID: https://experienceleague.adobe.com/qdhOT569T3OyHBOuwBGbxAV-kYaCJnfP6qJ8Mb-A4Wk
-product_v2:
-  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2: id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
 workflow-type: tm+mt
 source-wordcount: 5685
@@ -43,7 +39,7 @@ Au niveau le plus élevé, il existe deux catégories de création de rapports b
 
    * Généralement utilisé pour les mesures et les rapports « top of the funnel » (TOFU) liés aux _individus_ (prospects, contacts [!DNL Marketo Measure] personnes)
    * Les BT sont utilisés pour comprendre toutes les interactions marketing liées aux **personnes**, car ils contiennent l’historique complet des points de contact pour chaque personne. Pour rappel, ces points de contact sont créés dans CRM pour le premier contact anonyme, le contact de création de lead, ainsi que pour tout envoi de formulaire ou point de contact ultérieur que vous choisissez de synchroniser
-une campagne ou une activité hors ligne.
+     une campagne ou une activité hors ligne.
 
 1. **Points de contact d’attribution de l’acheteur** (BAT) / Opportunité / Niveau de compte / Chiffre d’affaires
 
@@ -512,7 +508,7 @@ Pour l’essentiel, les données de point de contact refléteront ce qui a été
 
 * **Canal marketing** - Chemin = Canal marketing.Sous-canal (valeurs définies dans [!DNL Marketo Measure])
 * **Touchpoint Source** = utm_source
-* **&#x200B;**&#x200B;= utm_medium (points de contact en ligne) OU type de campagne CRM (points de contact hors ligne)
+* **** = utm_medium (points de contact en ligne) OU type de campagne CRM (points de contact hors ligne)
 * **Page du référent** (utilise la configuration &#39;Canaux en ligne&#39;)
 * **Page de destination - Brute** (utilisée dans la configuration « Canaux en ligne ») est également une entrée courante pour la suppression des points de contact dans l’onglet « Paramètres des points de contact » de vos paramètres
 * **URL du formulaire** (entrée courante pour la suppression du point de contact dans l’onglet « Paramètres de point de contact » de vos paramètres)
@@ -531,7 +527,7 @@ Le Buyer Attribution Touchpoint nous permet de mesurer l’impact du marketing p
 
 Les [modèles d’attribution](/help/introduction-to-marketo-measure/overview-resources/marketo-measure-attribution-models.md){target="_blank"} qui fournissent les meilleures mesures insight basées sur les opportunités sont les suivants :
 
-**En W** - « _Modèle De Pipeline_ » Trois points de contact jalonnés sont inclus dans le modèle en W. les points de contact FT, LC et OC se voient attribuer chacun 30 % du crédit d’attribution. Les 10 % restants sont attribués de manière égale à tous les points de contact intermédiaires qui se produisent entre les trois points de contact jalonnés.
+**En W** - « _Modèle De Pipeline_ » Trois points de contact jalonnés sont inclus dans le modèle en W. Dans ce modèle, les points de contact FT, LC et OC se voient attribuer chacun 30 % du crédit d’attribution. Les 10 % restants sont attribués de manière égale à tous les points de contact intermédiaires qui se produisent entre les trois points de contact jalonnés.
 
 <table> 
  <tbody>
