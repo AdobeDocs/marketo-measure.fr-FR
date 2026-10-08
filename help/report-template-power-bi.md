@@ -48,7 +48,7 @@ Toutes les requêtes filtrent les lignes supprimées et les tableaux de [!UICONT
 >
 >Les filtres de date étant appliqués à la date de modification d’une ligne, procédez avec prudence lorsque vous créez des rapports sur des dates qui se situent en dehors de la période limitée. Par exemple, la période de modification est limitée aux deux dernières années. Cela peut inclure un événement avec une date d’événement d’il y a trois ans, mais qui a été modifié récemment. Toutefois, les rapports sur les événements d’il y a trois ans renverront des résultats incomplets, car toutes les lignes n’auront pas été modifiées au cours de la période de deux ans.
 
-![Les filtres de date étant appliqués à la date de modification d’un ](assets/marketo-bi-3.png)
+![Les filtres de date étant appliqués à la date de modification d’un &#x200B;](assets/marketo-bi-3.png)
 
 Les tables suivantes sont traitées comme des tables de faits ; les limites de date sur la date de modification ont été ajoutées à ces requêtes.&#x200B;
 
@@ -105,7 +105,7 @@ Les tableaux et les colonnes ont été renommés afin de les rendre plus convivi
 
 Les noms de segments pouvant être personnalisés, ils comportent des noms de colonne génériques dans l’entrepôt de données Snowflake. [!DNL BIZ_SEGMENT_NAMES] est un tableau de mappage qui répertorie le nom du segment générique et le nom de segment personnalisé auquel il est mappé, défini dans la section de segment de l’interface utilisateur [!DNL Marketo Measure]. La table Segment Name est utilisée pour renommer les colonnes de segment dans les tables Lead Touchpoint et Attribution Touchpoint. S’il n’existe aucun segment personnalisé, le nom du segment générique est conservé.
 
-![Comme les noms de segment sont personnalisables, ils comportent des noms de colonne génériques dans le ](assets/marketo-bi-4.png)
+![Comme les noms de segment sont personnalisables, ils comportent des noms de colonne génériques dans le &#x200B;](assets/marketo-bi-4.png)
 
 ### Conversion d’ID sensible à la casse {#case-sensitive-id-conversion}
 
@@ -121,7 +121,7 @@ Fonctions /paste et filtrage.
 
 Pour ajouter des fonctionnalités de conversion de devise aux calculs dans le modèle, nous avons ajouté une colonne de taux de conversion d’entreprise aux tableaux Opportunité et Coût. La valeur de cette colonne est ajoutée au niveau de la ligne et évaluée en effectuant une jointure avec la table Conversion Rate sur la date et l’ID de devise. Pour plus d’informations sur le fonctionnement de la conversion de devises dans ce modèle, consultez la section [Conversion de devises](#currency-conversion) dans cette documentation.
 
-![Pour ajouter des fonctionnalités de conversion de devise aux calculs du modèle, nous avons ](assets/marketo-bi-10.png)
+![Pour ajouter des fonctionnalités de conversion de devise aux calculs du modèle, nous avons &#x200B;](assets/marketo-bi-10.png)
 
 Le tableau Taux de conversion stocké dans [!DNL Snowflake] contient une période pour chaque conversion. Power BI n’autorise pas les critères de jointure sur un calcul (c’est‑à‑dire sur une plage de dates). Pour les jointures sur la date, nous avons ajouté des étapes au tableau Taux de conversion afin de développer les lignes et ainsi qu’il y ait une ligne pour chaque date de la période de conversion.
 

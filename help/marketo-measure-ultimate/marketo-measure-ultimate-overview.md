@@ -77,7 +77,7 @@ L’instance [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de
 >
 >Une instance de production [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de production AEP, une instance de développement [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de développement AEP.
 
-Une fois la sélection du mappage de sandbox enregistrée, vous ne pouvez plus la modifier dans l’application. Pour le modifier, contactez l’assistance technique de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Une fois la sélection du mappage de sandbox enregistrée, vous ne pouvez plus la modifier dans l’application. Pour le modifier, contactez l’assistance technique de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Les données d’une entité donnée (un compte, par exemple) provenant d’une source de données particulière ne peuvent entrer que dans un seul jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
 

@@ -164,7 +164,7 @@ Quel que soit le statut de Campaign ou de Creative, toutes les réponses de form
 >
 >Les coûts LinkedIn sont toujours téléchargés dans le cadre des campagnes de contenu sponsorisées.
 
-Forms de génération de leads de suivi dans CRM ou Marketo ****
+Forms de génération de leads de suivi dans CRM ou Marketo **&#x200B;**
 
 Avant l’intégration de Forms de génération de leads [!DNL Marketo Measure] et LinkedIn, il était courant pour les clients de pousser leurs envois de formulaires vers un programme Marketo et/ou une campagne CRM pour suivre les formulaires et recevoir l’attribution sur ces activités. Une fois que le paramètre Forms de génération de leads est activé, nous voulons nous assurer que ces envois de formulaires ne sont pas comptabilisés deux fois. Vérifiez les points suivants :
 

@@ -517,7 +517,7 @@ Pour l’essentiel, les données de point de contact refléteront ce qui a été
 
 * **Canal marketing** - Chemin = Canal marketing.Sous-canal (valeurs définies dans [!DNL Marketo Measure])
 * **Touchpoint Source** = utm_source
-* **** = utm_medium (points de contact en ligne) OU type de campagne CRM (points de contact hors ligne)
+* **&#x200B;**&#x200B;= utm_medium (points de contact en ligne) OU type de campagne CRM (points de contact hors ligne)
 * **Page du référent** (utilise la configuration &#39;Canaux en ligne&#39;)
 * **Page de destination - Brute** (utilisée dans la configuration « Canaux en ligne ») est également une entrée courante pour la suppression des points de contact dans l’onglet « Paramètres des points de contact » de vos paramètres
 * **URL du formulaire** (entrée courante pour la suppression du point de contact dans l’onglet « Paramètres de point de contact » de vos paramètres)

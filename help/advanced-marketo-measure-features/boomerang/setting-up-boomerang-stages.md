@@ -22,11 +22,11 @@ ht-degree: 5%
 >
 >La fonction Boomerang n’est activée que pour les clients de niveau 2. Pour demander un niveau de compte supérieur, contactez l’équipe du compte Adobe (votre gestionnaire de compte).
 
-Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez être un administrateur de compte. Vous pouvez également l’activer en contactant le support technique de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Une fois la fonctionnalité activée, suivez ces instructions pour la configurer.
+Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez être un administrateur de compte. Vous pouvez également l’activer en contactant le support technique de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Une fois la fonctionnalité activée, suivez ces instructions pour la configurer.
 
 ## Configuration de l’étape de boomerang {#boomerang-stage-setup}
 
-1. Accédez à [!UICONTROL  Mappage d’étape ]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
+1. Accédez à [!UICONTROL &#x200B; Mappage d’étape &#x200B;]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
 
    ![](assets/1-2.png)
 
@@ -42,7 +42,7 @@ Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez ê
 
 ## Configuration de l’étape de boomerang avec attribution de modèle personnalisé {#boomerang-stage-setup-with-custom-model-attribution}
 
-1. Accédez à [!UICONTROL  Mappage d’étape ]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
+1. Accédez à [!UICONTROL &#x200B; Mappage d’étape &#x200B;]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
 
    ![](assets/3-1.png)
 

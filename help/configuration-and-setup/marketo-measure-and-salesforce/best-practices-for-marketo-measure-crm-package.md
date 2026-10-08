@@ -44,7 +44,7 @@ Lors de l’implémentation et de la gestion de votre package de [!DNL Salesforc
 
 * Vérifiez que chaque membre de l’équipe nécessaire a accès aux dossiers de rapports [!DNL Marketo Measure]. Il doit y avoir 1 à 3 dossiers [!DNL Marketo Measure] (ceux-ci sont expliqués ci-dessous). Pour ouvrir l’accès, la personne qui a installé les packages doit partager les dossiers de rapports avec les utilisateurs ou rôles appropriés.
   * **Rapports** - disponibles pour tous
-  * Rapports marketing basés sur les comptes **- les rapports ne seront renseignés que pour les clients de niveau 2 et supérieur**[!DNL Marketo Measure]
+  * Rapports marketing basés sur les comptes **- les rapports ne seront renseignés que pour les clients de niveau 2 et supérieur**&#x200B;[!DNL Marketo Measure]
   * **Tableaux de bord Buyer Touchpoint** - disponibles pour tous, bien que ce package soit facultatif.
 
 ## Bonne pratique de maintenance {#best-practice-for-maintenance}

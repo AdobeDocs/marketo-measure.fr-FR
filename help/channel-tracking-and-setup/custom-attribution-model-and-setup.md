@@ -30,7 +30,7 @@ Le modèle d’attribution personnalisé [!DNL Marketo Measure] permet aux utili
 
    Pour commencer à créer votre modèle d’attribution personnalisé, vous devez sélectionner les étapes importantes pour votre équipe marketing. Outre les étapes jalonnées [!DNL Marketo Measure] (FT, LC, OC, Fermée), vous pouvez ajouter jusqu’à six statuts lead/contact ou étapes d’opportunité supplémentaires dans votre modèle personnalisé. Par exemple, il est courant que l’étape MQL soit incluse dans le modèle personnalisé. Les équipes marketing veulent souvent savoir quels efforts ou canaux génèrent des transitions vers l’étape MQL.
 
-   Se connecter à [](https://experience.adobe.com/marketo-measure){target="_blank"}. Accédez à [!UICONTROL Mon compte] > [!UICONTROL Paramètres] et sous la section CRM, sélectionnez **[!UICONTROL Mappage d’étape]**.
+   Se connecter à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"}. Accédez à [!UICONTROL Mon compte] > [!UICONTROL Paramètres] et sous la section CRM, sélectionnez **[!UICONTROL Mappage d’étape]**.
 
    Sélectionnez ensuite les leads/contacts et les étapes d’opportunité à inclure en cochant la case **[!UICONTROL Inclure dans le modèle]**.
 
@@ -50,7 +50,7 @@ Le modèle d’attribution personnalisé [!DNL Marketo Measure] permet aux utili
 
    Dans l’exemple ci-dessous, une étape « MQL » personnalisée est définie à l’aide d’un champ de date. La règle indique simplement que si le champ Date MQL n’est pas vide, il doit être considéré comme un MQL et doit être inclus dans le modèle personnalisé. Il est également important de trier les étapes personnalisées une fois qu’elles ont été créées afin qu’elles suivent la progression de votre cycle de vente.
 
-   ![Dans l’exemple ci-dessous, une étape « MQL » personnalisée est définie à l’aide d’un ](assets/custom-models-10.png)
+   ![Dans l’exemple ci-dessous, une étape « MQL » personnalisée est définie à l’aide d’un &#x200B;](assets/custom-models-10.png)
 
    >[!CAUTION]
    >
@@ -72,7 +72,7 @@ Si un champ personnalisé est utilisé dans votre modèle personnalisé, le suiv
 
 Une fois les pourcentages d’attribution enregistrés et traités, les points de contact sont mis à jour et reçoivent leurs nouvelles étapes et positions. Le point de contact qui s’est produit le plus récemment, avant une transition d’étape, sera crédité pour cette étape (comme illustré ci-dessous). La pondération et le chiffre d’affaires personnalisés sont également redistribués.
 
-![Une fois les pourcentages d’attribution enregistrés et traités, les points de contact sont ](assets/custom-models-3.png)
+![Une fois les pourcentages d’attribution enregistrés et traités, les points de contact sont &#x200B;](assets/custom-models-3.png)
 
 ## La différence entre les étapes Funnel et les étapes de modèle personnalisé {#the-difference-between-funnel-stages-and-custom-model-stages}
 

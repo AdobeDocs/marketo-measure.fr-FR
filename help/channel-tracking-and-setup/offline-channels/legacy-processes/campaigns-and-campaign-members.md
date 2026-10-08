@@ -127,7 +127,7 @@ Pour contourner ce problème, [!DNL Marketo Measure] a créé un objet d’histo
 
 >[!CAUTION]
 >
->Gardez à l’esprit que ce déclencheur ne suit pas les personnes membres de la campagne qui ont été supprimées par le passé. Il ne fonctionne donc que pour l’avenir. Si vous devez supprimer un grand nombre de points de contact d’anciens membres de la campagne, contactez l’assistance de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+>Gardez à l’esprit que ce déclencheur ne suit pas les personnes membres de la campagne qui ont été supprimées par le passé. Il ne fonctionne donc que pour l’avenir. Si vous devez supprimer un grand nombre de points de contact d’anciens membres de la campagne, contactez l’assistance de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

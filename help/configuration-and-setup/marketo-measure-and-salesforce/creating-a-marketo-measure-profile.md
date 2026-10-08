@@ -40,7 +40,7 @@ Découvrez comment créer un profil de [!DNL Marketo Measure]. La création d’
 1. Exclure ce profil de tous les déclencheurs, workflows et processus.
 1. Connectez-vous à votre compte [!DNL Marketo Measure] et réautorisez la connexion [!DNL Salesforce] avec le nouvel utilisateur :
 
-   * Accédez à [](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous avec les nouvelles informations d’identification Salesforce de production de l’utilisateur
+   * Accédez à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous avec les nouvelles informations d’identification Salesforce de production de l’utilisateur
    * Sélectionnez « [!UICONTROL Settings] » dans le menu déroulant « [!UICONTROL My Account] » (Mon compte).
    * Sélectionnez « [!UICONTROL Connexions] » dans le groupe « [!UICONTROL Intégrations] »
    * Cliquez sur l’icône Clé à droite de la connexion [!DNL Salesforce] actuelle connectée et sélectionnez Réautoriser avec la production . Connectez-vous ensuite à nouveau avec les nouvelles informations d’identification de l’utilisateur si cela vous est demandé

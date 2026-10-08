@@ -30,7 +30,7 @@ Pour accéder à votre entrepôt de données Snowflake, vous devez accéder à l
 
    ![](assets/data-warehouse-access-reader-account-1.png)
 
-1. Dans le menu de gauche, sous Sécurité, cliquez sur ****.
+1. Dans le menu de gauche, sous Sécurité, cliquez sur **&#x200B;**.
 
    ![](assets/data-warehouse-access-reader-account-2.png)
 

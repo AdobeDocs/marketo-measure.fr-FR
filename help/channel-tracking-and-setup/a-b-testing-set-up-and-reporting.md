@@ -25,11 +25,11 @@ Ajoutez les sections de test A/B [!DNL Marketo Measure] sur le lead, le contact,
 1. Vérifiez que vous utilisez le package [!DNL Marketo Measure] v3.9 ou version ultérieure. Vous pouvez le faire en accédant à [!UICONTROL Salesforce] > [!UICONTROL Configuration] > [!UICONTROL Packages installés].
 1. Modifiez la disposition de la page Prospect et ajoutez la liste connexe Tests A/B **[!DNL Marketo Measure]** à la page.
 
-   ![1. Modifiez la disposition Page de prospect et ajoutez le ](assets/advanced-features-2.png)
+   ![1. Modifiez la disposition Page de prospect et ajoutez le &#x200B;](assets/advanced-features-2.png)
 
 1. Cliquez sur le bouton [!UICONTROL Clé à molette]. Supprimez le champ « Id » par défaut de la liste des champs sélectionnés. Ajoutez les champs **[!UICONTROL Expérience]**, **[!UICONTROL Variation]** et **[!UICONTROL DateReported]**. Remplacez « [!UICONTROL Trier par] » par **[!UICONTROL Date du rapport]**, et sélectionnez **[!UICONTROL Descendant]** dans la liste déroulante.
 
-   ![1. Cliquez sur le bouton Clé à molette . Supprimez le champ « Id » de stock de ](assets/advanced-features-3.png)
+   ![1. Cliquez sur le bouton Clé à molette . Supprimez le champ « Id » de stock de &#x200B;](assets/advanced-features-3.png)
 
 1. Sous [!UICONTROL Boutons], décochez **[!UICONTROL Nouveau]**.
 

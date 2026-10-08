@@ -43,8 +43,8 @@ Avant d’utiliser cette fonctionnalité, déterminez les informations de point 
 
 Étape 2 : connectez-vous et localisez la fonctionnalité [!UICONTROL Segments].
 
-* Accédez à [](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous
-* Sous l’onglet [!UICONTROL  Mon compte ], sélectionnez [!UICONTROL Paramètres]
+* Accédez à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous
+* Sous l’onglet [!UICONTROL &#x200B; Mon compte &#x200B;], sélectionnez [!UICONTROL Paramètres]
 * Sélectionnez [!UICONTROL Segments] dans les options de la barre latérale à gauche, sous la section [!UICONTROL Rapports]
 
 Étape 3 - Comprendre les composants.

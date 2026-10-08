@@ -49,13 +49,13 @@ Niveaux 1 à 3 **[!DNL Marketo Measure]**
 
 Les responsables marketing doivent importer leurs données B2B (par exemple, Compte, Opportunité, Contact, Lead, Campagne, Membre de campagne, Activité) via AEP. Les connexions directes au CRM et à Marketo Engage ne sont plus disponibles pour Ultimate. Les personnes spécialisées dans le marketing continueront d’importer les données de la plateforme publicitaire par le biais de connexions directes et d’effectuer le suivi des activités web par le biais du code JavaScript [!DNL Marketo Measure].
 
-![Les spécialistes marketing doivent apporter leurs données B2B (par exemple, compte, opportunité, ](assets/marketo-overview-2.png)
+![Les spécialistes marketing doivent apporter leurs données B2B (par exemple, compte, opportunité, &#x200B;](assets/marketo-overview-2.png)
 
 **Paramètre de devise par défaut**
 
 [!DNL Marketo Measure Ultimate] définit la devise par défaut sur USD jusqu’à ce que l’utilisateur ou l’utilisatrice la modifie. Si vous définissez une nouvelle devise par défaut, les données sont mises à jour sans nouveau traitement. Tant que la devise sélectionnée figure comme code ISO cible, il n’est pas nécessaire de soumettre des taux de conversion.
 
-![Marketo Measure Ultimate définit la devise par défaut sur USD jusqu&#39;au ](assets/marketo-overview-7.png)
+![Marketo Measure Ultimate définit la devise par défaut sur USD jusqu&#39;au &#x200B;](assets/marketo-overview-7.png)
 
 Sandbox **[!DNL Marketo Measure Ultimate]**
 
@@ -65,7 +65,7 @@ L’instance [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de
 >
 >Une instance de production [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de production AEP, une instance de développement [!DNL Marketo Measure Ultimate] doit être mappée à un sandbox de développement AEP.
 
-Une fois la sélection du mappage de sandbox enregistrée, vous ne pouvez plus la modifier dans l’application. Pour le modifier, contactez l’assistance technique de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+Une fois la sélection du mappage de sandbox enregistrée, vous ne pouvez plus la modifier dans l’application. Pour le modifier, contactez l’assistance technique de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 Les données d’une entité donnée (un compte, par exemple) provenant d’une source de données particulière ne peuvent entrer que dans un seul jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
 
@@ -100,7 +100,7 @@ Les conditions de règle sont spécifiques à un jeu de données. Les règles de
 
 Aucune sélection entre les modèles Funnel, Boomerang et personnalisé. Toutes les étapes sont sélectionnées pour les modèles Funnel, Boomerang et personnalisé. Le nombre d’étapes que nous prenons en charge est limité : 15 étapes personnalisées plus 6 étapes intégrées.
 
-![Aucune sélection pour funnel par rapport au boomerang par rapport au modèle personnalisé. Toutes les étapes sont ](assets/marketo-overview-4.png)
+![Aucune sélection pour funnel par rapport au boomerang par rapport au modèle personnalisé. Toutes les étapes sont &#x200B;](assets/marketo-overview-4.png)
 
 Les règles de points de contact des membres de campagne et les règles de points de contact d’activité sont spécifiques à un jeu de données.
 

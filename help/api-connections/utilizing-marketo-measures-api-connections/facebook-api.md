@@ -38,7 +38,7 @@ Tout comme nos intégrations AdWords et [!DNL Bing Ads], notre intégration [!DN
 
 En ce qui concerne la configuration, l’application [!DNL Marketo Measure] comporte sept étapes.
 
-1. Accédez à [](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
+1. Accédez à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
 1. Sous Mon compte, sélectionnez **[!UICONTROL Paramètres]**.
 1. Sous Intégrations, sélectionnez **[!UICONTROL Connexions]**.
 1. Sélectionnez **[!UICONTROL Configurer une nouvelle connexion publicitaire]** et un pop-up s’affiche. Sélectionnez **[!UICONTROL Facebook]** et connectez-vous à l’aide de vos identifiants Facebook.
@@ -48,7 +48,7 @@ En ce qui concerne la configuration, l’application [!DNL Marketo Measure] comp
    >La personne qui connecte le compte [!DNL Facebook Ads] doit être un administrateur au sein du compte [!DNL Facebook Ads].
 
 1. Une fois [!DNL Marketo Measure] connecté à votre compte Facebook, cliquez sur l’icône en forme de crayon en regard du compte.
-1. Dans cette vue, déplacez le bouton bascule « Balisage automatique ? » sur « Oui ». Cochez ensuite la case située dans la section [!UICONTROL  En savoir plus ] pour accepter les conditions générales. Assurez-vous que le bouton (bascule) [!UICONTROL Balisage automatique] est toujours défini sur « [!UICONTROL Oui] ».
+1. Dans cette vue, déplacez le bouton bascule « Balisage automatique ? » sur « Oui ». Cochez ensuite la case située dans la section [!UICONTROL &#x200B; En savoir plus &#x200B;] pour accepter les conditions générales. Assurez-vous que le bouton (bascule) [!UICONTROL Balisage automatique] est toujours défini sur « [!UICONTROL Oui] ».
 
 ## Connexion au compte {#connecting-the-account}
 

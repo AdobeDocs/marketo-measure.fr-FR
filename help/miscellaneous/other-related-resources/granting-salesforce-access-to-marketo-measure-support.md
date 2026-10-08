@@ -51,5 +51,5 @@ Selon votre organisation, le bouton [!UICONTROL Configuration] se trouve à côt
 
 1. Cliquez sur votre avatar en haut à droite de l’écran et sélectionnez **[!UICONTROL Paramètres]**.
 1. Cliquez sur **[!UICONTROL Accorder l’accès au compte]**.
-1. Définissez la date d’expiration de l’accès pour « [!UICONTROL Prise en charge de ] ». Pour le dépannage technique, nous vous recommandons d’accorder un accès à l’assistance [!DNL Marketo Measure] pendant au moins une semaine.
+1. Définissez la date d’expiration de l’accès pour « [!UICONTROL Prise en charge de &#x200B;] ». Pour le dépannage technique, nous vous recommandons d’accorder un accès à l’assistance [!DNL Marketo Measure] pendant au moins une semaine.
 1. Cliquez sur **[!UICONTROL Enregistrer]**
