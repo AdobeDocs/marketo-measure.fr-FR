@@ -3,13 +3,17 @@ description: Notes de mise à jour actuelles destinées aux utilisateurs de Mark
 title: Notes de mise à jour actuelles
 exl-id: e93ff03e-ea21-41f4-abb8-32313ee74c0c
 feature: Release Notes
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: ffecc0ee-70f2-5687-bca0-deee982ffbfa
+    internal-label: Release Notes
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1248'
 ht-degree: 85%
-
 ---
-
 # Notes de mise à jour : 2024 {#release-notes-2024}
 
 Vous trouverez ci-dessous toutes les nouvelles fonctionnalités ainsi que les fonctionnalités mises à jour pour nos versions de 2024.
@@ -18,19 +22,19 @@ Vous trouverez ci-dessous toutes les nouvelles fonctionnalités ainsi que les fo
 
 ### Règles de segmentation améliorées
 
-Vous pouvez maintenant créer des segments à l’aide des champs Campagne et Personne membre de la campagne, en plus des champs Point de contact et Contact. Cette amélioration vous permet d’analyser et de disséquer vos données plus efficacement dans Discover.
+Vous pouvez maintenant créer des segments à l’aide des champs Campagne et Membre de la campagne, en plus des champs Point de contact et Contact. Cette amélioration vous permet d’analyser et de disséquer vos données plus efficacement dans Discover.
 
 ![Vous pouvez désormais créer des segments à l’aide des champs Campagne et Membre de la campagne](assets/release-notes-2.png)
 
-### Mise à jour : paramètre de gestion des erreurs pour les exports CRM
+### Mise à jour : paramètre de gestion des erreurs pour les exports GRC
 
-Nous avons écouté vos commentaires concernant l’approche de l’arrêt des traitements et nous proposons une nouvelle fonctionnalité dans l’interface d’utilisation. À partir d’aujourd’hui, vous pouvez choisir si les traitements d’export doivent être suspendus en cas d’erreur. Utilisez le nouveau bouton (bascule) dans **Mon compte** > **Paramètres** → **CRM** → **Général**. Ce commutateur est activé par défaut pour améliorer l’intégrité et la visibilité des données. Cependant, si vous préférez ne pas utiliser cette fonction, vous pouvez la désactiver dans l’interface d’utilisation et les traitements d’export reprendront. Cette mise à jour est conçue pour améliorer la fiabilité de vos processus de gestion des données tout en vous assurant un meilleur contrôle.
+Nous avons tenu compte de vos commentaires concernant la mise en pause des traitements et proposons une nouvelle fonctionnalité dans l’interface utilisateur. À partir d’aujourd’hui, vous pouvez choisir si les traitements d’export doivent être suspendus en cas d’erreur. Utilisez le nouveau bouton (bascule) dans **Mon compte** > **Paramètres** → **CRM** → **Général**. Ce commutateur est activé par défaut pour améliorer l’intégrité et la visibilité des données. Cependant, si vous préférez ne pas utiliser cette fonctionnalité, vous pouvez la désactiver dans l’UI et les traitements d’export reprendront. Cette mise à jour est conçue pour améliorer la fiabilité de vos processus de gestion des données tout en vous assurant un meilleur contrôle.
 
 #### Dates clés et déploiement par phases
 
 Disponibilité immédiate du bouton (bascule) : le bouton (bascule) est désormais actif dans l’interface utilisateur et est activé par défaut pour empêcher que les données ne soient ignorées pendant les tâches d’exportation. Si vous préférez que les traitements d’export continuent de s’exécuter malgré les erreurs, désactivez le bouton (bascule).
 
-Mise en pause de la tâche le 1er octobre 2024 : à compter du 1er octobre 2024, si le bouton (bascule) est actif et qu’une erreur au niveau des enregistrements se produit lors d’une tâche d’exportation, la tâche se met en pause pour s’assurer qu’aucune donnée n’est perdue. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes de workflows/déclencheurs. Vous recevrez des notifications concernant ce problème. Une fois corrigé, le traitement d’export reprendra à partir du point d’interruption. Si vous vous désabonnez d’une pause de traitement, vous recevrez toujours des notifications de problèmes. Une fois qu’ils auront été corrigés, les enregistrements ignorés seront automatiquement réexportés.
+Mise en pause de la tâche le 1er octobre 2024 : à compter du 1er octobre 2024, si le bouton (bascule) est actif et qu’une erreur au niveau des enregistrements se produit lors d’une tâche d’exportation, la tâche se met en pause pour s’assurer qu’aucune donnée n’est perdue. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes de workflows/déclencheurs. Vous recevrez des notifications concernant ce problème. Une fois corrigé, le traitement d’export reprendra à partir du point d’interruption. Si vous choisissez de ne pas mettre les traitements en pause, vous continuerez à recevoir des notifications en cas de problèmes et, une fois ceux-ci corrigés, les enregistrements ignorés seront automatiquement réexportés.
 
 #### Pourquoi c’est important.
 
@@ -64,14 +68,14 @@ Nous avons le plaisir de vous présenter le nouveau [Tableau de bord Opportunit�
 
 La synchronisation des cookies de Marketo Engage est désormais disponible pour Marketo Measure Ultimate. Pour utiliser cette fonctionnalité, procédez comme suit :
 
-1. Sur la page Schémas AEP, modifiez le schéma de personne B2B et ajoutez le groupe de champs « Détails des personnes Marketo Engage ».
+1. Sur la page Schémas AEP, modifiez le schéma « Personne B2B » et ajoutez le groupe de champs « Détails de la personne Marketo Engage ».
 1. Lors de l’ingestion des données à MMU, mappez le champ ID de cookie du groupe de champs au champ Cookies de Marketo Engage.
 
 **Phases de boomerang activées pour les clients de niveau 2**
 
-Auparavant réservée à la clientèle de niveau 3, la fonction Étapes Boomerang est également disponible pour la clientèle de niveau 2 à compter du 13 juin 2024. Pour plus d’informations sur cette fonctionnalité, consultez la documentation ci-dessous.
+Jusqu’à présent réservée aux clients de niveau 3, la fonctionnalité Étape Boomerang sera également accessible à tous les clients de niveau 2 à compter du 13 juin 2024. Pour plus d’informations sur cette fonctionnalité, consultez la documentation ci-dessous.
 
-* [Étapes et points de contact de boomerang](/help/channel-tracking-and-setup/boomerang-stages-and-touchpoints.md){target="_blank"}
+* [Étapes et points de contact Boomerang](/help/channel-tracking-and-setup/boomerang-stages-and-touchpoints.md){target="_blank"}
 * [Configuration d’étapes de boomerang](/help/channel-tracking-and-setup/setting-up-boomerang-stages.md){target="_blank"}
 * [Scénarios d’étape de boomerang](/help/channel-tracking-and-setup/boomerang-stage-scenarios.md){target="_blank"}
 
@@ -86,16 +90,16 @@ En réponse aux préoccupations croissantes concernant la confidentialité, les 
 
 **Déploiement échelonné de notre gestion améliorée des erreurs**
 
-Nous mettons en place un déploiement progressif de la gestion améliorée des erreurs pour les traitements d’export, en commençant par des notifications lumineuses in-app immédiates pour les erreurs d’autorisation, puis en instaurant une nouvelle approche consistant à interrompre les traitements d’export au moment de l’erreur. Ce changement vise à améliorer l’intégrité et la visibilité des données, en assurant des processus de gestion des données plus fluides et plus fiables pour nos utilisateurs et nos utilisatrices. Pour garantir une transition fluide et une perturbation minimale de vos opérations, nous effectuons l’implémentation de ces modifications en deux phases :
+Nous déployons progressivement une gestion améliorée des erreurs pour les traitements d’export, en commençant par des notifications in-app immédiates pour les erreurs d’autorisation, puis en adoptant une nouvelle approche consistant à mettre les traitements d’exportation en pause au moment où l’erreur se produit. Ce changement vise à améliorer l’intégrité et la visibilité des données, en assurant des processus de gestion des données plus fluides et plus fiables pour nos utilisateurs et nos utilisatrices. Afin de garantir une transition en douceur et de limiter au maximum les perturbations de vos opérations, nous mettons en œuvre ces changements en deux phases :
 
-* Disponibilité immédiate des notifications lumineuses : vous recevrez des notifications lumineuses in-app pour les erreurs d’autorisation lors des traitements d’export. Celles-ci n’interrompent pas vos exports, mais vous aident à en savoir plus sur les erreurs sans affecter vos traitements actuels.
+* Disponibilité immédiate des notifications Pulse : vous recevrez des notifications Pulse in-app en cas d’erreur d’autorisation lors des traitements d’export. Celles-ci n’interrompent pas vos exports, mais vous aident à en savoir plus sur les erreurs sans affecter vos traitements actuels.
 * Implémentation des pauses de traitement le 25 avril : **REPORTÉ** - Après avoir pris en compte les commentaires des utilisateurs et utilisatrices de Marketo Measure, nous avons décidé de reporter l’implémentation des pauses de traitement d’export au moment de l’erreur, initialement planifiée pour le 25 avril. Nous avons conscience que l’arrêt des traitements n’est peut-être pas l’approche la plus efficace. Nous nous engageons à trouver une meilleure solution qui préserve l’intégrité des données et minimise les perturbations. Nous mettons en pause toute modification de notre système actuel jusqu’à ce que nous puissions garantir une solution qui s’aligne plus étroitement sur les besoins de nos utilisateurs et utilisatrices.
 
 _Pourquoi c’est important_
 
 Renforcement de l’intégrité des données et pérennité de votre intégration : nous arrêtons le traitement dès le premier signe de problème afin d’éviter les pertes de données et de garantir son exactitude. Cela permet de résoudre rapidement les problèmes, d’améliorer la qualité de l’export des données et la fiabilité du système.
 
-Visibilité immédiate : la mise en place de notifications lumineuses permet de réagir rapidement aux erreurs d’autorisation, en évitant des impacts potentiels sur les opérations.
+Visibilité immédiate : l’introduction des notifications Pulse permet de réagir rapidement aux erreurs d’autorisation, limitant ainsi les répercussions potentielles sur vos opérations.
 
 _Pour vous aider à faire la transition_
 

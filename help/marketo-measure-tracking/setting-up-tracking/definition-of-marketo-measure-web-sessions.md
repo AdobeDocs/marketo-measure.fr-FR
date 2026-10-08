@@ -1,28 +1,30 @@
 ---
 unique-page-id: 18874564
-description: Définition des sessions web  [!DNL Marketo Measure]  -  [!DNL Marketo Measure]
-title: 'Définition des sessions web  [!DNL Marketo Measure] '
+description: Définition des sessions web [!DNL Marketo Measure] - [!DNL Marketo Measure]
+title: Définition des sessions web [!DNL Marketo Measure]
 exl-id: ddf4f19d-2024-413a-b0ae-4efd468c24de
 feature: Tracking
-TQID: https://experienceleague.adobe.com/eGTW-4FDBrucACn0d3nFeO9tMITP6MuDlsjA9w-FjGU
+TQID: 'https://experienceleague.adobe.com/eGTW-4FDBrucACn0d3nFeO9tMITP6MuDlsjA9w-FjGU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 832
+source-wordcount: '833'
 ht-degree: 97%
-
 ---
-
 # Définition des sessions web [!DNL Marketo Measure] {#definition-of-marketo-measure-web-sessions}
 
 Découvrez comment [!DNL Marketo Measure] définit les sessions web.
 
-Une **session web** fait référence aux interactions d’une personne avec votre site Web pendant une certaine période. La session commence lorsqu’une personne arrive sur votre site Web.
+Une **session web** fait référence aux interactions d’une personne avec votre site Web pendant une certaine période. La session commence lorsqu’une personne arrive sur votre site web.
 
-Par exemple, Haley visite adobe.com/fr. Sa visite sur le site commence une session. Lorsque Haley quitte le site, en fermant l’onglet ou le navigateur Web ou en quittant le site, la session se termine.
+Par exemple, Haley visite adobe.com. Sa visite sur le site commence une session. Lorsque Haley quitte le site, en fermant l’onglet ou le navigateur Web ou en quittant le site, la session se termine.
 
-Il n’est pas possible d’ouvrir plusieurs sessions en même temps. Si Haley ouvre [!DNL adobe.com] dans 10 onglets distincts, une seule session est créée en lien avec sa visite du site web.
+Un utilisateur ne peut pas ouvrir plusieurs sessions en même temps. Si Haley ouvre [!DNL adobe.com] dans 10 onglets distincts, une seule session est créée en lien avec sa visite du site web.
 
 ## Comment [!DNL Marketo Measure] définit-il une nouvelle session ? {#how-does-marketo-measure-define-a-new-session}
 
@@ -39,7 +41,7 @@ Il existe plusieurs éléments qui déterminent le moment où une session se ter
 
 Les sessions [!UICONTROL Marketo Measure] se terminent après 30 minutes d’inactivité sur le site web. Par exemple :
 
-Lorsque Haley visite adobe.com/fr, une session commence. Elle explore le site pendant quelques minutes puis s’éloigne de son ordinateur, mais laisse le site ouvert. Après 30 minutes d’inactivité, la session se termine.
+Lorsque Haley visite adobe.com, une session commence. Elle explore le site pendant quelques minutes puis s’éloigne de son ordinateur, mais laisse le site ouvert. Après 30 minutes d’inactivité, la session se termine.
 
 Actuellement, [!UICONTROL Marketo Measure] considère comme « activité » uniquement la navigation au sein des pages et les envois de formulaire. Le fait de faire défiler la page web ou de survoler un élément n’est pas considéré comme une activité. Ainsi, si Haley se rend sur adobe.com/fr pour lire un article de blog et qu’il lui faut une heure pour le lire, sa session web se terminera malgré tout après 30 minutes, même si elle fait défiler le contenu de la page.
 
@@ -47,9 +49,9 @@ Actuellement, [!UICONTROL Marketo Measure] considère comme « activité » u
 
 Il s’agit du comportement par défaut pour les nouveaux utilisateurs et les nouvelles utilisatrices.
 
-Les clientes et clients actuels peuvent adopter le nouveau comportement en cliquant sur le bouton de basculement dans **Paramètres** > **Everytouch Attribution** > **Conservation du canal de session**. Une fois activé, ce paramètre ne peut pas être inversé.
+Les clientes et clients actuels peuvent adopter le nouveau comportement en cliquant sur le bouton de basculement dans **Paramètres** > **Everytouch Attribution** > **Conservation du canal de session**. Une fois activé, ce paramètre ne peut pas être annulé.
 
-Le canal de la session précédente est désormais conservé si une nouvelle session démarre dans un délai de sept jours après 30 minutes d’inactivité. Cette conservation s’applique uniquement aux visites directes (aucun référent ou référent interne). Au-delà de sept jours d’inactivité, le canal de la nouvelle session est défini par défaut sur Direct/Autre. Par exemple, si Haley se rend sur landingpage.com depuis Google, et qu’elle reste inactive pendant plus de 30 minutes, mais y revient dans les sept jours, la nouvelle session conserve le canal Google. Cependant, si le même utilisateur ou la même utilisatrice consulte à nouveau la page via un autre canal, le canal non direct n’est pas remplacé par le canal Google précédent.
+Lorsqu’une nouvelle session est créée après 30 minutes d’inactivité, le canal de la session précédente est conservé si la nouvelle session débute dans un délai de sept jours. Cette conservation s’applique uniquement aux visites directes (aucun référent ou référent interne). Au-delà de sept jours d’inactivité, le canal de la nouvelle session est défini par défaut sur Direct/Autre. Par exemple, si Haley se rend sur landingpage.com depuis Google, et qu’elle reste inactive pendant plus de 30 minutes, mais y revient dans les sept jours, la nouvelle session conserve le canal Google. Cependant, si le même utilisateur ou la même utilisatrice consulte à nouveau la page via un autre canal, le canal non direct n’est pas remplacé par le canal Google précédent.
 
 Seul le canal est conservé, à l’exclusion des détails de campagne ou de référent. En effet, la classification des canaux est gérée par Marketo Measure, tandis que les autres points de données sont collectés séparément.
 
@@ -73,13 +75,13 @@ Imaginons que Haley soit sur LinkedIn, clique sur une publication [!DNL Marketo 
 
 **Canaux de référencement organique ou payants**
 
-De nouvelles sessions démarrent chaque fois qu’un utilisateur ou une utilisatrice se rend sur votre site par le biais de canaux de référencement organique ou payants. Si Haley se rend sur le site web d’Adobe par le biais d’un référencement organique, puis visite immédiatement votre site web par le biais d’une publicité payante sur Google, deux sessions distinctes sont créées.
+Une nouvelle session commence chaque fois qu’un utilisateur accède à votre site via un canal de référencement payant ou naturel. Si Haley accède au site web d’Adobe via le référencement naturel, puis visite immédiatement votre site web en cliquant sur une annonce payante sur Google, deux sessions distinctes sont créées.
 
 **Trafic direct web**
 
 Si une personne se rend sur votre site Web en saisissant l’URL de celui-ci dans la barre d’adresse, une nouvelle session n’est pas toujours entamée pour autant.
 
-Si la première session web de Haley débute à la suite d’une visite d’un site de référence, d’un canal de réseau social ou d’un canal de référencement organique/payant, puis qu’elle se rend sur le site par le biais d’un lien direct web, une nouvelle session n’est pas entamée pour autant.
+Si la première session web de Haley débute à la suite d’une visite provenant d’un site de référence, d’un canal social ou d’un canal de référencement payant ou naturel, puis qu’elle accède au site en accès direct, aucune nouvelle session n’est créée.
 
 _Cependant_, si la première session web de Haley provient d’un lien direct web, puis qu’elle visite le site web via _un site externe/de référence_, la première session se termine et une nouvelle session est ouverte en rapport avec le site externe/de référence.
 

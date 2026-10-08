@@ -1,15 +1,19 @@
 ---
-description: Création d’une vue Liste des campagnes pour  [!DNL Salesforce]  conseils sur les campagnes destinés aux utilisateurs de Marketo Measure
-title: 'Création d’un affichage des listes des campagnes  [!DNL Salesforce] '
+description: Création d’une vue Liste des campagnes pour [!DNL Salesforce] des conseils sur les campagnes destinés aux utilisateurs de Marketo Measure
+title: Création d'une vue Liste des campagnes pour les campagnes [!DNL Salesforce]
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 6%
-
+source-wordcount: '451'
+ht-degree: 4%
 ---
-
 # Création d&#39;une vue Liste des campagnes pour les campagnes [!DNL Salesforce] {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Découvrez comment créer une vue Liste pour les campagnes que vous souhaitez synchroniser avec les points de contact de l’acheteur.
@@ -26,7 +30,7 @@ La vue Liste des campagnes qui peut être créée vous permet d’avoir un empla
 
    * **Type** [EST ÉGAL À] &#39;Tous les types de campagne que nous avons mappés à vos canaux hors ligne&#39;. Reportez-vous à votre plan de mise en œuvre ou à l’onglet Canaux hors ligne dans [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mon compte -> Paramètres -> Canaux hors ligne). Vous pouvez sélectionner les types de votre choix (ceux qui sont mappés à un canal marketing hors ligne) à l’aide de l’icône en forme de loupe.
 
-      * Choisissez 3 types max pour chaque filtre. Un champ de filtre comporte une limite de caractères. Commencez avec 3 types par filtre et ajoutez des lignes supplémentaires de filtres « Type » si nécessaire.
+     * Choisissez 3 types max pour chaque filtre. Un champ de filtre comporte une limite de caractères. Commencez avec 3 types par filtre et ajoutez des lignes supplémentaires de filtres « Type » si nécessaire.
 
    * **Date de création** [POSTÉRIEURE OU ÉGALE] votre date de début de [!DNL Marketo Measure]. La date de début se trouve dans le tableau de bord du RSI de l’application [!DNL Marketo Measure]. Sélectionnez simplement « Depuis la date de création » dans la période du tiret et votre date de début s’affichera.
    * **&#42;Type d’enregistrement&#42;** - Pour apporter des modifications dans la vue Liste, vous devez ajouter un filtre pour le type d’enregistrement. Chaque enregistrement de campagne que vous pouvez avoir à modifier doit être du même type d’enregistrement.

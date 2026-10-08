@@ -3,13 +3,17 @@ description: Maintenance des [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Maintenance de [!DNL Marketo Measure]
 exl-id: 4e1d53bb-0af8-4774-9f69-6a95516b3d11
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '636'
 ht-degree: 95%
-
 ---
-
 
 # Maintenance de [!DNL Marketo Measure] {#marketo-measure-maintenance}
 
@@ -17,7 +21,7 @@ ht-degree: 95%
 
 **Synchroniser les Buyer Touchpoints pour les nouvelles campagnes hors ligne (2 fois par mois)**
 
-Comme vous l’avez appris lors de l’intégration, [!DNL Marketo Measure] obtient des informations sur vos efforts marketing hors ligne en se synchronisant avec les campagnes de votre CRM. Lorsque votre organisation lance de nouvelles campagnes, veillez à activer Buyer Touchpoints pour chaque campagne, le cas échéant.
+Comme vous l’avez appris lors de l’intégration, [!DNL Marketo Measure] obtient des informations sur vos efforts marketing hors ligne en se synchronisant avec les campagnes de votre CRM. À chaque fois que votre organisation lance de nouvelles campagnes, veillez à activer les Buyer Touchpoints pour chacune d’elles, selon les besoins.
 
 **Charger les dépenses pour tous les canaux (1 fois par mois)**
 
@@ -27,18 +31,18 @@ Pour un rappel sur la façon de charger des informations sur les coûts, lisez [
 
 **Mettre à jour la liste des domaines à suivre (1 fois par mois)**
 
-Marketo Measure suit toutes les pages et tous les sous-domaines dans lesquels notre code Javascript est actif, mais seulement pour les domaines que nous connaissons. Si vous avez récemment débogué un nouveau domaine, étendu à l&#39;international ou modifié votre domaine principal, contactez l&#39;assistance de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour vous assurer que nous mettons à jour votre compte en conséquence.
+Marketo Measure suit toutes les pages et tous les sous-domaines dans lesquels notre code Javascript est actif, mais seulement pour les domaines que nous connaissons. Si vous avez récemment débogué un nouveau domaine, étendu à l&#39;international ou modifié votre domaine principal, contactez l&#39;assistance de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour vous assurer que nous mettons à jour votre compte en conséquence.
 
 **Vérifier l’exactitude du mappage des canaux personnalisés (1 fois par mois)**
 
-Lors de l’intégration, vous établissez un mappage personnalisé des canaux pour vos efforts marketing en ligne et hors ligne. Au fur et à mesure que votre stratégie marketing et votre utilisation de Marketo Measure évoluent, vous devez garder un œil sur cette logique de mappage pour vous assurer que tous vos points de contact sont catégorisés comme il se doit.
+Lors de l’intégration, vous établissez un mappage personnalisé des canaux pour vos actions marketing en ligne et hors ligne. Au fur et à mesure que votre stratégie marketing et votre utilisation de Marketo Measure évoluent, vous devez garder un œil sur cette logique de mappage pour vous assurer que tous vos points de contact sont catégorisés comme il se doit.
 
 N’oubliez pas que [!DNL Marketo Measure] retraite vos données lorsque vous modifiez la logique de mappage. Vous ne pourrez donc pas modifier ces règles plus d’une fois tous les sept jours.
 
 Consultez [cet article](/help/channel-tracking-and-setup/online-custom-channel-setup.md) pour la configuration en ligne, [cet article](/help/channel-tracking-and-setup/offline-custom-channel-setup.md) pour la configuration hors ligne, et cette liste de bonnes pratiques établie par nos clientes et clients :
 
 * Examinez les points de contact qui relèvent actuellement des canaux « Autres » ou « NULL » que vous pourriez avoir mis en place. Le cas échéant, mettez à jour votre logique de mappage pour recatégoriser ces points de contact dans des canaux plus précis.
-* Examinez les points de contact qui relèvent actuellement de vos canaux directs. Si certaines de vos campagnes marketing par e-mail ou certains de vos autres efforts ne disposent pas de certains paramètres UTM, il y a de fortes chances que le trafic soit regroupé de manière inappropriée dans un canal direct. Pensez à mettre à jour vos paramètres UTM pour capturer la source de référence.
+* Passez en revue les points de contact qui sont actuellement classés dans vos canaux directs. Si certaines de vos campagnes marketing par e-mail ou certains de vos autres efforts ne disposent pas de certains paramètres UTM, il y a de fortes chances que le trafic soit regroupé de manière inappropriée dans un canal direct. Pensez à mettre à jour vos paramètres UTM pour capturer la source de référence.
 
 **Évaluer les paramètres de suppression des points de contact (1 fois par trimestre)**
 
@@ -50,6 +54,6 @@ Si vous utilisez des étapes personnalisées [!UICONTROL Prospect], [!UICONTROL 
 
 **Comparer le modèle de machine learning à la pondération du modèle personnalisé (1 fois par trimestre) (le cas échéant)**
 
-Si vous disposez d’une licence pour le modèle personnalisé [!DNL Marketo Measure], vous avez également accès aux données de notre modèle de machine learning (MLM) dans [!UICONTROL Paramètres] > [!UICONTROL Paramètres d’attribution]. Le MLM calcule l’importance de chaque étape à l’aide des données des points de contact de votre compte et peut vous aider à décider comment allouer le poids d’attribution dans votre modèle personnalisé. Nous vous recommandons de comparer le MLM à votre modèle personnalisé une fois par trimestre et de discuter des implications de possibles changements de votre modèle personnalisé avec la personne chargée de la gestion de votre portefeuille.
+Si vous disposez d’une licence pour le modèle personnalisé [!DNL Marketo Measure], vous avez également accès aux données de notre modèle de machine learning (MLM) dans [!UICONTROL Paramètres] > [!UICONTROL Paramètres d’attribution]. Le MLM calcule l’importance de chaque étape à l’aide des données des points de contact de votre compte et peut vous aider à décider comment allouer le poids d’attribution dans votre modèle personnalisé. Nous vous recommandons de comparer le modèle MLM à votre modèle personnalisé une fois par trimestre, et de discuter avec votre responsable de compte des implications de tout changement potentiel sur votre modèle personnalisé.
 
 Pour plus d’informations sur le modèle de machine learning [!DNL Marketo Measure], consultez [cet article](/help/channel-tracking-and-setup/machine-learning-model-faq.md).

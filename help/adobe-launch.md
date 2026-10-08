@@ -1,15 +1,19 @@
 ---
-description: '''Intégrations [!DNL Marketo Measure] avec Adobe Launch - [!DNL Marketo Measure]'''
+description: « Intégrations [!DNL Marketo Measure] à Adobe Launch - [!DNL Marketo Measure] »
 title: Intégrations [!DNL Marketo Measure] avec Adobe Launch
 exl-id: 316ee8a8-b2d3-42e9-9ee5-c9b1d91c2769
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 8%
-
 ---
-
 # Intégrations [!DNL Marketo Measure] avec Adobe Launch {#marketo-measure-integrations-with-adobe-launch}
 
 L’extension Adobe Launch est conçue pour les utilisateurs [!DNL Marketo Measure] qui utilisent déjà Adobe Launch sur leur site web. L’extension sert de solution de gestion des balises que vous pouvez utiliser pour configurer et charger dynamiquement des scripts sur vos pages en fonction de certains événements et conditions.
@@ -22,11 +26,11 @@ Une fois installée et configurée dans Adobe Launch, l’extension [!DNL Market
 >
 >Consultez les liens suivants pour en savoir plus sur Adobe Launch et ses extensions :
 >
->* [[!DNL Marketo Measure]  Extension &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html?lang=fr#catalog){target="_blank"}
+>* [[!DNL Marketo Measure]  Extension ](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email/bizible.html#catalog){target="_blank"}
 >* [Présentation d’Adobe Launch](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/overview.html?lang=fr){target="_blank"}
->* [Présentation De L’Extension Adobe Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html?lang=fr){target="_blank"}
+>* [Présentation De L’Extension Adobe Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/extension-dev/overview.html){target="_blank"}
 
-1. Créez une propriété en suivant les étapes [décrites dans cet article](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html?lang=fr#go-to-the-data-collection-interface){target="_blank"}.
+1. Créez une propriété en suivant les étapes [décrites dans cet article](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/configure-tags/create-a-property.html#go-to-the-data-collection-interface){target="_blank"}.
 
 1. Cliquez sur la propriété que vous avez créée.
 
@@ -46,7 +50,7 @@ Une fois installée et configurée dans Adobe Launch, l’extension [!DNL Market
 
 1. Dans le champ ID de compte Bizible, saisissez l’URL de votre site Web (par exemple, `adobe.com`).
 
-   ![1. Dans le champ ID de compte Bizible, saisissez l’URL de votre &#x200B;](assets/marketo-launch-6.png)
+   ![1. Dans le champ ID de compte Bizible, saisissez l’URL de votre ](assets/marketo-launch-6.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 
@@ -62,7 +66,7 @@ Une fois installée et configurée dans Adobe Launch, l’extension [!DNL Market
 
 1. Dans la liste déroulante Extension , sélectionnez **[!UICONTROL Core]**. Ensuite, dans le menu déroulant Type d’événement , sélectionnez **[!UICONTROL Bibliothèque chargée (haut de page)]**. Si vous ne donnez pas de nom à votre événement, un nom par défaut est appliqué. Cliquez sur **[!UICONTROL Conserver les modifications]** lorsque vous avez terminé.
 
-   ![1. Dans la liste déroulante Extension , sélectionnez Core. Puis dans l’Événement &#x200B;](assets/marketo-launch-1.png)
+   ![1. Dans la liste déroulante Extension , sélectionnez Core. Puis dans l’Événement ](assets/marketo-launch-1.png)
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]** sous Actions.
 
@@ -70,7 +74,7 @@ Une fois installée et configurée dans Adobe Launch, l’extension [!DNL Market
 
 1. Dans le menu déroulant Extension , sélectionnez **[!UICONTROL Bizible Analytics]**. Ensuite, dans le menu déroulant Type d’action, sélectionnez **[!UICONTROL Initialiser]**. Si vous ne donnez pas de nom à votre action, une action par défaut est appliquée. Cliquez sur **[!UICONTROL Conserver les modifications]** lorsque vous avez terminé.
 
-   ![1. Dans le menu déroulant Extension , sélectionnez Bizible Analytics. Ensuite, dans l’Action &#x200B;](assets/marketo-launch-4.png)
+   ![1. Dans le menu déroulant Extension , sélectionnez Bizible Analytics. Ensuite, dans l’Action ](assets/marketo-launch-4.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**
 

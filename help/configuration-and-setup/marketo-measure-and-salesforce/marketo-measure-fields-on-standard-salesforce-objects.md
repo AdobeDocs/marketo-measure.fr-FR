@@ -1,33 +1,40 @@
 ---
 unique-page-id: 18874574
-description: '[!DNL Marketo Measure] des champs dans Standard [!DNL Salesforce] Objects - [!DNL Marketo Measure]'
-title: Champs [!DNL Marketo Measure] sur les objets [!DNL Salesforce] standard
+description: '[!DNL Marketo Measure] des champs sur les objets [!DNL Salesforce] standard - [!DNL Marketo Measure]'
+title: « Champs [!DNL Marketo Measure] sur les objets [!DNL Salesforce] standard »
 exl-id: c9d5254f-06bd-4813-bb29-1a4955b37041
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/1Md2-2kZ3M-UwHXdED4uKV2PswFenKecJqQZ6ud30Rg
+TQID: 'https://experienceleague.adobe.com/1Md2-2kZ3M-UwHXdED4uKV2PswFenKecJqQZ6ud30Rg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Taxonomy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 672
+source-wordcount: '673'
 ht-degree: 99%
-
 ---
-
 # « Champs [!DNL Marketo Measure] sur les objets [!DNL Salesforce] standard » {#marketo-measure-fields-on-standard-salesforce-objects}
 
 >[!NOTE]
 >
->Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans la documentation. Toutefois, votre gestion de la relation client (CRM) mentionne encore « Bizible ». Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
+>Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans la documentation tandis que votre CRM peut mentionner « Bizible ». Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
 
 Découvrez les différents champs [!DNL Marketo Measure] ajoutés aux objets standards [!DNL Salesforce].
 
 ## Compte {#account}
 
-Score d’engagement prédictif : ce champ est utilisé avec notre fonction ABM pour fournir un score lié à l’engagement du compte et prend en compte de nombreux facteurs tels que la date des consultations de pages, le nombre de contacts associés au compte, le fait qu’une opportunité est fermée, etc.
+Score d’engagement prédictif : ce champ est utilisé avec notre fonctionnalité ABM pour fournir un score lié à l’engagement du compte. Il prend en compte de nombreux facteurs tels que la récence des pages vues, le nombre de contacts associés au compte, l’existence d’une opportunité clôturée, etc.
 
 ## Campagne {#campaign}
 
@@ -49,7 +56,7 @@ Mise à jour de l’attribution [!DNL Marketo Measure] (règle de validation) :
 
 5 champs et 1 déclencheur Apex ont été ajoutés au package.
 
-Statut du point de contact (Prospect) : il s’agit d’un champ de diagnostic lié à une fonctionnalité qui n’est pas activée initialement. Nous l’utilisons pour savoir si un point de contact a été créé par rapport à l’enregistrement de prospect correspondant ou, si ce n’est pas le cas, pour en connaître la raison.
+Statut du point de contact (Lead) : il s’agit d’un champ de diagnostic lié à une fonctionnalité qui n’est pas activée par défaut. Nous l’utilisons pour savoir si un point de contact a été créé par rapport à l’enregistrement Lead correspondant ou, si ce n’est pas le cas, pour en connaître la raison.
 
 Statut du point de contact (Contact) : il s’agit d’un champ de diagnostic lié à une fonctionnalité qui n’est pas activée initialement. Nous l’utilisons pour savoir si un point de contact a été créé par rapport à l’enregistrement de contact correspondant ou, si ce n’est pas le cas, pour en connaître la raison.
 
@@ -67,7 +74,7 @@ Le champ Compte Bizible est utilisé pour le mappage d’un lead à un compte da
 
 ## Compte {#account-1}
 
-Cette information est utilisée pour le mappage d’un prospect à un compte dans le cadre de notre fonctionnalité ABM. Nous renseignons ce champ pour créer la relation de consultation entre les deux objets.
+Cette information est utilisée pour le mappage des leads aux comptes dans le cadre de notre fonctionnalité ABM. Nous renseignons ce champ pour créer la relation de consultation entre les deux objets.
 
 ## Opportunité {#opportunity}
 
@@ -77,4 +84,4 @@ Montant de l’opportunité [!DNL Marketo Measure] : ce champ est utilisé lors
 
 BizibleID : cette information nous permet de relier un point de contact à des activités pour notre attribution d’activités et l’intégration de mesures de suivi des appels.
 
-Date du Buyer Touchpoint : il s’agit d’un champ qui peut être rempli via un workflow, à utiliser comme date pour l’attribution des activités. Il sera rempli pour notre intégration de calltrackingmetrics afin de savoir à quel moment a eu lieu l’interaction.
+Date du Buyer Touchpoint : il s’agit d’un champ qui peut être renseigné via un workflow, pour servir de date pour l’attribution des activités. Il sera renseigné pour notre intégration CallTrackingMetrics afin de savoir quand l’interaction a eu lieu.

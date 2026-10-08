@@ -1,15 +1,19 @@
 ---
-description: Enregistrements en double et conseils  [!DNL Marketo Measure]  les utilisateurs de Marketo Measure
-title: Doublons d’enregistrements et  [!DNL Marketo Measure]
+description: Instructions relatives à la duplication des enregistrements et à la [!DNL Marketo Measure] pour les utilisateurs de Marketo Measure
+title: Dupliquer les enregistrements et les [!DNL Marketo Measure]
 exl-id: e340100c-120a-4771-946d-336a1458da4e
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 12%
-
+source-wordcount: '294'
+ht-degree: 11%
 ---
-
 # Dupliquer les enregistrements et les [!DNL Marketo Measure] {#duplicate-records-and-marketo-measure}
 
 >[!NOTE]

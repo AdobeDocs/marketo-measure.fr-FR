@@ -1,25 +1,30 @@
 ---
 unique-page-id: 42762729
-description: Intégration des programmes [!DNL Marketo Engage] - [!DNL Marketo Measure]
+description: Intégration de programmes [!DNL Marketo Engage] - [!DNL Marketo Measure]
 title: Intégration des programmes [!DNL Marketo Engage]
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-TQID: https://experienceleague.adobe.com/tsJhoMace2jJnRi7-jM-mojkNMSdZlzYKtvk3OVR2A8
+TQID: 'https://experienceleague.adobe.com/tsJhoMace2jJnRi7-jM-mojkNMSdZlzYKtvk3OVR2A8'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1300
+source-wordcount: '1300'
 ht-degree: 2%
-
 ---
-
 # Intégration des programmes [!DNL Marketo Engage] {#marketo-engage-programs-integration}
 
 Grâce à l’intégration [!DNL Marketo Measure] aux programmes [!DNL Marketo Engage], nos clients peuvent commencer à créer des points de contact pour le suivi de l’attribution à partir des adhésions au programme Marketo. Cette fonctionnalité permet aux spécialistes marketing de commencer à effectuer le suivi des adhésions aux programmes à partir d’e-mails ou de programmes d’engagement qui ne sont pas visibles autrement par le javascript [!DNL Marketo Measure] et qui doivent être mesurés dans le parcours d’attribution.

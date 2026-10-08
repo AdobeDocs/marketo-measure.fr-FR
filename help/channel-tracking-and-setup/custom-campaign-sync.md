@@ -3,13 +3,17 @@ description: Conseils de synchronisation de campagne personnalisés pour les uti
 title: Synchronisation de campagne personnalisée
 exl-id: 66f0e4e3-c1b6-443e-8ffa-06b67862b855
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 2%
-
 ---
-
 # Synchronisation de campagne personnalisée {#custom-campaign-sync}
 
 Aujourd’hui, avec le package [!DNL Marketo Measure] installé, vous pouvez indiquer les campagnes à inclure en tant que point de contact éligible. Il y a de multiples obstacles à cela, comme c&#39;était le cas auparavant. Une fois le package [!DNL Marketo Measure] installé dans le CRM, son approbation par votre équipe de sécurité peut prendre du temps. En outre, l’utilisation d’une seule liste de sélection sur l’objet Campaign présente un manque de flexibilité. Avec cette nouvelle fonctionnalité, il n’est pas nécessaire d’installer de package pour commencer à utiliser les enregistrements Campaign et Membre de la campagne . Des règles peuvent être créées pour définir exactement quels enregistrements peuvent être créés afin de définir exactement quels enregistrements sont éligibles.
@@ -44,13 +48,13 @@ Aujourd’hui, avec le package [!DNL Marketo Measure] installé, vous pouvez ind
 
 1. Cliquez sur la coche, puis ajoutez des règles supplémentaires pour d’autres campagnes, si nécessaire.
 
-   ![1. Cliquez sur la coche, puis ajoutez des règles supplémentaires pour d’autres campagnes comme &#x200B;](assets/offline-channels-12.png)
+   ![1. Cliquez sur la coche, puis ajoutez des règles supplémentaires pour d’autres campagnes comme ](assets/offline-channels-12.png)
 
    >[!NOTE]
    >
    >Maintenant que les règles sont définies avec la synchronisation CRM, les règles qui sont énoncées vont naturellement commencer à entrer en conflit. Si vous choisissez de continuer à utiliser à la fois la synchronisation de campagne personnalisée _et_ le type de synchronisation CRM, il est essentiel de créer des règles afin que vos types de synchronisation CRM ne soient pas ignorés.
 
-   ![Maintenant que les règles sont définies avec la synchronisation CRM, les règles qui &#x200B;](assets/offline-channels-13.png)
+   ![Maintenant que les règles sont définies avec la synchronisation CRM, les règles qui ](assets/offline-channels-13.png)
 
    >[!NOTE]
    >
@@ -68,7 +72,7 @@ Vous pouvez facilement vérifier les enregistrements Points de contact de l’ac
 
 1. La fonction de synchronisation de la campagne est fournie avec une fonction de test afin que vous puissiez vérifier si les règles que vous avez créées répondent réellement aux critères de Campaign. Commencez par cliquer sur le bouton [!UICONTROL Tester]. Les règles doivent d’abord être enregistrées avant de pouvoir commencer le test.
 
-   ![1. La fonctionnalité de synchronisation de la campagne est fournie avec une fonctionnalité de test afin que &#x200B;](assets/offline-channels-15.jpg)
+   ![1. La fonctionnalité de synchronisation de la campagne est fournie avec une fonctionnalité de test afin que ](assets/offline-channels-15.jpg)
 
    Un pop-up s’affiche et vous pouvez saisir un identifiant de campagne (15 ou 18 caractères du CRM) à tester. Il s’agit de saisir l’identifiant de campagne du CRM que vous tentez de synchroniser pour vous assurer qu’il correspond à la règle que vous avez créée.
 

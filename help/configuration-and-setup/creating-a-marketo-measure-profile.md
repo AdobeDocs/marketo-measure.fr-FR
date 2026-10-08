@@ -1,15 +1,22 @@
 ---
-description: Création de conseils sur  [!DNL Marketo Measure]  profil pour les utilisateurs de Marketo Measure
-title: 'Création d’un profil [!DNL Marketo Measure] '
+description: Création d’un guide de profil [!DNL Marketo Measure] pour les utilisateurs de Marketo Measure
+title: Création d’un profil [!DNL Marketo Measure]
 exl-id: dab2e2cb-fbd3-464a-9bd7-e9bf153d9848
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 7%
-
+source-wordcount: '197'
+ht-degree: 6%
 ---
-
 # Création d’un profil [!DNL Marketo Measure] {#creating-a-marketo-measure-profile}
 
 Découvrez comment créer un profil de [!DNL Marketo Measure]. La création d’un profil [!DNL Marketo Measure] garantit que nous ne rencontrerons pas d’erreurs de validation lors de la publication de données vers votre CRM.
@@ -31,7 +38,7 @@ Découvrez comment créer un profil de [!DNL Marketo Measure]. La création d’
 1. Exclure ce profil de tous les déclencheurs, workflows et processus.
 1. Connectez-vous à votre compte [!DNL Marketo Measure] et réautorisez la connexion [!DNL Salesforce] avec le nouvel utilisateur :
 
-   * Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous avec les nouvelles informations d’identification Salesforce de production de l’utilisateur
+   * Accédez à [](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous avec les nouvelles informations d’identification Salesforce de production de l’utilisateur
    * Sélectionnez « [!UICONTROL Settings] » dans le menu déroulant « [!UICONTROL My Account] » (Mon compte).
    * Sélectionnez « [!UICONTROL Connexions] » dans le groupe « [!UICONTROL Intégrations] »
    * Cliquez sur l’icône Clé à droite de la connexion [!DNL Salesforce] actuelle connectée et sélectionnez Réautoriser avec la production . Connectez-vous ensuite à nouveau avec les nouvelles informations d’identification de l’utilisateur si cela vous est demandé

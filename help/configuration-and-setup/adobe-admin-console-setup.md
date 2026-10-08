@@ -3,13 +3,17 @@ description: Guides de configuration de l’accès à Marketo Measure via les pr
 title: Configuration d’Adobe Admin Console
 feature: Installation
 exl-id: f9edacae-79e0-408c-ac37-bbe67c185f2d
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 76%
-
 ---
-
 # Configuration d’Adobe Admin Console {#adobe-admin-console-setup}
 
 La première étape pour utiliser [!DNL Marketo Measure] consiste à créer un compte Adobe Admin Console et à s’y connecter. Si vous n’avez pas encore reçu l’e-mail contenant les instructions de connexion, contactez la personne responsable de votre compte [!DNL Marketo Measure].
@@ -32,7 +36,7 @@ Lorsque vous accédez à Adobe Admin Console, vous pouvez voir vos instances p
 
 Cliquez sur la fiche produit de [!DNL Marketo Measure] pour afficher toutes vos instances [!DNL Marketo Measure]. Par défaut, chaque instance [!DNL Marketo Measure] possède son propre profil, précédé du préfixe « [!DNL Marketo Measure] ». Tous les administrateurs, administratrices, utilisateurs ou utilisatrices ajoutés à ce profil ou à tout autre profil de cette instance pourront se connecter à [!DNL Marketo Measure].
 
-![Cliquez sur la fiche produit Marketo Measure pour afficher tous vos &#x200B;](assets/adobe-setup-2.png)
+![Cliquez sur la fiche produit Marketo Measure pour afficher tous vos ](assets/adobe-setup-2.png)
 
 Aucune action n’est requise pour créer un profil dans la ou les instances produits [!DNL Marketo Measure].
 
@@ -57,4 +61,4 @@ Lors de l’ajout d’un utilisateur ou d’une utilisatrice à son groupe respe
 
 Une fois qu’un utilisateur a été ajouté à un profil de produit, il peut accéder à ses instances [!DNL Marketo Measure] en sélectionnant l’option **Se connecter avec Adobe ID** à l’adresse [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.
 
-![Une fois qu’un utilisateur a été ajouté à un profil de produit, il peut &#x200B;](assets/adobe-setup-3.png)
+![Une fois qu’un utilisateur a été ajouté à un profil de produit, il peut ](assets/adobe-setup-3.png)

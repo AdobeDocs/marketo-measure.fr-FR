@@ -1,22 +1,25 @@
 ---
 unique-page-id: 18874562
 description: Points de contact PostLC et engagement du prospect - Marketo Measure - Documentation du produit
-title: Points de contact PostLC et engagement des prospects
+title: Points de contact PostLC et engagement des leads
 exl-id: 3ee5c571-195e-46c7-b150-fedcbc3614cb
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/n4xUxE4OCjGuKWUwV5Gi-KA9xC7ChzpdhjXjuqbzlIA
+TQID: 'https://experienceleague.adobe.com/n4xUxE4OCjGuKWUwV5Gi-KA9xC7ChzpdhjXjuqbzlIA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: '402'
 ht-degree: 4%
-
 ---
-
-# Points de contact PostLC et engagement des prospects {#postlc-touchpoints-and-lead-engagement}
+# Points de contact PostLC et engagement des leads {#postlc-touchpoints-and-lead-engagement}
 
 [!DNL Marketo Measure] points de contact de la création post-lead (PostLC) sont disponibles pour les clients qui utilisent des modèles d’attribution multipoint (en W et supérieurs). Lorsqu’un prospect ou un contact revient sur votre site web et continue à remplir des formulaires, ces envois de formulaires s’enregistrent en tant que points de contact PostLC. Ces points de contact vous permettent de voir quel contenu incite les prospects à continuer à interagir avec votre site, longtemps après leur première conversion. Les points de contact PostLC partagent le crédit d’attribution avec tous les points de contact intermédiaires au sein d’une opportunité. Un crédit d’attribution de 10 % est attribué aux points de contact intermédiaires et est réparti de manière égale entre tous les contacts.
 

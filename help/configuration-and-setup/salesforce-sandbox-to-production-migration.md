@@ -1,16 +1,23 @@
 ---
 description: Conseils de migration de Salesforce Sandbox vers Production pour les utilisateurs de Marketo Measure
-title: Migration de l’instance sandbox de Salesforce vers la production
+title: Migration du sandbox Salesforce vers l’environnement de production
 exl-id: b2b71c4a-f192-43ce-a27e-cbd0ec3cf008
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 92%
-
 ---
-
-# Migration de l’instance sandbox de Salesforce vers la production {#salesforce-sandbox-to-production-migration}
+# Migration du sandbox Salesforce vers l’environnement de production {#salesforce-sandbox-to-production-migration}
 
 Si vous choisissez de tester [!DNL Marketo Measure] dans un environnement sandbox de [!DNL Salesforce], suivez ces instructions pour migrer en production une fois que vous êtes en mesure de le faire. Les instructions suivantes supposent que vous avez déjà téléchargé le package [!DNL Marketo Measure] dans votre organisation sandbox, effectué les tests nécessaires et que vous êtes en mesure d’effectuer des envois [!DNL Marketo Measure] en production.
 
@@ -18,7 +25,7 @@ Si vous choisissez de tester [!DNL Marketo Measure] dans un environnement sandbo
 
 * Installer le package [!DNL Marketo Measure] en production avec le paramètre « [!UICONTROL Tous les utilisateurs et utilisatrices] »
 
-   * [Package de base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
+  * [Package de base](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3000000B3KLuEAN){target="_blank"}
 
 * Pour plus d’informations sur la relation entre [!DNL Marketo Measure] et [!DNL Salesforce], consultez [cet article](/help/configuration-and-setup/how-marketo-measure-and-salesforce-interact.md).
 * Une légère configuration de [!DNL Salesforce] est nécessaire. Les actions spécifiques sont décrites dans l’[Étape 4 ci-dessous](#salesforce-configuration).
@@ -32,7 +39,7 @@ Si vous choisissez de tester [!DNL Marketo Measure] dans un environnement sandbo
 
   ![Vous êtes invité à confirmer votre suppression. Veillez à relire](assets/salesforce-migration-1.png)
 
-   * Saisissez le nom de l’entreprise, comme indiqué dans le modèle de confirmation, puis cliquez sur « Je comprends les conséquences, supprimer cette connexion ».
+  * Saisissez le nom de l’entreprise comme demandé dans le modèle de confirmation, puis cliquez sur « Je comprends les conséquences ; supprimer cette connexion ».
 * Le processus de suppression est déclenché et son exécution prend un certain temps.
 
 ## Étape 3 : se connecter à l’instance CRM en production dans l’application [!DNL Marketo Measure] {#connect-the-production-crm-instance-in-marketo-measure-app}
@@ -44,7 +51,7 @@ Si vous choisissez de tester [!DNL Marketo Measure] dans un environnement sandbo
 * Dans la boîte de dialogue modale « [!UICONTROL Sélectionner la connexion CRM] », cliquez sur l’action « [!UICONTROL Se connecter] » en regard de la plateforme [!DNL Salesforce], puis sélectionnez l’option « [!UICONTROL Production] ».
 * Vous recevez une invitation à saisir vos informations d’identification. Veillez à saisir les informations de connexion de production.
 
-## Étape 4 : configurer Salesforce {#salesforce-configuration}
+## Étape 4 : Configuration de Salesforce {#salesforce-configuration}
 
 [Dispositions de page](/help/configuration-and-setup/page-layout-instructions.md)
 
@@ -52,6 +59,6 @@ Si vous choisissez de tester [!DNL Marketo Measure] dans un environnement sandbo
 
 [Partage de rapports](https://help.salesforce.com/s/articleView?language=en_US&id=analytics_share_folder.htm&type=0){target="_blank"}
 
-[Masquer les types de rapports superflus](/help/configuration-and-setup/hiding-unnecessary-report-types.md)
+[Masquage des types de rapport inutiles](/help/configuration-and-setup/hiding-unnecessary-report-types.md)
 
 [Workflow personnalisé, le cas échéant](/help/channel-tracking-and-setup/using-a-custom-revenue-amount-field.md)

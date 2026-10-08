@@ -4,16 +4,18 @@ description: Modèles d’attribution Marketo Measure - Marketo Measure - Docume
 title: Modèles d’attribution Marketo Measure
 exl-id: d8f76f29-e7c9-4b2d-b599-e80fd93c4687
 feature: Attribution
-TQID: https://experienceleague.adobe.com/auiVcEzz1L3cujxvhEw6C7gig67ZHZCMKmB87oPxjVo
+TQID: 'https://experienceleague.adobe.com/auiVcEzz1L3cujxvhEw6C7gig67ZHZCMKmB87oPxjVo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 777
+source-wordcount: '781'
 ht-degree: 100%
-
 ---
-
 # Modèles d’attribution Marketo Measure {#marketo-measure-attribution-models}
 
 Marketo Measure propose six types de modèles d’attribution :
@@ -25,7 +27,7 @@ Marketo Measure propose six types de modèles d’attribution :
 * Chemin complet
 * Modèle personnalisé
 
-Ces modèles n’ont pas tous la même complexité. Les modèles Premier contact et Création de prospects sont des modèles simples, composés d’une seule prise de contact. Les quatre autres sont plus complexes, et comprennent plusieurs points de contact. La structure des modèles d’attribution de Marketo Measure reflète les quatre principaux points de contact qui jalonnent le parcours client :
+Ces modèles n’ont pas tous la même complexité. Les modèles Premier contact et Création de lead sont des modèles simples à point de contact unique. Les quatre autres sont plus complexes, et comprennent plusieurs points de contact. La structure des modèles d’attribution de Marketo Measure reflète les quatre principaux points de contact qui jalonnent le parcours client :
 
 * Premier contact (FT pour « First Touch »)
 * Création de prospects (LC pour « Lead Creation »)
@@ -37,7 +39,7 @@ Ces modèles n’ont pas tous la même complexité. Les modèles Premier contact
 Dans les **modèles simples**, le crédit d’attribution est attribué à un unique point de contact.
 Dans les **modèles complexes**, la plupart du crédit d’attribution est attribué à deux points de contact ou plus. Le crédit restant est attribué aux points de contact intermédiaires, situés entre les principaux jalons.
 
-Les sections suivantes détaillent chaque modèle d’attribution, ainsi que la manière dont le crédit est affecté.
+Les sections suivantes détaillent chaque modèle d’attribution, ainsi que la manière dont les crédits sont attribués.
 
 ## Modèles simples {#single-touch-models}
 
@@ -51,19 +53,19 @@ Imaginons que Kate visite `www.adobe.com` pour la première fois via une annonce
 
 **Modèle « création de prospects »**
 
-Le modèle « création de prospects » attribue 100 % du crédit au point de contact où un prospect fournit ses coordonnées et devient un client potentiel.
+Le modèle de création de lead (LC) attribue 100 % du crédit d’attribution au point de contact LC, lorsqu’un prospect fournit ses coordonnées et devient un lead.
 
-Dans la suite de l’exemple précédent, après la première visite de Kate sur `www.adobe.com` via AdWords, Austin se rend à son tour sur le site Web via un article sur LinkedIn. Il remplit un formulaire et devient un prospect. Dans ce modèle, LinkedIn recevra 100 % du crédit d’attribution.
+Dans la suite de l’exemple précédent, après la première visite de Kate sur `www.adobe.com` via AdWords, Austin se rend à son tour sur le site Web via un article sur LinkedIn. Il remplit un formulaire et devient un lead. Dans ce modèle, LinkedIn recevra 100 % du crédit d’attribution.
 
 ![](assets/3.png)
 
 ## Modèles complexes {#multi-touch-models}
 
-Les modèles complexes sont utilisés pour des cycles de vente plus longs et qui comprennent plusieurs points de contact. Ils sont particulièrement utiles si plusieurs personnes d’un même compte ou d’une même société sont impliquées dans le parcours d’achat.
+Les modèles d’attribution multipoint sont utilisés pour des cycles de vente plus longs et plus complexes. Ils sont particulièrement utiles si plusieurs personnes d’un même compte ou d’une même société sont impliquées dans le parcours d’achat.
 
 **Modèle en forme de U**
 
-Le modèle en U se concentre sur les points de contact FT et LC, Dans ce modèle, les points de contact FT et LC reçoivent chacun 50 % du crédit des revenus.
+Le modèle en U se concentre sur les points de contact FT et LC. Dans ce modèle, les points de contact FT et LC reçoivent chacun 50 % du crédit des revenus.
 
 La première visite de Kate sur `www.adobe.com` via une annonce AdWords reçoit alors 50 % du crédit d’attribution. et les 50 % restants sont attribués à l’article sur LinkedIn qui a conduit Augustin à remplir un formulaire et à devenir un client potentiel.
 
@@ -73,7 +75,7 @@ La première visite de Kate sur `www.adobe.com` via une annonce AdWords reçoit 
 
 Le modèle en W comprend trois jalons : les points de contact FT, LC et OC se voient attribuer chacun 30 % du crédit d’attribution. Les 10 % restants sont attribués de façon proportionnelle à tout point de contact intermédiaire qui se produit entre ces trois jalons.
 
-Kate et Augustin mentionnent Marketo Measure à leur collègue, Hillary. Elle trouve un élément de contenu via une recherche Google et remplit un formulaire. Plus tard, Augustin reçoit un e-mail lui proposant de participer à un webinaire et remplit le formulaire d’inscription sur le site web. Kate discute avec un représentant ou une représentante du produit Marketo Measure.
+Kate et Austin mentionnent Marketo Measure à leur collègue, Hillary. Elle trouve un élément de contenu via une recherche Google et remplit un formulaire. Plus tard, Austin reçoit un e-mail d’inscription à un webinaire et remplit le formulaire d’inscription sur le site web. Kate discute avec un représentant ou une représentante du produit Marketo Measure.
 
 Hillary reçoit un e-mail avec un lien vers la page des tarifs, qu’elle consulte. Une opportunité est alors créée pour leur compte. La visite d’Hillary sur la page des tarifs reçoit du crédit, car il s’agit de l’interaction marketing la plus proche de la date de création de l’opportunité. Chacun des jalons se voit attribuer 30 % du crédit, et les 10 % restants sont répartis entre les points de contact intermédiaires.
 
@@ -81,12 +83,12 @@ Hillary reçoit un e-mail avec un lien vers la page des tarifs, qu’elle consul
 
 **Modèle en chemin complet**
 
-Le modèle en chemin complet comprend les quatre jalons. Les points FT, LC, OC et CW reçoivent chacun 22,5 % du crédit de revenus, et les 10 % restants sont répartis à parts égales entre les points de contact intermédiaires.
+Le modèle Full Path (Parcours complet) inclut les quatre points de contact clés. Les points FT, LC, OC et CW reçoivent chacun 22,5 % du crédit de revenus, et les 10 % restants sont répartis à parts égales entre les points de contact intermédiaires.
 
-Après la création de l’opportunité, Kate, Augustin et Hillary décident de présenter Marketo Measure à leur CMO, Elizabeth. Elizabeth assiste à une conférence où Marketo Measure organise un événement. Sur LinkedIn, Kate tombe sur un article portant sur une étude de cas et remplit un formulaire pour télécharger le contenu. Elizabeth assiste à un dîner d’affaires organisé par Marketo Measure. Après le dîner, elle décide d’acheter Marketo Measure et devient une cliente. Dans ce scénario, le dîner d’affaires se voit attribuer 22,5 % du crédit de recettes correspondant à la vente. De la même façon, les points FT, LC et OC reçoivent chacun 22,5 % du crédit. Les 10 % restants sont répartis entre les points de contact intermédiaires.
+Après la création de l’opportunité, Kate, Austin et Hillary décident de présenter Marketo Measure à leur CMO, Elizabeth. Elizabeth assiste à une conférence où Marketo Measure organise un événement. Kate voit un post LinkedIn concernant une étude de cas et remplit un formulaire pour télécharger le contenu. Elizabeth assiste à un dîner d’affaires organisé par Marketo Measure. Après le dîner, elle décide d’acheter Marketo Measure et devient une cliente. Dans ce scénario, le dîner d’affaires se verrait attribuer 22,5 % du crédit de revenus de l’affaire conclue. De la même façon, les points FT, LC et OC reçoivent chacun 22,5 % du crédit. Les 10 % restants sont répartis entre les points de contact intermédiaires.
 
 ![](assets/6.png)
 
 **Modèle d’attribution personnalisé**
 
-Marketo Measure propose également un modèle d’attribution personnalisé, qui permet aux utilisateurs de choisir les points de contact ou les étapes personnalisées à inclure dans leur modèle. En outre, les utilisateurs et les utilisatrices peuvent contrôler le pourcentage du crédit d’attribution alloué à chacun de ces éléments. Si une opportunité ne comporte pas de points de contact intermédiaires dédiés, le pourcentage sera réparti à parts égales entre les autres positions.
+Marketo Measure propose également un modèle d’attribution personnalisé, qui permet aux utilisateurs de choisir les points de contact ou les étapes personnalisées à inclure dans leur modèle. En outre, les utilisateurs et les utilisatrices peuvent contrôler le pourcentage du crédit d’attribution alloué à ces points de contact et étapes. Si une opportunité ne comporte pas de points de contact intermédiaires dédiés, le pourcentage sera réparti à parts égales entre les autres positions.

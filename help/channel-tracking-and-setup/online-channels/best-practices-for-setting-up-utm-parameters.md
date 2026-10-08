@@ -1,24 +1,26 @@
 ---
 unique-page-id: 18874732
-description: Bonnes pratiques pour la configuration des paramètres UTM -  [!DNL Marketo Measure]
-title: Bonnes pratiques pour la configuration des paramètres UTM
+description: Bonnes pratiques relatives à la configuration des paramètres UTM - [!DNL Marketo Measure]
+title: Bonnes pratiques relatives à la définition des paramètres UTM
 exl-id: 56019f41-b6ba-48c1-9bef-2a5f56d2d5f4
 feature: UTM Parameters
-TQID: https://experienceleague.adobe.com/DtL-NA5HSr40pOEJ0iCge--9Aa-reP1PRyJIw3qfAqM
+TQID: 'https://experienceleague.adobe.com/DtL-NA5HSr40pOEJ0iCge--9Aa-reP1PRyJIw3qfAqM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 459
-ht-degree: 83%
-
+source-wordcount: '459'
+ht-degree: 82%
 ---
+# Bonnes pratiques relatives à la définition des paramètres UTM {#best-practices-for-setting-up-utm-parameters}
 
-# Bonnes pratiques pour la configuration des paramètres UTM {#best-practices-for-setting-up-utm-parameters}
+Les paramètres UTM sont un excellent moyen de découper vos données marketing. [!DNL Marketo Measure] utilise et capture tous les paramètres UTM pour renseigner les champs dans Salesforce et dans l’application [!DNL Marketo Measure]. Grâce à ces informations, vous pouvez déterminer avec précision d’où proviennent vos leads, vos opportunités et vos opportunités conclues avec succès (« Closed Won »).
 
-Les paramètres UTM sont un excellent moyen de découper vos données marketing. [!DNL Marketo Measure] utilise et capture tous les paramètres UTM pour renseigner les champs dans Salesforce et dans l’application [!DNL Marketo Measure]. Grâce à ces informations, vous êtes en mesure de comprendre en détail l’origine de vos prospects, opportunités et offres fermées/gagnées.
-
-Vous pouvez utiliser le [Créateur d’URL &#x200B;](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"} pour configurer vos paramètres UTM et les ajouter à vos liens dans le cadre de vos efforts marketing. Utilisez cette feuille de calcul [&#128279;](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si vous souhaitez un moyen plus facile de suivre tous vos liens UTM.
+Vous pouvez utiliser le [Créateur d’URL ](https://support.google.com/analytics/answer/1033867?hl=fr){target="_blank"} pour configurer vos paramètres UTM et les ajouter à vos liens dans le cadre de vos efforts marketing. Utilisez cette feuille de calcul [](https://docs.google.com/spreadsheets/d/1QCIr1WUJQHE68cA4VTks2XE7nxuryaUymCEy_23-Oew/edit#gid=0){target="_blank"} si vous souhaitez un moyen plus facile de suivre tous vos liens UTM.
 
 ## Valeurs de haut niveau pour chaque paramètre {#high-level-values-for-each-parameter}
 
@@ -26,7 +28,7 @@ Vous pouvez utiliser le [Créateur d’URL &#x200B;](https://support.google.com/
 
 Par exemple, [!UICONTROL Social], coût par clic (CPC), e-mail, web, organique.
 
-N’utilisez pas ce champ pour appeler le sous-canal.
+N’utilisez pas ce champ pour indiquer le sous-canal.
 
 **utm_source** : ce champ est mappé sur le champ Touchpoint Source. Utilisez utm_source pour définir le sous-canal duquel provient le prospect.
 
@@ -42,7 +44,7 @@ Il est recommandé d’utiliser des traits de soulignement plutôt que des espac
 
 Par exemple, AU_Idea_for_an_App_50k.
 
-**utm_content**: ce champ est mappé au contenu publicitaire. Utilisez le titre de l’annonce publicitaire dans le paramètre utm_content. S’il s’agit d’une annonce publicitaire avec image, utilisez le titre de l’annonce publicitaire et incluez les dimensions de l’annonce.
+**utm_content**: ce champ est mappé au contenu publicitaire. Utilisez le titre de la publicité dans le paramètre utm_content. S’il s’agit d’une annonce publicitaire avec image, utilisez le titre de l’annonce publicitaire et incluez les dimensions de l’annonce.
 
 Par exemple, [titre de l’annonce publicitaire] 200x400 px.
 

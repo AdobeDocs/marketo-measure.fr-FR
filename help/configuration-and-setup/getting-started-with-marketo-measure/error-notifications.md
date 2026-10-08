@@ -3,24 +3,30 @@ description: Notifications d’erreur - [!DNL Marketo Measure]
 title: Notifications d’erreur
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-TQID: https://experienceleague.adobe.com/SDJqtYTppmKWPpLQrhI9EkK-mYQ3f3Xh2BLoWzqIGx4
+TQID: 'https://experienceleague.adobe.com/SDJqtYTppmKWPpLQrhI9EkK-mYQ3f3Xh2BLoWzqIGx4'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 subfeature_v2:
   - id: ec526b86-7a6d-4fae-87bd-f61c37b9b506
+    internal-label: Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1915
+source-wordcount: '1917'
 ht-degree: 27%
-
 ---
-
 # Notifications d’erreur {#error-notifications}
 
 Vous trouverez ci-dessous une liste des erreurs que vous pouvez recevoir par notification in-app ou e-mail. Si vous recevez l’un de ces messages, suivez les étapes de dépannage correspondantes. Si ces étapes ne résolvent pas le problème, contactez le [Support de Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
@@ -39,14 +45,14 @@ Pour afficher l’intégralité du message de notification dans [!DNL Marketo Me
     </tr>
     <tr>
       <td>API_DISABLED</td>
-      <td>Une erreur s’est produite lors de l’import de CRM : API_DISABLED. Les appels API ont été désactivés pour cet utilisateur ou cette utilisatrice.</td>
+      <td>Une erreur s’est produite lors de l’import GRC : API_DISABLED : les appels API ont été désactivés pour cette personne.</td>
       <td>L’autorisation d’API a été désactivée pour l’utilisateur ou l’utilisatrice de Marketo Measure.</td>
-      <td>Reportez-vous à la documentation Salesforce suivante pour savoir <a href="https://help.salesforce.com/s/articleView?language=en_US&id=sf.branded_apps_commun_api_permset.htm&type=5">comment activer l’accès aux API</a>.</td>
+      <td>Reportez-vous à la documentation Salesforce suivante pour savoir <a href="https://help.salesforce.com/s/articleView?language=en_US&amp;id=sf.branded_apps_commun_api_permset.htm&amp;type=5">comment activer l’accès aux API</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
-      <td>Une erreur s’est produite lors de l’export CRM : PI_LIMIT_EXCEEDED</td>
-      <td>La limite de l’API de CRM a été dépassée (24 heures).</td>
+      <td>Une erreur s’est produite lors de l’import GRC : PI_LIMIT_EXCEEDED</td>
+      <td>La limite de l’API de gestion de la relation client (GRC) a été dépassée (24 heures).</td>
       <td>Pour obtenir de l’aide sur l’ajustement des allocations de crédit de l’API, reportez-vous à la documentation suivante pour votre CRM :</p>
           <ul>
             <li><a href="https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/service-protection-monitoring">Dynamics</a>
@@ -54,7 +60,7 @@ Pour afficher l’intégralité du message de notification dans [!DNL Marketo Me
             <li><a href="https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm">Salesforce</a>
             </li>
           </ul>
-          <p>Vous pouvez également ajuster les crédits CRM utilisés par Marketo Measure en procédant comme suit :</p>
+          <p>Vous pouvez également ajuster les crédits GRC utilisés par Marketo Measure en procédant comme suit :</p>
           <ul>
             <li>Accédez à <b>Paramètres</b> &gt; <b>CRM</b> &gt; <b>Général</b>.</li>
             <li>Mettre à jour la limite quotidienne de l’API CRM<br/>
@@ -90,7 +96,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       Autorisations manquantes sur l’objet .</td>
       <td>Vérifiez le code de déclencheur entraînant l’échec de l’insertion/la mise à jour. Pour plus d’informations sur les déclencheurs, consultez la documentation Salesforce suivante :
         <ul>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&type=5">Déclencheurs apex</a>
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.code_manage_triggers.htm&amp;type=5">Déclencheurs apex</a>
           </li>
           <li><a href="https://admin.salesforce.com/blog/2023/what-is-a-record-triggered-flow#:~:text=A%20record%2Dtriggered%20flow%20allows,is%20created%20and%2For%20updated"> Déclencheurs de flux </a>
           </li>
@@ -103,7 +109,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       <td>DUPLICATES_DETECTED</td>
       <td>Une erreur s'est produite lors de l'export CRM : DUPLICATES_DETECTED : Type d'entité 'Contact' : Code d'erreur CRM : DUPLICATES_DETECTED, Message d'erreur CRM : Vous créez un enregistrement en double. Nous vous recommandons d’utiliser plutôt un enregistrement existant., ID d’enregistrement : 0123456</td>
       <td>L’enregistrement importé dans l’organisation Salesforce existe déjà.</td>
-      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&type=1">Désactivez le paramètre « Règle en double »</a> pour autoriser les doublons.
+      <td><a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1">Désactivez le paramètre « Règle en double »</a> pour autoriser les doublons.
           <p>
           Excluez l’utilisateur dédié à Marketo Measure des <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> règles de validation personnalisées </a>.</td>
     </tr>
@@ -111,7 +117,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       <td>DUPLICATE_VALUE</td>
       <td>Une erreur s'est produite lors de l'exportation CRM : DUPLICATE_VALUE : type d'entité 'Lead' : Code d'erreur CRM : DUPLICATE_VALUE, Message d'erreur CRM : valeur en double trouvée : Email_Unique__c duplique la valeur sur l'enregistrement avec l'id : 123, RecordId : 456</td>
       <td>Le champ importé dans l’organisation Salesforce n’autorise pas les valeurs en double.</td>
-      <td>Décochez la <a href="https://help.salesforce.com/s/articleView?id=000390009&type=1"> « Case à cocher unique »</a> dans Salesforce.
+      <td>Décochez la <a href="https://help.salesforce.com/s/articleView?id=000390009&amp;type=1"> « Case à cocher unique »</a> dans Salesforce.
           <p>
           Excluez l’utilisateur dédié à Marketo Measure des <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> règles de validation personnalisées </a>.</td>
     </tr>
@@ -131,7 +137,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       <td>FIELD_FILTER_VALIDATION_EXCEPTION</td>
       <td>Une erreur s'est produite lors de l'exportation CRM : FIELD_FILTER_VALIDATION_EXCEPTION : Type d'entité 'Lead' : Code d'erreur CRM : FIELD_FILTER_VALIDATION_EXCEPTION, Champ(s) : User__C, Message d'erreur CRM : la valeur n'existe pas ou ne correspond pas aux critères de filtre. Veuillez sélectionner un utilisateur avec le rôle « Chargé de compte, ventes internes » ; ID d’enregistrement : 0123456</td>
       <td>L’enregistrement modifié ne répond plus aux filtres de recherche définis sur l’objet .</td>
-      <td>Recherchez des filtres sur l’objet que Marketo Measure tente de modifier. Voir <a href="https://help.salesforce.com/s/articleView?id=000384756&type=1">cet article Salesforce</a> pour savoir comment rechercher des filtres sur un objet.</td>
+      <td>Recherchez des filtres sur l’objet que Marketo Measure tente de modifier. Voir <a href="https://help.salesforce.com/s/articleView?id=000384756&amp;type=1">cet article Salesforce</a> pour savoir comment rechercher des filtres sur un objet.</td>
     </tr>
     <tr>
       <td>FIELD_INTEGRITY_EXCEPTION</td>
@@ -140,7 +146,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       <td>Le cas le plus courant est celui qui ne suit pas les normes de dénomination des états/pays définies dans l’organisation Salesforce, car les champs des états/pays ont été normalisés pour n’accepter que certaines valeurs de la liste de sélection. Pour résoudre ce problème, vous pouvez :
         <ul>
           <li>Mettez à jour l'enregistrement pour suivre les valeurs acceptées par l'organisation pour ce champ. Contactez votre administrateur SFDC pour obtenir la liste des valeurs acceptées.</li>
-          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&type=5">Désactiver les listes de sélection d’État/pays</a>.
+          <li><a href="https://help.salesforce.com/s/articleView?id=sf.admin_state_country_picklist_enable.htm&amp;type=5">Désactiver les listes de sélection d’État/pays</a>.
           </li>
         </ul>
       </td>
@@ -149,7 +155,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       <td>INACTIVE_OWNER_OR_USER</td>
       <td>Une erreur s'est produite lors de l'exportation CRM : INACTIVE_OWNER_OR_USER : Type d'entité 'Contact' : Code d'erreur CRM : INACTIVE_OWNER_OR_USER, Message d'erreur CRM : opération effectuée avec l'utilisateur inactif [1234] comme propriétaire du contact, ID d'enregistrement : 0123456</td>
       <td>Il manque l’autorisation « Mettre à jour les enregistrements avec des propriétaires inactifs » dans Marketo Measure.</td>
-      <td>Accordez à Marketo Measure l’autorisation « <a href="https://help.salesforce.com/s/articleView?id=000386699&type=1"> Mettre à jour les enregistrements avec des propriétaires inactifs </a> ».</td>
+      <td>Accordez à Marketo Measure l’autorisation « <a href="https://help.salesforce.com/s/articleView?id=000386699&amp;type=1"> Mettre à jour les enregistrements avec des propriétaires inactifs </a> ».</td>
     </tr>
     <tr>
       <td>INSUFFISANT_ACCESS_OR_READONLY</td>
@@ -167,16 +173,16 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
             <a href="/help/marketo-measure-and-adobe/marketo-measure-integrations-with-adobe-analytics.md">Intégrations de Marketo Measure à Adobe Analytics</a>
           </li>
           <li>
-            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=fr">Création d’une source d’attributs du client et chargement du fichier de données</a>
+            <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html">Création d’une source d’attributs du client et chargement du fichier de données</a>
           </li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>INVALID_CURRENCY_ISO_CODE</td>
-      <td>Une erreur s’est produite lors de l’import de l’annonce publicitaire : INVALID_CURRENCY_ISO_CODE. La devise XXX n’est pas prise en charge par Marketo Measure.
+      <td>Une erreur s’est produite lors de l’import de l’annonce publicitaire : INVALID_CURRENCY_ISO_CODE : la devise XXX n’est pas prise en charge par Marketo Measure.
       <p>
-      Une erreur s’est produite lors de l’import de l’annonce publicitaire : INVALID_CURRENCY_ISO_CODE. La devise XXX sur le compte 1234 n’est pas prise en charge par Marketo Measure.</td>
+      Une erreur s’est produite lors de l’import de l’annonce publicitaire : INVALID_CURRENCY_ISO_CODE : la devise XXX sur le compte 1234 n’est pas prise en charge par Marketo Measure.</td>
       <td>Une devise n’est pas prise en charge.</td>
       <td>Dans le système source indiqué dans la notification (Ad, Crm, Marketo), la devise associée à l’enregistrement est prise en charge et valide. Les devises prises en charge sont dérivées des normes de devise ISO.</td>
     </tr>
@@ -189,7 +195,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Une erreur s’est produite lors de l’export CRM : MISSING_CONVERTED_LEAD_PERMISSION.</td>
-      <td>Marketo Measure ne dispose pas de l’autorisation Afficher/Modifier les prospects convertis.</td>
+      <td>Marketo Measure ne dispose pas de l’autorisation « Afficher/Modifier les leads convertis ».</td>
       <td>Consultez le document Experience League suivant pour obtenir de l’aide sur l’activation de cette autorisation dans votre CRM<br/>
           <a href="/help/marketo-measure-salesforce-reporting/additional-functionality/enabling-the-permission-to-edit-converted-leads.md">Activation de l’autorisation de modification des prospects convertis</a></td>
     </tr>
@@ -209,7 +215,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
     </tr>
     <tr>
       <td>MISSING_ISREPLICATEABLE_PERMISSION</td>
-      <td>Une erreur s’est produite lors de l’import CRM : MISSING_ISREPLICATEABLE_PERMISSION. L’autorisation IsReplicable est manquante dans la campagne.</td>
+      <td>Une erreur s’est produite lors de l’import GRC : MISSING_ISREPLICATEABLE_PERMISSION. L’autorisation IsReplicable est manquante dans la campagne.</td>
       <td>Cette autorisation est requise sur les objets Salesforce pour que nous puissions maintenir la synchronisation entre Marketo Measure et Salesforce.</td>
       <td>Contactez l’assistance Salesforce pour obtenir de l’aide sur l’autorisation de réplication des objets.</td>
     </tr>
@@ -247,7 +253,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       <td>NULL_EMPTY_CURRENCY_ISO_CODE</td>
       <td>
         <p>
-          Une erreur s’est produite lors de l’import CRM : NULL_EMPTY_CURRENCY_ISO_CODE. Le code ISO de devise est NULL ou vide lorsque MultiCurrency est activé pour RecordId 1234.
+          Une erreur s’est produite lors de l’import GRC : NULL_EMPTY_CURRENCY_ISO_CODE. Le code ISO de devise est NULL ou vide lorsque MultiCurrency est activé pour RecordId 1234.
       </td>
       <td>La devise doit être un code de devise ISO pris en charge.</td>
       <td>Dans le système source indiqué dans la notification (Ad, Crm, Marketo), la devise associée à l’enregistrement est prise en charge et valide. Les devises prises en charge sont dérivées des normes de devise ISO.</td>
@@ -255,7 +261,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
     <tr>
       <td>OPERATION_TOO_LARGE</td>
       <td>Une erreur s’est produite lors de l’import CRM : OPERATION_TOO_LARGE. Nous avons besoin de l’autorisation « Afficher toutes les données » pour interroger les activités avec succès.</td>
-      <td>Les paramètres de CRM ne permettent pas à Marketo Measure d’interroger un ensemble de données suffisamment volumineux.</td>
+      <td>Les paramètres de la gestion de la relation client (GRC) ne permettent pas à Marketo Measure d’interroger un ensemble de données suffisamment volumineux.</td>
       <td>Accordez des autorisations « Afficher toutes les données » à Marketo Measure sur l’objet désigné.
       <p>
       Vous trouverez plus d’informations sur l’autorisation « Afficher toutes les données » <a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">ici</a>.</td>
@@ -266,7 +272,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       <td>L’enregistrement en cours de mise à jour ne répond pas à une règle de validation définie dans l’organisation Salesforce.</td>
       <td>Excluez l’utilisateur dédié à Marketo Measure des <a href="https://trailhead.salesforce.com/content/learn/modules/validation-rules/bypass-your-validation-rules"> règles de validation personnalisées </a>.
       <p>
-      Mettez à jour vos <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&type=5"> règles de validation </a>.</td>
+      Mettez à jour vos <a href="https://help.salesforce.com/s/articleView?id=sf.fields_about_field_validation.htm&amp;type=5"> règles de validation </a>.</td>
     </tr>
     <tr>
       <td>RESTRICT_PICKLIST_VALUES_ENABLED</td>

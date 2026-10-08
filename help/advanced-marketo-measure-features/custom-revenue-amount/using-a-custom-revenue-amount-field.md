@@ -1,20 +1,22 @@
 ---
 unique-page-id: 18874793
-description: Utilisation d’un champ de montant du chiffre d’affaires personnalisé  [!DNL Marketo Measure]
-title: Utilisation d’un champ de montant de recettes personnalisé
+description: Utilisation d’un champ de montant du chiffre d’affaires personnalisé - [!DNL Marketo Measure]
+title: Utilisation d’un champ personnalisé pour le montant de revenus
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-TQID: https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0
+TQID: 'https://experienceleague.adobe.com/EygbB-2KJDZKMRdKS2Mx7JQwdzhmJ77swewudzsGIb0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: '689'
 ht-degree: 4%
-
 ---
-
-# Utilisation d’un champ de montant de recettes personnalisé {#using-a-custom-revenue-amount-field}
+# Utilisation d’un champ personnalisé pour le montant de revenus {#using-a-custom-revenue-amount-field}
 
 Par défaut, les points de contact d’attribution de l’acheteur extrairont le montant de l’opportunité de l’un des deux champs suivants :
 
@@ -70,7 +72,7 @@ Les étapes suivantes s’adressent aux utilisateurs de Salesforce Lightning. Si
 
    ![](assets/using-a-custom-revenue-amount-field-7.png)
 
-1. Cliquez sur **[!UICONTROL Enregistrer]** Un pop-up s’affiche. Saisissez « Libellé de flux » dans la fenêtre Enregistrer le flux (le nom de l’API de flux sera généré automatiquement). Cliquez de nouveau sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**. Un pop-up s’affiche. Saisissez « Libellé de flux » dans la fenêtre Enregistrer le flux (le nom de l’API de flux sera généré automatiquement). Cliquez de nouveau sur **[!UICONTROL Enregistrer]**.
 
    ![](assets/using-a-custom-revenue-amount-field-8.png)
 

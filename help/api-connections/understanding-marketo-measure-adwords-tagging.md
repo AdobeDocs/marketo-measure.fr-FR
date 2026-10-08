@@ -1,15 +1,23 @@
 ---
-description: Consignes  [!DNL Marketo Measure]  balisage AdWords pour les utilisateurs de Marketo Measure
-title: 'Comprendre le balisage AdWords dans [!DNL Marketo Measure] '
+description: Comprendre [!DNL Marketo Measure] conseils sur le balisage AdWords pour les utilisateurs de Marketo Measure
+title: Comprendre [!DNL Marketo Measure] balisage AdWords
 exl-id: c6658766-d3a8-46ed-b2d2-826eb61ce269
 feature: APIs, Integration, UTM Parameters
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '683'
 ht-degree: 7%
-
 ---
-
 # Comprendre [!DNL Marketo Measure] balisage AdWords {#understanding-marketo-measure-adwords-tagging}
 
 Pour effectuer le suivi de vos publicités à un niveau très granulaire, les URL de destination de la publicité doivent être uniques. Pour ce faire, [!DNL Marketo Measure] balisage automatique ajoute automatiquement des paramètres de suivi aux URL de destination des annonces [!DNL AdWords]. Examinons un exemple ci-dessous.
@@ -76,7 +84,7 @@ Il existe deux modèles de tracking que [!DNL Marketo Measure] recommande d’ut
 
 1. Sélectionnez toutes les campagnes applicables ou **[!UICONTROL Tout sélectionner]**, cliquez sur **[!UICONTROL Modifier]**, puis sur **[!UICONTROL Modifier les modèles de suivi]**.
 
-   ![1. Sélectionnez toutes les campagnes applicables ou sélectionnez tout, cliquez sur Modifier &#x200B;](../assets/marketo-engage-activities-05.png)
+   ![1. Sélectionnez toutes les campagnes applicables ou sélectionnez tout, cliquez sur Modifier ](../assets/marketo-engage-activities-05.png)
 
 1. Saisissez le modèle de suivi [!DNL Marketo Measure] et cliquez sur **[!UICONTROL Appliquer]**.
 
@@ -112,6 +120,6 @@ R : Nous ne pouvons pas récupérer les détails créatifs individuels pour les 
 
 >[!NOTE]
 >
->Une fois les modifications apportées, vous avez terminé. N’hésitez pas à contacter l’assistance technique de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour toute question lors de la configuration.
+>Une fois les modifications apportées, vous avez terminé. N’hésitez pas à contacter l’assistance technique de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"} pour toute question lors de la configuration.
 
 [Cliquez ici](https://support.google.com/adwords/answer/6076199?hl=en#tracking){target="_blank"} pour obtenir des instructions de Google sur la création de modèles de suivi au niveau du compte.

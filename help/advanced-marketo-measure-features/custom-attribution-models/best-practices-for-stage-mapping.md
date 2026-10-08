@@ -3,18 +3,23 @@ description: Bonnes pratiques relatives au mappage d’étape - [!DNL Marketo Me
 title: Bonnes pratiques relatives au mappage des étapes
 exl-id: 1ed380a1-4a3a-4761-b70f-cdf2e290329d
 feature: Tracking, Custom Models
-TQID: https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg
+TQID: 'https://experienceleague.adobe.com/qhyIo6WXhidNmLJhkattZDP-SG6tPxrVtzl7I8fwGPg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '479'
 ht-degree: 4%
-
 ---
-
 # Bonnes pratiques relatives au mappage des étapes {#best-practices-for-stage-mapping}
 
 ## Vue d’ensemble {#overview}
@@ -30,17 +35,17 @@ Les étapes Funnel sont une autre fonctionnalité gérée dans cette section. El
 Que vous évaluiez votre mappage d’étape pour la première fois ou que vous examiniez simplement votre ordre funnel, il est important de garder à l’esprit les bonnes pratiques suivantes.
 
 * L&#39;ordre, c&#39;est tout !
-   * Compte tenu des extractions de [!DNL Marketo Measure] dans les étapes actives et inactives de votre CRM, vérifiez que toutes les étapes qui peuvent être utilisées sur un lead/contact ou une opportunité sont regroupées et classées en conséquence
+  * Compte tenu des extractions de [!DNL Marketo Measure] dans les étapes actives et inactives de votre CRM, vérifiez que toutes les étapes qui peuvent être utilisées sur un lead/contact ou une opportunité sont regroupées et classées en conséquence
 * Lors de la définition d’une étape personnalisée, assurez-vous que le suivi de l’historique des champs est activé pour le ou les champs utilisés pour définir l’étape
 * N’utilisez pas de champ de formule pour définir une étape personnalisée
-   * Un champ booléen est la recommandation de bonne pratique
+  * Un champ booléen est la recommandation de bonne pratique
 * Notez que la section Étape du lead ou du contact est divisée en Perte, Ouverture et Convertie ; vérifiez que les étapes se trouvent dans la section d’étape appropriée
-   * Le fait d’avoir une étape dans la mauvaise section d’étape peut entraîner des données [!DNL Marketo Measure] très incorrectes
-   * Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut en tant que contact, n’utilisez pas les deux champs ci-dessous spécifiques au prospect ([en savoir plus](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
-      * b2b.personStatus
-      * b2b.isConverted
+  * Le fait d’avoir une étape dans la mauvaise section d’étape peut entraîner des données [!DNL Marketo Measure] très incorrectes
+  * Si vous êtes un client Marketo Measure Ultimate et que vous avez défini votre objet de tableau de bord par défaut en tant que contact, n’utilisez pas les deux champs ci-dessous spécifiques au prospect ([en savoir plus](/help/marketo-measure-ultimate/data-integrity-requirement.md){target="_blank"}).
+    * b2b.personStatus
+    * b2b.isConverted
 * Notez que la section Étape de l’opportunité est divisée en Perdue, Ouverte et Confirmée ; vérifiez que les étapes se trouvent dans la section d’étape appropriée
-   * Le fait d’avoir une étape dans la mauvaise section d’étape peut entraîner des données de chiffre d’affaires [!DNL Marketo Measure] ou de pipeline très incorrectes
+  * Le fait d’avoir une étape dans la mauvaise section d’étape peut entraîner des données de chiffre d’affaires [!DNL Marketo Measure] ou de pipeline très incorrectes
 * Évitez d’utiliser des noms d’étape en double (notre système les détectera et en supprimera automatiquement un).
 * Pour définir une règle qui vérifie les valeurs NULL, laissez la zone de texte Valeur vide.
 

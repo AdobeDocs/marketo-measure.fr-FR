@@ -3,13 +3,17 @@ description: Décrit le tableau de bord Vitesse des opportunités pour le suivi 
 title: Tableau de bord de la vitesse des opportunités
 feature: Reporting
 exl-id: d02455fd-8fca-435e-8ded-69abbbdcb3a4
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 3%
-
 ---
-
 # Tableau de bord de la vitesse des opportunités {#opportunity-velocity-dashboard}
 
 Le tableau de bord Velocity offre une vue dynamique du rythme auquel les prospects évoluent dans le funnel des ventes, fournissant aux spécialistes marketing et aux équipes commerciales des informations essentielles sur les temps de conversion sur différents canaux. Cet outil est inestimable pour répondre aux questions clés sur le cycle de vie des opportunités et l’efficacité de la progression à travers les étapes de vente, ce qui vous permet d’optimiser vos stratégies d’engagement pour accélérer la croissance et les conversions.
@@ -38,7 +42,7 @@ Questions auxquelles le graphique répond :
 >
 >Les étapes précédant la « création d’opportunité » utiliseront la date de point de contact la plus récente comme date de « transition entrante ».
 
-![Les étapes précédant la « création d’opportunité » utiliseront la date de point de contact la plus récente comme suit &#x200B;](assets/lead-dashboard-1.png)
+![Les étapes précédant la « création d’opportunité » utiliseront la date de point de contact la plus récente comme suit ](assets/lead-dashboard-1.png)
 
 ### Vitesse des opportunités au fil du temps {#opportunity-velocity-over-time}
 
@@ -52,7 +56,7 @@ Questions auxquelles le graphique répond :
 * Quelles sont les tendances du temps passé à chaque étape pour les opportunités au cours des mois observés ?
 * Au cours de quel mois les opportunités ont-elles connu la progression la plus rapide au cours des étapes de vente ?
 
-![En quel mois les opportunités ont-elles connu la progression la plus rapide des ventes &#x200B;](assets/lead-dashboard-2.png)
+![En quel mois les opportunités ont-elles connu la progression la plus rapide des ventes ](assets/lead-dashboard-2.png)
 
 ### Vitesse des opportunités par canal {#opportunity-velocity-by-channel}
 
@@ -65,14 +69,14 @@ Questions auxquelles le graphique répond :
 * Quel canal affiche la progression la plus rapide à travers les étapes de funnel ?
 * Comment la vitesse des opportunités dans l’étape « Prospect » varie-t-elle selon les différents canaux ?
 
-![Comment la vitesse des opportunités dans l’étape « Prospect » varie-t-elle selon les différents &#x200B;](assets/lead-dashboard-3.png)
+![Comment la vitesse des opportunités dans l’étape « Prospect » varie-t-elle selon les différents ](assets/lead-dashboard-3.png)
 
 ## Volet de filtrage {#filter-pane}
 
 Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 * Date
-   * Basé sur : date de transition entrante
+  * Basé sur : date de transition entrante
 * Étape
 * Canal
 * Sous-canal

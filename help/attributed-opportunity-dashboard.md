@@ -3,14 +3,18 @@ description: Couvre le tableau de bord de l’opportunité attribuée qui affich
 title: Tableau de bord Opportunité attribuées
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 2%
-
 ---
-
 # Tableau de bord Opportunité attribuées {#attributed-opportunity-dashboard}
 
 Le tableau de bord de l’opportunité attribuée fournit une vue complète de la manière dont les efforts marketing contribuent aux opportunités de pipeline naissantes et matures. Explorez les détails de chaque opportunité ouverte et clôturée attribuable à vos stratégies, avec la possibilité de filtrer par étape d’opportunité, en soulignant toute l’étendue de l’influence du marketing au-delà des affaires clôturées.
@@ -56,7 +60,7 @@ La vue tabulaire offre des informations claires et organisées sur la répartiti
 
 Cliquez sur l’icône **+** en regard de chaque canal pour afficher la répartition par sous-canal et par campagne.
 
-![Cliquez sur l’icône + en regard de chaque canal pour afficher la répartition par &#x200B;](assets/attributed-dashboard-1.png)
+![Cliquez sur l’icône + en regard de chaque canal pour afficher la répartition par ](assets/attributed-dashboard-1.png)
 
 #### Arborescence {#tree-view}
 
@@ -72,7 +76,7 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 * Date (en fonction de la date de création de l’opportunité)
 * Modèle d’attribution
-   * Pour les opportunités ouvertes, les modèles d’attribution « chemin complet » et « personnalisé » offrent des vues ponctuelles et ne représentent pas les résultats d’attribution finaux.
+  * Pour les opportunités ouvertes, les modèles d’attribution « chemin complet » et « personnalisé » offrent des vues ponctuelles et ne représentent pas les résultats d’attribution finaux.
 * Étape de l’opportunité (basée sur l’étape actuelle)
 * Canal, Sous-Canal
 * Campagne

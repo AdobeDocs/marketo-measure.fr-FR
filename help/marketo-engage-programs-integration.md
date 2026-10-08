@@ -1,15 +1,19 @@
 ---
-description: Intégration des programmes [!DNL Marketo Engage] - [!DNL Marketo Measure]
+description: Intégration de programmes [!DNL Marketo Engage] - [!DNL Marketo Measure]
 title: Intégration des programmes [!DNL Marketo Engage]
 exl-id: c26087e3-d821-4fe7-bacd-eeaa1530a4b0
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 2%
-
 ---
-
 # Intégration des programmes [!DNL Marketo Engage] {#marketo-engage-programs-integration}
 
 Grâce à l’intégration [!DNL Marketo Measure] aux programmes [!DNL Marketo Engage], nos clients peuvent commencer à créer des points de contact pour le suivi de l’attribution à partir des adhésions au programme Marketo. Cette fonctionnalité permet aux spécialistes marketing de commencer à effectuer le suivi des adhésions aux programmes à partir d’e-mails ou de programmes d’engagement qui ne sont pas visibles autrement par le javascript [!DNL Marketo Measure] et qui doivent être mesurés dans le parcours d’attribution.
@@ -32,17 +36,17 @@ Tous les niveaux.
 
 1. Pour commencer à configurer des règles sur les programmes Marketo, accédez à **[!UICONTROL Mon compte]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Programmes]**. Cliquez sur l’icône **+** pour commencer à créer votre première règle.
 
-   ![1. Pour commencer à configurer des règles sur les programmes Marketo, accédez à &#x200B;](assets/marketo-engage-programs-01.png)
+   ![1. Pour commencer à configurer des règles sur les programmes Marketo, accédez à ](assets/marketo-engage-programs-01.png)
 
-   ![1. Pour commencer à configurer des règles sur les programmes Marketo, accédez à &#x200B;](assets/marketo-engage-programs-06.png)
+   ![1. Pour commencer à configurer des règles sur les programmes Marketo, accédez à ](assets/marketo-engage-programs-06.png)
 
 1. Vous pouvez éventuellement définir un nom pour la règle si cela permet d’en effectuer le suivi. vous allez d’abord sélectionner le champ pour définir votre règle dans la liste des champs Programme et Appartenance au programme . Continuez à créer la règle en sélectionnant l’opérateur et la valeur attendue à vérifier.
 
-   ![1. Vous pouvez éventuellement définir un nom pour la règle si &#x200B;](assets/marketo-engage-programs-07.png)
+   ![1. Vous pouvez éventuellement définir un nom pour la règle si ](assets/marketo-engage-programs-07.png)
 
 1. Ajoutez une autre instruction dans la même zone pour configurer un critère « et » dans la règle ou cliquez sur l’icône + en dehors de la zone pour configurer une instruction « ou ».
 
-   ![1. Ajoutez une autre instruction dans la même zone pour configurer une &#x200B;](assets/bizible-discover-1.png)
+   ![1. Ajoutez une autre instruction dans la même zone pour configurer une ](assets/bizible-discover-1.png)
 
 1. Choisissez le champ de date ou de date/heure à utiliser pour mapper à la date du point de contact. Pour afficher la liste des valeurs disponibles à partir de Marketo, saisissez un crochet `{` et les champs disponibles s’affichent.
 
@@ -72,7 +76,7 @@ Après avoir créé des règles, vous pouvez les tester pour vérifier que votre
 
    Les règles sont exécutées sur un échantillon de 5 000 membres. Si votre programme compte plus de 5000 membres, il est possible que nous ne contrôlions pas la compatibilité de tous les membres. Cet outil sert simplement à vérifier que les règles sont correctement construites.
 
-   ![Les règles sont exécutées sur un échantillon de 5 000 membres. Si votre &#x200B;](assets/marketo-engage-programs-05.png)
+   ![Les règles sont exécutées sur un échantillon de 5 000 membres. Si votre ](assets/marketo-engage-programs-05.png)
 
    Vous pouvez cliquer sur le Nombre de membres pour afficher la liste des ID de personnes Marketo éligibles dans le programme.
 
@@ -88,7 +92,7 @@ Dans la liste des canaux de programme Marketo, vous souhaiterez mapper les valeu
 
 1. Sélectionnez d’abord le canal à mapper à la valeur, puis éventuellement le sous-canal. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]** en bas de la page.
 
-   ![1. Sélectionnez d’abord le canal qui doit mapper à la valeur, puis &#x200B;](assets/marketo-engage-programs-08.png)
+   ![1. Sélectionnez d’abord le canal qui doit mapper à la valeur, puis ](assets/marketo-engage-programs-08.png)
 
 ## Coûts du programme {#program-costs}
 

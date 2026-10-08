@@ -3,14 +3,18 @@ description: Décrit le tableau de bord des revenus attribués qui répartit les
 title: Tableau de bord Revenus attribués
 feature: Reporting
 exl-id: ff4e9de2-cb34-4b40-9e25-e431941b2be0
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 2%
-
 ---
-
 # Tableau de bord Revenus attribués {#attributed-revenue-dashboard}
 
 Le tableau de bord Revenus attribués offre un point de vue ciblé sur les revenus directement liés à vos efforts marketing. Découvrez comment vos stratégies marketing ont joué un rôle déterminant dans la conclusion d’offres.
@@ -59,7 +63,7 @@ Chiffre d’affaires attribué total segmenté par canal, sous-canal et campagne
 * La vue tabulaire offre des informations claires et organisées sur la répartition des recettes attribuées. Les utilisateurs peuvent rapidement discerner les modèles de performance et identifier les stratégies marketing à fort impact en catégorisant les données en canaux, sous-canaux et campagnes.
 * Cliquez sur l’icône « + » en regard de chaque canal pour afficher la répartition par sous-canal et par campagne.
 
-![Cliquez sur l’icône « + » en regard de chaque canal pour afficher la répartition par &#x200B;](assets/attributed-dashboard-5.png)
+![Cliquez sur l’icône « + » en regard de chaque canal pour afficher la répartition par ](assets/attributed-dashboard-5.png)
 
 **Arborescence**
 

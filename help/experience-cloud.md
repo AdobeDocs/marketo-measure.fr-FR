@@ -1,18 +1,24 @@
 ---
-description: Conseils de présentation de l’interface de Adobe Experience Cloud pour les utilisateurs de Marketo Measure
+description: Conseils de présentation de l’interface Adobe Experience Cloud pour les utilisateurs de Marketo Measure
 title: Vue d’ensemble de l’interface d’Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 19%
-
 ---
-
 # Vue d’ensemble de l’interface d’Adobe Experience Cloud {#experience-cloud-interface-overview}
 
-L’interface de Adobe Experience Cloud aligne l’aspect des applications et des services Adobe Experience Cloud. Mais c’est bien plus qu’une nouvelle conception. Il s’agit d’une application monopage qui offre une expérience clientèle dans une seule instance.
+L’interface d’Adobe Experience Cloud aligne l’aspect des applications et services Adobe Experience Cloud. Mais c’est bien plus qu’une nouvelle conception. Il s’agit d’une application monopage qui offre une expérience client au sein d’une seule instance.
 
 ## Flux d’utilisateur et d’utilisatrice {#user-flow}
 
@@ -40,7 +46,7 @@ Outre la mise à jour de l’aspect, notez les fonctionnalités suivantes :
 
 Recherchez des articles d’assistance, envoyez des tickets, donnez votre avis, le tout depuis l’application [!DNL Marketo Measure].
 
-![Rechercher des articles d’assistance, envoyer des tickets, fournir des commentaires, le tout depuis &#x200B;](assets/unified-overview-5.png)
+![Rechercher des articles d’assistance, envoyer des tickets, fournir des commentaires, le tout depuis ](assets/unified-overview-5.png)
 
 **Sélecteur d’application**
 
@@ -70,8 +76,8 @@ Les signets sont redirigés. Par exemple, si vous deviez accéder à https://app
 
 **Je ne peux pas me connecter à [!DNL Marketo Measure] via l’interface d’Experience Cloud. Quel pourrait être le problème ?**
 
-Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une page comme celle-ci, le problème peut se situer du côté [!DNL Marketo Measure] :
+Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une page comme celle-ci, le problème peut être [!DNL Marketo Measure] :
 
-![Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une &#x200B;](assets/unified-overview-7.png)
+![Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une ](assets/unified-overview-7.png)
 
 Si vous recevez l’erreur ci-dessus, [contactez l’assistance](https://nation.marketo.com/t5/support/ct-p/Support) pour obtenir de l’aide.

@@ -3,13 +3,17 @@ description: Bonnes pratiques relatives aux conseils sur les modèles personnali
 title: Bonnes pratiques relatives aux modèles personnalisés
 exl-id: 7c19bb6a-30fc-4cbd-a58e-f20751102afe
 feature: Custom Models
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 2%
-
 ---
-
 # Bonnes pratiques relatives aux modèles personnalisés {#best-practices-for-custom-model}
 
 ## Vue d’ensemble {#overview}
@@ -35,23 +39,23 @@ Il est essentiel que ces deux aspects de votre modèle personnalisé soient déf
 Que vous configuriez votre modèle personnalisé pour la première fois, ou que vous examiniez ce qui a été précédemment établi, il est important de garder à l’esprit les bonnes pratiques suivantes.
 
 * Démarrer simple
-   * Identifiez les étapes clés que vous souhaitez ajouter à votre modèle personnalisé et qui sont essentielles pour vos rapports [!DNL Marketo Measure]. En règle générale, il s’agit d’étapes par rapport auxquelles vous êtes généralement mesuré ou sur lesquelles vous souhaitez apprendre à utiliser insight
-   * Vous pouvez toujours ajouter à votre modèle personnalisé au fil du temps
+  * Identifiez les étapes clés que vous souhaitez ajouter à votre modèle personnalisé et qui sont essentielles pour vos rapports [!DNL Marketo Measure]. En règle générale, il s’agit d’étapes par rapport auxquelles vous êtes généralement mesuré ou sur lesquelles vous souhaitez apprendre à utiliser insight
+  * Vous pouvez toujours ajouter à votre modèle personnalisé au fil du temps
 * Utilisation du modèle de machine learning [!DNL Marketo Measure]
-   * Si vous avez du mal à décider de la répartition de l’attribution en pourcentage, le modèle de machine learning [!DNL Marketo Measure] peut vous aider à prendre des décisions éclairées lors de la définition de votre modèle d’attribution personnalisé.
-   * Lors de l’affichage du modèle de machine learning, les pourcentages d’attribution de chaque étape reflètent l’impact potentiel de vos efforts marketing
-      * Un pourcentage plus élevé signifie que le marketing peut directement influencer le mouvement du funnel à ce stade
-      * Un pourcentage d’attribution inférieur signifie que les étapes sont moins importantes à surveiller par votre équipe
+  * Si vous avez du mal à décider de la répartition de l’attribution en pourcentage, le modèle de machine learning [!DNL Marketo Measure] peut vous aider à prendre des décisions éclairées lors de la définition de votre modèle d’attribution personnalisé.
+  * Lors de l’affichage du modèle de machine learning, les pourcentages d’attribution de chaque étape reflètent l’impact potentiel de vos efforts marketing
+    * Un pourcentage plus élevé signifie que le marketing peut directement influencer le mouvement du funnel à ce stade
+    * Un pourcentage d’attribution inférieur signifie que les étapes sont moins importantes à surveiller par votre équipe
 * Vous devez définir les principales étapes de funnel en fonction des étapes de lead ou de contact, et non des deux
-   * Cela signifie que vous devez vous assurer que toutes les personnes passeront par cette étape sur l’objet correspondant
-      * Par exemple : si vous définissez l’étape MQL à partir de l’objet Lead , toutes les personnes doivent accéder à votre système en tant que Lead et être marquées comme MQL dans leur enregistrement Lead afin que [!DNL Marketo Measure] reflète exactement quel contact a été associé à la transition du Lead vers MQL. Si ce n’est pas le cas, et que certaines personnes passent au contact avant de devenir MQL en tant que lead, [!DNL Marketo Measure] ne pourrez pas en tenir compte avec précision dans vos données de point de contact et nous devrons supposer que cette personne a déjà un compte MQL. [!DNL Marketo Measure] ne peut pas tenir compte du saut d’étape. nous déduirons donc que les étapes ont été passées même si elles ne l’ont pas été.
+  * Cela signifie que vous devez vous assurer que toutes les personnes passeront par cette étape sur l’objet correspondant
+    * Par exemple : si vous définissez l’étape MQL à partir de l’objet Lead , toutes les personnes doivent accéder à votre système en tant que Lead et être marquées comme MQL dans leur enregistrement Lead afin que [!DNL Marketo Measure] reflète exactement quel contact a été associé à la transition du Lead vers MQL. Si ce n’est pas le cas, et que certaines personnes passent au contact avant de devenir MQL en tant que lead, [!DNL Marketo Measure] ne pourrez pas en tenir compte avec précision dans vos données de point de contact et nous devrons supposer que cette personne a déjà un compte MQL. [!DNL Marketo Measure] ne peut pas tenir compte du saut d’étape, nous déduirons donc que les étapes ont été passées même si elles ne l’ont pas été.
 * Assurez-vous que le suivi de l’historique des champs est activé pour tous les champs utilisés pour définir les étapes personnalisées que vous incorporez
 * N’utilisez pas de champs de formule pour définir une étape personnalisée
-   * Un champ booléen est une recommandation de bonne pratique
+  * Un champ booléen est une recommandation de bonne pratique
 * N’incorporez pas dans votre modèle personnalisé d’étapes qui coïncident avec une position de point de contact jalonné [!DNL Marketo Measure] (FT, LC, OC, close et confirmée/perdue)
-   * Si vous le faites, ces positions se produisent toujours simultanément et peuvent entraîner un crédit d’attribution exagéré à certaines parties de votre funnel.
+  * Si vous le faites, ces positions se produisent toujours simultanément et peuvent entraîner un crédit d’attribution exagéré à certaines parties de votre funnel.
 * Travailler avec votre équipe d’opportunités commerciales
-   * Faire intervenir l’équipe qui travaille le plus proche des étapes et de leur signification permet de s’assurer que vous utilisez les étapes correctes et qu’elles sont correctement définies
+  * Faire intervenir l’équipe qui travaille le plus proche des étapes et de leur signification permet de s’assurer que vous utilisez les étapes correctes et qu’elles sont correctement définies
 
 ## Bonne pratique de maintenance {#best-practice-for-maintenance}
 
@@ -69,6 +73,6 @@ D’autres raisons qui peuvent déclencher une révision de votre modèle person
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; Modèle et configuration d’attribution personnalisés &#x200B;](/help/channel-tracking-and-setup/custom-attribution-model-and-setup.md)
+>* [ Modèle et configuration d’attribution personnalisés ](/help/channel-tracking-and-setup/custom-attribution-model-and-setup.md)
 >* [Activer Le Suivi De L’Historique Des Champs Pour Le Modèle Personnalisé](/help/channel-tracking-and-setup/custom-model-setup-enable-field-history-tracking.md)
->* [&#x200B; Modèle de machine learning &#x200B;](/help/channel-tracking-and-setup/machine-learning-model-faq.md)
+>* [ Modèle de machine learning ](/help/channel-tracking-and-setup/machine-learning-model-faq.md)

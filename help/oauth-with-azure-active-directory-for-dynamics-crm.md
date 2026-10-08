@@ -1,16 +1,23 @@
 ---
-description: Conseils OAuth avec  [!DNL Azure Active Directory]  pour Dynamics CRM pour les utilisateurs de Marketo Measure
+description: Conseils OAuth avec [!DNL Azure Active Directory] pour Dynamics CRM pour les utilisateurs de Marketo Measure
 title: OAuth avec [!DNL Azure Active Directory] pour Dynamics CRM
 exl-id: 0a2f6b29-541d-4965-a460-e6f19b934edb
 feature: Microsoft Dynamics
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '970'
 ht-degree: 1%
-
 ---
-
 # OAuth avec [!DNL Azure Active Directory] pour Dynamics CRM {#oauth-with-azure-active-directory-for-dynamics-crm}
 
 ## Qui est affecté {#who-s-affected}
@@ -27,11 +34,11 @@ Cette configuration est destinée aux nouveaux clients [!DNL Marketo Measure] qu
 
 1. Sélectionnez le client Azure AD en cliquant sur votre compte dans le coin supérieur droit de la page, puis cliquez sur la navigation Switch Directory et sélectionnez le client approprié. Ignorez cette étape si votre compte ne comporte qu’un seul client Azure AD ou si vous avez déjà sélectionné le client Azure AD approprié.
 
-   ![1. Choisissez le client Azure AD en cliquant sur votre compte dans le &#x200B;](assets/bizible-taxonomy-1.png)
+   ![1. Choisissez le client Azure AD en cliquant sur votre compte dans le ](assets/bizible-taxonomy-1.png)
 
 1. Recherchez « [!DNL Azure Active Directory] » dans la barre de recherche et cliquez sur le nom à ouvrir.
 
-   ![1. Recherchez « Azure Active Directory » dans la barre de recherche et &#x200B;](assets/microsoft-guide-1.png)
+   ![1. Recherchez « Azure Active Directory » dans la barre de recherche et ](assets/microsoft-guide-1.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrements des applications]** dans le menu de gauche.
 
@@ -56,15 +63,15 @@ c. Fournissez l’URI de redirection. Pour les applications web, il s’agit de 
 
 1. Ajoutez les URL de redirection [!DNL Marketo Measure] : `https://apps.bizible.com/OAuth2` et `https://apps.bizible.com/OAuth2?identityOnly=true` à la liste des URL de redirection.
 
-   ![1. Ajoutez les URL de redirection Marketo Measure : https://apps.bizible.com/OAuth2 et https://apps.bizible.com/OAuth2?identityOnly=true à &#x200B;](assets/microsoft-guide-5.png)
+   ![1. Ajoutez les URL de redirection Marketo Measure : https://apps.bizible.com/OAuth2 et https://apps.bizible.com/OAuth2?identityOnly=true à ](assets/microsoft-guide-5.png)
 
 1. Accédez à l’onglet Autorisations d’API et assurez-vous que les autorisations appropriées sont attribuées à l’application.
 
-   ![1. Accédez à l’onglet Autorisations d’API et assurez-vous que les éléments suivants &#x200B;](assets/microsoft-guide-6.png)
+   ![1. Accédez à l’onglet Autorisations d’API et assurez-vous que les éléments suivants ](assets/microsoft-guide-6.png)
 
 1. À partir de là, saisissez « [!UICONTROL entreprise] » dans la zone de recherche, puis cliquez sur **[!UICONTROL Applications d’entreprise]**.
 
-   ![1. À partir de là, saisissez « entreprise » dans la zone de recherche, puis cliquez sur &#x200B;](assets/microsoft-guide-7.png)
+   ![1. À partir de là, saisissez « entreprise » dans la zone de recherche, puis cliquez sur ](assets/microsoft-guide-7.png)
 
 1. Là encore, recherchez et ouvrez votre nouvelle application à partir de la liste des applications.
 
@@ -78,7 +85,7 @@ c. Fournissez l’URI de redirection. Pour les applications web, il s’agit de 
 
 1. Dans l’onglet « [!UICONTROL Utilisateurs et groupes] », assurez-vous que les « Utilisateurs et groupes » valides sont affectés à l’application.
 
-   ![1. Dans l’onglet « Utilisateurs et groupes », assurez-vous que &#x200B;](assets/microsoft-guide-10.png)
+   ![1. Dans l’onglet « Utilisateurs et groupes », assurez-vous que ](assets/microsoft-guide-10.png)
 
 ## Création d&#39;un utilisateur d&#39;application {#creating-an-application-user}
 
@@ -114,7 +121,7 @@ a. L’ID client est l’ID de l’étape #7 dans la section ci-dessus. Si vous 
 
 b. Le secret client est le secret d’application créé sur le portail Azure pour votre application sous Certificats et secrets.
 
-![b. Le secret client est le secret de l’application créé dans le portail &#x200B;](assets/microsoft-guide-11.png)
+![b. Le secret client est le secret de l’application créé dans le portail ](assets/microsoft-guide-11.png)
 
 c. L’URI d’ID de l’application est l’URL de l’API web cible (ressource sécurisée). Pour trouver l’URL d’ID d’application, dans le portail Azure, cliquez sur [!DNL Azure Active Directory], sur Enregistrement des applications, puis sur la page Paramètres de l’application, et enfin sur Propriétés. Il peut également s’agir d’une ressource externe comme `https://graph.microsoft.com`. Il s’agit normalement de l’URL de l’instance Dynamics.
 
@@ -128,6 +135,6 @@ c. L’URI d’ID de l’application est l’URL de l’API web cible (ressource
 
 1. Lorsque l’utilisateur clique sur la clé, un pop-up s’affiche et vous êtes invité à saisir l’ID client, le secret client et l’URI d’ID d’application, comme pour le flux d’inscription.
 
-   ![1. Lorsque l’utilisateur clique sur la touche , un pop-up s’affiche et vous êtes &#x200B;](assets/microsoft-guide-12.png)
+   ![1. Lorsque l’utilisateur clique sur la touche , un pop-up s’affiche et vous êtes ](assets/microsoft-guide-12.png)
 
 1. Après avoir cliqué sur **[!UICONTROL Envoyer]**, vous serez invité à vous connecter avec [!DNL Azure Active Directory]. Une fois l’authentification réussie, votre compte Dynamics est réautorisé dans [!DNL Marketo Measure].

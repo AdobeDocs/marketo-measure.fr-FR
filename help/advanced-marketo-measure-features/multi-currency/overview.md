@@ -4,19 +4,21 @@ description: Présentation - [!DNL Marketo Measure]
 title: Vue d’ensemble
 exl-id: 2076521c-b579-457c-ab1c-263b1da4dd89
 feature: Multi-Currency
-TQID: https://experienceleague.adobe.com/x-CcPqcp3SXgSToNxdrLNnkYf5DA7Be9nPPwHTxA8pM
+TQID: 'https://experienceleague.adobe.com/x-CcPqcp3SXgSToNxdrLNnkYf5DA7Be9nPPwHTxA8pM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 334
+source-wordcount: '334'
 ht-degree: 1%
-
 ---
-
 # Vue d’ensemble {#overview}
 
-Aujourd’hui, l’application [!DNL Marketo Measure] ne prend en charge qu’une seule devise (supposée être le dollar américain), alors que nous savons et savons que nous avons des clients dans le monde entier qui doivent créer des rapports sur leurs propres devises d’entreprise et d’utilisateur. Cette fonctionnalité permet aux utilisateurs de basculer entre les mêmes devises que celles utilisées dans leur CRM lors de l’affichage des dépenses déclarées ou des recettes de vente en [!DNL Marketo Measure].
+Aujourd’hui, l’application [!DNL Marketo Measure] ne prend en charge qu’une seule devise (supposée être USD), alors que nous savons et savons que nous avons des clients dans le monde entier qui doivent créer des rapports sur leurs propres devises d’entreprise et d’utilisateur. Cette fonctionnalité permet aux utilisateurs de basculer entre les mêmes devises que celles utilisées dans leur CRM lors de l’affichage des dépenses déclarées ou des recettes de vente en [!DNL Marketo Measure].
 
 ## Disponibilité {#availability}
 

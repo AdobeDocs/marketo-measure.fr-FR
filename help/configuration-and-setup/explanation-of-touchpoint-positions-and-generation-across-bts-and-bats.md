@@ -1,15 +1,19 @@
 ---
-description: Explication des positions des points de contact et de la génération sur les BT et conseils  [!DNL BATs]  les utilisateurs de Marketo Measure
-title: Explication des positions et de la génération de points de contact entre les BT et les  [!DNL BATs]
+description: Explication des positions des points de contact et de la génération sur les BT et conseils [!DNL BATs] pour les utilisateurs de Marketo Measure
+title: Explication des positions des points de contact et de la génération parmi les BT et les [!DNL BATs]
 exl-id: 4903f917-a366-4767-a126-5216d2377399
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 3%
-
+source-wordcount: '796'
+ht-degree: 2%
 ---
-
 
 # Explication des positions des points de contact et de la génération parmi les BT et les [!DNL BATs] {#explanation-of-touchpoint-positions-and-generation-across-bts-and-bats}
 
@@ -112,10 +116,10 @@ L’exemple suivant illustre le flux de données des points de contact d’achet
 **Opportunités** les données Buyer Attribution Touchpoint se liraient comme suit...
 
 * Premier contact (FT) - Paid Social.Facebook - 8/26/2019
-   * (de **Personne B** car elle possède la véritable _Première touche_ pour le compte/l’opportunité)
+  * (de **Personne B** car elle possède la véritable _Première touche_ pour le compte/l’opportunité)
 * Création de lead (LC) - Organic Search.Google - 11/20/2019
-   * (de **Personne A** car elle possède la véritable _Création de lead_ pour le compte/l’opportunité)
+  * (de **Personne A** car elle possède la véritable _Création de lead_ pour le compte/l’opportunité)
 * Création d’une opportunité (OC) - Webinaire - 3/4/2020
-   * (le point de contact Post LC de **Personne A** serait le point de contact _OC_ car il s’agissait de l’interaction la plus récente que nous ayons avec l’opportunité créée le 3/7/2020)
+  * (le point de contact Post LC de **Personne A** serait le point de contact _OC_ car il s’agissait de l’interaction la plus récente que nous ayons avec l’opportunité créée le 3/7/2020)
 * Clôturé et confirmé - E-mail - 5/1/2020
-   * (le point de contact Post LC de **Personne B** serait le _Point de contact Fermé et confirmé_ car il s’agissait de l’interaction la plus récente que nous ayons avec l’opportunité en cours de fermeture le 5/6/2020)
+  * (le point de contact Post LC de **Personne B** serait le _Point de contact Fermé et confirmé_ car il s’agissait de l’interaction la plus récente que nous ayons avec l’opportunité en cours de fermeture le 5/6/2020)

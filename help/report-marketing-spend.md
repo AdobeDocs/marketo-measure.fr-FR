@@ -3,13 +3,19 @@ description: Conseils sur les dépenses de marketing des rapports pour les utili
 title: Rapport sur les dépenses marketing
 exl-id: 46b0f81c-acd1-47a5-bf75-6a943edb9009
 feature: Reporting, Spend Management
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 1%
-
 ---
-
 # Rapport sur les dépenses marketing {#report-marketing-spend}
 
 ## Tableau des dépenses marketing {#marketing-spend-table}
@@ -30,9 +36,9 @@ Si la devise du fournisseur de publicités ne correspond pas à une devise extra
 
 ## Migrer vers les dépenses marketing converties {#migrate-to-converted-marketing-spend}
 
-Étant donné que les dépenses de marketing n’étaient historiquement libellées qu’en une seule devise (USD), une petite quantité de travail est nécessaire pour remplacer toutes les dépenses déclarées par la nouvelle devise. Même si les devises multiples ne sont pas activées sur votre compte, si vous avez une devise d’entreprise unique autre que le dollar américain, vous devez effectuer cette migration.
+Comme les dépenses marketing n’ont été historiquement effectuées que dans une seule devise (USD), une petite quantité de travail est nécessaire pour convertir toutes les dépenses déclarées dans la nouvelle devise. Même si les devises multiples ne sont pas activées sur votre compte, si vous avez une devise d’entreprise autre qu’USD, vous devez effectuer cette migration.
 
 1. Télécharger le fichier de dépenses actuel au format CSV
-1. La colonne devise affiche « [!UICONTROL USD] » comme devise supposée. Vous pouvez remplacer manuellement toutes les occurrences de « [!UICONTROL USD] » ou utiliser Rechercher+Remplacer pour remplacer toutes les instances de « [!UICONTROL USD] » par la devise de votre entreprise, telle que « [!UICONTROL EUR] » ou « [!UICONTROL GBP] ».
+1. La colonne devise affiche «  » comme devise supposée. Vous pouvez remplacer manuellement toutes les occurrences de «  » ou utiliser Rechercher+Remplacer pour remplacer toutes les instances « [!UICONTROL USD] » par la devise de votre entreprise, telle que « [!UICONTROL EUR] » ou « [!UICONTROL GBP] ».
 1. Enregistrez le fichier, puis chargez-le à nouveau dans [!DNL Marketo Measure].
 1. Tous vos coûts déclarés s’afficheront désormais dans la nouvelle devise.

@@ -3,13 +3,17 @@ description: Intégration des personnes [!DNL Marketo Engage] - [!DNL Marketo Me
 title: Intégration des personnes [!DNL Marketo Engage]
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 3%
-
 ---
-
 # Intégration des personnes [!DNL Marketo Engage] {#marketo-engage-people-integration}
 
 L’intégration des personnes de Marketo [!DNL Marketo Measure] permet de commencer à télécharger des personnes à partir de Marketo et de lier leurs sessions suivies à l’individu et de mapper les points de contact à leurs engagements. Historiquement, [!DNL Marketo Measure] ne pouvait mapper les points de contact qu’à une personne à partir du CRM, ce qui permet aux spécialistes marketing de mesurer leurs efforts marketing plus rapidement plutôt que d’attendre une étape ou un déclencheur pour les synchroniser avec le CRM.
@@ -19,7 +23,7 @@ L’intégration des personnes de Marketo [!DNL Marketo Measure] permet de comme
 * Instance de Marketo de production
 * [!DNL Salesforce] de production ou instance de [!DNL Microsoft Dynamics]
 * Tout abonnement [!DNL Marketo Measure] payant
-* SOLR activé (contactez l’assistance technique de [&#128279;](https://nation.marketo.com/t5/Support/ct-p/Support) pour que cela soit activé)
+* SOLR activé (contactez l’assistance technique de [](https://nation.marketo.com/t5/Support/ct-p/Support) pour que cela soit activé)
 
 ## Fonctionnement {#how-it-works}
 
@@ -31,9 +35,9 @@ Lorsque [!DNL Marketo Measure] parvenez à mapper la personne Marketo à une ses
 
 Pour que nous puissions détecter ces doublons, assurez-vous que votre [!DNL Marketo-Salesforce] ou [!DNL Marketo-Dynamics] synchronisation renseigne les ID de lead et de contact sur la personne Marketo. Si l’ID se synchronise correctement, vous devriez être en mesure de voir l’ID CRM sur l’enregistrement de personne, comme suit :
 
-![Pour que nous puissions détecter ces doublons, assurez-vous que vos &#x200B;](assets/marketo-engage-programs-06.png)
+![Pour que nous puissions détecter ces doublons, assurez-vous que vos ](assets/marketo-engage-programs-06.png)
 
-![Pour que nous puissions détecter ces doublons, assurez-vous que vos &#x200B;](assets/marketo-engage-programs-07.png)
+![Pour que nous puissions détecter ces doublons, assurez-vous que vos ](assets/marketo-engage-programs-07.png)
 
 Les clients ont la possibilité de signaler l’ensemble des personnes Marketo et des personnes CRM dans [!DNL Marketo Measure] Discover. Si vous souhaitez créer des rapports uniquement pour les personnes qui utilisent CRM, nous vous recommandons de créer un segment pour les filtrer.
 
@@ -41,9 +45,9 @@ Les clients ont la possibilité de signaler l’ensemble des personnes Marketo e
 
 Lors de la création de rapports sur les prospects (personnes) dans [!DNL Marketo Measure Discover], vous verrez le total de vos prospects Marketo et CRM. Pour générer des rapports portant uniquement sur des personnes Marketo ou uniquement sur des prospects CRM, vous devez créer une catégorie de segments pour votre source, puis créer des règles de segments pour Marketo et CRM à l’aide du champ « Système Source » pour définir la règle. Une fois vos segments créés, la catégorie Source est disponible pour être filtrée dans vos tableaux de bord [!DNL Marketo Measure Discover].
 
-![Lors de la création de rapports sur des prospects (personnes) dans Marketo Measure Discover, vous &#x200B;](assets/bizible-discover-1.png)
+![Lors de la création de rapports sur des prospects (personnes) dans Marketo Measure Discover, vous ](assets/bizible-discover-1.png)
 
-![Lors de la création de rapports sur des prospects (personnes) dans Marketo Measure Discover, vous &#x200B;](assets/bizible-discover-2.png)
+![Lors de la création de rapports sur des prospects (personnes) dans Marketo Measure Discover, vous ](assets/bizible-discover-2.png)
 
 ## Appariement des champs {#field-mappings}
 
@@ -59,7 +63,7 @@ Lors de la création de rapports sur les prospects (personnes) dans [!DNL Market
   </tr>
   <tr>
    <td><p>ID</p></td>
-   <td><p>id</p></td>
+   <td><p>identifiant</p></td>
   </tr>
   <tr>
    <td><p>MODIFIED_DATE</p></td>
@@ -83,7 +87,7 @@ Lors de la création de rapports sur les prospects (personnes) dans [!DNL Market
   </tr>
   <tr>
    <td><p>IS_CONVERTED</p></td>
-   <td><p>S.O.</p></td>
+   <td><p>s/o</p></td>
   </tr>
   <tr>
    <td><p>ACCOUNT_ID</p></td>

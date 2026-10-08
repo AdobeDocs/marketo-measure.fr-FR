@@ -3,17 +3,21 @@ description: Conseils sur les campagnes et les membres de campagne pour les util
 title: Campagnes et personnes membres de campagne
 exl-id: e4e2b154-39ac-4295-a541-7fa6112672e3
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 88%
-
 ---
+# Campagnes et membres de campagne {#campaigns-and-campaign-members}
 
-# Campagnes et personnes membres de campagne {#campaigns-and-campaign-members}
-
-Les campagnes [!DNL Salesforce] sont destinées à suivre les listes de prospects et de contacts associés à un programme ou à une activité marketing. Il s’agit généralement de webinaires, d’inscriptions ou de visites de stands, par exemple. Les personnes spécialisées dans le marketing peuvent choisir si une campagne doit être créditée ou non dans un parcours de points de contact.
+Les campagnes [!DNL Salesforce] sont destinées à suivre les listes de prospects et de contacts associés à un programme ou à une activité marketing. Il s’agit généralement de webinaires, d’inscriptions ou de visites de stands, par exemple. Les responsables marketing peuvent choisir si une campagne doit se voir attribuer un crédit dans un parcours de points de contact.
 
 >[!NOTE]
 >
@@ -23,15 +27,15 @@ Les campagnes [!DNL Salesforce] sont destinées à suivre les listes de prospect
 
 Le package [!DNL Marketo Measure] [!DNL Salesforce] comprendra un champ intitulé « Activer Buyer Touchpoints » sur l’objet de campagne. Une fois le champ ajouté à la disposition de page, il apparaît comme suit :
 
-![Le package Marketo Measure Salesforce comprend un champ intitulé &#x200B;](assets/dynamics-lists-1.png)
+![Le package Marketo Measure Salesforce comprend un champ intitulé ](assets/dynamics-lists-1.png)
 
 Les options disponibles dans la liste de sélection sont les suivantes :
 
-![Les options disponibles dans la liste de sélection sont les suivantes : &#x200B;](assets/dynamics-lists-10.png)
+![Les options disponibles dans la liste de sélection sont les suivantes : ](assets/dynamics-lists-10.png)
 
-* Inclure toutes les personnes membres de la campagne : chaque prospect ou contact ajouté à la campagne recevra un point de contact associé à cette campagne.
-* Inclure uniquement les personnes membres de la campagne qui ont répondu : seuls les prospects ou les contacts dont le statut de personne membre de la campagne est « A répondu » recevront un point de contact associé à cette campagne.
-* Exclure toutes les personnes membres de la campagne : aucun des prospects ou contacts ne recevra de point de contact associé à cette campagne.
+* Inclure tous les membres de la campagne : chaque lead ou contact ajouté à la campagne se verra attribuer un point de contact associé à cette campagne.
+* Inclure uniquement les membres de la campagne qui ont répondu : seuls les leads ou contacts dont le statut de membre de la campagne est « A répondu » se verront attribuer un point de contact associé à cette campagne.
+* Exclure tous les membres de la campagne : aucun lead ni contact ne se verra attribuer un point de contact associé à cette campagne.
 
 Notez que les personnes membres de la campagne doivent avoir une adresse e-mail associée à leur enregistrement pour que [!DNL Marketo Measure] puisse créer un point de contact. Sans adresse e-mail, [!DNL Marketo Measure] n’attribuera pas de point de contact à la personne membre de la campagne.
 
@@ -53,13 +57,13 @@ Si, avant d’utiliser [!DNL Marketo Measure], vous utilisiez une plateforme d�
 
 ## Personnes membres de la campagne {#campaign-members}
 
-Les personnes membres de la campagne sont imbriquées dans des [!UICONTROL campagnes] et sont liées à un prospect ou à un contact. Un prospect ou un contact ne peut être ajouté qu’une seule fois à une campagne, ce qui peut être problématique en fonction du cas d’utilisation de la campagne. Lorsqu’une campagne est synchronisée, l’abonnement aux campagnes est utilisé comme activité marketing intégrée au parcours du point de contact et considérée comme un formulaire à remplir.
+Les personnes membres de la campagne sont imbriquées dans des [!UICONTROL campagnes] et sont liées à un prospect ou à un contact. Un lead ou un contact ne peut être ajouté qu’une seule fois à une campagne, ce qui peut poser problème selon le cas d’usage de la campagne. Lorsqu’une campagne est synchronisée, les appartenances à la campagne sont utilisées comme activités marketing. Elles sont ajoutées au parcours des points de contact et traitées comme un remplissage de formulaire.
 
 ## Statut de Buyer Touchpoint {#buyer-touchpoint-status}
 
 S’il est activé, [!DNL Marketo Measure] transmettra une valeur de statut sur la personne membre de la campagne dans 4 champs différents inclus dans le package installé : Statut du point de contact (Prospect), Statut du point de contact (Contact), Statut du point de contact (Opportunité) et Date de statut du point de contact. Cela permet aux clientes et clients de vérifier si un point de contact a été créé en tant que Buyer Touchpoint ou Buyer Attribution Touchpoint, en fonction de l’objet auquel il est lié. La date de statut du point de contact correspond simplement à la dernière date de mise à jour du statut sur la personne membre de la campagne.
 
-![Si cette option est activée, Marketo Measure transmet une valeur de statut au &#x200B;](assets/dynamics-lists-3.png)
+![Si cette option est activée, Marketo Measure transmet une valeur de statut au ](assets/dynamics-lists-3.png)
 
 ## Date de Buyer Touchpoint {#buyer-touchpoint-date}
 
@@ -67,22 +71,22 @@ Avec l’installation du package, [!DNL Marketo Measure] inclut également un ch
 
 Cela pourrait s’avérer nécessaire si une liste était chargée des jours/semaines/mois après qu’un événement s’est réellement produit. Des moyens permettent de mettre à jour tous les enregistrements simultanément, comme expliqué ci-dessous.
 
-![Cela peut être nécessaire si une liste a été chargée jours/semaines/mois après un(e) &#x200B;](assets/dynamics-lists-4.png)
+![Cela peut être nécessaire si une liste a été chargée jours/semaines/mois après un(e) ](assets/dynamics-lists-4.png)
 
 Pour savoir si vous devez utiliser la date de Buyer Touchpoint ou non, voici comment les dates sont déterminées par [!DNL Marketo Measure] en fonction du [!UICONTROL type de synchronisation] sélectionné pour la campagne.
 
 Si le [!UICONTROL type de synchronisation] est défini sur « Inclure toutes les personnes membres de la campagne », la priorité de définition de la date du point de contact se fait du haut vers le bas :
 
 * Date de Buyer Touchpoint
-* Date de création de la personne membre de la campagne
+* Date de création du membre de la campagne
 
 Si le [!UICONTROL type de synchronisation] est défini sur « Inclure uniquement les personnes membres de la campagne qui ont répondu », la priorité de définition de la date du point de contact se fait du haut vers le bas :
 
 * Date de Buyer Touchpoint
 * Date de première réponse
-   * La date de première réponse est automatiquement définie dès que le statut passe à « A répondu ». Il s’agit d’un champ [!DNL Salesforce] standard qui ne peut pas être modifié.
+  * La date de première réponse est automatiquement définie dès que le statut passe à « A répondu ». Il s’agit d’un champ [!DNL Salesforce] standard qui ne peut pas être modifié.
 
-* Date de création de la personne membre de la campagne
+* Date de création du membre de la campagne
 
 ## Date de mise à jour en bloc du point de contact {#bulk-update-touchpoint-date}
 
@@ -94,13 +98,13 @@ Si un grand nombre d’enregistrements de personnes membres de la campagne doive
 
 S’il existe des cas d’utilisation uniques que cette interface ne couvre pas, vous pouvez également utiliser le [Chargeur de données](https://dataloader.io/){target="_blank"} pour exporter les enregistrements, apporter la modification et charger à nouveau les enregistrements.
 
-Commencez par rechercher les enregistrements et filtrer ceux pour lesquels vous souhaitez définir une date de Buyer Touchpoint.
+Commencez par rechercher les enregistrements, puis filtrez ceux pour lesquels vous souhaitez définir une date de point de contact Acheteur.
 
 >[!CAUTION]
 >
 >Une recherche ne fonctionne pas, comme le montre l’exemple ci-dessous. L’interface utilisateur ne permet pas de rechercher des dates de Buyer Touchpoint nulles (la recherche ci-dessous ne fonctionnerait pas) :
 
-![Une recherche ne fonctionne pas et s’affiche dans &#x200B;](assets/legacy-processes-10.png)
+![Une recherche ne fonctionne pas et s’affiche dans ](assets/legacy-processes-10.png)
 
 Si vous n’avez pas besoin d’utiliser la recherche et que vous appliquez simplement les dates à chaque enregistrement de personne membre de la campagne, utilisez la case à cocher « [!UICONTROL Inclure tous les enregistrements] » (voir la copie d’écran ci-dessous). Tous les enregistrements sur toutes les pages seront alors cochés.
 
@@ -122,7 +126,7 @@ Pour contourner ce problème, [!DNL Marketo Measure] a créé un objet d’histo
 
 >[!CAUTION]
 >
->Gardez à l’esprit que ce déclencheur ne suit pas les personnes membres de la campagne qui ont été supprimées par le passé. Il ne fonctionne donc que pour l’avenir. Si vous devez supprimer un grand nombre de points de contact d’anciens membres de la campagne, contactez l’assistance de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
+>Gardez à l’esprit que ce déclencheur ne suit pas les personnes membres de la campagne qui ont été supprimées par le passé. Il ne fonctionne donc que pour l’avenir. Si vous devez supprimer un grand nombre de points de contact d’anciens membres de la campagne, contactez l’assistance de [](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

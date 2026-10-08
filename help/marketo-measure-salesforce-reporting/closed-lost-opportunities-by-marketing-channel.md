@@ -1,16 +1,22 @@
 ---
 description: Conseils sur les opportunités perdues closes par canal marketing pour les utilisateurs de Marketo Measure
-title: Opportunités concrétisées ou perdues par canal marketing
+title: Opportunités perdues (Closed Lost) par canal marketing
 exl-id: 010169fc-f7e7-4ab2-92fe-87e4250dd536
 feature: Channels, Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 5%
-
 ---
-
-# Opportunités concrétisées ou perdues par canal marketing {#closed-lost-opportunities-by-marketing-channel}
+# Opportunités perdues (Closed Lost) par canal marketing {#closed-lost-opportunities-by-marketing-channel}
 
 Bien que ce rapport puisse dépendre de vos étapes d’opportunité, il dévoilera quels canaux marketing ont contribué à des opportunités qui ne sont pas fermées et confirmées.
 
@@ -20,21 +26,21 @@ Bien que ce rapport puisse dépendre de vos étapes d’opportunité, il dévoil
 
 1. Dans le type de recherche rapide dans « Attribution Bizible » et sélectionnez le type de rapport **[!UICONTROL Point de contact d’attribution Bizible avec opportunité]**, puis sélectionnez **[!UICONTROL Créer]**.
 
-   ![1. Dans la recherche rapide, saisissez « Attribution Bizible » et sélectionnez le &#x200B;](assets/bizible-guide-2.png)
+   ![1. Dans la recherche rapide, saisissez « Attribution Bizible » et sélectionnez le ](assets/bizible-guide-2.png)
 
 1. En commençant par la partie supérieure du rapport, affichez « [!UICONTROL Tous les points de contact d’attribution Bizible] » et ajustez le champ de date en fonction de la période sur laquelle vous souhaitez créer votre rapport. Dans notre exemple, nous prenons All Time. De plus, remplacez le format de rapport Tabulaire par Résumé.
 
-   ![1. En commençant par la partie supérieure du rapport, afficher « Tous les Bizible &#x200B;](assets/marketo-reports-8.jpg)
+   ![1. En commençant par la partie supérieure du rapport, afficher « Tous les Bizible ](assets/marketo-reports-8.jpg)
 
-   ![1. En commençant par la partie supérieure du rapport, afficher « Tous les Bizible &#x200B;](assets/bizible-guide-3.png)
+   ![1. En commençant par la partie supérieure du rapport, afficher « Tous les Bizible ](assets/bizible-guide-3.png)
 
 1. À présent, nous allons ajouter des champs au rapport. Dans la recherche rapide sur la gauche, saisissez « Canal marketing » et ajoutez-le au regroupement Résumé dans le rapport.
 
-   ![1. À présent, nous allons ajouter des champs au rapport. Dans le &#x200B;](assets/bizible-guide-4.png)
+   ![1. À présent, nous allons ajouter des champs au rapport. Dans le ](assets/bizible-guide-4.png)
 
 1. Ensuite, nous allons ajouter un filtre pour ne regarder que les opportunités perdues closes. Dans la recherche rapide sur la gauche, recherchez le champ « Phase » et faites-le glisser dans la zone de filtrage.
 
-   ![1. Ensuite, nous allons ajouter un filtre pour ne regarder que &#x200B;](assets/marketo-reports-16.jpg)
+   ![1. Ensuite, nous allons ajouter un filtre pour ne regarder que ](assets/marketo-reports-16.jpg)
 
 1. De là, vous sélectionnerez la loupe pour choisir la ou les étapes que vous utilisez pour les opportunités « Fermées et perdues ». Dans notre cas, nous utiliserons le nom standard « Fermé et perdu ».
 
@@ -46,4 +52,4 @@ Bien que ce rapport puisse dépendre de vos étapes d’opportunité, il dévoil
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutoriels : rapports SFDC supplémentaires](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)
+>[[!DNL Marketo Measure] Tutoriels : rapports SFDC supplémentaires](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/addtional-salesforce-reports)

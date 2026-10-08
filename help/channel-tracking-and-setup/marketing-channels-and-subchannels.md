@@ -3,14 +3,18 @@ description: Conseils sur les canaux et sous-canaux marketing pour les utilisate
 title: Canaux et sous-canaux marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 85%
-
 ---
-
 # Canaux et sous-canaux marketing {#marketing-channels-and-subchannels}
 
 ## But {#purpose}
@@ -21,7 +25,7 @@ Pour définir ce que sont un canal et un sous-canal dans [!DNL Marketo Measure],
 
 Les canaux marketing permettent de classer (ou de « regrouper ») vos activités marketing afin de faciliter la création de rapports, aussi bien dans le tableau de bord Retour sur investissement de [!DNL Marketo Measure] que dans votre CRM. [!DNL Marketo Measure] s’accompagne de 12 canaux prêts à l’emploi (que vous pouvez personnaliser/renommer pour les adapter aux conventions de votre entreprise), ainsi que de la possibilité de créer d’autres canaux personnalisés pour un filtrage encore plus précis.
 
-Chaque fois que vous recevez une visite sur l’une des pages de contenu de votre site (qu’il s’agisse d’une page web, d’un téléchargement de livre blanc, d’une URL de page, etc.), ce prospect est « regroupé » dans un canal/sous-canal en fonction de plusieurs paramètres UTM trouvés dans l’URL :
+Chaque fois qu’un visiteur se rend sur l’une des pages de contenu de votre site (qu’il s’agisse d’une page web, d’un téléchargement d’un article technique, d’une URL de page, etc.), ce lead est « classé » dans un canal/sous-canal en fonction de plusieurs paramètres UTM trouvés dans l’URL :
 
 * Support
 * Source
@@ -45,11 +49,11 @@ Les sous-canaux constituent la deuxième pièce du puzzle lors du regroupement d
 
 Le diagramme ci-dessous illustre un exemple de canal marketing, de sous-canal et de contenu basé sur une page web avec l’URL suivante :
 
-* [&#128279;](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
+* [](http://info.bizible.com/intro-guide-b2b-marketing-attribution?utm_source=linkedin&utm_medium=paidsocial)*
 
 Dans ce cas, le contenu auquel l’utilisateur ou l’utilisatrice tente d’accéder est le Guide d’introduction à l’attribution marketing B2B. [!DNL Marketo Measure] analyse l’URL qui mène à ce contenu à l’aide des règles de canal configurées dans cette organisation et les utilise pour « regrouper » ce prospect dans le canal marketing « Référencement social payant » et le sous-canal « LinkedIn ».
 
-![Dans ce cas, le contenu auquel l’utilisateur tente d’accéder est &#x200B;](assets/online-channels-1.png)
+![Dans ce cas, le contenu auquel l’utilisateur tente d’accéder est ](assets/online-channels-1.png)
 
 Autres exemples...
 

@@ -3,13 +3,17 @@ description: Conseils sur les bonnes pratiques pour l’attribution des activit�
 title: Bonnes pratiques relatives à l’attribution des activités
 exl-id: 66fb9f47-3912-40a6-b112-3efca789f321
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 4%
-
 ---
-
 # Bonnes pratiques relatives à l’attribution des activités {#best-practices-for-activities-attribution}
 
 ## Vue d’ensemble {#overview}
@@ -25,8 +29,8 @@ Pour de nombreuses instances [!DNL Salesforce], l’objet Activity peut héberge
 Que vous définissiez des règles d’activité pour la première fois ou que vous examiniez simplement des règles d’activité précédemment configurées, gardez à l’esprit les bonnes pratiques suivantes.
 
 * Démarrer simple
-   * Identifiez quelques types clés d’activités que vous souhaitez incorporer dans vos données [!DNL Marketo Measure], puis ajoutez d’autres types au fur et à mesure que vous vous familiarisez avec la manière dont ces points de contact sont attribués
-   * Comme mentionné, le principal cas d’utilisation de cette fonctionnalité consiste à créer des points de contact qui surveillent l’efficacité de votre équipe de développement des ventes, en particulier les appels téléphoniques sortants et les e-mails sortants
+  * Identifiez quelques types clés d’activités que vous souhaitez incorporer dans vos données [!DNL Marketo Measure], puis ajoutez d’autres types au fur et à mesure que vous vous familiarisez avec la manière dont ces points de contact sont attribués
+  * Comme mentionné, le principal cas d’utilisation de cette fonctionnalité consiste à créer des points de contact qui surveillent l’efficacité de votre équipe de développement des ventes, en particulier les appels téléphoniques sortants et les e-mails sortants
 
 >[!NOTE]
 >
@@ -34,11 +38,11 @@ Que vous définissiez des règles d’activité pour la première fois ou que vo
 
 * Ne pas utiliser de champs de formule pour définir vos règles
 * Créer des règles spécifiques et précises
-   * Le seuil de création d’un point de contact d’activité doit être identique (ou similaire) à un remplissage de formulaire ou à une adhésion à une campagne : réponses à un e-mail sortant ou conversations téléphoniques terminées
+  * Le seuil de création d’un point de contact d’activité doit être identique (ou similaire) à un remplissage de formulaire ou à une adhésion à une campagne : réponses à un e-mail sortant ou conversations téléphoniques terminées
 * Toujours valider les nouvelles règles dans [!DNL Salesforce] avant d’enregistrer et de traiter
-   * La réplication des règles d’activité dans un type de rapport « Tâches et événements » vous permet de comprendre clairement le nombre exact de points de contact de la règle
+  * La réplication des règles d’activité dans un type de rapport « Tâches et événements » vous permet de comprendre clairement le nombre exact de points de contact de la règle
 * Travailler avec votre équipe d’opportunités commerciales
-   * Si vous faites appel à l’équipe qui travaille le plus étroitement avec votre enregistrement d’activité ou votre outil de promotion des ventes, vous vous assurerez d’utiliser les champs appropriés pour définir vos règles
+  * Si vous faites appel à l’équipe qui travaille le plus étroitement avec votre enregistrement d’activité ou votre outil de promotion des ventes, vous vous assurerez d’utiliser les champs appropriés pour définir vos règles
 
 ## Bonne pratique de maintenance {#best-practice-for-maintenance}
 

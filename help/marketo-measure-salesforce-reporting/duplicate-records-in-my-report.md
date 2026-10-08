@@ -3,13 +3,17 @@ description: Conseils sur la duplication d’enregistrements dans Mon rapport po
 title: Doublons d’enregistrements dans mon rapport
 exl-id: 4ee42371-5b67-4c69-9b49-3249f33614d0
 feature: Reporting
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 8%
-
 ---
-
 # Doublons d’enregistrements dans mon rapport {#duplicate-records-in-my-report}
 
 >[!NOTE]
@@ -24,7 +28,7 @@ Prenons l’exemple du rapport suivant :
 
 Il s&#39;agit d&#39;un rapport **Contacts avec les points de contact des acheteurs**. Encore une fois, cela signifie que nous examinons le nombre de points de contact associés à un contact individuel.
 
-![Il s&#39;agit d&#39;un rapport Contacts avec les points de contact des acheteurs. Encore une fois, cela signifie que &#x200B;](assets/marketo-reports-1.gif)
+![Il s&#39;agit d&#39;un rapport Contacts avec les points de contact des acheteurs. Encore une fois, cela signifie que ](assets/marketo-reports-1.gif)
 
 Comme vous pouvez le voir, il semble qu&#39;il y ait trois contacts James Williams dans le rapport, et donc vous pourriez penser, « doublons ! »
 
@@ -34,4 +38,4 @@ Si vous souhaitez comprendre le « nombre de contacts », vous pouvez utiliser l
 
 >[!MORELIKETHIS]
 >
->[[!DNL Marketo Measure] Tutoriels : rapports Stock SFDC](https://experienceleague.adobe.com/fr/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}
+>[[!DNL Marketo Measure] Tutoriels : rapports Stock SFDC](https://experienceleague.adobe.com/en/docs/marketo-measure-learn/tutorials/onboarding/marketo-measure-102/stock-salesforce-reports){target="_blank"}

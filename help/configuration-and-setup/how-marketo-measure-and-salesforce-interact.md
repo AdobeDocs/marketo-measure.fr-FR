@@ -1,15 +1,22 @@
 ---
 description: Présentation de la manière dont Marketo Measure échange des données avec Salesforce, y compris les autorisations d’exportation et les paramètres par lots
-title: 'Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce] '
+title: Explication des interactions entre [!DNL Marketo Measure] et [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 96%
-
 ---
-
 # Explication des interactions entre [!DNL Marketo Measure] et [!DNL Salesforce] {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
@@ -24,15 +31,15 @@ Une fois que le compte [!DNL Marketo Measure] est créé et que [!DNL Salesforce
 
 Si vous n’avez pas installé le package [!DNL Marketo Measure] Salesforce, [!DNL Marketo Measure] n’écrit aucune donnée sur votre instance Salesforce.
 
-![Si vous n’avez pas installé le package Marketo Measure Salesforce, &#x200B;](assets/bizible-full-1.png)
+![Si vous n’avez pas installé le package Marketo Measure Salesforce, ](assets/bizible-full-1.png)
 
-Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d’API chaque fois qu’une tâche envoie des données à votre CRM. Pour la majeure partie de la clientèle, cela permet d’obtenir un équilibre optimal entre les crédits d’API consommés par [!DNL Marketo Measure] et les exigences en matière de ressources du processeur sur le CRM. Toutefois, pour la clientèle disposant de configurations CRM complexes, comme les workflows et les triggers, une taille de lot réduite peut se révéler utile pour améliorer les performances CRM. À cette fin, [!DNL Marketo Measure] permet à la clientèle de configurer la taille du lot d’export CRM. Ce paramètre est disponible à la page [!UICONTROL Paramètres] > [!UICONTROL CRM] > [!UICONTROL Général] de l’application web [!DNL Marketo Measure]. Il est ainsi possible de choisir entre des tailles de lot de 200 (par défaut), 100, 50 ou 25.
+Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d’API chaque fois qu’une tâche envoie des données à votre CRM. Pour la majeure partie de la clientèle, cela permet d’obtenir un équilibre optimal entre les crédits d’API consommés par [!DNL Marketo Measure] et les exigences en matière de ressources du processeur sur le CRM. Toutefois, pour la clientèle disposant de configurations GRC complexes, comme les workflows et les déclencheurs, une taille de lot inférieure peut se révéler utile pour améliorer les performances de la GRC. À cette fin, [!DNL Marketo Measure] permet à la clientèle de configurer la taille du lot d’export CRM. Ce paramètre est disponible à la page [!UICONTROL Paramètres] > [!UICONTROL CRM] > [!UICONTROL Général] de l’application web [!DNL Marketo Measure]. Il est ainsi possible de choisir entre des tailles de lot de 200 (par défaut), 100, 50 ou 25.
 
 ![Par défaut, Marketo Measure exporte 200 enregistrements par crédit API](assets/bizible-taxonomy-1.png)
 
-Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consomment davantage de crédits d’API de votre CRM. Il est conseillé de réduire la taille des lots uniquement en cas de temporisation du processeur ou d’une charge élevée de ce dernier dans votre CRM.
+Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consomment davantage de crédits d’API de votre système GRC. Il est conseillé de réduire la taille des lots uniquement en cas de temporisation du processeur ou d’une charge élevée de ce dernier dans votre CRM.
 
-## Autorisations des personnes connectées à Salesforce {#salesforce-connected-user-permissions}
+## Autorisations de l’utilisateur connecté à Salesforce {#salesforce-connected-user-permissions}
 
 **Jeu d’autorisations d’administration Marketo Measure pour une personne dédiée** : permet à l’administratation SFDC d’effectuer des opérations CRUD sur des objets Marketo Measure.
 
@@ -634,7 +641,7 @@ Cette section répertorie les objets standard [!DNL Salesforce] avec lesquels [!
 
 >[!NOTE]
 >
->Pour garantir la précision des événements de suppression capturés par Marketo Measure dans votre compte Salesforce, des autorisations de réplication pour les objets ci-dessous sont requises. Les autorisations de réplication sont fournies de manière standard avec les objets suivants :
+>Pour garantir la précision de la capture des événements de suppression par Marketo Measure dans votre compte Salesforce, des autorisations de réplication sont requises pour les objets ci-dessous. Les autorisations de réplication sont fournies de manière standard avec les objets suivants :
 >
 >* Compte
 >* Campagne

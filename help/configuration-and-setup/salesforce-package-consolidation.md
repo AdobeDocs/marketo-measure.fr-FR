@@ -1,15 +1,22 @@
 ---
-description: '''Consolidation [!DNL Salesforce] Package - [!DNL Marketo Measure]'''
+description: '''Consolidation de packages [!DNL Salesforce] - [!DNL Marketo Measure]'''
 title: Consolidation des packages [!DNL Salesforce]
 exl-id: ae559f5f-91bf-4504-9d5a-af47f95ca01f
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 9%
-
 ---
-
 # Consolidation des packages [!DNL Salesforce] {#salesforce-package-consolidation}
 
 Pour améliorer l’expérience utilisateur et simplifier l’utilisation, les packages existants sont compilés dans un package unique et complet.
@@ -24,7 +31,7 @@ Le nouveau package V2 consolidé intègre toutes les fonctionnalités des packag
 
 Il existe deux nouveaux champs pour améliorer vos fonctionnalités de création de rapports :
 
-* form_name : désormais disponible dans les objets BT/BAT, ce champ permet aux utilisateurs et utilisatrices de créer des rapports en fonction des noms de formulaire.
+* form_name : désormais disponible dans les objets BT/BAT, ce champ permet aux utilisateurs et utilisatrices de créer des rapports en fonction des noms de formulaire.&#x200B;
 * user_touchpoint_id : ce champ permet aux utilisateurs de créer des rapports avec un nombre de points de contact d’utilisateur unique (`bizible2__User_Touchpoint_V2__c` dans Salesforce).
 
 ## Soutien et transition {#support-and-transition}
@@ -36,16 +43,16 @@ L’équipe d’assistance [Support](https://nation.marketo.com/t5/support/ct-p/
 * Si le package V2 est déjà installé, vous devez le mettre à jour vers la nouvelle version consolidée.
 * Si vous disposez de rapports ou de tableaux de bord provenant de n’importe quel package de création de rapports, vous pouvez facilement les recréer sans avoir à apporter de modifications, puisque tous les champs existent dans le package consolidé.
 * Si vous disposez de rapports utilisant des champs dans le package V2_EXT, vous pouvez les recréer dans le package consolidé en procédant comme suit :
-   * Toutes les données des champs V2_EXT sont disponibles dans les champs de point de contact. Vous pouvez donc modifier vos rapports pour récupérer les données des champs de point de contact V2 correspondants en ajoutant un filtre sur la position du point de contact.
-   * Exemple de rapport récupérant tous les prospects avec un FT de contenu publicitaire contenant du texte « Portée ».
-      * Requête V2_EXT :
-         * bizible2_ext__Ad_Content_FT__c contient la portée
+  * Toutes les données des champs V2_EXT sont disponibles dans les champs de point de contact. Vous pouvez donc modifier vos rapports pour récupérer les données des champs de point de contact V2 correspondants en ajoutant un filtre sur la position du point de contact.
+  * Exemple de rapport récupérant tous les prospects avec un FT de contenu publicitaire contenant du texte « Portée ».
+    * Requête V2_EXT :
+      * bizible2_ext__Ad_Content_FT__c contient la portée
 
 ![bizible2extAdContentFTc contient Extension](assets/bizible-full-1.png)
 
 * Requête correspondante dans le package consolidé :
-   * bizible2__Touchpoint_Position__c contient FT ET
-   * Bizible2__Ad_Content__c contient l’extension
+  * bizible2__Touchpoint_Position__c contient FT ET
+  * Bizible2__Ad_Content__c contient l’extension
 
 ![bizible2AdContentc contient la portée](assets/bizible-taxonomy-1.png)
 

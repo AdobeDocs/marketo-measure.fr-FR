@@ -1,15 +1,22 @@
 ---
 description: Découvrez comment gérer les erreurs dans les exportations CRM
-title: Gestion des erreurs pour les exports CRM
+title: Gestion des erreurs pour les exportations GRC
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 8%
-
 ---
-
-# Gestion des erreurs pour les exports CRM
+# Gestion des erreurs pour les exportations GRC
 
 Le paramètre Pause lors des erreurs d’exportation se trouve sous **Mon compte** > **Paramètres** > **CRM** > **Général**. Il vous permet de contrôler si les tâches d’exportation CRM doivent être suspendues en cas d’erreur au niveau de l’enregistrement.
 
@@ -17,7 +24,7 @@ Le paramètre Pause lors des erreurs d’exportation se trouve sous **Mon compte
 >
 >Cette fonction n’est visible que si la fonction « Exporter vers le CRM » est activée.
 
-Lorsque cette fonctionnalité est activée, la tâche d’exportation cesse de progresser et reste dans l’enregistrement où l’erreur s’est produite, jusqu’à ce que le problème soit résolu. Ces erreurs sont généralement dues à des autorisations manquantes, à des règles de validation personnalisées incorrectement appliquées ou à des problèmes de workflows/déclencheurs. Le traitement continue de s’exécuter comme prévu et tente automatiquement d’exporter à nouveau l’enregistrement en échec jusqu’à ce qu’il réussisse.
+Lorsque cette fonctionnalité est activée, la tâche d’exportation cesse de progresser et reste dans l’enregistrement où l’erreur s’est produite, jusqu’à ce que le problème soit résolu. Ces erreurs sont généralement dues à des autorisations insuffisantes, à des règles de validation personnalisées mal appliquées, ou à des problèmes liés aux workflows ou aux déclencheurs. Le traitement continue de s’exécuter comme prévu et tente automatiquement d’exporter à nouveau l’enregistrement en échec jusqu’à ce qu’il réussisse.
 
 Si vous choisissez de désactiver cette fonctionnalité, une fenêtre contextuelle d’avertissement s’affiche, vous informant que cela peut entraîner des incohérences dans les données. Il est de votre responsabilité de résoudre les problèmes qui peuvent découler de ces incohérences.
 

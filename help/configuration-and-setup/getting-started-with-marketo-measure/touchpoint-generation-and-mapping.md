@@ -1,25 +1,27 @@
 ---
 unique-page-id: 18874554
-description: Génération et mappage des points de contact -  [!DNL Marketo Measure]
+description: Génération et mappage des points de contact - [!DNL Marketo Measure]
 title: Génération et mappage des points de contact
 exl-id: bb4988f5-4fbc-43b7-9544-da541b8e1d32
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/otuePoQBPvb-UEJCTI1CeyA1BYQ7Jn-jZQm63si-6uA
+TQID: 'https://experienceleague.adobe.com/otuePoQBPvb-UEJCTI1CeyA1BYQ7Jn-jZQm63si-6uA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 363
-ht-degree: 100%
-
+source-wordcount: '363'
+ht-degree: 98%
 ---
-
 # Génération et mappage des points de contact {#touchpoint-generation-and-mapping}
 
 L’attribution [!DNL Marketo Measure] s’articule autour de deux processus :
 
 * La génération de points de contact crée des points de contact qui représentent les interactions d’une personne avec vos actions marketing et de vente
-* Le mappage des points de contact attribue les points de contact au canal et au sous-canal appropriés
+* Le mappage des points de contact, qui attribue ces derniers aux canaux et sous-canaux appropriés
 
 Pour tirer le meilleur parti de [!DNL Marketo Measure], vous devez travailler avec votre représentant ou représentante [!DNL Marketo Measure] pour adapter les deux processus aux besoins de votre organisation.
 
@@ -34,7 +36,7 @@ Le processus de génération de points de contact répond à la question « Com
 | **Type d’interaction** | **Exemple** | **Méthode de génération de point de contact** |
 |---|---|---|
 | En ligne, sur vos sites | Remplissage de formulaire | Code JavaScript [!DNL Marketo Measure] |
-| Hors ligne ; en ligne, mais pas sur vos sites | Salons ; le partenaire de syndication de contenu fournit une liste de prospects qui ont interagi avec votre contenu. | Abonnement à une campagne CRM synchronisée avec [!DNL Marketo Measure], soit en définissant le type de synchronisation de campagne directement dans la campagne, soit en définissant des règles sur la page Campagnes dans [!DNL Marketo Measure] |
+| Hors ligne ; en ligne, mais pas sur vos sites | Salons professionnels ; un partenaire de syndication de contenu fournit une liste de leads ayant interagi avec votre contenu | Abonnement à une campagne CRM synchronisée avec [!DNL Marketo Measure], soit en définissant le type de synchronisation de campagne directement dans la campagne, soit en définissant des règles sur la page Campagnes dans [!DNL Marketo Measure] |
 | Activité de vente | Appel sortant par SDR | Enregistrement d’activité CRM (tâche ou événement) synchronisé avec [!DNL Marketo Measure], par le biais de la logique sur la page [!UICONTROL Activités] dans [!DNL Marketo Measure] |
 
 Méthodes de mappage des points de contact
@@ -44,7 +46,7 @@ Le processus de mappage des points de contact répond à la question : « Une 
 | **Type d’interaction** | **Méthode de génération** | **Méthode de mappage** |
 |---|---|---|
 | En ligne, sur vos sites | Code JavaScript [!DNL Marketo Measure] | Sur la page [!DNL Online Channels] dans [!DNL Marketo Measure], en référençant les valeurs UTM, la page de destination et les informations de page de référence |
-| Hors ligne ; en ligne, mais pas sur vos sites | Synchronisation de l’abonnement à une campagne CRM | Sur la page [!UICONTROL Canaux hors ligne] dans [!DNL Marketo Measure], en référençant le type de campagne |
+| Hors ligne ; en ligne, mais pas sur vos sites | Synchronisation des membres d’une campagne GRC | Sur la page [!UICONTROL Canaux hors ligne] dans [!DNL Marketo Measure], en référençant le type de campagne |
 | Activité de vente | Synchronisation de l’activité CRM | Sur la page [!UICONTROL Canaux en ligne] dans [!DNL Marketo Measure], en référençant le nom de la campagne attribué sur la page [!UICONTROL Activités] |
 
 >[!MORELIKETHIS]

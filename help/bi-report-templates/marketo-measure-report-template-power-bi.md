@@ -3,18 +3,21 @@ description: Modèle de rapport [!DNL Marketo Measure] - Power BI - [!DNL Market
 title: Modèle de rapport [!DNL Marketo Measure] - Power BI
 exl-id: c296b8f9-4033-4723-9a71-63a458640d27
 feature: Reporting
-TQID: https://experienceleague.adobe.com/xoNrfpeiDzwSGh1Ii3Anl1O78vaRrvmHlzYTrPG7k5I
+TQID: 'https://experienceleague.adobe.com/xoNrfpeiDzwSGh1Ii3Anl1O78vaRrvmHlzYTrPG7k5I'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 2565
+source-wordcount: '2565'
 ht-degree: 97%
-
 ---
-
 # Modèle de rapport [!DNL Marketo Measure] - Power BI {#marketo-measure-report-template-power-bi}
 
 ## Prise en main {#getting-started}
@@ -39,7 +42,7 @@ Afin d’améliorer les performances des rapports et de tirer parti des fonction
 
 ### Paramètres de requête {#query-parameters}
 
-Pour limiter les données importées dans le modèle, chaque tableau est configuré en utilisant une requête native comme source. Les requêtes natives doivent être approuvées pour être exécutées. Vous devrez cliquer sur Exécuter pour chaque requête. Cette étape n’est nécessaire que lors de la première exécution des requêtes ou si les paramètres changent.
+Pour limiter les données importées dans le modèle, chaque table est configurée en utilisant une requête native comme source. Les requêtes natives doivent être approuvées pour être exécutées. Vous devrez cliquer sur Exécuter pour chaque requête. Cette étape n’est nécessaire que lors de la première exécution des requêtes ou si les paramètres changent.
 
 ![](assets/marketo-measure-report-template-power-bi-2.png)
 
@@ -47,11 +50,11 @@ Toutes les requêtes filtrent les lignes supprimées et les tableaux de [!UICONT
 
 >[!NOTE]
 >
->Les filtres de date étant appliqués à la date de modification d’une ligne, procédez avec prudence lorsque vous créez des rapports sur des dates qui se situent en dehors de la période limitée. Par exemple, la période modifiée est limitée aux deux dernières années. Cela peut inclure un événement avec une date d’événement d’il y a trois ans, mais qui a été modifié récemment. Toutefois, les rapports sur les événements d’il y a trois ans renverront des résultats incomplets, car toutes les lignes n’auront pas été modifiées au cours de la période de deux ans.
+>Les filtres de date étant appliqués à la date de modification d’une ligne, procédez avec prudence lorsque vous créez des rapports sur des dates qui se situent en dehors de la période limitée. Par exemple, la période de modification est limitée aux deux dernières années. Cela peut inclure un événement avec une date d’événement d’il y a trois ans, mais qui a été modifié récemment. Toutefois, les rapports sur les événements d’il y a trois ans renverront des résultats incomplets, car toutes les lignes n’auront pas été modifiées au cours de la période de deux ans.
 
 ![](assets/marketo-measure-report-template-power-bi-3.png)
 
-Les tableaux suivants sont traités comme des tableaux de faits; les limites de date à la date de modification ont été ajoutées à ces requêtes.
+Les tables suivantes sont traitées comme des tables de faits ; les limites de date sur la date de modification ont été ajoutées à ces requêtes.
 
 * Activité
 * Point de contact
@@ -66,7 +69,7 @@ Les tableaux suivants sont traités comme des tableaux de faits; les limites de 
 * Transitions de l’étape de prospect/contact
 * Transition de l’étape d’opportunité
 
-Les tableaux suivants sont traités comme des tableaux de dimension ; aucune limite de date n’est définie pour ces requêtes.
+Les tables suivantes sont traitées comme des tables de dimensions ; aucune limite de date n’est définie pour ces requêtes
 
 * Compte
 * Campagne
@@ -104,7 +107,7 @@ Les tableaux et les colonnes ont été renommés afin de les rendre plus convivi
 
 ### Segments renommés {#renamed-segments}
 
-Les noms de segments pouvant être personnalisés, ils comportent des noms de colonne génériques dans l’entrepôt de données Snowflake. [!DNL BIZ_SEGMENT_NAMES] est un tableau de mappage qui répertorie le nom du segment générique et le nom de segment personnalisé auquel il est mappé, défini dans la section de segment de l’interface utilisateur [!DNL Marketo Measure]. Le tableau Nom de segment est utilisé pour renommer les colonnes de segments dans les tableaux Point de contact de prospect et Point de contact d’attribution. S’il n’existe aucun segment personnalisé, le nom du segment générique est conservé.
+Les noms de segments pouvant être personnalisés, ils comportent des noms de colonne génériques dans l’entrepôt de données Snowflake. [!DNL BIZ_SEGMENT_NAMES] est un tableau de mappage qui répertorie le nom du segment générique et le nom de segment personnalisé auquel il est mappé, défini dans la section de segment de l’interface utilisateur [!DNL Marketo Measure]. La table Segment Name est utilisée pour renommer les colonnes de segment dans les tables Lead Touchpoint et Attribution Touchpoint. S’il n’existe aucun segment personnalisé, le nom du segment générique est conservé.
 
 ![](assets/marketo-measure-report-template-power-bi-7.png)
 
@@ -120,11 +123,11 @@ Fonctions /paste et filtrage.
 
 ### Lignes ajoutées {#rows-added}
 
-Pour ajouter des fonctionnalités de conversion de devise aux calculs dans le modèle, nous avons ajouté une colonne de taux de conversion d’entreprise aux tableaux Opportunité et Coût. La valeur de cette colonne est ajoutée au niveau de la ligne et évaluée en se joignant au tableau Taux de conversion à la date et à l’ID de devise. Pour plus d’informations sur le fonctionnement de la conversion de devises dans ce modèle, consultez la section [Conversion de devises](#currency-conversion) dans cette documentation.
+Pour ajouter des fonctionnalités de conversion de devise aux calculs dans le modèle, nous avons ajouté une colonne de taux de conversion d’entreprise aux tableaux Opportunité et Coût. La valeur de cette colonne est ajoutée au niveau de la ligne et évaluée en effectuant une jointure avec la table Conversion Rate sur la date et l’ID de devise. Pour plus d’informations sur le fonctionnement de la conversion de devises dans ce modèle, consultez la section [Conversion de devises](#currency-conversion) dans cette documentation.
 
 ![](assets/marketo-measure-report-template-power-bi-10.png)
 
-Le tableau Taux de conversion stocké dans [!DNL Snowflake] contient une période pour chaque conversion. Power BI n’autorise pas les critères d’abonnement sur un calcul (c’est-à-dire dans une période). Pour les jointures sur la date, nous avons ajouté des étapes au tableau Taux de conversion afin de développer les lignes et ainsi qu’il y ait une ligne pour chaque date de la période de conversion.
+Le tableau Taux de conversion stocké dans [!DNL Snowflake] contient une période pour chaque conversion. Power BI n’autorise pas les critères de jointure sur un calcul (c’est‑à‑dire sur une plage de dates). Pour les jointures sur la date, nous avons ajouté des étapes au tableau Taux de conversion afin de développer les lignes et ainsi qu’il y ait une ligne pour chaque date de la période de conversion.
 
 ![](assets/marketo-measure-report-template-power-bi-11.png)
 
@@ -136,11 +139,11 @@ Cliquez sur l’image ci-dessous pour afficher la version agrandie.
 
 ### Relations et flux de données {#relationships-and-data-flow}
 
-Les données d’événement, utilisées pour créer des points de contact, sont stockées dans les tableaux [!UICONTROL Session], [!UICONTROL Tâche], [!UICONTROL Événement], [!UICONTROL Activité] et Membres de la campagne. Ces tableeaux d’événements se joignent au tableau Point de contact par l’intermédiaire de leurs identifiants respectifs. Si l’événement a entraîné un point de contact, les détails sont stockés dans le tableau Point de contact.
+Les données d’événement, utilisées pour créer des points de contact, sont stockées dans les tableaux [!UICONTROL Session], [!UICONTROL Tâche], [!UICONTROL Événement], [!UICONTROL Activité] et Membres de la campagne. Ces tables d’événements se joignent à la table Touchpoint via leurs ID respectifs. Si l’événement a donné lieu à un point de contact, les détails sont stockés dans la table Touchpoint.
 
-Les points de contact de prospect et d’attribution sont stockés dans leurs propres tableaux, avec un lien vers le tableau Point de contact. La plupart des données dimensionnelles des points de contact de prospect et d’attribution proviennent de leur lien vers le point de contact correspondant.
+Les points de contact de prospect et d’attribution sont stockés dans leurs propres tableaux, avec un lien vers le tableau Point de contact. La plupart des données dimensionnelles des points de contact de Lead et Attribution proviennent de leur lien avec le point de contact correspondant.
 
-Dans ce modèle, les dimensions Campagne et Canal sont liées au point de contact. Par conséquent, tous les rapports sur ces dimensions sont générés par ce lien, ce qui signifie que les rapports dimensionnels sur les données d’événement peuvent être incomplets. En effet, de nombreux événements ne comportent de liens vers ces dimensions qu’après leur traitement dans les points de contact. Remarque : certains événements, tels que les sessions, comportent des liens directs vers les dimensions Campagne et Canal. Si vous souhaitez créer des rapports au niveau de la session sur ces dimensions, il est recommandé de créer un modèle de données distinct.
+Dans ce modèle, les dimensions Campagne et Canal sont liées au point de contact. Par conséquent, tous les rapports sur ces dimensions passent par ce lien, ce qui signifie que les rapports dimensionnels sur les données d’évènement peuvent être incomplets. En effet, de nombreux événements ne comportent de liens vers ces dimensions qu’après leur traitement dans les points de contact. Remarque : certains évènements, tels que les sessions, comportent des liens directs vers les dimensions Campagne et Canal. Si vous souhaitez créer des rapports au niveau de la session sur ces dimensions, il est recommandé de créer un modèle de données distinct.
 
 Les données de coût sont stockées à différents niveaux d’agrégation dans le tableau Coût de l’entrepôt de données [!DNL Snowflake]. Pour tous les fournisseurs d’annonces publicitaires, les données au niveau de la campagne peuvent être cumulées au niveau du canal. Ce modèle extrait ainsi les données de coût en fonction de l’indicateur « campaign_is_aggregatable_cost ». Les coûts auto-déclarés peuvent être envoyés au niveau du canal uniquement et ne sont pas nécessaires pour disposer de données Campagne. Pour fournir un rapport de coûts le plus précis possible, les coûts auto-déclarés sont extraits en fonction de l’indicateur « channel_is_aggregatable_cost ». La requête qui importe les données de coût est écrite avec la logique suivante : si ad_provider = &quot;SelfReported&quot; alors channel_is_aggregatable_cost = true, sinon campaign_is_aggregatable_cost = true.
 
@@ -191,7 +194,7 @@ Pour afficher les définitions des colonnes provenant directement de [!DNL Snowf
 
 ### Revenu attribué {#attributed-revenue}
 
-Les points de contact de prospect et les points de contact d’attribution héritent des données dimensionnelles du point de contact d’origine. Le modèle de rapport extrait toutes les données dimensionnelles héritées de la relation au point de contact, tandis que dans le modèle Discover, les données dimensionnelles sont dénormalisées en fonction des enregistrements Point de contact de prospect et d’attribution. Les valeurs de revenu totales attribuées ou de revenu de pipeline attribuées doivent correspondre entre les deux rapports. Cependant, des incohérences peuvent se produire lorsque le revenu est divisé ou filtré par données dimensionnelles (canal, sous-canal ou campagne). Si les revenus dimensionnels ne correspondent pas entre le modèle et Discover, il est probable qu’il manque des enregistrements de point de contact dans le jeu de données du rapport de modèle. Cela se produit lorsqu’il existe un enregistrement Point de contact de prospect ou d’attribution, mais qu’il n’y a aucun enregistrement correspondant dans le tableau Points de contact du jeu de données importé dans le rapport. Comme ces tableaux sont filtrés par date de modification, il est possible que l’enregistrement Point de contact de prospect/d’attribution ait été modifié plus récemment que l’enregistrement Point de contact. Par conséquent, le point de contact de prospect/d’attribution a été importé dans le jeu de données alors que l’enregistrement Point de contact d’origine ne l’était pas. Pour résoudre ce problème, élargissez la période filtrée du tableau Point de contact ou envisagez de supprimer la contrainte de date. Remarque : Point de contact est un tableau volumineux. Il faut donc tenir compte des compromis entre un jeu de données plus complet et la quantité de données à importer.
+Les enregistrements Lead Touchpoint et Attribution Touchpoint héritent des données dimensionnelles de l’enregistrement Touchpoint d’origine. Le modèle de reporting extrait toutes les données dimensionnelles héritées de la relation avec la table Touchpoint, tandis que dans le modèle Discover, les données dimensionnelles sont dénormalisées au niveau des enregistrements Lead Touchpoint et Attribution Touchpoint. Les valeurs de revenu totales attribuées ou de revenu de pipeline attribuées doivent correspondre entre les deux rapports. Cependant, des incohérences peuvent se produire lorsque le revenu est divisé ou filtré par données dimensionnelles (canal, sous-canal ou campagne). Si les revenus dimensionnels ne correspondent pas entre le modèle et Discover, il est probable qu’il manque des enregistrements de point de contact dans le jeu de données du rapport de modèle. Cela se produit lorsqu’il existe un enregistrement Lead ou Attribution Touchpoint, mais qu’il n’y a aucun enregistrement correspondant dans la table Touchpoint du jeu de données importé dans le rapport. Comme ces tableaux sont filtrés par date de modification, il est possible que l’enregistrement Lead/Attribution Touchpoint ait été modifié plus récemment que l’enregistrement Touchpoint et que, par conséquent, Lead/Attribution Touchpoint ait été importé dans le jeu de données alors que l’enregistrement Touchpoint d’origine ne l’était pas. Pour résoudre ce problème, élargissez la période filtrée du tableau Point de contact ou envisagez de supprimer la contrainte de date. Remarque : Point de contact est un tableau volumineux. Il faut donc tenir compte des compromis entre un jeu de données plus complet et la quantité de données à importer.
 
 ### Coût {#cost}
 
@@ -207,7 +210,7 @@ Ces mesures, comme indiqué dans les modèles de création de rapports, ne sont 
 
 ### Trafic Web {#web-traffic}
 
-Le modèle de données de création de rapports normalise les données des dimensions des canaux, des sous-canaux et des campagnes au moyen de la relation entre la session et le point de contact. Il diffère du modèle de données Discover, qui dénormalise ces dimensions en session. En raison de cette distinction, les comptes globaux des visites, des visiteurs et des visiteuses doivent correspondre entre Discover et le modèle de création de rapports. Toutefois, une fois affichés ou filtrés par dimension, ces chiffres ne sont pas censés correspondre. En effet, les données dimensionnelles du modèle ne sont disponibles que pour les événements web qui ont généré un point de contact (c’est-à-dire des événements non anonymes). Pour plus d’informations, reportez-vous à la section [Modèle de données](#data-model) de cette documentation.
+Le modèle de données de création de rapports normalise les données des dimensions des canaux, des sous-canaux et des campagnes au moyen de la relation entre la session et le point de contact. Il diffère du modèle de données Discover, qui dénormalise ces dimensions en session. En raison de cette distinction, les totaux pour les visites et les visiteurs doivent concorder entre Discover et le modèle de reporting. Toutefois, une fois affichés ou filtrés par dimension, ces chiffres ne sont pas censés correspondre. En effet, les données dimensionnelles du modèle ne sont disponibles que pour les événements web qui ont généré un point de contact (c’est-à-dire des événements non anonymes). Pour plus d’informations, reportez-vous à la section [Modèle de données](#data-model) de cette documentation.
 
 Il peut y avoir de légères différences dans le nombre total de formulaires du site entre [!DNL Discover] et le modèle. En effet, le modèle de données du modèle de création de rapports obtient des données dimensionnelles pour le formulaire du site par le biais d’une relation avec la session, puis avec le point de contact. Dans certains cas, les données de formulaire de site n’ont pas de session en corrélation.
 
@@ -215,7 +218,7 @@ Il peut y avoir de légères différences dans le nombre total de formulaires du
 
 La création de rapports dimensionnels pour les comptes concernés peut différer légèrement entre Discover et le modèle. Cela est dû à la modélisation dimensionnelle issue de la relation entre le point de contact et le point de contact de prospect ou le point de contact d’attribution. Pour plus d’informations, reportez-vous aux détails décrits dans la section Revenu attribué.
 
-Tous les comptes de prospects dans Discover se voient attribuer le nombre de prospects et, dans le modèle de création de rapports, la mesure est le nombre de prospects concernés. Il n’y a donc pas de comparaison directe entre les deux rapports pour cette mesure.
+Tous les nombres de leads dans Discover sont des nombres de leads attribués. Dans le modèle de reporting, cette mesure correspond aux leads touchés. Il n’y a donc pas de comparaison directe entre les deux rapports pour cette mesure.
 
 ### Parcours d’engagement {#engagement-path}
 

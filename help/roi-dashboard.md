@@ -3,14 +3,18 @@ description: Explorez le tableau de bord du RSI pour comparer le chiffre d’aff
 title: Tableau de bord Retour sur investissement
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 2%
-
 ---
-
 # Tableau de bord Retour sur investissement {#roi-dashboard}
 
 Le tableau de bord du retour sur investissement offre aux marketeurs une vue granulaire des retours sur investissement sur l’ensemble des canaux, sous-canaux et campagnes. Il ventile méticuleusement les modèles de coûts et de revenus, tout en mettant en évidence des mesures telles que le coût par lead, les affaires et les opportunités, afin de garantir une compréhension globale de l’attribution marketing.
@@ -50,7 +54,7 @@ Graphique à barres illustrant les coûts et les recettes, conçu pour offrir un
 * Quelles étaient les valeurs de retour sur investissement pour chaque canal, sous-canal et campagne ?
 * Existe-t-il des canaux ou sous-canaux aberrants dont les coûts sont inhabituellement élevés ou faibles par rapport à leur chiffre d’affaires ?
 
-![Existe-t-il des canaux ou sous-canaux aberrants avec des valeurs anormalement élevées ou faibles &#x200B;](assets/roi-dashboard-8.png)
+![Existe-t-il des canaux ou sous-canaux aberrants avec des valeurs anormalement élevées ou faibles ](assets/roi-dashboard-8.png)
 
 ### Retour sur investissement simple ou réalisé au fil du temps {#realized-vs-simple-roi-over-time}
 
@@ -63,7 +67,7 @@ Graphique en courbes des séries temporelles présentant la comparaison entre le
 * Comment le retour sur investissement réalisé se compare-t-il au retour sur investissement simple sur des périodes spécifiques ?
 * Comment la tendance du retour sur investissement réalisé se rapporte-t-elle à des événements marketing significatifs au cours de la même période ?
 
-![En quoi la tendance du retour sur investissement réalisé se rapporte-t-elle à un marketing significatif &#x200B;](assets/roi-dashboard-7.png)
+![En quoi la tendance du retour sur investissement réalisé se rapporte-t-elle à un marketing significatif ](assets/roi-dashboard-7.png)
 
 ### Graphique Coût par période {#cost-over-time-graph}
 
@@ -77,7 +81,7 @@ Graphique à barres empilées affichant les coûts totaux, segmentés par canaux
 * Comment le coût combiné de tous les canaux se compare-t-il d&#39;un trimestre/mois à l&#39;autre ?
 * Comment les coûts d’un canal spécifique ont-ils évolué au fil du temps ?
 
-![Comment les coûts d’un canal spécifique ont-ils évolué au fil du temps ? &#x200B;](assets/roi-dashboard-6.png)
+![Comment les coûts d’un canal spécifique ont-ils évolué au fil du temps ? ](assets/roi-dashboard-6.png)
 
 ### Graphique Coût par canal {#cost-by-channel-graph}
 
@@ -130,11 +134,11 @@ Tableau présentant les coûts, les nouveaux prospects, les opportunités et les
 Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 * Date
-   * Basé sur :
-      * Date de création : nouveaux prospects et nouvelles opportunités
-      * Date du coût engagé : coût
-      * Date de clôture : revenus attribués (retour sur investissement simple), offres
-      * Date du point de contact : points de contact du chiffre d’affaires attribué réalisé (RSI réalisé)
+  * Basé sur :
+    * Date de création : nouveaux prospects et nouvelles opportunités
+    * Date du coût engagé : coût
+    * Date de clôture : revenus attribués (retour sur investissement simple), offres
+    * Date du point de contact : points de contact du chiffre d’affaires attribué réalisé (RSI réalisé)
 * Modèle d’attribution
 * Canal, Sous-Canal
 * Campagne

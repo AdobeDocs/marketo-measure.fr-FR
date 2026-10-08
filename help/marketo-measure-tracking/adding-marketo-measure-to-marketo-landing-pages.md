@@ -1,15 +1,19 @@
 ---
-description: Ajout  [!DNL Marketo Measure]  conseils sur les pages de destination de Marketo pour les utilisateurs de Marketo Measure
-title: Ajout de  [!DNL Marketo Measure]  à des pages de destination Marketo
+description: Ajout de [!DNL Marketo Measure] aux conseils sur les pages de destination de Marketo pour les utilisateurs de Marketo Measure
+title: Ajout de [!DNL Marketo Measure] aux pages de destination de Marketo
 exl-id: 3771d4d2-8723-452a-b23d-cea3b11ab9ee
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 3%
-
+source-wordcount: '241'
+ht-degree: 2%
 ---
-
 # Ajout de [!DNL Marketo Measure] aux pages de destination de Marketo {#adding-marketo-measure-to-marketo-landing-pages}
 
 Découvrez comment ajouter le suivi aux pages de destination [!DNL Marketo Engage], car elles nécessitent une manipulation supplémentaire. [!DNL Marketo Measure] JavaScript doit être en place sur la page de destination et sur le formulaire [!DNL Marketo Engage] lui-même. Pour ce faire, vous devez charger le [!DNL Marketo Measure] JavaScript dans [!DNL Marketo Engage], comme expliqué dans les instructions suivantes.
@@ -41,4 +45,4 @@ Exemple dans la capture d’écran ci-dessous
 
 * Il est probable que vous ayez plusieurs modèles de page de destination en cours d’utilisation. Veillez à ajouter le code à tous les modèles comportant des formulaires.
 
-* Parfois, lorsque vous modifiez le modèle pour les pages de destination, vous devez réapprouver les pages par lesquelles la page de destination est utilisée. Cet article explique [comment approuver en masse](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html?lang=fr){target="_blank"}.
+* Parfois, lorsque vous modifiez le modèle pour les pages de destination, vous devez réapprouver les pages par lesquelles la page de destination est utilisée. Cet article explique [comment approuver en masse](https://experienceleague.adobe.com/docs/marketo/using/product-docs/demand-generation/landing-pages/landing-page-actions/approve-multiple-landing-pages-at-once.html){target="_blank"}.

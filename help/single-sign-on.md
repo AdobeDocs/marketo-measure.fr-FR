@@ -2,20 +2,21 @@
 description: Conseils sur l’authentification unique pour les utilisateurs de Marketo Measure
 title: Authentification unique SSO
 exl-id: a328e9cb-8352-4693-8a44-533e08f1a29c
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 54%
-
 ---
-
 # Authentification unique SSO {#single-sign-on}
 
 SAML (Security Assertion Markup Language) pour SSO (Single Sign-On, authentification unique) permet aux utilisateurs et utilisatrices de s’authentifier par le biais du fournisseur d’identité de l’entreprise lorsqu’ils se connectent à l’application [!DNL Marketo Measure]. La SSO permet à un utilisateur ou une utilisatrice de s’authentifier une seule fois, sans avoir besoin d’authentifier des applications distinctes. SAML est une nécessité pour la clientèle d’entreprise, car tous les utilisateurs et utilisatrices ne disposent pas d’un compte [!DNL Salesforce] ou [!DNL Google] au sein de leur organisation. Pour s’adapter, [!DNL Marketo Measure] a développé une solution SAML qui peut prendre en charge les fournisseurs d’identité de l’entreprise.
 
 >[!CAUTION]
 >
->Cet article présente l’authentification unique (SSO) et la gestion de la relation client (CRM) avancée User Management. Si votre compte a été créé **après le 10/09/2020**, ne tenez pas compte de cet article, car la SSO et Identity Management seront configurés dans [Adobe Admin Console de votre intégration [!DNL Marketo Measure] &#x200B;](/help/implementation-guide.md).
+>Cet article présente l’authentification unique (SSO) et la gestion avancée des utilisateurs GRC. Si votre compte a été créé **après le 10/09/2020**, ne tenez pas compte de cet article, car la SSO et Identity Management seront configurés dans [Adobe Admin Console de votre intégration [!DNL Marketo Measure] ](/help/implementation-guide.md).
 
 >[!NOTE]
 >
@@ -62,7 +63,7 @@ Définissez l’expiration du jeton pour vos utilisateurs et utilisatrices en mi
 
     a.  [!DNL Marketo Measure]  autorise un nombre entier de 1 à 1 440 minutes. Lorsque le temps de session d’une personne a été dépassé, elle est déconnecté dès qu’elle navigue vers une nouvelle page.
 
-Configurez et mappez vos attributs d’utilisateur ou d’utilisatrice au prénom, au nom et à l’adresse e-mail correspondants.
+Configurez et associez vos paramètres d’attributs utilisateur aux champs Prénom, Nom et Adresse e-mail correspondants.
 
     a. En saisissant les attributs SAML, [!DNL Marketo Measure] sera en mesure de reconnaître vos utilisateurs par les informations transmises par.
     
@@ -86,7 +87,7 @@ Configurez et mappez vos paramètres de rôle d’utilisateur et d’utilisatric
     
     c. Si plusieurs rôles ou groupes doivent être mappés à un rôle, saisissez chaque valeur séparée par une virgule.
 
-![c. Si plusieurs rôles ou groupes doivent être mappés à un rôle &#x200B;](assets/discover-control-2.png)
+![c. Si plusieurs rôles ou groupes doivent être mappés à un rôle ](assets/discover-control-2.png)
 
 Tester la configuration de l’authentification unique
 
@@ -94,7 +95,7 @@ Tester la configuration de l’authentification unique
     
     b. Si une erreur d’échec s’affiche, suivez le message et réessayez.
 
-![b. Si une erreur d’échec s’affiche, suivez le message et tentez &#x200B;](assets/discover-control-3.png)
+![b. Si une erreur d’échec s’affiche, suivez le message et tentez ](assets/discover-control-3.png)
 
 Enregistrez vos paramètres et demandez à vos collègues d’utiliser l’[!UICONTROL Authentification unique] avec votre nouvelle URL de connexion personnalisée.
 
@@ -106,11 +107,11 @@ Essayez donc.
 
     a. Utilisez votre nouvelle URL de connexion personnalisée et tentez de vous reconnecter à l’application avec vos informations d’identification de fournisseur d [!DNL Marketo Measure] identité.
     
-    b. Le format ressemble à « https://apps.adobe.com/business/[accountName]&grave;
+    b. Le format ressemble à « https://apps.adobe.com/business/[accountName]`
     
     c. Félicitations! Vous avez configuré avec succès l’authentification unique dans l’application  [!DNL Marketo Measure]  pour votre compte.
 
-![c. Félicitations! Vous avez correctement configuré l&#39;authentification SSO dans &#x200B;](assets/discover-control-3.png)
+![c. Félicitations! Vous avez correctement configuré l&#39;authentification SSO dans ](assets/discover-control-3.png)
 
 >[!NOTE]
 >
@@ -118,7 +119,7 @@ Essayez donc.
 
 ## Utilisateurs et utilisatrices CRM (configuration avancée) {#crm-users-advanced-setup}
 
-Par défaut, tous les comptes peuvent accéder à l’application [!DNL Marketo Measure] en utilisant leurs informations d’identification CRM. Parfois, les personnes propriétaires de comptes doivent limiter l’accès à certains rôles et ne pas l’autoriser à tous les utilisateurs et utilisatrices disposant d’une licence CRM active. La configuration avancée vous permet de mapper vos rôles et groupes CRM aux autorisations des utilisateurs et des utilisatrices [!DNL Marketo Measure].
+Par défaut, tous les comptes peuvent accéder à l’application [!DNL Marketo Measure] en utilisant leurs informations d’identification CRM. Parfois, les propriétaires de comptes doivent limiter l’accès à certains rôles plutôt que de l’ouvrir à toutes les personnes disposant d’une licence GRC active. La configuration avancée vous permet de mapper vos rôles et groupes CRM aux autorisations des utilisateurs et des utilisatrices [!DNL Marketo Measure].
 
 Si aucun rôle ou groupe n’est mappé, le paramètre par défaut est que toutes les licences actives dans votre CRM ont un accès utilisateur ou utilisatrice standard.
 
@@ -145,7 +146,7 @@ Pour les rôles [!DNL Dynamics], utilisez le nom de chaque rôle de sécurité. 
 
 Une fois la SSO personnalisée configurée, la page [!UICONTROL Utilisateurs et utilisatrices] est mise à jour pour n’afficher que les utilisateurs et utilisatrices externes qui ont été ajoutés avec des identifiants Google. Étant donné que tous les utilisateurs et utilisatrices disposant d’un accès sont définis par la configuration SSO, d’autres utilisateurs et utilisatrices externes sont répertoriés ici.
 
-![Une fois la connexion unique personnalisée configurée, la page Utilisateurs est la suivante &#x200B;](assets/discover-control-3.png)
+![Une fois la connexion unique personnalisée configurée, la page Utilisateurs est la suivante ](assets/discover-control-3.png)
 
 Seuls des comptes [!DNL Google] valides peuvent être ajoutés et doivent avoir un rôle d’utilisateur ou d’utilisatrice défini.
 

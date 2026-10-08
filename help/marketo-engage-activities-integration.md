@@ -3,13 +3,17 @@ description: Intégration des activités [!DNL Marketo Engage] - [!DNL Marketo M
 title: Intégration des activités [!DNL Marketo Engage]
 exl-id: 463ad9b2-e1bd-49dd-8bf5-0da7b7132f05
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1775'
 ht-degree: 1%
-
 ---
-
 # Intégration des activités [!DNL Marketo Engage] {#marketo-engage-activities-integration}
 
 Dans le cadre de l’intégration globale des [!DNL Marketo Measure] et des [!DNL Marketo Engage], cet effort pour intégrer les activités Marketo joue un rôle considérable. Grâce aux activités Marketo, le système effectue le suivi d’événements tels que des `Click Email`, des `Change Score` ou des `Change Status in Progression`. Ces types d’activités peuvent être réduits et définis afin de sélectionner un sous-ensemble éligible pour les points de contact. Une fois les points de contact créés sur ces activités, ils sont suivis dans le parcours d’engagement et mesurés avec vos autres canaux marketing tels que le référencement payant ou le marketing partenaire.
@@ -39,7 +43,7 @@ Dans le cadre de l’intégration globale des [!DNL Marketo Measure] et des [!DN
 
 1. Lorsque toutes les activités dont vous avez besoin sont sélectionnées, elles sont renseignées dans votre [!UICONTROL Liste des activités sélectionnées] et sous [!UICONTROL Définir des règles].
 
-   ![1. Lorsque toutes les activités dont vous avez besoin sont sélectionnées, vous pouvez voir &#x200B;](assets/marketo-engage-activities-04.png)
+   ![1. Lorsque toutes les activités dont vous avez besoin sont sélectionnées, vous pouvez voir ](assets/marketo-engage-activities-04.png)
 
 1. Pour chaque type d’activité, vous devez définir une ou plusieurs règles qui déterminent les enregistrements éligibles aux points de contact. Dans cet exemple, nous ajoutons une règle pour le type d’activité « Modifier le score » afin que le système crée un point de contact lorsqu’une personne Marketo atteint un score de 90 ou plus.
 
@@ -67,7 +71,7 @@ Dans le cadre de l’intégration globale des [!DNL Marketo Measure] et des [!DN
 
 1. Accédez à l’onglet **[!UICONTROL Mappage des attributs]**.
 
-   ![1. Accédez à l’onglet Mappage d’attributs &#x200B;](assets/marketo-engage-activities-10.png).
+   ![1. Accédez à l’onglet Mappage d’attributs ](assets/marketo-engage-activities-10.png).
 
 1. Pour chaque type d’activité sélectionné, vous avez la possibilité de mapper des attributs Marketo supplémentaires aux champs de point de contact afin de pouvoir afficher et générer des rapports sur ces valeurs dans [!DNL Marketo Measure Discover] ou dans le CRM.
 

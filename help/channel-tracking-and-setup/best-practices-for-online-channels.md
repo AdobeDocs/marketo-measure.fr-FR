@@ -1,17 +1,21 @@
 ---
 description: Conseils sur les bonnes pratiques pour les canaux en ligne destinés aux utilisateurs de Marketo Measure
-title: Bonnes pratiques pour les canaux en ligne
+title: Bonnes pratiques relatives aux canaux en ligne
 exl-id: 766cb01c-98b3-492d-bb35-e0a78b76333a
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 92%
-
+source-wordcount: '617'
+ht-degree: 96%
 ---
 
-
-# Bonnes pratiques pour les canaux en ligne {#best-practices-for-online-channels}
+# Bonnes pratiques relatives aux canaux en ligne {#best-practices-for-online-channels}
 
 ## Vue d’ensemble {#overview}
 
@@ -30,20 +34,20 @@ Prenez le temps de réfléchir à l’organisation de vos campagnes marketing et
 Points à retenir :
 
 * Tous les canaux et sous-canaux numériques doivent être représentés par au moins une règle
-   * Si le canal ne conduit pas les personnes vers votre site, il ne s’agit pas d’un canal en ligne
+  * Si le canal ne conduit pas les personnes vers votre site, il ne s’agit pas d’un canal en ligne
 * Vous pouvez avoir plusieurs règles pour un canal/sous-canal
-   * Avoir plusieurs règles peut être considéré comme un « filet plus large » pour s’assurer que chaque point de contact est correctement mappé. Il arrive souvent d’ajouter de manière incorrecte ou d’oublier d’ajouter des paramètres. Disposer de plusieurs règles pour capturer un canal/sous-canal est donc une bonne idée pour garantir l’exactitude du mappage.
+  * Avoir plusieurs règles peut être considéré comme un « filet plus large » pour s’assurer que chaque point de contact est correctement mappé. Il arrive souvent d’ajouter de manière incorrecte ou d’oublier d’ajouter des paramètres. Disposer de plusieurs règles pour capturer un canal/sous-canal est donc une bonne idée pour garantir l’exactitude du mappage.
 * La logique [!DNL Marketo Measure] donne la priorité au mappage des points de contact dans l’ordre décroissant, en commençant par la ligne supérieure de la feuille de calcul et en allant vers le bas
-   * [!DNL Marketo Measure] lit chaque règle (ligne), en recherchant les valeurs « true » et « first fit ». Le point de contact est ensuite mappé à ce canal/sous-canal
-   * Ne triez pas votre feuille par ordre alphabétique, car cela interfère avec les règles de logique.
+  * [!DNL Marketo Measure] lit chaque règle (ligne), en recherchant les valeurs « true » et « first fit ». Le point de contact est ensuite mappé à ce canal/sous-canal
+  * Ne triez pas votre feuille par ordre alphabétique, car cela interfère avec les règles de logique.
 * Conservez les règles entre crochets, ne les modifiez pas et n’ajoutez rien aux règles entre crochets (exemple : [Référencement payant AdWords] ou [Référencement payant Facebook]).
-   * Il s’agit de règles [!DNL Marketo Measure] prêtes à l’emploi ayant une logique intégrée, qui sont liées aux intégrations [!DNL Marketo Measure]. Accordez une priorité maximum à ces règles pour cette section de canal/sous-canal afin de garantir que les intégrations [!DNL Marketo Measure] puissent fonctionner normalement.
+  * Il s’agit de règles [!DNL Marketo Measure] prêtes à l’emploi ayant une logique intégrée, qui sont liées aux intégrations [!DNL Marketo Measure]. Accordez une priorité maximum à ces règles pour cette section de canal/sous-canal afin de garantir que les intégrations [!DNL Marketo Measure] puissent fonctionner normalement.
 * Une fois le fichier chargé, vous ne pouvez plus modifier les règles pendant sept jours
-   * [!DNL Marketo Measure] utilise ce délai pour traiter et mettre à jour les points de contact. Veillez donc à vérifier deux fois vos règles avant de les charger.
+  * [!DNL Marketo Measure] utilise ce délai pour traiter et mettre à jour les points de contact. Veillez donc à vérifier deux fois vos règles avant de les charger.
 
 ## Bonne pratique de maintenance {#best-practice-for-maintenace}
 
-Une fois que les règles de canal en ligne sont enregistrées et traitées, elles effectuent le classement en continu de vos points de contact numériques. Toutefois, certains scénarios ou modifications nécessitent de passer en revue la configuration de votre canal en ligne. [!DNL Marketo Measure] recommande de passer en revue vos règles de canal en ligne une fois tous les six mois. Cela vous permet de vous assurer que les données [!DNL Marketo Measure] sont alignées avec vos définitions internes des canaux/sous-canaux en ligne et avec votre utilisation des UTM.
+Une fois que les règles de canal en ligne sont enregistrées et traitées, elles effectuent le classement en continu de vos points de contact numériques. Toutefois, certains changements ou scénario peuvent vous inciter à revoir la configuration de votre canal en ligne. [!DNL Marketo Measure] recommande de consulter vos règles de canal en ligne tous les six mois. Cela vous permet de vous assurer que les données [!DNL Marketo Measure] sont alignées avec vos définitions internes des canaux/sous-canaux en ligne et avec votre utilisation des UTM.
 
 Voici d’autres éléments qui pourraient inciter votre équipe à effectuer la maintenance du canal en ligne...
 
@@ -55,7 +59,7 @@ Voici d’autres éléments qui pourraient inciter votre équipe à effectuer la
 Si votre équipe a récemment été confrontée à l’une des situations ci-dessus, [!DNL Marketo Measure] vous recommande d’examiner les règles de vos canaux en ligne et d’apporter les modifications appropriées.
 
 >[!MORELIKETHIS]
-> [Configuration des canaux en ligne](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
+> [Configuration du canal en ligne](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
 > [Paramètres UTM](/help/channel-tracking-and-setup/utm-parameters.md)
 > [Canal et sous-canal marketing](/help/channel-tracking-and-setup/marketing-channels-and-subchannels.md)
 > [Bonnes pratiques UTM](/help/channel-tracking-and-setup/best-practices-for-setting-up-utm-parameters.md)

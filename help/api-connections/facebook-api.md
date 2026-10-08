@@ -3,14 +3,22 @@ description: API [!DNL Facebook] - [!DNL Marketo Measure]
 title: '[!DNL Facebook] API'
 exl-id: d6d18545-baae-4103-b0a6-c3de681ec833
 feature: APIs, Integration, UTM Parameters
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: 3968a9c0-3e19-5a76-a1f0-f5a9a986c53a
+    internal-label: UTM Parameters
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 3%
-
+source-wordcount: '529'
+ht-degree: 4%
 ---
-
 # [!DNL Facebook] API {#facebook-api}
 
 ## Introduction {#introduction}
@@ -24,7 +32,7 @@ Tout comme nos intégrations AdWords et [!DNL Bing Ads], notre intégration [!DN
 
 En ce qui concerne la configuration, l’application [!DNL Marketo Measure] comporte sept étapes.
 
-1. Accédez à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
+1. Accédez à [](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous.
 1. Sous Mon compte, sélectionnez **[!UICONTROL Paramètres]**.
 1. Sous Intégrations, sélectionnez **[!UICONTROL Connexions]**.
 1. Sélectionnez **[!UICONTROL Configurer une nouvelle connexion publicitaire]** et un pop-up s’affiche. Sélectionnez **[!UICONTROL Facebook]** et connectez-vous à l’aide de vos identifiants Facebook.
@@ -34,7 +42,7 @@ En ce qui concerne la configuration, l’application [!DNL Marketo Measure] comp
    >La personne qui connecte le compte [!DNL Facebook Ads] doit être un administrateur au sein du compte [!DNL Facebook Ads].
 
 1. Une fois [!DNL Marketo Measure] connecté à votre compte Facebook, cliquez sur l’icône en forme de crayon en regard du compte.
-1. Dans cette vue, déplacez le bouton bascule « Balisage automatique ? » sur « Oui ». Cochez ensuite la case située dans la section [!UICONTROL &#x200B; En savoir plus &#x200B;] pour accepter les conditions générales. Assurez-vous que le bouton (bascule) [!UICONTROL Balisage automatique] est toujours défini sur « [!UICONTROL Oui] ».
+1. Dans cette vue, déplacez le bouton bascule « Balisage automatique ? » sur « Oui ». Cochez ensuite la case située dans la section [!UICONTROL  En savoir plus ] pour accepter les conditions générales. Assurez-vous que le bouton (bascule) [!UICONTROL Balisage automatique] est toujours défini sur « [!UICONTROL Oui] ».
 
 ## Connexion au compte {#connecting-the-account}
 
@@ -52,7 +60,7 @@ Une fois que vous avez activé l’intégration, [!DNL Marketo Measure] commence
 
 Pour que l’intégration fonctionne correctement, vous devez activer le balisage automatique sur votre compte [!DNL Facebook]. Cela permettra à notre système d’ajouter un paramètre _bf à tous les liens publicitaires. Ce processus ajoute le nouveau paramètre en plus de tous les autres paramètres de suivi que vous avez déjà ajoutés à vos publicités [!DNL Facebook].
 
-![Pour que l’intégration fonctionne correctement, vous devez activer le balisage automatique sur votre &#x200B;](../assets/marketo-engage-activities-05.png)
+![Pour que l’intégration fonctionne correctement, vous devez activer le balisage automatique sur votre ](../assets/marketo-engage-activities-05.png)
 
 ## Appariement des champs {#field-mapping}
 
@@ -87,7 +95,7 @@ Pour que l’intégration fonctionne correctement, vous devez activer le balisag
    <td><p>« [!DNL Facebook] » ou [utm_source] si fourni</p></td>
   </tr>
   <tr>
-   <td><p>Moyen</p></td>
+   <td><p>Support</p></td>
    <td><p>« Social » ou [utm_medium] si fourni</p></td>
   </tr>
   <tr>

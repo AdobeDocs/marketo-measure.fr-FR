@@ -1,19 +1,21 @@
 ---
 unique-page-id: 18874797
-description: Ajouter un script  [!DNL Marketo Measure]  via  [!DNL Google Tag Manager]  -  [!DNL Marketo Measure]
-title: Ajout d’un script  [!DNL Marketo Measure]  via  [!DNL Google Tag Manager]
+description: Ajout d’un script [!DNL Marketo Measure] via [!DNL Google Tag Manager] - [!DNL Marketo Measure]
+title: Ajout d’un script [!DNL Marketo Measure] via [!DNL Google Tag Manager]
 exl-id: 539efb10-35cb-4146-8eea-728c3948a11e
 feature: Tracking
-TQID: https://experienceleague.adobe.com/g3PTxiShipF9q79oIAWKZIUU-YFMarLEDeKknaPiHck
+TQID: 'https://experienceleague.adobe.com/g3PTxiShipF9q79oIAWKZIUU-YFMarLEDeKknaPiHck'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 198
-ht-degree: 95%
-
+source-wordcount: '199'
+ht-degree: 93%
 ---
-
 # Ajout d’un script [!DNL Marketo Measure] via [!DNL Google Tag Manager] {#adding-marketo-measure-script-via-google-tag-manager}
 
 Lors de l’installation du code JavaScript [!DNL Marketo Measure], nous vous recommandons vivement de [coder en dur le script](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md){target="_blank"} directement sur votre site. Cependant, si cela n’est pas possible, vous pouvez également utiliser [!DNL Google Tag Manager] (GTM) pour charger le JS [!DNL Marketo Measure]. Veuillez noter que le JS [!DNL Marketo Measure] chargé via GTM est sujet à de la latence. La latence entraîne un délai de chargement du script, ce qui peut entraîner l’échec d’environ 3 à 5 % de tous les envois de formulaire.

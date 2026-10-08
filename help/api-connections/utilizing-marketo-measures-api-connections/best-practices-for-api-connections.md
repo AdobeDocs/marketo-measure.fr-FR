@@ -1,29 +1,33 @@
 ---
-description: Bonnes pratiques relatives aux connexions API -  [!DNL Marketo Measure]
+description: Bonnes pratiques relatives aux connexions API - [!DNL Marketo Measure]
 title: Bonnes pratiques relatives aux connexions API
 exl-id: b8550e4e-a567-427f-b5d3-50232553a066
 feature: APIs, Integration
-TQID: https://experienceleague.adobe.com/3f-fqPIPf40brt2-xfiMLLO6McY6hlT7rKkBvXb2laA
+TQID: 'https://experienceleague.adobe.com/3f-fqPIPf40brt2-xfiMLLO6McY6hlT7rKkBvXb2laA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 subfeature_v2:
   - id: fabdc8ff-b627-44fc-b09d-973166bc2b14
+    internal-label: Facebook API
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 752
+source-wordcount: '752'
 ht-degree: 97%
-
 ---
-
 # Bonnes pratiques relatives aux connexions API {#best-practices-for-api-connections}
 
 ## Vue d’ensemble {#overview}
 
-[!DNL Marketo Measure] fournit des connexions API avec [!DNL Google AdWords], [!DNL Microsoft Bing Ads], [!DNL Facebook Ads] et LinkedIn. Ces connexions API activent [!DNL Marketo Measure] pour extraire diverses données depuis vos plateformes publicitaires qui peuvent ensuite faire l’object d’un rapport dans vos données Buyer Touchpoint. L’une des principales fonctionnalités de ces connexions d’API est leur capacité à extraire automatiquement des données relatives aux dépenses, ce qui permet, pour vous et votre équipe, d’économiser le temps et les efforts nécessaires au chargement manuel des données pour la création de rapports concernant le retour sur investissement. La mise en place de ces connexions API n’est pas obligatoire dans [!DNL Marketo Measure] pour effectuer un suivi de ces canaux, mais celles-ci fournissent de précieuses informations détaillées qui améliorent vos rapports.
+[!DNL Marketo Measure] fournit des connexions API avec [!DNL Google AdWords], [!DNL Microsoft Bing Ads], [!DNL Facebook Ads] et LinkedIn. Ces connexions API activent [!DNL Marketo Measure] pour extraire diverses données depuis vos plateformes publicitaires qui peuvent ensuite faire l’object d’un rapport dans vos données Buyer Touchpoint. L’un des principaux avantages de ces connexions API est leur capacité à extraire automatiquement les données de dépenses, ce qui vous évite, à vous et à votre équipe, de charger manuellement les données pour les rapports sur le ROI. La mise en place de ces connexions API n’est pas obligatoire dans [!DNL Marketo Measure] pour effectuer un suivi de ces canaux, mais celles-ci fournissent de précieuses informations détaillées qui améliorent vos rapports.
 
 Les connexions API [!DNL Marketo Measure] constituent un aspect inestimable de votre compte. Nos recommandations de bonnes pratiques vous aideront, ainsi que votre équipe, à utiliser pleinement nos connexions.
 
@@ -32,15 +36,15 @@ Les connexions API [!DNL Marketo Measure] constituent un aspect inestimable de v
 Quelle que soit la plateforme publicitaire que vous connectez, il est important de garder à l’esprit les instructions ci-après.
 
 * Utilisez un compte d’administration pour vous connecter.
-* Vous pouvez connecter plusieurs comptes publicitaires dans une seule plateforme.
+* Vous pouvez connecter plusieurs comptes publicitaires pour une même plateforme.
 * Connectez tous les comptes publicitaires possibles pour automatiser autant que possible les rapports de dépenses.
-* Si possible, implémentez toujours un modèle de suivi. Le modèle garantit que même si le compte publicitaire est déconnecté, [!DNL Marketo Measure] peut toujours extraire des informations publicitaires détaillées.
+* Si possible, mettez toujours en œuvre un modèle de suivi. Le modèle garantit que même si le compte publicitaire est déconnecté, [!DNL Marketo Measure] peut toujours extraire des informations publicitaires détaillées.
 
 Pour optimiser chaque API [!DNL Marketo Measure], respectez les bonnes pratiques suivantes.
 
 **[!DNL Facebook]** : connexion avec le balisage automatique
 
-Avant d’activer le balisage automatique, exportez votre historique d’annonces publicitaires vers un fichier csv. L’activation du balisage automatique réinitialise l’historique de conversion et la preuve sociale de toutes les publicités balisées par [!DNL Marketo Measure].
+Avant d’activer le balisage automatique, exportez votre historique d’annonces publicitaires au format CSV. L’activation du balisage automatique réinitialise l’historique de conversion et la preuve sociale de toutes les publicités balisées par [!DNL Marketo Measure].
 
 En suivant notre recommandation de bonne pratique, l’API [!DNL Facebook] de [!DNL Marketo Measure] est capable de :
 
@@ -66,7 +70,7 @@ Il n’y a aucun risque de perte de l’historique des publicités lors de la co
 
 En suivant notre recommandation de bonne pratique, l’API Bing [!DNL Marketo Measure] est capable de :
 * baliser automatiquement toutes les publicités Bing avec les paramètres suivants de `_bt={adid}, utm_medium=cpc, utm_source=bing, utm_term={keyword}` ;
-* télécharger les informations de coût des publicités de toutes les publicités Bing actives.
+* Téléchargez les informations sur les coûts publicitaires de toutes les publicités Bing actives.
 
 **LinkedIn** : connexion avec le balisage automatique
 
@@ -85,7 +89,7 @@ En suivant notre recommandation de bonne pratique, l’API LinkedIn [!DNL Market
 
 Bien que le respect de nos bonnes pratiques vous protège d’une perte de données en cas de déconnexion, nous vous recommandons tout de même de vérifier régulièrement votre connexion, chaque mois si cela est possible. Il s’agit d’une simple vérification visuelle de la section [!UICONTROL Connexions] dans votre application [!DNL Marketo Measure] pour vous assurer qu’il n’y a pas d’icônes de clés rouges qui indiquent un compte déconnecté.
 
-Lorsqu’un compte connecté à une API est déconnecté, [!DNL Marketo Measure] ne peut pas extraire de données de dépenses ou baliser de nouvelles publicités. C’est pourquoi nous vous recommandons de toujours implémenter, si possible, un modèle de suivi. Le modèle garantit que même si le compte publicitaire est déconnecté, [!DNL Marketo Measure] peut toujours baliser les publicités et extraire les informations de publicité détaillées. Une fois la reconnexion effectuée, les données de dépenses sont automatiquement récupérées et les perturbations dans vos rapports de Canal payant sont minimes.
+Lorsqu’un compte connecté à une API est déconnecté, [!DNL Marketo Measure] ne peut pas extraire de données de dépenses ou baliser de nouvelles publicités. C’est pourquoi nous vous recommandons toujours, dans la mesure du possible, de mettre en œuvre un modèle de suivi. Le modèle garantit que même si le compte publicitaire est déconnecté, [!DNL Marketo Measure] peut toujours baliser les publicités et extraire les informations de publicité détaillées. Une fois la reconnexion effectuée, les données de dépenses sont automatiquement récupérées et les perturbations dans vos rapports de Canal payant sont minimes.
 
 Les raisons d’une déconnexion et d’une réautorisation incluent les éléments suivants :
 

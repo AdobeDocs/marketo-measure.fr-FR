@@ -3,13 +3,17 @@ description: Conseils sur les FAQ (multidevises) pour les utilisateurs de Market
 title: Questions fréquentes sur la gestion de plusieurs devises
 exl-id: 1d0936fb-4e66-4877-98d2-32c678a7ef3e
 feature: Multi-Currency
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 4df48d8c-59df-55ca-8ab7-225a5c35169b
+    internal-label: Multi-Currency
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 0%
-
 ---
-
 # Questions fréquentes sur la gestion de plusieurs devises {#faq-multi-currency}
 
 **Comment puis-je connaître le bit de fonctionnalité à activer ?**
@@ -52,7 +56,7 @@ Pour les clients [!DNL Dynamics] et [!DNL Salesforce] qui utilisent uniquement l
 
 Il y a malheureusement quelques nuances dans la façon dont cela fonctionne pour les utilisateurs de [!DNL Salesforce] Advanced Currency Management, en raison d&#39;une limitation de longue date de [!DNL Salesforce]. La réponse courte à la question « Que faisons-nous dans ce cas ? » est que nous convertissons les montants des revenus à l’aide des taux forfaitaires définis dans l’onglet « Gérer les devises » de base (c.-à-d. non avancé). En d&#39;autres termes, nous ignorons complètement les taux de change datés malgré le fait que le client a défini des taux de change datés.
 
-Pour le lecteur intéressé, voici pourquoi il fonctionne de cette manière. Nos points de contact utilisent des champs de formule pour calculer le chiffre d’affaires (dérivé du montant de l’opportunité associé). [!DNL Salesforce] prend en charge de manière native la conversion de devise pour ces calculs de formule, mais uniquement pour leur version de base de la prise en charge de devise. Il nous est impossible de définir un champ de formule qui fait référence aux taux de change datés. [!DNL Salesforce] ne prend tout simplement pas en charge cette fonctionnalité, de sorte que nous n’avons aucun moyen de faire référence aux taux datés dans nos calculs de revenus malgré le fait que ces taux datés existent en [!DNL Salesforce] (cela semble fou, mais c’est comme ça que ça fonctionne.)
+Pour le lecteur intéressé, voici pourquoi il fonctionne de cette manière. Nos points de contact utilisent des champs de formule pour calculer le chiffre d’affaires (dérivé du montant de l’opportunité associé). [!DNL Salesforce] prend en charge de manière native la conversion de devise pour ces calculs de formule, mais uniquement pour leur version de base de la prise en charge de devise. Il nous est impossible de définir un champ de formule qui fait référence aux taux de change datés. [!DNL Salesforce] ne prend tout simplement pas en charge cette fonctionnalité, de sorte que nous n&#39;avons aucun moyen de faire référence aux taux datés dans nos calculs de revenus malgré le fait que ces taux datés existent en [!DNL Salesforce] (cela semble fou, mais c&#39;est comme ça que ça fonctionne.)
 
 **Si mon client a utilisé un workflow pour remplir un champ converti, comment doit-il utiliser ce champ à l’avenir ?**
 

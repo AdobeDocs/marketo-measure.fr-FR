@@ -1,16 +1,22 @@
 ---
 description: Conseils sur les étapes de boomerang et les points de contact pour les utilisateurs de Marketo Measure
-title: Étapes et points de contact de boomerang
+title: Étapes et points de contact Boomerang
 exl-id: e58169a3-3637-4878-8a0e-1920d873ff52
 feature: Boomerang, Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 1%
-
 ---
-
-# Étapes et points de contact de boomerang {#boomerang-stages-and-touchpoints}
+# Étapes et points de contact Boomerang {#boomerang-stages-and-touchpoints}
 
 >[!AVAILABILITY]
 >

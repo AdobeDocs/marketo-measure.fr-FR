@@ -3,13 +3,20 @@ description: Conseils sur les campagnes Dynamics et les listes marketing pour le
 title: Campagnes Dynamics et listes marketing
 exl-id: 7b3d4032-5edf-489d-b86b-1e2a5755b258
 feature: Microsoft Dynamics
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: b04b7ec7-75ad-438f-8f44-189de44e10da
+    internal-label: Microsoft Dynamics integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 3%
-
 ---
-
 # Campagnes Dynamics et listes marketing {#dynamics-campaigns-and-marketing-lists}
 
 >[!NOTE]
@@ -28,9 +35,9 @@ Lorsque des leads ou des contacts sont directement ajoutés à une campagne, ils
 
 ## Activer les points de contact {#enable-touchpoints}
 
-Pour inclure ces enregistrements dans le parcours de point de contact, il existe quelques options pour les types de réponses de campagne à synchroniser. Dans l’enregistrement Campaign, il doit y avoir un champ personnalisé de la solution installée intitulé « [!UICONTROL &#x200B; Activer les points de contact de l’acheteur &#x200B;] ». Si vous ne le voyez pas, le champ doit être ajouté via l’éditeur de formulaire.
+Pour inclure ces enregistrements dans le parcours de point de contact, il existe quelques options pour les types de réponses de campagne à synchroniser. Dans l’enregistrement Campaign, il doit y avoir un champ personnalisé de la solution installée intitulé « [!UICONTROL  Activer les points de contact de l’acheteur ] ». Si vous ne le voyez pas, le champ doit être ajouté via l’éditeur de formulaire.
 
-![Pour inclure ces enregistrements dans le parcours de point de contact, quelques-uns &#x200B;](assets/dynamics-lists-10.png)
+![Pour inclure ces enregistrements dans le parcours de point de contact, quelques-uns ](assets/dynamics-lists-10.png)
 
 Vous pouvez choisir d&#39;inclure tous les enregistrements qui ont une réponse de campagne dans la campagne, ou uniquement ceux qui ont une réponse « Intéressants », ou par défaut, vous ne pouvez pas inclure les réponses de la campagne du tout. Vous pouvez soit laisser le champ vide, soit choisir explicitement de l’exclure.
 
@@ -52,7 +59,7 @@ La date de point de contact d’une campagne correspond généralement à la dat
 
 Un exemple d’utilisation courant de ce champ concerne les événements pour lesquels une liste d’analyses de badges d’un événement est ajoutée au CRM jours après l’événement. L’utilisateur peut donc redéfinir la Date Buyer Touchpoint sur la date à laquelle l’événement s’est produit.
 
-![Un exemple courant d’utilisation de ce champ concerne les événements pour lesquels une liste &#x200B;](assets/dynamics-lists-4.png)
+![Un exemple courant d’utilisation de ce champ concerne les événements pour lesquels une liste ](assets/dynamics-lists-4.png)
 
 ## Listes marketing {#marketing-lists}
 
@@ -84,9 +91,9 @@ Les valeurs du menu Type de campagne sont extraites dans l’application [!DNL M
 
 Pour chaque type de campagne, il peut être mappé à une combinaison de canal et de sous-canal afin que chaque point de contact dérivé de la campagne ait le canal et le sous-canal mappés appropriés.
 
-![Pour chaque type de campagne, il peut être mappé à un canal et &#x200B;](assets/dynamics-lists-7.png)
+![Pour chaque type de campagne, il peut être mappé à un canal et ](assets/dynamics-lists-7.png)
 
-![Pour chaque type de campagne, il peut être mappé à un canal et &#x200B;](assets/dynamics-lists-8.png)
+![Pour chaque type de campagne, il peut être mappé à un canal et ](assets/dynamics-lists-8.png)
 
 ## Date de synchronisation de la campagne {#campaign-sync-date}
 

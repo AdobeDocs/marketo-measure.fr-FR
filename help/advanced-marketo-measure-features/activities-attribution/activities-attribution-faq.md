@@ -4,16 +4,18 @@ description: FAQ sur l’attribution des activités - [!DNL Marketo Measure]
 title: Questions fréquentes sur l’attribution des activités
 exl-id: 6272024f-b6ae-4aa7-ba92-c9f183549614
 feature: Attribution
-TQID: https://experienceleague.adobe.com/o26ZNdZWcbIR7ghclTqOZLtKUx10t4wVHbwSahFluIo
+TQID: 'https://experienceleague.adobe.com/o26ZNdZWcbIR7ghclTqOZLtKUx10t4wVHbwSahFluIo'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '773'
 ht-degree: 2%
-
 ---
-
 # Questions fréquentes sur l’attribution des activités {#activities-attribution-faq}
 
 [!DNL Marketo Measure] Activités importe tous vos enregistrements d’activités et génère des points de contact pour ces activités, ce qui permet à ces activités de recevoir un crédit d’attribution. Le cas d’utilisation le plus courant consiste à effectuer le suivi des activités de l’équipe des ventes, car elles créent généralement un enregistrement des appels téléphoniques ou des e-mails envoyés aux prospects. Les autres éléments uniques qui peuvent être suivis sont les interactions de contenu telles que les téléchargements de ressources ou les vues vidéo.
@@ -32,7 +34,7 @@ L&#39;objet Activities agit comme parapluie, ou parent, sur les objets Task et E
 
 **Si j’ai un lead ou un contact avec la même tâche récurrente, verrai-je apparaître les points de contact de l’acheteur pour toutes ces tâches ?**
 
-Oui. Il existe une relation :1 entre vos activités synchronisées et les points de contact créés.
+Oui. Il existe une relation 1:1 entre vos activités synchronisées et les points de contact créés.
 
 **Comment savoir quels enregistrements entraînent la création de points de contact ?**
 

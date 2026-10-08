@@ -3,13 +3,17 @@ description: Conseils sur les bonnes pratiques pour les paramètres de point de 
 title: Bonnes pratiques relatives aux paramètres des points de contact
 exl-id: 01e314a6-e33d-45cd-aaa3-c212afec07d1
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 6%
-
 ---
-
 # Bonnes pratiques relatives aux paramètres des points de contact {#best-practices-for-touchpoint-settings}
 
 ## Vue d’ensemble {#overview}
@@ -22,14 +26,14 @@ La **suppression de point de contact** est similaire à la suppression de point 
 
 Dans votre application [!DNL Marketo Measure], la section [!UICONTROL Paramètres de point de contact] est divisée en quatre sections clés. Chaque section supprime un jeu de données différent. Utilisez la touche ci-dessous pour vous assurer que vos règles suppriment les points de contact souhaités.
 
-* Supprimer les Buyer Touchpoints du CRM
-   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **les données Buyer Touchpoint** (les points de contact associés à l’individu, et non l’opportunité) de votre **CRM**
-* Supprimer les Buyer Touchpoints du CRM
-   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **les données Buyer Touchpoint** (les points de contact associés à l’individu, et non l’opportunité) de votre **CRM** et **Discover**
+* Supprimer les points de contact Acheteur de la GRC
+  * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **les données** (les points de contact associés à l’individu, et non l’opportunité) de votre **CRM**
+* Exclure les points de contact Acheteur de la GRC
+  * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera **les données** (les points de contact associés à l’individu, et non l’opportunité) de votre **CRM** et **Discover**
 * Supprimer Buyer Attribution Touchpoint du CRM
-   * Utilisez cette section pour créer une règle qui supprimera les données **Buyer Attribution Touchpoint** (les points de contact associés à l’opportunité et au chiffre d’affaires) de votre **CRM**
+  * Utilisez cette section pour créer une règle qui supprimera les données **** (les points de contact associés à l’opportunité et au chiffre d’affaires) de votre **CRM**
 * Supprimer le Buyer Attribution Touchpoint du CRM
-   * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera les données **Buyer Attribution Touchpoint** (les points de contact associés à l’opportunité et au chiffre d’affaires) de vos **CRM** et **Discover**
+  * Utilisez cette section lorsque vous souhaitez créer une règle qui supprimera les données **** (les points de contact associés à l’opportunité et au chiffre d’affaires) de vos **CRM** et **Discover**
 
 ## Bonne pratique {#best-practice}
 
@@ -50,12 +54,12 @@ Les raisons pour lesquelles vérifier vos paramètres [!UICONTROL Point de conta
 * Changements au sein de votre équipe marketing
 * Mises à jour majeures de la structure de votre site web
 * Identification des données de point de contact devenues inutiles
-   * Chaque fois que vous rencontrez des données de point de contact qui, selon vous, ne devraient pas recevoir de crédit d’attribution, les règles de [!DNL touchpoint suppression] sont la fonctionnalité permettant de garantir que vos données sont aussi propres et précises que possible.
+  * Chaque fois que vous rencontrez des données de point de contact qui, selon vous, ne devraient pas recevoir de crédit d’attribution, les règles de [!DNL touchpoint suppression] sont la fonctionnalité permettant de garantir que vos données sont aussi propres et précises que possible.
 * Les modifications apportées aux champs utilisés pour définir vos règles de suppression
 
 >[!MORELIKETHIS]
 >
 >* [Présentation de la suppression des points de contact](/help/channel-tracking-and-setup/touchpoint-removal-and-touchpoint-suppression.md)
->* [Pourquoi les points de contact ne doivent jamais être supprimés &#x200B;](/help/channel-tracking-and-setup/why-you-should-never-delete-touchpoints.md)
+>* [Pourquoi les points de contact ne doivent jamais être supprimés ](/help/channel-tracking-and-setup/why-you-should-never-delete-touchpoints.md)
 >* [Points de contact de l’acheteur (BT) et points de contact d’attribution de l’acheteur (BAT)](/help/configuration-and-setup/difference-between-buyer-touchpoints-and-buyer-attribution-touchpoints.md)
 

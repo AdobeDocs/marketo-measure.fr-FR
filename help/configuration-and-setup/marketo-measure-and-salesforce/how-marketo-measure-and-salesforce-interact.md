@@ -1,21 +1,27 @@
 ---
 unique-page-id: 18874672
-description: Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce]  – Marketo Measure – Documentation du produit
-title: 'Explication des interactions entre  [!DNL Marketo Measure]  et  [!DNL Salesforce] '
+description: Comment interagir [!DNL Marketo Measure] et [!DNL Salesforce] - Marketo Measure - Documentation du produit
+title: Explication des interactions entre [!DNL Marketo Measure] et [!DNL Salesforce]
 exl-id: c2f9d7ce-c5b8-4664-8f92-cb54255190cd
 feature: Salesforce
-TQID: https://experienceleague.adobe.com/71lT9aeqiSrxM12rpi7rDPoVaq-vX5GDOEdiOl8Dnds
+TQID: 'https://experienceleague.adobe.com/71lT9aeqiSrxM12rpi7rDPoVaq-vX5GDOEdiOl8Dnds'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Taxonomy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1289
-ht-degree: 100%
-
+source-wordcount: '1291'
+ht-degree: 99%
 ---
-
 # Explication des interactions entre [!DNL Marketo Measure] et [!DNL Salesforce] {#how-marketo-measure-and-salesforce-interact}
 
 >[!NOTE]
@@ -32,13 +38,13 @@ Si vous n’avez pas installé le package [!DNL Marketo Measure] Salesforce, [!D
 
 ![](assets/1-3.png)
 
-Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d’API chaque fois qu’une tâche envoie des données à votre CRM. Pour la majeure partie de la clientèle, cela permet d’obtenir un équilibre optimal entre les crédits d’API consommés par [!DNL Marketo Measure] et les exigences en matière de ressources du processeur sur le CRM. Toutefois, pour la clientèle disposant de configurations CRM complexes, comme les workflows et les triggers, une taille de lot réduite peut se révéler utile pour améliorer les performances CRM. À cette fin, [!DNL Marketo Measure] permet à la clientèle de configurer la taille du lot d’export CRM. Ce paramètre est disponible à la page [!UICONTROL Paramètres] > [!UICONTROL CRM] > [!UICONTROL Général] de l’application web [!DNL Marketo Measure]. Il est ainsi possible de choisir entre des tailles de lot de 200 (par défaut), 100, 50 ou 25.
+Par défaut, [!DNL Marketo Measure] exporte 200 enregistrements par crédit d’API chaque fois qu’une tâche envoie des données à votre CRM. Pour la majeure partie de la clientèle, cela permet d’obtenir un équilibre optimal entre les crédits d’API consommés par [!DNL Marketo Measure] et les exigences en matière de ressources du processeur sur le CRM. Toutefois, pour la clientèle disposant de configurations GRC complexes, comme les workflows et les déclencheurs, une taille de lot inférieure peut se révéler utile pour améliorer les performances de la GRC. À cette fin, [!DNL Marketo Measure] permet à la clientèle de configurer la taille du lot d’export CRM. Ce paramètre est disponible à la page [!UICONTROL Paramètres] > [!UICONTROL CRM] > [!UICONTROL Général] de l’application web [!DNL Marketo Measure]. Il est ainsi possible de choisir entre des tailles de lot de 200 (par défaut), 100, 50 ou 25.
 
 ![](assets/how-bizible-and-salesforce-interact-2.png)
 
 Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lots plus petites consomment davantage de crédits d’API de votre CRM. Il est conseillé de réduire la taille des lots uniquement en cas de temporisation du processeur ou d’une charge élevée de ce dernier dans votre CRM.
 
-## Autorisations des personnes connectées à Salesforce {#salesforce-connected-user-permissions}
+## Autorisations de l’utilisateur connecté à Salesforce {#salesforce-connected-user-permissions}
 
 **Jeu d’autorisations d’administration Marketo Measure pour une personne dédiée** : permet à l’administratation SFDC d’effectuer des opérations CRUD sur des objets Marketo Measure.
 
@@ -46,7 +52,7 @@ Lorsque vous modifiez ce paramètre, gardez à l’esprit que des tailles de lot
 
 **Case à cocher Utilisateur ou utilisatrice marketing** : permet de créer des campagnes, mais aussi d’utiliser les assistants d’import de campagne.
 
-* Nous avons besoin d’autorisations supplémentaires pour « Créer » et « Mettre à jour » pour Campaign dans vos CRM.
+* Nous avons besoin d’autorisations supplémentaires pour les opérations « Créer » et « Mettre à jour » de l’objet Campagne dans vos systèmes GRC.
 
 * Lorsqu’un point de contact est créé à partir d’une activité web, nous devons le lier à une campagne. Comme les activités Web n’ont pas de campagnes CRM correspondantes, nous devons en créer une pour établir ce lien. Cela s’applique aux points de contact de lead et d’opportunité. L’autorisation de mise à jour est requise, car l’appel que nous utilisons est « upsert ». Si l’enregistrement existe, nous le mettons à jour. Dans le cas contraire, nous le créons. Cela s’applique uniquement aux campagnes que nous créons.
 
@@ -588,7 +594,7 @@ Cette section répertorie les objets standard [!DNL Salesforce] avec lesquels [!
 
 >[!NOTE]
 >
->Pour garantir la précision des événements de suppression capturés par Marketo Measure dans votre compte Salesforce, des autorisations de réplication pour les objets ci-dessous sont requises. Les autorisations de réplication sont fournies de manière standard avec les objets suivants :
+>Pour garantir la précision de la capture des événements de suppression par Marketo Measure dans votre compte Salesforce, des autorisations de réplication sont requises pour les objets ci-dessous. Les autorisations de réplication sont fournies de manière standard avec les objets suivants :
 >
 >* Compte
 >* Campagne

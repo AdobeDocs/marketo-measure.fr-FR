@@ -1,22 +1,26 @@
 ---
 description: Différence entre une conversion Google Analytics et des conseils Buyer Touchpoint pour les utilisateurs de Marketo Measure
-title: Différence entre une conversion de Google Analytics et un point de contact acheteur
+title: Différence entre une conversion de Google Analytics et un Buyer Touchpoint
 exl-id: d09d963c-3207-467c-852a-d1edd49511fa
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 4%
-
 ---
-
-# Différence entre une conversion de Google Analytics et un point de contact acheteur {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
+# Différence entre une conversion de Google Analytics et un Buyer Touchpoint {#difference-between-a-google-analytics-conversion-and-a-buyer-touchpoint}
 
 Découvrez ce qu’est un objectif [!DNL Google Analytics (GA)] et en quoi il se différencie d’un Buyer Touchpoint.
 
 **Quelles sont les conversions de Google Analytics ?**
 
-Les conversions [!UICONTROL Google Analytics] sont déterminées par la manière dont un spécialiste marketing ou un développeur web code l’achèvement de l’« objectif » sur un site web particulier. Selon Google, les objectifs peuvent être considérés comme « effectuer un achat (pour un site d’e-commerce), remplir un niveau de jeu (pour une application de jeu mobile) ou envoyer un formulaire de coordonnées (pour un site de marketing ou de génération de pistes) ». La plupart du temps, les professionnels du marketing perçoivent les objectifs/conversions comme quelqu’un qui remplit un formulaire d’information.
+Les conversions  sont déterminées par la manière dont un spécialiste marketing ou un développeur web code l’achèvement de l’« objectif » sur un site web particulier. Selon Google, les objectifs peuvent être considérés comme « effectuer un achat (pour un site d’e-commerce), remplir un niveau de jeu (pour une application de jeu mobile) ou envoyer un formulaire de coordonnées (pour un site de marketing ou de génération de pistes) ». La plupart du temps, les professionnels du marketing perçoivent les objectifs/conversions comme quelqu’un qui remplit un formulaire d’information.
 
 Cependant, les objectifs ne peuvent pas être codés pour gérer un comportement spécifique. Il existe plutôt des types d’objectifs qu’un développeur web peut configurer. Voici quelques-uns de ces exemples :
 
@@ -74,7 +78,7 @@ Cependant, les points de contact de l’acheteur agissent différemment.
 [!DNL Marketo Measure] ignore les conversions Analytics de Destination Google lorsque :
 
 * Un robot envoie des formulaires sur un site web (ces robots n’arrivent généralement pas dans le CRM d’un client).
-* Un utilisateur envoie d’autres formulaires après son premier envoi. [!DNL Marketo Measure] envoie uniquement la première conversion à partir de cette session.
+* Un utilisateur envoie d’autres formulaires après son premier envoi. [!DNL Marketo Measure] n’envoie que la première conversion à partir de cette session.
 * L’utilisateur clique plusieurs fois sur l’envoi du formulaire. [!DNL Marketo Measure] ne prendra en compte que la première soumission de formulaire.
 * L’utilisateur recharge la page de remerciement plusieurs fois.
 * L’utilisateur utilise n’importe quel outil de blocage des publicités.
