@@ -3,19 +3,23 @@ description: Tableau de bord de l’engagement - [!DNL Marketo Measure] - Produi
 title: Tableau de bord des engagements
 feature: Reporting
 exl-id: dc8bcbe4-d470-4cd3-a2d9-804fdebe7121
-TQID: https://experienceleague.adobe.com/m5XdQV-IiIUddL3-YPcne1yf-ORR4ZdbxHzAf5wSADM
+TQID: 'https://experienceleague.adobe.com/m5XdQV-IiIUddL3-YPcne1yf-ORR4ZdbxHzAf5wSADM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 507
+source-wordcount: '507'
 ht-degree: 0%
-
 ---
-
 # Tableau de bord des engagements {#engagement-dashboard}
 
 Le tableau de bord de l’engagement suit méticuleusement les mesures d’engagement des utilisateurs. Il présente les points de contact, le nombre de personnes engagées et les points de contact moyens par personne. Utilisez le graphique à barres de la série temporelle pour une vue mensuelle, trimestrielle ou annuelle et le graphique à barres pour obtenir des informations détaillées sur les canaux, les sous-canaux et les campagnes. Cet outil est essentiel pour comprendre les schémas d’engagement et affiner vos stratégies d’engagement.
@@ -43,7 +47,7 @@ Questions auxquelles le tableau de bord répond :
 ### Mosaïques de KPI {#kpi-tiles}
 
 * Points de contact : nombre total de points de contact bruts générés.
-   * Les points de contact d’acheteur et les points de contact d’attribution d’acheteur sont des résultats d’attribution créés en sélectionnant des points de contact spécifiques pour le crédit. Tous les points de contact ne sont pas sélectionnés comme BT et BAT.
+  * Les points de contact d’acheteur et les points de contact d’attribution d’acheteur sont des résultats d’attribution créés en sélectionnant des points de contact spécifiques pour le crédit. Tous les points de contact ne sont pas sélectionnés comme BT et BAT.
 * Personnes touchées : nombre total de personnes qui ont des points de contact.
 * Points de contact par personne : nombre moyen de points de contact par personne ayant été touchée.
 

@@ -1,15 +1,19 @@
 ---
-description: Bonnes pratiques pour la mise en œuvre des conseils de  [!DNL Marketo Measure] JavaScript pour les utilisateurs de Marketo Measure
-title: 'Bonnes pratiques pour la mise en œuvre du code JavaScript  [!DNL Marketo Measure] '
+description: Bonnes pratiques relatives à la mise en œuvre des conseils de [!DNL Marketo Measure] JavaScript pour les utilisateurs de Marketo Measure
+title: Bonnes pratiques pour la mise en œuvre du code JavaScript [!DNL Marketo Measure]
 exl-id: 0359ad27-81e8-4902-a23a-49a5646a44d0
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 97%
-
 ---
-
 
 # Bonnes pratiques pour la mise en œuvre du code JavaScript [!DNL Marketo Measure] {#best-practices-for-implementing-marketo-measure-javascript}
 
@@ -31,16 +35,16 @@ Le code JavaScript [!DNL Marketo Measure] est un élément fondamental de votre 
 Lorsqu’il s’agit de mettre en œuvre et de gérer votre code JavaScript [!DNL Marketo Measure], tenez compte des bonnes pratiques suivantes.
 
 * Vérifiez que tous les domaines sont répertoriés dans votre compte [!DNL Marketo Measure]
-   * Si vous avez des questions concernant vos domaines, contactez l’assistance.
+  * Si vous avez des questions concernant vos domaines, contactez l’assistance.
 * Déployez du code JavaScript sur TOUTES les pages.
-   * Le placement de code JavaScript sur certaines pages uniquement entraîne des interruptions dans les données de session, ce qui entraîne des données [!DNL Marketo Measure] incorrectes
+  * Le placement de code JavaScript sur certaines pages uniquement entraîne des interruptions dans les données de session, ce qui entraîne des données [!DNL Marketo Measure] incorrectes
 * Pour un formulaire sur votre site à partir duquel vous ne souhaitez pas créer de points de contact, veillez à ajouter le script d’exclusions [!DNL Marketo Measure]
-   * Ce script d’exclusions garantit que les données de session [!DNL Marketo Measure] ne seront pas perturbées et que les données source restent en place
-      * Voici quelques exemples de formulaires courants à supprimer :
-         * Connexions des clients/clientes
-         * Formulaires de mot de passe oublié
-         * Formulaires de désinscription
-         * Formulaires de candidature à un poste
+  * Ce script d’exclusions garantit que les données de session [!DNL Marketo Measure] ne seront pas perturbées et que les données source restent en place
+    * Voici quelques exemples de formulaires courants à supprimer :
+      * Connexions des clients/clientes
+      * Formulaires de mot de passe oublié
+      * Formulaires de désinscription
+      * Formulaires de candidature à un poste
 * Consultez les sections « Considérations supplémentaires » et « Formulaires auxquels prêter une attention particulière » de la ressource Ajout d’un script [!DNL Marketo Measure] répertoriée ci-dessous pour rechercher les scénarios qui peuvent nécessiter une gestion spéciale
 
 ## Bonne pratique de maintenance {#best-practice-for-maintenance}
@@ -53,4 +57,4 @@ Il existe d’autres raisons qui peuvent déclencher une révision de la configu
 * Modifications et mises à jour de la structure de votre site
 * Migrations du site
 * Modifications apportées à votre domaine
-* Acquisition d’autres entreprises et de leurs propriétés web
+* Acquisitions d’autres entreprises et de leurs propriétés web

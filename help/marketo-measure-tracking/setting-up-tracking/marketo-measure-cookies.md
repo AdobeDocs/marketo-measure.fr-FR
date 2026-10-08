@@ -4,19 +4,23 @@ description: Cookies [!DNL Marketo Measure] - [!DNL Marketo Measure]
 title: Cookies [!DNL Marketo Measure]
 exl-id: de6e35ae-af92-43ba-8416-3e07d3dd470c
 feature: Tracking
-TQID: https://experienceleague.adobe.com/QOjNe0Eu2irVrpZVkbf5SVe-3COP1nhRqPg6oDlFhGY
+TQID: 'https://experienceleague.adobe.com/QOjNe0Eu2irVrpZVkbf5SVe-3COP1nhRqPg6oDlFhGY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Privacy
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '409'
 ht-degree: 97%
-
 ---
-
 # Cookies Marketo Measure {#marketo-measure-cookies}
 
 En savoir plus sur les différents cookies [!DNL Marketo Measure] chargés sur votre site lorsque vous appliquez le JavaScript [!DNL Marketo Measure] à vos pages de destination. Ces informations peuvent se révéler utiles à l’équipe de développement web lors de la mise en œuvre.
@@ -32,8 +36,8 @@ En savoir plus sur les différents cookies [!DNL Marketo Measure] chargés sur v
     <th>Type de cookie</th>
     <th>But</th>
     <th>Expiration</th>
-    <th>L’indicateur sécurisé est-il défini ?<br></th>
-    <th>L’indicateur HTTP uniquement est-il défini ?</th>
+    <th>L’indicateur Sécurisé est-il défini ?<br></th>
+    <th>L’indicateur HTTP uniquement est-il défini ?</th>
     <th>Créateur de cookie</th>
   </tr>
 </thead>
@@ -41,7 +45,7 @@ En savoir plus sur les différents cookies [!DNL Marketo Measure] chargés sur v
   <tr>
     <td>_biz_uid</td>
     <td>Premier niveau</td>
-    <td>Identifier de manière unique une personne sur le domaine actuel.</td>
+    <td>Identifier de manière unique un utilisateur sur le domaine actuel.</td>
     <td>1 an</td>
     <td>Non</td>
     <td>Non</td>
@@ -59,7 +63,7 @@ En savoir plus sur les différents cookies [!DNL Marketo Measure] chargés sur v
   <tr>
     <td>_biz_flagsA</td>
     <td>Premier niveau</td>
-    <td>Cookie qui stocke diverses informations sur la personne, telles que l’envoi de formulaire, la migration interdomaines, le pixel d’affichage publicitaire, le statut de suivi de la désinscription, etc.</td>
+    <td>Cookie qui stocke diverses informations sur l’utilisateur, telles que l’envoi de formulaire, la migration interdomaine, le pixel de taux de visionnage, le statut de désactivation du suivi, etc.</td>
     <td>1 an</td>
     <td>Non</td>
     <td>Non</td>
@@ -122,6 +126,6 @@ En savoir plus sur les différents cookies [!DNL Marketo Measure] chargés sur v
 </tbody>
 </table>
 
-Si un avertissement de pare-feu d’application web (WAF) est déclenché lors de la configuration de JavaScript, les utilisateurs et utilisatrices peuvent désactiver cette règle WAF ou placer les cookies sur la liste autorisée, comme dans l’exemple ci-dessous :
+Si un avertissement de pare-feu d’application web (WAF) est déclenché lors de la configuration JavaScript, les utilisateurs peuvent soit désactiver cette règle WAF, soit placer les cookies sur une liste autorisée, comme dans l’exemple ci-dessous :
 
 ![](assets/marketo-measure-cookies-1.png)

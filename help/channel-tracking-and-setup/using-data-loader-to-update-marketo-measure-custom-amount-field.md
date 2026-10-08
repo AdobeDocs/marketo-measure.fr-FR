@@ -3,13 +3,17 @@ description: Utilisation de Data Loader pour mettre à jour les conseils de cham
 title: Utilisation du chargeur de données pour mettre à jour le champ du montant personnalisé Marketo Measure
 exl-id: 55e91ac4-a835-48e0-a6ce-1d85b32aeac0
 feature: Custom Revenue Amount
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 1%
-
 ---
-
 # Utilisation du chargeur de données pour mettre à jour [!DNL Marketo Measure] champ de montant personnalisé {#using-data-loader-to-update-marketo-measure-custom-amount-field}
 
 [!DNL Marketo Measure] recommande d’utiliser le chargeur de données comme option pratique pour mettre à jour les valeurs d’opportunité lors de l’utilisation d’un champ de chiffre d’affaires personnalisé (nous utilisons le champ Montant prêt à l’emploi) dans [!DNL Marketo Measure]. Le chargeur de données est préférable à l’utilisation du script de mise à jour [!DNL Marketo Measure], car celui-ci exige des utilisateurs qu’ils désactivent toutes les règles de validation Salesforce pendant l’exécution du script [!DNL Marketo Measure].

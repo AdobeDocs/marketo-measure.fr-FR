@@ -3,19 +3,23 @@ description: Configuration du modèle personnalisé - Activer le suivi de l’hi
 title: Configuration de modèle personnalisé - Activation du suivi de l’historique des champs
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 78%
-
+ht-degree: 90%
 ---
-
-# Configuration de modèle personnalisé : activation du suivi de l’historique des champs {#custom-model-setup-enable-field-history-tracking}
+# Configuration du modèle personnalisé : activer le suivi de l’historique des champs {#custom-model-setup-enable-field-history-tracking}
 
 ## Pourquoi et quand activer le suivi de l’historique des champs {#why-and-when-to-enable-field-history-tracking}
 
-Si vous décidez d’inclure un champ personnalisé en tant qu’étape dans votre modèle d’attribution personnalisé, le suivi de l’historique des champs **doit être activé** pour ce champ. L’activation du suivi de l’historique des champs [!DNL Salesforce] permet de suivre à chaque modification du champ personnalisé en créant un enregistrement dans le tableau de suivi de l’historique . [!DNL Marketo Measure] peut télécharger ce tableau et utiliser ces informations pour mesurer l’heure et le jour où une « transition » s’est produite. Sans suivi de l’historique de champs, [!DNL Marketo Measure] ne peut pas effectuer le suivi des modifications liées à ce champ.
+Si vous décidez d’inclure un champ personnalisé en tant qu’étape dans votre modèle d’attribution personnalisé, le suivi de l’historique des champs **doit être activé** pour ce champ. L’activation du suivi de l’historique des champs permet à [!DNL Salesforce] d’effectuer le suivi de chaque modification du champ personnalisé en créant un enregistrement dans la table de suivi de l’historique. [!DNL Marketo Measure] peut télécharger cette table et utiliser ces informations pour mesurer l’heure et le jour d’une « transition ». Sans suivi de l’historique de champs, [!DNL Marketo Measure] ne peut pas effectuer le suivi des modifications liées à ce champ.
 
 Si seules les étapes de [!UICONTROL statut de prospect] et d’opportunité sont utilisées dans le modèle personnalisé, il n’est pas nécessaire d’activer le suivi de l’historique des champs, car le suivi est effectué automatiquement en tant que transition d’étape.
 
@@ -25,7 +29,7 @@ Pour activer le suivi de l’historique des champs, suivez les instructions ci-d
 
 >[!NOTE]
 >
->Pour apporter ces modifications aux champs de l’objet Prospect/Contact/Opportunité, vous devez être un administrateur ou une administratrice système.
+>Vous devez disposer du rôle d’administration système pour pouvoir apporter ces modifications aux champs de l’objet Lead/Contact/Opportunité
 
 1. Accédez à l’objet dans lequel se trouve le champ personnalisé et cliquez sur le bouton **[!UICONTROL Définir le suivi de l’historique]**.
 

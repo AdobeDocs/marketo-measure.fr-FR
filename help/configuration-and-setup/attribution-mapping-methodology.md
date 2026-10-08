@@ -3,13 +3,17 @@ description: Conseils sur la méthodologie de mappage d’attribution pour les u
 title: Méthodologie de mappage pour les attributions
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 0%
-
 ---
-
 # Méthodologie de mappage pour les attributions {#attribution-mapping-methodology}
 
 La méthodologie de mappage d’attribution est le processus de recherche de certains objets dans votre CRM (contacts, opportunités, comptes) pour créer des points de contact d’attribution dans l’opportunité associée. En d’autres termes, il s’agit du [!DNL Marketo Measure] moyen de comprendre les points de contact à inclure dans le modèle d’attribution en fonction des processus de votre CRM actuel.
@@ -18,7 +22,7 @@ La méthodologie de mappage d’attribution est le processus de recherche de cer
 
 Par défaut, [!DNL Marketo Measure] fournit le mappage des identifiants de compte. Cela signifie que [!DNL Marketo Measure] examine le compte et ses informations marketing Contacts pour créer des points de contact d’attribution associés à l’opportunité. Vous trouverez ci-dessous une simple représentation de ce processus.
 
-![Marketo Measure fournit par défaut un mappage d’ID de compte. Ceci &#x200B;](assets/adobe-setup-1.png)
+Marketo Measure fournit par défaut un mappage d’ID de compte. ![Ceci &#x200B;](assets/adobe-setup-1.png)
 
 Gardez à l’esprit que **tous** points de contact de vos contacts ne sont pas intégrés dans l’opportunité en tant que points de contact d’attribution. La chronologie de l’opportunité (sa date de premier contact - date de fermeture) détermine si un point de contact compte comme influenceur sur l’opportunité. Par conséquent, si un point de contact sur le contact A s’est produit après la fermeture de l’opportunité (confirmée/perdue), [!DNL Marketo Measure] ne poussera pas ce point de contact vers l’opportunité. Cette procédure de chronologie est suivie pour tous les autres mappages d’objet d’attribution.
 

@@ -1,23 +1,27 @@
 ---
 description: Intégrations [!DNL Marketo Measure] à Adobe Analytics - [!DNL Marketo Measure]
-title: '[!DNL Marketo Measure] Intégrations à  [!DNL Adobe Analytics]'
+title: Intégrations [!DNL Marketo Measure] à [!DNL Adobe Analytics]
 exl-id: 3a125a15-eb74-454a-afb3-75746a1dfac6
 feature: Integration
-TQID: https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ
+TQID: 'https://experienceleague.adobe.com/6IzJMn8-MWNL1vIX5-O1f7CgCmBtSAituyE2rfYLKPQ'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 968
+source-wordcount: '965'
 ht-degree: 2%
-
 ---
-
 # Intégrations [!DNL Marketo Measure] avec Adobe Analytics {#marketo-measure-integrations-with-adobe-analytics}
 
 L’intégration Attributs du client B2B permet aux utilisateurs mutuels d’[!DNL Marketo Measure] et d’Adobe Analytics d’enrichir leurs profils d’utilisateurs [!DNL Adobe Analytics] avec des métadonnées précieuses dérivées du moteur d’attribution [!DNL Marketo Measure] et grâce à sa fonctionnalité de synchronisation avec les CRM ([!DNL Microsoft Dynamics] et [!DNL Salesforce]). Il est disponible gratuitement pour tous les clients qui utilisent [!DNL Adobe Analytics] et [!DNL Marketo Measure].

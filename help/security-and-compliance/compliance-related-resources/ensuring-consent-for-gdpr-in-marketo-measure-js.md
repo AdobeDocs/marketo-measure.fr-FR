@@ -4,18 +4,21 @@ description: Garantir le consentement au RGPD dans Marketo Measure Js - Marke
 title: Garantir le consentement au RGPD dans Marketo Measure Js
 exl-id: 9afc5e4d-cf97-4c49-b9ee-ee1cc99c1f90
 feature: Tracking
-TQID: https://experienceleague.adobe.com/hQdhj6JLLiLkBfe-DgklJH-1Zk5WJJea0zADzILEeMY
+TQID: 'https://experienceleague.adobe.com/hQdhj6JLLiLkBfe-DgklJH-1Zk5WJJea0zADzILEeMY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Security
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 425
+source-wordcount: '425'
 ht-degree: 96%
-
 ---
-
 # Garantir le consentement au RGPD dans Marketo Measure Js {#ensuring-consent-for-gdpr-in-marketo-measure-js}
 
 Le Règlement général sur la protection des données (RGPD) est une loi de l’Union européenne entrée en vigueur le 25 mai 2018.
@@ -64,7 +67,7 @@ Ceci indique à [!DNL bizible.js] de ne pas effectuer de suivi tant que le conse
 
 >[!NOTE]
 >
->bizible.js crée un cookie afin de vous rappeler que le consentement de l’utilisateur ou l’utilisatrice a été reçu et de commencer à collecter les données d’analyse comme vous le faites habituellement, uniquement après l’appel de l’API JS.
+>Le script bizible.js créera un cookie afin de mémoriser que le consentement de l’utilisateur ou de l’utilisatrice a été reçu et ne commencera à collecter les données d’analyse comme d’habitude qu’une fois l’API JS appelée.
 
 En revanche, les clientes et clients peuvent également utiliser cette API pour retirer le consentement de l’utilisateur ou l’utilisatrice :
 

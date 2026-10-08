@@ -3,13 +3,17 @@ description: Instructions sur la synchronisation des campagnes hors ligne pour l
 title: Synchronisation des campagnes hors ligne
 exl-id: a6f9e217-ff6e-474d-9f14-c6f6238c9e84
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 8%
-
 ---
-
 # Synchronisation des campagnes hors ligne {#syncing-offline-campaigns}
 
 Il peut être difficile d’effectuer un suivi précis des campagnes hors ligne et de comprendre comment elles se comparent à vos efforts de marketing numérique. [!DNL Marketo Measure] vous permet de suivre et d’attribuer des points de contact à vos campagnes hors ligne dans [!DNL Salesforce], même dans les cas où une campagne [!DNL Salesforce] n’est créée que quelques semaines après l’événement.
@@ -61,13 +65,13 @@ Lorsque vous créez cette campagne, cliquez sur le champ « [!UICONTROL &#x200B;
 ![Lorsque vous créez cette campagne, cliquez sur le bouton « Activer les points de contact de l’acheteur »](assets/dynamics-lists-3.png)
 
 * **Inclure tous les membres de la campagne**
-   * Cette option [!DNL Marketo Measure] permet d’attribuer un point de contact à chaque membre de la campagne.
+  * Cette option [!DNL Marketo Measure] permet d’attribuer un point de contact à chaque membre de la campagne.
 
 * **Incluez les membres de la campagne « Répondus ».**
-   * Cette option applique les points de contact aux membres de la campagne qui ont un statut « Répondu ».
+  * Cette option applique les points de contact aux membres de la campagne qui ont un statut « Répondu ».
 
 * **Exclure tous les membres de la campagne.**
-   * Cette option n’attribue de points de contact à aucun membre de la campagne et agit comme un indicateur du fait que la campagne a été délibérément exclue de la [!DNL Marketo Measure]. Si vous synchronisez une campagne avec les points de contact de l’acheteur par accident, vous pouvez modifier le statut en « Exclure tous les membres de la campagne » et les points de contact seront supprimés.
+  * Cette option n’attribue de points de contact à aucun membre de la campagne et agit comme un indicateur du fait que la campagne a été délibérément exclue de la [!DNL Marketo Measure]. Si vous synchronisez une campagne avec les points de contact de l’acheteur par accident, vous pouvez modifier le statut en « Exclure tous les membres de la campagne » et les points de contact seront supprimés.
 
 Une fois l’une de ces sélections choisie, [!DNL Marketo Measure] attribuerez un point de contact à chaque membre de la campagne, le cas échéant. Le prospect ou le contact ajouté à la campagne _doit_ disposer d’une adresse e-mail associée à son enregistrement pour que [!DNL Marketo Measure] puissiez créer un point de contact. Sans adresse e-mail, [!DNL Marketo Measure] n’attribuera pas de point de contact à la personne membre de la campagne.
 

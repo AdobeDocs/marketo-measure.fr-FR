@@ -4,19 +4,23 @@ description: Champs de point de contact - [!DNL Marketo Measure]
 title: Champs de point de contact
 exl-id: d6c2bd60-5341-4a52-939a-942afc093306
 feature: Touchpoints
-TQID: https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk
+TQID: 'https://experienceleague.adobe.com/f45LL11QRQWjzRDTMdsiSUKbB357lPibq8nFNVt75bk'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Customer experience
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1965
-ht-degree: 0%
-
+source-wordcount: '1979'
+ht-degree: 1%
 ---
-
 # Champs de point de contact {#touchpoint-fields}
 
 Historiquement, lorsque les clients rejoignent [!DNL Marketo Measure] et dans le cas où nous n’avons pas d’intégration de balisage directe, notre équipe du succès client informe nos clients sur la manière de baliser correctement leurs pages de destination afin qu’ils utilisent le format UTM approprié et que nous puissions résoudre leurs annonces. Certains de ces clients n’utilisent pas d’UTM, mais utilisent plutôt leurs propres paramètres de balisage. Cela signifie que la modification de toutes leurs pages de destination sur tous leurs réseaux publicitaires peut prendre beaucoup de temps, avec une nouvelle structure de balisage que [!DNL Marketo Measure] applique. Afin de s’adapter à leur structure de balisage, nous acceptons désormais des paramètres personnalisés qui peuvent être mappés à nos définitions de règle. L’objectif est de s’adapter à l’utilisation par les clients de leurs paramètres de tracking personnalisés afin que nous n’ayons pas à les obliger à modifier leur structure d’URL.
@@ -54,9 +58,9 @@ Objectif : utilisez la valeur d’un champ personnalisé et placez-le sur l’ob
 * Utilisez l’opérateur « extracts », car nous devons extraire la valeur du paramètre .
 * Pour extraire la chaîne complète du champ , nous utiliserons l’expression « (.&#42;) »
 
-   * **(** marque le début de l’extraction)
-   * **)** marque la fin de l’extraction
-   * **.&#42;** nous indique que nous extrayons la chaîne complète
+  * **(** marque le début de l’extraction)
+  * **)** marque la fin de l’extraction
+  * **.&#42;** nous indique que nous extrayons la chaîne complète
 
 ![](assets/two.png)
 
@@ -72,11 +76,11 @@ Cette fonctionnalité permet généralement d’extraire des valeurs des paramè
 * Utilisez l’opérateur « extracts », car nous devons extraire la valeur du paramètre .
 * Pour extraire la valeur de la promotion, nous définirons la valeur comme « promo=(\w+) »
 
-   * **(** marque le début de l’extraction)
-   * **)** marque la fin de l’extraction
-   * **\w** nous indique que nous extrayons un « mot » qui inclut 0-9
-   * **+** extrait la valeur complète du paramètre sans limite de caractères
-   * Notez que vous utilisez une barre oblique inverse et non une barre oblique inverse
+  * **(** marque le début de l’extraction)
+  * **)** marque la fin de l’extraction
+  * **\w** nous indique que nous extrayons un « mot » qui inclut 0-9
+  * **+** extrait la valeur complète du paramètre sans limite de caractères
+  * Notez que vous utilisez une barre oblique inverse et non une barre oblique inverse
 
 ![](assets/three.png)
 
@@ -91,10 +95,10 @@ Essayons un exemple similaire dans lequel nous extrayons un code de suivi tel qu
 * Utilisez l’opérateur « extracts », car nous devons extraire la valeur du paramètre .
 * Pour extraire la valeur « 123456 », nous définirons la valeur comme « cid=(\d{6}) »
 
-   * **(** marque le début de l’extraction)
-   * **)** marque la fin de l’extraction
-   * **\d** nous indique que nous extrayons un « chiffre »
-   * **{6}** est le nombre de caractères extraits
+  * **(** marque le début de l’extraction)
+  * **)** marque la fin de l’extraction
+  * **\d** nous indique que nous extrayons un « chiffre »
+  * **{6}** est le nombre de caractères extraits
 
 ![](assets/four.png)
 
@@ -110,20 +114,20 @@ Essayons un exemple similaire dans lequel nous extrayons un code de suivi tel qu
 * Utilisez l’opérateur « extracts », car nous devons extraire la valeur du paramètre .
 * Pour extraire la valeur « US », nous définirons la valeur comme « country=(\w{2}) »
 
-   * **(** marque le début de l’extraction)
-   * **)** marque la fin de l’extraction
-   * **\w** nous indique que nous extrayons un « mot »
-   * **{2}** est le nombre de caractères extraits
+  * **(** marque le début de l’extraction)
+  * **)** marque la fin de l’extraction
+  * **\w** nous indique que nous extrayons un « mot »
+  * **{2}** est le nombre de caractères extraits
 
 * Créez un champ calculé et libellez-le « Identifiant de campagne personnalisé »
 * Définissez la règle en commençant par rechercher le champ Touchpoint.Session.LandingPage .
 * Utilisez l’opérateur « extracts », car nous devons extraire la valeur du paramètre .
 * Pour extraire la valeur « 123456 », nous définirons la valeur comme « campaign_ID=(\d{6}) »
 
-   * **(** marque le début de l’extraction)
-   * **)** marque la fin de l’extraction
-   * **\d** nous indique que nous extrayons un « chiffre »
-   * **{6}** est le nombre de caractères extraits
+  * **(** marque le début de l’extraction)
+  * **)** marque la fin de l’extraction
+  * **\d** nous indique que nous extrayons un « chiffre »
+  * **{6}** est le nombre de caractères extraits
 
 ![](assets/five.png)
 
@@ -148,14 +152,14 @@ Maintenant que nous avons appris à extraire et à mapper aux champs, combinons 
 * Utilisez l’opérateur « [!UICONTROL extracts] », car nous devons extraire la valeur du paramètre .
 * Pour extraire la valeur « 04 », nous définirons la valeur comme « BZ=(\d{2})-\d{2}-\d{2}-\d{2}-\d{2} »
 
-   * **(** marque le début de l’extraction)
+  * **(** marque le début de l’extraction)
 
-      * Notez que puisque nous extrayons uniquement les 4, seuls les premiers chiffres ont la parenthèse ouverte
-   * **)** marque la fin de l’extraction
+    * Notez que puisque nous extrayons uniquement les 4, seuls les premiers chiffres ont la parenthèse ouverte
+  * **)** marque la fin de l’extraction
 
-      * Notez que puisque nous extrayons uniquement les 4, seuls les premiers chiffres ont la parenthèse fermée
-   * **\d** nous indique que nous extrayons un « chiffre »
-   * **{2}** est le nombre de caractères extraits
+    * Notez que puisque nous extrayons uniquement les 4, seuls les premiers chiffres ont la parenthèse fermée
+  * **\d** nous indique que nous extrayons un « chiffre »
+  * **{2}** est le nombre de caractères extraits
 
 
 
@@ -168,10 +172,10 @@ Maintenant que nous avons appris à extraire et à mapper aux champs, combinons 
 * En fonction du mappage et de l’URL ci-dessus, la valeur « Region_Value » pour un point de contact avec cette page de destination est « EMEA »
 * Répétez l’extraction et le mappage pour les 4 ensembles de chiffres restants
 
-   * Pour extraire le 01, définissez la valeur comme « BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\d{2} »
-   * Pour extraire le 09, définissez la valeur comme « BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2} »
-   * Pour extraire le 03, définissez la valeur comme « BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2} »
-   * Pour extraire le 10, définissez la valeur comme « BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})** »
+  * Pour extraire le 01, définissez la valeur comme « BZ=\d{2}-**(\d{2})**-\d{2}-\d{2}-\d{2} »
+  * Pour extraire le 09, définissez la valeur comme « BZ=\d{2}-\d{2}-**(\d{2})**-\d{2}-\d{2} »
+  * Pour extraire le 03, définissez la valeur comme « BZ=\d{2}-\d{2}-\d{2}-**(\d{2})**-\d{2} »
+  * Pour extraire le 10, définissez la valeur comme « BZ=\d{2}-\d{2}-\d{2}-\d{2}-**(\d{2})** »
 
 ![](assets/seven.png)
 

@@ -3,13 +3,17 @@ description: Conseils sur la segmentation personnalisée pour les utilisateurs d
 title: Segmentation personnalisée
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 1%
-
 ---
-
 # Segmentation personnalisée {#custom-segmentation}
 
 Les segments permettent de filtrer les données dans le tableau de bord du retour sur investissement [!DNL Marketo Measure] afin d’explorer plus en détail un jeu de données spécifique. Par exemple, un segment peut être défini par un territoire géographique ou un système de talus.
@@ -34,7 +38,7 @@ Avant d’utiliser cette fonctionnalité, déterminez les informations de point 
 
 Étape 2 : connectez-vous et localisez la fonctionnalité [!UICONTROL Segments].
 
-* Accédez à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous
+* Accédez à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"} et connectez-vous
 * Sous l’onglet [!UICONTROL &#x200B; Mon compte &#x200B;], sélectionnez [!UICONTROL Paramètres]
 * Sélectionnez [!UICONTROL Segments] dans les options de la barre latérale à gauche, sous la section [!UICONTROL Rapports]
 
@@ -46,7 +50,7 @@ Avant d’utiliser cette fonctionnalité, déterminez les informations de point 
 
 Étape 4 - Ajouter Des Règles De Filtrage.
 
-* Tout d’abord, saisissez le nom de la catégorie. [!UICONTROL Type d’entreprise &#x200B;] est un exemple. Cliquez sur la coche lorsque vous avez terminé. Vous devez saisir un nom de catégorie avant de pouvoir ajouter des segments
+* Tout d’abord, saisissez le nom de la catégorie. [!UICONTROL Type d’entreprise] est un exemple. Cliquez sur la coche lorsque vous avez terminé. Vous devez saisir un nom de catégorie avant de pouvoir ajouter des segments
 * Cliquez sur le signe plus pour ajouter un segment
 * Saisissez un nom de segment. Par exemple, vous pouvez avoir un segment pour Nouvelle entreprise, Partenaires, Renouvellement ou Vente incitative
 
@@ -66,9 +70,9 @@ Avant d’utiliser cette fonctionnalité, déterminez les informations de point 
 * Cliquez sur l’icône corbeille pour supprimer une catégorie entière ou une règle individuelle d’une catégorie. Vous pouvez également cliquer sur l’icône en forme de crayon pour modifier la catégorie ou la règle
 * Notez que vous disposez d’un bouton « [!UICONTROL Enregistrer] » et d’un bouton « Enregistrer et traiter ». Utilisez le bouton Enregistrer pour enregistrer votre travail et les modifications au fil du temps. Utilisez le bouton Enregistrer et traiter UNIQUEMENT une fois que vous avez vérifié que :
 
-   * Votre mappage est correct
-   * Vous avez ajouté tous les segments que vous souhaitez suivre dans une catégorie
-   * Le bouton Enregistrer et traiter déclenche la [!DNL Marketo Measure] de synchroniser tous vos points de contact et d’appliquer les nouvelles informations que vous avez ajoutées. Ce processus prend 7 jours et les règles ne peuvent pas être modifiées au cours de cette période
+  * Votre mappage est correct
+  * Vous avez ajouté tous les segments que vous souhaitez suivre dans une catégorie
+  * Le bouton Enregistrer et traiter déclenche la [!DNL Marketo Measure] de synchroniser tous vos points de contact et d’appliquer les nouvelles informations que vous avez ajoutées. Ce processus prend 7 jours et les règles ne peuvent pas être modifiées au cours de cette période
 
 **_Remarques supplémentaires:_**
 

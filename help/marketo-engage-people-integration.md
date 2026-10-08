@@ -3,13 +3,17 @@ description: Intégration des personnes [!DNL Marketo Engage] - [!DNL Marketo Me
 title: Intégration des personnes [!DNL Marketo Engage]
 exl-id: 51930e84-4ff8-4e35-9d44-ea017c24b051
 feature: Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 3%
-
 ---
-
 # Intégration des personnes [!DNL Marketo Engage] {#marketo-engage-people-integration}
 
 L’intégration des personnes de Marketo [!DNL Marketo Measure] permet de commencer à télécharger des personnes à partir de Marketo et de lier leurs sessions suivies à l’individu et de mapper les points de contact à leurs engagements. Historiquement, [!DNL Marketo Measure] ne pouvait mapper les points de contact qu’à une personne à partir du CRM, ce qui permet aux spécialistes marketing de mesurer leurs efforts marketing plus rapidement plutôt que d’attendre une étape ou un déclencheur pour les synchroniser avec le CRM.
@@ -59,7 +63,7 @@ Lors de la création de rapports sur les prospects (personnes) dans [!DNL Market
   </tr>
   <tr>
    <td><p>ID</p></td>
-   <td><p>id</p></td>
+   <td><p>identifiant</p></td>
   </tr>
   <tr>
    <td><p>MODIFIED_DATE</p></td>
@@ -83,7 +87,7 @@ Lors de la création de rapports sur les prospects (personnes) dans [!DNL Market
   </tr>
   <tr>
    <td><p>IS_CONVERTED</p></td>
-   <td><p>S.O.</p></td>
+   <td><p>s/o</p></td>
   </tr>
   <tr>
    <td><p>ACCOUNT_ID</p></td>

@@ -3,14 +3,18 @@ description: Introduit l’interface de tableau de bord Discover, les filtres, l
 title: Découvrir les bases du tableau de bord
 feature: Reporting
 exl-id: 597a4f7c-4965-4bcb-bf28-607abc9b7545
-hidefromtoc: true
-source-git-commit: 5a3494763c80ac636306c7ac8d080383d2358a59
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 1%
-
+source-wordcount: '576'
+ht-degree: 5%
 ---
-
 # Découvrir les bases du tableau de bord {#discover-dashboard-basics}
 
 Cet article vous guidera à travers les fonctionnalités fondamentales de l’interface repensée, en vous assurant que vous pouvez accéder à vos données et les interpréter facilement. Explorez la dynamique du volet de filtrage et découvrez les subtilités de nos fonctionnalités de création de rapports améliorées, telles que les fonctionnalités de pratique, le filtrage croisé et les info-bulles.

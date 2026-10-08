@@ -4,18 +4,21 @@ description: Segmentation personnalisée - [!DNL Marketo Measure]
 title: Segmentation personnalisée
 exl-id: c20a2add-250e-45ff-97a6-1b1c03351b6a
 feature: Segmentation
-TQID: https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM
+TQID: 'https://experienceleague.adobe.com/COqmO8TXqg0Du1FmW4MDfi6Wz33uO8S2pGywUoc40KM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d3432b7d-03be-560e-8abb-8681f1afaeb4
+    internal-label: Segmentation
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 754
+source-wordcount: '754'
 ht-degree: 1%
-
 ---
-
 # Segmentation personnalisée {#custom-segmentation}
 
 Les segments permettent de filtrer les données dans le tableau de bord du retour sur investissement [!DNL Marketo Measure] afin d’explorer plus en détail un jeu de données spécifique. Par exemple, un segment peut être défini par un territoire géographique ou un système de talus.
@@ -72,9 +75,9 @@ Avant d’utiliser cette fonctionnalité, déterminez les informations de point 
 * Cliquez sur l’icône corbeille pour supprimer une catégorie entière ou une règle individuelle d’une catégorie. Vous pouvez également cliquer sur l’icône en forme de crayon pour modifier la catégorie ou la règle
 * Notez que vous disposez d’un bouton « [!UICONTROL Enregistrer] » et d’un bouton « Enregistrer et traiter ». Utilisez le bouton Enregistrer pour enregistrer votre travail et les modifications au fil du temps. Utilisez le bouton Enregistrer et traiter UNIQUEMENT une fois que vous avez vérifié que :
 
-   * Votre mappage est correct
-   * Vous avez ajouté tous les segments que vous souhaitez suivre dans une catégorie
-   * Le bouton Enregistrer et traiter déclenche la [!DNL Marketo Measure] de synchroniser tous vos points de contact et d’appliquer les nouvelles informations que vous avez ajoutées. Ce processus prend 7 jours et les règles ne peuvent pas être modifiées au cours de cette période
+  * Votre mappage est correct
+  * Vous avez ajouté tous les segments que vous souhaitez suivre dans une catégorie
+  * Le bouton Enregistrer et traiter déclenche la [!DNL Marketo Measure] de synchroniser tous vos points de contact et d’appliquer les nouvelles informations que vous avez ajoutées. Ce processus prend 7 jours et les règles ne peuvent pas être modifiées au cours de cette période
 
 **_Remarques supplémentaires:_**
 

@@ -3,13 +3,19 @@ description: Conseils d’intégration du suivi d’appel pour les utilisateurs 
 title: Intégration du suivi d’appel
 exl-id: bc35a789-e056-4456-9038-306ed34c2a8e
 feature: Tracking, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '768'
 ht-degree: 1%
-
 ---
-
 # Intégration du suivi d’appel {#call-tracking-integration}
 
 Notre intégration à [!DNL CallTrackingMetrics] est destinée à fusionner une session web avec un appel téléphonique. Un appel téléphonique est traité comme un envoi de formulaire à [!DNL Marketo Measure]. Il fait référence à une session web qui n’aurait autrement été considérée que comme une visite web, car il n’y avait pas eu d’envoi de formulaire réel.
@@ -70,7 +76,7 @@ Le type de point de contact et Medium contiennent tous deux les données extrait
 
 Tout d’abord, vérifiez qu’une [!DNL BizibleId] est renseignée dans la tâche. S’il n’existe aucune valeur, nous ne pouvons pas créer de point de contact pour celui-ci. Cette erreur doit être signalée avec CallTrackingMetrics.
 
-S’il existe une valeur, notez que nous ne considérons que les sessions web de 30 minutes. Si vous avez cliqué sur une publicité Google à 12 :17pm (début de la session sur le site web), mais que l’appel téléphonique n’a pas eu lieu avant le 1:05pm, nous ne fusionnerons pas la session web et l’appel téléphonique. À la place, [!DNL Marketo Measure] crée un point de contact [!DNL Salesforce Task] distinct pour suivre l’appel téléphonique, mais ne dispose d’aucune donnée de session web.
+S’il existe une valeur, notez que nous ne considérons que les sessions web de 30 minutes. Si un utilisateur clique sur une publicité Google à 12 h 17 (début de la session sur le site web), mais que l’appel téléphonique n’a pas eu lieu avant 13 h 05, la session web et l’appel téléphonique ne seront pas fusionnés. À la place, [!DNL Marketo Measure] crée un point de contact [!DNL Salesforce Task] distinct pour suivre l’appel téléphonique, mais ne dispose d’aucune donnée de session web.
 
 ![S’il existe une valeur, notez que nous ne prenons en compte que tous les éléments web](assets/other-resources-2.png)
 

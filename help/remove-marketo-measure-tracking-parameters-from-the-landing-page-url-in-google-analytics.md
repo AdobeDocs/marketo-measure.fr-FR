@@ -1,15 +1,19 @@
 ---
-description: Suppression  [!DNL Marketo Measure]  paramètres de suivi de l’URL de la page de destination dans les conseils de Google Analytics pour les utilisateurs de Marketo Measure
+description: Suppression des paramètres de suivi [!DNL Marketo Measure] de l’URL de la page de destination dans les conseils de Google Analytics pour les utilisateurs de Marketo Measure
 title: Suppression des paramètres de suivi [!DNL Marketo Measure] de l’URL de la page de destination dans Google Analytics
 exl-id: ec81ba4a-bb10-49fd-b62e-5a1bc9e1a023
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 8%
-
+source-wordcount: '124'
+ht-degree: 0%
 ---
-
 # Suppression des paramètres de suivi [!DNL Marketo Measure] de l’URL de la page de destination dans Google Analytics {#remove-marketo-measure-tracking-parameters-from-the-landing-page-url-in-google-analytics}
 
 Parfois, lorsque vous affichez des pages de destination dans [!DNL Google Analytics], vous souhaiterez supprimer les paramètres de tracking des URL. Sinon, elles seront divisées en lignes individuelles.

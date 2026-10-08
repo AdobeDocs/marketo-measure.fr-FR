@@ -3,13 +3,17 @@ description: Conseils sur les bonnes pratiques de test pour les utilisateurs de 
 title: Bonnes pratiques relatives aux tests
 exl-id: ff95a1a9-d324-47f5-b47d-39014dff77e4
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 18%
-
 ---
-
 # Bonnes pratiques relatives aux tests {#best-practices-for-testing}
 
 Vous devez tester tous les différents types de formulaires dont vous disposez pour vous assurer du bon fonctionnement de [!DNL Marketo Measure] JavaScript.
@@ -28,7 +32,7 @@ Vous devez tester tous les différents types de formulaires dont vous disposez p
 
 1. Enregistrez l’URL de la page sur laquelle vous envoyez le formulaire et l’adresse e-mail utilisée.
 
-1. Recherchez l’enregistrement créé dans votre CRM (prospect ou contact) pour cet envoi de formulaire et vérifiez qu’un point de contact a été créé.
+1. Recherchez l’enregistrement créé dans votre système de gestion de la relation client (GRC) (Lead ou Contact) pour cet envoi de formulaire et vérifiez qu’un point de contact a bien été créé.
 
 >[!NOTE]
 >

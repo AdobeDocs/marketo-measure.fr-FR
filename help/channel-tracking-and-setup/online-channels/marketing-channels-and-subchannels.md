@@ -1,21 +1,24 @@
 ---
 unique-page-id: 18874682
-description: Canaux et sous-canaux marketing -  [!DNL Marketo Measure]
+description: Canaux et sous-canaux marketing - [!DNL Marketo Measure]
 title: Canaux et sous-canaux marketing
 exl-id: fbe2a994-cf6d-439c-af96-a562216434cc
 feature: Channels
-TQID: https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0
+TQID: 'https://experienceleague.adobe.com/GsWMfMGV23mxLuH6pvKyy-avcg2Tmq3h9sq0pdARiE0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 453
-ht-degree: 93%
-
+source-wordcount: '453'
+ht-degree: 92%
 ---
-
 # Canaux et sous-canaux marketing {#marketing-channels-and-subchannels}
 
 ## But {#purpose}
@@ -26,7 +29,7 @@ Pour définir ce que sont un canal et un sous-canal dans [!DNL Marketo Measure],
 
 Les canaux marketing permettent de classer (ou de « regrouper ») vos activités marketing afin de faciliter la création de rapports, aussi bien dans le tableau de bord Retour sur investissement de [!DNL Marketo Measure] que dans votre CRM. [!DNL Marketo Measure] s’accompagne de 12 canaux prêts à l’emploi (que vous pouvez personnaliser/renommer pour les adapter aux conventions de votre entreprise), ainsi que de la possibilité de créer d’autres canaux personnalisés pour un filtrage encore plus précis.
 
-Chaque fois que vous recevez une visite sur l’une des pages de contenu de votre site (qu’il s’agisse d’une page web, d’un téléchargement de livre blanc, d’une URL de page, etc.), ce prospect est « regroupé » dans un canal/sous-canal en fonction de plusieurs paramètres UTM trouvés dans l’URL :
+Chaque fois qu’un visiteur se rend sur l’une des pages de contenu de votre site (qu’il s’agisse d’une page web, d’un téléchargement d’un article technique, d’une URL de page, etc.), ce lead est « classé » dans un canal/sous-canal en fonction de plusieurs paramètres UTM trouvés dans l’URL :
 
 * Support
 * Source

@@ -3,17 +3,21 @@ description: Conseils de configuration de canal personnalisé en ligne pour les 
 title: Configuration de canal personnalisé en ligne
 exl-id: 170ac564-6cdd-4036-abf0-b9b230bed4f7
 feature: Channels
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 94%
-
 ---
-
 # Configuration de canal personnalisé en ligne {#online-custom-channel-setup}
 
-Pour améliorer la précision des rapports, les canaux marketing doivent être configurés de sorte à refléter la stratégie UTM de votre entreprise. Ce guide présente comment configurer au mieux des règles personnalisées pour vos canaux.
+Pour améliorer la précision des rapports, les canaux marketing doivent être configurés de sorte à refléter la stratégie UTM de votre entreprise. Ce guide vous explique comment configurer au mieux vos règles de canaux personnalisés.
 
 ## Avant de commencer {#before-you-begin}
 
@@ -56,21 +60,21 @@ Les lignes représentent les règles et l’ordre dans lequel [!DNL Marketo Meas
 
 ![Marketo Measure est fourni avec 12 canaux par défaut. Celles-ci &#x200B;](assets/online-channels-4.png)
 
-La structure des règles est également importante. Des règles peuvent sembler se répéter et vous pouvez avoir l’impression que des données sont manquantes, mais cette structure est intentionnelle. Pour trier les données de façon précise, il est nécessaire de mapper séparément chaque source au canal approprié, y compris pour les sources partageant des sous-canaux et des canaux. Plus les règles sont détaillées et granulaires, plus les résultats sont pertinents. Il est donc vivement recommandé d’écrire une règle détaillée pour chaque effort marketing dont vous souhaitez effectuer le suivi.
+La structure des règles est également importante. Des règles peuvent sembler se répéter et vous pouvez avoir l’impression que des données sont manquantes, mais cette structure est intentionnelle. Pour trier les données de façon précise, il est nécessaire de mapper séparément chaque source au canal approprié, y compris pour les sources partageant des sous-canaux et des canaux. Plus les règles sont détaillées et granulaires, plus les résultats sont pertinents. En règle générale, il est recommandé de créer une règle détaillée pour chaque effort marketing que vous souhaitez suivre.
 
 Imaginez la situation suivante : vous avez d’autres publicités dont vous ne souhaitez pas effectuer le suivi pour une raison quelconque, ou vous recevez des visites sur votre site web à partir d’un canal habituel, mais qui ne correspond pas à une source habituelle. Cette situation peut entraîner une perte de données si [!DNL Marketo Measure] ne trouve pas la règle appropriée à utiliser pour trier les données. Pour empêcher cela, [!DNL Marketo Measure] vous conseille de répartir la règle sur plusieurs lignes.
 
-Chaque paramètre ou composant de la règle est mappé séparément au canal. Par exemple, lorsque [!DNL Marketo Measure] dispose de données [!DNL Facebook] à trier, il recherche des règles liées à [!DNL Facebook]. Il scanne alors la feuille de haut en bas. Dans l’exemple illustré ci-dessous, [!DNL Marketo Measure] comprendrait que pour le premier sous-canal [!DNL Facebook], il lui suffit de lire le paramètre de source et de déposer les données dans le compartiment de cette règle.
+Chaque paramètre ou composant de la règle est associé individuellement au canal. Par exemple, lorsque [!DNL Marketo Measure] dispose de données [!DNL Facebook] à trier, il recherche des règles liées à [!DNL Facebook]. Il scanne alors la feuille de haut en bas. Dans l’exemple illustré ci-dessous, [!DNL Marketo Measure] comprendrait que pour le premier sous-canal [!DNL Facebook], il lui suffit de lire le paramètre de source et de déposer les données dans le compartiment de cette règle.
 
 ![Chaque paramètre ou composant de la règle est mappé séparément au &#x200B;](assets/online-channels-5.png)
 
 La règle suivante ne demande que le paramètre qui correspond au support. Par conséquent, toutes les données comportant ce paramètre sont regroupées dans ce canal. Enfin, pour [!DNL Facebook], toutes les données provenant de l’adresse URL de Facebook sont placées dans le dernier compartiment correspondant.
 
-Le canal par défaut « Autre » permet de capturer des données qui ne répondent aux critères d’aucune règle. Notez que certains des compartiments du canal Autre contiennent des astérisques (&#42;), qui représentent des caractères génériques et qui agissent donc comme un fourre-tout.
+Le canal par défaut « Autre » permet de capturer des données qui ne répondent aux critères d’aucune règle. Notez que certains des compartiments du canal Autre contiennent des astérisques (&#42;), Ces astérisques représentent des caractères génériques qui permettent de tout inclure.
 
 ![Le canal par défaut &#39;Autre&#39; existe pour capturer les données qui ne correspondent pas](assets/online-channels-6.jpg)
 
-Étant donné que la logique de [!DNL Marketo Measure] fonctionne de haut en bas, la règle de caractère générique, indiquée par un astérisque (&#42;), doit être placée à la fin de votre feuille de règles. Toutes les données qui ne sont pas capturées ou triées par les autres règles sont ajoutées à ce compartiment de caractère générique.
+Étant donné que la logique de [!DNL Marketo Measure] fonctionne de haut en bas, la règle de caractère générique, indiquée par un astérisque (&#42;), doit être placée à la fin de votre feuille de règles. Toutes les données qui ne sont ni capturées ni triées par les autres règles sont ajoutées à ce compartiment générique.
 
 Vous trouverez ci-dessous d’autres exemples de logique avec des caractères génériques :
 
@@ -84,9 +88,9 @@ En outre, si vous créez un sous-canal pour l’un de vos canaux, vous devez en 
 
 Une fois que vous avez décidé comment organiser et prioriser vos données, vous pouvez ajouter vos règles à la feuille de calcul. Voici quelques bonnes pratiques :
 
-* Faites en sorte que vos règles soient aussi simples que possible dès le départ. Vous pouvez toujours ajouter de la complexité au fur et à mesure.
+* Faites en sorte que vos règles soient aussi simples que possible dès le départ. Il est toujours possible de faire évoluer les règles au fil du temps
 * N’ajoutez pas de caractères spéciaux dans les noms de canal (par exemple : $%#&amp;&#42;@).
-* Ne modifiez pas les règles associées à Bing Ads ou à AdWords. Elles sont essentielles au regroupement automatique des données issues de l’API d’intégration [!DNL Marketo Measure] avec ces plateformes. Toutefois, vous pouvez modifier le nom du sous-canal et du canal.
+* Ne modifiez pas les règles associées à Bing Ads ou à AdWords. Elles sont essentielles au regroupement automatique des données issues de l’API d’intégration [!DNL Marketo Measure] avec ces plateformes. Modifier le nom du canal et du sous-canal pour l’adapter à vos besoins ne pose cependant aucun problème.
 * Ne supprimez pas les règles contenant une note « Ne pas supprimer ».
 * Les règles de référencement naturel sont toujours placées après les [!UICONTROL règles de référencement payant].
 * Vous ne pouvez pas créer de règles basées sur plusieurs sous-domaines différents.
@@ -98,4 +102,4 @@ Une fois que vous avez décidé comment organiser et prioriser vos données, vou
 
 Assurez-vous que toutes les nouvelles valeurs de canal et de sous-canal que vous ajoutez au fichier CSV ont déjà été ajoutées dans les paramètres de canal de votre compte Bizible. Vérifiez bien que tous les noms de canal et de sous-canal dans le fichier CSV correspondent aux paramètres de canal de votre compte [!DNL Marketo Measure]. Veillez à ne pas laisser de virgules ni d’espaces.
 
-Si vous recevez un message d’erreur lors du chargement, corrigez le problème, puis réessayez. Si aucun message d’erreur n’apparaît, cliquez sur **Confirmer et traiter** au bas de la page.
+Si vous recevez un message d’erreur lors du chargement, corrigez le problème, puis relancez le chargement. Si aucun message d’erreur n’apparaît, cliquez sur **Confirmer et traiter** au bas de la page.

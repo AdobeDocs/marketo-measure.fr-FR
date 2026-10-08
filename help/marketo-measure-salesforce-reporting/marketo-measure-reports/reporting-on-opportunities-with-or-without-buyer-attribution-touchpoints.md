@@ -1,26 +1,33 @@
 ---
 unique-page-id: 18874618
-description: Création de rapports sur les opportunités avec ou sans points de contact d’attribution de l’acheteur - [!DNL Marketo Measure]
-title: Création de rapports sur les opportunités avec ou sans points de contact d’attribution acheteur
+description: Reporting sur les opportunités avec ou sans points de contact d’attribution de l’acheteur - [!DNL Marketo Measure]
+title: Reporting sur les opportunités avec ou sans Buyer Attribution Touchpoints
 exl-id: 3c658177-31e1-46b8-bc6b-e7a372ab187f
 feature: Touchpoints, Attribution, Reporting
-TQID: https://experienceleague.adobe.com/F4X4FtvzKwcoj2j1f8rTDtg21f3uMqq173jrnZ379VY
+TQID: 'https://experienceleague.adobe.com/F4X4FtvzKwcoj2j1f8rTDtg21f3uMqq173jrnZ379VY'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 188
+source-wordcount: '188'
 ht-degree: 28%
-
 ---
-
-# Création de rapports sur les opportunités avec ou sans points de contact d’attribution acheteur {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
+# Reporting sur les opportunités avec ou sans Buyer Attribution Touchpoints {#reporting-on-opportunities-with-or-without-buyer-attribution-touchpoints}
 
 >[!NOTE]
 >
->Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans la documentation. Toutefois, votre gestion de la relation client (CRM) mentionne encore « Bizible ». Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
+>Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans la documentation. Toutefois, votre gestion de la relation client (CRM) mentionne encore « Bizible ». Nous travaillons à la mise à jour de ces informations et le changement de marque sera bientôt appliqué dans votre GRC.
 
 Créez un nouveau type de rapport pour inclure toutes les opportunités avec ou sans points de contact d’attribution de l’acheteur.
 

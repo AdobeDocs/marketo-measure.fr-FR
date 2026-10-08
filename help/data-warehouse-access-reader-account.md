@@ -3,13 +3,17 @@ description: Décrit comment configurer et utiliser un compte de lecteur pour ac
 title: Accès à Data Warehouse - Compte en lecture seule
 exl-id: 2aa73c41-47ab-4f11-96d8-dafb642308fc
 feature: Data Warehouse
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 09cd1bee-ffcc-509c-9a9a-ca8384eac8e8
+    internal-label: Data Warehouse
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 3%
-
 ---
-
 # Accès à Data Warehouse - Compte en lecture seule {#data-warehouse-access-reader-account}
 
 ## Lien d’accès Snowflake {#snowflake-access-link}
@@ -66,14 +70,14 @@ Vous devez saisir quelques informations pour connecter votre entrepôt de donné
 >Chaque outil a des exigences de connexion différentes. Il est recommandé de consulter la documentation de l’outil spécifique que vous essayez de connecter.
 
 * **URI** (toujours requis)
-   * Il s’agit du nom de domaine du compte Snowflake. Il se trouve dans une partie du lien de connexion Snowflake.
+  * Il s’agit du nom de domaine du compte Snowflake. Il se trouve dans une partie du lien de connexion Snowflake.
 * **Nom d’utilisateur** (toujours requis)
-   * Le nom d’utilisateur est répertorié dans la page d’informations de Data Warehouse dans [!DNL Marketo Measure].
+  * Le nom d’utilisateur est répertorié dans la page d’informations de Data Warehouse dans [!DNL Marketo Measure].
 * **Mot de passe** (toujours obligatoire)
-   * Il s’agit du mot de passe que vous avez défini la première fois que vous vous êtes connecté à votre compte Snowflake. Pour réinitialiser votre mot de passe, reportez-vous aux étapes décrites ci-dessus.
+  * Il s’agit du mot de passe que vous avez défini la première fois que vous vous êtes connecté à votre compte Snowflake. Pour réinitialiser votre mot de passe, reportez-vous aux étapes décrites ci-dessus.
 * **Nom de la base de données** (pas toujours obligatoire)
-   * C’est la base de données qui stocke les données dans Snowflake. Il s’agit de la ressource de stockage. Le nom de la base de données est répertorié dans la page d’informations Data Warehouse de [!DNL Marketo Measure].
+  * C’est la base de données qui stocke les données dans Snowflake. Il s’agit de la ressource de stockage. Le nom de la base de données est répertorié dans la page d’informations Data Warehouse de [!DNL Marketo Measure].
 * **Nom de l’entrepôt de données** (pas toujours obligatoire)
-   * C’est l’entrepôt qui exécute les requêtes dans Snowflake. Il s’agit de la ressource calculée. Le nom de l’entrepôt de données est répertorié dans la page d’informations Data Warehouse de [!DNL Marketo Measure].
+  * C’est l’entrepôt qui exécute les requêtes dans Snowflake. Il s’agit de la ressource calculée. Le nom de l’entrepôt de données est répertorié dans la page d’informations Data Warehouse de [!DNL Marketo Measure].
 
   ![C’est l’entrepôt qui exécute les requêtes dans Snowflake. Il s’agit du calculé](assets/data-account-2.png)

@@ -3,13 +3,17 @@ description: Conseils sur les méthodes de gestion des dépenses pour les utilis
 title: Méthodes de gestion des dépenses
 exl-id: 36478d8d-986c-4d4f-8854-3287d6c57a9d
 feature: Spend Management
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 1%
-
 ---
-
 # Méthodes de gestion des dépenses {#spend-management-methods}
 
 Les données sur les dépenses sont essentielles à la réussite des rapports sur le retour sur investissement avec [!DNL Marketo Measure]. Pour générer des rapports sur le RSI précis et complets sur tous vos canaux et sous-canaux, vous devez vous assurer que les données de dépenses appropriées sont extraites dans [!DNL Marketo Measure].
@@ -28,7 +32,7 @@ Chaque compte [!DNL Marketo Measure] a accès à une fonctionnalité appelée [&
 
 Lorsqu’elle est activée, cette fonctionnalité extrait automatiquement les dépenses de toute campagne/programme CRM qui répond aux critères suivants :
 
-i. [!DNL Marketo Measure] Commencez par vérifier si la campagne/le programme crée des points de contact, à partir d’une [règle de synchronisation de la campagne](/help/channel-tracking-and-setup/custom-campaign-sync.md) correspondante qui a été créée ou d’une [règle de synchronisation du programme](/help/marketo-engage-programs-integration.md) correspondante qui a été créée, ou la [valeur Activer les points de contact de l’acheteur](/help/channel-tracking-and-setup/syncing-offline-campaigns.md) est « Inclure tous les membres de la campagne » ou « Inclure les membres de la campagne « Répondus ».
+i. [!DNL Marketo Measure] d’abord vérifie si la campagne/le programme crée des points de contact, à partir d’une [règle de synchronisation de la campagne](/help/channel-tracking-and-setup/custom-campaign-sync.md) correspondante créée ou d’une [règle de synchronisation du programme](/help/marketo-engage-programs-integration.md) correspondante créée ou de la [valeur Activer les points de contact de l’acheteur](/help/channel-tracking-and-setup/syncing-offline-campaigns.md) qui est « Inclure tous les membres de la campagne » ou « Inclure les membres de la campagne « Répondus ».
 
 ii. Une date de début doit être renseignée sur la campagne/le programme
 

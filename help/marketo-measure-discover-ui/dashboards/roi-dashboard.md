@@ -3,18 +3,21 @@ description: Tableau de bord du RSI - [!DNL Marketo Measure] - Produit
 title: Tableau de bord Retour sur investissement
 feature: Reporting
 exl-id: 878db6e0-3ac7-4f4c-b993-bd7a1cfa0638
-TQID: https://experienceleague.adobe.com/fPjoTK2sNSt8lOg4qePjqJIL8vOPhWy-GK5gQLqeSc4
+TQID: 'https://experienceleague.adobe.com/fPjoTK2sNSt8lOg4qePjqJIL8vOPhWy-GK5gQLqeSc4'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 736
+source-wordcount: '736'
 ht-degree: 3%
-
 ---
-
 # Tableau de bord Retour sur investissement {#roi-dashboard}
 
 Le tableau de bord du retour sur investissement offre aux marketeurs une vue granulaire des retours sur investissement sur l’ensemble des canaux, sous-canaux et campagnes. Il ventile méticuleusement les modèles de coûts et de revenus, tout en mettant en évidence des mesures telles que le coût par lead, les affaires et les opportunités, afin de garantir une compréhension globale de l’attribution marketing.
@@ -134,11 +137,11 @@ Tableau présentant les coûts, les nouveaux prospects, les opportunités et les
 Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 * Date
-   * Basé sur :
-      * Date de création : nouveaux prospects et nouvelles opportunités
-      * Date du coût engagé : coût
-      * Date de clôture : revenus attribués (retour sur investissement simple), offres
-      * Date du point de contact : points de contact du chiffre d’affaires attribué réalisé (RSI réalisé)
+  * Basé sur :
+    * Date de création : nouveaux prospects et nouvelles opportunités
+    * Date du coût engagé : coût
+    * Date de clôture : revenus attribués (retour sur investissement simple), offres
+    * Date du point de contact : points de contact du chiffre d’affaires attribué réalisé (RSI réalisé)
 * Modèle d’attribution
 * Canal, Sous-Canal
 * Campagne

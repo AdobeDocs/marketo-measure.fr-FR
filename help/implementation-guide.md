@@ -1,15 +1,23 @@
 ---
-description: « [!DNL Marketo Measure] Guide de mise en œuvre d’Ultimate - [!DNL Marketo Measure] »
+description: « Guide [!DNL Marketo Measure] mise en œuvre d’Ultimate - [!DNL Marketo Measure] »
 title: Guide de mise en œuvre [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 0c707875-5d05-49b9-b1ff-c3f7b711ebd1
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1126'
 ht-degree: 62%
-
 ---
-
 # Guide de mise en œuvre [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-implementation-guide}
 
 Cet article sert de guide de mise en œuvre de Marketo Measure Ultimate. Il fournit des instructions et des informations claires garantissant une intégration et une utilisation réussies.
@@ -22,7 +30,7 @@ Importer des données B2B via AEP : les marketeurs sont censés importer leurs d
 * Connectez plusieurs instances CRM et/ou MAP à une instance Marketo Measure.
 * Incluez des données d’inscription et de participation à des webinaires tiers.
 
-Les connexions directes au CRM et à Marketo Engage ne sont plus disponibles pour Ultimate.
+Les connexions directes au système GRC et à Marketo Engage ne sont plus disponibles pour l’édition Ultimate.
 
 * Ultimate ne repousse pas les données vers le CRM. La clientèle peut utiliser les données de l’entrepôt de données.
 * Les marketeurs continuent d’importer les données d’Ad Platform par le biais de connexions directes et du suivi des activités web via Marketo Measure JavaScript.
@@ -41,14 +49,14 @@ En savoir plus sur [Marketo Measure Ultimate](/help/migration-from-tier-to-mar
 
 **Schéma XDM = Classe + Groupe de champs de schéma&#42;**
 
-* Les champs obligatoires ne sont pas modifiables. La clientèle peut créer et ajouter des champs personnalisés selon ses attentes.
+* Les champs obligatoires ne sont pas modifiables. Les clients peuvent créer et ajouter des champs personnalisés selon leurs besoins.
 * Exemple de nom de champ basé sur la hiérarchie : accountOrganization.annualRevenue.amount
 
 &#42; _Un schéma comprend une classe et zéro ou plus de zéro groupes de champs de schéma. Cela signifie que vous pouvez composer un schéma de jeu de données sans utiliser de groupes de champs._
 
 ![&42; Un schéma comprend une classe et zéro ou plusieurs champs de schéma](assets/marketo-guide-1.png)
 
-[Présentation des jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview#){target="_blank"} : toutes les données correctement ingérées par AEP sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour une collecte de données, généralement sous la forme de tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
+[Présentation des jeux de données](https://experienceleague.adobe.com/fr/docs/experience-platform/catalog/datasets/overview#){target="_blank"} : toutes les données correctement ingérées par AEP sont conservées sous forme de jeux de données dans le lac de données. Un jeu de données est une structure de stockage et de gestion pour une collection de données, généralement sous la forme d’un tableau, qui contient un schéma (des colonnes) et des champs (des lignes).
 
 ## Créer un schéma {#creating-a-schema}
 
@@ -107,7 +115,7 @@ Pour les personnes qui disposent d’un _&#x200B;**Droit CDP**&#x200B;_ : crée
 Page Sources > Flux de données pour vérifier le statut des flux de données
 
 * Pour afficher les détails d’activité d’un jeu de données, cliquez simplement sur le jeu de données.
-* Pour afficher les erreurs de flux de données, sélectionnez un flux de données, choisissez une exécution de flux de données, puis cliquez sur « Vue d’ensemble des diagnostics d’erreur ».
+* Pour afficher les erreurs de flux de données, sélectionnez un flux de données, choisissez une exécution de flux de données, puis cliquez sur « Aperçu du diagnostic d’erreurs ».
 
 ## Inspection des données {#data-inspection}
 
@@ -119,7 +127,7 @@ Option 2 : [Télécharger et utiliser PSQL](https://experienceleague.adobe.com/d
 
 ## Activer le jeu de données pour Marketo Measure {#activate-dataset-for-marketo-measure}
 
-Avant de commencer, accédez à la section « Experience Platform > Mappage des sandbox » dans les paramètres de l’interface utilisateur de Measure et mappez un sandbox.
+Avant de commencer, accédez à la section « Experience Platform > Mappage de sandbox » dans les paramètres de l’interface utilisateur de Marketo Measure, puis mappez un sandbox.
 
 >[!CAUTION]
 >
@@ -128,14 +136,14 @@ Avant de commencer, accédez à la section « Experience Platform > Mappage d
 1. Dans AEP, accédez à « Destinations > page Marketo Measure » pour exporter des jeux de données.
 1. Configurez la destination.
 1. Activez le jeu de données.
-1. Consultez la page « Statut du compte » dans les paramètres de l’interface utilisateur de Measure pour connaître le statut du flux de données.
+1. Consultez la page « Statut du compte » dans les paramètres de l’interface utilisateur de Marketo Measure pour connaître le statut du flux de données.
 
 >[!NOTE]
 >
 >* Il est recommandé d’inclure un seul jeu de données par flux de données.
 >* Les données d’une entité donnée (par exemple, un compte) provenant d’une source donnée ne peuvent entrer que dans un seul jeu de données. Chaque jeu de données ne peut être inclus que dans un seul flux de données. Les violations arrêtent le flux de données au moment de l’exécution.
->* Supprimez la destination entière dans AEP pour supprimer les données dans Measure. La désactivation arrête les nouvelles exportations de données et conserve les anciennes données.
->* La configuration de Measure sera pour la plupart identique, mais certaines parties, comme le mappage des étapes, auront un aspect différent.
+>* Supprimez l’intégralité de la destination dans AEP afin de supprimer les données dans Marketo Measure. La désactivation arrête les nouvelles exportations de données et conserve les anciennes données.
+>* La configuration de Measure restera globalement la même, mais certaines parties, comme Mappage d’étapes, présenteront des différences.
 >* Quelques heures sont nécessaires pour qu’un nouveau flux de données génère une exécution de flux, ces dernières se produisant à intervalles horaires réguliers.
 
 Dans Measure, la devise par défaut doit être définie dans la section « Devise ».
@@ -174,4 +182,4 @@ Choisissez un jeu de données et sélectionnez les types d’activités.
 * Nous devrons à terme faire correspondre le type de campagne CRM et le canal. Pour l’instant, nous pouvons toutefois mapper le nom du canal aux deux champs comme solution.
 * **Règles de canal : les données renvoyées ne comportent pas de données de transition d’étapes.**
 
-Les paramètres Touchpoint et Segment restent les mêmes.
+Les paramètres des points de contact et des segments restent les mêmes.

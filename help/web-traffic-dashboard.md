@@ -3,14 +3,18 @@ description: Décrit le tableau de bord de trafic web pour les visites, les page
 title: Tableau de bord Trafic web
 feature: Reporting
 exl-id: de6eec0c-9d7c-4cb2-8214-9d0fb41b444d
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 6%
-
 ---
-
 # Tableau de bord Trafic web {#web-traffic-dashboard}
 
 Le tableau de bord de trafic web fournit une vue complète des interactions des visiteurs et visiteuses de votre site. Explorez des mesures telles que le nombre de visiteurs uniques par URL, les visites globales, les pages vues et les envois de formulaires à partir d’URL de formulaires ou de pages de destination spécifiques. Surveillez les tendances mensuelles du trafic et identifiez les médias payants hautement performants, ce qui vous permet d’affiner vos stratégies pour une génération de revenus optimale.

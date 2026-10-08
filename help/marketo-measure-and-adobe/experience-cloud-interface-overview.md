@@ -1,21 +1,25 @@
 ---
-description: Présentation de l’interface Adobe Experience Cloud - [!DNL Marketo Measure]
+description: Présentation De L’Interface Adobe Experience Cloud - [!DNL Marketo Measure]
 title: Vue d’ensemble de l’interface d’Adobe Experience Cloud
 exl-id: 15bd7590-8eb0-46e5-9883-3be11ff58c9e
 feature: Integration, Tracking
-TQID: https://experienceleague.adobe.com/sWShCKtPiGe5MWS09Le1F9a-gbds18qA9Cae0asctfg
+TQID: 'https://experienceleague.adobe.com/sWShCKtPiGe5MWS09Le1F9a-gbds18qA9Cae0asctfg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '304'
 ht-degree: 25%
-
 ---
-
 # Vue d’ensemble de l’interface d’Adobe Experience Cloud {#experience-cloud-interface-overview}
 
-L’interface de Adobe Experience Cloud aligne l’aspect des applications et des services Adobe Experience Cloud. Mais c’est bien plus qu’une nouvelle conception. Il s’agit d’une application monopage qui offre une expérience clientèle dans une seule instance.
+L’interface d’Adobe Experience Cloud aligne l’aspect des applications et services Adobe Experience Cloud. Mais c’est bien plus qu’une nouvelle conception. Il s’agit d’une application monopage qui offre une expérience client au sein d’une seule instance.
 
 ## Flux d’utilisateur et d’utilisatrice {#user-flow}
 
@@ -73,7 +77,7 @@ Les signets sont redirigés. Par exemple, si vous deviez accéder à https://app
 
 **Je ne peux pas me connecter à [!DNL Marketo Measure] via l’interface d’Experience Cloud. Quel pourrait être le problème ?**
 
-Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une page comme celle-ci, le problème peut se situer du côté [!DNL Marketo Measure] :
+Si vous pouvez vous connecter à Adobe Experience Cloud, mais que vous voyez une page comme celle-ci, le problème peut être [!DNL Marketo Measure] :
 
 ![](assets/unified-shell-overview-11.png)
 

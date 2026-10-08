@@ -4,18 +4,21 @@ description: Découvrez Account-Based Marketing (ABM) et comment Adobe Marketo
 title: Vue d’ensemble du marketing basé sur les comptes
 exl-id: 2ead69c0-66da-439d-a0ba-25c73c4b308c
 feature: Account-based Marketing
-TQID: https://experienceleague.adobe.com/iYWfa6eSeqICk5K3p2mVPRf2xt3UybpRFIJxSYzRmAA
+TQID: 'https://experienceleague.adobe.com/iYWfa6eSeqICk5K3p2mVPRf2xt3UybpRFIJxSYzRmAA'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 96ef477f-0ffb-5375-8fca-6d27be6b7c00
+    internal-label: Account-based Marketing
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '844'
 ht-degree: 95%
-
 ---
-
 # Vue d’ensemble du marketing basé sur les comptes {#account-based-marketing-overview}
 
 Les sections suivantes fournissent une brève vue d’ensemble d’ABM, des composants de la fonctionnalité ABM de [!DNL Marketo Measure] et de la manière de l’ajouter à votre disposition de page [!DNL Salesforce]. Pour en savoir plus sur ABM, consultez le [blog ABM](https://business.adobe.com/fr/blog/basics/account-based-marketing){target="_blank"} d’Adobe.
@@ -24,31 +27,31 @@ Pour obtenir des instructions détaillées sur la configuration d’ABM dans vot
 
 ## Présentation d’ABM {#what-is-abm}
 
-Le marketing basé sur les comptes, ou ABM, est une stratégie marketing dans laquelle vous ciblez et vendez à des entreprises et des comptes dans leur ensemble, pas seulement en tant que particuliers. [!DNL Marketo Measure] aide les équipes de marketing et de vente à exécuter des stratégies d’ABM réussies grâce à sa fonctionnalité de mappage prospect>compte et son score d’engagement prédictif.
+Le marketing basé sur les comptes (ABM) est une stratégie marketing qui consiste à cibler et à vendre auprès d’entreprises et de comptes dans leur ensemble, et non pas seulement à des individus. [!DNL Marketo Measure] aide les équipes de marketing et de vente à exécuter des stratégies d’ABM réussies grâce à sa fonctionnalité de mappage prospect>compte et son score d’engagement prédictif.
 
 Pour que notre modèle Account-Based Marketing commence à s’afficher dans votre CRM, [!DNL Marketo Measure] nécessite que les critères suivants soient remplis :
 
-* Votre CRM a besoin d’au moins 25 comptes disposant d’au moins une opportunité gagnée fermée, pour pouvoir mieux évaluer les fonctionnalités communes d’un compte ou d’une opportunité « réussi(e) » pour votre entreprise.
-* D’autre part, votre CRM a besoin d’au moins 25 comptes sans opportunité gagnée fermée (toutes les options doivent être soit dans une catégorie d’étape « Ouverte », soit dans une catégorie « Perdue fermée »), ce qui nous permet d’évaluer ce qui constitue un compte moins intéressant dans votre entreprise.
+* Votre CRM a besoin d’au moins 25 comptes disposant d’au moins une opportunité conclue avec succès (« Closed Won »), afin de mieux identifier les caractéristiques communes d’un compte ou d’une opportunité ayant abouti à une vente.
+* En contrepartie, votre CRM a besoin d’au moins 25 comptes sans aucune opportunité conclue avec succès (« Closed Won »). Toutes les opportunités doivent être soit à une étape appartenant à la catégorie « Open », soit à une étape appartenant à la catégorie « Closed Lost ». Cela nous permet d’identifier les caractéristiques d’un compte moins performant au sein de votre organisation
 
 >[!NOTE]
 >
->Les « mauvais » comptes mentionnés ci-dessus doivent être ouverts pendant au moins 12 mois sans accumuler d’opportunité « Gagnée fermée » ; c’est la ligne directrice de base pour savoir si une opportunité est devenue obsolète et améliorer le modèle.
+>Les « mauvais » comptes mentionnés ci-dessus doivent être ouverts depuis au moins 12 mois sans avoir généré d’opportunité « Closed Won » ; il s’agit de la règle de base pour déterminer si une opportunité est devenue obsolète pour les besoins du modèle.
 
 ## Mappage prospect>compte {#lead-to-account-mapping}
 
-Le mappage prospect>compte est essentiel à l’efficacité de l’approche ABM. Grâce au mappage prospect>compte, les prospects sont regroupés dans le même compte d’entreprise lorsqu’ils s’intéressent à votre marque. Cela vous permet de cibler et de vendre à des personnes d’une même entreprise de manière cohérente. Il n’y a pas d’autre configuration [!DNL Salesforce] nécessaire pour commencer à bénéficier de cette fonctionnalité. Le mappage prospect>compte [!DNL Marketo Measure] dispose de cinq méthodes de correspondance différentes :
+Le mappage des leads aux comptes est un élément crucial d’une approche ABM efficace. Grâce au mappage prospect>compte, les prospects sont regroupés dans le même compte d’entreprise lorsqu’ils s’intéressent à votre marque. Cela vous permet de cibler et de vendre à des personnes d’une même entreprise de manière cohérente. Il n’y a pas d’autre configuration [!DNL Salesforce] nécessaire pour commencer à bénéficier de cette fonctionnalité. Le mappage prospect>compte [!DNL Marketo Measure] dispose de cinq méthodes de correspondance différentes :
 
-* Site web du prospect > site Web du compte
+* Site web du lead > site web du compte
 * Domaine d’adresse e-mail du prospect > domaine du site Web du compte
 * Nom de l’entreprise du prospect > nom du compte
 * Entreprise du prospect > domaine du site Web du compte
-* Site web du lead > Domaine de messagerie des contacts du compte
-* Domaine de messagerie du lead > Domaine de messagerie des contacts du compte
-* Site web du lead > Domaine de messagerie des leads du compte
-* Domaine de messagerie du lead > Domaine de messagerie des leads du compte
+* Site web du lead > domaine d’adresse e-mail des contacts du compte
+* Domaine d’adresse e-mail du lead > domaine d’adresse e-mail des contacts du compte
+* Site web du lead > domaine d’e-mail des leads du compte
+* Domaine d’e-mail du lead > domaine d’e-mail des leads du compte
 
-Les leads/contacts des comptes sont validés par leurs domaines de messagerie/de site web et mis en correspondance avec le domaine ou le sous-domaine de messagerie/de site web du lead. Le compte avec le plus de correspondances est utilisé.
+Les leads et contacts des comptes sont validés en fonction de leurs domaines d’e-mail et de site web, puis mis en correspondance avec le domaine ou le sous-domaine d’e-mail ou de site web du lead. Le compte avec le plus de correspondances est utilisé.
 
 >[!NOTE]
 >
@@ -67,8 +70,8 @@ De nombreux composants entrent dans l’algorithme qui calcule le SEP. La récen
 * Âge moyen des pages vues
 * Nombre de personnes dans le compte
 * Pages importantes spécifiques et s’il y a eu une visite au cours des 30/60/90 derniers jours
-* Si le compte a une transaction perdue/gagnée fermée
-* La probabilité qu’elle soit perdue/gagnée fermée
+* Si le compte comporte une opportunité au statut « Closed Lost » ou « Closed Won ».
+* Probabilité que l’opportunité soit clôturée comme gagnée ou perdue
 
 >[!NOTE]
 >

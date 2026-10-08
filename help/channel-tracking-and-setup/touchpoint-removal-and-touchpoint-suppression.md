@@ -3,13 +3,17 @@ description: Conseils sur la suppression du point de contact et la suppression d
 title: Suppression et retrait des points de contact
 exl-id: 201af648-6525-4a80-a7e5-3cbeeb1670b6
 feature: Touchpoints
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 32d2f1bc-61d0-598c-a8bf-f6fbc8920276
+    internal-label: Touchpoints
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 1%
-
 ---
-
 # Suppression et retrait des points de contact {#touchpoint-removal-and-touchpoint-suppression}
 
 Découvrez comment supprimer ou supprimer de votre CRM des points de contact qui répondent à des critères spécifiques. Cela peut s’avérer utile pour libérer de l’espace de données si vous disposez de limites de stockage de données [!DNL Salesforce].
@@ -64,7 +68,7 @@ Si vous faites une erreur, ne vous inquiétez pas. Vous pouvez également suppri
 
 ![4) Configurez des règles pour les points de contact d’attribution de l’acheteur si vous le souhaitez](assets/touchpoint-settings-8.png)
 
-Pour terminer, [!UICONTROL &#x200B; Enregistrer et traiter &#x200B;] vos règles. Si vous apportez de nombreuses modifications, veillez à les enregistrer au fur et à mesure. [!DNL Marketo Measure] ne commencera pas réellement à supprimer vos points de contact tant que vous n’aurez pas cliqué
+Pour terminer, [!UICONTROL &#x200B; Enregistrer et traiter &#x200B;] vos règles. Si vous apportez de nombreuses modifications, veillez à les enregistrer au fur et à mesure. [!DNL Marketo Measure] ne commencera pas réellement à supprimer vos points de contact avant que vous ne cliquiez
 [!UICONTROL **Enregistrer et traiter**].
 
 | **Opérateur** | **Exemple d’utilisation** |

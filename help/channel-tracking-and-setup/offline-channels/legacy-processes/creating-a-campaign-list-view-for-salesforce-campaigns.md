@@ -1,22 +1,26 @@
 ---
 unique-page-id: 18874718
 description: Création d'une vue Liste de campagnes pour [!DNL Salesforce Campaigns] - [!DNL Marketo Measure]
-title: 'Création d’un affichage des listes des campagnes  [!DNL Salesforce] '
+title: Création d'une vue Liste des campagnes pour les campagnes [!DNL Salesforce]
 exl-id: 8c673ea3-ac24-4b3d-b67d-76888179c07a
 feature: Channels
-TQID: https://experienceleague.adobe.com/MYh66JaJKdgBI7XVxfffWlX9QDg4SqLWDhpsdv1kSG4
+TQID: 'https://experienceleague.adobe.com/MYh66JaJKdgBI7XVxfffWlX9QDg4SqLWDhpsdv1kSG4'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Troubleshooting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 444
-ht-degree: 6%
-
+source-wordcount: '445'
+ht-degree: 4%
 ---
-
 # Création d&#39;une vue Liste des campagnes pour les campagnes [!DNL Salesforce] {#creating-a-campaign-list-view-for-salesforce-campaigns}
 
 Découvrez comment créer une vue Liste pour les campagnes que vous souhaitez synchroniser avec les points de contact de l’acheteur.
@@ -33,7 +37,7 @@ La vue Liste des campagnes qui peut être créée vous permet d’avoir un empla
 
    * **Type** [EST ÉGAL À] &#39;Tous les types de campagne que nous avons mappés à vos canaux hors ligne&#39;. Reportez-vous à votre plan de mise en œuvre ou à l’onglet Canaux hors ligne dans [!DNL Marketo Measure] ([experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"} -> Mon compte -> Paramètres -> Canaux hors ligne). Vous pouvez sélectionner les types de votre choix (ceux qui sont mappés à un canal marketing hors ligne) à l’aide de l’icône en forme de loupe.
 
-      * Choisissez 3 types max pour chaque filtre. Un champ de filtre comporte une limite de caractères. Commencez avec 3 types par filtre et ajoutez des lignes supplémentaires de filtres « Type » si nécessaire.
+     * Choisissez 3 types max pour chaque filtre. Un champ de filtre comporte une limite de caractères. Commencez avec 3 types par filtre et ajoutez des lignes supplémentaires de filtres « Type » si nécessaire.
 
    * **Date de création** [POSTÉRIEURE OU ÉGALE] votre date de début de [!DNL Marketo Measure]. La date de début se trouve dans le tableau de bord du RSI de l’application [!DNL Marketo Measure]. Sélectionnez simplement « Depuis la date de création » dans la période du tiret et votre date de début s’affichera.
    * **&#42;Type d’enregistrement&#42;** - Pour apporter des modifications dans la vue Liste, vous devez ajouter un filtre pour le type d’enregistrement. Chaque enregistrement de campagne que vous pouvez avoir à modifier doit être du même type d’enregistrement.

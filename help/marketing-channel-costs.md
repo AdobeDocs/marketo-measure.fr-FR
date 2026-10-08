@@ -3,14 +3,20 @@ description: Conseils sur les coûts des canaux marketing pour les utilisateurs 
 title: Coûts associés aux canaux marketing
 exl-id: 36ccaff3-db55-47bd-a24e-4aa1894f13e0
 feature: Channels, Spend Management
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+  - id: e3b4b95f-0bb9-5cb3-a479-9dcb943dca3f
+    internal-label: Spend Management
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1333'
 ht-degree: 1%
-
 ---
-
 # Coûts associés aux canaux marketing {#marketing-channel-costs}
 
 L’un des avantages les plus fondamentaux de l’utilisation de [!DNL Marketo Measure] est la possibilité de relier les efforts de marketing directement à l’impact sur le chiffre d’affaires, avec autant de granularité que souhaité. Il est possible de voir le retour sur investissement au niveau du point de contact. Pour tirer parti de cet avantage, les coûts de canal doivent être chargés sur l’application [!DNL Marketo Measure]. Les rapports sur le retour sur investissement sont automatiquement créés et disponibles dans le **tableau de bord du retour sur investissement marketing** dans [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}.

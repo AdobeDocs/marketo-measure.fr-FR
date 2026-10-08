@@ -1,20 +1,25 @@
 ---
 description: Installation et configuration du package [!DNL Marketo Measure] Salesforce - [!DNL Marketo Measure]
-title: '[!DNL Marketo Measure] [!DNL Salesforce] Installation et configuration du package'
+title: Installation et configuration du package [!DNL Marketo Measure] [!DNL Salesforce]
 exl-id: ed58bc1e-cfb0-48db-aa53-96204e12de2e
 feature: Installation, Salesforce
-TQID: https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g
+TQID: 'https://experienceleague.adobe.com/l293WWmVHXGAthQKznwSssgTihMOdpqi4gh58t1fh-g'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
 feature_v2:
   - id: c8f57308-7e33-4e41-a385-b55041c78939
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Integrations
+  - id: 67d582ca-1a88-5ba5-976a-bc6de9597819
+    internal-label: Installation
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: '512'
 ht-degree: 95%
-
 ---
-
 # Installation et configuration du package [!DNL Marketo Measure] pour Salesforce {#marketo-measure-salesforce-package-installation-and-set-up}
 
 Avant d’installer le package de base [!DNL Marketo Measure] [!DNL Salesforce], vous devez déterminer si vous l’installez d’abord dans une instance sandbox de [!DNL Salesforce] avant de passer à votre instance de production.
@@ -43,7 +48,7 @@ Pour installer le package de base [!DNL Marketo Measure Salesforce], suivez les 
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-1.png)
 
-1. Une fois l’installation terminée, vous pouvez la visualiser.
+1. Une fois l’installation terminée, vous pouvez l’afficher.
 
    ![](assets/marketo-measure-salesforce-package-installation-and-set-up-2.png)
 
@@ -66,9 +71,9 @@ Créez un profil [!DNL Marketo Measure] pour vous assurer que vous ne rencontrer
 1. Attribuez-lui les autorisations suivantes :
 
 * « Jeu d’autorisations administrateur [!DNL Marketo Measure] »
-   * Ce jeu d’autorisations géré permet à un administrateur SFDC de créer, lire, écrire et supprimer des enregistrements depuis les objets [!DNL Marketo Measure].
+  * Ce jeu d’autorisations géré permet à un administrateur SFDC de créer, lire, écrire et supprimer des enregistrements depuis les objets [!DNL Marketo Measure].
 * « Jeu d’autorisations d’affichage et de modification des prospects convertis »
-   * Ces autorisations permettent à [!DNL Marketo Measure] de décorer les prospects après leur conversion en contacts. Si ce jeu d’autorisations n’est pas activé, d’importants écarts de suivi des données peuvent survenir.
+  * Ces autorisations permettent à [!DNL Marketo Measure] de décorer les prospects après leur conversion en contacts. Si ce jeu d’autorisations n’est pas activé, d’importants écarts de suivi des données peuvent survenir.
 
 >[!NOTE]
 >
@@ -80,9 +85,9 @@ Créez un profil [!DNL Marketo Measure] pour vous assurer que vous ne rencontrer
 
 1. Activez l’autorisation « Utilisateur marketing » au niveau de l’utilisateur.
 
-* La case à cocher [!UICONTROL Utilisateur marketing] permet à l’utilisateur de créer des campagnes, mais aussi d’utiliser les assistants d’importation de campagne. Si cette case n’est pas cochée, l’utilisateur ou l’utilisatrice peut uniquement afficher les campagnes et leur configuration avancée, modifier leur historique pour un seul prospect ou contact et générer des rapports de campagne. [!DNL Marketo Measure] doit pouvoir lire et écrire vers l’objet de campagne.
+* La case à cocher [!UICONTROL Utilisateur marketing] permet à l’utilisateur de créer des campagnes, mais aussi d’utiliser les assistants d’importation de campagne. Si cette case n’est pas cochée, vous pouvez uniquement afficher les campagnes et leur configuration avancée, modifier l’historique des campagnes pour un seul lead ou contact et générer des rapports de campagne. [!DNL Marketo Measure] doit pouvoir lire et écrire vers l’objet de campagne.
 
-Étape 3 : excluez ce profil de tous les déclencheurs, workflows et processus.
+Étape 3 : Exclure ce profil de tous les déclencheurs, workflows et processus.
 
 Étape 4 : connectez-vous à votre compte [!DNL Marketo Measure] et autorisez à nouveau la connexion [!DNL Salesforce] avec le nouvel utilisateur ou la nouvelle utilisatrice.
 

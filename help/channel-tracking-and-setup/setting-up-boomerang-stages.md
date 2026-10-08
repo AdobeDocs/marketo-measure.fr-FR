@@ -3,26 +3,30 @@ description: Configuration des conseils d’évaluation Boomerang pour les utili
 title: Configuration d’étapes de boomerang
 exl-id: 00dd2826-27a3-462e-a70e-4cec90d07f92
 feature: Boomerang
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 1096bc28-f8ba-5a87-abf9-ad1b68c31f97
+    internal-label: Boomerang
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 5%
-
 ---
-
 # Configuration d’étapes de boomerang {#setting-up-boomerang-stages}
 
 >[!AVAILABILITY]
 >
 >La fonction Boomerang est uniquement activée pour les clients de niveau 2 et 3. Pour demander un niveau de compte supérieur, contactez l’équipe du compte Adobe (votre gestionnaire de compte).
 
-Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez être un administrateur de compte. Vous pouvez également l’activer en contactant le support technique de [Marketo](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Une fois la fonctionnalité activée, suivez ces instructions pour la configurer.
+Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez être un administrateur de compte. Vous pouvez également l’activer en contactant le support technique de [&#128279;](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}. Une fois la fonctionnalité activée, suivez ces instructions pour la configurer.
 
 ## Configuration de l’étape de boomerang {#boomerang-stage-setup}
 
 1. Accédez à [!UICONTROL &#x200B; Mappage d’étape &#x200B;]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
 
-   ![1. Accédez à Mappage d’étape. Sous la colonne intitulée « Boomerang, »](assets/boomerang-stages-18.png)
+   ![1. Accédez à Mappage d’étape. Sous la colonne intitulée « Boomerang,« &#x200B;](assets/boomerang-stages-18.png)
 
 1. Accédez à l’onglet [!UICONTROL Paramètres d’attribution] et saisissez le nombre de points de contact pour chaque étape que vous souhaitez voir. Nous autorisons un maximum de 10. La valeur par défaut est définie sur 1.
 
@@ -38,7 +42,7 @@ Pour activer les étapes [!UICONTROL Boomerang] pour votre compte, vous devez ê
 
 1. Accédez à [!UICONTROL &#x200B; Mappage d’étape &#x200B;]. Sous la colonne intitulée « [!UICONTROL Boomerang] », cochez les cases en regard des étapes que vous souhaitez suivre.
 
-   ![1. Accédez à Mappage d’étape. Sous la colonne intitulée « Boomerang, »](assets/boomerang-stages-20.png)
+   ![1. Accédez à Mappage d’étape. Sous la colonne intitulée « Boomerang,« &#x200B;](assets/boomerang-stages-20.png)
 
 1. Si vous souhaitez également que ces étapes de boomerang soient incluses dans votre modèle personnalisé et reçoivent un crédit d’attribution, veillez également à sélectionner la case sous la colonne « [!UICONTROL Modèle personnalisé] ».
 

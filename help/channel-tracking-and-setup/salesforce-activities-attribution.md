@@ -3,13 +3,22 @@ description: Conseils d’attribution des activités Salesforce pour les utilisa
 title: Attribution des activités Salesforce
 exl-id: 1dc6f15b-2a45-4ed3-9fa3-5267366d1f45
 feature: Attribution, Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
-
 ---
-
 # Attribution des activités Salesforce {#salesforce-activities-attribution}
 
 L’intégration des activités [!DNL Marketo Measure] Salesforce intègre des enregistrements de tâches et d’événements spécifiques à votre modèle d’attribution. Commencez à suivre des éléments tels que les e-mails de vente ou les appels téléphoniques de vente qui ne recevaient pas le crédit dû. Pour configurer votre règle d’activités, accédez à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"}. De là, accédez à l’onglet **[!UICONTROL Paramètres]** et cliquez sur l’onglet **[!UICONTROL Activités]**.
@@ -23,11 +32,11 @@ Vous allez utiliser ce nom de campagne [!DNL Marketo Measure] pour nous indiquer
 Familiarisez-vous avec cette hiérarchie :
 
 * Canal
-   * Sous-canal
-      * Campagne
-      * Campagne
-   * Sous-canal
-      * Campagne
+  * Sous-canal
+    * Campagne
+    * Campagne
+  * Sous-canal
+    * Campagne
 
 >[!TIP]
 >

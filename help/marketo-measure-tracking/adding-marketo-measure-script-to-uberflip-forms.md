@@ -1,15 +1,19 @@
 ---
-description: Ajout  [!DNL Marketo Measure]  script à [!DNL Uberflip] Forms conseils pour les utilisateurs de Marketo Measure
-title: Ajout  [!DNL Marketo Measure]  script à  [!DNL Uberflip] Forms
+description: Ajout d’[!DNL Marketo Measure] Script aux conseils [!DNL Uberflip] Forms pour les utilisateurs de Marketo Measure
+title: Ajout d’[!DNL Marketo Measure] script à [!DNL Uberflip] Forms
 exl-id: fb123e15-523d-4931-b4c1-705fe49be3d0
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '221'
 ht-degree: 0%
-
 ---
-
 # Ajout d’[!DNL Marketo Measure] script à [!DNL Uberflip] Forms {#adding-marketo-measure-script-to-uberflip-forms}
 
 Si vous utilisez actuellement [!DNL Uberflip] pour gérer votre contenu, il est important de prendre les mesures nécessaires pour vous assurer que [!DNL Marketo Measure] effectue le suivi de ces envois de formulaire. Votre Responsable Succès chez [!DNL Uberflip] devrait également pouvoir vous aider à cet égard.

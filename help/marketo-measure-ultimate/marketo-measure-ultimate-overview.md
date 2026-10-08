@@ -3,22 +3,33 @@ description: Présentation d’[!DNL Marketo Measure] Ultimate - [!DNL Marketo M
 title: Vue d’ensemble de [!DNL Marketo Measure] Ultimate
 exl-id: fada9479-0671-4698-8043-c67d7977577b
 feature: Integration, Tracking, Attribution
-TQID: https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M
+TQID: 'https://experienceleague.adobe.com/r69OlOPP6-xtu34YVk7FfAiwdGgvoPpbs9TcM4N609M'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+    internal-label: Customer engagement
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 726
+source-wordcount: '726'
 ht-degree: 97%
-
 ---
-
 # Vue d’ensemble de [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-overview}
 
 [!DNL Marketo Measure] (anciennement Bizible) permet aux spécialistes du marketing d’identifier les actions marketing les plus efficaces pour générer des revenus et optimiser le retour sur investissement pour leur entreprise. [!DNL Marketo Measure] est une solution d’attribution marketing qui effectue automatiquement le suivi et la création de rapports sur les performances des canaux, ce qui vous permet d’identifier ceux qui génèrent le plus d’engagement client et d’optimiser ainsi vos dépenses.
@@ -26,9 +37,9 @@ ht-degree: 97%
 [!DNL Marketo Measure Ultimate] inclut les fonctionnalités supplémentaires suivantes :
 
 * Ingérez des données de presque toutes les sources de données, ainsi que de plusieurs sources de données du même type, afin d’importer toutes vos données pour l’attribution.
-   * Utilisez-le avec presque tous les CRM, pas uniquement Salesforce et Dynamics.
-   * Connectez plusieurs instances CRM et/ou MAP à une instance [!DNL Marketo Measure].
-   * Incluez des données d’inscription et de participation à des webinaires tiers.
+  * Utilisez-le avec presque tous les CRM, pas uniquement Salesforce et Dynamics.
+  * Connectez plusieurs instances CRM et/ou MAP à une instance [!DNL Marketo Measure].
+  * Incluez des données d’inscription et de participation à des webinaires tiers.
 
 * Transformez vos données de manière flexible grâce aux fonctionnalités de mappage de champs et de transformation afin de garantir la bonne forme des données.
 
@@ -48,7 +59,7 @@ Niveaux 1 à 3 **[!DNL Marketo Measure]**
 
 **Import de données B2B via AEP**
 
-Les personnes spécialisées dans le marketing sont censées importer leurs données B2B (par exemple, Compte, Opportunité, Contact, Prospect, Campagne, Personne membre de campagne, Activité) via AEP. Les connexions directes au CRM et à Marketo Engage ne sont plus disponibles pour Ultimate. Les personnes spécialisées dans le marketing continueront d’importer les données de la plateforme publicitaire par le biais de connexions directes et d’effectuer le suivi des activités web par le biais du code JavaScript [!DNL Marketo Measure].
+Les responsables marketing doivent importer leurs données B2B (par exemple, Compte, Opportunité, Contact, Lead, Campagne, Membre de campagne, Activité) via AEP. Les connexions directes au CRM et à Marketo Engage ne sont plus disponibles pour Ultimate. Les personnes spécialisées dans le marketing continueront d’importer les données de la plateforme publicitaire par le biais de connexions directes et d’effectuer le suivi des activités web par le biais du code JavaScript [!DNL Marketo Measure].
 
 ![](assets/marketo-measure-ultimate-overview-3.png)
 
@@ -90,16 +101,16 @@ Les sections Perdu, Gagné et Converti n’autorisent pas les étapes personnali
 Les étapes personnalisées ne peuvent être définies que pour les sections Ouvert.
 Nous n’incluons plus automatiquement les étapes CRM lors du mappage d’étapes.
 
-Quatre étapes intégrées doivent être mappées à des règles (les règles de mappage des deux autres, Prospect perdu et Prospect converti, sont facultatives) :
+Quatre étapes intégrées doivent être associées à des règles (les règles de mappage des deux autres, Lead Lost et Lead Converted, sont facultatives) :
 
 * Prospect ouvert
 * Opportunité perdue
 * Opportunité ouverte
 * Opportunité gagnée
 
-Les conditions de règle sont spécifiques à un jeu de données. Les règles de mappage d’étapes doivent être créées pour tous les jeux de données et toutes les étapes, à l’exception de Pospect perdu et de Prospect converti.
+Les conditions de règle sont spécifiques à un jeu de données. Les règles de mappage d’étapes doivent être créées pour l’ensemble des jeux de données et des étapes, à l’exception de Lead Lost et de Lead Converted.
 
-Aucune sélection pour les modèles en entonnoir, en boomerang ou personnalisé. Toutes les étapes sont sélectionnées pour les modèles en entonnoir, en boomerang et personnalisé. Le nombre d’étapes que nous prenons en charge est limité : 15 étapes personnalisées plus 6 étapes intégrées.
+Aucune sélection entre les modèles Funnel, Boomerang et personnalisé. Toutes les étapes sont sélectionnées pour les modèles Funnel, Boomerang et personnalisé. Le nombre d’étapes que nous prenons en charge est limité : 15 étapes personnalisées plus 6 étapes intégrées.
 
 ![](assets/marketo-measure-ultimate-overview-6.png)
 
@@ -116,7 +127,7 @@ Les services ML ABM [!DNL Marketo Measure] (mappage prospect>compte et score d�
 ## Limites {#limitations}
 
 * Les champs disponibles pour les règles de transformation des données sont limités.
-* Il n’existe aucun chemin de migration pour les utilisateurs et utilisatrices de niveau 1/2/3 existants. Nécessite une nouvelle implémentation, mais nous aidons à migrer les données d’activité web suivies à partir de l’instance existante.
+* Il n’existe aucun chemin de migration pour les utilisateurs et utilisatrices de niveau 1/2/3 existants. Cela nécessite une nouvelle implémentation, mais nous vous aidons à migrer les données d’activité web suivies depuis l’instance existante.
 
 >[!MORELIKETHIS]
 >

@@ -3,13 +3,17 @@ description: Conseils de gestion des formulaires AJAX pour les utilisateurs de M
 title: Gestion des formulaires AJAX
 exl-id: 042e42ff-d8d9-4380-b878-aba4934bc4a0
 feature: Tracking
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 1%
-
 ---
-
 # Gestion des formulaires AJAX {#ajax-form-handling}
 
 Pour signaler manuellement des conversions de clients à [!DNL Marketo Measure], vous pouvez utiliser une API simple. Ces deux API JavaScript sont automatiquement disponibles sur votre site, si vous y avez ajouté du code de suivi. Pas besoin de faire quoi que ce soit de spécial pour y accéder.

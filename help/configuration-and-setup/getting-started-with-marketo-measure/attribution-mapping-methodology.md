@@ -4,16 +4,18 @@ description: Méthodologie de mappage d’attribution - [!DNL Marketo Measure]
 title: Méthodologie de mappage pour les attributions
 exl-id: 4d54dd20-9a82-4b87-8908-ced2bd9c0f2f
 feature: Attribution
-TQID: https://experienceleague.adobe.com/VMGKAlL-YsHK20a6Wv4zbSejz4yXAH4gGMyhjkf9KyM
+TQID: 'https://experienceleague.adobe.com/VMGKAlL-YsHK20a6Wv4zbSejz4yXAH4gGMyhjkf9KyM'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 612
+source-wordcount: '612'
 ht-degree: 0%
-
 ---
-
 # Méthodologie de mappage pour les attributions {#attribution-mapping-methodology}
 
 La méthodologie de mappage d’attribution est le processus de recherche de certains objets dans votre CRM (contacts, opportunités, comptes) pour créer des points de contact d’attribution dans l’opportunité associée. En d’autres termes, il s’agit du [!DNL Marketo Measure] moyen de comprendre les points de contact à inclure dans le modèle d’attribution en fonction des processus de votre CRM actuel.

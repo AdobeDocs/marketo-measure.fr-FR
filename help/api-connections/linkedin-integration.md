@@ -3,13 +3,19 @@ description: Conseils d’intégration LinkedIn pour les utilisateurs de Marketo
 title: Intégration LinkedIn
 exl-id: 705209ef-1ece-496c-ac2f-6a31055bd993
 feature: APIs, Integration
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '2778'
 ht-degree: 2%
-
 ---
-
 # Intégration LinkedIn {#linkedin-integration}
 
 ## Vue d’ensemble {#overview}
@@ -95,7 +101,7 @@ Dès qu’un partage est partagé entre plusieurs contenus publicitaires, [!DNL 
 
 La raison de cette étape supplémentaire est que LinkedIn permet aux URL de destination d’être une URL raccourcie (bit.ly, goog.le, etc.), ce qui signifie que [!DNL Marketo Measure] ne voit pas l’URL longue résolue et que [!DNL Marketo Measure] doit ajouter des paramètres de suivi à une URL résolue. Pour contourner ce problème, [!DNL Marketo Measure] recherche des URL raccourcies avant de recréer une publicité, développe l’URL, puis crée la nouvelle publicité avec l’URL résolue et tous ses paramètres, ce qui [!DNL Marketo Measure] permet d’ajouter des balises. La création d’une nouvelle publicité effacera l’historique des publicités (impressions, clics, partages), d’où la nécessité d’obtenir des autorisations pour baliser les URL raccourcies.
 
-Utiliser énormément d’URL abrégées peut avoir des conséquences sur vos contenus publicitaires. Nous vous recommandons de ne plus utiliser d’URL raccourcies afin que [!DNL Marketo Measure] puissiez baliser les pages de destination sans avoir à créer de nouvelles annonces et à effacer l’historique des annonces.
+Si vous utilisez massivement des URL raccourcies, cela peut avoir un impact considérable sur vos créations publicitaires. Nous vous recommandons de ne plus utiliser d’URL raccourcies afin que [!DNL Marketo Measure] puissiez baliser les pages de destination sans avoir à créer de nouvelles annonces et à effacer l’historique des annonces.
 
 ### Le Processus
 

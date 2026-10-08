@@ -3,14 +3,20 @@ description: Conseils sur les plateformes de publicité intégrées pour les uti
 title: Plateformes publicitaires intégrées
 exl-id: df30ee8a-8b07-4f14-94e8-cc482fca8b18
 feature: APIs, Integration
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: fb43f4c1-87d9-4081-8df1-6fe7e6e5cdc8
+    internal-label: APIs
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '1853'
 ht-degree: 1%
-
 ---
-
 # Plateformes publicitaires intégrées {#integrated-ad-platforms}
 
 [!DNL Marketo Measure] dispose de connexions d’API avec Google AdWords, Microsoft BingAds, [!DNL Facebook] Ads et DoubleClick Campaign Manager. Grâce à ces connexions d’API, [!DNL Marketo Measure] peut facilement extraire des données et les transmettre à votre CRM avec l’application cliente externe. Aucun chargement manuel des coûts ou des données n’est nécessaire. Vos comptes doivent simplement être connectés et autorisés à l’application [!DNL Marketo Measure]. [!DNL Marketo Measure] téléchargera alors automatiquement vos coûts de marketing sur les plateformes et les chargera dans l&#39;application [!DNL Marketo Measure]. Si vous choisissez d’activer le balisage automatique pour les publicités AdWords, BingAds ou [!DNL Facebook], [!DNL Marketo Measure] ajoutez automatiquement ses paramètres aux URL de vos publicités.
@@ -45,8 +51,8 @@ Le modèle de suivi est un outil fourni par Google pour ajouter ce qu’il appel
 * *Option B* : redirection tierce trouvée. Si une redirection tierce est trouvée dans le modèle de suivi, [!DNL Marketo Measure] ne pouvez effectuer aucune action. Vous devrez ajouter manuellement les balises [!DNL Marketo Measure] au système tiers. Un exemple de redirection tierce serait un outil de gestion des soumissions comme Kenshoo ou Marin. En savoir plus sur l&#39;impact des [&#x200B; outils de gestion des enchères  [!DNL Marketo Measure]](/help/api-connections/how-bid-management-tools-affect-marketo-measure.md){target="_blank"}.
 
 * *Option C* : aucun modèle de suivi n&#39;a été trouvé. [!DNL Marketo Measure] analysera toutes vos URL de destination publicitaire pour les paramètres [!DNL Marketo Measure]. Selon l’analyse, si :
-   * Paramètres trouvés : la configuration est terminée.
-   * Paramètres introuvables : [!DNL Marketo Measure] ajoutera ses paramètres à la fin des URL de destination publicitaire. [!DNL Marketo Measure] ajoute de nouvelles annonces dans les deux heures suivant leur création. Gardez à l’esprit que les paramètres ne seront pas ajoutés à un modèle.
+  * Paramètres trouvés : la configuration est terminée.
+  * Paramètres introuvables : [!DNL Marketo Measure] ajoutera ses paramètres à la fin des URL de destination publicitaire. [!DNL Marketo Measure] ajoute de nouvelles annonces dans les deux heures suivant leur création. Gardez à l’esprit que les paramètres ne seront pas ajoutés à un modèle.
 
 En savoir plus sur notre [[!DNL AdWords]  fonctionnalité de balisage automatique &#x200B;](/help/api-connections/understanding-marketo-measure-adwords-tagging.md){target="_blank"}.
 

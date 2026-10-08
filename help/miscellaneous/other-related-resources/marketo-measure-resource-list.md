@@ -4,19 +4,23 @@ description: Liste des ressources [!DNL Marketo Measure] - [!DNL Marketo Measure
 title: Liste des ressources [!DNL Marketo Measure]
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-TQID: https://experienceleague.adobe.com/oY2h-o6vE-X-TcsklCmmKitANBYszLt7SSBWbAmy1lU
+TQID: 'https://experienceleague.adobe.com/oY2h-o6vE-X-TcsklCmmKitANBYszLt7SSBWbAmy1lU'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Troubleshooting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 341
+source-wordcount: '341'
 ht-degree: 6%
-
 ---
-
 # Liste des ressources [!DNL Marketo Measure] {#marketo-measure-resource-list}
 
 Voici différents liens vers des articles/vidéos pertinents pour vous aider à maîtriser [!DNL Marketo Measure] !
@@ -33,13 +37,13 @@ Voici différents liens vers des articles/vidéos pertinents pour vous aider à 
 * [Configuration Du Canal Marketing, Bonne Pratique](/help/channel-tracking-and-setup/online-channels/marketing-channels-and-subchannels.md)
 * [Configuration du canal en ligne](/help/channel-tracking-and-setup/online-channels/online-custom-channel-setup.md)
 * [Configuration du canal hors ligne](/help/channel-tracking-and-setup/offline-channels/offline-custom-channel-setup.md)
-* [Fonctionnement des paramètres UTM](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
+* [Que sont les paramètres UTM ?](/help/channel-tracking-and-setup/online-channels/utm-parameters.md)
 * [Bonnes pratiques UTM](/help/channel-tracking-and-setup/online-channels/best-practices-for-setting-up-utm-parameters.md)
 * [Synchronisation des campagnes SFDC avec les points de contact de l’acheteur](/help/channel-tracking-and-setup/offline-channels/legacy-processes/campaigns-and-campaign-members.md)
 * [Chargement des dépenses marketing](/help/marketing-spend/spend-management/marketing-channel-costs.md#uploading-marketing-costs)
 * [Reconnecter les comptes publicitaires](/help/api-connections/utilizing-marketo-measures-api-connections/reauthorizing-connected-accounts.md)
 * [Ajout de  [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/setting-up-tracking/adding-marketo-measure-script.md)
-   * [Exclure Forms](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
+  * [Exclure Forms](/help/marketo-measure-tracking/setting-up-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **Créer des rapports**
 

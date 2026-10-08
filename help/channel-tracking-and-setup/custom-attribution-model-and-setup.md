@@ -1,16 +1,22 @@
 ---
 description: Modèle d’attribution personnalisé et conseils de configuration pour les utilisateurs de Marketo Measure
-title: Configuration et modèle et d’attribution personnalisés
+title: Modèle d’attribution personnalisé et configuration
 exl-id: 7b156db2-9ac6-4d32-ac67-06c0aa15d651
 feature: Attribution, Custom Models
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 1%
-
 ---
-
-# Configuration et modèle et d’attribution personnalisés {#custom-attribution-model-and-setup}
+# Modèle d’attribution personnalisé et configuration {#custom-attribution-model-and-setup}
 
 Consultez ci-dessous un aperçu du modèle d’attribution personnalisé [!DNL Marketo Measure] et de sa configuration.
 
@@ -24,7 +30,7 @@ Le modèle d’attribution personnalisé [!DNL Marketo Measure] permet aux utili
 
    Pour commencer à créer votre modèle d’attribution personnalisé, vous devez sélectionner les étapes importantes pour votre équipe marketing. Outre les étapes jalonnées [!DNL Marketo Measure] (FT, LC, OC, Fermée), vous pouvez ajouter jusqu’à six statuts lead/contact ou étapes d’opportunité supplémentaires dans votre modèle personnalisé. Par exemple, il est courant que l’étape MQL soit incluse dans le modèle personnalisé. Les équipes marketing veulent souvent savoir quels efforts ou canaux génèrent des transitions vers l’étape MQL.
 
-   Se connecter à [experience.adobe.com/marketo-measure](https://experience.adobe.com/marketo-measure){target="_blank"}. Accédez à [!UICONTROL Mon compte] > [!UICONTROL Paramètres] et sous la section CRM, sélectionnez **[!UICONTROL Mappage d’étape]**.
+   Se connecter à [&#128279;](https://experience.adobe.com/marketo-measure){target="_blank"}. Accédez à [!UICONTROL Mon compte] > [!UICONTROL Paramètres] et sous la section CRM, sélectionnez **[!UICONTROL Mappage d’étape]**.
 
    Sélectionnez ensuite les leads/contacts et les étapes d’opportunité à inclure en cochant la case **[!UICONTROL Inclure dans le modèle]**.
 

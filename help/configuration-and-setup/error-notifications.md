@@ -3,13 +3,17 @@ description: Conseils relatifs aux notifications d’erreur destinés aux utilis
 title: Notifications d’erreur
 feature: Fundamentals
 exl-id: ed07eed6-ddeb-4856-a1ac-ea3d571283f6
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1944'
 ht-degree: 26%
-
 ---
-
 # Notifications d’erreur {#error-notifications}
 
 Vous trouverez ci-dessous une liste des erreurs que vous pouvez recevoir par notification in-app ou e-mail. Si vous recevez l’un de ces messages, suivez les étapes de dépannage correspondantes. Si ces étapes ne résolvent pas le problème, contactez le [Support de Marketo](https://nation.marketo.com/t5/support/ct-p/Support).
@@ -28,14 +32,14 @@ Pour afficher l’intégralité du message de notification dans [!DNL Marketo Me
     </tr>
     <tr>
       <td>API_DISABLED</td>
-      <td>Une erreur s’est produite lors de l’import de CRM : API_DISABLED. Les appels API ont été désactivés pour cet utilisateur ou cette utilisatrice.</td>
+      <td>Une erreur s’est produite lors de l’import GRC : API_DISABLED : les appels API ont été désactivés pour cette personne.</td>
       <td>L’autorisation d’API a été désactivée pour l’utilisateur ou l’utilisatrice de Marketo Measure.</td>
       <td>Reportez-vous à la documentation Salesforce suivante pour savoir <a href="https://help.salesforce.com/s/articleView?language=en_US&id=sf.branded_apps_commun_api_permset.htm&type=5">comment activer l’accès aux API</a>.</td>
     </tr>
     <tr>
       <td>API_LIMIT_EXCEEDED</td>
-      <td>Une erreur s’est produite lors de l’export CRM : PI_LIMIT_EXCEEDED</td>
-      <td>La limite de l’API de CRM a été dépassée (24 heures).</td>
+      <td>Une erreur s’est produite lors de l’import GRC : PI_LIMIT_EXCEEDED</td>
+      <td>La limite de l’API de gestion de la relation client (GRC) a été dépassée (24 heures).</td>
       <td>Pour obtenir de l’aide sur l’ajustement des allocations de crédit de l’API, reportez-vous à la documentation suivante pour votre CRM :</p>
           <ul>
             <li><a href="https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/service-protection-monitoring">Dynamics</a>
@@ -43,7 +47,7 @@ Pour afficher l’intégralité du message de notification dans [!DNL Marketo Me
             <li><a href="https://developer.salesforce.com/docs/atlas.en-us.salesforce_app_limits_cheatsheet.meta/salesforce_app_limits_cheatsheet/salesforce_app_limits_platform_api.htm">Salesforce</a>
             </li>
           </ul>
-          <p>Vous pouvez également ajuster les crédits CRM utilisés par Marketo Measure en procédant comme suit :</p>
+          <p>Vous pouvez également ajuster les crédits GRC utilisés par Marketo Measure en procédant comme suit :</p>
           <ul>
             <li>Accédez à <b>Paramètres</b> &gt; <b>CRM</b> &gt; <b>Général</b>.</li>
             <li>Mettre à jour la limite quotidienne de l’API CRM<br/>
@@ -163,9 +167,9 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
     </tr>
     <tr>
       <td>INVALID_CURRENCY_ISO_CODE</td>
-      <td>Une erreur s’est produite lors de l’import de l’annonce publicitaire : INVALID_CURRENCY_ISO_CODE. La devise XXX n’est pas prise en charge par Marketo Measure.
+      <td>Une erreur s’est produite lors de l’import de l’annonce publicitaire : INVALID_CURRENCY_ISO_CODE : la devise XXX n’est pas prise en charge par Marketo Measure.
       <p>
-      Une erreur s’est produite lors de l’import de l’annonce publicitaire : INVALID_CURRENCY_ISO_CODE. La devise XXX sur le compte 1234 n’est pas prise en charge par Marketo Measure.</td>
+      Une erreur s’est produite lors de l’import de l’annonce publicitaire : INVALID_CURRENCY_ISO_CODE : la devise XXX sur le compte 1234 n’est pas prise en charge par Marketo Measure.</td>
       <td>Une devise n’est pas prise en charge.</td>
       <td>Dans le système source indiqué dans la notification (Ad, Crm, Marketo), la devise associée à l’enregistrement est prise en charge et valide. Les devises prises en charge sont dérivées des normes de devise ISO.</td>
     </tr>
@@ -178,7 +182,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
     <tr>
       <td>MISSING_CONVERTED_LEAD_PERMISSION</td>
       <td>Une erreur s’est produite lors de l’export CRM : MISSING_CONVERTED_LEAD_PERMISSION.</td>
-      <td>Marketo Measure ne dispose pas de l’autorisation Afficher/Modifier les prospects convertis.</td>
+      <td>Marketo Measure ne dispose pas de l’autorisation « Afficher/Modifier les leads convertis ».</td>
       <td>Consultez le document Experience League suivant pour obtenir de l’aide sur l’activation de cette autorisation dans votre CRM<br/>
           <a href="/help/marketo-measure-salesforce-reporting/enabling-the-permission-to-edit-converted-leads.md">Activation de l’autorisation de modification des prospects convertis</a></td>
     </tr>
@@ -198,7 +202,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
     </tr>
     <tr>
       <td>MISSING_ISREPLICATEABLE_PERMISSION</td>
-      <td>Une erreur s’est produite lors de l’import CRM : MISSING_ISREPLICATEABLE_PERMISSION. L’autorisation IsReplicable est manquante dans la campagne.</td>
+      <td>Une erreur s’est produite lors de l’import GRC : MISSING_ISREPLICATEABLE_PERMISSION. L’autorisation IsReplicable est manquante dans la campagne.</td>
       <td>Cette autorisation est requise sur les objets Salesforce pour que nous puissions maintenir la synchronisation entre Marketo Measure et Salesforce.</td>
       <td>Contactez l’assistance Salesforce pour obtenir de l’aide sur l’autorisation de réplication des objets.</td>
     </tr>
@@ -236,7 +240,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
       <td>NULL_EMPTY_CURRENCY_ISO_CODE</td>
       <td>
         <p>
-          Une erreur s’est produite lors de l’import CRM : NULL_EMPTY_CURRENCY_ISO_CODE. Le code ISO de devise est NULL ou vide lorsque MultiCurrency est activé pour RecordId 1234.
+          Une erreur s’est produite lors de l’import GRC : NULL_EMPTY_CURRENCY_ISO_CODE. Le code ISO de devise est NULL ou vide lorsque MultiCurrency est activé pour RecordId 1234.
       </td>
       <td>La devise doit être un code de devise ISO pris en charge.</td>
       <td>Dans le système source indiqué dans la notification (Ad, Crm, Marketo), la devise associée à l’enregistrement est prise en charge et valide. Les devises prises en charge sont dérivées des normes de devise ISO.</td>
@@ -244,7 +248,7 @@ La documentation de Salesforce sur les déclencheurs de flux <a href="https://ad
     <tr>
       <td>OPERATION_TOO_LARGE</td>
       <td>Une erreur s’est produite lors de l’import CRM : OPERATION_TOO_LARGE. Nous avons besoin de l’autorisation « Afficher toutes les données » pour interroger les activités avec succès.</td>
-      <td>Les paramètres de CRM ne permettent pas à Marketo Measure d’interroger un ensemble de données suffisamment volumineux.</td>
+      <td>Les paramètres de la gestion de la relation client (GRC) ne permettent pas à Marketo Measure d’interroger un ensemble de données suffisamment volumineux.</td>
       <td>Accordez des autorisations « Afficher toutes les données » à Marketo Measure sur l’objet désigné.
       <p>
       Vous trouverez plus d’informations sur l’autorisation « Afficher toutes les données » <a href="https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/users_profiles_view_all_mod_all.htm">ici</a>.</td>

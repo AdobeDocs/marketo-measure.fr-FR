@@ -3,13 +3,17 @@ description: Conseils sur les bonnes pratiques pour les canaux hors ligne destin
 title: Bonnes pratiques pour les canaux hors ligne
 exl-id: 71c50614-8d5b-469f-bc02-3cc489464a4e
 feature: Channels
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 60acc924-ea94-5885-b419-e793b9682efd
+    internal-label: Channels
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1072'
 ht-degree: 4%
-
 ---
-
 
 # Bonnes pratiques pour les canaux hors ligne {#best-practices-for-offline-channels}
 
@@ -33,24 +37,24 @@ La valeur « Canal marketing » pour ces points de contact est basée sur le cha
 Que vous mappiez vos canaux hors ligne pour la première fois ou que vous les examiniez simplement pour vérifier leur précision, gardez à l’esprit les bonnes pratiques suivantes.
 
 * Créer un cadre délibéré pour vos canaux hors ligne
-   * Prenez le temps de réfléchir à l’organisation de vos campagnes marketing et à la manière dont elles s’inscrivent dans le framework [!DNL Marketo Measure]. Déterminez quels canaux et sous-canaux doivent être représentés dans vos canaux hors ligne et quels types de campagnes CRM différencient ces canaux les uns des autres
+  * Prenez le temps de réfléchir à l’organisation de vos campagnes marketing et à la manière dont elles s’inscrivent dans le framework [!DNL Marketo Measure]. Déterminez quels canaux et sous-canaux doivent être représentés dans vos canaux hors ligne et quels types de campagnes CRM différencient ces canaux les uns des autres
 * Tâchez d’utiliser d’abord vos valeurs « Type » de campagne CRM actuelle.
-   * Les canaux hors ligne sont définis par le « type » de campagne CRM, mais il se peut que la valeur « type » de campagne CRM personnalisée doive être créée pour s’adapter aux valeurs idéales de canal et de sous-canal hors ligne. Dans l’idéal, les valeurs « Type » de campagne CRM personnalisée doivent respecter la convention de nommage présentée ci-dessous :
-      * CANAL - SOUS-CANAL
-      * Exemple : Événement - Salon professionnel
-      * Cela permet de s’assurer que le mappage au niveau du sous-canal est aussi facile et propre que possible
+  * Les canaux hors ligne sont définis par le « type » de campagne CRM, mais il se peut que la valeur « type » de campagne CRM personnalisée doive être créée pour s’adapter aux valeurs idéales de canal et de sous-canal hors ligne. Dans l’idéal, les valeurs « Type » de campagne CRM personnalisée doivent respecter la convention de nommage présentée ci-dessous :
+    * CANAL - SOUS-CANAL
+    * Exemple : Événement - Salon professionnel
+    * Cela permet de s’assurer que le mappage au niveau du sous-canal est aussi facile et propre que possible
 * Un seul sous-canal ne peut être mappé qu’à un seul « type » de campagne CRM
-   * Plusieurs « types » de campagne CRM peuvent être mappés à un seul canal, mais un seul « type » de campagne CRM peut être mappé à chaque sous-canal dans chaque canal
+  * Plusieurs « types » de campagne CRM peuvent être mappés à un seul canal, mais un seul « type » de campagne CRM peut être mappé à chaque sous-canal dans chaque canal
 * Seuls les « types » de campagne CRM HORS LIGNE doivent être mappés aux canaux hors ligne, car seules les campagnes hors ligne doivent être synchronisées avec [!DNL Marketo Measure] pour créer des points de contact :
-   * Les « types » de campagne CRM EN LIGNE doivent être mappés à un [!UICONTROL canal marketing] = « NULL ». Cette valeur est recommandée, car elle agit comme un « indicateur rouge » qui indique que vos canaux hors ligne ont été examinés et qu’un « Type » de campagne CRM mappé à « NULL » est un « Type » ONLINE et ne doit pas être synchronisé avec [!DNL Marketo Measure]. Les points de contact liés aux « types » de campagnes CRM en ligne seraient déjà suivis via [!DNL Marketo Measure] fonctionnalité et les canaux en ligne. La synchronisation de ces campagnes risque de générer des points de contact « dupliqués » ou un double comptage
+  * Les « types » de campagne CRM EN LIGNE doivent être mappés à un [!UICONTROL canal marketing] = « NULL ». Cette valeur est recommandée, car elle agit comme un « indicateur rouge » qui indique que vos canaux hors ligne ont été examinés et qu’un « Type » de campagne CRM mappé à « NULL » est un « Type » ONLINE et ne doit pas être synchronisé avec [!DNL Marketo Measure]. Les points de contact liés aux « types » de campagnes CRM en ligne seraient déjà suivis via [!DNL Marketo Measure] fonctionnalité et les canaux en ligne. La synchronisation de ces campagnes risque de générer des points de contact « dupliqués » ou un double comptage
 
-## Bonne pratique | Synchronisation de la campagne hors ligne {#best-practice-offline-campaign-sync}
+## Bonne pratique | Synchronisation de campagne hors ligne {#best-practice-offline-campaign-sync}
 
 * Vérifiez que le champ &#39;Type&#39; est correct sur chaque campagne CRM
-   * « Type » détermine le canal et le sous-canal marketing pour tous les points de contact provenant de la campagne une fois synchronisés
+  * « Type » détermine le canal et le sous-canal marketing pour tous les points de contact provenant de la campagne une fois synchronisés
 * Que vous utilisiez la méthode de synchronisation de la campagne basée sur le CRM (activer les points de contact de l’acheteur) ou la méthode de synchronisation basée sur l’application [!DNL Marketo Measure] (synchronisation de la campagne personnalisée dans l’onglet « [!UICONTROL Campagnes] » de vos paramètres de compte [!UICONTROL Marketo Measure]), les points de contact hors ligne ne doivent être créés que si le membre de la campagne a eu un engagement hors ligne réel avec la campagne et votre marque :
-   * Pour les canaux hors ligne tels que les événements ou les webinaires : le suivi des « enregistrements » s’effectue généralement par le biais d’envois de formulaires sur votre site web et de [!DNL Marketo Measure] fonctionnalité en ligne. Par conséquent, les membres de la campagne dont le statut est « Enregistré » ne doivent pas recevoir de point de contact hors ligne de la campagne pour éviter le double comptage. Les points de contact hors ligne doivent être représentatifs de la « participation » à l’événement ou au webinaire uniquement.
-   * Certains canaux hors ligne, tels que la syndication de contenu, sont plus simples. En effet, chaque membre de la campagne possède le même statut « répondu » qui indique qu’il a bien répondu à la campagne, dans ce cas, il télécharge le contenu d’un site tiers et doit donc recevoir un point de contact hors ligne
+  * Pour les canaux hors ligne tels que les événements ou les webinaires : le suivi des « enregistrements » s’effectue généralement par le biais d’envois de formulaires sur votre site web et de [!DNL Marketo Measure] fonctionnalité en ligne. Par conséquent, les membres de la campagne dont le statut est « Enregistré » ne doivent pas recevoir de point de contact hors ligne de la campagne pour éviter le double comptage. Les points de contact hors ligne doivent être représentatifs de la « participation » à l’événement ou au webinaire uniquement.
+  * Certains canaux hors ligne, tels que la syndication de contenu, sont plus simples. En effet, chaque membre de la campagne possède le même statut « répondu » qui indique qu’il a bien répondu à la campagne, dans ce cas, il télécharge le contenu d’un site tiers et doit donc recevoir un point de contact hors ligne
 * Lors de l’utilisation de la méthode de synchronisation de la campagne personnalisée dans l’application [!DNL Marketo Measure], assurez-vous que le champ « Date du point de contact » est basé sur le champ de date de la campagne ou du membre de la campagne qui est le plus indicatif de la date à laquelle l’interaction du point de contact s’est réellement produite
 * Utilisez le bouton « Date du point de contact de mise à jour en bloc » si vous devez remplacer la « Date du point de contact » pour l’un des points de contact hors ligne provenant d’une campagne CRM. La « Date du point de contact » doit être aussi précise que possible pour s’assurer que le point de contact possède la « Position du point de contact » la plus précise possible et, par conséquent, le montant approprié du crédit d’attribution
 
@@ -74,7 +78,7 @@ Si votre équipe a récemment rencontré l’un des problèmes ci-dessus, [!DNL 
 > [Synchronisation de campagne personnalisée - Synchronisation de l’application](/help/channel-tracking-and-setup/custom-campaign-sync.md)
 > [Synchronisation des campagnes hors ligne - Synchronisation CRM](/help/channel-tracking-and-setup/syncing-offline-campaigns.md)
 > [Campagne hors ligne et membres de campagne - Synchronisation CRM](/help/channel-tracking-and-setup/campaigns-and-campaign-members.md)
-> [Dates de synchronisation de la campagne - Synchronisation CRM &#x200B;](/help/channel-tracking-and-setup/campaign-sync-dates.md)
-> [Configurations pour plusieurs types d’enregistrements Campaign](/help/channel-tracking-and-setup/configurations-record-types.md)
+> [Dates de synchronisation de la campagne - Synchronisation CRM](/help/channel-tracking-and-setup/campaign-sync-dates.md)
+> [Configurations pour plusieurs types d’enregistrement de campagne](/help/channel-tracking-and-setup/configurations-record-types.md)
 > [Création d&#39;une vue Liste de campagnes](/help/channel-tracking-and-setup/creating-a-campaign-list-view-for-salesforce-campaigns.md)
 > [Synchronisation des données historiques](/help/channel-tracking-and-setup/syncing-historical-data.md)

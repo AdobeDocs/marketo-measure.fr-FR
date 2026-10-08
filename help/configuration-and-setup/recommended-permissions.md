@@ -1,15 +1,22 @@
 ---
-description: Conseils d [!DNL Salesforce] utilisation recommandés pour  [!DNL Marketo Measure]  utilisateurs connectés pour les utilisateurs Marketo Measure
-title: Autorisations [!DNL Salesforce] recommandées pour l’utilisateur [!DNL Marketo Measure] connecté
+description: Conseils d’utilisation [!DNL Salesforce] recommandés pour [!DNL Marketo Measure] utilisateurs connectés pour les utilisateurs de Marketo Measure
+title: Autorisations [!DNL Salesforce] recommandées pour [!DNL Marketo Measure] utilisateur connecté
 exl-id: b74aa28b-4a7b-42d1-8df0-d1ae0ff1f338
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 18%
-
+source-wordcount: '450'
+ht-degree: 26%
 ---
-
 # Autorisations [!DNL Salesforce] recommandées pour [!DNL Marketo Measure] utilisateur connecté {#recommended-salesforce-permissions-for-marketo-measure-connected-user}
 
 [!DNL Marketo Measure] envoie et reçoit des données par l’intermédiaire d’un utilisateur [!DNL Salesforce] connecté à l’application [!DNL Marketo Measure].
@@ -26,11 +33,11 @@ Ce jeu d’autorisations géré permet à un administrateur SFDC de créer, lire
 
 * Afficher et modifier le jeu d’autorisations pour les leads convertis
 
-Ces autorisations permettent à [!DNL Marketo Measure] de décorer les prospects après leur conversion en contacts. Si ce jeu d’autorisations n’est pas activé, d’importants écarts de suivi des données peuvent survenir. Vous trouverez plus d’informations dans [[!DNL Salesforce Trailblazer] communauté](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
+Ces autorisations permettent à [!DNL Marketo Measure] de décorer les prospects après leur conversion en contacts. Si cet ensemble d’autorisations n’est pas activé, cela peut entraîner des écarts importants dans le suivi des données. Vous trouverez plus d’informations dans [[!DNL Salesforce Trailblazer] communauté](https://help.salesforce.com/s/articleView?language=en_US&id=leads_view_edit_converted.htm&type=5).
 
 * [!DNL Salesforce] la case à cocher Utilisateur marketing
 
-La case à cocher [!UICONTROL Utilisateur marketing] permet à l’utilisateur de créer des campagnes, mais aussi d’utiliser les assistants d’importation de campagne. Si cette option n’est pas sélectionnée, l’utilisateur peut uniquement afficher les campagnes et la configuration avancée des campagnes, modifier l’historique des campagnes pour un prospect ou un contact unique et exécuter des rapports de campagne. [!DNL Marketo Measure] doit être capable de lire et d’écrire dans l’objet campaign.
+La case à cocher [!UICONTROL Utilisateur marketing] permet à l’utilisateur de créer des campagnes, mais aussi d’utiliser les assistants d’importation de campagne. Si cette case n’est pas cochée, vous pouvez uniquement afficher les campagnes et leur configuration avancée, modifier l’historique des campagnes pour un seul lead ou contact et générer des rapports de campagne. [!DNL Marketo Measure] doit pouvoir lire et écrire vers l’objet de campagne.
 
 **Dépannage supplémentaire**
 
@@ -42,6 +49,6 @@ Si l’utilisateur dédié n’a pas accès aux prospects des files d’attente,
 
 * Sécurité et accessibilité au niveau du champ
 
-La sécurité au niveau du champ et l’accessibilité des champs sont liées, mais présentent quelques différences importantes. La sécurité au niveau du champ définit la visibilité du champ pour un profil donné, tandis que l’accessibilité du champ détermine si un champ est modifiable en fonction de la sécurité au niveau du champ et de la configuration de la mise en page. En utilisant les jeux d’autorisations du package [!DNL Marketo Measure], vous recevez les paramètres de sécurité d’objet de champ nécessaires. Parfois, pour bénéficier d’une accessibilité correcte des champs, l’utilisateur connecté doit disposer des champs [!DNL Marketo Measure] dans les mises en page. [!DNL Marketo Measure] les champs de la mise en page permettent aux données [!DNL Marketo Measure] de se mapper en [!DNL Salesforce]. Cela dépend de votre environnement [!DNL Salesforce].
+La sécurité au niveau du champ et l’accessibilité des champs sont liées, mais présentent quelques différences importantes. La sécurité au niveau du champ définit la visibilité du champ pour un profil donné, tandis que l’accessibilité du champ détermine si un champ est modifiable en fonction de la sécurité au niveau du champ et de la configuration de la mise en page. En utilisant les jeux d’autorisations du package [!DNL Marketo Measure], vous recevez les paramètres de sécurité d’objet de champ nécessaires. Parfois, pour bénéficier d’une accessibilité correcte des champs, l’utilisateur connecté doit disposer des champs [!DNL Marketo Measure] dans les mises en page. [!DNL Marketo Measure] champs de la mise en page permettent aux données [!DNL Marketo Measure] de se mapper en [!DNL Salesforce]. Cela dépend de votre environnement [!DNL Salesforce].
 
 Les [!DNL Salesforce] de chaque organisation ont des besoins individuels, mais nous vous fournissons nos exigences pour équilibrer les besoins d&#39;accès [!DNL Marketo Measure] avec vos protocoles de sécurité. N&#39;hésitez pas à contacter [[!DNL Marketo Support]](https://nation.marketo.com/t5/support/ct-p/Support){target="_blank"}.

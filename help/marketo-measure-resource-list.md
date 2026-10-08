@@ -3,13 +3,17 @@ description: Liste des ressources [!DNL Marketo Measure] - [!DNL Marketo Measure
 title: Liste des ressources [!DNL Marketo Measure]
 exl-id: e2542ec2-dd83-405c-bd49-fa6384e6c8de
 feature: Fundamentals
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 6%
-
 ---
-
 # Liste des ressources [!DNL Marketo Measure] {#marketo-measure-resource-list}
 
 Voici différents liens vers des articles/vidéos pertinents pour vous aider à maîtriser [!DNL Marketo Measure] !
@@ -26,13 +30,13 @@ Voici différents liens vers des articles/vidéos pertinents pour vous aider à 
 * [Configuration Du Canal Marketing, Bonne Pratique](/help/channel-tracking-and-setup/marketing-channels-and-subchannels.md)
 * [Configuration du canal en ligne](/help/channel-tracking-and-setup/online-custom-channel-setup.md)
 * [Configuration du canal hors ligne](/help/channel-tracking-and-setup/offline-custom-channel-setup.md)
-* [Fonctionnement des paramètres UTM](/help/channel-tracking-and-setup/utm-parameters.md)
+* [Que sont les paramètres UTM ?](/help/channel-tracking-and-setup/utm-parameters.md)
 * [Bonnes pratiques UTM](/help/channel-tracking-and-setup/best-practices-for-setting-up-utm-parameters.md)
 * [Synchronisation des campagnes SFDC avec les points de contact de l’acheteur](/help/channel-tracking-and-setup/campaigns-and-campaign-members.md)
 * [Chargement des dépenses marketing](/help/marketing-channel-costs.md)
 * [Reconnecter les comptes publicitaires](/help/api-connections/reauthorizing-connected-accounts.md)
 * [Ajout de  [!DNL Marketo Measure] JavaScript](/help/marketo-measure-tracking/adding-marketo-measure-script.md)
-   * [Exclure Forms](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md)
+  * [Exclure Forms](/help/marketo-measure-tracking/excluding-marketo-measure-from-specific-forms.md)
 
 **Créer des rapports**
 
@@ -46,7 +50,7 @@ Voici différents liens vers des articles/vidéos pertinents pour vous aider à 
 
 ## Vidéos {#videos}
 
-Voici quelques vidéos    vous aider à vous mettre à jour rapidement :
+Voici quelques vidéos qui vous aideront à vous mettre à jour rapidement :
 
 * [[!DNL Marketo Measure] Formation préliminaire](https://share.vidyard.com/watch/Pb4DuWJwtFgw3jUBDGneb4 ?) (22 min)
 * [[!DNL Marketo Measure] Reporting dans SFDC](https://experienceleague.adobe.com/docs/marketo-learn/tutorials/overview.html?lang=fr) (30-45mins)

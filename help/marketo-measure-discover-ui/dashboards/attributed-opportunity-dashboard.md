@@ -3,19 +3,23 @@ description: Tableau de bord de l’opportunité attribuée - [!DNL Marketo Meas
 title: Tableau de bord Opportunité attribuées
 feature: Reporting
 exl-id: b98cc45a-9483-42a5-8b75-b235273f867b
-TQID: https://experienceleague.adobe.com/OFUrPoJnkQyZe2PaUzj-byx92ovpbpGuLiW-e7MH6Os
+TQID: 'https://experienceleague.adobe.com/OFUrPoJnkQyZe2PaUzj-byx92ovpbpGuLiW-e7MH6Os'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Insights
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: '424'
 ht-degree: 2%
-
 ---
-
 # Tableau de bord Opportunité attribuées {#attributed-opportunity-dashboard}
 
 Le tableau de bord de l’opportunité attribuée fournit une vue complète de la manière dont les efforts marketing contribuent aux opportunités de pipeline naissantes et matures. Explorez les détails de chaque opportunité ouverte et clôturée attribuable à vos stratégies, avec la possibilité de filtrer par étape d’opportunité, en soulignant toute l’étendue de l’influence du marketing au-delà des affaires clôturées.
@@ -77,7 +81,7 @@ Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 * Date (en fonction de la date de création de l’opportunité)
 * Modèle d’attribution
-   * Pour les opportunités ouvertes, les modèles d’attribution « chemin complet » et « personnalisé » offrent des vues ponctuelles et ne représentent pas les résultats d’attribution finaux.
+  * Pour les opportunités ouvertes, les modèles d’attribution « chemin complet » et « personnalisé » offrent des vues ponctuelles et ne représentent pas les résultats d’attribution finaux.
 * Étape de l’opportunité (basée sur l’étape actuelle)
 * Canal, Sous-Canal
 * Campagne

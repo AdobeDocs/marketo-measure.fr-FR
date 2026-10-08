@@ -1,16 +1,20 @@
 ---
 description: Recommandations relatives à l’utilisation d’un montant de revenu personnalisé pour les utilisateurs de Marketo Measure
-title: Bonnes pratiques relatives à l’utilisation d’un montant de recettes personnalisé
+title: Bonnes pratiques relatives à l’utilisation d’un montant de revenus personnalisé
 exl-id: 553bd75a-512a-4733-a24b-8112eb420afc
 feature: Custom Revenue Amount
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 7%
-
 ---
-
-# Bonnes pratiques relatives à l’utilisation d’un montant de recettes personnalisé {#best-practices-for-utilizing-a-custom-revenue-amount}
+# Bonnes pratiques relatives à l’utilisation d’un montant de revenus personnalisé {#best-practices-for-utilizing-a-custom-revenue-amount}
 
 ## Vue d’ensemble {#overview}
 
@@ -25,10 +29,10 @@ Lors de la configuration d’un montant de chiffre d’affaires personnalisé, t
 Points à retenir :
 
 * Sélectionnez le champ de chiffre d’affaires précis et utilisé pour toutes les opportunités
-   * ARR ou valeur totale du contrat est recommandé
+  * ARR ou valeur totale du contrat est recommandé
 * Ne pas utiliser de champ de formule
 * Si vous utilisez un montant de revenu personnalisé pour les conversions de devises, la fonctionnalité [!UICONTROL Marketo Measure Multiple Currencies] est la méthode préférée à la place.
-   * La fonctionnalité [!DNL Marketo Measure] plusieurs devises fait référence aux taux de conversion établis dans [!DNL Salesforce] pour garantir au mieux l’alignement entre les conversions de devises. Vous pouvez ainsi continuer à utiliser le « Montant » standard (par défaut SFDC) ou tout autre champ de montant personnalisé lié aux taux de conversion de [!DNL Salesforce].
+  * La fonctionnalité [!DNL Marketo Measure] plusieurs devises fait référence aux taux de conversion établis dans [!DNL Salesforce] pour garantir au mieux l’alignement entre les conversions de devises. Vous pouvez ainsi continuer à utiliser le « Montant » standard (par défaut SFDC) ou tout autre champ de montant personnalisé lié aux taux de conversion de [!DNL Salesforce].
 * Si vous mettez à jour le champ Montant que vous souhaitez [!DNL Marketo Measure] référencer, utilisez le chargeur de données pour mettre à jour les opportunités antérieures afin de vous assurer que les données relatives au chiffre d’affaires sont cohérentes et que le champ approprié est renseigné via le workflow
 
 ## Bonne pratique de maintenance {#best-practice-for-maintenance}

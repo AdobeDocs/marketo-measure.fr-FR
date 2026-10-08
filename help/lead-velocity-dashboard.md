@@ -3,13 +3,17 @@ description: Utilisez le tableau de bord Vitesse des leads pour mesurer le temps
 title: Tableau de bord de la vitesse de lead
 feature: Reporting
 exl-id: f0937e9c-702f-4539-ab0b-05d9487c562d
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d24e0b99-7796-5c7d-831d-d71a1d725f01
+    internal-label: Reporting
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 2%
-
 ---
-
 # Tableau de bord de la vitesse de lead {#lead-velocity-dashboard}
 
 Le tableau de bord Velocity offre une vue dynamique du rythme auquel les prospects évoluent dans le funnel des ventes, fournissant aux spécialistes marketing et aux équipes commerciales des informations essentielles sur les temps de conversion sur différents canaux. Cet outil est précieux pour répondre aux questions clés sur la durée de conversion des prospects et l’efficacité de la progression par étapes de vente, ce qui vous permet d’optimiser vos stratégies d’engagement pour accélérer la croissance et les conversions.
@@ -66,7 +70,7 @@ Questions auxquelles le graphique répond :
 Ce tableau de bord est équipé des paramètres et filtres suivants :
 
 * Date
-   * Basé sur : date de transition entrante
+  * Basé sur : date de transition entrante
 * Étape
 * Canal
 * Sous-canal

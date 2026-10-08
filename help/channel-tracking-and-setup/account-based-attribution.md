@@ -3,16 +3,20 @@ description: Découvrez l’attribution basée sur les comptes et comment Adobe 
 title: Attribution Basée Sur Les Comptes
 exl-id: 9c1a03c8-f884-4c08-97ae-b848cc200038
 feature: Attribution
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 11%
-
 ---
-
 # Attribution Basée Sur Les Comptes {#account-based-attribution}
 
-Avec l&#39;essor de Account-Based Marketing (ABM), il est important de comprendre comment [!DNL Marketo Measure] pouvez compléter votre stratégie ABM. [!DNL Marketo Measure] fait apparaître chaque point de contact pour chaque prospect et contact sous vos comptes.
+Avec l&#39;essor de Account-Based Marketing (ABM), il est important de comprendre comment [!DNL Marketo Measure] pouvez compléter votre stratégie ABM. [!DNL Marketo Measure] affiche chaque point de contact pour chaque prospect et contact sous vos comptes.
 
 ## Le [!UICONTROL Quoi] {#the-what}
 
@@ -22,7 +26,7 @@ Par exemple, le compte ci-dessous comporte deux opportunités. Pour la première
 
 ![Par exemple, le compte ci-dessous comporte deux opportunités. Pour la première opportunité &#x200B;](assets/account-marketing-4.jpg)
 
-## En quoi cela peut être utile ? {#how-does-this-help}
+## En quoi cela peut être utile ? {#how-does-this-help}
 
 Comme [!DNL Marketo Measure] fait apparaître toutes les interactions marketing liées à vos comptes, les spécialistes marketing comprennent mieux quels comptes sont susceptibles d’être clôturés, à quelle fréquence ils ont interagi avec votre entreprise, quelles sont ces interactions, la valeur de chaque engagement, etc.
 

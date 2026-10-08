@@ -3,14 +3,18 @@ description: Conseils sur les données collectées par JavaScript pour les utili
 title: Données collectées par JavaScript
 feature: Tracking
 exl-id: 83814168-9d3e-45ac-b514-df58f0b2e90b
-hidefromtoc: true
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+hidefromtoc: 'yes'
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 77%
-
 ---
-
 # Données collectées par JavaScript {#data-collected-by-javascript}
 
 Découvrez les données collectées par le JavaScript Marketo Measure lors du déploiement.
@@ -23,7 +27,7 @@ https://cdn.bizible.com/m/ipv?_biz_r=https%3A%2F%2Fwww.google.com%2F&_biz_h=-180
 
 <br>
 
-Marketo Measure collecte les données communes suivantes pour tous les types de requêtes :
+Marketo Measure collecte les données communes suivantes pour tous les types de demandes :
 
 | Origine | Nom | Type de données | But |
 | --- | --- | --- | --- |
@@ -34,12 +38,12 @@ Marketo Measure collecte les données communes suivantes pour tous les types de
 | Paramètre de requête | `_biz_t` | long | Date et heure de l’activité. |
 | Paramètre de requête | `_biz_i` | Chaîne | Titre de la page active. |
 
-Outre les données communes ci-dessus, bizible.js ajoute également des données supplémentaires en fonction des types de requêtes, comme indiqué ci-dessous :
+Outre les données communes ci-dessus, bizible.js ajoute des données supplémentaires en fonction des types de demandes, comme indiqué ci-dessous :
 
 | Type de requête | Chemin de la requête | Paramètre de requête supplémentaire | Type de données | But |
 | --- | --- | --- | --- | --- |
 | Pageview | `/ipv` | `_biz_r` | Chaîne | URL de la page référente. |
-|  |  | `_biz_h` | Chaîne | Résolution d’écran client hachée. |
+|  |  | `_biz_h` | Chaîne | Hachage de la résolution d’écran du client. |
 |  |  | `_biz_c` | Chaîne | Paramètre facultatif. Si ce paramètre est présent, il indique que le client configure `bizible.js` pour qu’il attende le consentement de l’utilisateur avant d’effectuer le suivi et qu’`bizible.js` a reçu le consentement de l’utilisateur pour faire l’objet d’un suivi. |
 | Envois du formulaire | `/frm` | `eMail` | Chaîne | Adresse e-mail en texte brut. |
 | Mappage des identifiants de l’utilisateur ou de l’utilisatrice | `/u` | `mapType` | enum | Quel type de mappage d’ID utilisateur `bizible.js` détecté (ID Marketo Munchkin et ECID Adobe) ? |

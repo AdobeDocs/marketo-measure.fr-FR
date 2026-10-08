@@ -1,22 +1,25 @@
 ---
 unique-page-id: 18874777
-description: Configuration de modèle personnalisé - Activation du suivi de l’historique des champs -  [!DNL Marketo Measure]
-title: Configuration de modèle personnalisé - Activation du suivi de l’historique des champs
+description: Configuration du modèle personnalisé - Activer le suivi de l’historique des champs - [!DNL Marketo Measure]
+title: 'Configuration du modèle personnalisé : activer le suivi de l’historique des champs'
 exl-id: 70328e67-051b-4864-891b-b251e49859c2
 feature: Custom Models
-TQID: https://experienceleague.adobe.com/VUMTg9lOnCtRb3TUt7SIkUeOsghibBX0LDtqQVeXdcg
+TQID: 'https://experienceleague.adobe.com/VUMTg9lOnCtRb3TUt7SIkUeOsghibBX0LDtqQVeXdcg'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 31aa6cfe-a7a6-5501-b9ac-2688fe65013b
+    internal-label: Custom Models
 topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Machine learning
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 313
-ht-degree: 100%
-
+source-wordcount: '313'
+ht-degree: 97%
 ---
-
-# Configuration de modèle personnalisé : activation du suivi de l’historique des champs {#custom-model-setup-enable-field-history-tracking}
+# Configuration du modèle personnalisé : activer le suivi de l’historique des champs {#custom-model-setup-enable-field-history-tracking}
 
 ## Pourquoi et quand activer le suivi de l’historique des champs {#why-and-when-to-enable-field-history-tracking}
 
@@ -30,7 +33,7 @@ Pour activer le suivi de l’historique des champs, suivez les instructions ci-d
 
 >[!NOTE]
 >
->Pour apporter ces modifications aux champs de l’objet Prospect/Contact/Opportunité, vous devez être un administrateur ou une administratrice système.
+>Vous devez disposer du rôle d’administration système pour pouvoir apporter ces modifications aux champs de l’objet Lead/Contact/Opportunité
 
 1. Accédez à l’objet dans lequel se trouve le champ personnalisé et cliquez sur le bouton **[!UICONTROL Définir le suivi de l’historique]**.
 

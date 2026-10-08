@@ -3,19 +3,27 @@ description: '[!DNL Marketo Measure] Exigence d’intégrité des données d’U
 title: Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate
 feature: Integration, Tracking, Attribution
 exl-id: 8ad001d0-e9fe-46f5-b808-d6203a55a229
-TQID: https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E
+TQID: 'https://experienceleague.adobe.com/bsfx5FTcHyxii6iTHPyHBemX9Wfwo9-iIvHO6uTX95E'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 7da342c5-06ee-5869-b3e8-b73d5bf75a9d
+    internal-label: Integration
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+  - id: d7322935-5b46-52a3-b6ea-21e6aec748b5
+    internal-label: Attribution
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Implementation
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 1703
+source-wordcount: '1703'
 ht-degree: 78%
-
 ---
-
 # Exigence en matière d’intégrité des données [!DNL Marketo Measure] Ultimate {#marketo-measure-ultimate-data-integrity-requirement}
 
 [!DNL Marketo Measure] valide les jeux de données AEP entrants pour s’assurer que les données sont suffisantes et cohérentes pour l’attribution. Si l’exigence d’intégrité des données n’est pas respectée, le jeu de données est rejeté par le système [!DNL Marketo Measure]. Cet article détaille les exigences en matière d’intégrité des données, fournit des exemples de requête pour l’inspection des données et recommande une solution pour les champs obligatoires avec une valeur nulle.
@@ -1083,7 +1091,7 @@ ht-degree: 78%
     <tr>
       <td>Lead converti</td>
       <td>leadOperation.convertLead</td>
-      <td>Utilisé lorsqu’un lead marketing est converti en contact qualifié par l’équipe commerciale et affecté à une personne commerciale</td>
+      <td>À utiliser lorsqu’un lead marketing est converti en contact qualifié pour les ventes qui est affecté à un commercial.</td>
     </tr>
     <tr>
       <td>Moment intéressant</td>
@@ -1098,7 +1106,7 @@ ht-degree: 78%
     <tr>
       <td>Se désabonner des e-mails</td>
       <td>directMarketing.emailUnsubscribed</td>
-      <td>Utilisé pour capturer des détails lorsqu’une personne se désabonne d’un e-mail</td>
+      <td>À utiliser pour enregistrer les informations lorsqu’une personne se désabonne d’un e-mail.</td>
     </tr>
     <tr>
       <td>Ouvrir e-mail</td>
@@ -1116,7 +1124,7 @@ ht-degree: 78%
       <td>Utilisé pour capturer des détails sur les modifications du statut d’un lead dans une campagne</td>
     </tr>
     <tr>
-      <td>Ajouter au programme d’engagement (ajouter à la maturation)</td>
+      <td>Ajouter au programme d’engagement (Ajouter au programme d’accompagnement)</td>
       <td>leadOperation.addToCampaign</td>
       <td>Utilisé pour ajouter une personne à la campagne spécifique.</td>
     </tr>
@@ -1127,7 +1135,7 @@ Utilisez le type d’événement « Moment intéressant » pour les types d’
 
 ## Exemples de requêtes pour l’examen des données {#query-examples-for-data-inspection}
 
-Vous trouverez ci-dessous une liste d’exemples de requête pour examiner les jeux de données ingérés dans le lac de données AEP. Pour les utiliser par rapport à vos jeux de données, remplacez le nom du tableau dans les exemples de requête ci-dessous par le nom réel du tableau du jeu de données.
+Vous trouverez ci-dessous une liste d’exemples de requête pour examiner les jeux de données ingérés dans le lac de données AEP. Pour les utiliser avec vos jeux de données, remplacez le nom de table figurant dans les exemples de requêtes ci-dessous par le nom de table réel de votre jeu de données.
 
 Toutes les valeurs doivent être égales à 0.
 
@@ -1384,7 +1392,7 @@ select 'last updated date', count(*) from currency_conversion_rate where extSour
 Il est recommandé d&#39;utiliser un champ calculé dans le mappage des champs pour définir par défaut le champ sur une valeur non nulle. Voici deux exemples :
 
 * Si la valeur du champ opportunityName de certains enregistrements d’opportunité est nulle, créez le champ calculé suivant et utilisez-le dans le mappage des champs
-   * `iif(name != null && trim(name) != "", name, "Unknown")`
+  * `iif(name != null && trim(name) != "", name, "Unknown")`
 
-* Si leadOperation.campaignProgression.campaignID de certains enregistrements experienceevent est nul, créez le champ calculé suivant et utilisez-le dans le mappage des champs.
-   * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`
+* Si le champ leadOperation.campaignProgression.campaignID de certains enregistrements ExperienceEvent est nul, créez et utilisez le champ calculé suivant dans le mappage des champs.
+  * `iif(leadOperation.campaignProgression.campaignID != null && leadOperation.campaignProgression.campaignID != "" , to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", leadOperation.campaignProgression.campaignID, "sourceKey", concat(leadOperation.campaignProgression.campaignID,"@123-abc-321.Marketo")), iif(eventType == "leadOperation.statusInCampaignProgressionChanged", to_object("sourceType", "Marketo", "sourceInstanceID", "123-abc-321", "sourceID", "Unknown", "sourceKey", "Unknown@123-abc-321.Marketo"), null))`

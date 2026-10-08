@@ -1,16 +1,20 @@
 ---
 description: Utilisation d’un champ de montant du chiffre d’affaires personnalisé pour les utilisateurs Marketo Measure
-title: Utilisation d’un champ de montant de recettes personnalisé
+title: Utilisation d’un champ personnalisé pour le montant de revenus
 exl-id: 517ea4f9-aa83-48d0-8ce7-003f4a907430
 feature: Custom Revenue Amount
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 47de9b4f-9dd4-52b4-bccb-c7af30dd2f2c
+    internal-label: Custom Revenue Amount
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 4%
-
 ---
-
-# Utilisation d’un champ de montant de recettes personnalisé {#using-a-custom-revenue-amount-field}
+# Utilisation d’un champ personnalisé pour le montant de revenus {#using-a-custom-revenue-amount-field}
 
 Par défaut, les points de contact d’attribution de l’acheteur extrairont le montant de l’opportunité de l’un des deux champs suivants :
 

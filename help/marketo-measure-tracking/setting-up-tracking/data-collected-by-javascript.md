@@ -3,16 +3,18 @@ description: Données collectées par JavaScript - [!DNL Marketo Measure]
 title: Données collectées par JavaScript
 feature: Tracking
 exl-id: 83814168-9d3e-45ac-b514-df58f0b2e90b
-TQID: https://experienceleague.adobe.com/QSbkXXjEjxmddR-dTrgjZiV0dXvO-iZKjHfSBJP2Jt0
+TQID: 'https://experienceleague.adobe.com/QSbkXXjEjxmddR-dTrgjZiV0dXvO-iZKjHfSBJP2Jt0'
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
-source-git-commit: 9ceb54139bfa9b6ce7c2c5fbb4e25e649f5708a3
+    internal-label: Marketo Measure
+feature_v2:
+  - id: dcbeff6e-0253-5a4b-9ac2-1b67cc4a6286
+    internal-label: Tracking
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: '231'
 ht-degree: 98%
-
 ---
-
 # Données collectées par JavaScript {#data-collected-by-javascript}
 
 Découvrez les données collectées par le JavaScript Marketo Measure lors du déploiement.
@@ -25,7 +27,7 @@ https://cdn.bizible.com/m/ipv?_biz_r=https%3A%2F%2Fwww.google.com%2F&_biz_h=-180
 
 <br>
 
-Marketo Measure collecte les données communes suivantes pour tous les types de requêtes :
+Marketo Measure collecte les données communes suivantes pour tous les types de demandes :
 
 <table>
 <thead>
@@ -76,7 +78,7 @@ Marketo Measure collecte les données communes suivantes pour tous les types de
 </tbody>
 </table>
 
-Outre les données communes ci-dessus, bizible.js ajoute également des données supplémentaires en fonction des types de requêtes, comme indiqué ci-dessous :
+Outre les données communes ci-dessus, bizible.js ajoute des données supplémentaires en fonction des types de demandes, comme indiqué ci-dessous :
 
 <table>
 <thead>
@@ -101,7 +103,7 @@ Outre les données communes ci-dessus, bizible.js ajoute également des données
     <td></td>
     <td>_biz_h</td>
     <td>Chaîne</td>
-    <td>Résolution d’écran client hachée.</td>
+    <td>Hachage de la résolution d’écran du client.</td>
   </tr>
   <tr>
     <td></td>
@@ -122,7 +124,7 @@ Outre les données communes ci-dessus, bizible.js ajoute également des données
     <td>/u</td>
     <td>mapType</td>
     <td>enum</td>
-    <td>Quel type de mappage d’ID de l’utilisateur ou de l’utilisatrice bizible.js a-t-il détecté ? (ID Munchkin Marketo et Adobe ECID)</td>
+    <td>Type de mappage des identifiants utilisateur détecté par bizible.js (ID Munchkin de Marketo ou Adobe ECID).</td>
   </tr>
   <tr>
     <td></td>

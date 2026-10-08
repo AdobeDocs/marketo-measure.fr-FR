@@ -3,17 +3,21 @@ description: Glossaire des champs Marketo Measure
 title: Glossaire des champs Marketo Measure
 exl-id: 8e23b102-6d4f-4919-b361-04d1b184e710
 feature: Fundamentals
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: 8210190a-677a-5286-8428-d07007b1edde
+    internal-label: Fundamentals
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3254'
 ht-degree: 99%
-
 ---
-
 
 # Glossaire des champs Marketo Measure {#glossary}
 
-Ce glossaire détaille tous les champs ajoutés à votre instance Salesforce à partir du package de base Marketo Measure. Vous trouverez également des informations sur la correspondance entre les objets et les champs, ainsi que sur la manière dont chaque champ est renseigné.
+Ce glossaire détaille tous les champs Marketo Measure ajoutés à votre instance Salesforce à partir du package de base Marketo Measure. Vous trouverez également des informations sur la correspondance entre les objets et les champs, ainsi que sur la manière dont chaque champ est renseigné.
 
 Pour voir la table des correspondances entre les objets et les champs dans Marketo Measure, [cliquez ici](/help/configuration-and-setup/marketo-measure-object-and-field-taxonomy.md).
 
@@ -75,19 +79,19 @@ Si aucun des cas ci-dessus ne correspond, ce champ reste vide.
 
 `1)` Si le point de contact provient du référencement payant, ce champ affiche la destination de l’URL vers laquelle l’utilisateur est redirigé après avoir cliqué sur la publicité dans le moteur de recherche.
 
-Si le point de contact ne provient pas du référencement payant, ce champ reste vide.
+Si le point de contact ne provient pas d’un référencement payant, ce champ reste vide.
 
 **Identifiant du groupe publicitaire** | Point de contact acheteur, point de contact d’attribution acheteur
 
 `1)` Si le point de contact provient du référencement payant, l’identifiant du groupe publicitaire AdWords/Bing Ads s’affiche ici.
 
-Si le point de contact ne provient pas du référencement payant, ce champ reste vide.
+Si le point de contact ne provient pas d’un référencement payant, le champ reste vide.
 
 **Nom du groupe publicitaire** | Point de contact acheteur, point de contact d’attribution acheteur
 
 `1)` Si le point de contact provient du référencement payant, le nom du groupe publicitaire AdWords/Bing Ads s’affiche ici.
 
-Si le point de contact ne provient pas du référencement payant, ce champ reste vide.
+Si le point de contact ne provient pas d’un référencement payant, le champ reste vide.
 
 **Identifiant publicitaire** | Point de contact acheteur, point de contact d’attribution acheteur
 
@@ -95,33 +99,33 @@ Si le point de contact ne provient pas du référencement payant, ce champ reste
 
 `2)` Si le point de contact est généré à partir d’une activité CRM, ce champ est renseigné avec l’identifiant externe d’activité.
 
-Si le point de contact ne provient pas du référencement payant, ce champ reste vide.
+Si le point de contact ne provient pas d’un référencement payant, le champ reste vide.
 
 **Pourcentage d’attribution (modèle personnalisé)** | Point de contact d’attribution acheteur
 
-Si vous utilisez un modèle d’attribution personnalisé, ce champ affiche le pourcentage de recettes attribuées à un point de contact en fonction des valeurs définies dans votre modèle.
+Si vous utilisez un modèle d’attribution personnalisé, ce champ affiche le pourcentage de revenus attribué à un point de contact en fonction des valeurs définies dans votre modèle personnalisé.
 
 Si vous n’utilisez pas de modèle personnalisé, ce champ reste vide.
 
 **Pourcentage d’attribution (premier contact)** | Point de contact d’attribution acheteur
 
-Ce champ affiche le pourcentage de recettes attribuées à un point de contact en fonction d’un modèle basé sur le premier contact.
+Ce champ affiche le pourcentage de revenus attribué à un point de contact selon un modèle First Touch (Première touche).
 
 **Pourcentage d’attribution (modèle complet)** | Point de contact d’attribution acheteur
 
-Ce champ affiche le pourcentage de recettes attribuées à un point de contact en fonction d’un modèle en chemin complet.
+Ce champ affiche le pourcentage de revenus attribué à un point de contact selon un modèle Full Path (Chemin complet).
 
 **Pourcentage d’attribution (création de prospects)** | Point de contact d’attribution acheteur
 
-Ce champ affiche le pourcentage de recettes attribuées à un point de contact en fonction d’un modèle basé sur la création de prospects.
+Ce champ affiche le pourcentage de revenus attribué à un point de contact selon un modèle Lead Creation (Création de lead).
 
 **Pourcentage d’attribution (modèle en forme de U)** | Point de contact d’attribution acheteur
 
-Ce champ affiche le pourcentage de recettes attribuées à un point de contact en fonction d’un modèle en forme de U.
+Ce champ affiche le pourcentage de revenus attribué à un point de contact selon un modèle d’attribution en U.
 
 **Pourcentage d’attribution (modèle en forme de W)** | Point de contact d’attribution acheteur
 
-Ce champ affiche le pourcentage de recettes attribuées à un point de contact en fonction d’un modèle en forme de W.
+Ce champ affiche le pourcentage de revenus attribué à un point de contact selon un modèle d’attribution en W.
 
 [Cliquez ici pour revenir en haut de la page.](#top)
 
@@ -129,7 +133,7 @@ Ce champ affiche le pourcentage de recettes attribuées à un point de contact e
 
 **Montant de l’opportunité Marketo Measure** | Opportunité Salesforce
 
-Si vous utilisez un champ de montant personnalisé pour signaler les recettes d’opportunité, Marketo Measure ne peut pas le lire. Le montant de l’opportunité Marketo Measure est un champ masqué qui est utilisé pour créer un processus permettant à l’outil de lire les champs de montant personnalisés sur l’opportunité.
+Si vous utilisez un champ Montant personnalisé pour générer des rapports sur les revenus des opportunités, Marketo Measure ne sera pas en mesure de lire ces champs de montant personnalisés. Le montant de l’opportunité Marketo Measure est un champ masqué qui est utilisé pour créer un workflow permettant à Marketo Measure de lire les champs de montant personnalisés sur l’opportunité.
 
 **Navigateur** | Point de contact acheteur, point de contact d’attribution acheteur
 
@@ -145,13 +149,13 @@ Ce champ affiche le contact auquel le point de contact appartient.
 
 **Valeur (modèle personnalisé)** | Point de contact d’attribution acheteur
 
-Si vous utilisez un modèle d’attribution personnalisé, ce champ affiche, sous forme décimale, le pourcentage de crédit de revenu attribué à un point de contact en fonction des valeurs définies dans votre modèle.
+Si vous utilisez un modèle d’attribution personnalisé, ce champ affiche, sous forme décimale, le pourcentage de revenus attribué à un point de contact en fonction des valeurs définies dans votre modèle personnalisé.
 
 Si vous n’utilisez pas de modèle personnalisé, ce champ reste vide.
 
 **Valeur (modèle personnalisé)** | Point de contact acheteur
 
-Si vous utilisez un modèle d’attribution personnalisé, ce champ affiche, sous forme décimale, le pourcentage de crédit d’attribution alloué à un point de contact en fonction des valeurs définies dans votre modèle. Puisque ce champ est lié à un point de contact acheteur, il ne reflète pas un crédit de revenu, mais uniquement un crédit d’attribution.
+Si vous utilisez un modèle d’attribution personnalisé, ce champ affiche, sous forme décimale, le pourcentage de crédit d’attribution alloué à un point de contact en fonction des valeurs définies dans votre modèle. Étant donné que ce champ est associé à l’objet Buyer Touchpoint, il ne reflète pas le crédit de revenus, mais uniquement le crédit d’attribution.
 
 Si vous n’utilisez pas de modèle personnalisé, ce champ reste vide.
 
@@ -161,23 +165,23 @@ Ce champ affiche, sous forme décimale, le pourcentage de crédit de revenu allo
 
 **Valeur (premier contact)** | Point de contact acheteur
 
-Ce champ affiche, sous forme décimale, le pourcentage de crédit d’attribution alloué à un point de contact en fonction d’un modèle basé sur le premier contact. Si le point de contact correspond au premier contact, la valeur de ce champ sera toujours 1,0 (ce qui indique un crédit d’attribution de 100 %). Dans le cas contraire, il indiquera toujours 0 (ce qui indique un crédit d’attribution de 0 %).
+Ce champ affiche, sous forme décimale, le pourcentage de crédit d’attribution alloué à un point de contact en fonction d’un modèle basé sur le premier contact. Si le point de contact correspond au premier contact, la valeur de ce champ sera toujours 1,0 (ce qui indique un crédit d’attribution de 100 %). Si le point de contact n’est pas First Touch (Première touche), la valeur de ce champ sera toujours 0 (ce qui indique un crédit d’attribution de 0 %).
 
-Puisque ce champ est lié à un point de contact acheteur, il ne reflète pas un crédit de revenu, mais uniquement un crédit d’attribution.
+Étant donné que ce champ est associé à l’objet Buyer Touchpoint, il ne reflète pas le crédit de revenus, mais uniquement le crédit d’attribution.
 
 **Valeur (modèle en chemin complet)** | Point de contact d’attribution acheteur
 
-Ce champ affiche, sous forme décimale, le pourcentage de recettes alloué à un point de contact en fonction d’un modèle en chemin complet.
+Ce champ affiche, sous forme décimale, le pourcentage de revenus attribué à un point de contact en fonction d’un modèle Full Path (Chemin complet).
 
 **Valeur (création de prospects)** | Point de contact d’attribution acheteur
 
-Ce champ affiche, sous forme décimale, le pourcentage de crédit de revenu attribué à un point de contact en fonction d’un modèle basé sur la création de prospects.
+Ce champ affiche, sous forme décimale, le pourcentage de crédit de revenus attribué à un point de contact en fonction d’un modèle Lead Creation (Création de lead).
 
 **Valeur (création de prospects)** | Point de contact acheteur
 
-Ce champ affiche, sous forme décimale, le pourcentage du crédit d’attribution alloué à un point de contact en fonction d’un modèle basé sur la création de prospects. Si le point de contact est celui ayant permis la création du prospect, la valeur de ce champ sera toujours 1,0 (ce qui indique un crédit d’attribution de 100 %). Dans le cas contraire, il indiquera toujours 0 (ce qui indique un crédit d’attribution de 0 %).
+Ce champ affiche, sous forme décimale, le pourcentage du crédit d’attribution attribué à un point de contact en fonction d’un modèle Lead Creation (Création de lead). Si le point de contact correspond à la création du lead, ce champ sera toujours égal à 1,0 (ce qui indique un crédit d’attribution de 100 %). Si le point de contact ne correspond pas à la création du lead, ce champ sera toujours égal à 0 (ce qui indique un crédit d’ attribution de 0%).
 
-Puisque ce champ est lié à un point de contact acheteur, il ne reflète pas un crédit de revenu, mais uniquement un crédit d’attribution.
+Étant donné que ce champ est associé à l’objet Buyer Touchpoint, il ne reflète pas le crédit de revenus, mais uniquement le crédit d’attribution.
 
 **Valeur (modèle en forme de U)** | Point de contact d’attribution acheteur
 
@@ -185,9 +189,9 @@ Ce champ affiche, sous forme décimale, le pourcentage de crédit de revenu attr
 
 **Valeur (modèle en forme de U)** | Point de contact acheteur
 
-Ce champ affiche, sous forme décimale, le pourcentage de crédit d’attribution alloué à un point de contact en fonction d’un modèle en forme de U. Dans un modèle en forme de U, le crédit est divisé entre le premier contact, la création de prospects, et tous les envois de formulaire intermédiaires qui se produisent entre ces deux premiers points.
+Ce champ affiche, sous forme décimale, le pourcentage de crédit d’attribution alloué à un point de contact en fonction d’un modèle en forme de U. Dans le modèle en U, le crédit est réparti entre la première touche, la création du lead et tous les envois de formulaire intermédiaires qui se sont produits entre la première touche et la création du lead.
 
-Puisque ce champ est lié à un point de contact acheteur, il ne reflète pas un crédit de revenu, mais uniquement un crédit d’attribution.
+Étant donné que ce champ est associé à l’objet Buyer Touchpoint, il ne reflète pas le crédit de revenus, mais uniquement le crédit d’attribution.
 
 **Valeur (modèle en forme de W)** | Point de contact d’attribution acheteur
 
@@ -199,9 +203,9 @@ Ce champ affiche, sous forme décimale, le pourcentage de crédit alloué à un 
 
 Date de signalement | Test A/B Marketo Measure, événement Marketo Measure
 
-Événement Marketo Measure : date à laquelle un utilisateur a effectué une action spécifique sur votre site web, en activant un événement.
+Événement Marketo Measure : date à laquelle une personne a effectué une action spécifique sur votre site web, activant ainsi un événement.
 
-Marketo Measure ABTest : date à laquelle un utilisateur a participé à un test A/B sur votre site web.
+Marketo Measure ABTest : date à laquelle une personne a participé à un test AB sur votre site web.
 
 [Cliquez ici pour revenir en haut de la page.](#top)
 
@@ -213,7 +217,7 @@ Ce champ affiche le nom de l’action qui a déclenché l’événement (par exe
 
 **Valeur de l’événement** | Événement Marketo Measure
 
-Description de l’événement (par exemple, la consultation de la page d’accueil).
+Description de l’événement (par exemple, « Homepage »).
 
 **Nom de l’expérience** | Test A/B Marketo Measure
 
@@ -221,17 +225,17 @@ Ce champ affiche le nom de l’expérience (par exemple, un bouton de période d
 
 **ID d’expérience** | Test AB Marketo Measure
 
-Code d’identification unique de chaque expérience.
+Code d’identification unique pour chaque expérience.
 
 [Cliquez ici pour revenir en haut de la page.](#top)
 
 ## F {#f}
 
-URL de formulaire | Point de contact acheteur, point de contact d’attribution acheteur
+URL de formulaire | Buyer Touchpoint, Buyer Attribution Touchpoint
 
 Ce champ affiche une version abrégée de l’URL d’une page où le remplissage du formulaire s’est produit (sans les paramètres UTM).
 
-URL de formulaire (brute) | Point de contact acheteur, point de contact d’attribution acheteur
+URL de formulaire - Brute | Buyer Touchpoint, Buyer Attribution Touchpoint
 
 Ce champ affiche l’URL entière de la page où le remplissage du formulaire s’est produit, avec les paramètres UTM.
 
@@ -239,17 +243,17 @@ Ce champ affiche l’URL entière de la page où le remplissage du formulaire s�
 
 ## G {#g}
 
-Ville | Point de contact acheteur, point de contact d’attribution acheteur
+Ville | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Ce champ indique le nom de la ville dans laquelle le lead/contact a consulté votre site web. Cette valeur est extraite d’une analyse de l’adresse IP.
+Ce champ indique le nom de la ville dans laquelle le lead/contact a consulté votre site web. Cette opération est effectuée via une recherche inverse d’adresse IP.
 
-Pays | Point de contact acheteur, point de contact d’attribution acheteur
+Pays | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Ce champ indique le nom du pays dans lequel le lead/contact a consulté votre site web. Cette valeur est extraite d’une analyse de l’adresse IP.
+Ce champ indique le pays dans lequel le lead/contact a consulté votre site web. Cette opération est effectuée via une recherche inverse d’adresse IP.
 
-Zone géographique | Point de contact acheteur, point de contact d’attribution acheteur
+Zone géographique | Buyer Touchpoint, Buyer Attribution Touchpoint
 
-Ce champ indique le nom de la zone géographique dans laquelle le lead/contact a consulté votre site web. Cette valeur est extraite d’une analyse de l’adresse IP.
+Ce champ indique le nom de la zone géographique dans laquelle le lead/contact a consulté votre site web. Cette opération est effectuée via une recherche inverse d’adresse IP.
 
 [Cliquez ici pour revenir en haut de la page.](#top)
 
@@ -259,7 +263,7 @@ Ce champ indique le nom de la zone géographique dans laquelle le lead/contact a
 
 Si le point de contact provient du référencement payant, ce champ affiche l’identifiant du mot-clé de la plateforme publicitaire (AdWords/Bing Ads).
 
-Dans le cas contraire, ce champ reste vide.
+Si le point de contact ne provient pas d’un référencement payant, ce champ reste vide.
 
 **Type de correspondance du mot-clé** | Point de contact acheteur, point de contact d’attribution acheteur
 
@@ -275,7 +279,7 @@ Exemple : `http://info.marketomeasure.com/intro-guide-b2b-marketing-attribution
 
 `http://www.marketomeasure.com/blog/lead-generation?utm_source=linkedin&utm_medium=Social&utm_campaign=ABC%20Blog&utm_content=Lead%20Gen&utm_term=lead%20gen`.
 
-Si le point de contact ne provient pas du référencement payant ou s’il n’existe aucune valeur utm_term, ce champ reste vide.
+Si le point de contact ne provient pas d’un référencement payant ou s’il n’existe aucune valeur utm_term, ce champ reste vide.
 
 [Cliquez ici pour revenir en haut de la page.](#top)
 
@@ -303,7 +307,7 @@ Ce champ vous présente le groupe général d’activités marketing ou le canal
 
 **Canal marketing (chemin)** | Point de contact acheteur, point de contact d’attribution acheteur
 
-Ce champ affiche le canal marketing et le sous-canal auquel appartient un point de contact. Dans l’exemple ci-dessous, la valeur est Social.Linkedin, où le canal marketing est Social, et le sous-canal est LinkedIn.
+Ce champ affiche le canal marketing et le sous-canal auquel appartient un point de contact. Dans l’exemple ci-dessous, « Marketing Channel - Path » a pour valeur « Social.Linkedin », où le canal marketing est « Social » et le sous-canal est « LinkedIn ».
 
 ![Ce champ vous indique le canal marketing et le sous-canal qui a](assets/overview-resources-16.png)
 
@@ -317,7 +321,7 @@ Ce champ affiche le canal marketing et le sous-canal auquel appartient un point 
 
 `4)` Ce champ est renseigné avec la valeur Type d’activité correspondant à l’activité qui a généré le point de contact.
 
-Si aucun des cas ci-dessus ne s’applique, Marketo Measure définit automatiquement une valeur.
+Si aucun des cas ci-dessus ne s’applique, Marketo Measure définit automatiquement une valeur Medium.
 
 [Cliquez ici pour revenir en haut de la page.](#top)
 
@@ -333,7 +337,7 @@ P
 
 **Plateforme** | Point de contact acheteur, point de contact d’attribution acheteur
 
-Ce champ affiche le type d’ordinateur ou de téléphone ainsi que le type de système d’exploitation utilisés au cours de la session.
+Ce champ affiche le type d’ordinateur ou de téléphone, ainsi que le type de système d’exploitation utilisés au cours de la session web.
 
 [Cliquez ici pour revenir en haut de la page.](#top)
 
@@ -365,19 +369,19 @@ Ce champ affiche le montant, en dollars, des recettes attribuées à un point de
 
 **Recettes (modèle en chemin complet)** | Point de contact d’attribution acheteur
 
-Ce champ affiche le montant, en dollars, des recettes attribuées à un point de contact en fonction du pourcentage défini dans le modèle en chemin complet.
+Ce champ affiche le montant, en dollars, des revenus attribués à un point de contact en fonction du pourcentage d’attribution défini dans le modèle Full Path (Parcours complet).
 
 **Recettes (création de prospects)** | Point de contact d’attribution acheteur
 
-Ce champ affiche le montant, en dollars, des recettes attribuées à un point de contact en fonction du pourcentage défini dans le modèle basé sur la création de prospects.
+Ce champ affiche le montant, en dollars, des revenus attribués à un point de contact en fonction du pourcentage d’attribution défini dans le modèle Lead Creation (Création du lead).
 
 **Recettes (modèle en forme de U)** | Point de contact d’attribution acheteur
 
-Ce champ affiche le montant, en dollars, des recettes attribuées à un point de contact en fonction du pourcentage défini dans le modèle en forme de U.
+Ce champ affiche le montant, en dollars, des revenus attribués à un point de contact en fonction du pourcentage d’attribution défini dans le modèle d’attribution en U.
 
 **Recettes (modèle en forme de W)** | Point de contact d’attribution acheteur
 
-Ce champ affiche le montant, en dollars, des recettes attribuées à un point de contact en fonction du pourcentage défini dans le modèle en forme de W.
+Ce champ affiche le montant, en dollars, des revenus attribués à un point de contact en fonction du pourcentage d’attribution défini dans le modèle d’attribution en W.
 
 [Cliquez ici pour revenir en haut de la page.](#top)
 
@@ -389,11 +393,11 @@ Ce champ indique la campagne Salesforce à laquelle le point de contact appartie
 
 **Expression de recherche** | Point de contact acheteur, point de contact d’attribution acheteur
 
-Si le point de contact provient du référencement payant ou naturel, ce champ indique l’expression saisie dans le moteur de recherche. Cependant, pour des raisons de confidentialité, ces informations ne sont généralement pas disponibles.
+Si le point de contact provient d’un référencement payant ou naturel, ce champ affiche l’expression de recherche saisie dans le moteur de recherche. Cependant, pour des raisons de confidentialité, ces informations ne sont généralement pas disponibles.
 
 **Segment** | Point de contact d’attribution acheteur
 
-Ce champ indique les segments auxquels le point de contact appartient, ce qui dépend de la manière dont vous avez configuré vos règles de segmentation dans l’application Marketo Measure.
+Ce champ affiche les segments auxquels appartient le point de contact. Cela dépend de la manière dont vous avez configuré vos règles de segmentation dans l’application Marketo Measure.
 
 [Cliquez ici pour revenir en haut de la page.](#top)
 
@@ -409,19 +413,19 @@ T
 
 **Date du point de contact (FT)** | Point de contact acheteur
 
-Il s’agit du même champ que « Date du point de contact », mais il indique spécifiquement la date et l’heure auxquelles le premier contact s’est produit.
+Il s’agit du même champ que « Date du point de contact », mais il indique spécifiquement la date et l’heure auxquelles le point de contact Première touche s’est produit.
 
 **Date du point de contact (LC)** | Point de contact acheteur
 
-Il s’agit du même champ que « Date du point de contact », mais il indique spécifiquement la date et l’heure auxquelles le lead a été créé.
+Il s’agit du même champ que « Date du point de contact », mais il indique spécifiquement la date et l’heure auxquelles le point de contact Création du lead s’est produit.
 
 **Position du point de contact** | Point de contact acheteur, point de contact d’attribution acheteur
 
-Ce champ affiche la position du point de contact. La position du point de contact reflète les principaux jalons du parcours client (FT, Formulaire, LC, OC, Terminé). La position du point de contact dépend du moment où il est survenu dans le parcours client. Un seul point de contact peut avoir plusieurs positions. Les différentes positions sont les suivantes :
+Ce champ affiche la position du point de contact. La position du point de contact reflète les étapes clés du parcours client (FT, Form, LC, OC, Closed). La position du point de contact dépend du moment où il est survenu dans le parcours client. Un seul point de contact peut avoir plusieurs positions. Les différentes positions du point de contact sont les suivantes :
 
 Premier contact (FT) : la toute première interaction marketing qu’une personne a avec votre marque.
 
-Création de prospects (LC) : toute première interaction marketing connue (généralement un envoi de formulaire ou l’inclusion dans une campagne Salesforce).
+Création de lead (LC) : la toute première interaction marketing connue (généralement un envoi de formulaire ou l’inclusion dans une campagne Salesforce).
 
 Formulaire : lorsqu’un visiteur remplit un formulaire en ligne.
 
@@ -477,6 +481,6 @@ Nom de la variation du test A/B.
 
 **Identifiant de variation** | Test A/B Marketo Measure
 
-Code d’identification unique de chaque variation d’un test A/B.
+Code d’identification unique de chaque variation d’un test AB.
 
 [Cliquez ici pour revenir en haut de la page.](#top)

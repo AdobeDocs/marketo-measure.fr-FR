@@ -3,18 +3,25 @@ description: Instructions de mise en page destinées aux utilisateurs de Marketo
 title: Instructions de disposition de page
 exl-id: 627377f0-d0cf-448c-a7b5-7eb5634b9627
 feature: Salesforce
-source-git-commit: 7a4661c8d42214d32e5360dc45d6d880b08ef37c
+product_v2:
+  - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: Marketo Measure
+feature_v2:
+  - id: c8f57308-7e33-4e41-a385-b55041c78939
+    internal-label: Integrations
+subfeature_v2:
+  - id: e601da04-8de6-4fc3-8718-784749c3c41b
+    internal-label: Salesforce integration
+source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 92%
-
 ---
-
 # Instructions de disposition de page {#page-layout-instructions}
 
 >[!NOTE]
 >
->Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans la documentation. Toutefois, votre gestion de la relation client (CRM) mentionne encore « Bizible ». Nous nous efforçons de mettre cela à jour. Notre nouvelle identité de marque (rebranding) sera bientôt répercutée dans votre CRM.
+>Des instructions spécifiant « [!DNL Marketo Measure] » peuvent s’afficher dans la documentation. Toutefois, votre gestion de la relation client (CRM) mentionne encore « Bizible ». Nous travaillons à la mise à jour de ces informations et le changement de marque sera bientôt appliqué dans votre GRC.
 
 Pour afficher facilement des données [!DNL Marketo Measure], il est recommandé de mettre à jour les dispositions de page pour les objets [!UICONTROL Compte], [!UICONTROL Contact], [!UICONTROL Prospect], [!UICONTROL Opportunité] et [!UICONTROL Campagne]. Les instructions sont détaillées pour chaque disposition de page d’objet ci-dessous.
 
@@ -56,11 +63,11 @@ Il est recommandé d’ajouter les champs [!DNL Marketo Measure] à votre campag
 
 1. Cliquez sur **[!UICONTROL Dispositions de page]**.
 
-1. Cliquez sur **[!UICONTROL Modifier]** en regard de la disposition de page que vous souhaitez mettre à jour. Gardez à l’esprit que plusieurs dispositions de page peuvent contenir les sections Buyer Touchpoints.
+1. Cliquez sur **[!UICONTROL Modifier]** en regard de la disposition de page que vous souhaitez mettre à jour. Gardez à l’esprit que plusieurs mises en page peuvent contenir les sections Buyer Touchpoints.
 
 1. Cliquez sur l’option de page VisualForce à gauche dans le menu de recherche rapide.
 
-1. Créez une section et nommez-la « Buyer Touchpoints ».
+1. Créez une section et nommez-la « Buyer Touchpoints ».
 
 1. Faites glisser la page VisualForce **[!UICONTROL Liste connexe Prospect Marketo Measure]** dans votre section de disposition de page.
 
