@@ -2,6 +2,7 @@
 solution: Marketo Measure
 product_v2:
   - id: e6fc4016-a972-4f36-8c30-a6a5f82ad0c8
+    internal-label: "Marketo Measure"
 usetq: true
 feature-set: Marketo Measure
 landing-page-name: marketo-measure
@@ -11,11 +12,9 @@ git-repo: https://github.com/AdobeDocs/marketo-measure.fr-FR
 index: true
 source-git-commit: 42cfed9661c0cdce6880bcc71448353f772aa66d
 workflow-type: tm+mt
-source-wordcount: 125
-ht-degree: 94%
-
+source-wordcount: '120'
+ht-degree: 98%
 ---
-
 
 # Métadonnées à usage interne
 
@@ -27,6 +26,6 @@ Le fichier metadata.md inclut des métadonnées au niveau du référentiel qui s
 | solution-hub-url | Ouvre la page hub d’aide |
 | solution-image | Affiche l’icône de la solution en regard du titre de la solution. Pas encore implémenté |
 | getting-started-url | Lien vers la page de prise en main de l’aide |
-| tutorials-url | Lien vers des tutoriels vidéo : tutoriels d’assistance ou tutoriels KT |
+| tutorials-url | Lien vers des tutoriels vidéo – Tutoriels Helpx ou tutoriels KT |
 | mini-toc-levels | Détermine le nombre de niveaux de titre qui apparaissent dans le rail de droite. la valeur par défaut est 2 |
 | git-repo | Spécifie l’emplacement du référentiel principal pour une utilisation interne |
