@@ -25,11 +25,11 @@ Les paramètres UTM peuvent être ajoutés manuellement aux URL ou ajoutés par 
 
 Pour comprendre le fonctionnement des paramètres UTM, examinons une URL standard sans UTM :
 
-`http://www.adobe.com`
+`http://www.adobe.com/fr`
 
 Examinons à présent une URL avec des balises UTM :
 
-`http://www.adobe.com?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
+`http://www.adobe.com/fr?utm_medium=socialmedia&utm_source =facebook&utm_campaign=seasonal-sale&utm_content=photo-400x700px`
 
 Le deuxième lien contient plus de texte. Les paramètres UTM s’appliquent toujours au domaine de niveau supérieur (.com dans cet exemple) et commencent par un point d’interrogation. Ensuite, l’ordre des paramètres n’a pas d’importance, mais il est conseillé de respecter une convention de nommage cohérente. Pour séparer chaque UTM, vous devez utiliser des esperluettes entre chaque paramètre. Nous pouvons maintenant nous intéresser plus en détail au fonctionnement de chaque paramètre.
 
