@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
+source-git-commit: 85b421a896fb78f5469a41c8d11131802d08910c
 workflow-type: tm+mt
-source-wordcount: '21775'
+source-wordcount: '21772'
 ht-degree: 99%
 ---
 # Schéma de Data Warehouse {#data-warehouse-schema}
@@ -2319,7 +2319,7 @@ Groupes publicitaires importés depuis n’importe quel compte publicitaire conn
         <p>Au cours de la session, première page de destination qui a généré un point de contact. Une page de destination brute contiendra tous les paramètres de requête dans l’URL. Désigné sous le nom « Page de destination brute » dans la GRC.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/blog/uncover-truth-behind-cost-per-lead?utm_content=27322869&utm_medium=social&utm_source=linkedin</p>
+        <p>http://www.adobe.com/blog/uncover-truth-behind-cost-per-lead?utm_content=27322869&amp;utm_medium=social&amp;utm_source=linkedin</p>
       </td>
     </tr>
     <tr>
@@ -3081,7 +3081,7 @@ Données générées par l’intégration à l’IA dédiée à l’attribution.
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
     <td>ID d’événement MM d’origine pour l’événement de conversion 
-    <br>mappe vers un point de contact utilisateur ou une transition d’étape.</td>
+    <br>mappe vers un point de contact utilisateur ou une transition d’étape</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3106,7 +3106,7 @@ Données générées par l’intégration à l’IA dédiée à l’attribution.
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
     <td>ID de contact MM d’origine pour l’événement de conversion
-    <br>probablement nul la plupart du temps</td>
+    <br>sera probablement nul la plupart du temps</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
@@ -5804,7 +5804,7 @@ Regroupe les données de type Impressions, Pages vues, Visites, Envois de formul
 
 >[!IMPORTANT]
 >
->Marketo Measure abandonnera ce tableau à la mi-2024. Si vous souhaitez procéder à la création de votre côté, exécutez [cette requête SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure a abandonné cette table en 2024. Si vous souhaitez procéder à la création de votre côté, exécutez [cette requête SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.txt).
 
 <table>
   <tbody>
@@ -6676,7 +6676,7 @@ Envois de formulaire capturés.
         <p>URL à partir de laquelle le formulaire a été envoyé, avec les paramètres de requête.</p>
       </td>
       <td>
-        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
+        <p>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</p>
       </td>
     </tr>
     <tr>
@@ -6930,7 +6930,7 @@ Impressions déclenchées et enregistrées. Cette table nécessite une connexion
       <td>
         <p>URL à partir de laquelle l’impression a été générée, avec les paramètres de requête.</p>
       </td>
-      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
+      <td>https://info.adobe.com/webinar-marketo-measure-impact?utm_source=partner&amp;mkt_tok=eyJpIjoiTnpBeE1EVml PV0UyWlRObSIsInQiOiI3MEFIek04ZVJiWm9renc1Z29RXC9kXC92YkxycFRYclE0MVhOaH Nwdml3YTZBZDdPdXh4Q0RmcnBJWXhwZTF1Z0RrbXlDVmxJNzIwNkhW</td>
     </tr>
     <tr>
       <td>
@@ -9345,7 +9345,7 @@ Pages vues collectées lors de visites web. Plusieurs pages vues peuvent corresp
         <p>URL d’origine de le la page vue, avec les paramètres de requête.</p>
       </td>
       <td>
-        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&utm_medium=Social&utm_campaign=SU%20-%20CMO%20JT&utm_content=CMOs%20Guide&utm_term=lisu05091601</p>
+        <p>http://info.adobe.com/cmos-guide-to-b2b-marketing-attribution?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU%20-%20CMO%20JT&amp;utm_content=CMOs%20Guide&amp;utm_term=lisu05091601</p>
       </td>
     </tr>
     <tr>
@@ -9924,7 +9924,7 @@ Sessions traitées à partir des pages vues. Plusieurs pages vues peuvent consti
         <p>URL de la première page vue au cours de la session, avec les paramètres de requête.</p>
       </td>
       <td>
-        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&_bk=google%20analytics%20salesforce&_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
+        <p>http://www.adobe.com/salesforce-google-analytics?_bt=83558988035&amp;_bk=google%20analytics%20salesforce&amp;_bm= p&amp;gclid=CMvd5YTLo84CFUI9gQodd-kLEQ</p>
       </td>
     </tr>
     <tr>
@@ -11625,7 +11625,7 @@ Buyer Touchpoints (BT) : tous les points de contact associés à un lead ou à 
         <p>Au cours de la session, première page de destination qui a généré un point de contact. Une page de destination brute contiendra tous les paramètres de requête dans l’URL. Désigné sous le nom « Page de destination brute » dans la GRC.</p>
       </td>
       <td>
-        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&utm_medium=Social&utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
+        <p>https://info.adpbe.com/definitive-guide-to-pipeline-marketing?utm_source=linkedin&amp;utm_medium=Social&amp;utm_campaign=SU_COM_Demand_ Skills&amp;utm_content=DGPM&amp;utm_term=lisu03151846&amp;_bl=66452504</p>
       </td>
     </tr>
     <tr>
@@ -12640,7 +12640,7 @@ Tous les points de contact créés à partir de n’importe quel événement li�
         <p>Au cours de la session, première page de destination qui a généré un point de contact. Une page de destination brute contiendra tous les paramètres de requête dans l’URL. Dans le CRM, cette valeur est appelée « Page de destination brute ».</p>
       </td>
       <td>
-        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
+        <p>https://www.adobe.com/blog/budget-and-planning-maturity-model-b2b-marketing?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+ marketo+%maeasure%27s+Pipeline+Marketing+Blog%29</p>
       </td>
     </tr>
     <tr>
@@ -12688,7 +12688,7 @@ Tous les points de contact créés à partir de n’importe quel événement li�
         <p>Au cours d’une session, premier formulaire enregistré qui a généré un point de contact. Les envois de formulaire suivants ne s’afficheront pas dans la table Attribution_Touchpoints, mais plutôt dans Form_Submits. Une page de formulaire brute peut contenir des paramètres de requête dans l’URL. Dans le CRM, cette valeur est appelée « URL brute du formulaire ».</p>
       </td>
       <td>
-        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&utm_medium=paid&utm_content=sfskill&utm _campaign=Content%20-%20AdWords%20Guide</p>
+        <p>http://info.adobe.com/adwords-for-lead-generation?utm_source=linkedin&amp;utm_medium=paid&amp;utm_content=sfskill&amp;utm _campaign=Content%20-%20AdWords%20Guide</p>
       </td>
     </tr>
     <tr>
@@ -13277,7 +13277,7 @@ Table de mappage permettant de faire correspondre l’ID de session [!DNL Market
       <td>varchar</td>
       <td>URL de la page vue, avec les paramètres de requête.</td>
       <td>
-        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&utm_medium=cpc&utm_source=intensify</p>
+        <p>https://learn.atest.com/simplify-retention-starter-kit.html?x=nGfrBF&amp;utm_medium=cpc&amp;utm_source=intensify</p>
       </td>
     </tr>
     <tr>
