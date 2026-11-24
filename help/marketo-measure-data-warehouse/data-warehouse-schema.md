@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: 940fee4abd0e09b6bf513b5e7526d3c242bd31c7
+source-git-commit: 85b421a896fb78f5469a41c8d11131802d08910c
 workflow-type: tm+mt
-source-wordcount: '21775'
+source-wordcount: '21772'
 ht-degree: 99%
 ---
 # Schéma de Data Warehouse {#data-warehouse-schema}
@@ -3081,7 +3081,7 @@ Données générées par l’intégration à l’IA dédiée à l’attribution.
     <td>CONVERSION_EVENT_ID</td>
     <td>varchar</td>
     <td>ID d’événement MM d’origine pour l’événement de conversion 
-    <br>mappe vers un point de contact utilisateur ou une transition d’étape.</td>
+    <br>mappe vers un point de contact utilisateur ou une transition d’étape</td>
     <td>00U0Z00000pCZmyUAG</td>
   </tr>
   <tr>
@@ -3106,7 +3106,7 @@ Données générées par l’intégration à l’IA dédiée à l’attribution.
     <td>CONVERSION_CONTACT_ID</td>
     <td>varchar</td>
     <td>ID de contact MM d’origine pour l’événement de conversion
-    <br>probablement nul la plupart du temps</td>
+    <br>sera probablement nul la plupart du temps</td>
     <td>00331000032hMxRAAU</td>
   </tr>
   <tr>
@@ -5804,7 +5804,7 @@ Regroupe les données de type Impressions, Pages vues, Visites, Envois de formul
 
 >[!IMPORTANT]
 >
->Marketo Measure abandonnera ce tableau à la mi-2024. Si vous souhaitez procéder à la création de votre côté, exécutez [cette requête SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.sql).
+>Marketo Measure a abandonné cette table en 2024. Si vous souhaitez procéder à la création de votre côté, exécutez [cette requête SQL](/help/marketo-measure-data-warehouse/assets/BIZ_FACTS.txt).
 
 <table>
   <tbody>
